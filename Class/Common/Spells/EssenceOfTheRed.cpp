@@ -1,9 +1,9 @@
 #include "EssenceOfTheRed.h"
-
+#include <QObject>
 #include "Resource.h"
 
 EssenceOfTheRed::EssenceOfTheRed(Character* _pchar) :
-    PeriodicResourceGainSpell("Essence of the Red",
+    PeriodicResourceGainSpell(QObject::tr("Essence of the Red"),
                               "Assets/spell/Spell_fire_lavaspawn.png",
                               _pchar,
                               RestrictedByGcd::No,

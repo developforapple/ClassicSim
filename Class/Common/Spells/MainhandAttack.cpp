@@ -1,5 +1,5 @@
 #include "MainhandAttack.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -11,7 +11,7 @@
 #include "Weapon.h"
 
 MainhandAttack::MainhandAttack(Character* pchar) :
-    Spell("Mainhand Attack", "", pchar, new CooldownControl(pchar, 1.0), RestrictedByGcd::No, ResourceType::Rage, 0) {
+    Spell(QObject::tr("Mainhand Attack"), "", pchar, new CooldownControl(pchar, 1.0), RestrictedByGcd::No, ResourceType::Rage, 0) {
     this->pchar = pchar;
     next_expected_use = 0;
     iteration = 0;

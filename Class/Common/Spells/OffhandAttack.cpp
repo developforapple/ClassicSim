@@ -1,5 +1,5 @@
 #include "OffhandAttack.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -11,7 +11,7 @@
 #include "Weapon.h"
 
 OffhandAttack::OffhandAttack(Character* pchar) :
-    Spell("Offhand Attack", "Assets/items/Inv_sword_04.png", pchar, new CooldownControl(pchar, 1.0), RestrictedByGcd::No, ResourceType::Rage, 0),
+    Spell(QObject::tr("Offhand Attack"), "Assets/items/Inv_sword_04.png", pchar, new CooldownControl(pchar, 1.0), RestrictedByGcd::No, ResourceType::Rage, 0),
     offhand_penalty(0.5) {
     this->pchar = pchar;
     next_expected_use = 0;

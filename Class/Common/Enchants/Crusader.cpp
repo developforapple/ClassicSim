@@ -1,5 +1,5 @@
 #include "Crusader.h"
-
+#include <QObject>
 #include "Character.h"
 #include "EnabledBuffs.h"
 #include "HolyStrength.h"
@@ -7,7 +7,7 @@
 #include "Utils/Check.h"
 
 Crusader::Crusader(Character* pchar, const QString& weapon_identifier, const int weapon) :
-    ProcPPM("Holy Strength " + weapon_identifier,
+    ProcPPM(QObject::tr("Holy Strength ") + weapon_identifier,
             "Assets/spell/Spell_holy_blessingofstrength.png",
             weapon,
             1.0,

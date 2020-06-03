@@ -1,5 +1,5 @@
 #include "GeneralBuffs.h"
-
+#include <QObject>
 #include <QSet>
 
 #include "Character.h"
@@ -35,12 +35,12 @@ GeneralBuffs::GeneralBuffs(Character* pchar, Faction* faction) : pchar(pchar), f
         this->external_debuffs.append(external_debuff_setup);
     }
 
-    mutex_buff_groups.append(QSet<QString>({"Flask of Supreme Power", "Flask of Distilled Wisdom"}));
-    mutex_buff_groups.append(QSet<QString>({"Smoked Desert Dumplings", "Grilled Squid", "Nightfin Soup", "Dragonbreath Chili", "Blessed Sunfruit", "Runn Tum Tuber Surprise"}));
-    mutex_buff_groups.append(QSet<QString>({"Juju Power", "Elixir of Giants", "Elixir of Brute Force"}));
-    mutex_buff_groups.append(QSet<QString>({"Juju Might", "Winterfall Firewater"}));
-    mutex_buff_groups.append(QSet<QString>({"R.O.I.D.S", "Ground Scorpok Assay"}));
-    mutex_buff_groups.append(QSet<QString>({"Elixir of the Mongoose", "Elixir of Greater Agility"}));
+    mutex_buff_groups.append(QSet<QString>({QObject::tr("Flask of Supreme Power"), QObject::tr("Flask of Distilled Wisdom")}));
+    mutex_buff_groups.append(QSet<QString>({QObject::tr("Smoked Desert Dumplings"), QObject::tr("Grilled Squid"), QObject::tr("Nightfin Soup"), QObject::tr("Dragonbreath Chili"), QObject::tr("Blessed Sunfruit"), QObject::tr("Runn Tum Tuber Surprise")}));
+    mutex_buff_groups.append(QSet<QString>({QObject::tr("Juju Power"), QObject::tr("Elixir of Giants"), QObject::tr("Elixir of Brute Force")}));
+    mutex_buff_groups.append(QSet<QString>({QObject::tr("Juju Might"), QObject::tr("Winterfall Firewater")}));
+    mutex_buff_groups.append(QSet<QString>({QObject::tr("R.O.I.D.S"),QObject::tr( "Ground Scorpok Assay")}));
+    mutex_buff_groups.append(QSet<QString>({QObject::tr("Elixir of the Mongoose"), QObject::tr("Elixir of Greater Agility")}));
 }
 
 GeneralBuffs::~GeneralBuffs() {

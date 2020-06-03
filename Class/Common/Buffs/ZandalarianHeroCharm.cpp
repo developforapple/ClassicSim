@@ -1,10 +1,10 @@
 #include "ZandalarianHeroCharm.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 
 ZandalarianHeroCharm::ZandalarianHeroCharm(Character* pchar) :
-    SelfBuff(pchar, "Zandalarian Hero Charm", "Assets/items/Inv_jewelry_necklace_13.png", 20, 12) {}
+    SelfBuff(pchar, QObject::tr("Zandalarian Hero Charm"), "Assets/items/Inv_jewelry_necklace_13.png", 20, 12) {}
 
 void ZandalarianHeroCharm::buff_effect_when_applied() {
     spell_damage = max_spell_damage;

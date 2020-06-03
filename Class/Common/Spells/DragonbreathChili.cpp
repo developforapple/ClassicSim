@@ -1,5 +1,5 @@
 #include "DragonbreathChili.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "Character.h"
 #include "CharacterStats.h"
@@ -11,7 +11,7 @@
 #include "Utils/Check.h"
 
 DragonbreathChili::DragonbreathChili(Character* pchar) :
-    Proc("Dragonbreath Chili",
+    Proc(QObject::tr("Dragonbreath Chili"),
          "Assets/spell/Spell_fire_incinerate.png",
          0.075,
          0,

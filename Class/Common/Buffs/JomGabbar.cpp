@@ -1,5 +1,5 @@
 #include "JomGabbar.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 #include "EnabledBuffs.h"
@@ -7,7 +7,7 @@
 #include "PeriodicRefreshBuff.h"
 
 JomGabbar::JomGabbar(Character* pchar) :
-    SelfBuff(pchar, "Jom Gabbar", "Assets/items/Inv_misc_enggizmos_19.png", 20, 0), curr_stacks(0), max_stacks(10) {}
+    SelfBuff(pchar, QObject::tr("Jom Gabbar"), "Assets/items/Inv_misc_enggizmos_19.png", 20, 0), curr_stacks(0), max_stacks(10) {}
 
 void JomGabbar::buff_effect_when_applied() {
     auto event = new PeriodicRefreshBuff(this, pchar->get_engine()->get_current_priority() + 2.0);

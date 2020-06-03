@@ -1,5 +1,5 @@
 #include "ManaPotion.h"
-
+#include <QObject>
 #include "Character.h"
 #include "ClassStatistics.h"
 #include "CooldownControl.h"
@@ -7,7 +7,7 @@
 #include "StatisticsResource.h"
 
 ManaPotion::ManaPotion(Character* pchar) :
-    Spell("Mana Potion", "Assets/misc/Inv_potion_76.png", pchar, new CooldownControl(pchar, 120.0), RestrictedByGcd::No, ResourceType::Mana, 0),
+    Spell(QObject::tr("Mana Potion"), "Assets/misc/Inv_potion_76.png", pchar, new CooldownControl(pchar, 120.0), RestrictedByGcd::No, ResourceType::Mana, 0),
     random(new Random(min, max)) {}
 
 ManaPotion::~ManaPotion() {

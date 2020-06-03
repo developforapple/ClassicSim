@@ -1,5 +1,5 @@
 #include "WindfuryTotemAttack.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -7,7 +7,7 @@
 #include "ProcInfo.h"
 
 WindfuryTotemAttack::WindfuryTotemAttack(Character* pchar) :
-    Proc("Windfury Totem Attack",
+    Proc(QObject::tr("Windfury Totem Attack"),
          "Assets/spell/Spell_nature_windfury.png",
          0.2,
          0,
