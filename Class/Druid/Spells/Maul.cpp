@@ -1,5 +1,5 @@
 #include "Maul.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -11,7 +11,7 @@
 #include "SimSettings.h"
 
 Maul::Maul(Druid* druid, DruidSpells* spells, Buff* maul_buff, const int rank_spell) :
-    Spell("Maul",
+    Spell(QObject::tr("Maul"),
           "Assets/ability/Ability_druid_maul.png",
           druid,
           new CooldownControl(druid, 0.0),
@@ -20,8 +20,8 @@ Maul::Maul(Druid* druid, DruidSpells* spells, Buff* maul_buff, const int rank_sp
           15,
           rank_spell),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Ferocity", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Savage Fury", 2, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Ferocity"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Savage Fury"), 2, DisabledAtZero::No),
     }),
     drood(druid),
     spells(spells),
@@ -141,15 +141,15 @@ void Maul::spell_effect() {
 }
 
 void Maul::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Ferocity")
+    if (talent_name == QObject::tr("Ferocity"))
         resource_cost = ferocity_ranks[curr];
-    else if (talent_name == "Savage Fury")
+    else if (talent_name == QObject::tr("Savage Fury"))
         damage_mod = 1 + (curr * 0.1);
 }
 
 void Maul::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Ferocity")
+    if (talent_name == QObject::tr("Ferocity"))
         resource_cost = ferocity_ranks[curr];
-    else if (talent_name == "Savage Fury")
+    else if (talent_name == QObject::tr("Savage Fury"))
         damage_mod = 1 + (curr * 0.1);
 }

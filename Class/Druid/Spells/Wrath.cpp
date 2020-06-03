@@ -1,5 +1,5 @@
 #include "Wrath.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -14,7 +14,7 @@
 #include "Utils/Check.h"
 
 Wrath::Wrath(Druid* pchar, DruidSpells* druid_spells, const int spell_rank) :
-    Spell("Wrath",
+    Spell(QObject::tr("Wrath"),
           "Assets/items/Spell_nature_abolishmagic.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -24,10 +24,10 @@ Wrath::Wrath(Druid* pchar, DruidSpells* druid_spells, const int spell_rank) :
           spell_rank),
     CastingTimeRequirer(pchar, SuppressibleCast::Yes, 2000),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Wrath", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Vengeance", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Moonglow", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Moonfury", 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Wrath"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Vengeance"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Moonglow"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Moonfury"), 5, DisabledAtZero::No),
     }),
     druid_spells(druid_spells) {
     switch (spell_rank) {
@@ -136,16 +136,16 @@ void Wrath::set_base_damage_range() {
 }
 
 void Wrath::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Wrath")
+    if (talent_name == QObject::tr("Improved Wrath"))
         casting_time_ms = base_casting_time_ms - improved_wrath_ranks[curr];
 
-    if (talent_name == "Vengeance")
+    if (talent_name == QObject::tr("Vengeance"))
         vengeance_crit_damage_bonus = vengeance_ranks[curr];
 
-    if (talent_name == "Moonglow")
+    if (talent_name == QObject::tr("Moonglow"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * moonglow_ranks[curr]));
 
-    if (talent_name == "Moonfury") {
+    if (talent_name == QObject::tr("Moonfury")) {
         moonfury_damage_bonus = moonfury_ranks[curr];
         set_base_damage_range();
     }

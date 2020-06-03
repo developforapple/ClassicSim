@@ -1,5 +1,5 @@
 #include "Moonfire.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -15,12 +15,12 @@
 #include "Utils/Check.h"
 
 Moonfire::Moonfire(Druid* pchar, DruidSpells* druid_spells, const int spell_rank) :
-    SpellPeriodic("Moonfire", "Assets/spell/Spell_nature_starfall.png", pchar, nullptr, RestrictedByGcd::Yes, ResourceType::Mana, 3.0, 0, spell_rank),
+    SpellPeriodic(QObject::tr("Moonfire"), "Assets/spell/Spell_nature_starfall.png", pchar, nullptr, RestrictedByGcd::Yes, ResourceType::Mana, 3.0, 0, spell_rank),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Moonfire", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Vengeance", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Moonglow", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Moonfury", 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Moonfire"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Vengeance"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Moonglow"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Moonfury"), 5, DisabledAtZero::No),
     }),
     ItemModificationRequirer({23197}),
     druid_spells(druid_spells) {
@@ -215,19 +215,19 @@ void Moonfire::set_base_damage_range() {
 }
 
 void Moonfire::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Moonfire") {
+    if (talent_name == QObject::tr("Improved Moonfire")) {
         imp_moonfire_damage_bonus = improved_moonfire_ranks[curr].first;
         imp_moonfire_crit_bonus = improved_moonfire_ranks[curr].second;
         set_base_damage_range();
     }
 
-    if (talent_name == "Vengeance")
+    if (talent_name == QObject::tr("Vengeance"))
         vengeance_crit_damage_bonus = vengeance_ranks[curr];
 
-    if (talent_name == "Moonglow")
+    if (talent_name == QObject::tr("Moonglow"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * moonglow_ranks[curr]));
 
-    if (talent_name == "Moonfury") {
+    if (talent_name == QObject::tr("Moonfury")) {
         moonfury_damage_bonus = moonfury_ranks[curr];
         set_base_damage_range();
     }

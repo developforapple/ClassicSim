@@ -1,5 +1,5 @@
 #include "Swipe.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -12,7 +12,7 @@
 #include "Utils/Check.h"
 
 Swipe::Swipe(Druid* pchar, DruidSpells* druid_spells, Proc* primal_fury, const int spell_rank) :
-    Spell("Swipe",
+    Spell(QObject::tr("Swipe"),
           "Assets/ability/Ability_druid_swipe.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -21,8 +21,8 @@ Swipe::Swipe(Druid* pchar, DruidSpells* druid_spells, Proc* primal_fury, const i
           20,
           spell_rank),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Ferocity", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Savage Fury", 2, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Ferocity"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Savage Fury"), 2, DisabledAtZero::No),
     }),
     druid(pchar),
     druid_spells(druid_spells),
@@ -117,15 +117,15 @@ SpellStatus Swipe::is_ready_spell_specific() const {
 }
 
 void Swipe::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Ferocity")
+    if (talent_name == QObject::tr("Ferocity"))
         resource_cost = base_resource_cost - ferocity_ranks[curr];
-    else if (talent_name == "Savage Fury")
+    else if (talent_name == QObject::tr("Savage Fury"))
         damage_mod = 1 + (curr * 0.1);
 }
 
 void Swipe::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Ferocity")
+    if (talent_name == QObject::tr("Ferocity"))
         increase_talent_rank_effect(talent_name, curr);
-    else if (talent_name == "Savage Fury")
+    else if (talent_name == QObject::tr("Savage Fury"))
         damage_mod = 1 + (curr * 0.1);
 }

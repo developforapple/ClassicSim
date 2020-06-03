@@ -1,5 +1,5 @@
 #include "ClearcastingDruid.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Druid.h"
@@ -11,7 +11,7 @@
 #include "Weapon.h"
 
 ClearcastingDruid::ClearcastingDruid(Druid* pchar) :
-    ProcPPM("Clearcasting",
+    ProcPPM(QObject::tr("Clearcasting"),
             "Assets/spell/Spell_shadow_manaburn.png",
             EnchantSlot::MAINHAND,
             0.0,
@@ -19,7 +19,7 @@ ClearcastingDruid::ClearcastingDruid(Druid* pchar) :
             QVector<Proc*>(),
             QVector<ProcInfo::Source> {ProcInfo::Source::MainhandSpell, ProcInfo::Source::MainhandSwing},
             pchar),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Omen of Clarity", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Omen of Clarity"), 1, DisabledAtZero::Yes)}),
     buff(new NoEffectSelfBuff(pchar, 600, name, icon, Hidden::No, 1)) {
     this->enabled = false;
 }

@@ -1,5 +1,5 @@
 #include "CatForm.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -10,10 +10,10 @@
 #include "StatisticsResource.h"
 
 CatForm::CatForm(Druid* druid, Buff* cat_form) :
-    Spell("Cat Form", "Assets/ability/Ability_druid_catform.png", druid, new CooldownControl(druid, 0.0), RestrictedByGcd::Yes, ResourceType::Mana, 100),
+    Spell(QObject::tr("Cat Form"), "Assets/ability/Ability_druid_catform.png", druid, new CooldownControl(druid, 0.0), RestrictedByGcd::Yes, ResourceType::Mana, 100),
     TalentRequirer({
-        new TalentRequirerInfo("Natural Shapeshifter", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Sharpened Claws", 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Natural Shapeshifter"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Sharpened Claws"), 3, DisabledAtZero::No),
     }),
     ItemModificationRequirer({8345}),
     druid(druid),
@@ -27,7 +27,7 @@ CatForm::~CatForm() {
 }
 
 void CatForm::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics("Wolfshead Helm", "Assets/items/Inv_helmet_04.png");
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Wolfshead Helm"), "Assets/items/Inv_helmet_04.png");
 }
 
 SpellStatus CatForm::is_ready_spell_specific() const {
@@ -56,12 +56,12 @@ void CatForm::gain_energy(const unsigned energy) {
 }
 
 void CatForm::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Natural Shapeshifter")
+    if (talent_name == QObject::tr("Natural Shapeshifter"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * natural_shapeshifter_ranks[curr]));
 }
 
 void CatForm::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Natural Shapeshifter")
+    if (talent_name == QObject::tr("Natural Shapeshifter"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * natural_shapeshifter_ranks[curr]));
 }
 

@@ -1,5 +1,5 @@
 #include "BearForm.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CooldownControl.h"
@@ -7,7 +7,7 @@
 #include "NoEffectSelfBuff.h"
 
 BearForm::BearForm(Druid* druid, Buff* bear_form) :
-    Spell("Bear Form",
+    Spell(QObject::tr("Bear Form"),
           "Assets/ability/Ability_racial_bearform.png",
           druid,
           new CooldownControl(druid, 0.0),
@@ -15,8 +15,8 @@ BearForm::BearForm(Druid* druid, Buff* bear_form) :
           ResourceType::Mana,
           100),
     TalentRequirer({
-        new TalentRequirerInfo("Natural Shapeshifter", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Sharpened Claws", 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Natural Shapeshifter"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Sharpened Claws"), 3, DisabledAtZero::No),
     }),
     druid(druid),
     buff(bear_form),
@@ -41,7 +41,7 @@ void BearForm::spell_effect() {
 }
 
 void BearForm::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Natural Shapeshifter")
+    if (talent_name == QObject::tr("Natural Shapeshifter"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * natural_shapeshifter_ranks[curr]));
 }
 

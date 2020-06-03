@@ -1,11 +1,11 @@
 #include "CasterForm.h"
-
+#include <QObject>
 #include "CooldownControl.h"
 #include "Druid.h"
 #include "NoEffectSelfBuff.h"
 
 CasterForm::CasterForm(Druid* druid) :
-    Spell("Caster Form",
+    Spell(QObject::tr("Caster Form"),
           "Assets/classes/Ui-charactercreate-classes_druid.png",
           druid,
           new CooldownControl(druid, 0.0),

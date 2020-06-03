@@ -1,5 +1,5 @@
 #include "TigersFury.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -12,7 +12,7 @@
 #include "Utils/Check.h"
 
 TigersFury::TigersFury(Druid* pchar, DruidSpells* druid_spells, TigersFuryBuff* buff, const int spell_rank) :
-    Spell("Tiger's Fury",
+    Spell(QObject::tr("Tiger's Fury"),
           "Assets/ability/Ability_mount_jungletiger.png",
           pchar,
           new CooldownControl(pchar, 1.0),

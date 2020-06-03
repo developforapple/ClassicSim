@@ -1,88 +1,88 @@
 #include "RestorationDruid.h"
-
+#include <QObject>
 #include "Druid.h"
 #include "DruidSpells.h"
 #include "Talent.h"
 #include "TalentStatIncrease.h"
 
 RestorationDruid::RestorationDruid(Druid* druid) :
-    TalentTree("Restoration", "Assets/druid/druid_restoration.jpg"), druid(druid), spells(static_cast<DruidSpells*>(druid->get_spells())) {
+    TalentTree(QObject::tr("Restoration"), "Assets/druid/druid_restoration.jpg"), druid(druid), spells(static_cast<DruidSpells*>(druid->get_spells())) {
     talent_names_to_locations = {
-        {"Improved Mark of the Wild", "1ML"},
-        {"Furor", "1MR"},
-        {"Improved Healing Touch", "2LL"},
-        {"Nature's Focus", "2ML"},
-        {"Improved Enrage", "2MR"},
-        {"Reflection", "3ML"},
-        {"Insect Swarm", "3MR"},
-        {"Subtlety", "3RR"},
-        {"Tranquil Spirit", "4ML"},
-        {"Improved Rejuvenation", "4RR"},
-        {"Nature's Swiftness", "5LL"},
-        {"Gift of Nature", "5MR"},
-        {"Improved Tranquility", "5RR"},
-        {"Improved Regrowth", "6MR"},
-        {"Swiftmend", "7ML"},
+        {QObject::tr("Improved Mark of the Wild"), "1ML"},
+        {QObject::tr("Furor"), "1MR"},
+        {QObject::tr("Improved Healing Touch"), "2LL"},
+        {QObject::tr("Nature's Focus"), "2ML"},
+        {QObject::tr("Improved Enrage"), "2MR"},
+        {QObject::tr("Reflection"), "3ML"},
+        {QObject::tr("Insect Swarm"), "3MR"},
+        {QObject::tr("Subtlety"), "3RR"},
+        {QObject::tr("Tranquil Spirit"), "4ML"},
+        {QObject::tr("Improved Rejuvenation"), "4RR"},
+        {QObject::tr("Nature's Swiftness"), "5LL"},
+        {QObject::tr("Gift of Nature"), "5MR"},
+        {QObject::tr("Improved Tranquility"), "5RR"},
+        {QObject::tr("Improved Regrowth"), "6MR"},
+        {QObject::tr("Swiftmend"), "7ML"},
     };
 
     QMap<QString, Talent*> tier1 {
-        {"1ML", new Talent(druid, this, "Improved Mark of the Wild", "1ML", "Assets/spell/Spell_nature_regeneration.png", 5,
-                           "Increases the effects of your Mark of the Wild and Gift of the Wild spells by %1%.",
+        {"1ML", new Talent(druid, this, QObject::tr("Improved Mark of the Wild"), "1ML", "Assets/spell/Spell_nature_regeneration.png", 5,
+                           QObject::tr("Increases the effects of your Mark of the Wild and Gift of the Wild spells by %1%."),
                            QVector<QPair<unsigned, unsigned>> {{7, 7}})},
     };
     add_furor(tier1);
     add_talents(tier1);
 
     QMap<QString, Talent*> tier2 {
-        {"2LL", new Talent(druid, this, "Improved Healing Touch", "2LL", "Assets/spell/Spell_nature_healingtouch.png", 5,
-                           "Reduces the cast time of your Healing Touch spell by %1 sec.", QVector<QPair<double, double>> {{0.1, 0.1}})},
-        {"2ML", new Talent(druid, this, "Nature's Focus", "2ML", "Assets/spell/Spell_nature_healingwavegreater.png", 5,
-                           "Gives you a %1% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and "
-                           "Tranquility spells.",
+        {"2LL", new Talent(druid, this, QObject::tr("Improved Healing Touch"), "2LL", "Assets/spell/Spell_nature_healingtouch.png", 5,
+                           QObject::tr("Reduces the cast time of your Healing Touch spell by %1 sec."), QVector<QPair<double, double>> {{0.1, 0.1}})},
+        {"2ML", new Talent(druid, this, QObject::tr("Nature's Focus"), "2ML", "Assets/spell/Spell_nature_healingwavegreater.png", 5,
+                           QObject::tr("Gives you a %1% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and "
+                           "Tranquility spells."),
                            QVector<QPair<unsigned, unsigned>> {{14, 14}})},
-        {"2MR", new Talent(druid, this, "Improved Enrage", "2MR", "Assets/ability/Ability_druid_enrage.png", 2,
-                           "The Enrage ability now instantly generates %1 Rage.", QVector<QPair<unsigned, unsigned>> {{5, 5}})},
+        {"2MR", new Talent(druid, this, QObject::tr("Improved Enrage"), "2MR", "Assets/ability/Ability_druid_enrage.png", 2,
+                           QObject::tr("The Enrage ability now instantly generates %1 Rage."), QVector<QPair<unsigned, unsigned>> {{5, 5}})},
     };
     add_talents(tier2);
 
     QMap<QString, Talent*> tier3 {
-        {"3MR", new Talent(druid, this, "Insect Swarm", "3MR", "Assets/spell/Spell_nature_insectswarm.png", 1,
-                           "The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec.",
+        {"3MR", new Talent(druid, this, QObject::tr("Insect Swarm"), "3MR", "Assets/spell/Spell_nature_insectswarm.png", 1,
+                           QObject::tr("The enemy target is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec."),
                            QVector<QPair<unsigned, unsigned>>())},
-        {"3RR", new Talent(druid, this, "Subtlety", "3RR", "Assets/ability/Ability_eyeoftheowl.png", 5,
-                           "Reduces the threat generated by your Healing spells by %1%.", QVector<QPair<unsigned, unsigned>> {{4, 4}})},
+        {"3RR", new Talent(druid, this,QObject::tr("Subtlety"), "3RR", "Assets/ability/Ability_eyeoftheowl.png", 5,
+                           QObject::tr("Reduces the threat generated by your Healing spells by %1%."), QVector<QPair<unsigned, unsigned>> {{4, 4}})},
     };
     add_reflection(tier3);
     add_talents(tier3);
 
     QMap<QString, Talent*> tier4 {
-        {"4ML", new Talent(druid, this, "Tranquil Spirit", "4ML", "Assets/spell/Spell_holy_elunesgrace.png", 5,
-                           "Reduces the mana cost of your Healing Touch and Tranquility spells by %1%.", QVector<QPair<unsigned, unsigned>> {{2, 2}})},
-        {"4RR", new Talent(druid, this, "Improved Rejuvenation", "4RR", "Assets/spell/Spell_nature_rejuvenation.png", 3,
-                           "Increases the effect of your Rejuvenation spell by %1%.", QVector<QPair<unsigned, unsigned>> {{5, 5}})},
+        {"4ML", new Talent(druid, this, QObject::tr("Tranquil Spirit"), "4ML", "Assets/spell/Spell_holy_elunesgrace.png", 5,
+                           QObject::tr("Reduces the mana cost of your Healing Touch and Tranquility spells by %1%."), QVector<QPair<unsigned, unsigned>> {{2, 2}})},
+        {"4RR", new Talent(druid, this, QObject::tr("Improved Rejuvenation"), "4RR", "Assets/spell/Spell_nature_rejuvenation.png", 3,
+                           QObject::tr("Increases the effect of your Rejuvenation spell by %1%."), QVector<QPair<unsigned, unsigned>> {{5, 5}})},
     };
     add_talents(tier4);
 
     QMap<QString, Talent*> tier5 {
-        {"5LL", new Talent(druid, this, "Nature's Swiftness", "5LL", "Assets/spell/Spell_nature_ravenform.png", 1,
-                           "When activated, your next Nature spell becomes an instant cast spell.", QVector<QPair<unsigned, unsigned>>())},
-        {"5MR", new Talent(druid, this, "Gift of Nature", "5MR", "Assets/spell/Spell_nature_protectionformnature.png", 5,
-                           "Increases the effect of all healing spells by %1%.", QVector<QPair<unsigned, unsigned>> {{2, 2}})},
-        {"5RR", new Talent(druid, this, "Improved Tranquility", "5RR", "Assets/spell/Spell_nature_tranquility.png", 2,
-                           "Reduces threat caused by Tranquility by %1%.", QVector<QPair<unsigned, unsigned>> {{50, 50}})},
+        {"5LL", new Talent(druid, this, QObject::tr("Nature's Swiftness"), "5LL", "Assets/spell/Spell_nature_ravenform.png", 1,
+                           QObject::tr("When activated, your next Nature spell becomes an instant cast spell."), QVector<QPair<unsigned, unsigned>>())},
+        {"5MR", new Talent(druid, this, QObject::tr("Gift of Nature"), "5MR", "Assets/spell/Spell_nature_protectionformnature.png", 5,
+                           QObject::tr("Increases the effect of all healing spells by %1%."), QVector<QPair<unsigned, unsigned>> {{2, 2}})},
+        {"5RR", new Talent(druid, this, QObject::tr("Improved Tranquility"), "5RR", "Assets/spell/Spell_nature_tranquility.png", 2,
+                           QObject::tr("Reduces threat caused by Tranquility by %1%."), QVector<QPair<unsigned, unsigned>> {{50, 50}})},
     };
     add_talents(tier5);
 
     QMap<QString, Talent*> tier6 {
-        {"6MR", new Talent(druid, this, "Improved Regrowth", "6MR", "Assets/spell/Spell_nature_resistnature.png", 5,
-                           "Increases the critical effect chance of your Regrowth spell by %1%.", QVector<QPair<unsigned, unsigned>> {{10, 10}})},
+        {"6MR", new Talent(druid, this, QObject::tr("Improved Regrowth"), "6MR", "Assets/spell/Spell_nature_resistnature.png", 5,
+                           QObject::tr("Increases the critical effect chance of your Regrowth spell by %1%."), QVector<QPair<unsigned, unsigned>> {{10, 10}})},
     };
     add_talents(tier6);
 
     QMap<QString, Talent*> tier7 {
-        {"7ML", new Talent(druid, this, "Swiftmend", "7ML", "Assets/items/Inv_relics_idolofrejuvenation.png", 1,
-                           "Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of "
-                           "Rejuvenation or 18 sec. of Regrowth.",
+        {"7ML", new Talent(druid, this, QObject::tr("Swiftmend"), "7ML", "Assets/items/Inv_relics_idolofrejuvenation.png", 1,
+                           QObject::tr("Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of "
+                           "Rejuvenation or 18 sec. of Regrowth."),
                            QVector<QPair<unsigned, unsigned>>())},
     };
     add_talents(tier7);
@@ -99,16 +99,16 @@ RestorationDruid::RestorationDruid(Druid* druid) :
 
 void RestorationDruid::add_furor(QMap<QString, Talent*>& talent_tier) {
     Talent* talent = get_new_talent(
-        druid, "Furor", "1MR", "Assets/spell/Spell_holy_blessingofstamina.png", 5,
-        "Gives you %1% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
+        druid, QObject::tr("Furor"), "1MR", "Assets/spell/Spell_holy_blessingofstamina.png", 5,
+        QObject::tr("Gives you %1% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."),
         QVector<QPair<unsigned, unsigned>> {{20, 20}}, {}, {}, QVector<Proc*> {spells->get_furor()});
 
     add_talent_to_tier(talent_tier, talent);
 }
 
 void RestorationDruid::add_reflection(QMap<QString, Talent*>& talent_tier) {
-    Talent* talent = new TalentStatIncrease(druid, this, "Reflection", "3ML", "Assets/spell/Spell_frost_windwalkon.png", 3,
-                                            "Allows %1% of your Mana regeneration to continue while casting.",
+    Talent* talent = new TalentStatIncrease(druid, this, QObject::tr("Reflection"), "3ML", "Assets/spell/Spell_frost_windwalkon.png", 3,
+                                            QObject::tr("Allows %1% of your Mana regeneration to continue while casting."),
                                             QVector<QPair<unsigned, unsigned>> {{5, 5}},
                                             QVector<QPair<TalentStat, unsigned>> {{TalentStat::BaseManaRegenWhileCasting, 5}});
 

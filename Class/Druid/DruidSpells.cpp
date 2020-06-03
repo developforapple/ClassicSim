@@ -1,5 +1,5 @@
 #include "DruidSpells.h"
-
+#include <QObject>
 #include "BearForm.h"
 #include "BearFormBuff.h"
 #include "BloodFrenzy.h"
@@ -39,7 +39,7 @@ DruidSpells::DruidSpells(Druid* druid) : CharacterSpells(druid), druid(druid) {
     add_spell_group({caster_form});
 
     auto leader_of_the_pack = static_cast<LeaderOfThePack*>(
-        pchar->get_raid_control()->get_shared_party_buff("Leader of the Pack", pchar->get_party()));
+        pchar->get_raid_control()->get_shared_party_buff(QObject::tr("Leader of the Pack"), pchar->get_party()));
     if (leader_of_the_pack == nullptr) {
         leader_of_the_pack = new LeaderOfThePack(druid);
         leader_of_the_pack->enable_buff();
@@ -54,7 +54,7 @@ DruidSpells::DruidSpells(Druid* druid) : CharacterSpells(druid), druid(druid) {
     this->cat_form = new CatForm(druid, cat_form_buff);
     add_spell_group({cat_form});
 
-    auto moonkin_aura = static_cast<MoonkinFormBuff*>(pchar->get_raid_control()->get_shared_party_buff("Moonkin Form", pchar->get_party()));
+    auto moonkin_aura = static_cast<MoonkinFormBuff*>(pchar->get_raid_control()->get_shared_party_buff(QObject::tr("Moonkin Form"), pchar->get_party()));
     if (moonkin_aura == nullptr) {
         moonkin_aura = new MoonkinFormBuff(druid);
         moonkin_aura->enable_buff();
@@ -110,7 +110,7 @@ DruidSpells::DruidSpells(Druid* druid) : CharacterSpells(druid), druid(druid) {
         new Swipe(druid, this, primal_fury, 5),
     });
 
-    this->maul_buff = new NoEffectSelfBuff(druid, BuffDuration::PERMANENT, "Maul Queued", "Assets/ability/Ability_rogue_ambush.png", Hidden::No);
+    this->maul_buff = new NoEffectSelfBuff(druid, BuffDuration::PERMANENT, QObject::tr("Maul Queued"), "Assets/ability/Ability_rogue_ambush.png", Hidden::No);
     this->maul_buff->enable_buff();
     add_spell_group({
         new Maul(druid, this, maul_buff, 1),
@@ -176,7 +176,7 @@ void DruidSpells::mh_auto_attack(const int iteration) {
 }
 
 void DruidSpells::prepare_set_of_combat_iterations_class_specific() {
-    SpellRankGroup* group = get_spell_rank_group_by_name("Maul");
+    SpellRankGroup* group = get_spell_rank_group_by_name(QObject::tr("Maul"));
     maul = static_cast<Maul*>(group->get_max_available_spell_rank());
 }
 

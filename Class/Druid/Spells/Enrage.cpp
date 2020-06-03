@@ -1,5 +1,5 @@
 #include "Enrage.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "ClassStatistics.h"
 #include "CooldownControl.h"
@@ -9,14 +9,14 @@
 #include "Utils/Check.h"
 
 Enrage::Enrage(Druid* druid) :
-    PeriodicResourceGainSpell("Enrage",
+    PeriodicResourceGainSpell(QObject::tr("Enrage"),
                               "Assets/ability/Ability_druid_enrage.png",
                               druid,
                               RestrictedByGcd::No,
                               1.0,
                               10,
                               {{ResourceType::Rage, 2}}),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Enrage", 2, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Enrage"), 2, DisabledAtZero::No)}),
     drood(druid) {
     delete cooldown;
     cooldown = new CooldownControl(druid, 60.0);
@@ -48,12 +48,12 @@ SpellStatus Enrage::is_ready_spell_specific() const {
 }
 
 void Enrage::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Enrage")
+    if (talent_name == QObject::tr("Improved Enrage"))
         this->immediate_rage_gain = talent_ranks[curr];
 }
 
 void Enrage::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Enrage")
+    if (talent_name == QObject::tr("Improved Enrage"))
         this->immediate_rage_gain = talent_ranks[curr];
 }
 

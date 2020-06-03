@@ -1,5 +1,5 @@
 #include "FerociousBite.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "CombatRoll.h"
 #include "CooldownControl.h"
@@ -11,7 +11,7 @@
 #include "Weapon.h"
 
 FerociousBite::FerociousBite(Druid* druid, const int spell_rank_) :
-    Spell("Ferocious Bite",
+    Spell(QObject::tr("Ferocious Bite"),
           "Assets/ability/Ability_druid_ferociousbite.png",
           druid,
           new CooldownControl(druid, 0.0),
@@ -20,7 +20,7 @@ FerociousBite::FerociousBite(Druid* druid, const int spell_rank_) :
           35,
           spell_rank_),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Feral Aggression", 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Feral Aggression"), 5, DisabledAtZero::No),
     }),
     druid(druid),
     instant_dmg(new Random(1, 1)) {

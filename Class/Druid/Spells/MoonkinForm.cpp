@@ -1,5 +1,5 @@
 #include "MoonkinForm.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CooldownControl.h"
@@ -8,7 +8,7 @@
 #include "NoEffectSelfBuff.h"
 
 MoonkinForm::MoonkinForm(Druid* druid, MoonkinFormBuff* buff) :
-    Spell("Moonkin Form",
+    Spell(QObject::tr("Moonkin Form"),
           "Assets/spell/Spell_nature_forceofnature.png",
           druid,
           new CooldownControl(druid, 0.0),
@@ -16,7 +16,7 @@ MoonkinForm::MoonkinForm(Druid* druid, MoonkinFormBuff* buff) :
           ResourceType::Mana,
           100),
     TalentRequirer(
-        {new TalentRequirerInfo("Moonkin Form", 1, DisabledAtZero::Yes), new TalentRequirerInfo("Natural Shapeshifter", 3, DisabledAtZero::No)}),
+        {new TalentRequirerInfo(QObject::tr("Moonkin Form"), 1, DisabledAtZero::Yes), new TalentRequirerInfo(QObject::tr("Natural Shapeshifter"), 3, DisabledAtZero::No)}),
     druid(druid),
     buff(buff),
     base_resource_cost(resource_cost) {
@@ -40,7 +40,7 @@ void MoonkinForm::spell_effect() {
 }
 
 void MoonkinForm::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Natural Shapeshifter")
+    if (talent_name == QObject::tr("Natural Shapeshifter"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * natural_shapeshifter_ranks[curr]));
 }
 

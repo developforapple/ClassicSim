@@ -1,11 +1,11 @@
 #include "NaturesGrace.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 
 NaturesGrace::NaturesGrace(Character* pchar) :
-    SelfBuff(pchar, "Nature's Grace", "Assets/spell/Spell_nature_naturesblessing.png", BuffDuration::PERMANENT, 1),
-    TalentRequirer({new TalentRequirerInfo("Nature's Grace", 1, DisabledAtZero::Yes)}) {}
+    SelfBuff(pchar, QObject::tr("Nature's Grace"), "Assets/spell/Spell_nature_naturesblessing.png", BuffDuration::PERMANENT, 1),
+    TalentRequirer({new TalentRequirerInfo(QObject::tr("Nature's Grace"), 1, DisabledAtZero::Yes)}) {}
 
 void NaturesGrace::buff_effect_when_applied() {
     pchar->get_stats()->increase_casting_speed_flat_reduction(500);

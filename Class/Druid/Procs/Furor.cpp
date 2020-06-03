@@ -1,5 +1,5 @@
 #include "Furor.h"
-
+#include <QObject>
 #include "ClassStatistics.h"
 #include "Druid.h"
 #include "ProcInfo.h"
@@ -7,14 +7,14 @@
 #include "Utils/Check.h"
 
 Furor::Furor(Druid* druid) :
-    Proc("Furor",
+    Proc(QObject::tr("Furor"),
          "Assets/spell/Spell_holy_blessingofstamina.png",
          0.0,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>({ProcInfo::Source::Manual}),
          druid),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Furor", 5, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Furor"), 5, DisabledAtZero::Yes)}),
     statistics_resource(nullptr),
     druid(druid) {
     this->enabled = false;

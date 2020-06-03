@@ -1,5 +1,5 @@
 #include "CatFormBuff.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CharacterStats.h"
@@ -8,12 +8,12 @@
 #include "Proc.h"
 
 CatFormBuff::CatFormBuff(Druid* pchar, Buff* leader_of_the_pack, Proc* furor) :
-    SelfBuff(pchar, "Cat Form", "Assets/ability/Ability_druid_catform.png", BuffDuration::PERMANENT, 0),
+    SelfBuff(pchar, QObject::tr("Cat Form"), "Assets/ability/Ability_druid_catform.png", BuffDuration::PERMANENT, 0),
     TalentRequirer({
-        new TalentRequirerInfo("Sharpened Claws", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Predatory Strikes", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Heart of the Wild", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Leader of the Pack", 1, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Sharpened Claws"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Predatory Strikes"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Heart of the Wild"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Leader of the Pack"), 1, DisabledAtZero::No),
     }),
     druid(pchar),
     leader_of_the_pack(leader_of_the_pack),
@@ -55,7 +55,7 @@ void CatFormBuff::buff_effect_when_removed() {
 }
 
 void CatFormBuff::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Sharpened Claws") {
+    if (talent_name == QObject::tr("Sharpened Claws")) {
         if (is_active() && curr > 1)
             druid->get_stats()->decrease_melee_aura_crit(sharpened_claws_bonus);
 
@@ -65,7 +65,7 @@ void CatFormBuff::increase_talent_rank_effect(const QString& talent_name, const 
             druid->get_stats()->increase_melee_aura_crit(sharpened_claws_bonus);
     }
 
-    if (talent_name == "Predatory Strikes") {
+    if (talent_name == QObject::tr("Predatory Strikes")) {
         if (is_active() && curr > 1)
             druid->get_stats()->decrease_melee_ap(predatory_strikes_bonus);
 
@@ -75,7 +75,7 @@ void CatFormBuff::increase_talent_rank_effect(const QString& talent_name, const 
             druid->get_stats()->increase_melee_ap(predatory_strikes_bonus);
     }
 
-    if (talent_name == "Heart of the Wild") {
+    if (talent_name == QObject::tr("Heart of the Wild")) {
         if (curr > 1) {
             druid->get_stats()->remove_intellect_mod(heart_of_the_wild_mod);
             if (is_active())
@@ -89,7 +89,7 @@ void CatFormBuff::increase_talent_rank_effect(const QString& talent_name, const 
         druid->get_stats()->add_intellect_mod(heart_of_the_wild_mod);
     }
 
-    if (talent_name == "Leader of the Pack") {
+    if (talent_name == QObject::tr("Leader of the Pack")) {
         supplies_leader_of_the_pack = true;
         if (is_active())
             leader_of_the_pack->apply_buff();
@@ -97,7 +97,7 @@ void CatFormBuff::increase_talent_rank_effect(const QString& talent_name, const 
 }
 
 void CatFormBuff::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Sharpened Claws") {
+    if (talent_name == QObject::tr("Sharpened Claws")) {
         if (is_active())
             druid->get_stats()->decrease_melee_aura_crit(sharpened_claws_bonus);
 
@@ -107,7 +107,7 @@ void CatFormBuff::decrease_talent_rank_effect(const QString& talent_name, const 
             druid->get_stats()->increase_melee_aura_crit(sharpened_claws_bonus);
     }
 
-    if (talent_name == "Predatory Strikes") {
+    if (talent_name == QObject::tr("Predatory Strikes")) {
         if (is_active())
             druid->get_stats()->decrease_melee_ap(predatory_strikes_bonus);
 
@@ -117,7 +117,7 @@ void CatFormBuff::decrease_talent_rank_effect(const QString& talent_name, const 
             druid->get_stats()->increase_melee_ap(predatory_strikes_bonus);
     }
 
-    if (talent_name == "Heart of the Wild") {
+    if (talent_name == QObject::tr("Heart of the Wild")) {
         if (is_active())
             druid->get_stats()->remove_strength_mod(heart_of_the_wild_mod);
         druid->get_stats()->remove_intellect_mod(heart_of_the_wild_mod);
@@ -131,7 +131,7 @@ void CatFormBuff::decrease_talent_rank_effect(const QString& talent_name, const 
         }
     }
 
-    if (talent_name == "Leader of the Pack") {
+    if (talent_name == QObject::tr("Leader of the Pack")) {
         supplies_leader_of_the_pack = false;
         if (is_active())
             leader_of_the_pack->cancel_buff();

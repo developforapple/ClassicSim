@@ -1,5 +1,5 @@
 #include "Shred.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -12,7 +12,7 @@
 #include "Utils/Check.h"
 
 Shred::Shred(Druid* pchar, DruidSpells* druid_spells, Proc* blood_frenzy, const int spell_rank) :
-    Spell("Shred",
+    Spell(QObject::tr("Shred"),
           "Assets/spell/Spell_shadow_vampiricaura.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -21,7 +21,7 @@ Shred::Shred(Druid* pchar, DruidSpells* druid_spells, Proc* blood_frenzy, const 
           60,
           spell_rank),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Shred", 2, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Shred"), 2, DisabledAtZero::No),
     }),
     druid(pchar),
     druid_spells(druid_spells),
@@ -119,7 +119,7 @@ SpellStatus Shred::is_ready_spell_specific() const {
 }
 
 void Shred::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Shred")
+    if (talent_name == QObject::tr("Improved Shred"))
         resource_cost = base_resource_cost - improved_shred_ranks[curr];
 }
 
