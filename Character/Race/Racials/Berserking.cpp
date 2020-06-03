@@ -1,12 +1,12 @@
 #include "Berserking.h"
-
+#include <QObject>
 #include "BerserkingBuff.h"
 #include "Character.h"
 #include "CooldownControl.h"
 #include "Race.h"
 
 Berserking::Berserking(Character* pchar_, const ResourceType resource_type_, const unsigned resource_cost_) :
-    Spell("Berserking",
+    Spell(QObject::tr("Berserking"),
           "Assets/races/Racial_troll_berserk.png",
           pchar_,
           new CooldownControl(pchar_, 180.0),

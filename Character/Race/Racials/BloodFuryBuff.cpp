@@ -1,11 +1,11 @@
 #include "BloodFuryBuff.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Character.h"
 #include "CharacterStats.h"
 
-BloodFuryBuff::BloodFuryBuff(Character* pchar) : SelfBuff(pchar, "Blood Fury", "Assets/races/Racial_orc_berserkerstrength.png", 15, 1) {}
+BloodFuryBuff::BloodFuryBuff(Character* pchar) : SelfBuff(pchar, QObject::tr("Blood Fury"), "Assets/races/Racial_orc_berserkerstrength.png", 15, 1) {}
 
 void BloodFuryBuff::buff_effect_when_applied() {
     applied_ap = static_cast<unsigned>(round((160 + pchar->get_stats()->get_strength() * pchar->get_melee_ap_per_strength()) * 0.25

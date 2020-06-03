@@ -1,12 +1,12 @@
 #include "BloodFury.h"
-
+#include <QObject>
 #include "BloodFuryBuff.h"
 #include "Character.h"
 #include "CooldownControl.h"
 #include "Race.h"
 
 BloodFury::BloodFury(Character* pchar) :
-    Spell("Blood Fury",
+    Spell(QObject::tr("Blood Fury"),
           "Assets/races/Racial_orc_berserkerstrength.png",
           pchar,
           new CooldownControl(pchar, 120.0),
