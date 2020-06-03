@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include <QQuickImageProvider>
+#include <QTranslator>
 
 #include "ActiveItemStatFilterModel.h"
 #include "AvailableFactions.h"
@@ -40,6 +41,11 @@ int main(int argc, char* argv[]) {
     test.test_all();
 
     QApplication app(argc, argv);
+
+    QTranslator* myTranslator=new QTranslator;
+    myTranslator->load("Chinese.qm");
+    app.installTranslator(myTranslator);
+
     auto gui_control = new GUIControl();
 
     QQmlApplicationEngine qml_engine;
