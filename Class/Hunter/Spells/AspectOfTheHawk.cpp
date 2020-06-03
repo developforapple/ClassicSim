@@ -1,12 +1,12 @@
 #include "AspectOfTheHawk.h"
-
+#include <QObject>
 #include "AspectOfTheHawkBuff.h"
 #include "Character.h"
 #include "CooldownControl.h"
 #include "ImprovedAspectOfTheHawkProc.h"
 
 AspectOfTheHawk::AspectOfTheHawk(Character* pchar) :
-    Spell("Aspect of the Hawk",
+    Spell(QObject::tr("Aspect of the Hawk"),
           "Assets/spell/Spell_nature_ravenform.png",
           pchar,
           new CooldownControl(pchar, 0.0),

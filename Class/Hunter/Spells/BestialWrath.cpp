@@ -1,18 +1,18 @@
 #include "BestialWrath.h"
-
+#include <QObject>
 #include "BestialWrathBuff.h"
 #include "Character.h"
 #include "CooldownControl.h"
 
 BestialWrath::BestialWrath(Character* pchar, const QString& pet_name) :
-    Spell("Bestial Wrath",
+    Spell(QObject::tr("Bestial Wrath"),
           "Assets/ability/Ability_druid_ferociousbite.png",
           pchar,
           new CooldownControl(pchar, 120.0),
           RestrictedByGcd::Yes,
           ResourceType::Mana,
           206),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Bestial Wrath", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Bestial Wrath"), 1, DisabledAtZero::Yes)}),
     bestial_wrath_buff(new BestialWrathBuff(pchar, pet_name)) {
     enabled = false;
 }

@@ -1,5 +1,5 @@
 #include "AutoShot.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "ClassStatistics.h"
 #include "CombatRoll.h"
@@ -12,8 +12,8 @@
 #include "Weapon.h"
 
 AutoShot::AutoShot(Hunter* pchar) :
-    Spell("Auto Shot", "", pchar, new CooldownControl(pchar, 1.0), RestrictedByGcd::No, ResourceType::Mana, 0),
-    SetBonusRequirer({"Cryptstalker Armor"}),
+    Spell(QObject::tr("Auto Shot"), "", pchar, new CooldownControl(pchar, 1.0), RestrictedByGcd::No, ResourceType::Mana, 0),
+    SetBonusRequirer({QObject::tr("Cryptstalker Armor")}),
     hunter(pchar),
     next_expected_use(0),
     iteration(0) {}
@@ -86,7 +86,7 @@ void AutoShot::prepare_set_of_combat_iterations_spell_specific() {
 
     this->icon = "Assets/items/" + pchar->get_equipment()->get_ranged()->get_value("icon");
     this->cooldown->base = pchar->get_stats()->get_ranged_wpn_speed();
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics("Auto Shot", icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Auto Shot"), icon);
 
     reset();
 }
@@ -118,7 +118,7 @@ void AutoShot::reset_effect() {
 }
 
 void AutoShot::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Cryptstalker Armor") {
+    if (set_name == QObject::tr("Cryptstalker Armor")) {
         switch (set_bonus) {
         case 6:
             adrenaline_rush = 50;
@@ -130,7 +130,7 @@ void AutoShot::activate_set_bonus_effect(const QString& set_name, const int set_
 }
 
 void AutoShot::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Cryptstalker Armor") {
+    if (set_name == QObject::tr("Cryptstalker Armor")) {
         switch (set_bonus) {
         case 6:
             adrenaline_rush = 0;

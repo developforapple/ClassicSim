@@ -1,18 +1,18 @@
 #include "ImprovedAspectOfTheHawkProc.h"
-
+#include <QObject>
 #include "AspectOfTheHawkBuff.h"
 #include "ImprovedAspectOfTheHawkBuff.h"
 #include "ProcInfo.h"
 
 ImprovedAspectOfTheHawkProc::ImprovedAspectOfTheHawkProc(Character* pchar, AspectOfTheHawkBuff* hawk_buff) :
-    Proc("Improved Aspect of the Hawk",
+    Proc(QObject::tr("Improved Aspect of the Hawk"),
          "Assets/spell/Spell_nature_ravenform.png",
          0.0,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>({ProcInfo::Source::RangedAutoShot, ProcInfo::Source::RangedSpell}),
          pchar),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Aspect of the Hawk", 5, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Aspect of the Hawk"), 5, DisabledAtZero::Yes)}),
     hawk_buff(hawk_buff),
     imp_hawk_buff(new ImprovedAspectOfTheHawkBuff(pchar)),
     talent_ranks({0, 100, 200, 300, 400, 500}) {

@@ -1,18 +1,18 @@
 #include "FrenzyProc.h"
-
+#include <QObject>
 #include "FrenzyBuff.h"
 #include "Pet.h"
 #include "ProcInfo.h"
 
 FrenzyProc::FrenzyProc(Character* pchar, Pet* pet) :
-    Proc(QString("Frenzy (%1)").arg(pet->get_name()),
+    Proc(QObject::tr("Frenzy (%1)").arg(pet->get_name()),
          "Assets/items/Inv_misc_monsterclaw_03.png",
          0.0,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>({ProcInfo::Source::Manual}),
          pchar),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Frenzy", 5, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Frenzy"), 5, DisabledAtZero::Yes)}),
     frenzy_buff(new FrenzyBuff(pchar, pet)),
     talent_ranks({0, 2000, 4000, 6000, 8000, 10000}) {
     this->enabled = false;

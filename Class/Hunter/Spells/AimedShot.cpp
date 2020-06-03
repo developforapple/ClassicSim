@@ -1,5 +1,5 @@
 #include "AimedShot.h"
-
+#include <QObject>
 #include "AutoShot.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -11,12 +11,12 @@
 #include "Utils/Check.h"
 
 AimedShot::AimedShot(Hunter* hunter, CooldownControl* cooldown_control) :
-    Spell("Aimed Shot", "Assets/items/Inv_spear_07.png", hunter, cooldown_control, RestrictedByGcd::Yes, ResourceType::Mana, 310),
+    Spell(QObject::tr("Aimed Shot"), "Assets/items/Inv_spear_07.png", hunter, cooldown_control, RestrictedByGcd::Yes, ResourceType::Mana, 310),
     CastingTimeRequirer(hunter, SuppressibleCast::No, 3000),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Aimed Shot", 1, DisabledAtZero::Yes),
-                                                 new TalentRequirerInfo("Efficiency", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Mortal Shots", 5, DisabledAtZero::No)}),
-    SetBonusRequirer({"Cryptstalker Armor"}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Aimed Shot"), 1, DisabledAtZero::Yes),
+                                                 new TalentRequirerInfo(QObject::tr("Efficiency"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Mortal Shots"), 5, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Cryptstalker Armor")}),
     hunter(hunter),
     efficiency_ranks({1.0, 0.98, 0.96, 0.94, 0.92, 0.90}),
     mortal_shots_ranks({0.0, 0.06, 0.12, 0.18, 0.24, 0.30}) {
@@ -63,7 +63,7 @@ void AimedShot::complete_cast_effect() {
 }
 
 void AimedShot::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics("Aimed Shot", icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Aimed Shot"), icon);
 }
 
 void AimedShot::add_adrenaline_rush_statistics() {
@@ -77,21 +77,21 @@ void AimedShot::add_adrenaline_rush_statistics() {
 }
 
 void AimedShot::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Efficiency")
+    if (talent_name == QObject::tr("Efficiency"))
         resource_cost = static_cast<unsigned>(round(resource_base * efficiency_ranks[curr]));
-    if (talent_name == "Mortal Shots")
+    if (talent_name == QObject::tr("Mortal Shots"))
         mortal_shots_bonus = mortal_shots_ranks[curr];
 }
 
 void AimedShot::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Efficiency")
+    if (talent_name == QObject::tr("Efficiency"))
         resource_cost = static_cast<unsigned>(round(resource_base * efficiency_ranks[curr]));
-    if (talent_name == "Mortal Shots")
+    if (talent_name == QObject::tr("Mortal Shots"))
         mortal_shots_bonus = mortal_shots_ranks[curr];
 }
 
 void AimedShot::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Cryptstalker Armor") {
+    if (set_name == QObject::tr("Cryptstalker Armor")) {
         switch (set_bonus) {
         case 6:
             adrenaline_rush = 50;
@@ -106,7 +106,7 @@ void AimedShot::activate_set_bonus_effect(const QString& set_name, const int set
 }
 
 void AimedShot::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Cryptstalker Armor") {
+    if (set_name == QObject::tr("Cryptstalker Armor")) {
         switch (set_bonus) {
         case 6:
             adrenaline_rush = 0;

@@ -1,5 +1,5 @@
 #include "AspectOfTheHawkBuff.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Character.h"
@@ -7,8 +7,8 @@
 #include "Utils/Check.h"
 
 AspectOfTheHawkBuff::AspectOfTheHawkBuff(Character* pchar) :
-    SelfBuff(pchar, "Aspect of the Hawk", "Assets/spell/Spell_nature_ravenform.png", BuffDuration::PERMANENT, 0),
-    SetBonusRequirer({"Dragonstalker Armor"}) {}
+    SelfBuff(pchar, QObject::tr("Aspect of the Hawk"), "Assets/spell/Spell_nature_ravenform.png", BuffDuration::PERMANENT, 0),
+    SetBonusRequirer({QObject::tr("Dragonstalker Armor")}) {}
 
 void AspectOfTheHawkBuff::buff_effect_when_applied() {
     pchar->get_stats()->increase_ranged_ap(static_cast<unsigned>(round(120 * dragonstalker_bonus)));
@@ -19,7 +19,7 @@ void AspectOfTheHawkBuff::buff_effect_when_removed() {
 }
 
 void AspectOfTheHawkBuff::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Dragonstalker Armor") {
+    if (set_name == QObject::tr("Dragonstalker Armor")) {
         switch (set_bonus) {
         case 3:
             dragonstalker_bonus = 1.2;
@@ -31,7 +31,7 @@ void AspectOfTheHawkBuff::activate_set_bonus_effect(const QString& set_name, con
 }
 
 void AspectOfTheHawkBuff::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Dragonstalker Armor") {
+    if (set_name == QObject::tr("Dragonstalker Armor")) {
         switch (set_bonus) {
         case 3:
             dragonstalker_bonus = 1.0;

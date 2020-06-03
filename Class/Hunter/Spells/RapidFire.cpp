@@ -1,19 +1,19 @@
 #include "RapidFire.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CooldownControl.h"
 #include "RapidFireBuff.h"
 #include "Utils/Check.h"
 
 RapidFire::RapidFire(Character* pchar) :
-    Spell("Rapid Fire",
+    Spell(QObject::tr("Rapid Fire"),
           "Assets/ability/Ability_hunter_runningshot.png",
           pchar,
           new CooldownControl(pchar, 300.0),
           RestrictedByGcd::Yes,
           ResourceType::Mana,
           100),
-    SetBonusRequirer({"Striker's Garb"}),
+    SetBonusRequirer({QObject::tr("Striker's Garb")}),
     rapid_fire(new RapidFireBuff(pchar)) {
     rapid_fire->enable_buff();
 }
@@ -37,7 +37,7 @@ void RapidFire::spell_effect() {
 }
 
 void RapidFire::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Striker's Garb") {
+    if (set_name == QObject::tr("Striker's Garb")) {
         switch (set_bonus) {
         case 5:
             cooldown->base -= 120.0;
@@ -49,7 +49,7 @@ void RapidFire::activate_set_bonus_effect(const QString& set_name, const int set
 }
 
 void RapidFire::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Striker's Garb") {
+    if (set_name ==QObject::tr("Striker's Garb")) {
         switch (set_bonus) {
         case 5:
             cooldown->base -= 120.0;

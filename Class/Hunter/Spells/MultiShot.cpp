@@ -1,5 +1,5 @@
 #include "MultiShot.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "ClassStatistics.h"
 #include "CombatRoll.h"
@@ -9,11 +9,11 @@
 #include "Utils/Check.h"
 
 MultiShot::MultiShot(Hunter* pchar, CooldownControl* cooldown_control) :
-    Spell("Multi-Shot", "Assets/ability/Ability_upgrademoonglaive.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Mana, 230),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Efficiency", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Mortal Shots", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Barrage", 3, DisabledAtZero::No)}),
-    SetBonusRequirer({"Giantstalker Armor", "Cryptstalker Armor"}),
+    Spell(QObject::tr("Multi-Shot"), "Assets/ability/Ability_upgrademoonglaive.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Mana, 230),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Efficiency"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Mortal Shots"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Barrage"), 3, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Giantstalker Armor"), QObject::tr("Cryptstalker Armor")}),
     ItemModificationRequirer({16463, 16571, 22862, 23279}),
     hunter(pchar),
     efficiency_ranks({1.0, 0.98, 0.96, 0.94, 0.92, 0.90}),
@@ -55,7 +55,7 @@ void MultiShot::spell_effect() {
 }
 
 void MultiShot::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics("Multi-Shot", icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Multi-Shot"), icon);
 }
 
 void MultiShot::add_adrenaline_rush_statistics() {
@@ -69,25 +69,25 @@ void MultiShot::add_adrenaline_rush_statistics() {
 }
 
 void MultiShot::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Efficiency")
+    if (talent_name == QObject::tr("Efficiency"))
         resource_cost = static_cast<unsigned>(round(resource_base * efficiency_ranks[curr]));
-    if (talent_name == "Mortal Shots")
+    if (talent_name == QObject::tr("Mortal Shots"))
         mortal_shots_bonus = mortal_shots_ranks[curr];
-    if (talent_name == "Barrage")
+    if (talent_name == QObject::tr("Barrage"))
         barrage_mod = barrage_ranks[curr];
 }
 
 void MultiShot::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Efficiency")
+    if (talent_name == QObject::tr("Efficiency"))
         resource_cost = static_cast<unsigned>(round(resource_base * efficiency_ranks[curr]));
-    if (talent_name == "Mortal Shots")
+    if (talent_name == QObject::tr("Mortal Shots"))
         mortal_shots_bonus = mortal_shots_ranks[curr];
-    if (talent_name == "Barrage")
+    if (talent_name == QObject::tr("Barrage"))
         barrage_mod = barrage_ranks[curr];
 }
 
 void MultiShot::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Giantstalker Armor") {
+    if (set_name == QObject::tr("Giantstalker Armor")) {
         switch (set_bonus) {
         case 8:
             giantstalker_bonus = 1.15;
@@ -95,7 +95,7 @@ void MultiShot::activate_set_bonus_effect(const QString& set_name, const int set
         default:
             check(false, "MultiShot::activate_set_bonus_effect reached end of switch");
         }
-    } else if (set_name == "Cryptstalker Armor") {
+    } else if (set_name == QObject::tr("Cryptstalker Armor")) {
         switch (set_bonus) {
         case 6:
             adrenaline_rush = 50;
@@ -110,7 +110,7 @@ void MultiShot::activate_set_bonus_effect(const QString& set_name, const int set
 }
 
 void MultiShot::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Giantstalker Armor") {
+    if (set_name == QObject::tr("Giantstalker Armor")) {
         switch (set_bonus) {
         case 8:
             giantstalker_bonus = 1.0;
@@ -118,7 +118,7 @@ void MultiShot::deactivate_set_bonus_effect(const QString& set_name, const int s
         default:
             check(false, "MultiShot::deactivate_set_bonus_effect reached end of switch");
         }
-    } else if (set_name == "Cryptstalker Armor") {
+    } else if (set_name == QObject::tr("Cryptstalker Armor")) {
         switch (set_bonus) {
         case 6:
             adrenaline_rush = 0;

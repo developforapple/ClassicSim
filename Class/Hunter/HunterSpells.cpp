@@ -1,5 +1,5 @@
 #include "HunterSpells.h"
-
+#include <QObject>
 #include "AimedShot.h"
 #include "AspectOfTheHawk.h"
 #include "AutoShot.h"
@@ -29,27 +29,27 @@ HunterSpells::HunterSpells(Hunter* hunter) : CharacterSpells(hunter), hunter(hun
     this->mh_attack = new MainhandAttack(hunter);
     this->oh_attack = new OffhandAttack(hunter);
 
-    auto hunters_mark_buff = static_cast<HuntersMarkBuff*>(pchar->get_raid_control()->get_shared_raid_buff("Hunter's Mark"));
+    auto hunters_mark_buff = static_cast<HuntersMarkBuff*>(pchar->get_raid_control()->get_shared_raid_buff(QObject::tr("Hunter's Mark")));
     if (hunters_mark_buff == nullptr) {
         hunters_mark_buff = new HuntersMarkBuff(hunter);
         hunters_mark_buff->enable_buff();
     }
     this->hunters_mark = new HuntersMark(hunter, hunters_mark_buff);
 
-    auto expose_weakness_buff = static_cast<ExposeWeaknessBuff*>(pchar->get_raid_control()->get_shared_raid_buff("Expose Weakness"));
+    auto expose_weakness_buff = static_cast<ExposeWeaknessBuff*>(pchar->get_raid_control()->get_shared_raid_buff(QObject::tr("Expose Weakness")));
     if (expose_weakness_buff == nullptr) {
         expose_weakness_buff = new ExposeWeaknessBuff(hunter);
         expose_weakness_buff->enable_buff();
     }
     this->expose_weakness_proc = new ExposeWeaknessProc(hunter, expose_weakness_buff);
 
-    add_spell_group({new AimedShot(hunter, new_cooldown_control("Aimed Shot", 6.0))});
+    add_spell_group({new AimedShot(hunter, new_cooldown_control(QObject::tr("Aimed Shot"), 6.0))});
     add_spell_group({aspect_of_the_hawk});
     add_spell_group({auto_shot});
-    add_spell_group({new BestialWrath(hunter, "Cat")});
+    add_spell_group({new BestialWrath(hunter, QObject::tr("Cat"))});
     add_spell_group({hunters_mark});
     add_spell_group({mh_attack});
-    add_spell_group({new MultiShot(hunter, new_cooldown_control("Multi-Shot", 10.0))});
+    add_spell_group({new MultiShot(hunter, new_cooldown_control(QObject::tr("Multi-Shot"), 10.0))});
     add_spell_group({oh_attack});
     add_spell_group({new RapidFire(hunter)});
 }

@@ -1,18 +1,18 @@
 #include "ExposeWeaknessProc.h"
-
+#include <QObject>
 #include "ExposeWeaknessBuff.h"
 #include "ProcInfo.h"
 #include "Utils/Check.h"
 
 ExposeWeaknessProc::ExposeWeaknessProc(Character* pchar, ExposeWeaknessBuff* expose_weakness_buff) :
-    Proc("Expose Weakness",
+    Proc(QObject::tr("Expose Weakness"),
          "Assets/ability/Ability_hunter_snipershot.png",
          0.0,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>({ProcInfo::Source::RangedAutoShot, ProcInfo::Source::RangedSpell}),
          pchar),
-    SetBonusRequirer({"Dragonstalker Armor"}),
+    SetBonusRequirer({QObject::tr("Dragonstalker Armor")}),
     expose_weakness_buff(expose_weakness_buff) {
     this->enabled = false;
     proc_range = 160;
@@ -33,7 +33,7 @@ void ExposeWeaknessProc::disable_spell_effect() {
 }
 
 void ExposeWeaknessProc::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Dragonstalker Armor") {
+    if (set_name == QObject::tr("Dragonstalker Armor")) {
         switch (set_bonus) {
         case 8:
             enable();
@@ -45,7 +45,7 @@ void ExposeWeaknessProc::activate_set_bonus_effect(const QString& set_name, cons
 }
 
 void ExposeWeaknessProc::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Dragonstalker Armor") {
+    if (set_name == QObject::tr("Dragonstalker Armor")) {
         switch (set_bonus) {
         case 8:
             disable();

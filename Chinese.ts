@@ -375,9 +375,134 @@
         <translation>每5秒回复8点法力值</translation>
     </message>
     <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="12"/>
+        <source>Marksmanship</source>
+        <translation>射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="14"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="31"/>
+        <source>Improved Concussive Shot</source>
+        <translation>强化震荡射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="17"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="103"/>
+        <source>Lethal Shots</source>
+        <translation>夺命射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="19"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="42"/>
+        <source>Improved Arcane Shot</source>
+        <translation>强化奥术射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="20"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="44"/>
+        <source>Hawk Eye</source>
+        <translation>鹰眼</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="21"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="51"/>
+        <source>Improved Serpent Sting</source>
+        <translation>强化毒蛇钉刺</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="23"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="57"/>
+        <source>Scatter Shot</source>
+        <translation>驱散射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="25"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="61"/>
+        <source>Improved Scorpid Sting</source>
+        <translation>强化毒蝎钉刺</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="26"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="140"/>
+        <source>Ranged Weapon Specialization</source>
+        <translation>远程武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="27"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="148"/>
         <location filename="Spells/ExternalBuff.cpp" line="514"/>
         <source>Trueshot Aura</source>
         <translation>强击光环</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="32"/>
+        <source>Gives your Concussive Shot a %1% chance to stun the target for 3 sec.</source>
+        <translation>使你的震荡射击有%1%的几率令目标昏迷3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="43"/>
+        <source>Reduces the cooldown of your Arcane Shot by %1 sec.</source>
+        <translation>使你的奥术射击的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="45"/>
+        <source>Increases the range of your ranged weapons by %1 yards.</source>
+        <translation>使你的远程武器的射程延长%1码。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="52"/>
+        <source>Increases the damage done by your Serpent Sting by %1%.</source>
+        <translation>使你的毒蛇钉刺所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="58"/>
+        <source>A short-range shot that deals 50% weapon damage and disorients the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used.</source>
+        <translation>短程射击，对目标造成50%的武器伤害，并使其困惑4秒。任何伤害都会打断该效果。使用之后结束你的攻击。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="62"/>
+        <source>Reduces the Stamina of targets affected by your Scorpid Sting by %1% of the amount of Strength reduced.</source>
+        <translation>使目标的力量因毒蝎钉刺的效果而降低时，其耐力也随之降低。耐力的降低值相当于力量降低值的%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="84"/>
+        <source>Reduces the Mana cost of your Shots and Stings by %1%</source>
+        <translation>使你施放射击和钉刺技能所消耗的法力值减少%1%</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="95"/>
+        <source>Increases the Ranged Attack Power bonus of your Hunter&apos;s Mark spell by %1%.</source>
+        <translation>使你的猎人印记法术所提供的远程攻击强度加成提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="104"/>
+        <source>Increases your critical strike chance with ranged weapons by %1%.</source>
+        <translation>使你的远程武器造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="113"/>
+        <source>An aimed shot that increases ranged damage by 600.</source>
+        <translation>瞄准目标射击，使远程伤害提高600点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="121"/>
+        <source>Increases your ranged weapon critical strike damage bonus by %1%.</source>
+        <translation>使你的远程武器爆击伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="132"/>
+        <source>Increases the damage done by your Multi-Shot and Volley spells by %1%.</source>
+        <translation>使你的多重射击和乱射法术的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="141"/>
+        <source>Increases the damage you deal with ranged weapons by %1%.</source>
+        <translation>使你的远程武器造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="149"/>
+        <source>Increases the attack power of party members within 45 yards by 100. Lasts 30 min.</source>
+        <translation>使半径45码范围内的小队成员的攻击强度提高100点，持续30分钟。</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="515"/>
@@ -1143,6 +1268,8 @@
         <location filename="Class/Druid/Spells/Swipe.cpp" line="127"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="10"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="103"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="25"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="111"/>
         <source>Ferocity</source>
         <translation>凶暴</translation>
     </message>
@@ -1401,6 +1528,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="11"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="24"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="19"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="43"/>
         <source>Thick Hide</source>
         <translation>厚皮</translation>
     </message>
@@ -1659,6 +1788,504 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="111"/>
         <source>Allows %1% of your Mana regeneration to continue while casting.</source>
         <translation>使你在施法时仍保持%1%的法力回复速度。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/BestialWrathBuff.cpp" line="8"/>
+        <source>Bestial Wrath (%1)</source>
+        <translation>狂野怒火（%1）</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/ExposeWeaknessBuff.cpp" line="8"/>
+        <location filename="Class/Hunter/HunterSpells.cpp" line="39"/>
+        <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="8"/>
+        <source>Expose Weakness</source>
+        <translation>破甲虚弱</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/HuntersMarkBuff.cpp" line="8"/>
+        <location filename="Class/Hunter/HunterSpells.cpp" line="32"/>
+        <location filename="Class/Hunter/Spells/HuntersMark.cpp" line="10"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="97"/>
+        <source>Hunter&apos;s Mark</source>
+        <translation>猎人印记</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/ImprovedAspectOfTheHawkBuff.cpp" line="6"/>
+        <location filename="Class/Hunter/Procs/ImprovedAspectOfTheHawkProc.cpp" line="8"/>
+        <location filename="Class/Hunter/Procs/ImprovedAspectOfTheHawkProc.cpp" line="15"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="15"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="94"/>
+        <source>Improved Aspect of the Hawk</source>
+        <translation>强化雄鹰守护</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/RapidFireBuff.cpp" line="8"/>
+        <location filename="Class/Hunter/Spells/RapidFire.cpp" line="9"/>
+        <source>Rapid Fire</source>
+        <translation>急速射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/RapidFireBuff.cpp" line="8"/>
+        <location filename="Class/Hunter/Buffs/RapidFireBuff.cpp" line="19"/>
+        <location filename="Class/Hunter/Buffs/RapidFireBuff.cpp" line="31"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="19"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="94"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="109"/>
+        <location filename="Class/Hunter/Spells/AutoShot.cpp" line="16"/>
+        <location filename="Class/Hunter/Spells/AutoShot.cpp" line="121"/>
+        <location filename="Class/Hunter/Spells/AutoShot.cpp" line="133"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="16"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="98"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="121"/>
+        <source>Cryptstalker Armor</source>
+        <translation>地穴追猎者</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/HunterSpells.cpp" line="46"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="14"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="16"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="66"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="18"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="86"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="112"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="114"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="123"/>
+        <source>Aimed Shot</source>
+        <translation>瞄准射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/HunterSpells.cpp" line="49"/>
+        <source>Cat</source>
+        <translation>猫</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/HunterSpells.cpp" line="52"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="12"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="58"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="87"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="124"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="134"/>
+        <source>Multi-Shot</source>
+        <translation>多重射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="15"/>
+        <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="36"/>
+        <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="48"/>
+        <source>Dragonstalker Armor</source>
+        <translation>巨龙追猎者</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="17"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="80"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="87"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="13"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="72"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="81"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="15"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="83"/>
+        <source>Efficiency</source>
+        <translation>效率</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="18"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="82"/>
+        <location filename="Class/Hunter/Spells/AimedShot.cpp" line="89"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="14"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="74"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="83"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="22"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="120"/>
+        <source>Mortal Shots</source>
+        <translation>致死射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/AspectOfTheHawk.cpp" line="9"/>
+        <source>Aspect of the Hawk</source>
+        <translation>雄鹰守护</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/AutoShot.cpp" line="15"/>
+        <location filename="Class/Hunter/Spells/AutoShot.cpp" line="89"/>
+        <source>Auto Shot</source>
+        <translation>自动射击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/HuntersMark.cpp" line="17"/>
+        <location filename="Class/Hunter/Spells/HuntersMark.cpp" line="38"/>
+        <location filename="Class/Hunter/Spells/HuntersMark.cpp" line="43"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="16"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="94"/>
+        <source>Improved Hunter&apos;s Mark</source>
+        <translation>强化猎人印记</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="15"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="76"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="85"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="24"/>
+        <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="131"/>
+        <source>Barrage</source>
+        <translation>弹幕</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="16"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="90"/>
+        <location filename="Class/Hunter/Spells/MultiShot.cpp" line="113"/>
+        <source>Giantstalker Armor</source>
+        <translation>巨人追猎者</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Spells/RapidFire.cpp" line="16"/>
+        <location filename="Class/Hunter/Spells/RapidFire.cpp" line="40"/>
+        <location filename="Class/Hunter/Spells/RapidFire.cpp" line="52"/>
+        <source>Striker&apos;s Garb</source>
+        <translation>攻击者</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="13"/>
+        <source>Beast Mastery</source>
+        <translation>野兽控制</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="16"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="33"/>
+        <source>Endurance Training</source>
+        <translation>耐久训练</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="17"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="39"/>
+        <source>Improved Eyes of the Beast</source>
+        <translation>强化野兽之眼</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="18"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="41"/>
+        <source>Improved Aspect of the Monkey</source>
+        <translation>强化灵猴守护</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="20"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="45"/>
+        <source>Improved Revive Pet</source>
+        <translation>强化复活宠物</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="21"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="51"/>
+        <source>Pathfinding</source>
+        <translation>寻路</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="22"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="55"/>
+        <source>Bestial Swiftness</source>
+        <translation>野兽迅捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="23"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="103"/>
+        <source>Unleashed Fury</source>
+        <translation>狂怒释放</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="24"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="61"/>
+        <source>Improved Mend Pet</source>
+        <translation>强化治疗宠物</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="26"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="67"/>
+        <source>Spirit Bond</source>
+        <translation>灵魂联结</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="27"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="70"/>
+        <source>Intimidation</source>
+        <translation>胁迫</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="28"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="119"/>
+        <source>Bestial Discipline</source>
+        <translation>野兽戒律</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="29"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="127"/>
+        <source>Frenzy</source>
+        <translation>狂乱</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="30"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="136"/>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="140"/>
+        <source>Bestial Wrath</source>
+        <translation>狂野怒火</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="34"/>
+        <source>Increases the Health of your pets by %1%.</source>
+        <translation>使你的宠物的生命值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="40"/>
+        <source>Increases the duration of your Eyes of the Beast by %1 sec.</source>
+        <translation>使你的野兽之眼的效果持续时间延长%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="42"/>
+        <source>Increases the Dodge bonus of your Aspect of the Monkey by %1%.</source>
+        <translation>使你的灵猴守护提供%1%的额外躲闪几率。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="44"/>
+        <source>Increases the Armor rating of your pets by %1%.</source>
+        <translation>使你的宠物的护甲值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="46"/>
+        <source>Revive Pet&apos;s casting time is reduced by %1 sec, mana cost is reduced by %2%, and increases the health your pet auto talent =s with by an additional %3%</source>
+        <translation>使你的复活宠物法术的施法时间减少%1秒，法力值消耗降低%2%，宠物复活后的生命值提高%3%</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="52"/>
+        <source>Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by %1%.</source>
+        <translation>使你的猎豹守护和豹群守护的速度加成效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="56"/>
+        <source>Increases the outdoor movement speed of your pets by 30%.</source>
+        <translation>使你的宠物在户外的移动速度提高30%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="62"/>
+        <source>Gives the Mend Pet spell a %1% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.</source>
+        <translation>使你的治疗宠物技能有%1%的几率每一跳驱散宠物身上的1个诅咒、疾病、魔法或中毒效果。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="68"/>
+        <source>While your pet is active, you and your pet will regenerate %1% of total health every 10 sec.</source>
+        <translation>当你的宠物被激活后，你和你的宠物都会每10秒回复%1%的生命值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="71"/>
+        <source>Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.</source>
+        <translation>命令你的宠物在下次击中敌人时进行胁迫，造成大量的威胁值，并使目标昏迷3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="95"/>
+        <source>While Aspect of the Hawk is active, all normal ranged attacks have a %1% chance of increasing ranged attack speed by 30% for 12 sec.</source>
+        <translation>当雄鹰守护处于激活状态时，所有普通的远程攻击都有%1%的几率使你的远程攻击速度提高30%，持续12秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="104"/>
+        <source>Increases the damage done by your pets by %1%.</source>
+        <translation>使你的宠物所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="112"/>
+        <source>Increases the critical strike chance of your pets by %1%.</source>
+        <translation>使你的宠物打出爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="120"/>
+        <source>Increases the Focus regeneration of your pets by %1%.</source>
+        <translation>使你的宠物的集中值回复速度提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="128"/>
+        <source>Gives your pet a %1% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.</source>
+        <translation>使你的宠物有%1%的几率在对敌人造成致命一击后获得攻击速度提高30%的效果，持续8秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="137"/>
+        <source>Send your pet into a rage causing 50% additional damage for 18 sec. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.</source>
+        <translation>使宠物进入疯狂状态，对目标造成的伤害提高50%，持续18秒。在这种状态下，宠物不会有任何恐惧或怜悯，也无法停止下来，除非被杀死。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="8"/>
+        <source>Survival</source>
+        <translation>生存</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="80"/>
+        <source>Monster Slaying</source>
+        <translation>怪物杀手</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="97"/>
+        <source>Humanoid Slaying</source>
+        <translation>人型生物杀手</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="16"/>
+        <source>Deflection</source>
+        <translation>偏斜</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="22"/>
+        <source>Entrapment</source>
+        <translation>诱捕</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="26"/>
+        <source>Savage Strikes</source>
+        <translation>野蛮打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="29"/>
+        <source>Improved Wing Clip</source>
+        <translation>强化摔绊</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="34"/>
+        <source>Clever Traps</source>
+        <translation>灵巧陷阱</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="38"/>
+        <source>Survivalist</source>
+        <translation>生存专家</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="40"/>
+        <source>Deterrence</source>
+        <translation>威慑</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="45"/>
+        <source>Trap Mastery</source>
+        <translation>陷阱掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="111"/>
+        <source>Surefooted</source>
+        <translation>稳固</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="48"/>
+        <source>Improved Feign Death</source>
+        <translation>强化假死</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="120"/>
+        <source>Killer Instinct</source>
+        <translation>杀戮本能</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="54"/>
+        <source>Counterattack</source>
+        <translation>反击</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="129"/>
+        <source>Lightning Reflexes</source>
+        <translation>闪电反射</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="65"/>
+        <source>Wyvern Sting</source>
+        <translation>翼龙钉刺</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="17"/>
+        <source>Increases your Parry chance by %1%.</source>
+        <translation>使你的招架几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="23"/>
+        <source>Gives your Immolation Trap, Frost Trap, and Explosive Trap a %1% chance to entrap the target, preventing them from moving for 5 sec.</source>
+        <translation>使你的献祭陷阱、冰霜陷阱和爆炸陷阱有%1%的几率困住目标，令它们无法移动，持续5秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="27"/>
+        <source>Increases the critical strike chance of Raptor Strike and Mongoose Bite by %1%.</source>
+        <translation>使你的猛禽一击和猫鼬撕咬的爆击几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="30"/>
+        <source>Gives your Wing Clip ability a %1% chance to immobilize the target for 5 sec.</source>
+        <translation>使你的摔绊技能有%1%的几率令目标在5秒内无法移动。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="35"/>
+        <source>Increases the duration of Freezing and Frost trap effects by %1% and the damage of Immolation and Explosive trap effects by %2%.</source>
+        <translation>使你的冰冻陷阱和冰霜陷阱的效果持续时间提高%1%，献祭陷阱和爆炸陷阱所造成的伤害提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="39"/>
+        <source>Increases total health by %1%.</source>
+        <translation>使你的生命值上限提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="41"/>
+        <source>When activated, increases your Dodge and Parry chance by 25% for 10 sec.</source>
+        <translation>激活之后，使你的躲闪和招架几率提高25%， 持续10秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="46"/>
+        <source>Decreases the chance enemies will resist trap effects by %1%.</source>
+        <translation>使敌人抵抗你的陷阱效果的几率降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="49"/>
+        <source>Reduces the chance your Feign Death ability will be resisted by %1%.</source>
+        <translation>使敌人抵抗你的假死技能的几率降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="55"/>
+        <source>A strike that becomes active after parrying an opponent&apos;s attack. This attack deals 40 damage and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried.</source>
+        <translation>在招架敌人的攻击之后可以使用的技能，对敌人造成40点伤害，并使其无法行动，持续5秒。反击无法被格挡、躲闪或招架。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="66"/>
+        <source>A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes (100.2% of Spell Power) Nature damage over 12 sec. Only usable out of combat. Only one Sting per Hunter can be active on the target at a time.</source>
+        <translation>钉刺目标，使其沉睡12秒。任何伤害都会取消沉睡效果。当目标醒来时，钉刺会在12秒内对其造成300点自然伤害。只能在非战斗状态下使用。每个猎人在同一时间内只能对一个目标使用一种钉刺，且同类钉刺无法叠加。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="81"/>
+        <source>Increases all damage caused against Beasts, Giants and Dragonkin targets by %1% and increases critical damage caused against Beasts, Giants and Dragonkin targets by an additional %2%.</source>
+        <translation>使你对野兽、巨人和龙类所造成的所有伤害提高%1%，对野兽、巨人和龙类所造成的爆击伤害提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="98"/>
+        <source>Increases all damage caused against Humanoid targets by %1% and increases critical damage caused against Humanoid targets by an additional %2%.</source>
+        <translation>使你对人型生物目标所造成的所有伤害提高%1%，对人型生物目标所造成的爆击伤害提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="112"/>
+        <source>Increases hit chance by %1% and increases the chance movement impairing effects will be resisted by an additional %2%.</source>
+        <translation>使你的攻击命中敌人的几率提高%1%，并使你抵抗移动限制效果的几率提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="121"/>
+        <source>Increases your critical strike chance with all attacks by %1%.</source>
+        <translation>使你的所有攻击造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="130"/>
+        <source>Increases your Agility by %1%.</source>
+        <translation>使你的敏捷提高%1%。</translation>
     </message>
 </context>
 <context>
