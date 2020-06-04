@@ -273,6 +273,7 @@
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="476"/>
+        <location filename="Statistics/NumberCruncher.cpp" line="435"/>
         <source>+10 Agility</source>
         <translation>+10 敏捷</translation>
     </message>
@@ -284,6 +285,7 @@
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="479"/>
+        <location filename="Statistics/NumberCruncher.cpp" line="453"/>
         <source>+10 Intellect</source>
         <translation>+10 智力</translation>
     </message>
@@ -625,6 +627,7 @@
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="539"/>
+        <location filename="Statistics/NumberCruncher.cpp" line="437"/>
         <source>+10 Strength</source>
         <translation>+10 力量</translation>
     </message>
@@ -6797,6 +6800,71 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="91"/>
         <source>Time Remaining GCD %1 %2 seconds</source>
         <translation>剩余公共CD时间 %1 %2 秒</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="439"/>
+        <source>+1% Hit Chance</source>
+        <translation>+1% 命中几率</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="441"/>
+        <source>+1% Crit Chance</source>
+        <translation>+1% 爆击几率</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="443"/>
+        <source>+10 Attack Power</source>
+        <translation>+10 攻击强度</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="445"/>
+        <source>+1 Axe Skill</source>
+        <translation>+1 斧类武器技能</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="447"/>
+        <source>+1 Dagger Skill</source>
+        <translation>+1 匕首技能</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="449"/>
+        <source>+1 Mace Skill</source>
+        <translation>+1 锤类武器技能</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="451"/>
+        <source>+1 Sword Skill</source>
+        <translation>+1 剑类武器技能</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="455"/>
+        <source>+10 Spirit</source>
+        <translation>+10 精神</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="457"/>
+        <source>+10 Mana per 5</source>
+        <translation>+10 5回法力值</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="459"/>
+        <source>+10 Spell Damage</source>
+        <translation>+10 法术伤害</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="461"/>
+        <source>+1% Spell Crit Chance</source>
+        <translation>+1% 法术爆击几率</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="463"/>
+        <source>+1% Spell Hit Chance</source>
+        <translation>+1% 法术命中几率</translation>
+    </message>
+    <message>
+        <location filename="Statistics/NumberCruncher.cpp" line="465"/>
+        <source>+10 Spell Penetration</source>
+        <translation>+10 法术穿透</translation>
     </message>
 </context>
 <context>

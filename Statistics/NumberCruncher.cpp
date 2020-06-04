@@ -1,5 +1,5 @@
 #include "NumberCruncher.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "ClassStatistics.h"
@@ -432,37 +432,37 @@ double NumberCruncher::get_confidence_interval_for_option(SimOption::Name option
 
 QString get_name_for_option(const SimOption::Name option) {
     if (option == SimOption::Name::ScaleAgility)
-        return "+10 Agility";
+        return QObject::tr("+10 Agility");
     if (option == SimOption::Name::ScaleStrength)
-        return "+10 Strength";
+        return QObject::tr("+10 Strength");
     if (option == SimOption::Name::ScaleHitChance)
-        return "+1% Hit Chance";
+        return QObject::tr("+1% Hit Chance");
     if (option == SimOption::Name::ScaleCritChance)
-        return "+1% Crit Chance";
+        return QObject::tr("+1% Crit Chance");
     if (option == SimOption::Name::ScaleAttackPower)
-        return "+10 Attack Power";
+        return QObject::tr("+10 Attack Power");
     if (option == SimOption::Name::ScaleAxeSkill)
-        return "+1 Axe Skill";
+        return QObject::tr("+1 Axe Skill");
     if (option == SimOption::Name::ScaleDaggerSkill)
-        return "+1 Dagger Skill";
+        return QObject::tr("+1 Dagger Skill");
     if (option == SimOption::Name::ScaleMaceSkill)
-        return "+1 Mace Skill";
+        return QObject::tr("+1 Mace Skill");
     if (option == SimOption::Name::ScaleSwordSkill)
-        return "+1 Sword Skill";
+        return QObject::tr("+1 Sword Skill");
     if (option == SimOption::Name::ScaleIntellect)
-        return "+10 Intellect";
+        return QObject::tr("+10 Intellect");
     if (option == SimOption::Name::ScaleSpirit)
-        return "+10 Spirit";
+        return QObject::tr("+10 Spirit");
     if (option == SimOption::Name::ScaleMp5)
-        return "+10 Mana per 5";
+        return QObject::tr("+10 Mana per 5");
     if (option == SimOption::Name::ScaleSpellDamage)
-        return "+10 Spell Damage";
+        return QObject::tr("+10 Spell Damage");
     if (option == SimOption::Name::ScaleSpellCritChance)
-        return "+1% Spell Crit Chance";
+        return QObject::tr("+1% Spell Crit Chance");
     if (option == SimOption::Name::ScaleSpellHitChance)
-        return "+1% Spell Hit Chance";
+        return QObject::tr("+1% Spell Hit Chance");
     if (option == SimOption::Name::ScaleSpellPenetration)
-        return "+10 Spell Penetration";
+        return QObject::tr("+10 Spell Penetration");
 
     return "<unset scale name>";
 }
