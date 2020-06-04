@@ -1,5 +1,5 @@
 #include "WindfuryWeapon.h"
-
+#include <QObject>
 #include "CooldownControl.h"
 #include "Equipment.h"
 #include "NoEffectSelfBuff.h"
@@ -9,7 +9,7 @@
 #include "WindfuryWeaponProc.h"
 
 WindfuryWeapon::WindfuryWeapon(Shaman* pchar, const int spell_rank) :
-    Spell("Windfury Weapon",
+    Spell(QObject::tr("Windfury Weapon"),
           "Assets/spell/Spell_nature_cyclone.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -17,8 +17,8 @@ WindfuryWeapon::WindfuryWeapon(Shaman* pchar, const int spell_rank) :
           ResourceType::Mana,
           0,
           spell_rank),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Elemental Weapons", 3, DisabledAtZero::No)}),
-    buff(new NoEffectSelfBuff(pchar, 300, QString("Windfury Weapon (rank %1)").arg(spell_rank), "Assets/spell/Spell_nature_cyclone.png", Hidden::No)),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Elemental Weapons"), 3, DisabledAtZero::No)}),
+    buff(new NoEffectSelfBuff(pchar, 300, QObject::tr("Windfury Weapon (rank %1)").arg(spell_rank), "Assets/spell/Spell_nature_cyclone.png", Hidden::No)),
     proc(new WindfuryWeaponProc(pchar, spell_rank)) {
     buff->link_proc_application(proc);
     buff->link_proc_expiration(proc);

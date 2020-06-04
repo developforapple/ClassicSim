@@ -1,11 +1,11 @@
 #include "ElementalDevastation.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 
 ElementalDevastation::ElementalDevastation(Character* pchar) :
-    SelfBuff(pchar, "Elemental Devastation", "Assets/spell/Spell_fire_elementaldevastation.png", 10, 0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Elemental Devastation", 3, DisabledAtZero::Yes)}) {}
+    SelfBuff(pchar, QObject::tr("Elemental Devastation"), "Assets/spell/Spell_fire_elementaldevastation.png", 10, 0),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Elemental Devastation"), 3, DisabledAtZero::Yes)}) {}
 
 void ElementalDevastation::buff_effect_when_applied() {
     pchar->get_stats()->increase_melee_aura_crit(crit_bonus);

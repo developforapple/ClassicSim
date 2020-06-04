@@ -1,5 +1,5 @@
 #include "Stormstrike.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -9,14 +9,14 @@
 #include "StormstrikeBuff.h"
 
 Stormstrike::Stormstrike(Shaman* pchar, ShamanSpells* spells, StormstrikeBuff* buff) :
-    Spell("Stormstrike",
+    Spell(QObject::tr("Stormstrike"),
           "Assets/spell/Spell_holy_sealofmight.png",
           pchar,
           new CooldownControl(pchar, 12.0),
           RestrictedByGcd::Yes,
           ResourceType::Mana,
           319),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Stormstrike", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Stormstrike"), 1, DisabledAtZero::Yes)}),
     shaman(pchar),
     spells(spells),
     stormstrike_buff(buff) {

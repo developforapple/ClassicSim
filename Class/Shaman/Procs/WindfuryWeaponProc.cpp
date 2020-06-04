@@ -1,5 +1,5 @@
 #include "WindfuryWeaponProc.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CharacterSpells.h"
@@ -12,14 +12,14 @@
 #include "Utils/Check.h"
 
 WindfuryWeaponProc::WindfuryWeaponProc(Shaman* pchar, const int spell_rank) :
-    Proc(QString("Windfury Weapon MH (rank %1)").arg(spell_rank),
+    Proc(QObject::tr("Windfury Weapon MH (rank %1)").arg(spell_rank),
          "Assets/spell/Spell_nature_cyclone.png",
          0.2,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>(),
          pchar),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Elemental Weapons", 3, DisabledAtZero::No)}) {
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Elemental Weapons"), 3, DisabledAtZero::No)}) {
     this->enabled = false;
 
     proc_sources = {ProcInfo::Source::MainhandSpell, ProcInfo::Source::MainhandSwing};

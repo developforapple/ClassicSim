@@ -1,5 +1,5 @@
 #include "LightningBolt.h"
-
+#include <QObject>
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -12,7 +12,7 @@
 #include "Utils/Check.h"
 
 LightningBolt::LightningBolt(Shaman* pchar, ShamanSpells* spells, const int spell_rank) :
-    Spell("Lightning Bolt",
+    Spell(QObject::tr("Lightning Bolt"),
           "Assets/spell/Spell_nature_lightning.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -22,11 +22,11 @@ LightningBolt::LightningBolt(Shaman* pchar, ShamanSpells* spells, const int spel
           spell_rank),
     CastingTimeRequirer(pchar, SuppressibleCast::Yes, 2500),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Tidal Mastery", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Call of Thunder", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Concussion", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Convection", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Lightning Mastery", 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Tidal Mastery"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Call of Thunder"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Concussion"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Convection"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Lightning Mastery"), 5, DisabledAtZero::No),
     }),
     ItemModificationRequirer({23199}),
     spells(spells) {
@@ -164,28 +164,28 @@ void LightningBolt::complete_cast_effect() {
 }
 
 void LightningBolt::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Tidal Mastery")
+    if (talent_name == QObject::tr("Tidal Mastery"))
         tidal_mastery_mod = tidal_mastery_ranks[curr];
-    if (talent_name == "Call of Thunder")
+    if (talent_name == QObject::tr("Call of Thunder"))
         call_of_thunder_mod = call_of_thunder_ranks[curr];
-    if (talent_name == "Concussion")
+    if (talent_name == QObject::tr("Concussion"))
         concussion_mod = concussion_ranks[curr];
-    if (talent_name == "Convection")
+    if (talent_name == QObject::tr("Convection"))
         resource_cost = static_cast<unsigned>(round(base_resource_cost * convection_ranks[curr]));
-    if (talent_name == "Lightning Mastery")
+    if (talent_name == QObject::tr("Lightning Mastery"))
         casting_time_ms -= lightning_mastery_mod;
 }
 
 void LightningBolt::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Tidal Mastery")
+    if (talent_name == QObject::tr("Tidal Mastery"))
         tidal_mastery_mod = tidal_mastery_ranks[curr];
-    if (talent_name == "Call of Thunder")
+    if (talent_name == QObject::tr("Call of Thunder"))
         call_of_thunder_mod = call_of_thunder_ranks[curr];
-    if (talent_name == "Concussion")
+    if (talent_name == QObject::tr("Concussion"))
         concussion_mod = concussion_ranks[curr];
-    if (talent_name == "Convection")
+    if (talent_name == QObject::tr("Convection"))
         resource_cost = static_cast<unsigned>(round(base_resource_cost * convection_ranks[curr]));
-    if (talent_name == "Lightning Mastery")
+    if (talent_name == QObject::tr("Lightning Mastery"))
         casting_time_ms += lightning_mastery_mod;
 }
 

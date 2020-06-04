@@ -1,5 +1,5 @@
 #include "ShamanSpells.h"
-
+#include <QObject>
 #include "Berserking.h"
 #include "ClearcastingShaman.h"
 #include "ElementalDevastation.h"
@@ -44,7 +44,7 @@ ShamanSpells::ShamanSpells(Shaman* shaman) : CharacterSpells(shaman), shaman(sha
     this->clearcasting = new ClearcastingShaman(shaman);
     this->elemental_devastation = new ElementalDevastation(shaman);
 
-    auto stormstrike_buff = static_cast<StormstrikeBuff*>(pchar->get_raid_control()->get_shared_raid_buff("Stormstrike"));
+    auto stormstrike_buff = static_cast<StormstrikeBuff*>(pchar->get_raid_control()->get_shared_raid_buff(QObject::tr("Stormstrike")));
     if (stormstrike_buff == nullptr) {
         stormstrike_buff = new StormstrikeBuff(shaman);
         stormstrike_buff->enable_buff();

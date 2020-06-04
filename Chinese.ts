@@ -1195,6 +1195,7 @@
     <message>
         <location filename="Class/Druid/Procs/ClearcastingDruid.cpp" line="14"/>
         <location filename="Class/Mage/Procs/ClearcastingMage.cpp" line="9"/>
+        <location filename="Class/Shaman/Procs/ClearcastingShaman.cpp" line="9"/>
         <source>Clearcasting</source>
         <translation>节能施法</translation>
     </message>
@@ -1648,6 +1649,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="9"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="9"/>
         <source>Restoration</source>
         <translation>恢复</translation>
     </message>
@@ -1703,6 +1705,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="21"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="67"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="53"/>
         <source>Nature&apos;s Swiftness</source>
         <translation>自然迅捷</translation>
     </message>
@@ -2750,6 +2754,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="118"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="22"/>
         <source>Increases your maximum Mana by %1%.</source>
         <translation>使你的法力值上限提高%1%。</translation>
     </message>
@@ -3325,6 +3330,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="14"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="40"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="16"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="53"/>
         <source>Toughness</source>
         <translation>坚韧</translation>
     </message>
@@ -3343,12 +3350,16 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="17"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="52"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="24"/>
         <source>Shield Specialization</source>
         <translation>盾牌专精</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="18"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="55"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="15"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="49"/>
         <source>Anticipation</source>
         <translation>预知</translation>
     </message>
@@ -4312,6 +4323,542 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Rogue.cpp" line="55"/>
         <source>OH</source>
         <translation>副手</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Buffs/ElementalDevastation.cpp" line="7"/>
+        <location filename="Class/Shaman/Buffs/ElementalDevastation.cpp" line="8"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="123"/>
+        <source>Elemental Devastation</source>
+        <translation>元素浩劫</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Buffs/StormstrikeBuff.cpp" line="7"/>
+        <location filename="Class/Shaman/ShamanSpells.cpp" line="47"/>
+        <location filename="Class/Shaman/Spells/Stormstrike.cpp" line="12"/>
+        <location filename="Class/Shaman/Spells/Stormstrike.cpp" line="19"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="18"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="126"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="127"/>
+        <source>Stormstrike</source>
+        <translation>风暴打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Procs/ClearcastingShaman.cpp" line="16"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="94"/>
+        <source>Elemental Focus</source>
+        <translation>元素集中</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Procs/WindfuryWeaponProc.cpp" line="15"/>
+        <source>Windfury Weapon MH (rank %1)</source>
+        <translation>风怒武器 主手（等级%1）</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Procs/WindfuryWeaponProc.cpp" line="22"/>
+        <location filename="Class/Shaman/Spells/WindfuryWeapon.cpp" line="20"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="17"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="106"/>
+        <source>Elemental Weapons</source>
+        <translation>元素武器</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="15"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="107"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="134"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="95"/>
+        <source>Lightning Bolt</source>
+        <translation>闪电箭</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="25"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="167"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="180"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="92"/>
+        <source>Tidal Mastery</source>
+        <translation>潮汐掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="26"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="169"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="182"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="106"/>
+        <source>Call of Thunder</source>
+        <translation>雷霆召唤</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="27"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="171"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="184"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="85"/>
+        <source>Concussion</source>
+        <translation>震荡</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="28"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="173"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="186"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="76"/>
+        <source>Convection</source>
+        <translation>传导</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="29"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="175"/>
+        <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="188"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="131"/>
+        <source>Lightning Mastery</source>
+        <translation>闪电掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/WindfuryWeapon.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="107"/>
+        <source>Windfury Weapon</source>
+        <translation>风怒武器</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/Spells/WindfuryWeapon.cpp" line="21"/>
+        <source>Windfury Weapon (rank %1)</source>
+        <translation>风怒武器（等级%1）</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="9"/>
+        <source>Elemental</source>
+        <translation>元素</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="23"/>
+        <source>Earth&apos;s Grasp</source>
+        <translation>大地之握</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="26"/>
+        <source>Elemental Warding</source>
+        <translation>元素防护</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="30"/>
+        <source>Call of Flame</source>
+        <translation>烈焰召唤</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="35"/>
+        <source>Reverberation</source>
+        <translation>回响</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="41"/>
+        <source>Improved Fire Totems</source>
+        <translation>强化火焰图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="116"/>
+        <source>Eye of the Storm</source>
+        <translation>风暴之眼</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="49"/>
+        <source>Storm Reach</source>
+        <translation>风暴来临</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="52"/>
+        <source>Elemental Fury</source>
+        <translation>元素之怒</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="62"/>
+        <source>Elemental Mastery</source>
+        <translation>元素掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="24"/>
+        <source>Increases the health of your Stoneclaw Totem by %1% and the radius of your Earthbind Totem by %2%.</source>
+        <translation>使你的石爪图腾的生命值提高%1%，地缚图腾的影响范围增加%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="27"/>
+        <source>Reduces damage taken  from Fire, Frost and Nature effects by %1%.</source>
+        <translation>使你在被火焰、冰霜和自然系法术击中时所承受的伤害降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="31"/>
+        <source>Increases the damage done by your Fire Totems by %1%.</source>
+        <translation>使你的火焰图腾所能造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="36"/>
+        <source>Reduces the cooldown of your Shock spells by %1 sec.</source>
+        <translation>使你的震击法术的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="42"/>
+        <source>Reduces the delay before your Fire Nova Totem activates by %1 sec. and decreases the threat generated by your Magma Totem by %2%.</source>
+        <translation>使你的火焰新星图腾激活所需的延迟时间减少%1秒，熔岩图腾所造成的威胁值降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="50"/>
+        <source>Increases the range of your Lightning Bolt and Chain Lightning spells by %1 yards.</source>
+        <translation>使你的闪电箭和闪电链的射程延长%1码。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="53"/>
+        <source>Increases the critical strike damage bonus of your Searing, Magma, and Fire Nova Totems and your Fire, Frost, and Nature spells by 100%.</source>
+        <translation>使你的灼热图腾、熔岩图腾、火焰新星图腾以及你的火焰、冰霜和自然系法术的爆击伤害加成提高100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="63"/>
+        <source>When activated, this spell gives your next Fire, Frost, or Nature damage spell a 100% critical strike chance and reduces the mana cost by 100%.</source>
+        <translation>激活之后，你的下一个火焰、冰霜或自然法术有100%的几率造成爆击，且法力值消耗降低100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="77"/>
+        <source>Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by %1%.</source>
+        <translation>使你的震击、闪电箭和闪电链所消耗的法力值减少%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="86"/>
+        <source>Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by %1%.</source>
+        <translation>使你的震击、闪电箭和闪电链所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="95"/>
+        <source>Gives you a 10% chance to enter a Clearcasting state after casting any Fire, Frost, or Nature damage spell. The Clearcasting state reduces the mana cost of your next damage spell by 100%.</source>
+        <translation>使你有10%的几率在施放任何火焰、冰霜或自然系的伤害性法术之后进入节能施法状态。这个状态可以使你的下一个伤害性法术所消耗的法力值减少100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="103"/>
+        <source>Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by an additional %1%.</source>
+        <translation>使你的闪电箭和闪电链造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="113"/>
+        <source>Gives you a %1% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.</source>
+        <translation>使你有%1%的几率在受到近战或远程爆击之后获得持续6秒的专注施法效果，在此期间，你不会因为受到伤害而延长施法时间。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="124"/>
+        <source>Your offensive spell crits will increase your chance to get a critical strike with melee attacks by %1% for 10 sec.</source>
+        <translation>使你的攻击性法术在造成爆击后，有一定几率令你的近战攻击爆击率提高%1%，持续10秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="132"/>
+        <source>Reduces the cast time of your Lightning Bolt and Chain Lightning spells by %1 sec.</source>
+        <translation>使你的闪电箭和闪电链的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="9"/>
+        <source>Enhancement</source>
+        <translation>增强</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="21"/>
+        <source>Ancestral Knowledge</source>
+        <translation>先祖知识</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="29"/>
+        <source>Guardian Totems</source>
+        <translation>守护图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="83"/>
+        <source>Thundering Strikes</source>
+        <translation>雷鸣猛击</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="34"/>
+        <source>Improved Ghost Wolf</source>
+        <translation>强化幽魂之狼</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="36"/>
+        <source>Improved Lightning Shield</source>
+        <translation>强化闪电之盾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="42"/>
+        <source>Enhancing Totems</source>
+        <translation>强化图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="46"/>
+        <source>Two-Handed Axes and Maces</source>
+        <translation>双手斧和锤</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="15"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="92"/>
+        <source>Flurry</source>
+        <translation>乱舞</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="16"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="58"/>
+        <source>Improved Weapon Totems</source>
+        <translation>强化武器图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="17"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="62"/>
+        <source>Parry</source>
+        <translation>招架</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="18"/>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="113"/>
+        <source>Weapon Mastery</source>
+        <translation>武器掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="25"/>
+        <source>Increases your chance to block attacks with a shield by %1% and increases the amount blocked by %2%.</source>
+        <translation>使你用盾牌格挡攻击的几率提高%1%，格挡成功所减免的伤害量提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="30"/>
+        <source>Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by %1% and reduces the cooldown of your Grounding Totem by %2 sec.</source>
+        <translation>使你的石肤图腾和风墙图腾所能吸收的伤害提高%1%，根基图腾的冷却时间减少%2秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="35"/>
+        <source>Reduces cast time of your Ghost Wolf spell by %1 sec.</source>
+        <translation>使你的幽魂之狼法术的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="37"/>
+        <source>Increases the damage done by your Lightning Shield orbs by %1%.</source>
+        <translation>使你的闪电之盾法术所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="43"/>
+        <source>Increases the effect of your Strength of Earth and Grace of Air Totems by %1%.</source>
+        <translation>使你的大地之力图腾和风之优雅图腾的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="47"/>
+        <source>Allows you to use Two-Handed Axes and Two-Handed Maces.</source>
+        <translation>使你可以使用双手斧和双手锤。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="50"/>
+        <source>Increases your chance to dodge by an additional %1%.</source>
+        <translation>使你的躲闪几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="54"/>
+        <source>Increases your armor value from items by %1%.</source>
+        <translation>使你因装备而获得的护甲值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="59"/>
+        <source>Increases the melee attack power bonus of your Windfury Totem by %1% and increases the damage caused by your Flametongue Totem by %2%.</source>
+        <translation>使你的风怒图腾所提供的近战攻击强度加成提高%1%，火舌图腾所造成的伤害提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="63"/>
+        <source>Gives a chance to parry enemy melee attacks.</source>
+        <translation>有一定几率招架敌人的近战攻击。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="84"/>
+        <source>Improves your chance to get a critical strike with your weapon attacks by %1%.</source>
+        <translation>使你的武器造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="93"/>
+        <source>Increases your attack speed by %1% for your next 3 swings after dealing a critical strike.</source>
+        <translation>在你打出爆击之后，使你的下3次近战攻击速度提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="100"/>
+        <source>Increases the melee attack power bonus of your Rockbiter Weapon by %1%, your Windfury Weapon effect by %2% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by %3%.</source>
+        <translation>使你的石化武器所提供的近战攻击强度加成提高%1%，风怒武器所提供的近战攻击强度加成提高%2%，火舌武器和冰封武器所造成的伤害提高%3%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="114"/>
+        <source>Increases the damage you deal with all weapons by %1%.</source>
+        <translation>使你用所有武器造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="123"/>
+        <source>Gives you an extra attack. In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%. Lasts 12 sec.</source>
+        <translation>使你获得一次额外的攻击机会，另外，你的下2次攻击对敌人造成的自然伤害提高20%，持续12秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="17"/>
+        <source>Improved Healing Wave</source>
+        <translation>强化治疗波</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="21"/>
+        <source>Tidal Focus</source>
+        <translation>潮汐集中</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="25"/>
+        <source>Improved Reincarnation</source>
+        <translation>强化复生</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="77"/>
+        <source>Ancestral Healing</source>
+        <translation>先祖治疗</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="29"/>
+        <source>Totemic Focus</source>
+        <translation>图腾集中</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="83"/>
+        <source>Nature&apos;s Guidance</source>
+        <translation>自然指引</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="34"/>
+        <source>Healing Focus</source>
+        <translation>治疗专注</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="37"/>
+        <source>Totemic Mastery</source>
+        <translation>图腾掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="40"/>
+        <source>Healing Grace</source>
+        <translation>治疗之赐</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="46"/>
+        <source>Restorative Totems</source>
+        <translation>恢复图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="104"/>
+        <source>Healing Way</source>
+        <translation>治疗之道</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="60"/>
+        <source>Purification</source>
+        <translation>净化</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="14"/>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="64"/>
+        <source>Mana Tide Totem</source>
+        <translation>法力之潮图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="18"/>
+        <source>Reduces the casting time of your Healing Wave spell by 0.%1 sec.</source>
+        <translation>使你的治疗波的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="22"/>
+        <source>Reduces the Mana cost of your healing spells by %1%.</source>
+        <translation>使你的治疗法术所消耗的法力值减少%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="26"/>
+        <source>Reduces the cooldown of your Reincarnation spell by %1 min and increases the amount of health and mana you reincarnate with by an additional %2%.</source>
+        <translation>使你的复生法术的冷却时间减少%1分钟，并使你在重生后所获得的生命值和法力值提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="30"/>
+        <source>Reduces the mana cost of your totems by %1%.</source>
+        <translation>使你施放图腾所消耗的法力值减少%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="35"/>
+        <source>Gives you a %1% chance to avoid interruption caused by damage while casting any healing spell.</source>
+        <translation>使你在施放任意治疗法术的时候有%1%的几率避免因受到伤害而被打断。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="38"/>
+        <source>The radius of your totems that affect friendly targets is increased to 30yd.</source>
+        <translation>你的图腾影响友方单位的半径增加到30码。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="41"/>
+        <source>Reduces the threat generated by your healing spells by %1%.</source>
+        <translation>使你的所有治疗法术所造成的威胁值降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="47"/>
+        <source>Increases the effect of your Mana Spring and Healing Stream Totems by %1%.</source>
+        <translation>使你的法力之泉图腾和治疗之泉图腾的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="54"/>
+        <source>When activated, your next Nature spell with a casting time less than 10 sec. becomes an instant cast spell.</source>
+        <translation>激活之后，你的下一个施法时间低于10秒的自然法术会成为瞬发法术。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="61"/>
+        <source>Increases the effectiveness of your healing spells by %1%.</source>
+        <translation>使你的治疗法术的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="65"/>
+        <source>Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 170 mana every 3 seconds to group members within 20 yards.</source>
+        <translation>在施法者身边召唤一个生命值为5点的法力之潮图腾，持续12秒。它可以为半径20码范围内的小队成员每3秒回复170点法力值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="75"/>
+        <source>Increases your target&apos;s armor value by %1% for 15 sec after getting a critical effect from on of your healing spells.</source>
+        <translation>在你的任何一个治疗法术对目标造成极效治疗效果后，使目标因装备而获得的护甲值提高%1%，持续15秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="84"/>
+        <source>Increases your chance to hit with melee attacks and spells by %1%.</source>
+        <translation>使你的法术和近战攻击命中目标的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="93"/>
+        <source>Increases the critical effect chance of your healing and lightning spells by %1%.</source>
+        <translation>使你的治疗法术的极效治疗效果和闪电法术的爆击效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="101"/>
+        <source>Your Healing Wave spells have a %1% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec. This effect will stack up to 3 times.</source>
+        <translation>你的治疗波有%1%的几率令你的目标由以后的治疗波获得额外的治疗效果。这个效果使目标所受到的治疗效果提高6%，持续15秒，可叠加3次。</translation>
     </message>
 </context>
 <context>
