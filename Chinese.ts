@@ -660,86 +660,103 @@
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="48"/>
+        <location filename="Equipment/Item/Item.cpp" line="614"/>
         <source>+%1 Strength</source>
         <translation>+%1 力量</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="51"/>
+        <location filename="Equipment/Item/Item.cpp" line="617"/>
         <source>+%1 Agility</source>
         <translation>+%1 敏捷</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="54"/>
+        <location filename="Equipment/Item/Item.cpp" line="620"/>
         <source>+%1 Stamina</source>
         <translation>+%1 耐力</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="57"/>
+        <location filename="Equipment/Item/Item.cpp" line="623"/>
         <source>+%1 Intellect</source>
         <translation>+%1 智力</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="60"/>
+        <location filename="Equipment/Item/Item.cpp" line="626"/>
         <source>+%1 Spirit</source>
         <translation>+%1 精神</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="66"/>
+        <location filename="Equipment/Item/Item.cpp" line="631"/>
         <source>Equip: Improves your chance to get a critical strike by %1%.</source>
         <translation>装备：使你造成爆击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="72"/>
+        <location filename="Equipment/Item/Item.cpp" line="636"/>
         <source>Equip: Improves your chance to hit by %1%.</source>
         <translation>装备：使你击中目标的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="76"/>
+        <location filename="Equipment/Item/Item.cpp" line="639"/>
         <source>Equip: +%1 Attack Power.</source>
         <translation>装备：+%1 攻击强度。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="79"/>
+        <location filename="Equipment/Item/Item.cpp" line="642"/>
         <source>Equip: +%1 Ranged Attack Power.</source>
         <translation>装备：+%1 远程攻击强度。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="82"/>
+        <location filename="Equipment/Item/Item.cpp" line="645"/>
         <source>Equip: +%1 Attack Power when fighting Beasts.</source>
         <translation>装备：对野兽的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="85"/>
+        <location filename="Equipment/Item/Item.cpp" line="648"/>
         <source>Equip: +%1 Attack Power when fighting Demons.</source>
         <translation>装备：对恶魔的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="88"/>
+        <location filename="Equipment/Item/Item.cpp" line="651"/>
         <source>Equip: +%1 Attack Power when fighting Dragonkin.</source>
         <translation>装备：对龙类的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="91"/>
+        <location filename="Equipment/Item/Item.cpp" line="654"/>
         <source>Equip: +%1 Attack Power when fighting Undead.</source>
         <translation>装备：对亡灵的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="94"/>
+        <location filename="Equipment/Item/Item.cpp" line="657"/>
         <source>Equip: +%1 Weapon Damage.</source>
         <translation>装备：+%1 武器伤害。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="97"/>
+        <location filename="Equipment/Item/Item.cpp" line="660"/>
         <source>Equip: Increased Axes +%1.</source>
         <translation>装备：斧类武器技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="100"/>
+        <location filename="Equipment/Item/Item.cpp" line="663"/>
         <source>Equip: Increased Daggers +%1.</source>
         <translation>装备：匕首技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="103"/>
+        <location filename="Equipment/Item/Item.cpp" line="669"/>
         <source>Equip: Increased Swords +%1.</source>
         <translatorcomment>Is &quot;MACE&quot;, not &quot;Swords&quot;.</translatorcomment>
         <translation>装备：锤类武器技能提高%1点。</translation>
@@ -751,141 +768,169 @@
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="109"/>
+        <location filename="Equipment/Item/Item.cpp" line="672"/>
         <source>Equip: Increased Two-handed Axes +%1.</source>
         <translation>装备：双手斧技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="112"/>
+        <location filename="Equipment/Item/Item.cpp" line="675"/>
         <source>Equip: Increased Two-handed Maces +%1.</source>
         <translation>装备：双手锤技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="115"/>
+        <location filename="Equipment/Item/Item.cpp" line="678"/>
         <source>Equip: Increased Two-handed Swords +%1.</source>
         <translation>装备：双手剑技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="118"/>
+        <location filename="Equipment/Item/Item.cpp" line="681"/>
         <source>Equip: Increased Bows +%1.</source>
         <translation>装备：弓箭技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="121"/>
+        <location filename="Equipment/Item/Item.cpp" line="684"/>
         <source>Equip: Increased Crossbows +%1.</source>
         <translation>装备：弩技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="124"/>
+        <location filename="Equipment/Item/Item.cpp" line="687"/>
         <source>Equip: Increased Guns +%1.</source>
         <translation>装备：枪械技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="127"/>
+        <location filename="Equipment/Item/Item.cpp" line="690"/>
         <source>Equip: Restores %1 mana per 5 sec.</source>
         <translation>装备：每5秒回复%1点法力值。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="130"/>
+        <location filename="Equipment/Item/Item.cpp" line="693"/>
         <source>Equip: Restores %1 health per 5 sec.</source>
         <translation>装备：每5秒回复%1点生命值。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="133"/>
+        <location filename="Equipment/Item/Item.cpp" line="696"/>
         <source>Equip: Increases damage and healing done by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果所造成的伤害和治疗效果，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="136"/>
+        <location filename="Equipment/Item/Item.cpp" line="699"/>
         <source>Equip: Increases damage done by Arcane spells and effects by up to %1.</source>
         <translation>装备：提高奥术法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="139"/>
+        <location filename="Equipment/Item/Item.cpp" line="702"/>
         <source>Equip: Increases damage done by Fire spells and effects by up to %1.</source>
         <translation>装备：提高火焰法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="142"/>
+        <location filename="Equipment/Item/Item.cpp" line="705"/>
         <source>Equip: Increases damage done by Frost spells and effects by up to %1.</source>
         <translation>装备：提高冰霜法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="145"/>
+        <location filename="Equipment/Item/Item.cpp" line="708"/>
         <source>Equip: Increases damage done by Holy spells and effects by up to %1.</source>
         <translation>装备：提高神圣法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="148"/>
+        <location filename="Equipment/Item/Item.cpp" line="711"/>
         <source>Equip: Increases damage done by Nature spells and effects by up to %1.</source>
         <translation>装备：提高自然法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="151"/>
+        <location filename="Equipment/Item/Item.cpp" line="714"/>
         <source>Equip: Increases damage done by Shadow spells and effects by up to %1.</source>
         <translation>装备：提高暗影法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="154"/>
+        <location filename="Equipment/Item/Item.cpp" line="717"/>
         <source>Equip: Increases damage done to Beasts by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对野兽所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="157"/>
+        <location filename="Equipment/Item/Item.cpp" line="720"/>
         <source>Equip: Increases damage done to Demons by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对恶魔所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="160"/>
+        <location filename="Equipment/Item/Item.cpp" line="723"/>
         <source>Equip: Increases damage done to Dragonkin by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对龙类生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="164"/>
+        <location filename="Equipment/Item/Item.cpp" line="727"/>
         <source>Equip: Increases damage done to Elementals by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对元素生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="167"/>
+        <location filename="Equipment/Item/Item.cpp" line="730"/>
         <source>Equip: Increases damage done to Giants by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对巨人所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="170"/>
+        <location filename="Equipment/Item/Item.cpp" line="733"/>
         <source>Equip: Increases damage done to Humanoids by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对人型生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="174"/>
+        <location filename="Equipment/Item/Item.cpp" line="737"/>
         <source>Equip: Increases damage done to Mechanicals by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对机械生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="177"/>
+        <location filename="Equipment/Item/Item.cpp" line="740"/>
         <source>Equip: Increases damage done to Undead by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对亡灵所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="182"/>
+        <location filename="Equipment/Item/Item.cpp" line="744"/>
         <source>Equip: Improves your chance to get a critical strike with spells by %1%.</source>
         <translation>装备：使你的法术造成爆击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="187"/>
+        <location filename="Equipment/Item/Item.cpp" line="748"/>
         <source>Equip: Improves your chance to hit with spells by %1%.</source>
         <translation>装备：使你的法术击中敌人的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="195"/>
+        <location filename="Equipment/Item/Item.cpp" line="752"/>
         <source>Equip: Decreases the magical resistances of your spell targets by %1.</source>
         <translation>装备：使你的法术目标的魔法抗性降低%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="198"/>
+        <location filename="Equipment/Item/Item.cpp" line="755"/>
         <source>%1 Armor</source>
         <translation>%1 护甲</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="201"/>
+        <location filename="Equipment/Item/Item.cpp" line="758"/>
         <source>Equip: Increased Defense +%1.</source>
         <translation>装备：防御技能提高%1点。</translation>
     </message>
@@ -896,51 +941,61 @@
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="207"/>
+        <location filename="Equipment/Item/Item.cpp" line="769"/>
         <source>Equip: Increases your chance to dodge an attack by %1%.</source>
         <translation>装备：使你躲闪攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="210"/>
+        <location filename="Equipment/Item/Item.cpp" line="773"/>
         <source>Equip: Increases your chance to parry an attack by %1%.</source>
         <translation>装备：使你招架攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="218"/>
+        <location filename="Equipment/Item/Item.cpp" line="776"/>
         <source>+%1 All Resistances.</source>
         <translation>+%1 所有抗性。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="221"/>
+        <location filename="Equipment/Item/Item.cpp" line="779"/>
         <source>+%1 Arcane Resistance</source>
         <translation>+%1 奥术抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="224"/>
+        <location filename="Equipment/Item/Item.cpp" line="782"/>
         <source>+%1 Fire Resistance</source>
         <translation>+%1 火焰抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="227"/>
+        <location filename="Equipment/Item/Item.cpp" line="785"/>
         <source>+%1 Frost Resistance</source>
         <translation>+%1 冰霜抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="230"/>
+        <location filename="Equipment/Item/Item.cpp" line="788"/>
         <source>+%1 Holy Resistance</source>
         <translation>+%1 神圣抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="233"/>
+        <location filename="Equipment/Item/Item.cpp" line="791"/>
         <source>+%1 Nature Resistance</source>
         <translation>+%1 自然抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="236"/>
+        <location filename="Equipment/Item/Item.cpp" line="794"/>
         <source>+%1 Shadow Resistance</source>
         <translation>+%1 暗影抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="239"/>
+        <location filename="Equipment/Item/Item.cpp" line="797"/>
         <source>Equip: Increases ranged attack speed by %1%.</source>
         <translation>装备：远程攻击速度提高%1%。</translation>
     </message>
@@ -1053,6 +1108,7 @@
         <location filename="Class/Common/Buffs/Nightfall.cpp" line="6"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="21"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="68"/>
+        <location filename="Equipment/Item/Item.cpp" line="499"/>
         <source>Nightfall</source>
         <translation>夜幕</translation>
     </message>
@@ -1876,6 +1932,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/Buffs/RapidFireBuff.cpp" line="8"/>
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="9"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="150"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="156"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="332"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="338"/>
         <source>Rapid Fire</source>
         <translation>急速射击</translation>
     </message>
@@ -1892,6 +1952,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="16"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="98"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="121"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="153"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="335"/>
         <source>Cryptstalker Armor</source>
         <translation>地穴追猎者</translation>
     </message>
@@ -1905,6 +1967,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="112"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="114"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="123"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="166"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="171"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="348"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="353"/>
         <source>Aimed Shot</source>
         <translation>瞄准射击</translation>
     </message>
@@ -1920,6 +1986,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="87"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="124"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="134"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="129"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="168"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="172"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="311"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="350"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="354"/>
         <source>Multi-Shot</source>
         <translation>多重射击</translation>
     </message>
@@ -1930,6 +2002,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="15"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="36"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="48"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="132"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="314"/>
         <source>Dragonstalker Armor</source>
         <translation>巨龙追猎者</translation>
     </message>
@@ -1960,12 +2034,16 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/Buffs/AspectOfTheHawkBuff.cpp" line="10"/>
         <location filename="Class/Hunter/Spells/AspectOfTheHawk.cpp" line="9"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="137"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="319"/>
         <source>Aspect of the Hawk</source>
         <translation>雄鹰守护</translation>
     </message>
     <message>
         <location filename="Class/Hunter/Spells/AutoShot.cpp" line="15"/>
         <location filename="Class/Hunter/Spells/AutoShot.cpp" line="89"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="167"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="349"/>
         <source>Auto Shot</source>
         <translation>自动射击</translation>
     </message>
@@ -1991,6 +2069,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="16"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="90"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="113"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="126"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="308"/>
         <source>Giantstalker Armor</source>
         <translation>巨人追猎者</translation>
     </message>
@@ -1998,6 +2078,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="16"/>
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="40"/>
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="52"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="147"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="329"/>
         <source>Striker&apos;s Garb</source>
         <translation>攻击者</translation>
     </message>
@@ -2472,12 +2554,16 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Evocation.cpp" line="20"/>
         <location filename="Class/Mage/Spells/Evocation.cpp" line="55"/>
         <location filename="Class/Mage/Spells/Evocation.cpp" line="67"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="192"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="374"/>
         <source>Frostfire Regalia</source>
         <translation>霜火</translation>
     </message>
     <message>
         <location filename="Class/Mage/Buffs/EvocationBuff.cpp" line="8"/>
         <location filename="Class/Mage/Spells/Evocation.cpp" line="10"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="195"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="377"/>
         <source>Evocation</source>
         <translation>唤醒</translation>
     </message>
@@ -3707,6 +3793,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Buffs/SliceAndDiceBuff.cpp" line="9"/>
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="113"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="215"/>
         <source>Slice and Dice</source>
         <translation>切割</translation>
     </message>
@@ -3732,6 +3819,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="22"/>
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="108"/>
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="120"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="73"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="261"/>
         <source>Bloodfang Armor</source>
         <translation>血牙</translation>
     </message>
@@ -3764,6 +3853,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="135"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="113"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="95"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="90"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="278"/>
         <source>Backstab</source>
         <translation>背刺</translation>
     </message>
@@ -3810,6 +3901,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="24"/>
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="100"/>
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="112"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="87"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="275"/>
         <source>Bonescythe Armor</source>
         <translation>骨镰</translation>
     </message>
@@ -3824,6 +3917,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="93"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="154"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="84"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="272"/>
         <source>Eviscerate</source>
         <translation>剔骨</translation>
     </message>
@@ -3852,6 +3947,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="24"/>
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="129"/>
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="141"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="81"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="269"/>
         <source>Deathdealer&apos;s Embrace</source>
         <translation>死亡执行者的拥抱</translation>
     </message>
@@ -3862,6 +3959,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="106"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="107"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="91"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="279"/>
         <source>Hemorrhage</source>
         <translation>出血</translation>
     </message>
@@ -3880,6 +3979,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="137"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="103"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="155"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="92"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="280"/>
         <source>Sinister Strike</source>
         <translation>邪恶攻击</translation>
     </message>
@@ -3903,6 +4004,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="23"/>
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="72"/>
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="84"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="212"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="393"/>
         <source>Emblems of Veiled Shadows</source>
         <translation>笼罩之阴影</translation>
     </message>
@@ -6135,6 +6238,116 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="99"/>
         <source>Heroic Strike Queued</source>
         <translation>Heroic Strike Queued</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="495"/>
+        <source>Black Grasp of the Destroyer</source>
+        <translation>毁灭者的黑暗之握</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="666"/>
+        <source>Equip: Increased Maces +%1.</source>
+        <translation>装备：锤类武器技能提高%1点。</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="761"/>
+        <source>Equip: Increases the block value of your shield by %1.</source>
+        <translation>装备：使你的盾牌的格挡值提高%1点。</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="765"/>
+        <source>Equip: Increases your chance to block attacks with a shield by %1%.</source>
+        <translation>装备：使你用盾牌格挡攻击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="57"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="249"/>
+        <source>Shadowcraft Armor</source>
+        <translation>迅影</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="61"/>
+        <source>Shadowcraft 6 set</source>
+        <translation>迅影6件套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="67"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="255"/>
+        <source>Nightslayer Armor</source>
+        <translation>夜幕杀手</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="95"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="283"/>
+        <source>Zanzil&apos;s Concentration</source>
+        <translation>赞吉尔的专注</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="102"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="290"/>
+        <source>Trappings of the Unseen Path</source>
+        <translation>隐秘的通途</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="108"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="296"/>
+        <source>Beaststalker Armor</source>
+        <translation>野兽追猎者</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="112"/>
+        <source>Beaststalker 6 set</source>
+        <translation>野兽追猎者6件套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="117"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="302"/>
+        <source>Beastmaster Armor</source>
+        <translation>兽王</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="121"/>
+        <source>Beastmaster 4 set</source>
+        <translation>兽王4件套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="175"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="357"/>
+        <source>Netherwind Regalia</source>
+        <translation>灵风</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="184"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="366"/>
+        <source>Enigma Vestments</source>
+        <translation>神秘套装</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="206"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="387"/>
+        <source>Regalia of Undead Cleansing</source>
+        <translation>亡灵净化者</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="218"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="399"/>
+        <source>Stormshroud Armor</source>
+        <translation>雷暴</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="222"/>
+        <source>Stormshroud 2 set</source>
+        <translation>雷暴2件套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="229"/>
+        <source>Stormshroud 3 set</source>
+        <translation>雷暴3件套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="396"/>
+        <source>Slice And Dice</source>
+        <translation>切割</translation>
     </message>
 </context>
 <context>

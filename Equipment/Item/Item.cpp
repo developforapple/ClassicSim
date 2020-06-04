@@ -1,5 +1,5 @@
 #include "Item.h"
-
+#include <QObject>
 #include <cmath>
 #include <utility>
 
@@ -492,11 +492,11 @@ void Item::set_procs(const int eq_slot) {
             proc_sources = {ProcInfo::Source::MainhandSwing, ProcInfo::Source::MainhandSpell, ProcInfo::Source::OffhandSwing,
                             ProcInfo::Source::RangedAutoShot, ProcInfo::Source::RangedSpell};
 
-            proc = new ResourceGainProc(pchar, "Black Grasp of the Destroyer", "Assets/items/Inv_gauntlets_31.png", proc_sources, proc_rate,
+            proc = new ResourceGainProc(pchar, QObject::tr("Black Grasp of the Destroyer"), "Assets/items/Inv_gauntlets_31.png", proc_sources, proc_rate,
                                         ResourceType::Mana, i["min"].toUInt(), i["max"].toUInt());
         } else if (proc_name == "NIGHTFALL") {
             Buff* buff = new Nightfall(pchar);
-            proc = new GenericBuffProc(pchar, "Nightfall", "Assets/items/Inv_axe_12.png",
+            proc = new GenericBuffProc(pchar, QObject::tr("Nightfall"), "Assets/items/Inv_axe_12.png",
                                        QVector<ProcInfo::Source> {ProcInfo::MainhandSpell, ProcInfo::MainhandSwing}, proc_rate, EnabledAtStart::Yes,
                                        MaintainBuffEnabled::No, buff);
         } else if (proc_name == "GENERIC_STAT_BUFF") {
@@ -611,190 +611,190 @@ void Item::set_stat(const QString& key, const QString& value) {
     this->stats->add(key, value);
 
     if (key == "STRENGTH") {
-        base_tooltip_stats.append(QString("+%1 Strength").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Strength").arg(value));
         this->item_stat_values.insert(ItemStats::Strength, value.toUInt());
     } else if (key == "AGILITY") {
-        base_tooltip_stats.append(QString("+%1 Agility").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Agility").arg(value));
         this->item_stat_values.insert(ItemStats::Agility, value.toUInt());
     } else if (key == "STAMINA") {
-        base_tooltip_stats.append(QString("+%1 Stamina").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Stamina").arg(value));
         this->item_stat_values.insert(ItemStats::Stamina, value.toUInt());
     } else if (key == "INTELLECT") {
-        base_tooltip_stats.append(QString("+%1 Intellect").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Intellect").arg(value));
         this->item_stat_values.insert(ItemStats::Intellect, value.toUInt());
     } else if (key == "SPIRIT") {
-        base_tooltip_stats.append(QString("+%1 Spirit").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Spirit").arg(value));
         this->item_stat_values.insert(ItemStats::Spirit, value.toUInt());
     } else if (key == "CRIT_CHANCE") {
         const unsigned display_value = static_cast<unsigned>(round(value.toDouble() * 100));
         QString number = QString::number(display_value);
-        equip_effects_tooltip_stats.append(QString("Equip: Improves your chance to get a critical strike by %1%.").arg(number));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Improves your chance to get a critical strike by %1%.").arg(number));
         this->item_stat_values.insert(ItemStats::CritChance, display_value);
     } else if (key == "HIT_CHANCE") {
         const unsigned display_value = static_cast<unsigned>(round(value.toDouble() * 100));
         QString number = QString::number(display_value);
-        equip_effects_tooltip_stats.append(QString("Equip: Improves your chance to hit by %1%.").arg(number));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Improves your chance to hit by %1%.").arg(number));
         this->item_stat_values.insert(ItemStats::HitChance, display_value);
     } else if (key == "ATTACK_POWER") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Attack Power.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power.").arg(value));
         this->item_stat_values.insert(ItemStats::AttackPower, value.toUInt());
     } else if (key == "RANGED_ATTACK_POWER") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Ranged Attack Power.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Ranged Attack Power.").arg(value));
         this->item_stat_values.insert(ItemStats::RangedAttackPower, value.toUInt());
     } else if (key == "ATTACK_POWER_BEAST") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Attack Power when fighting Beasts.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power when fighting Beasts.").arg(value));
         this->item_stat_values.insert(ItemStats::APVersusBeast, value.toUInt());
     } else if (key == "ATTACK_POWER_DEMON") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Attack Power when fighting Demons.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power when fighting Demons.").arg(value));
         this->item_stat_values.insert(ItemStats::APVersusDemon, value.toUInt());
     } else if (key == "ATTACK_POWER_DRAGONKIN") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Attack Power when fighting Dragonkin.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power when fighting Dragonkin.").arg(value));
         this->item_stat_values.insert(ItemStats::APVersusDragonkin, value.toUInt());
     } else if (key == "ATTACK_POWER_UNDEAD") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Attack Power when fighting Undead.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power when fighting Undead.").arg(value));
         this->item_stat_values.insert(ItemStats::APVersusUndead, value.toUInt());
     } else if (key == "WEAPON_DAMAGE") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Weapon Damage.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Weapon Damage.").arg(value));
         this->item_stat_values.insert(ItemStats::FlatWeaponDamage, value.toUInt());
     } else if (key == "AXE_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Axes +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Axes +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillAxe, value.toUInt());
     } else if (key == "DAGGER_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Daggers +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Daggers +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillDagger, value.toUInt());
     } else if (key == "MACE_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Maces +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Maces +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillMace, value.toUInt());
     } else if (key == "SWORD_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Swords +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Swords +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillSword, value.toUInt());
     } else if (key == "TWOHAND_AXE_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Two-handed Axes +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Two-handed Axes +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::Skill2hAxe, value.toUInt());
     } else if (key == "TWOHAND_MACE_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Two-handed Maces +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Two-handed Maces +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::Skill2hMace, value.toUInt());
     } else if (key == "TWOHAND_SWORD_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Two-handed Swords +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Two-handed Swords +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::Skill2hSword, value.toUInt());
     } else if (key == "BOW_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Bows +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Bows +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillBow, value.toUInt());
     } else if (key == "CROSSBOW_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Crossbows +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Crossbows +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillCrossbow, value.toUInt());
     } else if (key == "GUN_SKILL") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Guns +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Guns +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::SkillGun, value.toUInt());
     } else if (key == "MANA_PER_5") {
-        equip_effects_tooltip_stats.append(QString("Equip: Restores %1 mana per 5 sec.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Restores %1 mana per 5 sec.").arg(value));
         this->item_stat_values.insert(ItemStats::ManaPer5, value.toUInt());
     } else if (key == "HEALTH_PER_5") {
-        equip_effects_tooltip_stats.append(QString("Equip: Restores %1 health per 5 sec.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Restores %1 health per 5 sec.").arg(value));
         this->item_stat_values.insert(ItemStats::HealthPer5, value.toUInt());
     } else if (key == "SPELL_DAMAGE") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage and healing done by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage and healing done by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamage, value.toUInt());
     } else if (key == "SPELL_DAMAGE_ARCANE") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done by Arcane spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done by Arcane spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageArcane, value.toUInt());
     } else if (key == "SPELL_DAMAGE_FIRE") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done by Fire spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done by Fire spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageFire, value.toUInt());
     } else if (key == "SPELL_DAMAGE_FROST") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done by Frost spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done by Frost spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageFrost, value.toUInt());
     } else if (key == "SPELL_DAMAGE_HOLY") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done by Holy spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done by Holy spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageHoly, value.toUInt());
     } else if (key == "SPELL_DAMAGE_NATURE") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done by Nature spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done by Nature spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageNature, value.toUInt());
     } else if (key == "SPELL_DAMAGE_SHADOW") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done by Shadow spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done by Shadow spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageShadow, value.toUInt());
     } else if (key == "SPELL_DAMAGE_BEAST") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done to Beasts by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done to Beasts by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusBeast, value.toUInt());
     } else if (key == "SPELL_DAMAGE_DEMON") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done to Demons by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done to Demons by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusDemon, value.toUInt());
     } else if (key == "SPELL_DAMAGE_DRAGONKIN") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done to Dragonkin by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done to Dragonkin by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusDragonkin, value.toUInt());
     } else if (key == "SPELL_DAMAGE_ELEMENTAL") {
         equip_effects_tooltip_stats.append(
-            QString("Equip: Increases damage done to Elementals by magical spells and effects by up to %1.").arg(value));
+            QObject::tr("Equip: Increases damage done to Elementals by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusElemental, value.toUInt());
     } else if (key == "SPELL_DAMAGE_GIANT") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done to Giants by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done to Giants by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusGiant, value.toUInt());
     } else if (key == "SPELL_DAMAGE_HUMANOID") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done to Humanoids by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done to Humanoids by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusHumanoid, value.toUInt());
     } else if (key == "SPELL_DAMAGE_MECHANICAL") {
         equip_effects_tooltip_stats.append(
-            QString("Equip: Increases damage done to Mechanicals by magical spells and effects by up to %1.").arg(value));
+            QObject::tr("Equip: Increases damage done to Mechanicals by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusMechanical, value.toUInt());
     } else if (key == "SPELL_DAMAGE_UNDEAD") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases damage done to Undead by magical spells and effects by up to %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases damage done to Undead by magical spells and effects by up to %1.").arg(value));
         this->item_stat_values.insert(ItemStats::SpellDamageVersusUndead, value.toUInt());
     } else if (key == "SPELL_CRIT_CHANCE") {
         const unsigned display_value = static_cast<unsigned>(round(value.toDouble() * 100));
-        equip_effects_tooltip_stats.append(QString("Equip: Improves your chance to get a critical strike with spells by %1%.").arg(display_value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Improves your chance to get a critical strike with spells by %1%.").arg(display_value));
         this->item_stat_values.insert(ItemStats::SpellCrit, display_value);
     } else if (key == "SPELL_HIT_CHANCE") {
         const unsigned display_value = static_cast<unsigned>(round(value.toDouble() * 100));
-        equip_effects_tooltip_stats.append(QString("Equip: Improves your chance to hit with spells by %1%.").arg(display_value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Improves your chance to hit with spells by %1%.").arg(display_value));
         this->item_stat_values.insert(ItemStats::SpellHit, display_value);
     } else if (key == "SPELL_PENETRATION") {
         QString number = QString::number(value.toUInt());
-        equip_effects_tooltip_stats.append(QString("Equip: Decreases the magical resistances of your spell targets by %1.").arg(number));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Decreases the magical resistances of your spell targets by %1.").arg(number));
         this->item_stat_values.insert(ItemStats::SpellPenetration, value.toUInt());
     } else if (key == "ARMOR") {
-        base_tooltip_stats.append(QString("%1 Armor").arg(value));
+        base_tooltip_stats.append(QObject::tr("%1 Armor").arg(value));
         this->item_stat_values.insert(ItemStats::Armor, value.toUInt());
     } else if (key == "DEFENSE") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increased Defense +%1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increased Defense +%1.").arg(value));
         this->item_stat_values.insert(ItemStats::Defense, value.toUInt());
     } else if (key == "BLOCK_VALUE") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases the block value of your shield by %1.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases the block value of your shield by %1.").arg(value));
         this->item_stat_values.insert(ItemStats::BlockValue, value.toUInt());
     } else if (key == "BLOCK_CHANCE") {
         QString number = QString::number(value.toDouble() * 100);
-        equip_effects_tooltip_stats.append(QString("Equip: Increases your chance to block attacks with a shield by %1%.").arg(number));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases your chance to block attacks with a shield by %1%.").arg(number));
         this->item_stat_values.insert(ItemStats::BlockChance, static_cast<unsigned>(value.toDouble() * 100));
     } else if (key == "DODGE_CHANCE") {
         QString number = QString::number(value.toDouble() * 100);
-        equip_effects_tooltip_stats.append(QString("Equip: Increases your chance to dodge an attack by %1%.").arg(number));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases your chance to dodge an attack by %1%.").arg(number));
         this->item_stat_values.insert(ItemStats::DodgeChance, static_cast<unsigned>(value.toDouble() * 100));
     } else if (key == "PARRY_CHANCE") {
         QString number = QString::number(value.toDouble() * 100);
-        equip_effects_tooltip_stats.append(QString("Equip: Increases your chance to parry an attack by %1%.").arg(number));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases your chance to parry an attack by %1%.").arg(number));
         this->item_stat_values.insert(ItemStats::ParryChance, static_cast<unsigned>(value.toDouble() * 100));
     } else if (key == "ALL_RESISTANCE") {
-        equip_effects_tooltip_stats.append(QString("+%1 All Resistances.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("+%1 All Resistances.").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceAll, value.toUInt());
     } else if (key == "ARCANE_RESISTANCE") {
-        base_tooltip_stats.append(QString("+%1 Arcane Resistance").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Arcane Resistance").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceArcane, value.toUInt());
     } else if (key == "FIRE_RESISTANCE") {
-        base_tooltip_stats.append(QString("+%1 Fire Resistance").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Fire Resistance").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceFire, value.toUInt());
     } else if (key == "FROST_RESISTANCE") {
-        base_tooltip_stats.append(QString("+%1 Frost Resistance").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Frost Resistance").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceFrost, value.toUInt());
     } else if (key == "HOLY_RESISTANCE") {
-        base_tooltip_stats.append(QString("+%1 Holy Resistance").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Holy Resistance").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceHoly, value.toUInt());
     } else if (key == "NATURE_RESISTANCE") {
-        base_tooltip_stats.append(QString("+%1 Nature Resistance").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Nature Resistance").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceNature, value.toUInt());
     } else if (key == "SHADOW_RESISTANCE") {
-        base_tooltip_stats.append(QString("+%1 Shadow Resistance").arg(value));
+        base_tooltip_stats.append(QObject::tr("+%1 Shadow Resistance").arg(value));
         this->item_stat_values.insert(ItemStats::ResistanceShadow, value.toUInt());
     } else if (key == "RANGED_ATTACK_SPEED") {
-        equip_effects_tooltip_stats.append(QString("Equip: Increases ranged attack speed by %1%.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: Increases ranged attack speed by %1%.").arg(value));
         this->item_stat_values.insert(ItemStats::RangedAttackSpeedPercent, value.toUInt());
     } else
         unsupported_stat(key);
