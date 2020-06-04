@@ -1,5 +1,5 @@
 #include "Scorch.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -15,7 +15,7 @@
 #include "Utils/Check.h"
 
 Scorch::Scorch(Mage* pchar, MageSpells* mage_spells, Proc* proc, const int spell_rank) :
-    Spell("Scorch",
+    Spell(QObject::tr("Scorch"),
           "Assets/spell/Spell_fire_soulburn.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -25,11 +25,11 @@ Scorch::Scorch(Mage* pchar, MageSpells* mage_spells, Proc* proc, const int spell
           spell_rank),
     CastingTimeRequirer(pchar, SuppressibleCast::Yes, 1500),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Scorch", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Incinerate", 2, DisabledAtZero::No),
-        new TalentRequirerInfo("Burning Soul", 2, DisabledAtZero::No),
-        new TalentRequirerInfo("Master of Elements", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Critical Mass", 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Scorch"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Incinerate"), 2, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Burning Soul"), 2, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Master of Elements"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Critical Mass"), 3, DisabledAtZero::No),
     }),
     mage_spells(mage_spells),
     imp_scorch(proc) {
@@ -157,24 +157,24 @@ void Scorch::gain_mana(const double mana_gain) {
 }
 
 void Scorch::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("Master of Elements Scorch (rank %1)").arg(spell_rank),
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Master of Elements Scorch (rank %1)").arg(spell_rank),
                                                                                  "Assets/spell/Spell_fire_masterofelements.png");
 }
 
 void Scorch::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Scorch")
+    if (talent_name == QObject::tr("Improved Scorch"))
         incinerate = incinerate_ranks[curr];
-    else if (talent_name == "Master of Elements")
+    else if (talent_name == QObject::tr("Master of Elements"))
         master_of_elements_mana_return = master_of_elements_ranks[curr];
-    else if (talent_name == "Critical Mass")
+    else if (talent_name == QObject::tr("Critical Mass"))
         imp_critical_mass = critical_mass_ranks[curr];
 }
 
 void Scorch::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Scorch")
+    if (talent_name == QObject::tr("Improved Scorch"))
         incinerate = incinerate_ranks[curr];
-    else if (talent_name == "Master of Elements")
+    else if (talent_name == QObject::tr("Master of Elements"))
         master_of_elements_mana_return = master_of_elements_ranks[curr];
-    else if (talent_name == "Critical Mass")
+    else if (talent_name == QObject::tr("Critical Mass"))
         imp_critical_mass = critical_mass_ranks[curr];
 }

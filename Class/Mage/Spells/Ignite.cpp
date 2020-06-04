@@ -1,5 +1,5 @@
 #include "Ignite.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CharacterSpells.h"
@@ -9,8 +9,8 @@
 #include "Utils/Check.h"
 
 Ignite::Ignite(Mage* pchar, IgniteBuff* ignite_buff) :
-    SpellPeriodic("Ignite", "Assets/spell/Spell_fire_incinerate.png", pchar, ignite_buff, RestrictedByGcd::No, ResourceType::Mana, 1.0, 0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Ignite", 5, DisabledAtZero::Yes)}),
+    SpellPeriodic(QObject::tr("Ignite"), "Assets/spell/Spell_fire_incinerate.png", pchar, ignite_buff, RestrictedByGcd::No, ResourceType::Mana, 1.0, 0),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Ignite"), 5, DisabledAtZero::Yes)}),
     ignite_buff(ignite_buff) {
     enabled = false;
 }

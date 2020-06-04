@@ -532,6 +532,8 @@
         <translation>有可能在击中敌人时对其喷出烈焰</translation>
     </message>
     <message>
+        <location filename="Class/Mage/Buffs/FireVulnerability.cpp" line="7"/>
+        <location filename="Class/Mage/MageSpells.cpp" line="83"/>
         <location filename="Spells/ExternalBuff.cpp" line="523"/>
         <source>Fire Vulnerability</source>
         <translation>痛苦诅咒</translation>
@@ -1184,6 +1186,7 @@
     </message>
     <message>
         <location filename="Class/Druid/Procs/ClearcastingDruid.cpp" line="14"/>
+        <location filename="Class/Mage/Procs/ClearcastingMage.cpp" line="9"/>
         <source>Clearcasting</source>
         <translation>节能施法</translation>
     </message>
@@ -1786,6 +1789,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="111"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="109"/>
         <source>Allows %1% of your Mana regeneration to continue while casting.</source>
         <translation>使你在施法时仍保持%1%的法力回复速度。</translation>
     </message>
@@ -1869,6 +1873,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>多重射击</translation>
     </message>
     <message>
+        <location filename="Class/Hunter/Buffs/AspectOfTheHawkBuff.cpp" line="11"/>
+        <location filename="Class/Hunter/Buffs/AspectOfTheHawkBuff.cpp" line="22"/>
+        <location filename="Class/Hunter/Buffs/AspectOfTheHawkBuff.cpp" line="34"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="15"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="36"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="48"/>
@@ -1900,6 +1907,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>致死射击</translation>
     </message>
     <message>
+        <location filename="Class/Hunter/Buffs/AspectOfTheHawkBuff.cpp" line="10"/>
         <location filename="Class/Hunter/Spells/AspectOfTheHawk.cpp" line="9"/>
         <source>Aspect of the Hawk</source>
         <translation>雄鹰守护</translation>
@@ -2014,12 +2022,15 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>野兽戒律</translation>
     </message>
     <message>
+        <location filename="Class/Hunter/Procs/FrenzyProc.cpp" line="15"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="29"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="127"/>
         <source>Frenzy</source>
         <translation>狂乱</translation>
     </message>
     <message>
+        <location filename="Class/Hunter/Spells/BestialWrath.cpp" line="8"/>
+        <location filename="Class/Hunter/Spells/BestialWrath.cpp" line="15"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="30"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="136"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="140"/>
@@ -2286,6 +2297,741 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="130"/>
         <source>Increases your Agility by %1%.</source>
         <translation>使你的敏捷提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Hunter/Buffs/FrenzyBuff.cpp" line="8"/>
+        <location filename="Class/Hunter/Procs/FrenzyProc.cpp" line="8"/>
+        <source>Frenzy (%1)</source>
+        <translation>狂乱 （%1）</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="10"/>
+        <location filename="Class/Mage/Spells/ArcanePower.cpp" line="8"/>
+        <location filename="Class/Mage/Spells/ArcanePower.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="134"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="137"/>
+        <source>Arcane Power</source>
+        <translation>奥术强化</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="12"/>
+        <source>Blizzard</source>
+        <translation>暴风雪</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="13"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="20"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="129"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="85"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="106"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="131"/>
+        <source>Frostbolt</source>
+        <translation>寒冰箭</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="14"/>
+        <source>Arcane Explosion</source>
+        <translation>魔爆术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="15"/>
+        <source>Fire Blast</source>
+        <translation>火焰冲击</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="16"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="18"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="117"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="128"/>
+        <source>Scorch</source>
+        <translation>灼烧</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="17"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="19"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="99"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="127"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="138"/>
+        <source>Fireball</source>
+        <translation>火球术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="18"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="17"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="47"/>
+        <source>Pyroblast</source>
+        <translation>炎爆术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="19"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="23"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="64"/>
+        <source>Blast Wave</source>
+        <translation>冲击波</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="20"/>
+        <source>Frost Nova</source>
+        <translation>冰霜新星</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="21"/>
+        <source>Flamestrike</source>
+        <translation>烈焰风暴</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="22"/>
+        <source>Cone of Cold</source>
+        <translation>冰锥术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="23"/>
+        <location filename="Class/Mage/Spells/ArcaneMissiles.cpp" line="14"/>
+        <source>Arcane Missiles</source>
+        <translation>奥术飞弹</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/CombustionBuff.cpp" line="7"/>
+        <location filename="Class/Mage/Spells/Combustion.cpp" line="8"/>
+        <location filename="Class/Mage/Spells/Combustion.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="25"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="152"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="156"/>
+        <source>Combustion</source>
+        <translation>燃烧</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ElementalVulnerability.cpp" line="8"/>
+        <location filename="Class/Mage/MageSpells.cpp" line="116"/>
+        <source>Elemental Vulnerability 6p T3</source>
+        <translation>元素易伤（6T3）</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/ElementalVulnerability.cpp" line="9"/>
+        <location filename="Class/Mage/Spells/Evocation.cpp" line="20"/>
+        <location filename="Class/Mage/Spells/Evocation.cpp" line="55"/>
+        <location filename="Class/Mage/Spells/Evocation.cpp" line="67"/>
+        <source>Frostfire Regalia</source>
+        <translation>霜火</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/EvocationBuff.cpp" line="8"/>
+        <location filename="Class/Mage/Spells/Evocation.cpp" line="10"/>
+        <source>Evocation</source>
+        <translation>唤醒</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/EvocationBuff.cpp" line="9"/>
+        <source>EvocationBuff:: Mana nullptr</source>
+        <translation>EvocationBuff:: Mana nullptr</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/IgniteBuff.cpp" line="5"/>
+        <location filename="Class/Mage/MageSpells.cpp" line="99"/>
+        <location filename="Class/Mage/Spells/Ignite.cpp" line="12"/>
+        <location filename="Class/Mage/Spells/Ignite.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="106"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="108"/>
+        <source>Ignite</source>
+        <translation>点燃</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/MageArmorBuff.cpp" line="9"/>
+        <location filename="Class/Mage/Spells/MageArmor.cpp" line="8"/>
+        <source>Mage Armor</source>
+        <translation>魔甲术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Buffs/WintersChill.cpp" line="8"/>
+        <location filename="Class/Mage/MageSpells.cpp" line="36"/>
+        <location filename="Class/Mage/Procs/WintersChillProc.cpp" line="9"/>
+        <location filename="Class/Mage/Procs/WintersChillProc.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="137"/>
+        <source>Winter&apos;s Chill</source>
+        <translation>深冬之寒</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/MageSpells.cpp" line="122"/>
+        <location filename="Class/Mage/MageSpells.cpp" line="123"/>
+        <source>Netherwind Focus</source>
+        <translation>灵风专注</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/MageSpells.cpp" line="125"/>
+        <source>Enigma&apos;s Answer</source>
+        <translation>神秘的答案</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Procs/ClearcastingMage.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="99"/>
+        <source>Arcane Concentration</source>
+        <translation>奥术专注</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Procs/ImprovedScorch.cpp" line="9"/>
+        <location filename="Class/Mage/Procs/ImprovedScorch.cpp" line="16"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="28"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="165"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="174"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="19"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="90"/>
+        <source>Improved Scorch</source>
+        <translation>强化灼烧</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="28"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="224"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="233"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="97"/>
+        <source>Improved Fireball</source>
+        <translation>强化火球术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="29"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="30"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="18"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="50"/>
+        <source>Burning Soul</source>
+        <translation>燃烧之魂</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="30"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="226"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="235"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="33"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="210"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="221"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="31"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="167"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="176"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="21"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="123"/>
+        <source>Master of Elements</source>
+        <translation>元素大师</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="31"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="228"/>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="237"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="32"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="169"/>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="178"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="22"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="136"/>
+        <source>Critical Mass</source>
+        <translation>火焰重击</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Fireball.cpp" line="215"/>
+        <source>Master of Elements Fireball (rank %1)</source>
+        <translation>Master of Elements Fireball (rank %1)</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="30"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="204"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="215"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="83"/>
+        <source>Improved Frostbolt</source>
+        <translation>强化寒冰箭</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="31"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="206"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="217"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="103"/>
+        <source>Ice Shards</source>
+        <translation>寒冰碎片</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="32"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="208"/>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="219"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="128"/>
+        <source>Frost Channeling</source>
+        <translation>冰霜导能</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Frostbolt.cpp" line="198"/>
+        <source>Master of Elements Frostbolt (rank %1)</source>
+        <translation>Master of Elements Frostbolt (rank %1)</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/RobeOfTheArchmage.cpp" line="11"/>
+        <source>Robe of the Archmage</source>
+        <translation>大法师之袍</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="29"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="15"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="114"/>
+        <source>Incinerate</source>
+        <translation>烧尽</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/Spells/Scorch.cpp" line="160"/>
+        <source>Master of Elements Scorch (rank %1)</source>
+        <translation>Master of Elements Scorch (rank %1)</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="8"/>
+        <source>Arcane</source>
+        <translation>奥术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="82"/>
+        <source>Arcane Subtlety</source>
+        <translation>奥术精妙</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="90"/>
+        <source>Arcane Focus</source>
+        <translation>奥术集中</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="17"/>
+        <source>Improved Arcane Missiles</source>
+        <translation>强化奥术飞弹</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="25"/>
+        <source>Wand Specialization</source>
+        <translation>魔杖专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="28"/>
+        <source>Magic Absorption</source>
+        <translation>Magic Absorption</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="34"/>
+        <source>Magic Attunement</source>
+        <translation>魔法协调</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="37"/>
+        <source>Improved Arcane Explosion</source>
+        <translation>强化魔爆术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="40"/>
+        <source>Arcane Resilience</source>
+        <translation>奥术充沛</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="46"/>
+        <source>Improved Mana Shield</source>
+        <translation>强化法力护盾</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="49"/>
+        <source>Improved Counterspell</source>
+        <translation>强化法术反制</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="108"/>
+        <source>Arcane Meditation</source>
+        <translation>奥术冥想</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="56"/>
+        <source>Presence of Mind</source>
+        <translation>气定神闲</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="117"/>
+        <source>Arcane Mind</source>
+        <translation>奥术心智</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="125"/>
+        <source>Arcane Instability</source>
+        <translation>奥术增效</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="18"/>
+        <source>Gives you a %1% chance to avoid interruption caused by damage while channeling Arcane Missiles.</source>
+        <translation>使你有%1%的几率在施放奥术飞弹时不会因为受到伤害而中断施法。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="25"/>
+        <source>Increases your damage with Wands by %1%.</source>
+        <translation>使你的魔杖造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="29"/>
+        <source>Increases all resistances by %1 and causes all spells you fully resist to restore %2% of your total mana. 1 sec. cooldown.</source>
+        <translation>使你的所有抗性提高%1点，你每次完全抵抗一个法术就可以恢复法力值总量的%2%。冷却时间1秒钟。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="35"/>
+        <source>Increases the effect of your Amplify Magic and Dampen Magic spells by %1%.</source>
+        <translation>使你的魔法抑制和魔法增效的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="38"/>
+        <source>Increases the critical strike chance of your Arcane Explosion spell by an additional %1%.</source>
+        <translation>使你的魔爆术造成爆击效果的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="41"/>
+        <source>Increases your armor by an amount equal to 50% of your Intellect.</source>
+        <translation>使你的护甲值提高，数值相当于你的智力值的50%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="47"/>
+        <source>Decreases the mana lost per point of damage taken when Mana Shield is active by %1%.</source>
+        <translation>使你的法力护盾每吸收一点伤害所消耗的法力值减少%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="50"/>
+        <source>Gives your Counterspell a %1% chance to silence the target for 4 sec.</source>
+        <translation>使你的法术反制有%1%的几率使目标沉默4秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="57"/>
+        <source>When activated, your next Mage spell with a casting time less than 10 sec becomes an instant cast spell.</source>
+        <translation>激活之后，你的下一个施法时间低于10秒的法师法术会成为瞬发法术。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="83"/>
+        <source>Reduces your target&apos;s resistance to all your spells by %1 and reduces the threat caused by your Arcane spells by %2%.</source>
+        <translation>使你的目标对你的所有法术的抗性降低%1点，并使你的奥术系法术所造成的威胁值降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="91"/>
+        <source>Reduces the chance that the opponent can resist your Arcane spells by %1%.</source>
+        <translation>使你的敌人抵抗你的奥术魔法的几率降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="100"/>
+        <source>Gives you a %1% chance of entering a Clearcasting state after any damage spell hits a target. The Clearcasting state reduces the mana cost of your next damage spell by 100%.</source>
+        <translation>使你有%1%的几率在施放任何一种伤害性法术之后进入节能施法状态。节能施法状态可以使你的下一个伤害性法术所消耗的法力值减少100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="118"/>
+        <source>Increases your maximum Mana by %1%.</source>
+        <translation>使你的法力值上限提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="126"/>
+        <source>Increases your spell damage and critical strike chance by %1%.</source>
+        <translation>使你的法术伤害和重击几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="135"/>
+        <source>When activated, your spells deal 30% more damage while costing 30% more mana to cast. This effect lasts 15 sec.</source>
+        <translation>激活之后，你的法术会造成30%的额外伤害，但同时也要消耗30%的额外法力才能施放。这个效果可以持续15秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="8"/>
+        <source>Fire</source>
+        <translation>火焰</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="29"/>
+        <source>Impact</source>
+        <translation>冲击</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="35"/>
+        <source>Flame Throwing</source>
+        <translation>烈焰投掷</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="37"/>
+        <source>Improved Fire Blast</source>
+        <translation>强化火焰冲击</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="45"/>
+        <source>Improved Flamestrike</source>
+        <translation>强化烈焰风暴</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="20"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="57"/>
+        <source>Improved Fire Ward</source>
+        <translation>强化防护火焰结界</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="24"/>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="144"/>
+        <source>Fire Power</source>
+        <translation>火焰强化</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="30"/>
+        <source>Gives your Fire spells a %1% chance to stun the target for 2 sec.</source>
+        <translation>使你的火焰魔法有%1%的几率令目标昏迷2秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="36"/>
+        <source>Increases the range of your Fire spells by %1 yards.</source>
+        <translation>使你的火焰法术的射程增加%1码。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="38"/>
+        <source>Reduces the cooldown of your Fire Blast spell by %1 sec.</source>
+        <translation>使你的火焰冲击的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="46"/>
+        <source>Increases the critical strike chance of your Flamestrike spell by %1%.</source>
+        <translation>使你的烈焰风暴造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="48"/>
+        <source>Hurls an immense fiery boulder that causes 141 to 187 Fire damage and an additional 56 Fire damage over 12 sec.</source>
+        <translation>发射一枚巨大的火球，对目标造成141到187点火焰伤害，并在12秒内造成总计56点额外伤害。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="51"/>
+        <source>Gives your Fire spells a %1% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by %2%.</source>
+        <translation>使你的火焰系法术有%1%的几率不会因为你受到伤害而被干扰，火焰系法术所造成的威胁值降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="58"/>
+        <source>Causes your Fire Ward to have a %1% chance to reflect Fire spells while active.</source>
+        <translation>你的防护火焰结界有%1%的几率将火焰法术反射给施法者。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="65"/>
+        <source>A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for 154 to 186 Fire damage, and dazing them for 6 sec.</source>
+        <translation>施法者放出一道火焰冲击波，所有被冲击波触及的敌人都会受到154到186点火焰伤害并眩晕6秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="87"/>
+        <source>Your Scorch spells have a %1% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 sec. Stacks up to 5 times.</source>
+        <translation>使你的灼烧法术有%1%的几率令目标更易受到火焰伤害，在其受到火焰系攻击时承受的伤害提高3%，持续30秒。可叠加5次。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="98"/>
+        <source>Reduces the casting time of your Fireball spell by %1 sec.</source>
+        <translation>使你的火球术的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="107"/>
+        <source>Your critical strikes from Fire damage spells cause the target to burn for an additional %1% of your spell&apos;s damage over 4 sec.</source>
+        <translation>你的火焰法术在造成爆击后使目标燃烧，令其在4秒内承受相当于该法术伤害%1%的额外伤害。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="115"/>
+        <source>Increases the critical strike chance of your Fire Blast and Scorch spells by %1%.</source>
+        <translation>使你的火焰冲击和灼烧法术的爆击率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="124"/>
+        <source>Your Fire and Frost spell criticals will refund %1% of their base mana cost.</source>
+        <translation>使你的火焰系和冰霜系法术在造成爆击效果之后为施法者回复该法术所消耗基础法力值的%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="137"/>
+        <source>Increases the critical strike chance of your Fire spells by %1%.</source>
+        <translation>使你的火焰法术造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="145"/>
+        <source>Increases the damage done by your Fire spells by %1%.</source>
+        <translation>使你的火焰法术造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Fire.cpp" line="153"/>
+        <source>When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%. This effect lasts until you have caused 3 critical strikes with Fire spells.</source>
+        <translation>激活之后，你每一次施放火焰系伤害性法术，你的该类法术的爆击几率都会提高10%。这个效果会一直持续到你使用火焰系法术造成了3次爆击。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="8"/>
+        <source>Frost</source>
+        <translation>冰霜</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="18"/>
+        <source>Frost Warding</source>
+        <translation>冰霜障壁</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="10"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="91"/>
+        <source>Elemental Precision</source>
+        <translation>元素精准</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="28"/>
+        <source>Frostbite</source>
+        <translation>霜寒刺骨</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="30"/>
+        <source>Improved Frost Nova</source>
+        <translation>强化冰霜新星</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="32"/>
+        <source>Permafrost</source>
+        <translation>极寒冰霜</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="112"/>
+        <source>Piercing Ice</source>
+        <translation>刺骨寒冰</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="39"/>
+        <source>Cold Snap</source>
+        <translation>急速冷却</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="122"/>
+        <source>Improved Blizzard</source>
+        <translation>强化暴风雪</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="47"/>
+        <source>Arctic Reach</source>
+        <translation>极寒延伸</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="50"/>
+        <source>Shatter</source>
+        <translation>碎冰</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="56"/>
+        <source>Ice Block</source>
+        <translation>寒冰屏障</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="60"/>
+        <source>Improved Cone of Cold</source>
+        <translation>强化冰锥术</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="70"/>
+        <source>Ice Barrier</source>
+        <translation>寒冰护体</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="19"/>
+        <source>Increases the armor and resistances given by your Frost Armor and Ice Armor spells by %1%. In addition, gives your Frost Ward a %2% chance to reflect Frost spells and effects while active.</source>
+        <translation>使你的霜甲术和冰甲术所提供的护甲值和抗性提高%1%。另外，你的防护冰霜结界有%2%的几率将冰霜系法术和魔法效果反射给施法者。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="29"/>
+        <source>Gives your Chill effects a %1% chance to freeze the target for 5 sec.</source>
+        <translation>使你的寒冷效果有%1%的几率将目标冰冻5秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="31"/>
+        <source>Reduces the cooldown of your Frost Nova spell by %1 sec.</source>
+        <translation>使你的冰霜新星的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="33"/>
+        <source>Increases the duration of your Chill effects by %1 sec and reduces the target&apos;s speed by an additional %2%.</source>
+        <translation>使你的冰冷效果的持续时间延长%1秒，并使目标身上的减速效果提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="40"/>
+        <source>When activated, this spell finishes the cooldown on all of your Frost spells.</source>
+        <translation>激活之后，使你的所有冰霜法术的冷却时间结束。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="48"/>
+        <source>Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by %1%.</source>
+        <translation>使你的冰霜新星和冰锥术的有效半径以及寒冰箭和暴风雪的射程提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="51"/>
+        <source>Increases the critical strike chance of all your spells against frozen targets by %1%.</source>
+        <translation>使你的所有法术在击中被冰冻的敌人时造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="57"/>
+        <source>You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move or cast spells.</source>
+        <translation>你被一道寒冰屏障所笼罩，在10秒内不会受到任何物理和法术伤害，但是在这期间你也无法攻击、移动或施法。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="61"/>
+        <source>Increases the damage dealt by your Cone of Cold spell by %1%.</source>
+        <translation>使你的冰锥术所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="71"/>
+        <source>Instantly shields you, absorbing 438 damage. Lasts 1 min. While the shield holds, spells will not be interrupted.</source>
+        <translation>立即为目标加上魔法护盾，可吸收438点伤害，持续1分钟。只要护盾存在，受保护者的施法就不会被打断。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="84"/>
+        <source>Reduces the casting time of your Frostbolt spell by %1 sec.</source>
+        <translation>使你的寒冰箭的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="92"/>
+        <source>Reduces the chance that the opponent can resist your Frost and Fire spells by %1%.</source>
+        <translation>使你的目标抵抗你的火焰和冰霜系法术的几率降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="104"/>
+        <source>Increases the critical strike damage bonus of your Frost spells by %1%.</source>
+        <translation>使你的冰霜法术爆击所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="113"/>
+        <source>Increases the damage done by your Frost spells by %1%.</source>
+        <translation>使你的冰霜法术所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="120"/>
+        <source>Adds a chill effect to your Blizzard spell. This effect lowers the target&apos;s movement speed by %1%. Lasts 1.50 sec.</source>
+        <translation>为你的暴风雪法术增加冰冷效果，使目标的移动速度降低%1%,持续1.5秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="129"/>
+        <source>Reduces the mana cost of your Frost spells by %1% and reduces the threat caused by your Frost spells by %2%.</source>
+        <translation>使你的所有冰霜法术所消耗的法力值减少%1%，冰霜系法术所造成的威胁值降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="138"/>
+        <source>Gives your Frost damage spells a %1% chance to apply the Winter&apos;s Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec. Stacks up to 5 times.</source>
+        <translation>你的冰霜系伤害法术有%1%的几率附加深冬之寒效果，令冰霜系法术对目标造成爆击的几率提高2%，效果持续15秒，可叠加最多5次。</translation>
     </message>
 </context>
 <context>

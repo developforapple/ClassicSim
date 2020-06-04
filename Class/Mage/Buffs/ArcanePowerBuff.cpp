@@ -1,5 +1,5 @@
 #include "ArcanePowerBuff.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -7,20 +7,20 @@
 #include "SpellRankGroup.h"
 
 ArcanePowerBuff::ArcanePowerBuff(Character* pchar) :
-    SelfBuff(pchar, "Arcane Power", "Assets/spell/Spell_nature_lightning.png", 15, 0),
+    SelfBuff(pchar, QObject::tr("Arcane Power"), "Assets/spell/Spell_nature_lightning.png", 15, 0),
     affected_spells({
-        "Blizzard",
-        "Frostbolt",
-        "Arcane Explosion",
-        "Fire Blast",
-        "Scorch",
-        "Fireball",
-        "Pyroblast",
-        "Blast Wave",
-        "Frost Nova",
-        "Flamestrike",
-        "Cone of Cold",
-        "Arcane Missiles",
+        QObject::tr("Blizzard"),
+        QObject::tr("Frostbolt"),
+        QObject::tr("Arcane Explosion"),
+        QObject::tr("Fire Blast"),
+        QObject::tr("Scorch"),
+        QObject::tr("Fireball"),
+        QObject::tr("Pyroblast"),
+        QObject::tr("Blast Wave"),
+        QObject::tr("Frost Nova"),
+        QObject::tr("Flamestrike"),
+        QObject::tr("Cone of Cold"),
+        QObject::tr("Arcane Missiles"),
     }) {}
 
 void ArcanePowerBuff::buff_effect_when_applied() {

@@ -1,8 +1,8 @@
 #include "IgniteBuff.h"
-
+#include <QObject>
 #include <algorithm>
 
-IgniteBuff::IgniteBuff(Character* pchar) : SharedDebuff(pchar, "Ignite", "Assets/spell/Spell_fire_incinerate.png", Priority::Low, 4, 0) {}
+IgniteBuff::IgniteBuff(Character* pchar) : SharedDebuff(pchar, QObject::tr("Ignite"), "Assets/spell/Spell_fire_incinerate.png", Priority::Low, 4, 0) {}
 
 void IgniteBuff::increase_ignite_size(const double ignite_damage, const int instance_id) {
     if (current_effects.size() == 5)

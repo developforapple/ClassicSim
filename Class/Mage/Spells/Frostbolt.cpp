@@ -1,5 +1,5 @@
 #include "Frostbolt.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -17,7 +17,7 @@
 #include "Utils/Check.h"
 
 Frostbolt::Frostbolt(Mage* pchar, MageSpells* mage_spells, Proc* winters_chill, const int spell_rank) :
-    Spell("Frostbolt",
+    Spell(QObject::tr("Frostbolt"),
           "Assets/spell/Spell_frost_frostbolt02.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -27,10 +27,10 @@ Frostbolt::Frostbolt(Mage* pchar, MageSpells* mage_spells, Proc* winters_chill, 
           spell_rank),
     CastingTimeRequirer(pchar, SuppressibleCast::Yes, 3000),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Frostbolt", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Ice Shards", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Frost Channeling", 3, DisabledAtZero::No),
-        new TalentRequirerInfo("Master of Elements", 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Frostbolt"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Ice Shards"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Frost Channeling"), 3, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Master of Elements"), 5, DisabledAtZero::No),
     }),
     mage_spells(mage_spells),
     winters_chill(winters_chill) {
@@ -195,29 +195,29 @@ void Frostbolt::gain_mana(const double mana_gain) {
 }
 
 void Frostbolt::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("Master of Elements Frostbolt (rank %1)").arg(spell_rank),
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Master of Elements Frostbolt (rank %1)").arg(spell_rank),
                                                                                  "Assets/spell/Spell_fire_masterofelements.png");
     this->spell_crit_dmg_mod = (pchar->get_stats()->get_spell_crit_dmg_mod() - 1.0) * ice_shards_multiplier + 1.0;
 }
 
 void Frostbolt::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Frostbolt")
+    if (talent_name == QObject::tr("Improved Frostbolt"))
         casting_time_ms = base_casting_time_ms - improved_frostbolt_ranks[curr];
-    else if (talent_name == "Ice Shards")
+    else if (talent_name == QObject::tr("Ice Shards"))
         ice_shards_multiplier = ice_shards_ranks[curr];
-    else if (talent_name == "Frost Channeling")
+    else if (talent_name == QObject::tr("Frost Channeling"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * frost_channeling_ranks[curr]));
-    else if (talent_name == "Master of Elements")
+    else if (talent_name == QObject::tr("Master of Elements"))
         master_of_elements_mana_return = master_of_elements_ranks[curr];
 }
 
 void Frostbolt::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Frostbolt")
+    if (talent_name == QObject::tr("Improved Frostbolt"))
         casting_time_ms = base_casting_time_ms - improved_frostbolt_ranks[curr];
-    else if (talent_name == "Ice Shards")
+    else if (talent_name == QObject::tr("Ice Shards"))
         ice_shards_multiplier = ice_shards_ranks[curr];
-    else if (talent_name == "Frost Channeling")
+    else if (talent_name == QObject::tr("Frost Channeling"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * frost_channeling_ranks[curr]));
-    else if (talent_name == "Master of Elements")
+    else if (talent_name == QObject::tr("Master of Elements"))
         master_of_elements_mana_return = master_of_elements_ranks[curr];
 }

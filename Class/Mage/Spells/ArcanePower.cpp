@@ -1,11 +1,11 @@
 #include "ArcanePower.h"
-
+#include <QObject>
 #include "ArcanePowerBuff.h"
 #include "CooldownControl.h"
 #include "Mage.h"
 
 ArcanePower::ArcanePower(Mage* pchar) :
-    Spell("Arcane Power",
+    Spell(QObject::tr("Arcane Power"),
           "Assets/spell/Spell_nature_lightning.png",
           pchar,
           new CooldownControl(pchar, 180.0),
@@ -13,7 +13,7 @@ ArcanePower::ArcanePower(Mage* pchar) :
           ResourceType::Mana,
           0,
           0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Arcane Power", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Arcane Power"), 1, DisabledAtZero::Yes)}),
     buff(new ArcanePowerBuff(pchar)) {
     enabled = false;
 }

@@ -1,11 +1,11 @@
 #include "MageArmor.h"
-
+#include <QObject>
 #include "MageArmorBuff.h"
 #include "CooldownControl.h"
 #include "Mage.h"
 
 MageArmor::MageArmor(Mage* pchar) :
-    Spell("Mage Armor",
+    Spell(QObject::tr("Mage Armor"),
           "Assets/spell/Spell_arcane_mage_armor.png",
           pchar,
           new CooldownControl(pchar, 0.0),

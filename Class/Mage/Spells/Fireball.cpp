@@ -1,5 +1,5 @@
 #include "Fireball.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -16,7 +16,7 @@
 #include "Utils/Check.h"
 
 Fireball::Fireball(Mage* pchar, MageSpells* mage_spells, const int spell_rank) :
-    Spell("Fireball",
+    Spell(QObject::tr("Fireball"),
           "Assets/spell/Spell_fire_flamebolt.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -25,10 +25,10 @@ Fireball::Fireball(Mage* pchar, MageSpells* mage_spells, const int spell_rank) :
           0,
           spell_rank),
     CastingTimeRequirer(pchar, SuppressibleCast::Yes, 3500),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Fireball", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Burning Soul", 2, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Master of Elements", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Critical Mass", 3, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Fireball"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Burning Soul"), 2, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Master of Elements"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Critical Mass"), 3, DisabledAtZero::No)}),
     mage_spells(mage_spells) {
     switch (spell_rank) {
     case 1:
@@ -212,7 +212,7 @@ void Fireball::gain_mana(const double mana_gain) {
 }
 
 void Fireball::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("Master of Elements Fireball (rank %1)").arg(spell_rank),
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("Master of Elements Fireball (rank %1)").arg(spell_rank),
                                                                                  "Assets/spell/Spell_fire_masterofelements.png");
 }
 
@@ -221,19 +221,19 @@ void Fireball::reset_effect() {
 }
 
 void Fireball::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Fireball")
+    if (talent_name == QObject::tr("Improved Fireball"))
         casting_time_ms = base_casting_time_ms - improved_fireball_ranks[curr];
-    else if (talent_name == "Master of Elements")
+    else if (talent_name == QObject::tr("Master of Elements"))
         master_of_elements_mana_return = master_of_elements_ranks[curr];
-    else if (talent_name == "Critical Mass")
+    else if (talent_name == QObject::tr("Critical Mass"))
         damage_spell->crit_bonus = critical_mass_ranks[curr];
 }
 
 void Fireball::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Fireball")
+    if (talent_name == QObject::tr("Improved Fireball"))
         casting_time_ms = base_casting_time_ms - improved_fireball_ranks[curr];
-    else if (talent_name == "Master of Elements")
+    else if (talent_name == QObject::tr("Master of Elements"))
         master_of_elements_mana_return = master_of_elements_ranks[curr];
-    else if (talent_name == "Critical Mass")
+    else if (talent_name == QObject::tr("Critical Mass"))
         damage_spell->crit_bonus = critical_mass_ranks[curr];
 }

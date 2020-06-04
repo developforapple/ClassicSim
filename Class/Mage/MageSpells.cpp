@@ -1,5 +1,5 @@
 #include "MageSpells.h"
-
+#include <QObject>
 #include "ArcaneMissiles.h"
 #include "ArcanePower.h"
 #include "Berserking.h"
@@ -33,7 +33,7 @@ MageSpells::MageSpells(Mage* mage) : CharacterSpells(mage), mage(mage) {
     this->mh_attack = new MainhandAttack(mage);
     add_spell_group({mh_attack});
 
-    auto winters_chill_buff = static_cast<WintersChill*>(mage->get_raid_control()->get_shared_raid_buff("Winter's Chill"));
+    auto winters_chill_buff = static_cast<WintersChill*>(mage->get_raid_control()->get_shared_raid_buff(QObject::tr("Winter's Chill")));
     if (winters_chill_buff == nullptr) {
         winters_chill_buff = new WintersChill(mage);
         winters_chill_buff->enable_buff();
@@ -80,7 +80,7 @@ MageSpells::MageSpells(Mage* mage) : CharacterSpells(mage), mage(mage) {
         new ArcaneMissiles(mage, this, 8),
     });
 
-    auto fire_vulnerability_buff = static_cast<FireVulnerability*>(mage->get_raid_control()->get_shared_raid_buff("Fire Vulnerability"));
+    auto fire_vulnerability_buff = static_cast<FireVulnerability*>(mage->get_raid_control()->get_shared_raid_buff(QObject::tr("Fire Vulnerability")));
     if (fire_vulnerability_buff == nullptr) {
         fire_vulnerability_buff = new FireVulnerability(mage);
         fire_vulnerability_buff->enable_buff();
@@ -96,7 +96,7 @@ MageSpells::MageSpells(Mage* mage) : CharacterSpells(mage), mage(mage) {
         new Scorch(mage, this, imp_scorch, 7),
     });
 
-    auto ignite_buff = static_cast<IgniteBuff*>(mage->get_raid_control()->get_shared_raid_buff("Ignite"));
+    auto ignite_buff = static_cast<IgniteBuff*>(mage->get_raid_control()->get_shared_raid_buff(QObject::tr("Ignite")));
     if (ignite_buff == nullptr) {
         ignite_buff = new IgniteBuff(mage);
         ignite_buff->enable_buff();
@@ -113,16 +113,16 @@ MageSpells::MageSpells(Mage* mage) : CharacterSpells(mage), mage(mage) {
 
     this->clearcasting = new ClearcastingMage(mage);
     this->elemental_vulnerability = new ElementalVulnerability(mage);
-    this->t3_6piece_proc = new GenericBuffProc(mage, "Elemental Vulnerability 6p T3", "Assets/spell/Spell_holy_dizzy.png",
+    this->t3_6piece_proc = new GenericBuffProc(mage, QObject::tr("Elemental Vulnerability 6p T3"), "Assets/spell/Spell_holy_dizzy.png",
                                                {ProcInfo::Source::MagicSpell}, 0.2, EnabledAtStart::No, MaintainBuffEnabled::No,
                                                elemental_vulnerability);
 
     add_spell_group({new RobeOfTheArchmage(mage)});
 
-    this->t2_8piece_buff = new SuppressCastBuff(mage, "Netherwind Focus", "Assets/spell/Spell_shadow_teleport.png", BuffDuration::PERMANENT, 1);
-    this->t2_8piece_proc = new GenericBuffProc(mage, "Netherwind Focus", "Assets/spell/Spell_shadow_teleport.png", {ProcInfo::Source::Manual}, 0.1,
+    this->t2_8piece_buff = new SuppressCastBuff(mage, QObject::tr("Netherwind Focus"), "Assets/spell/Spell_shadow_teleport.png", BuffDuration::PERMANENT, 1);
+    this->t2_8piece_proc = new GenericBuffProc(mage, QObject::tr("Netherwind Focus"), "Assets/spell/Spell_shadow_teleport.png", {ProcInfo::Source::Manual}, 0.1,
                                                EnabledAtStart::No, MaintainBuffEnabled::Yes, t2_8piece_buff);
-    this->enigma_5p_buff = new GenericStatBuff(mage, "Enigma's Answer", "Assets/spell/Spell_nature_astralrecalgroup.png", 20,
+    this->enigma_5p_buff = new GenericStatBuff(mage, QObject::tr("Enigma's Answer"), "Assets/spell/Spell_nature_astralrecalgroup.png", 20,
                                                {{ItemStats::SpellHit, 500}});
 }
 

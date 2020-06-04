@@ -1,5 +1,5 @@
 #include "ArcaneMissiles.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "Character.h"
 #include "CharacterStats.h"
@@ -11,7 +11,7 @@
 #include "Utils/Check.h"
 
 ArcaneMissiles::ArcaneMissiles(Character* pchar, MageSpells* spells, const int spell_rank) :
-    SpellPeriodic("Arcane Missiles",
+    SpellPeriodic(QObject::tr("Arcane Missiles"),
                   "Assets/spell/Spell_nature_starfall.png",
                   pchar,
                   new NoEffectUniqueDebuff(pchar, Priority::Low, 5),

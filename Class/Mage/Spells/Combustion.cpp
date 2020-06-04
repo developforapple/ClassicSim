@@ -1,11 +1,11 @@
 #include "Combustion.h"
-
+#include <QObject>
 #include "CombustionBuff.h"
 #include "CooldownControl.h"
 #include "Mage.h"
 
 Combustion::Combustion(Mage* pchar) :
-    Spell("Combustion",
+    Spell(QObject::tr("Combustion"),
           "Assets/spell/Spell_fire_sealoffire.png",
           pchar,
           new CooldownControl(pchar, 180.0),
@@ -13,7 +13,7 @@ Combustion::Combustion(Mage* pchar) :
           ResourceType::Mana,
           0,
           0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Combustion", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Combustion"), 1, DisabledAtZero::Yes)}),
     buff(new CombustionBuff(pchar)) {
     enabled = false;
 }

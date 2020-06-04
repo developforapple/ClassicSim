@@ -1,5 +1,5 @@
 #include "RobeOfTheArchmage.h"
-
+#include <QObject>
 #include "Character.h"
 #include "ClassStatistics.h"
 #include "CooldownControl.h"
@@ -8,7 +8,7 @@
 #include "Utils/Check.h"
 
 RobeOfTheArchmage::RobeOfTheArchmage(Character* pchar) :
-    Spell("Robe of the Archmage",
+    Spell(QObject::tr("Robe of the Archmage"),
           "Assets/items/Inv_chest_cloth_38.png",
           pchar,
           new CooldownControl(pchar, 300.0),
