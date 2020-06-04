@@ -1134,6 +1134,8 @@
     </message>
     <message>
         <location filename="Class/Common/Spells/EssenceOfTheRed.cpp" line="6"/>
+        <location filename="Rulesets/RulesetControl.cpp" line="47"/>
+        <location filename="Rulesets/RulesetControl.cpp" line="55"/>
         <source>Essence of the Red</source>
         <translation>红龙精华</translation>
     </message>

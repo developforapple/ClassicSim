@@ -1,5 +1,5 @@
 #include "RulesetControl.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -44,7 +44,7 @@ void RulesetControl::use_ruleset(Ruleset ruleset, Character* pchar, SimSettings*
 }
 
 void RulesetControl::use_vaelastrasz_ruleset(Character* pchar, SimSettings* sim_settings) {
-    Spell* spell = pchar->get_spells()->get_spell_rank_group_by_name("Essence of the Red")->get_max_available_spell_rank();
+    Spell* spell = pchar->get_spells()->get_spell_rank_group_by_name(QObject::tr("Essence of the Red"))->get_max_available_spell_rank();
     check((spell != nullptr), QString("Essence of the Red not found for %1").arg(pchar->class_name).toStdString());
     spell->enable();
 
@@ -52,7 +52,7 @@ void RulesetControl::use_vaelastrasz_ruleset(Character* pchar, SimSettings* sim_
 }
 
 void RulesetControl::remove_vaelastrasz_ruleset(Character* pchar, SimSettings* sim_settings) {
-    Spell* spell = pchar->get_spells()->get_spell_rank_group_by_name("Essence of the Red")->get_max_available_spell_rank();
+    Spell* spell = pchar->get_spells()->get_spell_rank_group_by_name(QObject::tr("Essence of the Red"))->get_max_available_spell_rank();
     check((spell != nullptr), QString("Essence of the Red not found for %1").arg(pchar->class_name).toStdString());
     spell->disable();
 
