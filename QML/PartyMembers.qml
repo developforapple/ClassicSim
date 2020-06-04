@@ -36,7 +36,7 @@ RectangleBorders {
     TextSmall {
         anchorParent: false
         id: groupText
-        text: "Group " + party
+        text: qsTr("Group ") + party
         height: 20
         width: parent.width
     }

@@ -53,7 +53,7 @@ RectangleBorders {
         }
 
         TextSmall {
-            text: "Add stat filter"
+            text: qsTr("Add stat filter")
         }
 
         onButtonClicked: toggleStatFilterSelection()

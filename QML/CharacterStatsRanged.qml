@@ -13,43 +13,43 @@ Column {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Strength: " + character.strength
+        text: qsTr("Strength: ") + character.strength
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Agility: " + character.agility
+        text: qsTr("Agility: ") + character.agility
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Stamina: " + character.stamina
+        text: qsTr("Stamina: ") + character.stamina
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Intellect: " + character.intellect
+        text: qsTr("Intellect: ") + character.intellect
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Spirit: " + character.spirit
+        text: qsTr("Spirit: ") + character.spirit
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        property string crit: character.rangedCritChance.length < 8 ? "Critical strike: " :
-                                                                      "Crit: "
+        property string crit: character.rangedCritChance.length < 8 ? qsTr("Critical strike: ") :
+                                                                      qsTr("Crit: ")
 
         text: crit + character.rangedCritChance + "%"
     }
@@ -58,20 +58,20 @@ Column {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Ranged Hit: " + character.rangedHitChance + "%"
+        text: qsTr("Ranged Hit: ") + character.rangedHitChance + "%"
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Ranged AP: " + character.rangedAttackPower
+        text: qsTr("Ranged AP: ") + character.rangedAttackPower
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Ranged skill: " + character.wpnSkillRanged
+        text: qsTr("Ranged skill: ") + character.wpnSkillRanged
     }
 }

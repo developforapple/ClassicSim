@@ -164,14 +164,14 @@ Window {
 
         width: 200
         model: [
-            "Beast",
-            "Demon",
-            "Dragonkin",
-            "Elemental",
-            "Giant",
-            "Humanoid",
-            "Mechanical",
-            "Undead"
+            qsTr("Beast"),
+            qsTr("Demon"),
+            qsTr("Dragonkin"),
+            qsTr("Elemental"),
+            qsTr("Giant"),
+            qsTr("Humanoid"),
+            qsTr("Mechanical"),
+            qsTr("Undead")
         ]
 
         currentIndex: settings.getCurrentCreatureType()
@@ -190,9 +190,9 @@ Window {
 
         width: 200
         model: [
-            "Standard",
-            "Vaelastrasz",
-            "Loatheb"
+            qsTr("Standard"),
+            qsTr("Vaelastrasz"),
+            qsTr("Loatheb")
         ]
 
         currentIndex: settings.getCurrentRuleset()
@@ -498,7 +498,7 @@ Window {
                 bold: true
             }
 
-            text: "Run Full Sim"
+            text: qsTr("Run Full Sim")
 
             anchors.fill: parent
 
@@ -526,7 +526,7 @@ Window {
     }
 
     Text {
-        text: "All art assets ©Blizzard Entertainment (2019)."
+        text: qsTr("All art assets ©Blizzard Entertainment (2019).")
         height: 15
         anchors {
             left: parent.left

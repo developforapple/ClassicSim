@@ -28,7 +28,7 @@ Rectangle {
                         rightMargin: 5
                     }
 
-                    text: "Select rotation"
+                    text: qsTr("Select rotation")
                 }
             }
 
@@ -41,7 +41,7 @@ Rectangle {
                 }
                 height: 45
 
-                text: "Current: " + character.rotationName
+                text: qsTr("Current: ") + character.rotationName
 
                 elide: Text.ElideRight
 

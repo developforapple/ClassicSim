@@ -20,7 +20,7 @@ RectangleBorders {
         pointSize: 11
         color: "lightgrey"
 
-        text: "Simulation Settings"
+        text: qsTr("Simulation Settings")
     }
 
     GradientButton {
@@ -39,7 +39,7 @@ RectangleBorders {
         height: 30
         width: 100
         TextSmall {
-            text: "Reset defaults"
+            text: qsTr("Reset defaults")
         }
 
         onButtonClicked: settings.resetDefaultSettings()
@@ -56,56 +56,56 @@ RectangleBorders {
         spacing: 10
 
         SettingsTextFieldEntry {
-            description: "Iterations (full simulation)"
+            description: qsTr("Iterations (full simulation)")
             minVal: 100
             maxVal: 1000000
             valueText: settings.combatIterationsFullSim
             placeholderText: settings.combatIterationsFullSim
-            unitText: "iterations"
+            unitText: qsTr("iterations")
 
             onAcceptedInput: settings.setCombatIterationsFullSim(value)
         }
 
         SettingsTextFieldEntry {
-            description: "Iterations (quick simulation)"
+            description: qsTr("Iterations (quick simulation)")
             minVal: 100
             maxVal: 1000000
             valueText: settings.combatIterationsQuickSim
             placeholderText: settings.combatIterationsQuickSim
-            unitText: "iterations"
+            unitText: qsTr("iterations")
 
             onAcceptedInput: settings.setCombatIterationsQuickSim(value)
         }
 
         SettingsTextFieldEntry {
-            description: "Combat length"
+            description: qsTr("Combat length")
             minVal: 30
             maxVal: 600
             valueText: settings.combatLength
             placeholderText: settings.combatLength
-            unitText: "seconds"
+            unitText: qsTr("seconds")
 
             onAcceptedInput: settings.setCombatLength(value)
         }
 
         SettingsTextFieldEntry {
-            description: "Active threads"
+            description: qsTr("Active threads")
             minVal: 1
             maxVal: settings.maxThreads
             valueText: settings.numThreads
             placeholderText: settings.numThreads
-            unitText: "threads"
+            unitText: qsTr("threads")
 
             onAcceptedInput: settings.setNumThreads(value)
         }
 
         SettingsTextFieldEntry {
-            description: "Target armor"
+            description: qsTr("Target armor")
             minVal: 0
             maxVal: 9999
             valueText: settings.targetBaseArmor
             placeholderText: settings.targetBaseArmor
-            unitText: "armor (" + settings.targetArmor + ")"
+            unitText: qsTr("armor (") + settings.targetArmor + ")"
 
             onAcceptedInput: settings.setTargetBaseArmor(value)
         }

@@ -354,7 +354,7 @@ RectangleBorders {
 
         height: 10
 
-        text: "Durability 105 / 105"
+        text: qsTr("Durability 105 / 105")
 
         visible: ttRect.visible && showDurabilityInTooltip
 

@@ -13,55 +13,55 @@ Column {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Strength: " + character.strength
+        text: qsTr("Strength: ") + character.strength
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Agility: " + character.agility
+        text: qsTr("Agility: ") + character.agility
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Stamina: " + character.stamina
+        text: qsTr("Stamina: ") + character.stamina
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Intellect: " + character.intellect
+        text: qsTr("Intellect: ") + character.intellect
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Spirit: " + character.spirit
+        text: qsTr("Spirit: ") + character.spirit
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Spell Damage: " + character.spellPower
+        text: qsTr("Spell Damage: ") + character.spellPower
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Spell Hit: " + character.spellHitChance
+        text: qsTr("Spell Hit: ") + character.spellHitChance
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Spell Crit: " + character.spellCritChance
+        text: qsTr("Spell Crit: ") + character.spellCritChance
     }
 }

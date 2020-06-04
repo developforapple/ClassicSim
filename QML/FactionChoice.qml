@@ -43,7 +43,7 @@ Rectangle {
 
                 pointSize: 16
 
-                text: "Alliance"
+                text: qsTr("Alliance")
                 color: character.isAlliance ? "#1c5baf" :
                                               root.gray
                 horizontalAlignment: Text.AlignLeft
@@ -83,7 +83,7 @@ Rectangle {
 
                 pointSize: 16
 
-                text: "Horde"
+                text: qsTr("Horde")
                 color: character.isHorde ? root.wineRed :
                                            root.gray
                 horizontalAlignment: Text.AlignLeft

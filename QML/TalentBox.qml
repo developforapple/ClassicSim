@@ -56,7 +56,7 @@ Rectangle {
     }
 
     function updateTooltip() {
-        ttRank.text = "Rank " + talents.getRank(treePos, talentPos) + "/" + talents.getMaxRank(treePos, talentPos)
+        ttRank.text = qsTr("Rank ") + talents.getRank(treePos, talentPos) + "/" + talents.getMaxRank(treePos, talentPos)
         ttDescription.text = talents.getCurrentRankDescription(treePos, talentPos)
 
         ttRequirements.visible = ttRect.visible && !talents.isAvailable(treePos, talentPos) && talents.hasTalentPointsRemaining()
@@ -254,7 +254,7 @@ Rectangle {
 
     Text {
         id: ttRank
-        text: "Rank " + talents.getRank(treePos, talentPos) + "/" + talents.getMaxRank(treePos, talentPos)
+        text: qsTr("Rank ") + talents.getRank(treePos, talentPos) + "/" + talents.getMaxRank(treePos, talentPos)
 
         visible: ttRect.visible
 
@@ -332,7 +332,7 @@ Rectangle {
 
     Text {
         id: ttNextRank
-        text: "Next rank:"
+        text: qsTr("Next rank:")
 
         visible: ttRect.visible && talents.isActive(treePos, talentPos) && !talents.isMaxed(treePos, talentPos)
 

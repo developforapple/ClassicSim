@@ -2,10 +2,351 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN" sourcelanguage="en">
 <context>
+    <name>AttackModeChoice</name>
+    <message>
+        <location filename="QML/AttackModeChoice.qml" line="31"/>
+        <source>Melee</source>
+        <translation>近战攻击</translation>
+    </message>
+    <message>
+        <location filename="QML/AttackModeChoice.qml" line="47"/>
+        <source>Ranged</source>
+        <translation>远程攻击</translation>
+    </message>
+    <message>
+        <location filename="QML/AttackModeChoice.qml" line="63"/>
+        <source>Spell</source>
+        <translation>法术攻击</translation>
+    </message>
+</context>
+<context>
+    <name>CharacterStatsMelee</name>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="16"/>
+        <source>Strength: </source>
+        <translation>力量： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="23"/>
+        <source>Agility: </source>
+        <translation>敏捷： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="30"/>
+        <source>Stamina: </source>
+        <translation>耐力： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="37"/>
+        <source>Intellect: </source>
+        <translation>智力： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="44"/>
+        <source>Spirit: </source>
+        <translation>精神： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="51"/>
+        <source>Critical strike: </source>
+        <translation>爆击： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="52"/>
+        <source>Crit: </source>
+        <translation>爆击： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="61"/>
+        <source>Hit: </source>
+        <translation>命中： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="68"/>
+        <source>Attack Power: </source>
+        <translation>攻击强度： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="75"/>
+        <source>MH Skill: </source>
+        <translation>主手武器技能： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsMelee.qml" line="82"/>
+        <source>OH Skill: </source>
+        <translation>副手武器技能： </translation>
+    </message>
+</context>
+<context>
+    <name>CharacterStatsRanged</name>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="16"/>
+        <source>Strength: </source>
+        <translation>力量： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="23"/>
+        <source>Agility: </source>
+        <translation>敏捷： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="30"/>
+        <source>Stamina: </source>
+        <translation>耐力： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="37"/>
+        <source>Intellect: </source>
+        <translation>智力： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="44"/>
+        <source>Spirit: </source>
+        <translation>精神： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="51"/>
+        <source>Critical strike: </source>
+        <translation>爆击： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="52"/>
+        <source>Crit: </source>
+        <translation>爆击： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="61"/>
+        <source>Ranged Hit: </source>
+        <translation>远程命中： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="68"/>
+        <source>Ranged AP: </source>
+        <translation>远程攻击强度： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsRanged.qml" line="75"/>
+        <source>Ranged skill: </source>
+        <translation>远程武器技能： </translation>
+    </message>
+</context>
+<context>
+    <name>CharacterStatsSpell</name>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="16"/>
+        <source>Strength: </source>
+        <translation>力量： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="23"/>
+        <source>Agility: </source>
+        <translation>敏捷： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="30"/>
+        <source>Stamina: </source>
+        <translation>耐力： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="37"/>
+        <source>Intellect: </source>
+        <translation>智力： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="44"/>
+        <source>Spirit: </source>
+        <translation>精神： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="51"/>
+        <source>Spell Damage: </source>
+        <translation>法术伤害： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="58"/>
+        <source>Spell Hit: </source>
+        <translation>法术命中： </translation>
+    </message>
+    <message>
+        <location filename="QML/CharacterStatsSpell.qml" line="65"/>
+        <source>Spell Crit: </source>
+        <translation>法术爆击： </translation>
+    </message>
+</context>
+<context>
     <name>DruidTR</name>
     <message>
         <source>Subtlety</source>
         <translation type="vanished">微妙</translation>
+    </message>
+</context>
+<context>
+    <name>EquipmentFilters</name>
+    <message>
+        <location filename="QML/EquipmentFilters.qml" line="56"/>
+        <source>Add stat filter</source>
+        <translation>筛选</translation>
+    </message>
+</context>
+<context>
+    <name>EquipmentSortingItem</name>
+    <message>
+        <location filename="QML/EquipmentSortingItem.qml" line="30"/>
+        <source>ILVL</source>
+        <translation>等级</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingItem.qml" line="46"/>
+        <source>Name</source>
+        <translation>名称</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingItem.qml" line="62"/>
+        <source>Phase</source>
+        <translation>阶段</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingItem.qml" line="78"/>
+        <source>Type</source>
+        <translation>类型</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingItem.qml" line="90"/>
+        <source>Source</source>
+        <translation>来源</translation>
+    </message>
+</context>
+<context>
+    <name>EquipmentSortingWeapon</name>
+    <message>
+        <location filename="QML/EquipmentSortingWeapon.qml" line="30"/>
+        <source>ILVL</source>
+        <translation>等级</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingWeapon.qml" line="46"/>
+        <source>Name</source>
+        <translation>名称</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingWeapon.qml" line="78"/>
+        <source>Speed</source>
+        <translation>速度</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingWeapon.qml" line="94"/>
+        <source>Phase</source>
+        <translation>阶段</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingWeapon.qml" line="110"/>
+        <source>Type</source>
+        <translation>类型</translation>
+    </message>
+    <message>
+        <location filename="QML/EquipmentSortingWeapon.qml" line="122"/>
+        <source>Source</source>
+        <translation>来源</translation>
+    </message>
+</context>
+<context>
+    <name>EquipmentTooltip</name>
+    <message>
+        <location filename="QML/EquipmentTooltip.qml" line="357"/>
+        <source>Durability 105 / 105</source>
+        <translation>耐久度 105/105</translation>
+    </message>
+</context>
+<context>
+    <name>FactionChoice</name>
+    <message>
+        <location filename="QML/FactionChoice.qml" line="46"/>
+        <source>Alliance</source>
+        <translation>联盟</translation>
+    </message>
+    <message>
+        <location filename="QML/FactionChoice.qml" line="86"/>
+        <source>Horde</source>
+        <translation>部落</translation>
+    </message>
+</context>
+<context>
+    <name>NavigationBar</name>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="41"/>
+        <source>Talents</source>
+        <translation>天赋</translation>
+    </message>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="76"/>
+        <source>Equipment</source>
+        <translation>装备</translation>
+    </message>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="111"/>
+        <source>Buffs</source>
+        <translation>Buff</translation>
+    </message>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="146"/>
+        <source>Rotation</source>
+        <translation>循环</translation>
+    </message>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="181"/>
+        <source>Raid Setup</source>
+        <translation>团队配置</translation>
+    </message>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="216"/>
+        <source>Statistics</source>
+        <translation>统计数据</translation>
+    </message>
+    <message>
+        <location filename="QML/NavigationBar.qml" line="251"/>
+        <source>Settings</source>
+        <translation>设置</translation>
+    </message>
+</context>
+<context>
+    <name>PartyMemberTemplates</name>
+    <message>
+        <location filename="QML/PartyMemberTemplates.qml" line="11"/>
+        <source>Warrior DW Fury Pre-Raid</source>
+        <translation>5人本级别双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="QML/PartyMemberTemplates.qml" line="24"/>
+        <source>Warrior DW Fury BWL</source>
+        <translation>BWL级双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="QML/PartyMemberTemplates.qml" line="37"/>
+        <source>Warrior DW Fury AQ</source>
+        <translation>安其拉级双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="QML/PartyMemberTemplates.qml" line="50"/>
+        <source>Warrior DW Fury Naxx</source>
+        <translation>Naxx级双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="QML/PartyMemberTemplates.qml" line="63"/>
+        <source>Hunter 8/8 T2</source>
+        <translation>8T2猎人</translation>
+    </message>
+    <message>
+        <location filename="QML/PartyMemberTemplates.qml" line="76"/>
+        <source>Fire Mage T3</source>
+        <translation>T3火法</translation>
+    </message>
+</context>
+<context>
+    <name>PartyMembers</name>
+    <message>
+        <location filename="QML/PartyMembers.qml" line="39"/>
+        <source>Group </source>
+        <translation>小队 </translation>
     </message>
 </context>
 <context>
@@ -1053,6 +1394,7 @@
     <message>
         <location filename="Target/Target.cpp" line="16"/>
         <location filename="Target/Target.cpp" line="24"/>
+        <location filename="Test/TestSpell.cpp" line="960"/>
         <source>Beast</source>
         <translation>野兽</translation>
     </message>
@@ -1065,6 +1407,7 @@
     <message>
         <location filename="Target/Target.cpp" line="18"/>
         <location filename="Target/Target.cpp" line="26"/>
+        <location filename="Test/TestCharacterStats.cpp" line="294"/>
         <source>Dragonkin</source>
         <translation>龙类</translation>
     </message>
@@ -1077,6 +1420,8 @@
     <message>
         <location filename="Target/Target.cpp" line="21"/>
         <location filename="Target/Target.cpp" line="29"/>
+        <location filename="Test/TestCharacterStats.cpp" line="289"/>
+        <location filename="Test/TestSpell.cpp" line="965"/>
         <source>Humanoid</source>
         <translation>人型生物</translation>
     </message>
@@ -1089,6 +1434,7 @@
     <message>
         <location filename="Target/Target.cpp" line="23"/>
         <location filename="Target/Target.cpp" line="31"/>
+        <location filename="Test/TestCharacterStats.cpp" line="399"/>
         <source>Undead</source>
         <translation>亡灵</translation>
     </message>
@@ -1117,8 +1463,11 @@
     <message>
         <location filename="Character/Race/Racials/BloodFury.cpp" line="9"/>
         <location filename="Character/Race/Racials/BloodFuryBuff.cpp" line="8"/>
+        <location filename="Test/TestBloodFury.cpp" line="8"/>
+        <location filename="Test/TestBloodFury.cpp" line="23"/>
+        <location filename="Test/TestBloodFury.cpp" line="27"/>
         <source>Blood Fury</source>
-        <translation>血性狂暴</translation>
+        <translation>血性狂暴（种族特长）</translation>
     </message>
     <message>
         <location filename="Class/Common/Buffs/DevilsaurEye.cpp" line="6"/>
@@ -1206,6 +1555,8 @@
         <location filename="Class/Druid/Buffs/BearFormBuff.cpp" line="11"/>
         <location filename="Class/Druid/Spells/BearForm.cpp" line="10"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="123"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="16"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="87"/>
         <source>Bear Form</source>
         <translation>熊形态</translation>
     </message>
@@ -1258,6 +1609,8 @@
         <location filename="Class/Druid/DruidSpells.cpp" line="42"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="164"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="322"/>
+        <location filename="Test/Druid/Spells/TestCatForm.cpp" line="207"/>
         <source>Leader of the Pack</source>
         <translation>兽群领袖</translation>
     </message>
@@ -1267,6 +1620,11 @@
         <location filename="Class/Druid/Buffs/BearFormBuff.cpp" line="150"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="10"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="76"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="201"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="219"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="237"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="255"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="273"/>
         <source>Feral Instinct</source>
         <translation>野性本能</translation>
     </message>
@@ -1274,6 +1632,8 @@
         <location filename="Class/Druid/Buffs/CatFormBuff.cpp" line="11"/>
         <location filename="Class/Druid/Spells/CatForm.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="124"/>
+        <location filename="Test/Druid/Spells/TestCatForm.cpp" line="16"/>
+        <location filename="Test/Druid/Spells/TestCatForm.cpp" line="67"/>
         <source>Cat Form</source>
         <translation>猎豹形态</translation>
     </message>
@@ -1342,6 +1702,8 @@
         <location filename="Class/Druid/Procs/Furor.cpp" line="17"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="12"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="102"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="352"/>
+        <location filename="Test/Druid/Spells/TestCatForm.cpp" line="239"/>
         <source>Furor</source>
         <translation>激怒</translation>
     </message>
@@ -1363,6 +1725,8 @@
         <location filename="Class/Druid/Spells/MoonkinForm.cpp" line="43"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="17"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="120"/>
+        <location filename="Test/Druid/Spells/TestBearForm.cpp" line="117"/>
+        <location filename="Test/Druid/Spells/TestCatForm.cpp" line="109"/>
         <source>Natural Shapeshifter</source>
         <translation>自然变形</translation>
     </message>
@@ -3075,6 +3439,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
         <location filename="Class/Mage/TalentTrees/Frost.cpp" line="28"/>
+        <location filename="Test/Test.cpp" line="135"/>
+        <location filename="Test/Test.cpp" line="159"/>
         <source>Frostbite</source>
         <translation>霜寒刺骨</translation>
     </message>
@@ -6926,6 +7292,69 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <source>Requires %1 points in %2 Talents</source>
         <translation>需要%1点%2天赋点数</translation>
     </message>
+    <message>
+        <location filename="Test/Test.cpp" line="112"/>
+        <source>Ironfoe</source>
+        <translation>Ironfoe</translation>
+    </message>
+    <message>
+        <location filename="Test/Test.cpp" line="113"/>
+        <source>Vis&apos;kag the Bloodletter</source>
+        <translation>Vis&apos;kag the Bloodletter</translation>
+    </message>
+    <message>
+        <location filename="Test/Test.cpp" line="168"/>
+        <source>Striker&apos;s Mark</source>
+        <translation>Striker&apos;s Mark</translation>
+    </message>
+</context>
+<context>
+    <name>QuickSwitchBar</name>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="18"/>
+        <source>Talent 1</source>
+        <translation>天赋 1</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="25"/>
+        <source>Talent 2</source>
+        <translation>天赋 2</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="32"/>
+        <source>Talent 3</source>
+        <translation>天赋 3</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="46"/>
+        <source>Gear 1</source>
+        <translation>配装 1</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="53"/>
+        <source>Gear 2</source>
+        <translation>配装 2</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="60"/>
+        <source>Gear 3</source>
+        <translation>配装 3</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="74"/>
+        <source>Buff 1</source>
+        <translation>Buff 1</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="81"/>
+        <source>Buff 2</source>
+        <translation>Buff 2</translation>
+    </message>
+    <message>
+        <location filename="QML/QuickSwitchBar.qml" line="88"/>
+        <source>Buff 3</source>
+        <translation>Buff 3</translation>
+    </message>
 </context>
 <context>
     <name>RogueTR</name>
@@ -6935,11 +7364,188 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     </message>
 </context>
 <context>
+    <name>Rotations</name>
+    <message>
+        <location filename="QML/Rotations.qml" line="31"/>
+        <source>Select rotation</source>
+        <translation>选择输出循环</translation>
+    </message>
+    <message>
+        <location filename="QML/Rotations.qml" line="44"/>
+        <source>Current: </source>
+        <translation>当前： </translation>
+    </message>
+</context>
+<context>
+    <name>SettingsCommon</name>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="23"/>
+        <source>Simulation Settings</source>
+        <translation>模拟器配置</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="42"/>
+        <source>Reset defaults</source>
+        <translation>重置</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="59"/>
+        <source>Iterations (full simulation)</source>
+        <translation>重复次数（充分模拟）</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="64"/>
+        <location filename="QML/SettingsCommon.qml" line="75"/>
+        <source>iterations</source>
+        <translation>次</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="70"/>
+        <source>Iterations (quick simulation)</source>
+        <translation>重复次数（快速模拟）</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="81"/>
+        <source>Combat length</source>
+        <translation>战斗时长</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="86"/>
+        <source>seconds</source>
+        <translation>秒</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="92"/>
+        <source>Active threads</source>
+        <translation>激活线程数</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="97"/>
+        <source>threads</source>
+        <translation>线程</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="103"/>
+        <source>Target armor</source>
+        <translation>目标护甲</translation>
+    </message>
+    <message>
+        <location filename="QML/SettingsCommon.qml" line="108"/>
+        <source>armor (</source>
+        <translation>护甲</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsScaleFactors</name>
+    <message>
+        <location filename="QML/SettingsScaleFactors.qml" line="22"/>
+        <source>Scale Factors</source>
+        <translation>比例因子</translation>
+    </message>
+</context>
+<context>
+    <name>TalentBox</name>
+    <message>
+        <location filename="QML/TalentBox.qml" line="59"/>
+        <location filename="QML/TalentBox.qml" line="257"/>
+        <source>Rank </source>
+        <translation>等级 </translation>
+    </message>
+    <message>
+        <location filename="QML/TalentBox.qml" line="335"/>
+        <source>Next rank:</source>
+        <translation>下一等级：</translation>
+    </message>
+</context>
+<context>
+    <name>TalentCalculator</name>
+    <message>
+        <location filename="QML/TalentCalculator.qml" line="83"/>
+        <source>Required level: &lt;b&gt;</source>
+        <translation>需要角色等级：&lt;b&gt;</translation>
+    </message>
+    <message>
+        <location filename="QML/TalentCalculator.qml" line="84"/>
+        <source>Required level: &lt;b&gt;1&lt;/b&gt;</source>
+        <translation>需要角色等级: &lt;b&gt;1&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="QML/TalentCalculator.qml" line="106"/>
+        <source>Points left: &lt;b&gt;</source>
+        <translation>剩余点数：&lt;b&gt;</translation>
+    </message>
+</context>
+<context>
     <name>main</name>
     <message>
         <location filename="QML/main.qml" line="12"/>
         <source>ClassicSim</source>
-        <translation></translation>
+        <translation>ClassicSim中文</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="167"/>
+        <source>Beast</source>
+        <translation>野兽</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="168"/>
+        <source>Demon</source>
+        <translation>恶魔</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="169"/>
+        <source>Dragonkin</source>
+        <translation>龙类</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="170"/>
+        <source>Elemental</source>
+        <translation>元素</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="171"/>
+        <source>Giant</source>
+        <translation>巨人</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="172"/>
+        <source>Humanoid</source>
+        <translation>人型生物</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="173"/>
+        <source>Mechanical</source>
+        <translation>机械</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="174"/>
+        <source>Undead</source>
+        <translation>亡灵</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="193"/>
+        <source>Standard</source>
+        <translation>标准BOSS</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="194"/>
+        <source>Vaelastrasz</source>
+        <translation>堕落的瓦拉斯塔兹</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="195"/>
+        <source>Loatheb</source>
+        <translation>洛欧塞布</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="501"/>
+        <source>Run Full Sim</source>
+        <translation>运行</translation>
+    </message>
+    <message>
+        <location filename="QML/main.qml" line="529"/>
+        <source>All art assets ©Blizzard Entertainment (2019).</source>
+        <translation>版权所有 ©Blizzard Entertainment (2019).</translation>
     </message>
 </context>
 </TS>

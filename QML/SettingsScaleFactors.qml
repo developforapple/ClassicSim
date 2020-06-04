@@ -19,7 +19,7 @@ RectangleBorders {
         pointSize: 11
         color: "lightgrey"
 
-        text: "Scale Factors"
+        text: qsTr("Scale Factors")
     }
 
     ListView {

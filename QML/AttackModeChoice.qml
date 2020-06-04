@@ -28,7 +28,7 @@ RectangleBorders {
                                                                root.darkDarkGray
 
             TextSmall {
-                text: "Melee"
+                text: qsTr("Melee")
             }
         }
 
@@ -44,7 +44,7 @@ RectangleBorders {
                                                                 root.darkDarkGray
 
             TextSmall {
-                text: "Ranged"
+                text: qsTr("Ranged")
             }
         }
 
@@ -60,7 +60,7 @@ RectangleBorders {
                                                                root.darkDarkGray
 
             TextSmall {
-                text: "Spell"
+                text: qsTr("Spell")
             }
         }
     }

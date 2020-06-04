@@ -80,8 +80,8 @@ Rectangle {
                         pointSize: 10
                     }
 
-                    text: talents.talentPointsRemaining < 51 ? "Required level: <b>" + (60 - talents.talentPointsRemaining) + "</b>" :
-                                                               "Required level: <b>1</b>"
+                    text: talents.talentPointsRemaining < 51 ? qsTr("Required level: <b>") + (60 - talents.talentPointsRemaining) + "</b>" :
+                                                               qsTr("Required level: <b>1</b>")
                 }
 
                 Text {
@@ -103,7 +103,7 @@ Rectangle {
                         pointSize: 10
                     }
 
-                    text: "Points left: <b>" + talents.talentPointsRemaining + "</b>"
+                    text: qsTr("Points left: <b>") + talents.talentPointsRemaining + "</b>"
                 }
             }
 

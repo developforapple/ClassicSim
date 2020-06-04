@@ -27,7 +27,7 @@ RectangleBorders {
                                                                                 root.darkDarkGray
 
             TextSmall {
-                text: "ILVL"
+                text: qsTr("ILVL")
             }
         }
 
@@ -43,7 +43,7 @@ RectangleBorders {
                                                                                 root.darkDarkGray
 
             TextSmall {
-                text: "Name"
+                text: qsTr("Name")
             }
         }
 
@@ -75,7 +75,7 @@ RectangleBorders {
                                                                                  root.darkDarkGray
 
             TextSmall {
-                text: "Speed"
+                text: qsTr("Speed")
             }
         }
 
@@ -91,7 +91,7 @@ RectangleBorders {
                                                                                  root.darkDarkGray
 
             TextSmall {
-                text: "Phase"
+                text: qsTr("Phase")
             }
         }
 
@@ -107,7 +107,7 @@ RectangleBorders {
                                                                                     root.darkDarkGray
 
             TextSmall {
-                text: "Type"
+                text: qsTr("Type")
             }
         }
 
@@ -119,7 +119,7 @@ RectangleBorders {
             rectColor: root.darkDarkGray
 
             TextSmall {
-                text: "Source"
+                text: qsTr("Source")
             }
         }
     }

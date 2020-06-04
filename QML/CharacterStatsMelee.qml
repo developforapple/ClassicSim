@@ -13,43 +13,43 @@ Column {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Strength: " + character.strength
+        text: qsTr("Strength: ") + character.strength
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Agility: " + character.agility
+        text: qsTr("Agility: ") + character.agility
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Stamina: " + character.stamina
+        text: qsTr("Stamina: ") + character.stamina
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Intellect: " + character.intellect
+        text: qsTr("Intellect: ") + character.intellect
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Spirit: " + character.spirit
+        text: qsTr("Spirit: ") + character.spirit
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        property string crit: character.meleeCritChance.length < 8 ? "Critical strike: " :
-                                                                     "Crit: "
+        property string crit: character.meleeCritChance.length < 8 ? qsTr("Critical strike: ") :
+                                                                     qsTr("Crit: ")
 
         text: crit + character.meleeCritChance + "%"
     }
@@ -58,27 +58,27 @@ Column {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Hit: " + character.meleeHitChance + "%"
+        text: qsTr("Hit: ") + character.meleeHitChance + "%"
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "Attack Power: " + character.meleeAttackPower
+        text: qsTr("Attack Power: ") + character.meleeAttackPower
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "MH Skill: " + character.wpnSkillMh
+        text: qsTr("MH Skill: ") + character.wpnSkillMh
     }
 
     TextSmall {
         anchorParent: false
         pointSize: 10
         height: 15
-        text: "OH Skill: " + character.wpnSkillOh
+        text: qsTr("OH Skill: ") + character.wpnSkillOh
     }
 }

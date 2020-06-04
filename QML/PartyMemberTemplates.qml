@@ -8,7 +8,7 @@ RectangleBorders {
             height: parent.height / parent.children.length
             width: parent.width
             rectColor: root.colorWarrior
-            property string template: "Warrior DW Fury Pre-Raid"
+            property string template: qsTr("Warrior DW Fury Pre-Raid")
             onRectangleClicked: raid.selectTemplateCharacter(template)
 
             TextSmall {
@@ -21,7 +21,7 @@ RectangleBorders {
             height: parent.height / parent.children.length
             width: parent.width
             rectColor: root.colorWarrior
-            property string template: "Warrior DW Fury BWL"
+            property string template: qsTr("Warrior DW Fury BWL")
             onRectangleClicked: raid.selectTemplateCharacter(template)
 
             TextSmall {
@@ -34,7 +34,7 @@ RectangleBorders {
             height: parent.height / parent.children.length
             width: parent.width
             rectColor: root.colorWarrior
-            property string template: "Warrior DW Fury AQ"
+            property string template: qsTr("Warrior DW Fury AQ")
             onRectangleClicked: raid.selectTemplateCharacter(template)
 
             TextSmall {
@@ -47,7 +47,7 @@ RectangleBorders {
             height: parent.height / parent.children.length
             width: parent.width
             rectColor: root.colorWarrior
-            property string template: "Warrior DW Fury Naxx"
+            property string template: qsTr("Warrior DW Fury Naxx")
             onRectangleClicked: raid.selectTemplateCharacter(template)
 
             TextSmall {
@@ -60,7 +60,7 @@ RectangleBorders {
             height: parent.height / parent.children.length
             width: parent.width
             rectColor: root.colorHunter
-            property string template: "Hunter 8/8 T2"
+            property string template: qsTr("Hunter 8/8 T2")
             onRectangleClicked: raid.selectTemplateCharacter(template)
 
             TextSmall {
@@ -73,7 +73,7 @@ RectangleBorders {
             height: parent.height / parent.children.length
             width: parent.width
             rectColor: root.colorMage
-            property string template: "Fire Mage T3"
+            property string template: qsTr("Fire Mage T3")
             onRectangleClicked: raid.selectTemplateCharacter(template)
 
             TextSmall {

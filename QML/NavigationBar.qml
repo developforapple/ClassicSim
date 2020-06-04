@@ -38,7 +38,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Talents"
+                text: qsTr("Talents")
                 color: root.colorFaction
 
                 font {
@@ -73,7 +73,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Equipment"
+                text: qsTr("Equipment")
                 color: root.colorFaction
 
                 font {
@@ -108,7 +108,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Buffs"
+                text: qsTr("Buffs")
                 color: root.colorFaction
 
                 font {
@@ -143,7 +143,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Rotation"
+                text: qsTr("Rotation")
                 color: root.colorFaction
 
                 font {
@@ -178,7 +178,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Raid Setup"
+                text: qsTr("Raid Setup")
                 color: root.colorFaction
 
                 font {
@@ -213,7 +213,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Statistics"
+                text: qsTr("Statistics")
                 color: root.colorFaction
 
                 font {
@@ -248,7 +248,7 @@ Rectangle {
             Text {
                 anchors.fill: parent
 
-                text: "Settings"
+                text: qsTr("Settings")
                 color: root.colorFaction
 
                 font {
