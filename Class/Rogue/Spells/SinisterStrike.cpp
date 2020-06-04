@@ -1,5 +1,5 @@
 #include "SinisterStrike.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "ClassStatistics.h"
 #include "CombatRoll.h"
@@ -11,17 +11,17 @@
 #include "Weapon.h"
 
 SinisterStrike::SinisterStrike(Rogue* rogue) :
-    Spell("Sinister Strike",
+    Spell(QObject::tr("Sinister Strike"),
           "Assets/spell/Spell_shadow_ritualofsacrifice.png",
           rogue,
           new CooldownControl(rogue, 0.0),
           RestrictedByGcd::Yes,
           ResourceType::Energy,
           45),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Aggression", 3, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Improved Sinister Strike", 2, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Lethality", 5, DisabledAtZero::No)}),
-    SetBonusRequirer({"Bonescythe Armor"}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Aggression"), 3, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Improved Sinister Strike"), 2, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Lethality"), 5, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Bonescythe Armor")}),
     rogue(rogue),
     imp_ss_ranks({45, 42, 40}),
     aggression_ranks({1.0, 1.02, 1.04, 1.06}),
@@ -79,25 +79,25 @@ void SinisterStrike::spell_effect() {
 }
 
 void SinisterStrike::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Sinister Strike")
+    if (talent_name == QObject::tr("Improved Sinister Strike"))
         resource_cost = imp_ss_ranks[curr];
-    else if (talent_name == "Aggression")
+    else if (talent_name == QObject::tr("Aggression"))
         aggression = aggression_ranks[curr];
-    else if (talent_name == "Lethality")
+    else if (talent_name == QObject::tr("Lethality"))
         lethality = lethality_ranks[curr];
 }
 
 void SinisterStrike::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Sinister Strike")
+    if (talent_name == QObject::tr("Improved Sinister Strike"))
         resource_cost = imp_ss_ranks[curr];
-    else if (talent_name == "Aggression")
+    else if (talent_name == QObject::tr("Aggression"))
         aggression = aggression_ranks[curr];
-    else if (talent_name == "Lethality")
+    else if (talent_name == QObject::tr("Lethality"))
         lethality = lethality_ranks[curr];
 }
 
 void SinisterStrike::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bonescythe Armor") {
+    if (set_name == QObject::tr("Bonescythe Armor")) {
         switch (set_bonus) {
         case 4:
             bonescythe_energy = 5;
@@ -109,7 +109,7 @@ void SinisterStrike::activate_set_bonus_effect(const QString& set_name, const in
 }
 
 void SinisterStrike::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bonescythe Armor") {
+    if (set_name == QObject::tr("Bonescythe Armor")) {
         switch (set_bonus) {
         case 4:
             bonescythe_energy = 0;
@@ -121,5 +121,5 @@ void SinisterStrike::deactivate_set_bonus_effect(const QString& set_name, const 
 }
 
 void SinisterStrike::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("%1 Bonescythe 4P").arg(name), icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("%1 Bonescythe 4P").arg(name), icon);
 }

@@ -1,5 +1,5 @@
 #include "SliceAndDice.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "CooldownControl.h"
 #include "Equipment.h"
@@ -12,15 +12,15 @@
 #include "Weapon.h"
 
 SliceAndDice::SliceAndDice(Rogue* rogue) :
-    Spell("Slice and Dice",
+    Spell(QObject::tr("Slice and Dice"),
           "Assets/ability/Ability_rogue_slicedice.png",
           rogue,
           new CooldownControl(rogue, 0.0),
           RestrictedByGcd::Yes,
           ResourceType::Energy,
           25),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Slice And Dice", 3, DisabledAtZero::No)}),
-    SetBonusRequirer({"Emblems of Veiled Shadows"}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Slice And Dice"), 3, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Emblems of Veiled Shadows")}),
     rogue(rogue),
     buff(new SliceAndDiceBuff(rogue)) {
     buff->enable_buff();
@@ -69,7 +69,7 @@ void SliceAndDice::decrease_talent_rank_effect(const QString&, const int curr) {
 }
 
 void SliceAndDice::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Emblems of Veiled Shadows") {
+    if (set_name == QObject::tr("Emblems of Veiled Shadows")) {
         switch (set_bonus) {
         case 3:
             resource_cost -= 10;
@@ -81,7 +81,7 @@ void SliceAndDice::activate_set_bonus_effect(const QString& set_name, const int 
 }
 
 void SliceAndDice::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Emblems of Veiled Shadows") {
+    if (set_name == QObject::tr("Emblems of Veiled Shadows")) {
         switch (set_bonus) {
         case 3:
             resource_cost += 10;

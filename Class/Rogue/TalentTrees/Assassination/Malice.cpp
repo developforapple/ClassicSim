@@ -1,10 +1,10 @@
 #include "Malice.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 
-Malice::Malice(Character* pchar, TalentTree* tree) : Talent(pchar, tree, "Malice", "1MR", "Assets/ability/Ability_racial_bloodrage.png", 5) {
-    QString base_str = "Increases your critical strike chance by %1%.";
+Malice::Malice(Character* pchar, TalentTree* tree) : Talent(pchar, tree, QObject::tr("Malice"), "1MR", "Assets/ability/Ability_racial_bloodrage.png", 5) {
+    QString base_str = QObject::tr("Increases your critical strike chance by %1%.");
     initialize_rank_descriptions(rank_descriptions, base_str, max_points, QVector<QPair<unsigned, unsigned>> {{1, 1}});
 }
 

@@ -2,6 +2,13 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN" sourcelanguage="en">
 <context>
+    <name>DruidTR</name>
+    <message>
+        <source>Subtlety</source>
+        <translation type="vanished">微妙</translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="406"/>
@@ -1060,6 +1067,7 @@
     </message>
     <message>
         <location filename="Class/Common/Spells/OffhandAttack.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="123"/>
         <source>Offhand Attack</source>
         <translation>副手攻击</translation>
     </message>
@@ -1676,8 +1684,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="18"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="52"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="12"/>
         <source>Subtlety</source>
-        <translation>微妙</translation>
+        <translation>敏锐</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="19"/>
@@ -2143,6 +2152,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="16"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="19"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="38"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="26"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="51"/>
         <source>Deflection</source>
         <translation>偏斜</translation>
     </message>
@@ -2215,6 +2226,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="129"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="24"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="46"/>
         <source>Lightning Reflexes</source>
         <translation>闪电反射</translation>
     </message>
@@ -2226,6 +2239,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="17"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="52"/>
         <source>Increases your Parry chance by %1%.</source>
         <translation>使你的招架几率提高%1%。</translation>
     </message>
@@ -3061,6 +3075,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>审判</translation>
     </message>
     <message>
+        <location filename="Class/Paladin/Buffs/SanctityAuraBuff.cpp" line="7"/>
         <location filename="Class/Paladin/PaladinSpells.cpp" line="31"/>
         <location filename="Class/Paladin/Spells/SanctityAura.cpp" line="8"/>
         <location filename="Class/Paladin/Spells/SanctityAura.cpp" line="15"/>
@@ -3071,6 +3086,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>圣洁光环</translation>
     </message>
     <message>
+        <location filename="Class/Paladin/Buffs/JudgementOfTheCrusader.cpp" line="11"/>
         <location filename="Class/Paladin/PaladinSpells.cpp" line="38"/>
         <source>Judgement of the Crusader</source>
         <translation>十字军审判</translation>
@@ -3115,6 +3131,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>命令圣印</translation>
     </message>
     <message>
+        <location filename="Class/Paladin/Buffs/SealOfTheCrusaderBuff.cpp" line="13"/>
         <location filename="Class/Paladin/Spells/SealOfTheCrusader.cpp" line="11"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="88"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="105"/>
@@ -3294,6 +3311,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="12"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="97"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="27"/>
+        <location filename="Class/Rogue/TalentTrees/Combat/Precision.cpp" line="6"/>
         <source>Precision</source>
         <translation>精确</translation>
     </message>
@@ -3436,6 +3455,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="98"/>
+        <location filename="Class/Rogue/TalentTrees/Combat/Precision.cpp" line="7"/>
         <source>Increases your chance to hit with melee weapons by %1%.</source>
         <translation>使你的近战武器击中目标的几率提高%1%。</translation>
     </message>
@@ -3456,6 +3476,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>强化力量祝福</translation>
     </message>
     <message>
+        <location filename="Class/Paladin/Buffs/JudgementOfTheCrusader.cpp" line="12"/>
+        <location filename="Class/Paladin/Buffs/SealOfTheCrusaderBuff.cpp" line="14"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="18"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="110"/>
         <source>Improved Seal of the Crusader</source>
@@ -3581,6 +3603,722 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="158"/>
         <source>Gives you a %1% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.</source>
         <translation>使你的武器攻击、法术或技能在对敌人造成爆击之后有%1%的物理和神圣伤害加成，持续8秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Spells/Consecration.cpp" line="41"/>
+        <source>Consecration 1 (rank %1)</source>
+        <translation>奉献 1（等级 %1）</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Spells/Consecration.cpp" line="44"/>
+        <source>Consecration 2 (rank %1)</source>
+        <translation>奉献 2（等级 %1）</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Buffs/AdrenalineRushBuff.cpp" line="7"/>
+        <location filename="Class/Rogue/Spells/AdrenalineRush.cpp" line="8"/>
+        <location filename="Class/Rogue/Spells/AdrenalineRush.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="40"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="165"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="166"/>
+        <source>Adrenaline Rush</source>
+        <translation>冲动</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Buffs/BladeFlurryBuff.cpp" line="7"/>
+        <location filename="Class/Rogue/Spells/BladeFlurry.cpp" line="8"/>
+        <location filename="Class/Rogue/Spells/BladeFlurry.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="35"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="133"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="134"/>
+        <source>Blade Flurry</source>
+        <translation>剑刃乱舞</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Buffs/InstantPoisonBuff.cpp" line="6"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="18"/>
+        <source>Instant Poison </source>
+        <translation>速效毒药 </translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Buffs/SliceAndDiceBuff.cpp" line="9"/>
+        <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="113"/>
+        <source>Slice and Dice</source>
+        <translation>切割</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="20"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="96"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="103"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="31"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="146"/>
+        <source>Vile Poisons</source>
+        <translation>恶性毒药</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="21"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="94"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="101"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="32"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="156"/>
+        <source>Improved Poisons</source>
+        <translation>强化毒药</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="22"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="108"/>
+        <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="120"/>
+        <source>Bloodfang Armor</source>
+        <translation>血牙</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Procs/RelentlessStrikes.cpp" line="9"/>
+        <location filename="Class/Rogue/Procs/RelentlessStrikes.cpp" line="16"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="28"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="123"/>
+        <source>Relentless Strikes</source>
+        <translation>无情打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Procs/Ruthlessness.cpp" line="7"/>
+        <location filename="Class/Rogue/Procs/Ruthlessness.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="25"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="102"/>
+        <source>Ruthlessness</source>
+        <translation>无情</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Procs/SealFate.cpp" line="7"/>
+        <location filename="Class/Rogue/Procs/SealFate.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="35"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="166"/>
+        <source>Seal Fate</source>
+        <translation>封印命运</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="135"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="113"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="95"/>
+        <source>Backstab</source>
+        <translation>背刺</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="15"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="77"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="86"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="25"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="112"/>
+        <source>Improved Backstab</source>
+        <translation>强化背刺</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="16"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="79"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="88"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="20"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="76"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="81"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="23"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="86"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="95"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="30"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="134"/>
+        <source>Lethality</source>
+        <translation>致命偷袭</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="17"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="81"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="90"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="94"/>
+        <source>Opportunity</source>
+        <translation>伺机而动</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="18"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="95"/>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="107"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="21"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="86"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="98"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="24"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="100"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="112"/>
+        <source>Bonescythe Armor</source>
+        <translation>骨镰</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Backstab.cpp" line="119"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="110"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="124"/>
+        <source>%1 Bonescythe 4P</source>
+        <translation>%1 骨镰 4P</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="93"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="154"/>
+        <source>Eviscerate</source>
+        <translation>剔骨</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="22"/>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="113"/>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="122"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="21"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="84"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="93"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="39"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="153"/>
+        <source>Aggression</source>
+        <translation>侵略</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="23"/>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="111"/>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="120"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="22"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="92"/>
+        <source>Improved Eviscerate</source>
+        <translation>强化剔骨</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="24"/>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="129"/>
+        <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="141"/>
+        <source>Deathdealer&apos;s Embrace</source>
+        <translation>死亡执行者的拥抱</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="12"/>
+        <location filename="Class/Rogue/Spells/Hemorrhage.cpp" line="19"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="136"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="106"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="107"/>
+        <source>Hemorrhage</source>
+        <translation>出血</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/OffhandAttackRogue.cpp" line="6"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="33"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="122"/>
+        <source>Dual Wield Specialization</source>
+        <translation>双武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="137"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="103"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="155"/>
+        <source>Sinister Strike</source>
+        <translation>邪恶攻击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="22"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="82"/>
+        <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="91"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="23"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="102"/>
+        <source>Improved Sinister Strike</source>
+        <translation>强化邪恶攻击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="22"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="27"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="112"/>
+        <source>Improved Slice And Dice</source>
+        <translation>强化切割</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="23"/>
+        <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="72"/>
+        <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="84"/>
+        <source>Emblems of Veiled Shadows</source>
+        <translation>笼罩之阴影</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Spells/ThistleTea.cpp" line="10"/>
+        <source>Thistle Tea</source>
+        <translation>菊花茶</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="20"/>
+        <source>Assassination</source>
+        <translation>刺杀</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="23"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="39"/>
+        <source>Remorseless Attacks</source>
+        <translation>冷酷攻击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="24"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination/Malice.cpp" line="6"/>
+        <source>Malice</source>
+        <translation>恶意</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="26"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination/Murder.cpp" line="7"/>
+        <source>Murder</source>
+        <translation>密谋</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="29"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="53"/>
+        <source>Improved Expose Armor</source>
+        <translation>强化破甲</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="33"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="66"/>
+        <source>Cold Blood</source>
+        <translation>冷血</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="34"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="69"/>
+        <source>Improved Kidney Shot</source>
+        <translation>强化肾击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="36"/>
+        <location filename="Class/Rogue/TalentTrees/Assassination/Vigor.cpp" line="7"/>
+        <source>Vigor</source>
+        <translation>精力</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="40"/>
+        <source>After killing an opponent that yields experience or honor, gives you a %1 increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike. Lasts 20 sec.</source>
+        <translation>在你杀死一个可为你提供经验值的敌人后，你的下一次邪恶攻击、背刺、伏击或鬼魅攻击有%1的额外几率造成爆击，效果持续20秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="54"/>
+        <source>Increases the armor reduced by your Expose Armor ability by %1%.</source>
+        <translation>使你的破甲技能令目标护甲值降低的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="67"/>
+        <source>When activated, increases the critical strike chance of your next Sinister Strike, Backstab, Ambush, or Eviscerate by 100%.</source>
+        <translation>激活之后，你的下一次邪恶攻击、背刺、伏击或剔骨造成爆击的几率提高100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="70"/>
+        <source>While affected by your Kidney Shot ability, the target receives an additional %1% damage from all sources.</source>
+        <translation>目标受到你的肾击技能影响之后，任何攻击者对其所造成的伤害量都提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="90"/>
+        <source>Increases the damage done by your Eviscerate ability by %1%.</source>
+        <translation>使你的剔骨技能所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="100"/>
+        <source>Gives your finishing moves a %1% chance to add a combo point to your target.</source>
+        <translation>使你的终结技有%1%的几率为目标增加一个连击点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="110"/>
+        <source>Increases the duration of your Slice and Dice ability by %1%.</source>
+        <translation>使你的切割技能的效果持续时间延长%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="120"/>
+        <source>Your finishing moves have a 20% chance per combo point to restore 25 Energy.</source>
+        <translation>你的终结技有每连击点数20%的几率恢复25点能量值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="132"/>
+        <source>Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by %1%.</source>
+        <translation>使你的邪恶攻击、凿击、背刺、鬼魅攻击和出血技能的爆击所造成的额外伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="144"/>
+        <source>Increases the damage dealt by your poisons by %1% and gives your poisons an additional %2% chance to resist dispel effects.</source>
+        <translation>使你的毒素所造成的伤害提高%1%，并使你的毒药抵抗驱散效果的几率提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="154"/>
+        <source>Increases the chance to apply poisons to your target by %1%.</source>
+        <translation>使你的毒药对敌人生效的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="164"/>
+        <source>Your critical strikes from abilities that add combo points have a %1% chance to add an additional combo point.</source>
+        <translation>如果你的某个可以增加连击点数的技能造成了爆击，那么它就有%1%的几率增加一个额外的连击点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination/Malice.cpp" line="7"/>
+        <source>Increases your critical strike chance by %1%.</source>
+        <translation>使你的爆击几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination/Murder.cpp" line="8"/>
+        <source>Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by %1%.</source>
+        <translation>使你对人形生物、巨人、野兽和龙类目标造成的所有伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Assassination/Vigor.cpp" line="8"/>
+        <source>Increases your maximum Energy by 10.</source>
+        <translation>使你的能量值上限提高10点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="20"/>
+        <source>Combat</source>
+        <translation>战斗</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="22"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="43"/>
+        <source>Improved Gouge</source>
+        <translation>强化凿击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="28"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="174"/>
+        <source>Endurance</source>
+        <translation>耐久</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="29"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="57"/>
+        <source>Riposte</source>
+        <translation>还击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="30"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="62"/>
+        <source>Improved Sprint</source>
+        <translation>强化疾跑</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="31"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="68"/>
+        <source>Improved Kick</source>
+        <oldsource>mproved Kick</oldsource>
+        <translation>强化脚踢</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="32"/>
+        <location filename="Class/Rogue/TalentTrees/Combat/DaggerSpecialization.cpp" line="8"/>
+        <source>Dagger Specialization</source>
+        <translation>匕首专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="34"/>
+        <location filename="Class/Rogue/TalentTrees/Combat/MaceSpecialization.cpp" line="8"/>
+        <source>Mace Specialization</source>
+        <translation>锤类武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="36"/>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="143"/>
+        <source>Sword Specialization</source>
+        <translation>剑类武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="37"/>
+        <location filename="Class/Rogue/TalentTrees/Combat/FistWeaponSpecialization.cpp" line="8"/>
+        <source>Fist Weapon Specialization</source>
+        <translation>拳套专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="38"/>
+        <location filename="Class/Rogue/TalentTrees/Combat/WeaponExpertise.cpp" line="8"/>
+        <source>Weapon Expertise</source>
+        <translation>武器专家</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="44"/>
+        <source>Increases the effect duration of your Gouge ability by %1 sec.</source>
+        <translation>使你的凿击技能的效果持续时间延长%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="47"/>
+        <source>Increases your Dodge chance by %1%.</source>
+        <translation>使你的招架几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="58"/>
+        <source>A strike that becomes active after parrying an opponent&apos;s attack. This deals 150% weapon damage and disarms the target for 6 sec.</source>
+        <translation>在招架了敌人的攻击之后可以使用的技能，对目标造成150%的武器伤害，并使其被缴械，持续6秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="63"/>
+        <source>Gives a %1% chance to remove all movement impairing effects when you activate your Sprint ability.</source>
+        <translation>使你在启动疾跑技能时有%1%的几率移除所有移动限制效果。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="69"/>
+        <source>Gives your Kick ability a %1% chance to silence the target for 2 sec.</source>
+        <translation>使你的脚踢技能有%1%的几率令目标沉默2秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="100"/>
+        <source>Reduces the Energy cost of your Sinister Strike ability by %1.</source>
+        <translation>使你的邪恶攻击技能所消耗的能量值减少%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="110"/>
+        <source>Increases the critical strike chance of your Backstab ability by %1%.</source>
+        <translation>使你的背刺技能造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="120"/>
+        <source>Increases the damage done by your offhand weapon by %1%.</source>
+        <translation>使你的副手武器造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="130"/>
+        <source>Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec.</source>
+        <translation>使你的攻击速度提高20%。另外还可以对附近的一个额外的敌人造成伤害。持续15秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="141"/>
+        <source>Gives you a %1% chance to get an extra attack on the same target after dealing damage with your Sword.</source>
+        <translation>使你在用剑类武器击中敌人后有%1%的几率进行一次额外的攻击。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="151"/>
+        <source>Increases the damage of your Sinister Strike and Eviscerate abilities by %1%.</source>
+        <translation>使你的邪恶攻击和刺骨技能的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="162"/>
+        <source>Increases your Energy regeneration rate by 100% for 15 sec.</source>
+        <translation>使你的能量值回复速度提高100%，持续15秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="172"/>
+        <source>Reduces the cooldown of your Sprint and Evasion abilities by %1.</source>
+        <translation>使你的疾跑和闪避技能的冷却时间降低%1。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="173"/>
+        <source>45 sec</source>
+        <translation>45秒</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="173"/>
+        <source>1.5 min</source>
+        <translation>1.5分钟</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat/DaggerSpecialization.cpp" line="9"/>
+        <source>Increases your chance to get a critical strike with Daggers by %1%.</source>
+        <translation>使你的匕首造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat/FistWeaponSpecialization.cpp" line="9"/>
+        <source>Increases your chance to get a critical strike with Fist Weapons by %1%.</source>
+        <translation>使你的拳套造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat/MaceSpecialization.cpp" line="9"/>
+        <source>Increases your skill with Maces by %1, and gives you a %2% chance to stun your target for 3 sec with a mace.</source>
+        <translation>使你的锤类武器技能提高%1点，用锤类武器击中目标时有%2%的机会将其击晕3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Combat/WeaponExpertise.cpp" line="9"/>
+        <source>Increases your skill with Sword, Fist and Dagger weapons by %1.</source>
+        <translation>使你的剑、拳套和匕首的武器技能提高%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="21"/>
+        <source>Master of Deception</source>
+        <translation>欺诈高手</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="27"/>
+        <source>Sleight of Hand</source>
+        <translation>狡诈</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="32"/>
+        <source>Elusiveness</source>
+        <translation>飘忽不定</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="34"/>
+        <source>Camouflage</source>
+        <translation>伪装</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="41"/>
+        <source>Initiative</source>
+        <translation>先发制人</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="44"/>
+        <source>Ghostly Strike</source>
+        <translation>鬼魅攻击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="47"/>
+        <source>Improved Ambush</source>
+        <translation>强化伏击</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="51"/>
+        <source>Setup</source>
+        <translation>调整</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="55"/>
+        <source>Improved Sap</source>
+        <translation>强化闷棍</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety/SerratedBlades.cpp" line="7"/>
+        <source>Serrated Blades</source>
+        <translation>锯齿利刃</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="62"/>
+        <source>Heightened Senses</source>
+        <translation>察觉</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="65"/>
+        <source>Preparation</source>
+        <translation>伺机待发</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="68"/>
+        <source>Dirty Deeds</source>
+        <translation>卑鄙</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="17"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety/Deadliness.cpp" line="6"/>
+        <source>Deadliness</source>
+        <translation>极致</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="17"/>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="77"/>
+        <source>Premeditation</source>
+        <translation>预谋</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="22"/>
+        <source>Reduces the chance enemies have to detect you while in Stealth mode.</source>
+        <translation>当你在潜行状态下时，降低敌人侦测到你的几率。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="28"/>
+        <source>Reduces the chance you are critically hit by melee and ranged attacks by %1% and increases the threat reduction of your Feint ability by %2%.</source>
+        <translation>使你受到近战和远程爆击的几率降低%1%，并使你的佯攻技能降低仇恨的效果提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="33"/>
+        <source>Reduces the cooldown of your Vanish and Blind abilities by %1 sec.</source>
+        <translation>使你的消失和致盲技能的冷却时间缩短%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="35"/>
+        <source>Increases your speed while stealthed by %1% and reduces the cooldown of your Stealth ability by %2 sec.</source>
+        <translation>使你在潜行后的移动速度提高%1%，潜行技能的冷却时间降低%2秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="42"/>
+        <source>Gives you a %1% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.</source>
+        <translation>使你有%1%的几率在使用伏击、绞喉或偷袭技能后获得1个额外的连击点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="45"/>
+        <source>A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.</source>
+        <translation>对敌人造成125%的武器伤害，并使你躲闪攻击的几率提高15%，持续7秒。奖励1个连击点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="48"/>
+        <source>Increases the critical strike chance of your Ambush ability by %1%.</source>
+        <translation>使你的伏击技能造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="52"/>
+        <source>Gives you a %1% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.</source>
+        <translation>使你有%1%的几率在成功躲闪敌人的攻击或完全抵抗一个法术之后获得一个连击点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="56"/>
+        <source>Gives you a %1% chance to return to stealth mode after using your Sap ability.</source>
+        <translation>使你有%1%的几率在使用闷棍技能之后重新转入潜行模式。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="63"/>
+        <source>Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by %1%.</source>
+        <translation>使你的潜行侦测能力提高，并使你被法术和远程攻击命中的几率降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="66"/>
+        <source>When activated, this ability immediately finishes the cooldown on your other Rogue abilities.</source>
+        <translation>激活之后，这项技能立刻令你的其它潜行者技能的冷却时间结束。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="69"/>
+        <source>Reduces the Energy cost of your Cheap Shot and Garrote abilities by %1.</source>
+        <translation>使你的偷袭和绞喉技能所消耗的能量值减少%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="78"/>
+        <source>When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost.</source>
+        <translation>使用此技能后，为你的当前目标增加2个连击点数。你必须在10秒内消耗掉这些点数，或者为其增加新的连击点数，否则它们就会消失。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="92"/>
+        <source>Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by %1%.</source>
+        <translation>使你在从背后使用背刺、绞喉或伏击技能偷袭敌人时所造成的伤害值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="102"/>
+        <source>An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point.</source>
+        <translation>立即对目标造成伤害并令其流血不止，使其在受到物理攻击时所承受的伤害提高最多3点。可最多生效30次，或者持续15秒。奖励1个连击点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety/Deadliness.cpp" line="7"/>
+        <source>Increases your Attack Power by %1%.</source>
+        <translation>攻击强度提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety/SerratedBlades.cpp" line="8"/>
+        <source>Causes your attacks to ignore %1 of your target&apos;s Armor and increases the damage dealt by your Rupture ability by %2%. The amount of Armor reduced increases with your level.</source>
+        <translation>使你的攻击忽视目标%1点护甲，并使你的割裂技能所造成的伤害提高%2%。削弱目标护甲的效果随着你的等级提高而提高。</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Rogue.cpp" line="54"/>
+        <source>MH</source>
+        <translation>主手</translation>
+    </message>
+    <message>
+        <location filename="Class/Rogue/Rogue.cpp" line="55"/>
+        <source>OH</source>
+        <translation>副手</translation>
+    </message>
+</context>
+<context>
+    <name>RogueTR</name>
+    <message>
+        <source>Subtlety</source>
+        <translation type="vanished">敏锐</translation>
     </message>
 </context>
 <context>

@@ -1,5 +1,5 @@
 #include "Hemorrhage.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "ClassStatistics.h"
 #include "CombatRoll.h"
@@ -9,16 +9,16 @@
 #include "Utils/Check.h"
 
 Hemorrhage::Hemorrhage(Rogue* rogue) :
-    Spell("Hemorrhage",
+    Spell(QObject::tr("Hemorrhage"),
           "Assets/spell/Spell_shadow_lifedrain.png",
           rogue,
           new CooldownControl(rogue, 0.0),
           RestrictedByGcd::Yes,
           ResourceType::Energy,
           35),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Hemorrhage", 1, DisabledAtZero::Yes),
-                                                 new TalentRequirerInfo("Lethality", 5, DisabledAtZero::No)}),
-    SetBonusRequirer({"Bonescythe Armor"}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Hemorrhage"), 1, DisabledAtZero::Yes),
+                                                 new TalentRequirerInfo(QObject::tr("Lethality"), 5, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Bonescythe Armor")}),
     rogue(rogue),
     lethality_ranks({0.0, 0.06, 0.12, 0.18, 0.24, 0.30}) {
     this->enabled = false;
@@ -73,17 +73,17 @@ void Hemorrhage::spell_effect() {
 }
 
 void Hemorrhage::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Lethality")
+    if (talent_name == QObject::tr("Lethality"))
         lethality = lethality_ranks[curr];
 }
 
 void Hemorrhage::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Lethality")
+    if (talent_name == QObject::tr("Lethality"))
         lethality = lethality_ranks[curr];
 }
 
 void Hemorrhage::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bonescythe Armor") {
+    if (set_name == QObject::tr("Bonescythe Armor")) {
         switch (set_bonus) {
         case 4:
             bonescythe_energy = 5;
@@ -95,7 +95,7 @@ void Hemorrhage::activate_set_bonus_effect(const QString& set_name, const int se
 }
 
 void Hemorrhage::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bonescythe Armor") {
+    if (set_name == QObject::tr("Bonescythe Armor")) {
         switch (set_bonus) {
         case 4:
             bonescythe_energy = 0;
@@ -107,5 +107,5 @@ void Hemorrhage::deactivate_set_bonus_effect(const QString& set_name, const int 
 }
 
 void Hemorrhage::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("%1 Bonescythe 4P").arg(name), icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("%1 Bonescythe 4P").arg(name), icon);
 }

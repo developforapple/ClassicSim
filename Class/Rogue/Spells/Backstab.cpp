@@ -1,5 +1,5 @@
 #include "Backstab.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "ClassStatistics.h"
 #include "CombatRoll.h"
@@ -11,11 +11,11 @@
 #include "Weapon.h"
 
 Backstab::Backstab(Rogue* rogue) :
-    Spell("Backstab", "Assets/ability/Ability_backstab.png", rogue, new CooldownControl(rogue, 0.0), RestrictedByGcd::Yes, ResourceType::Energy, 60),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Backstab", 3, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Lethality", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Opportunity", 5, DisabledAtZero::No)}),
-    SetBonusRequirer({"Bonescythe Armor"}),
+    Spell(QObject::tr("Backstab"), "Assets/ability/Ability_backstab.png", rogue, new CooldownControl(rogue, 0.0), RestrictedByGcd::Yes, ResourceType::Energy, 60),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Backstab"), 3, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Lethality"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Opportunity"), 5, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Bonescythe Armor")}),
     rogue(rogue) {}
 
 Backstab::~Backstab() {
@@ -74,25 +74,25 @@ void Backstab::spell_effect() {
 }
 
 void Backstab::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Backstab")
+    if (talent_name == QObject::tr("Improved Backstab"))
         improved_bs = imp_bs_ranks[curr];
-    else if (talent_name == "Lethality")
+    else if (talent_name == QObject::tr("Lethality"))
         lethality = lethality_ranks[curr];
-    else if (talent_name == "Opportunity")
+    else if (talent_name == QObject::tr("Opportunity"))
         opportunity = opportunity_ranks[curr];
 }
 
 void Backstab::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Backstab")
+    if (talent_name == QObject::tr("Improved Backstab"))
         improved_bs = imp_bs_ranks[curr];
-    else if (talent_name == "Lethality")
+    else if (talent_name == QObject::tr("Lethality"))
         lethality = lethality_ranks[curr];
-    else if (talent_name == "Opportunity")
+    else if (talent_name == QObject::tr("Opportunity"))
         opportunity = opportunity_ranks[curr];
 }
 
 void Backstab::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bonescythe Armor") {
+    if (set_name == QObject::tr("Bonescythe Armor")) {
         switch (set_bonus) {
         case 4:
             bonescythe_energy = 5;
@@ -104,7 +104,7 @@ void Backstab::activate_set_bonus_effect(const QString& set_name, const int set_
 }
 
 void Backstab::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bonescythe Armor") {
+    if (set_name == QObject::tr("Bonescythe Armor")) {
         switch (set_bonus) {
         case 4:
             bonescythe_energy = 0;
@@ -116,5 +116,5 @@ void Backstab::deactivate_set_bonus_effect(const QString& set_name, const int se
 }
 
 void Backstab::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("%1 Bonescythe 4P").arg(name), icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("%1 Bonescythe 4P").arg(name), icon);
 }

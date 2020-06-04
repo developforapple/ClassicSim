@@ -1,18 +1,18 @@
 #include "AdrenalineRush.h"
-
+#include <QObject>
 #include "AdrenalineRushBuff.h"
 #include "CooldownControl.h"
 #include "Rogue.h"
 
 AdrenalineRush::AdrenalineRush(Rogue* rogue) :
-    Spell("Adrenaline Rush",
+    Spell(QObject::tr("Adrenaline Rush"),
           "Assets/spell/Spell_shadow_shadowworddominate.png",
           rogue,
           new CooldownControl(rogue, 300.0),
           RestrictedByGcd::Yes,
           ResourceType::Energy,
           0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Adrenaline Rush", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Adrenaline Rush"), 1, DisabledAtZero::Yes)}),
     rogue(rogue),
     ar_buff(new AdrenalineRushBuff(rogue)) {
     this->enabled = false;

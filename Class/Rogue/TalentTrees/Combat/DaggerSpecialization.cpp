@@ -1,12 +1,12 @@
 #include "DaggerSpecialization.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "ItemNamespace.h"
 #include "Rogue.h"
 
 DaggerSpecialization::DaggerSpecialization(Character* pchar, TalentTree* tree) :
-    Talent(pchar, tree, "Dagger Specialization", "4ML", "Assets/items/Inv_weapon_shortblade_05.png", 5) {
-    QString base_str = "Increases your chance to get a critical strike with Daggers by %1%.";
+    Talent(pchar, tree, QObject::tr("Dagger Specialization"), "4ML", "Assets/items/Inv_weapon_shortblade_05.png", 5) {
+    QString base_str = QObject::tr("Increases your chance to get a critical strike with Daggers by %1%.");
     initialize_rank_descriptions(rank_descriptions, base_str, max_points, QVector<QPair<unsigned, unsigned>> {{1, 1}});
 }
 

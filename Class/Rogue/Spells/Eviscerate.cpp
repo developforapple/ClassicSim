@@ -1,5 +1,5 @@
 #include "Eviscerate.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "CombatRoll.h"
 #include "CooldownControl.h"
@@ -12,16 +12,16 @@
 #include "Weapon.h"
 
 Eviscerate::Eviscerate(Rogue* rogue) :
-    Spell("Eviscerate",
+    Spell(QObject::tr("Eviscerate"),
           "Assets/ability/Ability_rogue_eviscerate.png",
           rogue,
           new CooldownControl(rogue, 0.0),
           RestrictedByGcd::Yes,
           ResourceType::Energy,
           35),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Aggression", 3, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Improved Eviscerate", 3, DisabledAtZero::No)}),
-    SetBonusRequirer({"Deathdealer's Embrace"}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Aggression"), 3, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Improved Eviscerate"), 3, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Deathdealer's Embrace")}),
     rogue(rogue),
     evisc_range(new Random(904, 1012)),
     damage_ranges_per_combo_point({
@@ -108,25 +108,25 @@ void Eviscerate::update_dmg_modifier() {
 }
 
 void Eviscerate::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Eviscerate")
+    if (talent_name == QObject::tr("Improved Eviscerate"))
         imp_evisc_modifier = imp_evisc_modifiers[curr];
-    else if (talent_name == "Aggression")
+    else if (talent_name == QObject::tr("Aggression"))
         aggression_modifier = aggression_modifiers[curr];
 
     update_dmg_modifier();
 }
 
 void Eviscerate::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Eviscerate")
+    if (talent_name == QObject::tr("Improved Eviscerate"))
         imp_evisc_modifier = imp_evisc_modifiers[curr];
-    else if (talent_name == "Aggression")
+    else if (talent_name == QObject::tr("Aggression"))
         aggression_modifier = aggression_modifiers[curr];
 
     update_dmg_modifier();
 }
 
 void Eviscerate::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Deathdealer's Embrace") {
+    if (set_name == QObject::tr("Deathdealer's Embrace")) {
         switch (set_bonus) {
         case 5:
             deathdealer_modifier = 1.15;
@@ -138,7 +138,7 @@ void Eviscerate::activate_set_bonus_effect(const QString& set_name, const int se
 }
 
 void Eviscerate::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Deathdealer's Embrace") {
+    if (set_name == QObject::tr("Deathdealer's Embrace")) {
         switch (set_bonus) {
         case 5:
             deathdealer_modifier = 1.0;

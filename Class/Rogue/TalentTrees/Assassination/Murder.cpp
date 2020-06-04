@@ -1,11 +1,11 @@
 #include "Murder.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 #include "Target.h"
 
-Murder::Murder(Character* pchar, TalentTree* tree) : Talent(pchar, tree, "Murder", "2ML", "Assets/spell/Spell_shadow_deathscream.png", 2) {
-    QString base_str = "Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by %1%.";
+Murder::Murder(Character* pchar, TalentTree* tree) : Talent(pchar, tree, QObject::tr("Murder"), "2ML", "Assets/spell/Spell_shadow_deathscream.png", 2) {
+    QString base_str = QObject::tr("Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by %1%.");
     initialize_rank_descriptions(rank_descriptions, base_str, max_points, QVector<QPair<unsigned, unsigned>> {{1, 1}});
 }
 

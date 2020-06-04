@@ -1,10 +1,10 @@
 #include "AdrenalineRushBuff.h"
-
+#include <QObject>
 #include "Energy.h"
 #include "Rogue.h"
 
 AdrenalineRushBuff::AdrenalineRushBuff(Rogue* rogue) :
-    SelfBuff(rogue, "Adrenaline Rush", "Assets/spell/Spell_shadow_shadowworddominate.png", 15, 0), rogue(rogue) {}
+    SelfBuff(rogue, QObject::tr("Adrenaline Rush"), "Assets/spell/Spell_shadow_shadowworddominate.png", 15, 0), rogue(rogue) {}
 
 AdrenalineRushBuff::~AdrenalineRushBuff() {
     if (is_enabled())

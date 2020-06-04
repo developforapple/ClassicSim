@@ -51,8 +51,8 @@ Rogue::Rogue(Race* race_, EquipmentDb* equipment_db, SimSettings* sim_settings_,
 
     spells->activate_racials();
 
-    this->mh_instant_poison = new InstantPoison(this, "MH", EnchantSlot::MAINHAND);
-    this->oh_instant_poison = new InstantPoison(this, "OH", EnchantSlot::OFFHAND);
+    this->mh_instant_poison = new InstantPoison(this, QObject::tr("MH"), EnchantSlot::MAINHAND);
+    this->oh_instant_poison = new InstantPoison(this, QObject::tr("OH"), EnchantSlot::OFFHAND);
     this->relentless_strikes = new RelentlessStrikes(this);
     this->ruthlessness = new Ruthlessness(this);
     this->seal_fate = new SealFate(this);

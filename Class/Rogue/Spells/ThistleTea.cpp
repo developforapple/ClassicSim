@@ -1,5 +1,5 @@
 #include "ThistleTea.h"
-
+#include <QObject>
 #include "Character.h"
 #include "ClassStatistics.h"
 #include "CooldownControl.h"
@@ -7,7 +7,7 @@
 #include "StatisticsResource.h"
 
 ThistleTea::ThistleTea(Rogue* rogue) :
-    Spell("Thistle Tea", "Assets/misc/Inv_drink_milk_05.png", rogue, new CooldownControl(rogue, 300.0), RestrictedByGcd::No, ResourceType::Energy, 0) {
+    Spell(QObject::tr("Thistle Tea"), "Assets/misc/Inv_drink_milk_05.png", rogue, new CooldownControl(rogue, 300.0), RestrictedByGcd::No, ResourceType::Energy, 0) {
 }
 
 ThistleTea::~ThistleTea() {

@@ -1,5 +1,5 @@
 #include "InstantPoison.h"
-
+#include <QObject>
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
 #include "ClassStatistics.h"
@@ -15,11 +15,11 @@
 #include "Utils/Check.h"
 
 InstantPoison::InstantPoison(Rogue* rogue, const QString& weapon_side, const int weapon) :
-    Proc("Instant Poison " + weapon_side, "Assets/ability/Ability_poisons.png", 0.2, 0, QVector<Proc*>(), QVector<ProcInfo::Source>(), rogue),
+    Proc(QObject::tr("Instant Poison ") + weapon_side, "Assets/ability/Ability_poisons.png", 0.2, 0, QVector<Proc*>(), QVector<ProcInfo::Source>(), rogue),
     Enchant(EnchantName::InstantPoison),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Vile Poisons", 5, DisabledAtZero::No),
-                                                 new TalentRequirerInfo("Improved Poisons", 5, DisabledAtZero::No)}),
-    SetBonusRequirer({"Bloodfang Armor"}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Vile Poisons"), 5, DisabledAtZero::No),
+                                                 new TalentRequirerInfo(QObject::tr("Improved Poisons"), 5, DisabledAtZero::No)}),
+    SetBonusRequirer({QObject::tr("Bloodfang Armor")}),
     dmg_roll(new Random(112, 149)),
     rogue(rogue),
     vile_poisons(1.0) {
@@ -91,21 +91,21 @@ void InstantPoison::proc_effect() {
 }
 
 void InstantPoison::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Poisons")
+    if (talent_name == QObject::tr("Improved Poisons"))
         proc_range += improved_poisons_increase;
-    else if (talent_name == "Vile Poisons")
+    else if (talent_name == QObject::tr("Vile Poisons"))
         vile_poisons = vile_poisons_modifiers[curr];
 }
 
 void InstantPoison::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Poisons")
+    if (talent_name == QObject::tr("Improved Poisons"))
         proc_range -= improved_poisons_increase;
-    else if (talent_name == "Vile Poisons")
+    else if (talent_name == QObject::tr("Vile Poisons"))
         vile_poisons = vile_poisons_modifiers[curr];
 }
 
 void InstantPoison::activate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bloodfang Armor") {
+    if (set_name == QObject::tr("Bloodfang Armor")) {
         switch (set_bonus) {
         case 3:
             proc_range += 500;
@@ -117,7 +117,7 @@ void InstantPoison::activate_set_bonus_effect(const QString& set_name, const int
 }
 
 void InstantPoison::deactivate_set_bonus_effect(const QString& set_name, const int set_bonus) {
-    if (set_name == "Bloodfang Armor") {
+    if (set_name == QObject::tr("Bloodfang Armor")) {
         switch (set_bonus) {
         case 3:
             proc_range -= 500;
