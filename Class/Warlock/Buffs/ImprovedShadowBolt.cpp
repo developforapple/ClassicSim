@@ -1,11 +1,11 @@
 #include "ImprovedShadowBolt.h"
-
+#include <QObject>
 #include "Character.h"
 #include "Stats.h"
 #include "Target.h"
 
 ImprovedShadowBolt::ImprovedShadowBolt(Character* pchar_) :
-    SharedDebuff(pchar_, "Improved Shadow Bolt", "Assets/spell/Spell_shadow_shadowbolt.png", Priority::Mid, 12, 4) {}
+    SharedDebuff(pchar_, QObject::tr("Improved Shadow Bolt"), "Assets/spell/Spell_shadow_shadowbolt.png", Priority::Mid, 12, 4) {}
 
 void ImprovedShadowBolt::buff_effect_when_applied() {
     pchar->get_target()->increase_magic_school_damage_mod(20, MagicSchool::Shadow);

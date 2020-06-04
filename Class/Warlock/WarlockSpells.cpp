@@ -1,5 +1,5 @@
 #include "WarlockSpells.h"
-
+#include <QObject>
 #include "ImprovedShadowBolt.h"
 #include "LifeTap.h"
 #include "MainhandAttack.h"
@@ -12,7 +12,7 @@ WarlockSpells::WarlockSpells(Warlock* warlock) : CharacterSpells(warlock), warlo
 
     add_spell_group({mh_attack});
 
-    auto improved_shadow_bolt = static_cast<ImprovedShadowBolt*>(warlock->get_raid_control()->get_shared_raid_buff("Improved Shadow Bolt"));
+    auto improved_shadow_bolt = static_cast<ImprovedShadowBolt*>(warlock->get_raid_control()->get_shared_raid_buff(QObject::tr("Improved Shadow Bolt")));
     if (improved_shadow_bolt == nullptr) {
         improved_shadow_bolt = new ImprovedShadowBolt(warlock);
         improved_shadow_bolt->enable_buff();

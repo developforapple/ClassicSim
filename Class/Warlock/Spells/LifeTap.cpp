@@ -1,5 +1,5 @@
 #include "LifeTap.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -15,7 +15,7 @@
 #include "WarlockSpells.h"
 
 LifeTap::LifeTap(Warlock* warlock, WarlockSpells* warlock_spells, const int spell_rank_) :
-    Spell("Life Tap",
+    Spell(QObject::tr("Life Tap"),
           "Assets/spell/Spell_shadow_burningspirit.png",
           warlock,
           new CooldownControl(warlock, 0.0),
@@ -24,7 +24,7 @@ LifeTap::LifeTap(Warlock* warlock, WarlockSpells* warlock_spells, const int spel
           0,
           spell_rank_),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Life Tap", 2, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Life Tap"), 2, DisabledAtZero::No),
     }),
     warlock_spells(warlock_spells) {
     switch (spell_rank) {
@@ -90,11 +90,11 @@ void LifeTap::spell_effect() {
 }
 
 void LifeTap::prepare_set_of_combat_iterations_spell_specific() {
-    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QString("%1 (rank %2)").arg(name).arg(spell_rank), icon);
+    this->statistics_resource = pchar->get_statistics()->get_resource_statistics(QObject::tr("%1 (rank %2)").arg(name).arg(spell_rank), icon);
 }
 
 void LifeTap::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Improved Life Tap")
+    if (talent_name == QObject::tr("Improved Life Tap"))
         imp_life_tap = imp_life_tap_ranks[curr];
 }
 

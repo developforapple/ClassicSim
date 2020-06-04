@@ -1,5 +1,5 @@
 #include "ShadowBolt.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -15,7 +15,7 @@
 #include "WarlockSpells.h"
 
 ShadowBolt::ShadowBolt(Warlock* warlock, WarlockSpells* warlock_spells, const int spell_rank_, ImprovedShadowBolt* imp_sb) :
-    Spell("Shadow Bolt",
+    Spell(QObject::tr("Shadow Bolt"),
           "Assets/spell/Spell_shadow_shadowbolt.png",
           warlock,
           new CooldownControl(warlock, 0.0),
@@ -25,11 +25,11 @@ ShadowBolt::ShadowBolt(Warlock* warlock, WarlockSpells* warlock_spells, const in
           spell_rank_),
     CastingTimeRequirer(pchar, SuppressibleCast::Yes, 3000),
     TalentRequirer(QVector<TalentRequirerInfo*> {
-        new TalentRequirerInfo("Improved Shadow Bolt", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Cataclysm", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Bane", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Devastation", 5, DisabledAtZero::No),
-        new TalentRequirerInfo("Ruin", 1, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Improved Shadow Bolt"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Cataclysm"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Bane"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Devastation"), 5, DisabledAtZero::No),
+        new TalentRequirerInfo(QObject::tr("Ruin"), 1, DisabledAtZero::No),
     }),
     imp_sb(imp_sb),
     warlock_spells(warlock_spells) {
@@ -169,36 +169,36 @@ void ShadowBolt::complete_cast_effect() {
 
 void ShadowBolt::increase_talent_rank_effect(const QString& talent_name, const int curr) {
     // TODO: Improved Shadow Bolt rank is always applied with max value regardless of current rank.
-    if (talent_name == "Improved Shadow Bolt")
+    if (talent_name == QObject::tr("Improved Shadow Bolt"))
         apply_imp_sb = true;
 
-    if (talent_name == "Cataclysm")
+    if (talent_name == QObject::tr("Cataclysm"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * cataclysm_ranks[curr]));
 
-    if (talent_name == "Bane")
+    if (talent_name == QObject::tr("Bane"))
         casting_time_ms = base_casting_time_ms - bane_ranks[curr];
 
-    if (talent_name == "Devastation")
+    if (talent_name == QObject::tr("Devastation"))
         devastation_bonus = devastation_ranks[curr];
 
-    if (talent_name == "Ruin")
+    if (talent_name == QObject::tr("Ruin"))
         ruin_crit_damage_bonus = 2.0;
 }
 
 void ShadowBolt::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
     // TODO: Improved Shadow Bolt rank is always applied with max value regardless of current rank.
-    if (talent_name == "Improved Shadow Bolt")
+    if (talent_name == QObject::tr("Improved Shadow Bolt"))
         apply_imp_sb = curr == 0 ? false : true;
 
-    if (talent_name == "Cataclysm")
+    if (talent_name == QObject::tr("Cataclysm"))
         resource_cost = static_cast<unsigned>(std::round(base_resource_cost * cataclysm_ranks[curr]));
 
-    if (talent_name == "Bane")
+    if (talent_name == QObject::tr("Bane"))
         casting_time_ms = base_casting_time_ms - bane_ranks[curr];
 
-    if (talent_name == "Devastation")
+    if (talent_name == QObject::tr("Devastation"))
         devastation_bonus = devastation_ranks[curr];
 
-    if (talent_name == "Ruin")
+    if (talent_name == QObject::tr("Ruin"))
         ruin_crit_damage_bonus = 1.0;
 }

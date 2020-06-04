@@ -517,6 +517,13 @@
         <translation>+100 攻击强度</translation>
     </message>
     <message>
+        <location filename="Class/Warlock/Buffs/ImprovedShadowBolt.cpp" line="8"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="28"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="172"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="190"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="13"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="101"/>
+        <location filename="Class/Warlock/WarlockSpells.cpp" line="15"/>
         <location filename="Spells/ExternalBuff.cpp" line="517"/>
         <source>Improved Shadow Bolt</source>
         <translation>强化暗影箭</translation>
@@ -1022,6 +1029,8 @@
     </message>
     <message>
         <location filename="Class/Common/Buffs/Nightfall.cpp" line="6"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="21"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="68"/>
         <source>Nightfall</source>
         <translation>夜幕</translation>
     </message>
@@ -2881,6 +2890,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="145"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="146"/>
         <source>Increases the damage done by your Fire spells by %1%.</source>
         <translation>使你的火焰法术造成的伤害提高%1%。</translation>
     </message>
@@ -4859,6 +4869,620 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="101"/>
         <source>Your Healing Wave spells have a %1% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec. This effect will stack up to 3 times.</source>
         <translation>你的治疗波有%1%的几率令你的目标由以后的治疗波获得额外的治疗效果。这个效果使目标所受到的治疗效果提高6%，持续15秒，可叠加3次。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/LifeTap.cpp" line="18"/>
+        <source>Life Tap</source>
+        <translation>生命分流</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/LifeTap.cpp" line="27"/>
+        <location filename="Class/Warlock/Spells/LifeTap.cpp" line="97"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="15"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="107"/>
+        <source>Improved Life Tap</source>
+        <translation>强化生命分流</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/LifeTap.cpp" line="93"/>
+        <source>%1 (rank %2)</source>
+        <translation>%1 (等级 %2)</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="18"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="112"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="121"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="130"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="139"/>
+        <source>Shadow Bolt</source>
+        <translation>暗影箭</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="29"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="175"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="193"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="14"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="110"/>
+        <source>Cataclysm</source>
+        <translation>灾变</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="30"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="178"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="196"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="15"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="118"/>
+        <source>Bane</source>
+        <translation>灾祸</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="31"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="181"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="199"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="19"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="127"/>
+        <source>Devastation</source>
+        <translation>破坏</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="32"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="184"/>
+        <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="202"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="26"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="136"/>
+        <source>Ruin</source>
+        <translation>毁灭</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="9"/>
+        <source>Affliction</source>
+        <translation>痛苦</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="11"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="31"/>
+        <source>Suppression</source>
+        <translation>镇压</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="12"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="33"/>
+        <source>Improved Corruption</source>
+        <translation>强化腐蚀术</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="13"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="39"/>
+        <source>Improved Curse of Weakness</source>
+        <translation>强化虚弱诅咒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="14"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="41"/>
+        <source>Improved Drain Soul</source>
+        <translation>强化吸取灵魂</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="16"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="45"/>
+        <source>Improved Drain Life</source>
+        <translation>强化吸取生命</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="17"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="51"/>
+        <source>Improved Curse of Agony</source>
+        <translation>强化痛苦诅咒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="18"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="54"/>
+        <source>Fel Concentration</source>
+        <translation>恶魔专注</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="19"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="59"/>
+        <source>Amplify Curse</source>
+        <translation>诅咒增幅</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="20"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="66"/>
+        <source>Grim Reach</source>
+        <translation>无情延伸</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="22"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="72"/>
+        <source>Improved Drain Mana</source>
+        <translation>强化吸取法力</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="23"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="78"/>
+        <source>Siphon Life</source>
+        <translation>生命虹吸</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="24"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="80"/>
+        <source>Curse of Exhaustion</source>
+        <translation>疲劳诅咒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="25"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="84"/>
+        <source>Improved Curse of Exhaustion</source>
+        <translation>强化疲劳诅咒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="26"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="116"/>
+        <source>Shadow Mastery</source>
+        <translation>暗影掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="27"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="92"/>
+        <source>Dark Pact</source>
+        <translation>黑暗契约</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="32"/>
+        <source>Reduces the chance for enemies to resist your Affliction spells by %1%.</source>
+        <translation>使敌人抵抗你的痛苦系法术的几率降低%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="34"/>
+        <source>Reduces the casting time of your Corruption spell by %1 sec.</source>
+        <translation>使你的腐蚀术的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="40"/>
+        <source>Increases the effect of your Curse of Weakness by %1%.</source>
+        <translation>使你的虚弱诅咒的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="42"/>
+        <source>Gives you a %1% chance to get a 100% increase to your Mana regeneration for 10 sec if the target is killed by you while you drain its soul.  In addition your Mana may continue to regenerate while casting at 50% of normal.</source>
+        <translation>在目标死于你的吸取灵魂过程中时，你有%1%的几率获得100%的法力值回复速度加成，持续10秒。在此期间，你在施法时也可保持50%的法力值回复速度。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="46"/>
+        <source>Increases the Health drained by your Drain Life spell by %1%.</source>
+        <translation>使你的吸取生命法术所吸取的生命值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="52"/>
+        <source>Increases the damage done by your Curse of Agony by %1%.</source>
+        <translation>使你的痛苦诅咒所造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="55"/>
+        <source>Gives you a %1% chance to avoid interruption caused by damage while channeling the Drain Life, Drain Mana, or Drain Soul spell.</source>
+        <translation>使你有%1%的几率在施放吸取生命、吸取法力或吸取灵魂法术时不会因受到伤害而被打断。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="60"/>
+        <source>Increases the effect of your next Curse of Weakness or Curse of Agony by 50%, or your next Curse of Exhaustion by 20%.  Lasts 30 sec.</source>
+        <translation>使你的下一个虚弱诅咒或痛苦诅咒的效果提高50%，或使你的下一个疲劳诅咒的效果提高20%，持续30秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="67"/>
+        <source>Increases the range of your Affliction spells by %1%.</source>
+        <translation>使你的痛苦系法术的射程延长%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="69"/>
+        <source>Gives your Corruption and Drain Life spells a %1% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.</source>
+        <translation>使你的腐蚀术和吸取生命法术有%1%的几率在对敌人造成伤害之后令你进入暗影冥思状态。暗影冥思状可以令你的下一个暗影箭法术的施法时间减少100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="73"/>
+        <source>Causes %1% of the Mana drained by your Drain Mana spell to damage the opponent.</source>
+        <translation>使你的吸取法力技能所吸取的法力值的%1%对目标造成等量伤害。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="79"/>
+        <source>Transfers 15 health from the target to the caster every 3 sec.  Lasts 30 sec.</source>
+        <translation>每3秒将目标的15点生命值转移给施法者，持续30秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="81"/>
+        <source>Reduces the target&apos;s movement speed by 10% for 12 sec.  Only one Curse per Warlock can be active on any one target.</source>
+        <translation>使目标的速度降低10%，持续12秒。每个术士只能对一个目标施加一种诅咒，且同类诅咒不能叠加。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="85"/>
+        <source>Increases the speed reduction of your Curse of Exhaustion by %1%.</source>
+        <translation>使你的疲劳诅咒的减速效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="93"/>
+        <source>Drains 150 of your pet&apos;s Mana, returning 100% to you.</source>
+        <translation>从你的宠物身上抽取150点法力值并全部转化给你。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="108"/>
+        <source>Increases the amount of Mana awarded by your Life Tap spell by %1%.</source>
+        <translation>使你的生命分流法术所转化的法力值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="117"/>
+        <source>Increases the damage dealt or life drained by your Shadow spells by %1%.</source>
+        <translation>使你的暗影法术所造成的伤害或吸取的生命值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="9"/>
+        <source>Demonology</source>
+        <translation>恶魔学识</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="19"/>
+        <source>Improved Healthstone</source>
+        <translation>强化治疗石</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="21"/>
+        <source>Improved Imp</source>
+        <translation>强化小鬼</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="24"/>
+        <source>Demonic Embrace</source>
+        <translation>恶魔之拥</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="31"/>
+        <source>Improved Health Funnel</source>
+        <translation>强化生命通道</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="34"/>
+        <source>Improved Voidwalker</source>
+        <translation>强化虚空行者</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="37"/>
+        <source>Fel Intellect</source>
+        <translation>恶魔智力</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="43"/>
+        <source>Improved Succubus</source>
+        <translation>强化魅魔</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="47"/>
+        <source>Fel Domination</source>
+        <translation>恶魔支配</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="51"/>
+        <source>Fel Stamina</source>
+        <translation>恶魔耐力</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="59"/>
+        <source>Master Summoner</source>
+        <translation>召唤大师</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="62"/>
+        <source>Unholy Power</source>
+        <translation>邪恶强化</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="69"/>
+        <source>Improved Enslave Demon</source>
+        <translation>强化奴役恶魔</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="107"/>
+        <source>Demonic Sacrifice</source>
+        <translation>恶魔牺牲</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="72"/>
+        <source>Improved Firestone</source>
+        <translation>强化火焰石</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="79"/>
+        <source>Master Demonologist</source>
+        <translation>恶魔学识大师</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="87"/>
+        <source>Soul Link</source>
+        <translation>灵魂链接</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="15"/>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="91"/>
+        <source>Improved Spellstone</source>
+        <translation>强化法术石</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="20"/>
+        <source>Increases the amount of Health restored by your Healthstone by %1%.</source>
+        <translation>使你的治疗石所恢复的生命值增加%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="22"/>
+        <source>Increases the effect of your Imp&apos;s Firebolt, Fire Shield, and Blood Pact spells by %1%.</source>
+        <translation>使小鬼的火焰箭、火焰之盾和血之契印的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="25"/>
+        <source>Increases your total Stamina by %1% but reduces your total Spirit by %2%.</source>
+        <translation>使你的耐力提高%1%，同时使你的精神降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="32"/>
+        <source>Increases the amount of Health transferred by your Health Funnel spell by %1%.</source>
+        <translation>使你的生命通道法术所转化的生命值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="35"/>
+        <source>Increases the effectiveness of your Voidwalker&apos;s Torment, Consume Shadows, Sacrifice and Suffering spells by %1%.</source>
+        <translation>使你的虚空行者的折磨、吞噬暗影、牺牲和受难法术的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="38"/>
+        <source>Increases the maximum Mana of your Imp, Voidwalker, Succubus, and Felhunter by %1%.</source>
+        <translation>使你的小鬼、虚空行者、魅魔和地狱猎犬的法力值上限提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="44"/>
+        <source>Increases the effect of your Succubus&apos; Lash of Pain and Soothing Kiss spells by %1%, and increases the duration of your Succubus&apos; Seduction and Lesser Invisibility spells by %2%.</source>
+        <translation>使你的魅魔的剧痛鞭笞和安抚之吻法术的效果提高%1%，并使你的魅魔的诱惑和次级隐形术的持续时间延长%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="48"/>
+        <source>Your next Imp, Voidwalker, Succubus, or Felhunter Summon spell has its casting time reduced by 5.5 sec and its Mana cost reduced by 50%.</source>
+        <translation>你的下一个召唤小鬼、虚空行者、魅魔或地狱猎犬的法术施法时间减少5.5秒，法力消耗减少50%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="52"/>
+        <source>Increases the maximum Health of your Imp, Voidwalker, Succubus, and Felhunter by %1%.</source>
+        <translation>使你的小鬼、虚空行者、魅魔和地狱猎犬的生命值上限提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="60"/>
+        <source>Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by %1 sec and the Mana cost by %2%.</source>
+        <translation>使你召唤小鬼、虚空行者、魅魔和地狱猎犬的施法时间减少%1秒，法力值消耗降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="63"/>
+        <source>Increases the damage done by your Voidwalker, Succubus, and Felhunter&apos;s melee attacks by %1%.</source>
+        <translation>使你的虚空行者、魅魔和地狱猎犬的近战伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="70"/>
+        <source>Reduces the Attack Speed and Casting Speed penalty of your Enslave Demon spell by %1% and reduces the resist chance by %2%.</source>
+        <translation>使你的奴役恶魔法术的攻击速度和施法速度惩罚减轻%1%，恶魔抵抗奴役效果的几率降低%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="73"/>
+        <source>Increases the bonus Fire damage from Firestones and the Firestone effect by %1%.</source>
+        <translation>使你的火焰石的效果和伤害加成提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="80"/>
+        <source>Grants both the Warlock and the summoned demon an effect as long as that demon is active.
+
+Imp - Reduces threat caused by %1%.
+
+Voidwalker - Reduces physical damage taken by %2%.
+
+Succubus - Increases all damage caused by %3%.
+
+Felhunter - Increases all resistances by 
+%4 per level.</source>
+        <translation>使术士和他所召唤的恶魔均获得一个特殊效果，只要该恶魔处于激活状态就不会消失。
+
+小鬼 - 对敌人造成的威胁降低%1%。
+
+虚空行者 - 受到物理攻击时承受的伤害降低%2%。
+
+魅魔 - 对敌人造成的所有伤害提高%3%。
+
+地狱猎犬 - 每等级所有抗性提高%4。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="88"/>
+        <source>When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead.  In addition, both the demon and master will inflict 3% more damage.  Lasts as long as the demon is active.</source>
+        <translation>激活之后，施法者所承受的伤害有30%被他的恶魔分担。另外，恶魔和其主人的任何攻击所造成的伤害都提高3%。只要恶魔保持激活状态，该效果就一直持续。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="92"/>
+        <source>Increases the amount of damage absorbed by your Spellstone by %1%.</source>
+        <translation>使你的法术石所能吸收的伤害总量提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="108"/>
+        <source>When activated, sacrifices your summoned demon to grant you an effect that lasts 30 min.  The effect is canceled if any Demon is summoned.
+
+Imp: Increases your Fire damage by 15%.
+
+Voidwalker : Restores 3% of total Health every 4 sec.
+
+Succubus: Increases your Shadow damage by 15%.
+
+Felhunter: Restores 2% of total Mana every 4 sec.</source>
+        <translation>激活之后，牺牲你当前所召唤的恶魔，使你获得一种特殊效果，持续30分钟。如果在此期间你召唤任意一个恶魔，该效果就会被取消。
+
+小鬼：使你的火焰技能伤害提高15%。
+
+虚空行者：使你每4秒回复3%的生命值。
+
+魅魔：使你的暗影技能伤害提高15%。
+
+地狱犬：使你每4秒回复2%的法力值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="9"/>
+        <source>Destruction</source>
+        <translation>毁灭</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="16"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="37"/>
+        <source>Aftermath</source>
+        <translation>清算</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="17"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="42"/>
+        <source>Improved Firebolt</source>
+        <translation>强化火焰箭</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="18"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="45"/>
+        <source>Improved Lash of Pain</source>
+        <translation>强化剧痛鞭笞</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="20"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="50"/>
+        <source>Shadowburn</source>
+        <translation>暗影灼烧</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="21"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="60"/>
+        <source>Intensity</source>
+        <translation>强烈</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="22"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="63"/>
+        <source>Destructive Reach</source>
+        <translation>毁灭延伸</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="23"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="65"/>
+        <source>Improved Searing Pain</source>
+        <translation>强化灼热之痛</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="24"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="70"/>
+        <source>Pyroclasm</source>
+        <translation>火焰冲撞</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="25"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="73"/>
+        <source>Improved Immolate</source>
+        <translation>强化献祭</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="27"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="145"/>
+        <source>Emberstorm</source>
+        <translation>琥珀风暴</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="28"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="84"/>
+        <source>Conflagrate</source>
+        <translation>燃烧</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="38"/>
+        <source>Gives your Destruction spells a %1% chance to daze the target for 5 sec.</source>
+        <translation>使你的毁灭系法术有%1%的几率令目标眩晕5秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="43"/>
+        <source>Reduces the casting time of your Imp&apos;s Firebolt spell by %1 sec.</source>
+        <translation>使小鬼的火焰箭的施法时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="46"/>
+        <source>Reduces the cooldown of your Succubus&apos; Lash of Pain spell by %1 sec.</source>
+        <translation>使魅魔的剧痛鞭笞的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="51"/>
+        <source>Instantly blasts the target for 91 to 104 Shadow damage.  If the target dies within 5 sec of Shadowburn, and yields experience or honor, the caster gains a Soul Shard.</source>
+        <translation>立即使用暗影能量冲击目标，对其造成91到104点暗影伤害。如果目标受到暗影灼烧伤害之后的5秒内死亡，且施法者因此获得经验值或荣誉，则施法者获得一块灵魂碎片。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="61"/>
+        <source>Gives you a %1% chance to resist interruption caused by damage while channeling the Rain of Fire, Hellfire or Soul Fire spell.</source>
+        <translation>使你有%1%的几率在施放火焰之雨、地狱烈焰或灵魂之火时不会因受到伤害而被打断。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="64"/>
+        <source>Increases the range of your Destruction spells by %1%.</source>
+        <translation>使你的毁灭系法术的射程增加%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="66"/>
+        <source>Increases the critical strike chance of your Searing Pain spell by %1%.</source>
+        <translation>使你的灼热之痛造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="71"/>
+        <source>Gives your Rain of Fire, Hellfire, and Soul Fire spells a %1% chance to stun the target for 3 sec.</source>
+        <translation>使你的火焰之雨、地狱烈焰和灵魂之火有%1%的几率使目标昏迷3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="74"/>
+        <source>Increases the initial damage of your Immolate spell by %1%.</source>
+        <translation>使你的献祭法术的初始伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="85"/>
+        <source>Ignites a target that is already afflicted by Immolate, dealing 249 to 316 Fire damage and consuming the Immolate spell.</source>
+        <translation>点燃一个已经受到献祭效果影响的目标，对其造成249到316点火焰伤害，并吞噬献祭法术的效果。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="102"/>
+        <source>Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by %1% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.</source>
+        <translation>在你的暗影箭对目标造成爆击后，你对其造成的接连4次非持续性暗影伤害都将提高%1%。效果持续最多12秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="111"/>
+        <source>Reduces the Mana cost of your Destruction spells by %1%.</source>
+        <translation>使你的毁灭系法术所消耗的法力值减少%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="119"/>
+        <source>Reduces the casting time of your Shadow Bolt and Immolate spells by %1 sec and your Soul Fire spell by %2 sec.</source>
+        <translation>使你的暗影箭和献祭的施法时间减少%1秒，灵魂之火的施法时间减少%2秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="128"/>
+        <source>Increases the critical strike chance of your Destruction spells by %1%.</source>
+        <translation>使你的毁灭系法术的爆击几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="137"/>
+        <source>Increases the critical strike damage bonus of your Destruction spells by 100%.</source>
+        <translation>使你的毁灭系法术的爆击伤害加成提高100%。</translation>
     </message>
 </context>
 <context>
