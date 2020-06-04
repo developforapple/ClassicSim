@@ -6811,7 +6811,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="QML/main.qml" line="12"/>
         <source>ClassicSim</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 </TS>
