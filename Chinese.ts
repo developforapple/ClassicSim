@@ -6661,6 +6661,66 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <source>Wand</source>
         <translation>魔杖</translation>
     </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="8"/>
+        <source>(1) Molten Core, Onyxia, Maraudon</source>
+        <translation>（1）熔火之心，奥妮克希亚的巢穴，玛拉顿</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="10"/>
+        <source>(2) Dire Maul, Azuregos, Kazzak, Honor rewards</source>
+        <translation>（2）厄运之槌，艾索雷葛斯，卡扎克，荣誉奖励</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="12"/>
+        <source>(3) Blackwing Lair, Darkmoon Faire, AV/WSG</source>
+        <translation>（3）黑翼之巢，暗月马戏团，奥特兰克山谷/战歌峡谷</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="14"/>
+        <source>(4) Zul&apos;Gurub, Green Dragons, Arathi Basin</source>
+        <translation>（4）祖尔格拉布，绿龙，阿拉希盆地</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="16"/>
+        <source>(5) Ahn&apos;Qiraj, improved dungeon loot</source>
+        <translation>（5）安其拉，强化的地下城掉落</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="18"/>
+        <source>(6) Naxxramas</source>
+        <translation>（6）纳克萨玛斯</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="27"/>
+        <source>(1) MC/Ony</source>
+        <translation>（1）熔火之心/奥妮克希亚的巢穴</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="29"/>
+        <source>(2) DM</source>
+        <translation>（2）厄运之槌</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="31"/>
+        <source>(3) BWL</source>
+        <translation>（3）黑翼之巢</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="33"/>
+        <source>(4) ZG/AB</source>
+        <translation>（4）祖尔格拉布/阿拉希盆地</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="35"/>
+        <source>(5) AQ</source>
+        <translation>（5）安其拉</translation>
+    </message>
+    <message>
+        <location filename="Phases/ContentPhase.cpp" line="37"/>
+        <source>(6) Naxx</source>
+        <translation>（6）纳克萨玛斯</translation>
+    </message>
 </context>
 <context>
     <name>RogueTR</name>
