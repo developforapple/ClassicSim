@@ -259,7 +259,7 @@ void ClassicSimControl::set_character(Character* pchar) {
 
     selectDisplayStat(get_attack_mode_as_string());
 
-    raid_setup[0][0] = QVariantMap {{"text", "You"}, {"color", current_char->class_color}, {"selected", true}};
+    raid_setup[0][0] = QVariantMap {{"text", QObject::tr("You")}, {"color", current_char->class_color}, {"selected", true}};
 
     emit raceChanged();
     emit classChanged();
@@ -1691,16 +1691,16 @@ QVariantList ClassicSimControl::getTooltip(const int item_id) {
 void ClassicSimControl::set_weapon_tooltip(Item*& item, QString& slot, QString type, QString& dmg_range, QString& wpn_speed, QString& dps) {
     slot = std::move(type);
     auto wpn = static_cast<Weapon*>(item);
-    dmg_range = QString("%1 - %2 Damage").arg(QString::number(wpn->get_min_dmg()), QString::number(wpn->get_max_dmg()));
-    dps = QString("(%1 damage per second)").arg(QString::number(wpn->get_wpn_dps(), 'f', 1));
-    wpn_speed = "Speed " + QString::number(wpn->get_base_weapon_speed(), 'f', 2);
+    dmg_range = QObject::tr("%1 - %2 Damage").arg(QString::number(wpn->get_min_dmg()), QString::number(wpn->get_max_dmg()));
+    dps = QObject::tr("(%1 damage per second)").arg(QString::number(wpn->get_wpn_dps(), 'f', 1));
+    wpn_speed = QObject::tr("Speed ") + QString::number(wpn->get_base_weapon_speed(), 'f', 2);
 }
 
 void ClassicSimControl::set_projectile_tooltip(Item* item, QString& slot, QString& dps) {
     slot = get_initial_upper_case_rest_lower_case(slot);
 
     auto projectile = static_cast<Projectile*>(item);
-    dps = QString("Adds %1 damage per second").arg(QString::number(projectile->get_projectile_dps(), 'f', 1));
+    dps = QObject::tr("Adds %1 damage per second").arg(QString::number(projectile->get_projectile_dps(), 'f', 1));
 }
 
 void ClassicSimControl::set_class_restriction_tooltip(Item*& item, QString& restriction) {
@@ -1730,9 +1730,9 @@ void ClassicSimControl::set_class_restriction_tooltip(Item*& item, QString& rest
 
     for (const auto& i : restrictions) {
         if (restriction == "")
-            restriction = "Classes: ";
+            restriction = QObject::tr("Classes: ");
         else
-            restriction += ", ";
+            restriction += QObject::tr(", ");
         restriction += i;
     }
 }
@@ -1772,7 +1772,7 @@ QString ClassicSimControl::get_initial_upper_case_rest_lower_case(const QString&
 }
 
 QString ClassicSimControl::get_sim_progress_string() const {
-    return sim_in_progress ? "Running..." : "Click me!";
+    return sim_in_progress ? QObject::tr("Running...") : QObject::tr("Click me!");
 }
 
 QString ClassicSimControl::getStartWindow() const {
@@ -1980,8 +1980,8 @@ QVariantList ClassicSimControl::get_tooltip_from_item(Item* item) {
     if (item == nullptr)
         return QVariantList();
 
-    QString boe_string = item->get_value("boe") == "yes" ? "Binds when equipped" : "Binds when picked up";
-    QString unique = item->get_value("unique") == "yes" ? "Unique" : "";
+    QString boe_string = item->get_value("boe") == "yes" ? QObject::tr("Binds when equipped") : QObject::tr("Binds when picked up");
+    QString unique = item->get_value("unique") == "yes" ? QObject::tr("Unique") : "";
 
     QString slot = item->get_value("slot");
     QString dmg_range = "";
@@ -1989,39 +1989,39 @@ QVariantList ClassicSimControl::get_tooltip_from_item(Item* item) {
     QString dps = "";
 
     if (slot == "1H")
-        set_weapon_tooltip(item, slot, "One-hand", dmg_range, weapon_speed, dps);
+        set_weapon_tooltip(item, slot, QObject::tr("One-hand"), dmg_range, weapon_speed, dps);
     else if (slot == "MH")
-        set_weapon_tooltip(item, slot, "Main Hand", dmg_range, weapon_speed, dps);
+        set_weapon_tooltip(item, slot, QObject::tr("Main Hand"), dmg_range, weapon_speed, dps);
     else if (slot == "OH")
       if (item->get_item_type() != WeaponTypes::SHIELD)
-        set_weapon_tooltip(item, slot, "Offhand", dmg_range, weapon_speed, dps);
+        set_weapon_tooltip(item, slot, QObject::tr("Offhand"), dmg_range, weapon_speed, dps);
       else
-        slot = "Offhand";
+        slot = QObject::tr("Offhand");
     else if (slot == "2H")
-        set_weapon_tooltip(item, slot, "Two-hand", dmg_range, weapon_speed, dps);
+        set_weapon_tooltip(item, slot, QObject::tr("Two-hand"), dmg_range, weapon_speed, dps);
     else if (slot == "RANGED") {
         const QSet<QString> ranged_weapon_classes = {"Hunter", "Warrior", "Rogue", "Mage", "Warlock", "Priest"};
         if (ranged_weapon_classes.contains(current_char->class_name))
-            set_weapon_tooltip(item, slot, "Ranged", dmg_range, weapon_speed, dps);
+            set_weapon_tooltip(item, slot, QObject::tr("Ranged"), dmg_range, weapon_speed, dps);
     } else if (slot == "PROJECTILE")
         set_projectile_tooltip(item, slot, dps);
     else if (slot == "RING")
-        slot = "Finger";
+        slot = QObject::tr("Finger");
     else if (slot == "GLOVES")
-        slot = "Hands";
+        slot = QObject::tr("Hands");
     else if (slot == "BELT")
-        slot = "Waist";
+        slot = QObject::tr("Waist");
     else if (slot == "BOOTS")
-        slot = "Feet";
+        slot = QObject::tr("Feet");
     else if (slot == "SHOULDERS")
-        slot = "Shoulder";
+        slot = QObject::tr("Shoulder");
     else
         slot = get_initial_upper_case_rest_lower_case(slot);
 
     QString class_restriction = "";
     set_class_restriction_tooltip(item, class_restriction);
 
-    QString lvl_req = QString("Requires level %1").arg(item->get_value("req_lvl"));
+    QString lvl_req = QObject::tr("Requires level %1").arg(item->get_value("req_lvl"));
 
     QVariantList tooltip_info = {QVariant(item->name),
                                  QVariant(item->get_value("quality")),

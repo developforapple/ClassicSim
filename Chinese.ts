@@ -6349,6 +6349,318 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <source>Slice And Dice</source>
         <translation>切割</translation>
     </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="262"/>
+        <source>You</source>
+        <translation>你</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1694"/>
+        <source>%1 - %2 Damage</source>
+        <translation>%1 - %2伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1695"/>
+        <source>(%1 damage per second)</source>
+        <translation>（每秒伤害%1）</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1696"/>
+        <source>Speed </source>
+        <translation>速度 </translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1703"/>
+        <source>Adds %1 damage per second</source>
+        <translation>每秒伤害提高%1</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1733"/>
+        <source>Classes: </source>
+        <translation>职业： </translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1735"/>
+        <source>, </source>
+        <translation>， </translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1775"/>
+        <source>Running...</source>
+        <translation>正在运行...</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1775"/>
+        <source>Click me!</source>
+        <translation>点我！</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1983"/>
+        <source>Binds when equipped</source>
+        <translation>装备后绑定</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1983"/>
+        <source>Binds when picked up</source>
+        <translation>拾取后绑定</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1984"/>
+        <source>Unique</source>
+        <translation>唯一</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1992"/>
+        <source>One-hand</source>
+        <translation>单手</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1994"/>
+        <source>Main Hand</source>
+        <translation>主手</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="1997"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1999"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="180"/>
+        <source>Offhand</source>
+        <translation>副手</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2001"/>
+        <source>Two-hand</source>
+        <translation>双手</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2005"/>
+        <source>Ranged</source>
+        <translation>远程</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2009"/>
+        <source>Finger</source>
+        <translation>手指</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2011"/>
+        <source>Hands</source>
+        <translation>手</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2013"/>
+        <source>Waist</source>
+        <translation>腰部</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2015"/>
+        <source>Feet</source>
+        <translation>脚</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2017"/>
+        <source>Shoulder</source>
+        <translation>手腕</translation>
+    </message>
+    <message>
+        <location filename="GUI/ClassicSimControl.cpp" line="2024"/>
+        <source>Requires level %1</source>
+        <translation>需要等级 %1</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="61"/>
+        <source>Agility</source>
+        <translation>敏捷</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="62"/>
+        <source>Stamina</source>
+        <translation>耐力</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="63"/>
+        <source>Strength</source>
+        <translation>力量</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="64"/>
+        <source>Axe Skill</source>
+        <translation>斧类武器技能</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="65"/>
+        <source>Dagger Skill</source>
+        <translation>匕首技能</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="66"/>
+        <source>Mace Skill</source>
+        <translation>锤类武器技能</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="67"/>
+        <source>Sword Skill</source>
+        <translation>剑类武器技能</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="68"/>
+        <source>%Hit Chance</source>
+        <translation>%命中率</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="69"/>
+        <source>%Critical Strike</source>
+        <translation>%爆击率</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="70"/>
+        <source>Attack Power</source>
+        <translation>攻击强度</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="71"/>
+        <source>+Spell Damage</source>
+        <translation>+法术伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="72"/>
+        <source>+Arcane Damage</source>
+        <translation>+奥术伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="73"/>
+        <source>+Fire Damage</source>
+        <translation>+火焰伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="74"/>
+        <source>+Frost Damage</source>
+        <translation>+冰霜伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="75"/>
+        <source>+Nature Damage</source>
+        <translation>+自然伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="76"/>
+        <source>+Shadow Damage</source>
+        <translation>+暗影伤害</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="77"/>
+        <source>+% Spell Hit</source>
+        <translation>+%法术命中</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="78"/>
+        <source>+% Spell Crit</source>
+        <translation>+%法术爆击</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="79"/>
+        <source>+Mana per 5</source>
+        <translation>+5回法力值</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="141"/>
+        <source>Plate</source>
+        <translation>板甲</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="144"/>
+        <source>Mail</source>
+        <translation>锁甲</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="147"/>
+        <source>Leather</source>
+        <translation>皮甲</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="150"/>
+        <source>Cloth</source>
+        <translation>布甲</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="174"/>
+        <source>Axe</source>
+        <translation>斧</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="177"/>
+        <source>Bow</source>
+        <translation>弓</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="183"/>
+        <source>Crossbow</source>
+        <translation>弩</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="186"/>
+        <source>Dagger</source>
+        <translation>匕首</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="189"/>
+        <source>Fist</source>
+        <translation>拳套</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="192"/>
+        <source>Gun</source>
+        <translation>枪械</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="195"/>
+        <source>Mace</source>
+        <translation>锤</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="198"/>
+        <source>Polearm</source>
+        <translation>长柄武器</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="201"/>
+        <source>Shield</source>
+        <translation>盾牌</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="204"/>
+        <source>Staff</source>
+        <translation>法杖</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="207"/>
+        <source>Sword</source>
+        <translation>剑</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="210"/>
+        <source>Thrown</source>
+        <translation>投掷武器</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="213"/>
+        <source>Two-hand Axe</source>
+        <translation>双手斧</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="216"/>
+        <source>Two-hand Mace</source>
+        <translation>双手锤</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="219"/>
+        <source>Two-hand Sword</source>
+        <translation>双手剑</translation>
+    </message>
+    <message>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="222"/>
+        <source>Wand</source>
+        <translation>魔杖</translation>
+    </message>
 </context>
 <context>
     <name>RogueTR</name>

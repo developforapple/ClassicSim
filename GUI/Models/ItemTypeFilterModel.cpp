@@ -138,16 +138,16 @@ void ItemTypeFilterModel::add_armor_item_type_filters() {
     beginInsertRows(QModelIndex(), rowCount(), rowCount());
     switch (pchar->get_highest_possible_armor_type()) {
     case ArmorTypes::PLATE:
-        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::PLATE, "Plate"));
+        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::PLATE, QObject::tr("Plate")));
         // C++17 [[clang::fallthrough]];
     case ArmorTypes::MAIL:
-        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::MAIL, "Mail"));
+        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::MAIL, QObject::tr("Mail")));
         // C++17 [[clang::fallthrough]];
     case ArmorTypes::LEATHER:
-        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::LEATHER, "Leather"));
+        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::LEATHER, QObject::tr("Leather")));
         // C++17 [[clang::fallthrough]];
     case ArmorTypes::CLOTH:
-        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::CLOTH, "Cloth"));
+        item_type_filters[equipment_slot].append(ItemTypeFilter(ArmorTypes::CLOTH, QObject::tr("Cloth")));
     }
 
     // Enable Cloth filter for all classes that have a higher possible armor type
@@ -171,55 +171,55 @@ void ItemTypeFilterModel::add_weapon_item_type_filters() {
     for (int available_type : available_types) {
         switch (available_type) {
         case WeaponTypes::AXE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::AXE, "Axe"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::AXE, QObject::tr("Axe")));
             break;
         case WeaponTypes::BOW:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::BOW, "Bow"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::BOW, QObject::tr("Bow")));
             break;
         case WeaponTypes::CASTER_OFFHAND:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CASTER_OFFHAND, "Offhand"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CASTER_OFFHAND, QObject::tr("Offhand")));
             break;
         case WeaponTypes::CROSSBOW:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CROSSBOW, "Crossbow"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CROSSBOW, QObject::tr("Crossbow")));
             break;
         case WeaponTypes::DAGGER:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::DAGGER, "Dagger"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::DAGGER, QObject::tr("Dagger")));
             break;
         case WeaponTypes::FIST:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::FIST, "Fist"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::FIST, QObject::tr("Fist")));
             break;
         case WeaponTypes::GUN:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::GUN, "Gun"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::GUN, QObject::tr("Gun")));
             break;
         case WeaponTypes::MACE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::MACE, "Mace"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::MACE, QObject::tr("Mace")));
             break;
         case WeaponTypes::POLEARM:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::POLEARM, "Polearm"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::POLEARM, QObject::tr("Polearm")));
             break;
         case WeaponTypes::SHIELD:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SHIELD, "Shield"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SHIELD,QObject::tr("Shield")));
             break;
         case WeaponTypes::STAFF:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::STAFF, "Staff"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::STAFF, QObject::tr("Staff")));
             break;
         case WeaponTypes::SWORD:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SWORD, "Sword"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SWORD, QObject::tr("Sword")));
             break;
         case WeaponTypes::THROWN:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::THROWN, "Thrown"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::THROWN, QObject::tr("Thrown")));
             break;
         case WeaponTypes::TWOHAND_AXE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_AXE, "Two-hand Axe"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_AXE, QObject::tr("Two-hand Axe")));
             break;
         case WeaponTypes::TWOHAND_MACE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_MACE, "Two-hand Mace"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_MACE, QObject::tr("Two-hand Mace")));
             break;
         case WeaponTypes::TWOHAND_SWORD:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_SWORD, "Two-hand Sword"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_SWORD, QObject::tr("Two-hand Sword")));
             break;
         case WeaponTypes::WAND:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::WAND, "Wand"));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::WAND, QObject::tr("Wand")));
             break;
         }
     }
