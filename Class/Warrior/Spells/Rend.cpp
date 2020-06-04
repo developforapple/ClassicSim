@@ -1,5 +1,5 @@
 #include "Rend.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CombatRoll.h"
 #include "CooldownControl.h"
@@ -10,15 +10,15 @@
 #include "WarriorSpells.h"
 
 Rend::Rend(Warrior* pchar, WarriorSpells* spells) :
-    SpellPeriodic("Rend",
+    SpellPeriodic(QObject::tr("Rend"),
                   "Assets/ability/Ability_gouge.png",
                   pchar,
-                  new NoEffectUniqueDebuff(pchar, Priority::Trash, 21, "Rend", "Assets/ability/Ability_gouge.png", Hidden::No),
+                  new NoEffectUniqueDebuff(pchar, Priority::Trash, 21, QObject::tr("Rend"), "Assets/ability/Ability_gouge.png", Hidden::No),
                   RestrictedByGcd::Yes,
                   ResourceType::Rage,
                   3.0,
                   10),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Rend", 3, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Rend"), 3, DisabledAtZero::No)}),
     warr(pchar),
     spells(spells),
     damage_remaining(0),

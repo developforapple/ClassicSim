@@ -11,9 +11,22 @@
 <context>
     <name>QObject</name>
     <message>
+        <location filename="Class/Warrior/Spells/BattleShout.cpp" line="21"/>
+        <location filename="Class/Warrior/Spells/BattleShout.cpp" line="97"/>
+        <location filename="Class/Warrior/Spells/BattleShout.cpp" line="105"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="20"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="120"/>
         <location filename="Spells/ExternalBuff.cpp" line="406"/>
         <source>Improved Battle Shout</source>
         <translation>强化战斗怒吼</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/BattleShout.cpp" line="22"/>
+        <location filename="Class/Warrior/Spells/BattleShout.cpp" line="107"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="13"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="91"/>
+        <source>Booming Voice</source>
+        <translation>震耳嗓音</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="407"/>
@@ -234,9 +247,18 @@
         <translation>目标护甲值降低505点。</translation>
     </message>
     <message>
+        <location filename="Class/Warrior/Spells/SunderArmor.cpp" line="15"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="125"/>
         <location filename="Spells/ExternalBuff.cpp" line="472"/>
         <source>Sunder Armor</source>
         <translation>破甲攻击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/SunderArmor.cpp" line="22"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="19"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="123"/>
+        <source>Improved Sunder Armor</source>
+        <translation>强化破甲攻击</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="473"/>
@@ -1077,6 +1099,7 @@
     <message>
         <location filename="Class/Common/Spells/OffhandAttack.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="123"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="131"/>
         <source>Offhand Attack</source>
         <translation>副手攻击</translation>
     </message>
@@ -1256,6 +1279,8 @@
     </message>
     <message>
         <location filename="Class/Druid/Spells/Enrage.cpp" line="12"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="21"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="57"/>
         <source>Enrage</source>
         <translation>狂怒</translation>
     </message>
@@ -2167,6 +2192,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="38"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="26"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="51"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="24"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="43"/>
         <source>Deflection</source>
         <translation>偏斜</translation>
     </message>
@@ -3308,6 +3335,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="8"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="9"/>
         <source>Protection</source>
         <translation>防护</translation>
     </message>
@@ -3342,6 +3370,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="40"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="16"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="53"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="14"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="41"/>
         <source>Toughness</source>
         <translation>坚韧</translation>
     </message>
@@ -3362,6 +3392,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="52"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="24"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="11"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="31"/>
         <source>Shield Specialization</source>
         <translation>盾牌专精</translation>
     </message>
@@ -3370,6 +3402,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="55"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="15"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="49"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="12"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="34"/>
         <source>Anticipation</source>
         <translation>预知</translation>
     </message>
@@ -3400,6 +3434,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="23"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="105"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="25"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="82"/>
         <source>One-Handed Weapon Specialization</source>
         <translation>单手武器专精</translation>
     </message>
@@ -3446,6 +3482,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="56"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="35"/>
         <source>Increases your Defense skill by %1.</source>
         <translation>使你的防御技能提高%1点。</translation>
     </message>
@@ -3482,6 +3519,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="106"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="83"/>
         <source>Increases the damage you deal with One-Handed Melee weapons by %1%.</source>
         <translation>使你的单手近战武器所能造成的伤害提高%1%。</translation>
     </message>
@@ -3537,6 +3575,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="26"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="139"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="32"/>
+        <location filename="Class/Warrior/TalentTrees/Arms/TwoHandedWeaponSpecialization.cpp" line="8"/>
         <source>Two-Handed Weapon Specialization</source>
         <translation>双手武器专精</translation>
     </message>
@@ -3598,6 +3638,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="120"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="99"/>
         <source>Increases your chance to get a critical strike with melee weapons by %1%.</source>
         <translation>使你用近战武器对敌人造成爆击的几率提高%1%。</translation>
     </message>
@@ -3612,6 +3653,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="140"/>
+        <location filename="Class/Warrior/TalentTrees/Arms/TwoHandedWeaponSpecialization.cpp" line="9"/>
         <source>Increases the damage you deal with two-handed melee weapons by %1%.</source>
         <translation>使你的双手近战武器造成的伤害提高%1%。</translation>
     </message>
@@ -3827,6 +3869,9 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/OffhandAttackRogue.cpp" line="6"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="33"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="122"/>
+        <location filename="Class/Warrior/Spells/OffhandAttackWarrior.cpp" line="18"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="22"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="130"/>
         <source>Dual Wield Specialization</source>
         <translation>双武器专精</translation>
     </message>
@@ -4033,12 +4078,18 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="34"/>
         <location filename="Class/Rogue/TalentTrees/Combat/MaceSpecialization.cpp" line="8"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="36"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="71"/>
         <source>Mace Specialization</source>
         <translation>锤类武器专精</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="36"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="143"/>
+        <location filename="Class/Warrior/Procs/SwordSpecialization.cpp" line="14"/>
+        <location filename="Class/Warrior/Procs/SwordSpecialization.cpp" line="21"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="37"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="152"/>
         <source>Sword Specialization</source>
         <translation>剑类武器专精</translation>
     </message>
@@ -4091,6 +4142,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="120"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="128"/>
         <source>Increases the damage done by your offhand weapon by %1%.</source>
         <translation>使你的副手武器造成的伤害提高%1%。</translation>
     </message>
@@ -4101,6 +4153,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="141"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="153"/>
         <source>Gives you a %1% chance to get an extra attack on the same target after dealing damage with your Sword.</source>
         <translation>使你在用剑类武器击中敌人后有%1%的几率进行一次额外的攻击。</translation>
     </message>
@@ -4621,6 +4674,10 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="15"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="92"/>
+        <location filename="Class/Warrior/Buffs/Flurry.cpp" line="6"/>
+        <location filename="Class/Warrior/Buffs/Flurry.cpp" line="7"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="28"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="182"/>
         <source>Flurry</source>
         <translation>乱舞</translation>
     </message>
@@ -4679,6 +4736,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="54"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="42"/>
         <source>Increases your armor value from items by %1%.</source>
         <translation>使你因装备而获得的护甲值提高%1%。</translation>
     </message>
@@ -5483,6 +5541,600 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="137"/>
         <source>Increases the critical strike damage bonus of your Destruction spells by 100%.</source>
         <translation>使你的毁灭系法术的爆击伤害加成提高100%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/BattleShoutBuff.cpp" line="6"/>
+        <location filename="Class/Warrior/Spells/BattleShout.cpp" line="13"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="92"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="121"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="72"/>
+        <source>Battle Shout</source>
+        <translation>战斗怒吼</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/BattleStanceBuff.cpp" line="6"/>
+        <location filename="Class/Warrior/Spells/BattleStance.cpp" line="7"/>
+        <source>Battle Stance</source>
+        <translation>战斗姿态</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/BerserkerStanceBuff.cpp" line="7"/>
+        <location filename="Class/Warrior/Spells/BerserkerStance.cpp" line="7"/>
+        <source>Berserker Stance</source>
+        <translation>狂暴姿态</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/DeathWishBuff.cpp" line="6"/>
+        <location filename="Class/Warrior/Spells/DeathWish.cpp" line="8"/>
+        <location filename="Class/Warrior/Spells/DeathWish.cpp" line="15"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="25"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="162"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="163"/>
+        <source>Death Wish</source>
+        <translation>死亡之愿</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/DefensiveStanceBuff.cpp" line="9"/>
+        <location filename="Class/Warrior/Spells/DefensiveStance.cpp" line="7"/>
+        <source>Defensive Stance</source>
+        <translation>防御姿态</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/DefensiveStanceBuff.cpp" line="11"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="18"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="131"/>
+        <source>Defiance</source>
+        <translation>挑衅</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Buffs/RecklessnessBuff.cpp" line="6"/>
+        <location filename="Class/Warrior/Spells/Recklessness.cpp" line="9"/>
+        <source>Recklessness</source>
+        <translation>鲁莽</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Procs/UnbridledWrath.cpp" line="9"/>
+        <location filename="Class/Warrior/Procs/UnbridledWrath.cpp" line="16"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="16"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="110"/>
+        <source>Unbridled Wrath</source>
+        <translation>怒不可遏</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/AngerManagement.cpp" line="9"/>
+        <location filename="Class/Warrior/Spells/AngerManagement.cpp" line="16"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="30"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="134"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="135"/>
+        <source>Anger Management</source>
+        <translation>愤怒掌控</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/BerserkerRage.cpp" line="9"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="173"/>
+        <source>Berserker Rage</source>
+        <translation>狂暴之怒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/BerserkerRage.cpp" line="16"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="27"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="172"/>
+        <source>Improved Berserker Rage</source>
+        <translation>强化狂暴之怒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Bloodrage.cpp" line="11"/>
+        <source>Bloodrage</source>
+        <translation>血性狂暴</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Bloodrage.cpp" line="18"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="13"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="38"/>
+        <source>Improved Bloodrage</source>
+        <translation>强化血性狂暴</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Bloodthirst.cpp" line="11"/>
+        <location filename="Class/Warrior/Spells/Bloodthirst.cpp" line="12"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="29"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="194"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="195"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="53"/>
+        <source>Bloodthirst</source>
+        <translation>嗜血</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/DeepWounds.cpp" line="13"/>
+        <location filename="Class/Warrior/Spells/DeepWounds.cpp" line="16"/>
+        <location filename="Class/Warrior/Spells/DeepWounds.cpp" line="22"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="31"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="145"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="146"/>
+        <source>Deep Wounds</source>
+        <translation>重伤</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Execute.cpp" line="14"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="141"/>
+        <source>Execute</source>
+        <translation>斩杀</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Execute.cpp" line="15"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="23"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="140"/>
+        <source>Improved Execute</source>
+        <translation>强化斩杀</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Hamstring.cpp" line="12"/>
+        <source>Hamstring</source>
+        <translation>断筋</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/HeroicStrike.cpp" line="14"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="104"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="271"/>
+        <source>Heroic Strike</source>
+        <translation>英勇打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/HeroicStrike.cpp" line="22"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="23"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="103"/>
+        <source>Improved Heroic Strike</source>
+        <translation>强化英勇打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/MortalStrike.cpp" line="11"/>
+        <location filename="Class/Warrior/Spells/MortalStrike.cpp" line="12"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="40"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="165"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="166"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="60"/>
+        <source>Mortal Strike</source>
+        <translation>致死打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Overpower.cpp" line="11"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="124"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="61"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="130"/>
+        <source>Overpower</source>
+        <translation>压制</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Overpower.cpp" line="12"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="29"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="123"/>
+        <source>Improved Overpower</source>
+        <translation>强化压制</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Rend.cpp" line="13"/>
+        <location filename="Class/Warrior/Spells/Rend.cpp" line="16"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="114"/>
+        <source>Rend</source>
+        <translation>撕裂</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Rend.cpp" line="21"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="25"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="113"/>
+        <source>Improved Rend</source>
+        <translation>强化撕裂</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Revenge.cpp" line="16"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="64"/>
+        <source>Revenge</source>
+        <translation>复仇</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/ShieldSlam.cpp" line="21"/>
+        <location filename="Class/Warrior/Spells/ShieldSlam.cpp" line="22"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="26"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="101"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="105"/>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="65"/>
+        <source>Shield Slam</source>
+        <translation>盾牌猛击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Slam.cpp" line="15"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="151"/>
+        <source>Slam</source>
+        <translation>猛击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Slam.cpp" line="23"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="24"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="150"/>
+        <source>Improved Slam</source>
+        <translation>强化猛击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/Spells/Whirlwind.cpp" line="11"/>
+        <source>Whirlwind</source>
+        <translation>旋风斩</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="21"/>
+        <source>Arms</source>
+        <translation>武器</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="26"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="49"/>
+        <source>Improved Charge</source>
+        <translation>强化冲锋</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="27"/>
+        <location filename="Class/Warrior/TalentTrees/Arms/TacticalMastery.cpp" line="6"/>
+        <source>Tactical Mastery</source>
+        <translation>战术掌握</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="28"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="53"/>
+        <source>Improved Thunder Clap</source>
+        <translation>强化雷霆一击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="33"/>
+        <location filename="Class/Warrior/TalentTrees/Arms/Impale.cpp" line="6"/>
+        <source>Impale</source>
+        <translation>穿刺</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="34"/>
+        <location filename="Class/Warrior/TalentTrees/Arms/AxeSpecialization.cpp" line="8"/>
+        <source>Axe Specialization</source>
+        <translation>斧专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="35"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="68"/>
+        <source>Sweeping Strikes</source>
+        <translation>横扫攻击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="38"/>
+        <location filename="Class/Warrior/TalentTrees/Arms/PolearmSpecialization.cpp" line="8"/>
+        <source>Polearm Specialization</source>
+        <translation>长柄武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="39"/>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="78"/>
+        <source>Improved Hamstring</source>
+        <translation>强化断筋</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="44"/>
+        <source>Increase your Parry chance by %1%.</source>
+        <translation>使你的招架几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="50"/>
+        <source>Increases the amount of rage generated by your Charge ability by %1.</source>
+        <translation>使你的冲锋技能积攒的怒气值提高%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="54"/>
+        <source>Reduces the cost of your Thunder Clap ability by %1 rage.</source>
+        <translation>使你的雷霆一击技能所消耗的怒气值减少%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="69"/>
+        <source>Your next 5 melee attacks strike an additional nearby opponent.</source>
+        <translation>你在接下来的5次近战攻击中可以攻击到一个额外的敌人。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="72"/>
+        <source>Gives you a %1% chance to stun your target for 3 sec with a Mace.</source>
+        <translation>使你的锤类武器在击中目标时有%1%的机会将其击晕3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="79"/>
+        <source>Gives your Hamstring ability a %1% chance to immobilize the target for 5 sec.</source>
+        <translation>使你的断筋技能有%1%的几率令目标无法移动，持续5秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="101"/>
+        <source>Reduces the cost of your Heroic Strike ability by %1 rage.</source>
+        <translation>使你的英勇打击技能所消耗的怒气值减少%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="111"/>
+        <source>Increases the bleed damage done by your Rend ability by %1%.</source>
+        <translation>使你的撕裂技能的流血伤害效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="121"/>
+        <source>Increase the critical strike chance of your Overpower ability by %1%.</source>
+        <translation>使你的压制技能造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="131"/>
+        <source>Increases the time required for your rage to decay while out of combat by 30%.</source>
+        <translation>使你在非战斗状态下的怒气值衰减速度降低30%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="143"/>
+        <source>Your critical strikes cause the opponent to bleed, dealing %1% of your melee weapon&apos;s average damage over 12 sec.</source>
+        <translation>你的爆击导致目标流血，使其在12秒内遭受相当于你的武器平均伤害值的%1%的伤害。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="162"/>
+        <source>A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec.</source>
+        <translation>一次邪恶的攻击，对目标造成武器伤害外加85点伤害，并使任何形式的治疗对其产生的效果降低50%，持续10秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms/AxeSpecialization.cpp" line="9"/>
+        <source>Increases your chance to get a critical strike with Axes by %1%.</source>
+        <translation>使你的斧类武器造成的爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms/Impale.cpp" line="7"/>
+        <source>Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by %1%.</source>
+        <translation>使你在战斗姿态、防御姿态和狂暴姿态下的各种技能的爆击伤害加成提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms/PolearmSpecialization.cpp" line="9"/>
+        <source>Increases your chance to get a critical strike with Polearms by %1%.</source>
+        <translation>使你的矛和长柄武器造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Arms/TacticalMastery.cpp" line="7"/>
+        <source>You retain up to %1 of your rage points when you change stances.</source>
+        <translation>在改变姿态的时候可以保留最多%1点怒气值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="11"/>
+        <source>Fury</source>
+        <translation>狂怒</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="14"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="98"/>
+        <source>Cruelty</source>
+        <translation>残忍</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="15"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="39"/>
+        <source>Improved Demoralizing Shout</source>
+        <translation>强化挫志怒吼</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="17"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="44"/>
+        <source>Improved Cleave</source>
+        <translation>强化顺劈斩</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="18"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="47"/>
+        <source>Piercing Howl</source>
+        <translation>刺耳怒吼</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="19"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="50"/>
+        <source>Blood Craze</source>
+        <translation>血之狂热</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="26"/>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="65"/>
+        <source>Improved Intercept</source>
+        <translation>强化拦截</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="40"/>
+        <source>Increases the melee attack power reduction of your Demoralizing Shout by %1%.</source>
+        <translation>使你的挫志怒吼技能降低敌人近战攻击强度的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="45"/>
+        <source>Increases the bonus damage done by your Cleave ability by %1%.</source>
+        <translation>使你的顺劈斩技能附加的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="48"/>
+        <source>Causes all enemies near the warrior to be dazed, reducing movement speed by 50% for 6 sec.</source>
+        <translation>使战士身边的所有敌人眩晕，移动速度降低50%，持续6秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="51"/>
+        <source>Regenerates %1% of your total Health over 6 sec after being the victim of a critical strike.</source>
+        <translation>在受到爆击之后的6秒内为你回复生命值总量的%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="58"/>
+        <source>Gives you a %1% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.</source>
+        <translation>使你在遭到敌人的爆击之后所进行的最多12次近战攻击都获得%1%的额外伤害加值，效果持续12秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="66"/>
+        <source>Reduces the cooldown of your Intercept ability by %1 sec.</source>
+        <translation>使你的拦截技能的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="89"/>
+        <source>Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by %1%.</source>
+        <translation>使你的战斗怒吼和挫志怒吼效果的作用范围和持续时间提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="108"/>
+        <source>Gives you a %1% chance to generate an additional Rage point when you deal melee damage with a weapon.</source>
+        <translation>使你有%1%的几率在对敌人造成近战伤害之后获得1个额外的怒气点数。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="118"/>
+        <source>Increases the melee attack power bonus of your Battle Shout by %1%.</source>
+        <translation>使你的战斗怒吼提高近战攻击强度的效果增强%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="138"/>
+        <source>Reduces the rage cost of your Execute ability by %1.</source>
+        <translation>使你的斩杀技能的怒气值消耗减少%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="148"/>
+        <source>Decreases the casting time of your Slam ability by 0.%1 sec.</source>
+        <translation>使你的猛击技能的施放时间减少0.%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="158"/>
+        <source>When activated, increases your physical damage by 20% and makes you immune to Fear effects, but lowers your armor and all resistances by 20%. Lasts 30 sec.</source>
+        <translation>激活之后，你的物理攻击伤害提高20%，并免疫恐惧效果，但是你的护甲值和所有抗性都降低20%。持续30秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="170"/>
+        <source>The Berserker Rage ability will generate %1 rage when used.</source>
+        <translation>在使用狂暴之怒技能之后获得%1点怒气值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="180"/>
+        <source>Increases your attack speed by %1% for your next 3 swings after dealing a melee critical strike.</source>
+        <translation>在你的普通近战攻击打出爆击之后，使你的下3次近战攻击速度提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="190"/>
+        <source>Instantly attack the target causing damage equal to 45% of your attack power. In addition, the next 5 successful melee attacks will restore 10 health. This effect lasts 8 sec.</source>
+        <translation>立刻攻击目标，对其造成相当于你的攻击强度45%的伤害。另外，你的下5次成功的近战攻击每次都可令你回复10点生命值。效果持续8秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="15"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="44"/>
+        <source>Iron Will</source>
+        <translation>钢铁意志</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="16"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="49"/>
+        <source>Last Stand</source>
+        <translation>破釜沉舟</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="17"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="53"/>
+        <source>Improved Revenge</source>
+        <translation>强化复仇</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="20"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="61"/>
+        <source>Improved Disarm</source>
+        <translation>强化缴械</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="21"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="64"/>
+        <source>Improved Taunt</source>
+        <translation>强化嘲讽</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="22"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="71"/>
+        <source>Improved Shield Wall</source>
+        <translation>强化盾墙</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="23"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="74"/>
+        <source>Concussion Blow</source>
+        <translation>震荡猛击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="24"/>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="76"/>
+        <source>Improved Shield Bash</source>
+        <translation>强化盾击</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="32"/>
+        <source>Increases your chance to block attacks with a shield by %1% and has a %2% chance to generate 1 rage when a block occurs.</source>
+        <translation>使你用盾牌格挡攻击的几率提高%1%，在成功格档后有%2%的几率得到1点怒气。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="39"/>
+        <source>Increases the instant Rage generated by your Bloodrage ability by %1.</source>
+        <translation>使你的血性狂暴技能激活时所产生的怒气值增加%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="45"/>
+        <source>Increases your chance to resist Stun and Charm effects by an additional %1%.</source>
+        <translation>使你抵抗昏迷和魅惑效果的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="50"/>
+        <source>When activated, this ability temporarily grants you 30% of your maximum hit points for 20 seconds. After the effect expires, the hit points are lost.</source>
+        <translation>激活之后，使你暂时获得相当于最大生命值30%的生命值，持续20秒。在效果解除之后，这些生命值会被扣除。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="54"/>
+        <source>Gives your Revenge ability a %1% chance to stun the target for 3 sec.</source>
+        <translation>使你的复仇技能有%1%的几率令目标昏迷3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="62"/>
+        <source>Increases the duration of your Disarm ability by %1 secs.</source>
+        <translation>使你的缴械技能的效果持续时间延长%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="65"/>
+        <source>Reduces the cooldown of your Taunt ability by %1 secs.</source>
+        <translation>使你的嘲讽技能的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="72"/>
+        <source>Increases the effect duration of your Shield Wall ability by %1 secs.</source>
+        <translation>使你的盾墙技能的有效时间延长%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="75"/>
+        <source>Stuns the opponent for 5 sec.</source>
+        <translation>野蛮的攻击，令目标昏迷5秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="77"/>
+        <source>Gives your Shield Bash ability a %1% chance to silence the target for 3 sec.</source>
+        <translation>使你的盾击技能有%1%的几率使目标沉默3秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="102"/>
+        <source>Slam the target with your shield, causing 225 to 236 damage, modified by your shield block value, and has a 50%chance of dispelling 1 magic effect on the target. Also causes a high amount of threat.</source>
+        <translation>用盾牌击打目标，对其造成225到236点伤害（盾牌格档值会对伤害数值产生影响），并有50%的几率驱散目标身上的1个魔法效果，同时产生大量的威胁值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="112"/>
+        <source>Allows your Shield Block ability to block an additional attack and increases the duration by %1 seconds.</source>
+        <translation>使你的盾牌格档技能可以额外格档一次攻击，并使其有效时间延长%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="117"/>
+        <source>Improved Shield Block</source>
+        <translation>强化盾牌格挡</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="124"/>
+        <source>Reduces the cost of your Sunder Armor ability by %1 rage.</source>
+        <translation>使你的破甲攻击所消耗的怒气值减少%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="132"/>
+        <source>Increase the threat generated by your attacks by %1% while in Defensive Stance.</source>
+        <translation>使你在防御姿态下由于攻击而造成的威胁值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Warrior/WarriorSpells.cpp" line="99"/>
+        <source>Heroic Strike Queued</source>
+        <translation>Heroic Strike Queued</translation>
     </message>
 </context>
 <context>

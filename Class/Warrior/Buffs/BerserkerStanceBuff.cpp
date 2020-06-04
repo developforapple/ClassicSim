@@ -1,10 +1,10 @@
 #include "BerserkerStanceBuff.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "Warrior.h"
 
 BerserkerStanceBuff::BerserkerStanceBuff(Warrior* warrior) :
-    SelfBuff(warrior, "Berserker Stance", NO_ICON, BuffDuration::PERMANENT, 1), warrior(warrior) {
+    SelfBuff(warrior, QObject::tr("Berserker Stance"), NO_ICON, BuffDuration::PERMANENT, 1), warrior(warrior) {
     this->hidden = true;
 }
 

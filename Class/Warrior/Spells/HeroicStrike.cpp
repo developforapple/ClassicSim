@@ -1,5 +1,5 @@
 #include "HeroicStrike.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -11,7 +11,7 @@
 #include "WarriorSpells.h"
 
 HeroicStrike::HeroicStrike(Warrior* warrior, WarriorSpells* spells, Buff* hs_buff, const int rank_spell) :
-    Spell("Heroic Strike",
+    Spell(QObject::tr("Heroic Strike"),
           "Assets/ability/Ability_rogue_ambush.png",
           warrior,
           new CooldownControl(warrior, 0.0),
@@ -19,7 +19,7 @@ HeroicStrike::HeroicStrike(Warrior* warrior, WarriorSpells* spells, Buff* hs_buf
           ResourceType::Rage,
           15,
           rank_spell),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Heroic Strike", 3, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Heroic Strike"), 3, DisabledAtZero::No)}),
     warr(warrior),
     spells(spells),
     hs_buff(hs_buff) {

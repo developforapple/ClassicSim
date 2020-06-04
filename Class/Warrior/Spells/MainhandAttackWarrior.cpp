@@ -1,5 +1,4 @@
 #include "MainhandAttackWarrior.h"
-
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "ClassStatistics.h"

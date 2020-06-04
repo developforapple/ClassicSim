@@ -1,10 +1,10 @@
 #include "Impale.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 
-Impale::Impale(Character* pchar, TalentTree* tree) : Talent(pchar, tree, "Impale", "4MR", "Assets/ability/Ability_searingarrow.png", 2) {
-    QString base_str = "Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by %1%.";
+Impale::Impale(Character* pchar, TalentTree* tree) : Talent(pchar, tree, QObject::tr("Impale"), "4MR", "Assets/ability/Ability_searingarrow.png", 2) {
+    QString base_str = QObject::tr("Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by %1%.");
     initialize_rank_descriptions(rank_descriptions, base_str, max_points, QVector<QPair<unsigned, unsigned>> {{10, 10}});
 }
 

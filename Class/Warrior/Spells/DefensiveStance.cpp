@@ -1,10 +1,10 @@
 #include "DefensiveStance.h"
-
+#include <QObject>
 #include "CooldownControl.h"
 #include "Warrior.h"
 
 DefensiveStance::DefensiveStance(Warrior* warrior) :
-    Spell("Defensive Stance",
+    Spell(QObject::tr("Defensive Stance"),
           "Assets/ability/Ability_racial_avatar.png",
           warrior,
           new CooldownControl(warrior, 0.0),

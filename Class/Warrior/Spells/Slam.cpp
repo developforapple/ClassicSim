@@ -1,5 +1,5 @@
 #include "Slam.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CastComplete.h"
 #include "CharacterStats.h"
@@ -12,7 +12,7 @@
 #include "WarriorSpells.h"
 
 Slam::Slam(Warrior* pchar, WarriorSpells* spells) :
-    Spell("Slam",
+    Spell(QObject::tr("Slam"),
           "Assets/ability/Ability_warrior_decisivestrike.png",
           pchar,
           new CooldownControl(pchar, 0.0),
@@ -20,7 +20,7 @@ Slam::Slam(Warrior* pchar, WarriorSpells* spells) :
           ResourceType::Rage,
           15),
     CastingTimeRequirer(pchar, SuppressibleCast::No, 1500),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Slam", 5, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Slam"), 5, DisabledAtZero::No)}),
     warr(pchar),
     spells(spells),
     talent_ranks({1500, 1400, 1300, 1200, 1100, 1000}) {

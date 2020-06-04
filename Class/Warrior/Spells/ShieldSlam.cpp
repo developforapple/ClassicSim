@@ -1,5 +1,5 @@
 #include "ShieldSlam.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Buff.h"
@@ -18,8 +18,8 @@
 #include "Weapon.h"
 
 ShieldSlam::ShieldSlam(Warrior* pchar, WarriorSpells* spells, CooldownControl* cooldown_control) :
-    Spell("Shield Slam", "Assets/ability/Ability_warrior_sunder.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Rage, 20),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Shield Slam", 1, DisabledAtZero::Yes)}),
+    Spell(QObject::tr("Shield Slam"), "Assets/ability/Ability_warrior_sunder.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Rage, 20),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Shield Slam"), 1, DisabledAtZero::Yes)}),
     warr(pchar),
     spells(spells),
     innate_threat(250) {

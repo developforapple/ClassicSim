@@ -1,5 +1,5 @@
 #include "SunderArmor.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CastComplete.h"
 #include "CharacterStats.h"
@@ -12,14 +12,14 @@
 #include "WarriorSpells.h"
 
 SunderArmor::SunderArmor(Warrior* pchar, WarriorSpells* spells) :
-    Spell("Sunder Armor",
+    Spell(QObject::tr("Sunder Armor"),
           "Assets/ability/Ability_warrior_sunder.png",
           pchar,
           new CooldownControl(pchar, 0.0),
           RestrictedByGcd::Yes,
           ResourceType::Rage,
           15),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Sunder Armor", 3, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Sunder Armor"), 3, DisabledAtZero::No)}),
     warr(pchar),
     spells(spells),
     innate_threat_by_spell_rank({100, 140, 180, 220, 260}),

@@ -1,5 +1,5 @@
 #include "WarriorSpells.h"
-
+#include <QObject>
 #include "AngerManagement.h"
 #include "BattleShout.h"
 #include "BattleShoutBuff.h"
@@ -50,26 +50,26 @@ WarriorSpells::WarriorSpells(Warrior* warrior) : CharacterSpells(warrior), warr(
     this->berserker_rage = new BerserkerRage(warrior);
     this->berserker_stance = new BerserkerStance(warrior);
     this->bloodrage = new Bloodrage(warrior);
-    this->bt = new Bloodthirst(warrior, this, new_cooldown_control("Bloodthirst", 6.0));
+    this->bt = new Bloodthirst(warrior, this, new_cooldown_control(QObject::tr("Bloodthirst"), 6.0));
     this->death_wish = new DeathWish(warrior);
     this->deep_wounds = new DeepWounds(warrior);
     this->defensive_stance = new DefensiveStance(warrior);
     this->execute = new Execute(warrior, this);
     this->hamstring = new Hamstring(warrior, this);
 
-    this->mortal_strike = new MortalStrike(warrior, this, new_cooldown_control("Mortal Strike", 6.0));
-    this->overpower = new Overpower(warrior, this, new_cooldown_control("Overpower", 5.0));
+    this->mortal_strike = new MortalStrike(warrior, this, new_cooldown_control(QObject::tr("Mortal Strike"), 6.0));
+    this->overpower = new Overpower(warrior, this, new_cooldown_control(QObject::tr("Overpower"), 5.0));
     this->recklessness = new Recklessness(warrior, this);
     this->rend = new Rend(warrior, this);
-    this->revenge = new Revenge(warrior, this, new_cooldown_control("Revenge", 5.0));
-    this->shield_slam = new ShieldSlam(warrior, this, new_cooldown_control("Shield Slam", 6.0));
+    this->revenge = new Revenge(warrior, this, new_cooldown_control(QObject::tr("Revenge"), 5.0));
+    this->shield_slam = new ShieldSlam(warrior, this, new_cooldown_control(QObject::tr("Shield Slam"), 6.0));
     this->slam = new Slam(warrior, this);
     this->sunder_armor = new SunderArmor(warrior, this);
     this->warr_mh_attack = new MainhandAttackWarrior(warrior, this);
     this->warr_oh_attack = new OffhandAttackWarrior(warrior, this);
     this->whirlwind = new Whirlwind(warrior, this);
 
-    auto buff = static_cast<BattleShoutBuff*>(warrior->get_raid_control()->get_shared_party_buff("Battle Shout", warrior->get_party()));
+    auto buff = static_cast<BattleShoutBuff*>(warrior->get_raid_control()->get_shared_party_buff(QObject::tr("Battle Shout"), warrior->get_party()));
     if (buff == nullptr) {
         buff = new BattleShoutBuff(warrior);
         buff->enable_buff();
@@ -96,7 +96,7 @@ WarriorSpells::WarriorSpells(Warrior* warrior) : CharacterSpells(warrior), warr(
     add_spell_group({execute});
     add_spell_group({hamstring});
 
-    this->hs_buff = new NoEffectSelfBuff(warrior, BuffDuration::PERMANENT, "Heroic Strike Queued", "Assets/ability/Ability_rogue_ambush.png",
+    this->hs_buff = new NoEffectSelfBuff(warrior, BuffDuration::PERMANENT, QObject::tr("Heroic Strike Queued"), "Assets/ability/Ability_rogue_ambush.png",
                                          Hidden::No);
     this->hs_buff->enable_buff();
     add_spell_group({
@@ -127,7 +127,7 @@ WarriorSpells::WarriorSpells(Warrior* warrior) : CharacterSpells(warrior), warr(
     this->berserker_stance_buff = new BerserkerStanceBuff(warrior);
     this->defensive_stance_buff = new DefensiveStanceBuff(warrior);
     this->flurry = new Flurry(warrior);
-    this->overpower_buff = new NoEffectSelfBuff(warrior, 5, "Overpower");
+    this->overpower_buff = new NoEffectSelfBuff(warrior, 5, QObject::tr("Overpower"));
     this->recklessness_buff = new RecklessnessBuff(warrior);
     battle_stance_buff->enable_buff();
     berserker_stance_buff->enable_buff();
@@ -268,7 +268,7 @@ bool WarriorSpells::is_heroic_strike_queued() const {
 }
 
 void WarriorSpells::prepare_set_of_combat_iterations_class_specific() {
-    heroic_strike = static_cast<HeroicStrike*>(get_spell_rank_group_by_name("Heroic Strike")->get_max_available_spell_rank());
+    heroic_strike = static_cast<HeroicStrike*>(get_spell_rank_group_by_name(QObject::tr("Heroic Strike"))->get_max_available_spell_rank());
 }
 
 Buff* WarriorSpells::get_flurry() const {

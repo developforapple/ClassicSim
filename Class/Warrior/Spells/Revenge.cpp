@@ -1,5 +1,5 @@
 #include "Revenge.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CastComplete.h"
 #include "CharacterStats.h"
@@ -13,7 +13,7 @@
 #include "WarriorSpells.h"
 
 Revenge::Revenge(Warrior* pchar, WarriorSpells* spells, CooldownControl* cooldown_control) :
-    Spell("Revenge", "Assets/ability/Ability_warrior_revenge.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Rage, 5),
+    Spell(QObject::tr("Revenge"), "Assets/ability/Ability_warrior_revenge.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Rage, 5),
     warr(pchar),
     spells(spells),
     innate_threat_by_spell_rank({155, 195, 235, 275, 315, 355}),

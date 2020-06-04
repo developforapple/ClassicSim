@@ -1,5 +1,5 @@
 #include "Execute.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -11,8 +11,8 @@
 #include "WarriorSpells.h"
 
 Execute::Execute(Warrior* pchar, WarriorSpells* spells) :
-    Spell("Execute", "Assets/items/Inv_sword_48.png", pchar, new CooldownControl(pchar, 0.0), RestrictedByGcd::Yes, ResourceType::Rage, 15),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Execute", 2, DisabledAtZero::No)}),
+    Spell(QObject::tr("Execute"), "Assets/items/Inv_sword_48.png", pchar, new CooldownControl(pchar, 0.0), RestrictedByGcd::Yes, ResourceType::Rage, 15),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Execute"), 2, DisabledAtZero::No)}),
     warr(pchar),
     spells(spells),
     spell_ranks({QPair<int, int>(125, 3), QPair<int, int>(200, 6), QPair<int, int>(325, 9), QPair<int, int>(450, 12), QPair<int, int>(600, 15)}),

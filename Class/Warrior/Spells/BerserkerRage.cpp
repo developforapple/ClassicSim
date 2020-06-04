@@ -1,19 +1,19 @@
 #include "BerserkerRage.h"
-
+#include <QObject>
 #include "ClassStatistics.h"
 #include "CooldownControl.h"
 #include "StatisticsResource.h"
 #include "Warrior.h"
 
 BerserkerRage::BerserkerRage(Warrior* warrior) :
-    Spell("Berserker Rage",
+    Spell(QObject::tr("Berserker Rage"),
           "Assets/spell/Spell_nature_ancestralguardian.png",
           warrior,
           new CooldownControl(warrior, 30.0),
           RestrictedByGcd::No,
           ResourceType::Rage,
           0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Berserker Rage", 2, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Berserker Rage"), 2, DisabledAtZero::No)}),
     warrior(warrior),
     statistics_resource(nullptr),
     talent_ranks({0, 5, 10}) {}

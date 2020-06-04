@@ -1,9 +1,9 @@
 #include "DeathWishBuff.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "Warrior.h"
 
-DeathWishBuff::DeathWishBuff(Character* pchar) : SelfBuff(pchar, "Death Wish", "Assets/spell/Spell_shadow_deathpact.png", 30, 0) {}
+DeathWishBuff::DeathWishBuff(Character* pchar) : SelfBuff(pchar, QObject::tr("Death Wish"), "Assets/spell/Spell_shadow_deathpact.png", 30, 0) {}
 
 DeathWishBuff::~DeathWishBuff() {
     if (is_enabled())

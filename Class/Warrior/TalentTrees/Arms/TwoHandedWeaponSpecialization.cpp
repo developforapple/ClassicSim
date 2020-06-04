@@ -1,12 +1,12 @@
 #include "TwoHandedWeaponSpecialization.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 #include "ItemNamespace.h"
 
 TwoHandedWeaponSpecialization::TwoHandedWeaponSpecialization(Character* pchar, TalentTree* tree) :
-    Talent(pchar, tree, "Two-Handed Weapon Specialization", "4ML", "Assets/items/Inv_axe_09.png", 5) {
-    QString base_str = "Increases the damage you deal with two-handed melee weapons by %1%.";
+    Talent(pchar, tree, QObject::tr("Two-Handed Weapon Specialization"), "4ML", "Assets/items/Inv_axe_09.png", 5) {
+    QString base_str = QObject::tr("Increases the damage you deal with two-handed melee weapons by %1%.");
     initialize_rank_descriptions(rank_descriptions, base_str, max_points, QVector<QPair<unsigned, unsigned>> {{1, 1}});
 
     talent_ranks = {0, 1, 2, 3, 4, 5};

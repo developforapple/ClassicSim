@@ -1,5 +1,5 @@
 #include "Hamstring.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -9,7 +9,7 @@
 #include "WarriorSpells.h"
 
 Hamstring::Hamstring(Warrior* pchar, WarriorSpells* spells) :
-    Spell("Hamstring", "Assets/ability/Ability_shockwave.png", pchar, new CooldownControl(pchar, 0.0), RestrictedByGcd::Yes, ResourceType::Rage, 10),
+    Spell(QObject::tr("Hamstring"), "Assets/ability/Ability_shockwave.png", pchar, new CooldownControl(pchar, 0.0), RestrictedByGcd::Yes, ResourceType::Rage, 10),
     ItemModificationRequirer({16484, 16548, 22868, 23286}),
     warr(pchar),
     spells(spells) {}

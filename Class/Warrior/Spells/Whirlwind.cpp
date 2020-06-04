@@ -1,5 +1,5 @@
 #include "Whirlwind.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -8,7 +8,7 @@
 #include "WarriorSpells.h"
 
 Whirlwind::Whirlwind(Warrior* pchar, WarriorSpells* spells) :
-    Spell("Whirlwind", "Assets/ability/Ability_whirlwind.png", pchar, new CooldownControl(pchar, 10.0), RestrictedByGcd::Yes, ResourceType::Rage, 25),
+    Spell(QObject::tr("Whirlwind"), "Assets/ability/Ability_whirlwind.png", pchar, new CooldownControl(pchar, 10.0), RestrictedByGcd::Yes, ResourceType::Rage, 25),
     warr(pchar),
     spells(spells) {}
 

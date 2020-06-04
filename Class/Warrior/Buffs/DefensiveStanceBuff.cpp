@@ -1,14 +1,14 @@
 #include "DefensiveStanceBuff.h"
-
+#include <QObject>
 #include <vector>
 
 #include "CharacterStats.h"
 #include "Warrior.h"
 
 DefensiveStanceBuff::DefensiveStanceBuff(Warrior* warrior) :
-    SelfBuff(warrior, "Defensive Stance", NO_ICON, BuffDuration::PERMANENT, 1),
+    SelfBuff(warrior, QObject::tr("Defensive Stance"), NO_ICON, BuffDuration::PERMANENT, 1),
     warrior(warrior),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Defiance", 5, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Defiance"), 5, DisabledAtZero::No)}),
     current_threat_mod(30) {
     this->hidden = true;
 }

@@ -1,12 +1,12 @@
 #include "Recklessness.h"
-
+#include <QObject>
 #include "CooldownControl.h"
 #include "RecklessnessBuff.h"
 #include "Warrior.h"
 #include "WarriorSpells.h"
 
 Recklessness::Recklessness(Warrior* warrior, WarriorSpells* spells) :
-    Spell("Recklessness",
+    Spell(QObject::tr("Recklessness"),
           "Assets/ability/Ability_criticalstrike.png",
           warrior,
           new CooldownControl(warrior, 1800.0),

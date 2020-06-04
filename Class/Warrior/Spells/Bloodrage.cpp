@@ -1,5 +1,5 @@
 #include "Bloodrage.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "ClassStatistics.h"
 #include "CooldownControl.h"
@@ -8,14 +8,14 @@
 #include "Warrior.h"
 
 Bloodrage::Bloodrage(Warrior* warrior) :
-    PeriodicResourceGainSpell("Bloodrage",
+    PeriodicResourceGainSpell(QObject::tr("Bloodrage"),
                               "Assets/ability/Ability_racial_bloodrage.png",
                               warrior,
                               RestrictedByGcd::No,
                               1.0,
                               10,
                               {{ResourceType::Rage, 1}}),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Bloodrage", 2, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Bloodrage"), 2, DisabledAtZero::No)}),
     warrior(warrior) {
     delete cooldown;
     cooldown = new CooldownControl(warrior, 60.0);

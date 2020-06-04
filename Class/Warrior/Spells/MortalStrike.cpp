@@ -1,5 +1,5 @@
 #include "MortalStrike.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CombatRoll.h"
@@ -8,8 +8,8 @@
 #include "WarriorSpells.h"
 
 MortalStrike::MortalStrike(Warrior* pchar, WarriorSpells* spells, CooldownControl* cooldown_control) :
-    Spell("Mortal Strike", "Assets/ability/Ability_warrior_savageblow.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Rage, 30),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Mortal Strike", 1, DisabledAtZero::Yes)}),
+    Spell(QObject::tr("Mortal Strike"), "Assets/ability/Ability_warrior_savageblow.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Rage, 30),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Mortal Strike"), 1, DisabledAtZero::Yes)}),
     warr(pchar),
     spells(spells) {
     this->enabled = false;

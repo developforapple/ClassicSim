@@ -1,10 +1,10 @@
 #include "BerserkerStance.h"
-
+#include <QObject>
 #include "CooldownControl.h"
 #include "Warrior.h"
 
 BerserkerStance::BerserkerStance(Warrior* warrior) :
-    Spell("Berserker Stance",
+    Spell(QObject::tr("Berserker Stance"),
           "Assets/ability/Ability_racial_avatar.png",
           warrior,
           new CooldownControl(warrior, 0.0),

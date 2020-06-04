@@ -1,5 +1,5 @@
 #include "DeepWounds.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CooldownControl.h"
@@ -10,16 +10,16 @@
 #include "Warrior.h"
 
 DeepWounds::DeepWounds(Warrior* warrior) :
-    SpellPeriodic("Deep Wounds",
+    SpellPeriodic(QObject::tr("Deep Wounds"),
                   "Assets/ability/Ability_backstab.png",
                   warrior,
-                  new NoEffectUniqueDebuff(warrior, Priority::Trash, 12, "Deep Wounds", "Assets/ability/Ability_backstab.png", Hidden::No),
+                  new NoEffectUniqueDebuff(warrior, Priority::Trash, 12, QObject::tr("Deep Wounds"), "Assets/ability/Ability_backstab.png", Hidden::No),
                   RestrictedByGcd::No,
                   ResourceType::Rage,
                   2.0,
                   0,
                   1),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Deep Wounds", 3, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Deep Wounds"), 3, DisabledAtZero::Yes)}),
     warrior(warrior),
     talent_ranks({0.0, 0.2, 0.4, 0.6}) {
     this->enabled = false;

@@ -1,5 +1,5 @@
 #include "SwordSpecialization.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
@@ -11,14 +11,14 @@
 #include "Weapon.h"
 
 SwordSpecialization::SwordSpecialization(Character* pchar) :
-    Proc("Sword Specialization",
+    Proc(QObject::tr("Sword Specialization"),
          "Assets/items/Inv_sword_27.png",
          0.0,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>({ProcInfo::Source::MainhandSpell, ProcInfo::Source::MainhandSwing, ProcInfo::Source::OffhandSwing}),
          pchar),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Sword Specialization", 5, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Sword Specialization"), 5, DisabledAtZero::Yes)}),
     warr(pchar),
     talent_ranks({0, 1, 2, 3, 4, 5}) {
     this->enabled = false;

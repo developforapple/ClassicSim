@@ -1,19 +1,19 @@
 #include "UnbridledWrath.h"
-
+#include <QObject>
 #include "ClassStatistics.h"
 #include "ProcInfo.h"
 #include "StatisticsResource.h"
 #include "Warrior.h"
 
 UnbridledWrath::UnbridledWrath(Warrior* warrior) :
-    Proc("Unbridled Wrath",
+    Proc(QObject::tr("Unbridled Wrath"),
          "Assets/spell/Spell_nature_stoneclawtotem.png",
          0.0,
          0,
          QVector<Proc*>(),
          QVector<ProcInfo::Source>({ProcInfo::Source::MainhandSwing, ProcInfo::Source::OffhandSwing}),
          warrior),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Unbridled Wrath", 5, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Unbridled Wrath"), 5, DisabledAtZero::Yes)}),
     statistics_resource(nullptr),
     warrior(warrior),
     talent_ranks({0, 800, 1600, 2400, 3200, 4000}) {
