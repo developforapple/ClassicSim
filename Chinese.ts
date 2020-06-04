@@ -1051,8 +1051,46 @@
         <translation type="vanished">巨魔</translation>
     </message>
     <message>
+        <location filename="Target/Target.cpp" line="16"/>
+        <location filename="Target/Target.cpp" line="24"/>
+        <source>Beast</source>
+        <translation>野兽</translation>
+    </message>
+    <message>
+        <location filename="Target/Target.cpp" line="17"/>
+        <location filename="Target/Target.cpp" line="25"/>
+        <source>Demon</source>
+        <translation>恶魔</translation>
+    </message>
+    <message>
+        <location filename="Target/Target.cpp" line="18"/>
+        <location filename="Target/Target.cpp" line="26"/>
+        <source>Dragonkin</source>
+        <translation>龙类</translation>
+    </message>
+    <message>
+        <location filename="Target/Target.cpp" line="20"/>
+        <location filename="Target/Target.cpp" line="28"/>
+        <source>Giant</source>
+        <translation>巨人</translation>
+    </message>
+    <message>
+        <location filename="Target/Target.cpp" line="21"/>
+        <location filename="Target/Target.cpp" line="29"/>
+        <source>Humanoid</source>
+        <translation>人型生物</translation>
+    </message>
+    <message>
+        <location filename="Target/Target.cpp" line="22"/>
+        <location filename="Target/Target.cpp" line="30"/>
+        <source>Mechanical</source>
+        <translation>机械</translation>
+    </message>
+    <message>
+        <location filename="Target/Target.cpp" line="23"/>
+        <location filename="Target/Target.cpp" line="31"/>
         <source>Undead</source>
-        <translation type="vanished">亡灵</translation>
+        <translation>亡灵</translation>
     </message>
     <message>
         <source>Druid</source>
@@ -4600,6 +4638,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="9"/>
+        <location filename="Target/Target.cpp" line="19"/>
+        <location filename="Target/Target.cpp" line="27"/>
         <source>Elemental</source>
         <translation>元素</translation>
     </message>

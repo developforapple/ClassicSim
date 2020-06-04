@@ -1,5 +1,5 @@
 #include "Target.h"
-
+#include <QObject>
 #include <QDebug>
 
 #include "Buff.h"
@@ -13,22 +13,22 @@ Target::Target(const unsigned target_lvl) :
     base_armor(Mechanics::get_boss_base_armor()),
     target_type(CreatureType::Dragonkin),
     stats(new Stats()),
-    string_to_creature_type({{"Beast", CreatureType::Beast},
-                             {"Demon", CreatureType::Demon},
-                             {"Dragonkin", CreatureType::Dragonkin},
-                             {"Elemental", CreatureType::Elemental},
-                             {"Giant", CreatureType::Giant},
-                             {"Humanoid", CreatureType::Humanoid},
-                             {"Mechanical", CreatureType::Mechanical},
-                             {"Undead", CreatureType::Undead}}),
-    creature_type_strings({{CreatureType::Beast, "Beast"},
-                           {CreatureType::Demon, "Demon"},
-                           {CreatureType::Dragonkin, "Dragonkin"},
-                           {CreatureType::Elemental, "Elemental"},
-                           {CreatureType::Giant, "Giant"},
-                           {CreatureType::Humanoid, "Humanoid"},
-                           {CreatureType::Mechanical, "Mechanical"},
-                           {CreatureType::Undead, "Undead"}}) {
+    string_to_creature_type({{QObject::tr("Beast"), CreatureType::Beast},
+                             {QObject::tr("Demon"), CreatureType::Demon},
+                             {QObject::tr("Dragonkin"), CreatureType::Dragonkin},
+                             {QObject::tr("Elemental"), CreatureType::Elemental},
+                             {QObject::tr("Giant"), CreatureType::Giant},
+                             {QObject::tr("Humanoid"), CreatureType::Humanoid},
+                             {QObject::tr("Mechanical"), CreatureType::Mechanical},
+                             {QObject::tr("Undead"), CreatureType::Undead}}),
+    creature_type_strings({{CreatureType::Beast, QObject::tr("Beast")},
+                           {CreatureType::Demon, QObject::tr("Demon")},
+                           {CreatureType::Dragonkin, QObject::tr("Dragonkin")},
+                           {CreatureType::Elemental, QObject::tr("Elemental")},
+                           {CreatureType::Giant, QObject::tr("Giant")},
+                           {CreatureType::Humanoid, QObject::tr("Humanoid")},
+                           {CreatureType::Mechanical, QObject::tr("Mechanical")},
+                           {CreatureType::Undead, QObject::tr("Undead")}}) {
     stats->increase_armor(base_armor);
 
     this->magic_school_damage_changes.insert(MagicSchool::Arcane, {});
