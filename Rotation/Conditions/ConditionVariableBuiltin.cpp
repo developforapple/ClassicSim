@@ -1,5 +1,5 @@
 #include "ConditionVariableBuiltin.h"
-
+#include <QObject>
 #include <cmath>
 #include <iostream>
 
@@ -74,21 +74,21 @@ bool ConditionVariableBuiltin::condition_fulfilled() const {
 
 QString ConditionVariableBuiltin::condition_description() const {
     if (builtin == BuiltinVariables::TargetHealth)
-        return QString("Target Health %1 %2%").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
+        return QObject::tr("Target Health %1 %2%").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
     if (builtin == BuiltinVariables::TimeRemainingEncounter)
-        return QString("Time Remaining Encounter %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
+        return QObject::tr("Time Remaining Encounter %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
     if (builtin == BuiltinVariables::TimeRemainingExecute)
-        return QString("Time Remaining Until Execute %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
+        return QObject::tr("Time Remaining Until Execute %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
     if (builtin == BuiltinVariables::SwingTimer)
-        return QString("Time Since Mainhand Swing %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
+        return QObject::tr("Time Since Mainhand Swing %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
     if (builtin == BuiltinVariables::AutoShotTimer)
-        return QString("Time Since Auto Shot %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
+        return QObject::tr("Time Since Auto Shot %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
     if (builtin == BuiltinVariables::MeleeAP)
-        return QString("Melee Attack Power %1 %2").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 0));
+        return QObject::tr("Melee Attack Power %1 %2").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 0));
     if (builtin == BuiltinVariables::ComboPoints)
-        return QString("Combo Points %1 %2").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 0));
+        return QObject::tr("Combo Points %1 %2").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 0));
     if (builtin == BuiltinVariables::TimeRemainingGCD)
-        return QString("Time Remaining GCD %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
+        return QObject::tr("Time Remaining GCD %1 %2 seconds").arg(comparator_as_string()).arg(QString::number(rhs_value, 'f', 1));
 
     return "<builtin variable is missing condition description>";
 }

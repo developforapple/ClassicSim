@@ -1,5 +1,5 @@
 #include "ConditionResource.h"
-
+#include <QObject>
 #include "Character.h"
 #include "Utils/Check.h"
 #include "Utils/CompareDouble.h"
@@ -34,13 +34,13 @@ QString ConditionResource::condition_description() const {
 QString ConditionResource::name_for_resource() const {
     switch (resource_type) {
     case ResourceType::Energy:
-        return "Energy";
+        return QObject::tr("Energy");
     case ResourceType::Focus:
-        return "Focus";
+        return QObject::tr("Focus");
     case ResourceType::Mana:
-        return "Mana";
+        return QObject::tr("Mana");
     case ResourceType::Rage:
-        return "Rage";
+        return QObject::tr("Rage");
     }
 
     return "<unknown resource";

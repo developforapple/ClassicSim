@@ -1,5 +1,5 @@
 #include "ConditionSpell.h"
-
+#include <QObject>
 #include "Spell.h"
 #include "Utils/Check.h"
 
@@ -25,5 +25,5 @@ bool ConditionSpell::condition_fulfilled() const {
 }
 
 QString ConditionSpell::condition_description() const {
-    return QString("%1 cooldown %2 %3 seconds").arg(spell->get_name()).arg(comparator_as_string()).arg(QString::number(cmp_value, 'f', 1));
+    return QObject::tr("%1 cooldown %2 %3 seconds").arg(spell->get_name()).arg(comparator_as_string()).arg(QString::number(cmp_value, 'f', 1));
 }

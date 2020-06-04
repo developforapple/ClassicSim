@@ -6721,6 +6721,81 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <source>(6) Naxx</source>
         <translation>（6）纳克萨玛斯</translation>
     </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionBuffDuration.cpp" line="29"/>
+        <source>%1 buff remaining %2 %3 seconds</source>
+        <translation>%1 剩余时间 %2 %3 秒</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionBuffStacks.cpp" line="31"/>
+        <source>%1 buff stacks %2 %3</source>
+        <translation>%1 层数 %2 %3</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionResource.cpp" line="37"/>
+        <source>Energy</source>
+        <translation>能量</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionResource.cpp" line="39"/>
+        <source>Focus</source>
+        <translation>集中值</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionResource.cpp" line="41"/>
+        <source>Mana</source>
+        <translation>法力</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionResource.cpp" line="43"/>
+        <source>Rage</source>
+        <translation>怒气</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionSpell.cpp" line="28"/>
+        <source>%1 cooldown %2 %3 seconds</source>
+        <translation>%1 冷却时间 %2 %3 秒</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="77"/>
+        <source>Target Health %1 %2%</source>
+        <translation>目标血量 %1 %2%</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="79"/>
+        <source>Time Remaining Encounter %1 %2 seconds</source>
+        <translation>剩余时间 %1 %2 秒</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="81"/>
+        <source>Time Remaining Until Execute %1 %2 seconds</source>
+        <translation>执行前剩余时间 %1 %2 秒</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="83"/>
+        <source>Time Since Mainhand Swing %1 %2 seconds</source>
+        <translation>主手挥击后的时间 %1 %2 秒</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="85"/>
+        <source>Time Since Auto Shot %1 %2 seconds</source>
+        <translation>自动射击开始后的时间 %1 %2 秒</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="87"/>
+        <source>Melee Attack Power %1 %2</source>
+        <translation>近战攻击强度 %1 %2</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="89"/>
+        <source>Combo Points %1 %2</source>
+        <translation>连击点数 %1 %2</translation>
+    </message>
+    <message>
+        <location filename="Rotation/Conditions/ConditionVariableBuiltin.cpp" line="91"/>
+        <source>Time Remaining GCD %1 %2 seconds</source>
+        <translation>剩余公共CD时间 %1 %2 秒</translation>
+    </message>
 </context>
 <context>
     <name>RogueTR</name>

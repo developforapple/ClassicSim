@@ -1,5 +1,5 @@
 #include "ConditionBuffDuration.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "Utils/Check.h"
 
@@ -26,5 +26,5 @@ bool ConditionBuffDuration::condition_fulfilled() const {
 }
 
 QString ConditionBuffDuration::condition_description() const {
-    return QString("%1 buff remaining %2 %3 seconds").arg(buff->name).arg(comparator_as_string()).arg(QString::number(cmp_value, 'f', 1));
+    return QObject::tr("%1 buff remaining %2 %3 seconds").arg(buff->name).arg(comparator_as_string()).arg(QString::number(cmp_value, 'f', 1));
 }

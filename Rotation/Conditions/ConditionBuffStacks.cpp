@@ -1,5 +1,5 @@
 #include "ConditionBuffStacks.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "Utils/Check.h"
 
@@ -28,5 +28,5 @@ bool ConditionBuffStacks::condition_fulfilled() const {
 }
 
 QString ConditionBuffStacks::condition_description() const {
-    return QString("%1 buff stacks %2 %3").arg(buff->name).arg(comparator_as_string()).arg(cmp_value);
+    return QObject::tr("%1 buff stacks %2 %3").arg(buff->name).arg(comparator_as_string()).arg(cmp_value);
 }
