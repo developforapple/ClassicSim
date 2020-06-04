@@ -6866,6 +6866,26 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <source>+10 Spell Penetration</source>
         <translation>+10 法术穿透</translation>
     </message>
+    <message>
+        <location filename="Talent/Talent.cpp" line="117"/>
+        <source>points</source>
+        <translation>点数</translation>
+    </message>
+    <message>
+        <location filename="Talent/Talent.cpp" line="117"/>
+        <source>point</source>
+        <translation>点数</translation>
+    </message>
+    <message>
+        <location filename="Talent/Talent.cpp" line="118"/>
+        <source>Requires %1 %2 in %3</source>
+        <translation>需要%1点%3系天赋%2</translation>
+    </message>
+    <message>
+        <location filename="Talent/Talent.cpp" line="128"/>
+        <source>Requires %1 points in %2 Talents</source>
+        <translation>需要%1点%2天赋点数</translation>
+    </message>
 </context>
 <context>
     <name>RogueTR</name>

@@ -1,5 +1,5 @@
 #include "Talent.h"
-
+#include <QObject>
 #include <utility>
 
 #include <QDebug>
@@ -114,8 +114,8 @@ QString Talent::get_requirement_string() const {
     QString req_string = "";
     if (parent != nullptr && !parent->is_maxed()) {
         QString max_rank = QString::number(parent->get_max_rank());
-        QString point = parent->get_max_rank() > 1 ? "points" : "point";
-        req_string += QString("Requires %1 %2 in %3").arg(max_rank, point, parent->get_name());
+        QString point = parent->get_max_rank() > 1 ? QObject::tr("points") : QObject::tr("point");
+        req_string += QObject::tr("Requires %1 %2 in %3").arg(max_rank, point, parent->get_name());
     }
 
     int own_row = QString(position[0]).toInt();
@@ -125,7 +125,7 @@ QString Talent::get_requirement_string() const {
         if (req_string != "")
             req_string += "\n";
 
-        req_string += QString("Requires %1 points in %2 Talents").arg(QString::number(point_investment), tree->get_name());
+        req_string += QObject::tr("Requires %1 points in %2 Talents").arg(QString::number(point_investment), tree->get_name());
     }
 
     return req_string;
