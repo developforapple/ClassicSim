@@ -1,18 +1,18 @@
 #include "SanctityAura.h"
-
+#include <QObject>
 #include "CooldownControl.h"
 #include "Paladin.h"
 #include "SanctityAuraBuff.h"
 
 SanctityAura::SanctityAura(Paladin* pchar, SanctityAuraBuff* buff) :
-    Spell("Sanctity Aura",
+    Spell(QObject::tr("Sanctity Aura"),
           "Assets/spell/Spell_holy_mindvision.png",
           pchar,
           new CooldownControl(pchar, 0.0),
           RestrictedByGcd::Yes,
           ResourceType::Mana,
           0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Sanctity Aura", 1, DisabledAtZero::Yes)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Sanctity Aura"), 1, DisabledAtZero::Yes)}),
     buff(buff) {
     this->enabled = false;
 }

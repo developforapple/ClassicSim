@@ -1313,6 +1313,10 @@
         <location filename="Class/Druid/Spells/Wrath.cpp" line="142"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="21"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="151"/>
+        <location filename="Class/Paladin/Buffs/Vengeance.cpp" line="8"/>
+        <location filename="Class/Paladin/Buffs/Vengeance.cpp" line="9"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="28"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="157"/>
         <source>Vengeance</source>
         <translation>复仇</translation>
     </message>
@@ -2137,6 +2141,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="16"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="19"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="38"/>
         <source>Deflection</source>
         <translation>偏斜</translation>
     </message>
@@ -2422,9 +2428,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>唤醒</translation>
     </message>
     <message>
-        <location filename="Class/Mage/Buffs/EvocationBuff.cpp" line="9"/>
         <source>EvocationBuff:: Mana nullptr</source>
-        <translation>EvocationBuff:: Mana nullptr</translation>
+        <translation type="vanished">EvocationBuff:: Mana nullptr</translation>
     </message>
     <message>
         <location filename="Class/Mage/Buffs/IgniteBuff.cpp" line="5"/>
@@ -3032,6 +3037,550 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/TalentTrees/Frost.cpp" line="138"/>
         <source>Gives your Frost damage spells a %1% chance to apply the Winter&apos;s Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec. Stacks up to 5 times.</source>
         <translation>你的冰霜系伤害法术有%1%的几率附加深冬之寒效果，令冰霜系法术对目标造成爆击的几率提高2%，效果持续15秒，可叠加最多5次。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="21"/>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="22"/>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="23"/>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="24"/>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="25"/>
+        <location filename="Class/Paladin/Spells/Consecration.cpp" line="11"/>
+        <location filename="Class/Paladin/Spells/Consecration.cpp" line="12"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="16"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="106"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="109"/>
+        <source>Consecration</source>
+        <translation>奉献</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="27"/>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="12"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="89"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="98"/>
+        <source>Judgement</source>
+        <translation>审判</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="31"/>
+        <location filename="Class/Paladin/Spells/SanctityAura.cpp" line="8"/>
+        <location filename="Class/Paladin/Spells/SanctityAura.cpp" line="15"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="27"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="149"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="151"/>
+        <source>Sanctity Aura</source>
+        <translation>圣洁光环</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/PaladinSpells.cpp" line="38"/>
+        <source>Judgement of the Crusader</source>
+        <translation>十字军审判</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Procs/SealOfCommandProc.cpp" line="11"/>
+        <source>Seal of Command (MH)</source>
+        <translation>命令圣印（主手）</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="13"/>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="34"/>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="41"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="23"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="140"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="150"/>
+        <location filename="Class/Paladin/Spells/SealOfTheCrusader.cpp" line="19"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="16"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="84"/>
+        <source>Benediction</source>
+        <translation>祈福</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="14"/>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="36"/>
+        <location filename="Class/Paladin/Spells/Judgement.cpp" line="43"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="17"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="96"/>
+        <source>Improved Judgement</source>
+        <translation>强化审判</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="14"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="20"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="22"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="143"/>
+        <location filename="Class/Paladin/Spells/SealOfCommand.cpp" line="153"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="22"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="87"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="128"/>
+        <source>Seal of Command</source>
+        <translation>命令圣印</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/Spells/SealOfTheCrusader.cpp" line="11"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="88"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="105"/>
+        <source>Seal of the Crusader</source>
+        <translation>十字军圣印</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="9"/>
+        <source>Holy</source>
+        <translation>神圣</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="11"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="91"/>
+        <source>Divine Strength</source>
+        <translation>神圣之力</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="12"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="98"/>
+        <source>Divine Intellect</source>
+        <translation>神圣智慧</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="13"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="33"/>
+        <source>Spiritual Focus</source>
+        <translation>精神集中</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="14"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="36"/>
+        <source>Improved Seal of Righteousness</source>
+        <translation>强化正义圣印</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="15"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="41"/>
+        <source>Healing Light</source>
+        <translation>治疗之光</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="17"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="44"/>
+        <source>Improved Lay on Hands</source>
+        <translation>强化圣疗术</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="18"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="48"/>
+        <source>Unyielding Faith</source>
+        <translation>不灭信仰</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="19"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="54"/>
+        <source>Illumination</source>
+        <translation>启发</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="20"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="58"/>
+        <source>Improved Blessing of Wisdom</source>
+        <translation>强化智慧祝福</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="21"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="64"/>
+        <source>Divine Favor</source>
+        <translation>神恩术</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="22"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="67"/>
+        <source>Lasting Judgement</source>
+        <translation>持久审判</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="23"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="73"/>
+        <source>Holy Power</source>
+        <translation>神圣强化</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="24"/>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="78"/>
+        <source>Holy Shock</source>
+        <translation>神圣震击</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="34"/>
+        <source>Gives your Flash of Light and Holy Light spells a %1% chance to not lose casting time when you take damage.</source>
+        <translation>使你的圣光闪现和圣光术有%1%的几率在受到伤害时不会延长施法时间。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="37"/>
+        <source>Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by %1%.</source>
+        <translation>使你的正义圣印和正义审判所能造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="42"/>
+        <source>Increases the amount of healed by your Holy Light and Flash of Light spells by %1%.</source>
+        <translation>使你的圣光术和圣光闪现的治疗效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="45"/>
+        <source>Gives the target of your Lay on Hands spell a %1% bonus to their armor value from items for 2 min. In addition, the cooldown for your Lay on Hands spell is reduced by %2 min.</source>
+        <translation>你的圣疗术治疗的目标因装备而获得的护甲值提高%1%，持续2分钟。另外，圣疗术的冷却时间减少%2分钟。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="49"/>
+        <source>Increases your chance to resist Fear and Disorient effects by an additional %1%.</source>
+        <translation>使你抵抗恐惧和困惑效果的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="55"/>
+        <source>After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a %1% chance to gain Mana equal to the base cost of the spell.</source>
+        <translation>在你的圣光闪现、圣光术或神圣震击造成极效治疗或爆击效果后，使你有%1%的几率回复施法所消耗的法力值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="59"/>
+        <source>Increases the effect of your Blessing of Wisdom spell by %1%.</source>
+        <translation>使你的智慧祝福的效果提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="65"/>
+        <source>When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance.</source>
+        <translation>激活之后，使你的下一个圣光闪现、圣光术或神圣震击有100%的几率造成极效治疗效果。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="68"/>
+        <source>Increases the duration of your Judgement of Light and Judgement of Wisdom by %1 sec.</source>
+        <translation>使你的光明审判和智慧审判的效果持续时间延长%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="74"/>
+        <source>Increases the critical effect chance of your Holy spells by %1%.</source>
+        <translation>使你的神圣法术造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="79"/>
+        <source>Blast the target with Holy energy, causing 204 to 221 Holy damage to an enemy, or 204 to 221 healing to an ally.</source>
+        <translation>以神圣的能量冲击目标，造成204到221点神圣伤害，或为盟友恢复204到221点生命值。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="92"/>
+        <source>Increases your Strength by %1%.</source>
+        <translation>使你的力量提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="99"/>
+        <source>Increases your total Intellect by %1%.</source>
+        <translation>使你的智力值上限提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="107"/>
+        <source>Consecrates the land beneath Paladin, doing 64 Holy damage over 8 sec to enemies who enter the area.</source>
+        <translation>将圣洁的能量灌入圣骑士脚下的土地，在8秒内对进入该区域的所有敌人造成64点神圣伤害。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="8"/>
+        <source>Protection</source>
+        <translation>防护</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="10"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="27"/>
+        <source>Improved Devotion Aura</source>
+        <translation>强化虔诚光环</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="11"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="30"/>
+        <source>Redoubt</source>
+        <translation>盾牌壁垒</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="12"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="97"/>
+        <source>Precision</source>
+        <translation>精确</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="13"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="36"/>
+        <source>Guardian&apos;s Favor</source>
+        <translation>守护者的宠爱</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="14"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="40"/>
+        <source>Toughness</source>
+        <translation>坚韧</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="15"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="45"/>
+        <source>Blessing of Kings</source>
+        <translation>王者祝福</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="16"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="49"/>
+        <source>Improved Righteous Fury</source>
+        <translation>强化正义之怒</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="17"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="52"/>
+        <source>Shield Specialization</source>
+        <translation>盾牌专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="18"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="55"/>
+        <source>Anticipation</source>
+        <translation>预知</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="19"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="59"/>
+        <source>Improved Hammer of Justice</source>
+        <translation>强化制裁之锤</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="20"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="62"/>
+        <source>Improved Concentration Aura</source>
+        <translation>强化专注光环</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="21"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="68"/>
+        <source>Blessing of Sanctuary</source>
+        <translation>庇护祝福</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="22"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="73"/>
+        <source>Reckoning</source>
+        <translation>清算</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="23"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="105"/>
+        <source>One-Handed Weapon Specialization</source>
+        <translation>单手武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="24"/>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="83"/>
+        <source>Holy Shield</source>
+        <translation>神圣之盾</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="28"/>
+        <source>Increases the armor bonus of your Devotion Aura by %1%.</source>
+        <translation>使你的虔诚光环提供额外护甲值的效果增强%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="31"/>
+        <source>Increases your chance to block attacks with your shield by %1% after being the victim of a critical strike. Lasts 10 sec or 5 blocks.</source>
+        <translation>使你在遭受爆击之后使用盾牌格挡攻击的几率提高%1%。持续10秒或格挡5次攻击。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="37"/>
+        <source>Reduces the cooldown of your Blessing of Protection by %1 sec and increases the duration of your Blessing of Freedom by %2 sec.</source>
+        <translation>使你的保护祝福的冷却时间减少%1秒，自由祝福的效果持续时间延长%2秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="41"/>
+        <source>Increases the armor value from items by %1%</source>
+        <translation>使你因装备而获得的护甲值提高%1%</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="46"/>
+        <source>Places a Blessing on the friendly target, increasing total stats by 10% for 5 min. Players may only have one Blessing on them per Paladin at any one time.</source>
+        <translation>为友方目标施加祝福，使其所有属性提高10%，持续5分钟。每个圣骑士在同一时间内只能给目标施加一种祝福，同类型的祝福不能重叠。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="50"/>
+        <source>Increases the amount of threat generated by your Righteous Fury spell by %1%.</source>
+        <translation>使你的正义之怒所产生的威胁值提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="53"/>
+        <source>Increases the amount of damage absorbed by your shield by %1%.</source>
+        <translation>使你的盾牌所能吸收的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="56"/>
+        <source>Increases your Defense skill by %1.</source>
+        <translation>使你的防御技能提高%1点。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="60"/>
+        <source>Decreases the cooldown of your Hammer of Justice spell by %1 sec.</source>
+        <translation>使你的制裁之锤的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="63"/>
+        <source>Increases the effect of your Concentration Aura by an additional %1% and gives all group members affected by the aura an additional %2% chance to resist Silence and Interrupt effects.</source>
+        <translation>使你的专注光环的效果提高%1%，所有受到光环影响的队友抵抗沉默和打断效果的几率提高%2%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="69"/>
+        <source>Places a Blessing on the friendly target, reducing damage dealt from all sources by up to 10 for 5 min. In addition, when the target blocks a melee attack the attacker will take 14 Holy damage. Players may only have one Blessing on them per Paladin at any one time.</source>
+        <translation>为友方目标施加祝福，使其所受到的所有类型的伤害都减少最多10点，持续5分钟。另外，当目标格挡一次近战攻击时，攻击者会受到14点神圣伤害。每个圣骑士在同一时间内只能给目标施加一种祝福，同类型的祝福不能重叠。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="74"/>
+        <source>Gives you a %1% chance to gain an extra attack after being the victim of a critical strike.</source>
+        <translation>使你在遭受爆击之后有%1%的几率获得一次额外的攻击机会。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="84"/>
+        <source>Increases chance to block by 30% for 10 sec, and deals 65 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges.</source>
+        <translation>使你的格挡几率提高30%，持续10秒。在此期间每次成功格挡都会对攻击者造成65点神圣伤害，这种伤害所造成的威胁值提高20%。每次成功格挡会消耗掉一次格挡机会，最多可格挡4次。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="98"/>
+        <source>Increases your chance to hit with melee weapons by %1%.</source>
+        <translation>使你的近战武器击中目标的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="106"/>
+        <source>Increases the damage you deal with One-Handed Melee weapons by %1%.</source>
+        <translation>使你的单手近战武器所能造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="13"/>
+        <source>Retribution</source>
+        <translation>惩戒</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="15"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="33"/>
+        <source>Improved Blessing of Might</source>
+        <translation>强化力量祝福</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="18"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="110"/>
+        <source>Improved Seal of the Crusader</source>
+        <translation>强化十字军圣印</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="20"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="45"/>
+        <source>Vindication</source>
+        <translation>辩护</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="21"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="119"/>
+        <source>Conviction</source>
+        <translation>定罪</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="23"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="48"/>
+        <source>Pursuit of Justice</source>
+        <translation>正义追击</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="24"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="55"/>
+        <source>Eye for an Eye</source>
+        <translation>以眼还眼</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="25"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="59"/>
+        <source>Improved Retribution Aura</source>
+        <translation>强化惩罚光环</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="26"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="139"/>
+        <source>Two-Handed Weapon Specialization</source>
+        <translation>双手武器专精</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="29"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="73"/>
+        <source>Repentance</source>
+        <translation>忏悔</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="34"/>
+        <source>Increases the melee attack power bonus of your Blessing of Might by %1%.</source>
+        <translation>使你的力量祝福所提供的近战攻击强度加成提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="39"/>
+        <source>Increases your Parry chance by %1%</source>
+        <translation>使你的招架几率提高%1%</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="46"/>
+        <source>Gives the Paladin&apos;s damaging melee attacks a chance to reduce the target&apos;s Strength and Agility by %1% for 10 sec.</source>
+        <translation>使圣骑士的近战攻击有一定的几率令目标的力量和敏捷降低%1%，持续10秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="49"/>
+        <source>Increases movement and mounted movement speed by %1%. This does not stack with other movement speed increasing effects.</source>
+        <translation>使你的移动速度和坐骑移动速度提高%1%。这个效果不与其它同类效果叠加。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="56"/>
+        <source>All spell criticals against you cause %1% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin&apos;s total health.</source>
+        <translation>所有对你造成爆击的法术都会对其施法者造成%1%的伤害，但最大数值不会超过圣骑士生命值总量的50%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="60"/>
+        <source>Increases the damage done by your Retribution Aura by %1%.</source>
+        <translation>使你的惩戒光环所能造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="74"/>
+        <source>Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids.</source>
+        <translation>使目标进入冥想状态，最多持续6秒。任何伤害都会唤醒目标。只对人型生物有效。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="85"/>
+        <source>Reduces the Mana cost of your Judgement and Seal spells by %1%.</source>
+        <translation>使你的审判和圣印所消耗的法力值减少%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="97"/>
+        <source>Decreases the cooldown of your Judgement spell by %1 sec.</source>
+        <translation>使你的审判法术的冷却时间减少%1秒。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="111"/>
+        <source>Increases the melee attack power bonus of your Seal of the Crusader and the Holy damage increase of your Judgement of the Crusader by %1%.</source>
+        <translation>使你的十字军圣印的近战攻击强度加成和十字军审判所能造成的神圣伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="120"/>
+        <source>Increases your chance to get a critical strike with melee weapons by %1%.</source>
+        <translation>使你用近战武器对敌人造成爆击的几率提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="129"/>
+        <source>Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec.
+
+Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 to 55.5 Holy damage, 93 to 102 if the target is stunned or incapacitated.</source>
+        <translation>使圣骑士在攻击时有一定几率对目标造成与攻击伤害的70%等量的神圣伤害。圣骑士在同一时间内只能激活一种圣印。持续30秒。
+
+释放这种圣印的能量将对目标造成审判效果，对其立刻造成46.5到55.5点神圣伤害，若目标昏迷或瘫痪则造成93到102点神圣伤害。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="140"/>
+        <source>Increases the damage you deal with two-handed melee weapons by %1%.</source>
+        <translation>使你的双手近战武器造成的伤害提高%1%。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="150"/>
+        <source>Increases Holy damage done by party members within 30 yards by 10%. Players may only have one Aura on them per Paladin at any one time.</source>
+        <translation>使半径30码范围内的队友的神圣系攻击对敌人造成的伤害提高10%。每个圣骑士在同一时间内只能开启一种光环，且同类光环的效果无法叠加。</translation>
+    </message>
+    <message>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="158"/>
+        <source>Gives you a %1% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.</source>
+        <translation>使你的武器攻击、法术或技能在对敌人造成爆击之后有%1%的物理和神圣伤害加成，持续8秒。</translation>
     </message>
 </context>
 <context>

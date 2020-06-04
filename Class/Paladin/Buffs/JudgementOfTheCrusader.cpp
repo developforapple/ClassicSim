@@ -1,5 +1,5 @@
 #include "JudgementOfTheCrusader.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "Paladin.h"
@@ -8,8 +8,8 @@
 #include "Utils/Check.h"
 
 JudgementOfTheCrusader::JudgementOfTheCrusader(Paladin* pchar) :
-    SharedDebuff(pchar, "Judgement of the Crusader", "Assets/spell/Spell_holy_holysmite.png", Priority::Mid, 10, 0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Seal of the Crusader", 3, DisabledAtZero::No)}),
+    SharedDebuff(pchar, QObject::tr("Judgement of the Crusader"), "Assets/spell/Spell_holy_holysmite.png", Priority::Mid, 10, 0),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Seal of the Crusader"), 3, DisabledAtZero::No)}),
     ItemModificationRequirer({16471, 23274, 23203}) {}
 
 void JudgementOfTheCrusader::buff_effect_when_applied() {

@@ -1,12 +1,12 @@
 #include "Vengeance.h"
-
+#include <QObject>
 #include "CharacterSpells.h"
 #include "CharacterStats.h"
 #include "Paladin.h"
 
 Vengeance::Vengeance(Paladin* paladin) :
-    SelfBuff(paladin, "Vengeance", "Assets/ability/Ability_racial_avatar.png", 8, 0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Vengeance", 5, DisabledAtZero::Yes)}),
+    SelfBuff(paladin, QObject::tr("Vengeance"), "Assets/ability/Ability_racial_avatar.png", 8, 0),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Vengeance"), 5, DisabledAtZero::Yes)}),
     paladin(paladin),
     dmg_bonuses({0, 3, 6, 9, 12, 15}) {
     enabled = false;

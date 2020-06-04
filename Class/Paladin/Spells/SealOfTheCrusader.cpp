@@ -1,5 +1,5 @@
 #include "SealOfTheCrusader.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "CombatRoll.h"
 #include "JudgementOfTheCrusader.h"
@@ -8,7 +8,7 @@
 #include "Utils/Check.h"
 
 SealOfTheCrusader::SealOfTheCrusader(Paladin* pchar, JudgementOfTheCrusader* judge_debuff) :
-    PaladinSeal("Seal of the Crusader",
+    PaladinSeal(QObject::tr("Seal of the Crusader"),
                 "Assets/spell/Spell_holy_holysmite.png",
                 pchar,
                 RestrictedByGcd::Yes,
@@ -16,7 +16,7 @@ SealOfTheCrusader::SealOfTheCrusader(Paladin* pchar, JudgementOfTheCrusader* jud
                 160,
                 new SealOfTheCrusaderBuff(pchar),
                 judge_debuff),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Benediction", 5, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Benediction"), 5, DisabledAtZero::No)}),
     ItemModificationRequirer({22401, 23203}) {}
 
 SealOfTheCrusader::~SealOfTheCrusader() {}

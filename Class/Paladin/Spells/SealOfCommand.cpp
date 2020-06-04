@@ -1,5 +1,5 @@
 #include "SealOfCommand.h"
-
+#include <QObject>
 #include "CharacterStats.h"
 #include "CombatRoll.h"
 #include "EnabledProcs.h"
@@ -11,16 +11,16 @@
 #include "Utils/Check.h"
 
 SealOfCommand::SealOfCommand(Paladin* paladin, PaladinSpells* paladin_spells) :
-    PaladinSeal("Seal of Command",
+    PaladinSeal(QObject::tr("Seal of Command"),
                 "Assets/ability/Ability_warrior_innerrage.png",
                 paladin,
                 RestrictedByGcd::Yes,
                 ResourceType::Mana,
                 65,
-                new NoEffectSelfBuff(paladin, 30, "Seal of Command", "Assets/ability/Ability_warrior_innerrage.png", Hidden::No),
+                new NoEffectSelfBuff(paladin, 30, QObject::tr("Seal of Command"), "Assets/ability/Ability_warrior_innerrage.png", Hidden::No),
                 nullptr),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Seal of Command", 1, DisabledAtZero::Yes),
-                                                 new TalentRequirerInfo("Benediction", 5, DisabledAtZero::No)}),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Seal of Command"), 1, DisabledAtZero::Yes),
+                                                 new TalentRequirerInfo(QObject::tr("Benediction"), 5, DisabledAtZero::No)}),
     paladin_spells(paladin_spells),
     proc(new SealOfCommandProc(paladin, this)) {
     this->random = new Random(base_min_dmg, base_max_dmg);
@@ -137,20 +137,20 @@ void SealOfCommand::reset_effect() {
 }
 
 void SealOfCommand::increase_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Benediction")
+    if (talent_name == QObject::tr("Benediction"))
         resource_cost = static_cast<unsigned>(round(base_mana_cost * benediction_ranks[curr]));
 
-    if (talent_name == "Seal of Command") {
+    if (talent_name == QObject::tr("Seal of Command")) {
         seal->enable_buff();
         proc->enable();
     }
 }
 
 void SealOfCommand::decrease_talent_rank_effect(const QString& talent_name, const int curr) {
-    if (talent_name == "Benediction")
+    if (talent_name == QObject::tr("Benediction"))
         resource_cost = static_cast<unsigned>(round(base_mana_cost * benediction_ranks[curr]));
 
-    if (talent_name == "Seal of Command") {
+    if (talent_name == QObject::tr("Seal of Command")) {
         seal->disable_buff();
         proc->disable();
     }

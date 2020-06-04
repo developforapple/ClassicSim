@@ -1,5 +1,5 @@
 #include "Consecration.h"
-
+#include <QObject>
 #include "Buff.h"
 #include "CharacterStats.h"
 #include "CooldownControl.h"
@@ -8,8 +8,8 @@
 #include "Utils/Check.h"
 
 Consecration::Consecration(Paladin* pchar, CooldownControl* cooldown_control, const int spell_rank) :
-    Spell("Consecration", "Assets/spell/Spell_holy_innerfire.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Mana, 0, spell_rank),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Consecration", 1, DisabledAtZero::Yes)}) {
+    Spell(QObject::tr("Consecration"), "Assets/spell/Spell_holy_innerfire.png", pchar, cooldown_control, RestrictedByGcd::Yes, ResourceType::Mana, 0, spell_rank),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Consecration"), 1, DisabledAtZero::Yes)}) {
     this->enabled = false;
 
     unsigned full_duration_dmg = 0;
@@ -38,10 +38,10 @@ Consecration::Consecration(Paladin* pchar, CooldownControl* cooldown_control, co
         check(false, QString("%1 does not support rank %2").arg(name).arg(spell_rank).toStdString());
     }
 
-    cons_dot_1 = new PeriodicDamageSpell(QString("Consecration 1 (rank %1)").arg(spell_rank), "Assets/spell/Spell_holy_innerfire.png", pchar,
+    cons_dot_1 = new PeriodicDamageSpell(QObject::tr("Consecration 1 (rank %1)").arg(spell_rank), "Assets/spell/Spell_holy_innerfire.png", pchar,
                                          Priority::Low, RestrictedByGcd::No, MagicSchool::Holy, 2.0, 8, full_duration_dmg, resource_cost,
                                          pchar->global_cooldown(), 0.33);
-    cons_dot_2 = new PeriodicDamageSpell(QString("Consecration 2 (rank %1)").arg(spell_rank), "Assets/spell/Spell_holy_innerfire.png", pchar,
+    cons_dot_2 = new PeriodicDamageSpell(QObject::tr("Consecration 2 (rank %1)").arg(spell_rank), "Assets/spell/Spell_holy_innerfire.png", pchar,
                                          Priority::Low, RestrictedByGcd::No, MagicSchool::Holy, 2.0, 8, full_duration_dmg, resource_cost,
                                          pchar->global_cooldown(), 0.33);
 

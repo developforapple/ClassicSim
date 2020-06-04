@@ -1,5 +1,5 @@
 #include "SealOfCommandProc.h"
-
+#include <QObject>
 #include "Engine.h"
 #include "ItemNamespace.h"
 #include "ProcInfo.h"
@@ -8,7 +8,7 @@
 #include "Utils/Check.h"
 
 SealOfCommandProc::SealOfCommandProc(Character* pchar, SealOfCommand* seal) :
-    ProcPPM("Seal of Command (MH)",
+    ProcPPM(QObject::tr("Seal of Command (MH)"),
             "Assets/ability/Ability_warrior_innerrage.png",
             EnchantSlot::MAINHAND,
             7.0,

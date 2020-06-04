@@ -1,5 +1,5 @@
 #include "SealOfTheCrusaderBuff.h"
-
+#include <QObject>
 #include <cmath>
 
 #include "CharacterSpells.h"
@@ -10,8 +10,8 @@
 #include "Utils/Check.h"
 
 SealOfTheCrusaderBuff::SealOfTheCrusaderBuff(Paladin* paladin) :
-    SelfBuff(paladin, "Seal of the Crusader", "Assets/spell/Spell_holy_holysmite.png", 30, 0),
-    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo("Improved Seal of the Crusader", 3, DisabledAtZero::No)}),
+    SelfBuff(paladin, QObject::tr("Seal of the Crusader"), "Assets/spell/Spell_holy_holysmite.png", 30, 0),
+    TalentRequirer(QVector<TalentRequirerInfo*> {new TalentRequirerInfo(QObject::tr("Improved Seal of the Crusader"), 3, DisabledAtZero::No)}),
     ItemModificationRequirer({22401, 23203}),
     paladin(paladin) {}
 
