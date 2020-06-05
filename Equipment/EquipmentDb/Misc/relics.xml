@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="22401" phase="5">
-		<info name="Libram of Hope" type="RANGED" slot="RELIC" unique="yes" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_relics_libramofhope.png"/>
+		<info name="Libram of Hope" name_zh="希望圣物" type="RANGED" slot="RELIC" unique="yes" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_relics_libramofhope.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats/>
 		<source>
@@ -16,7 +16,7 @@
 	</item>
 
 	<item id="23203" phase="6">
-		<info name="Libram of Fervor" type="RANGED" slot="RELIC" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_relics_libramoftruth.png"/>
+		<info name="Libram of Fervor" name_zh="热情圣契" type="RANGED" slot="RELIC" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_relics_libramoftruth.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats/>
 		<source>
@@ -31,7 +31,7 @@
 	</item>
 
 	<item id="23197" phase="6">
-		<info name="Idol of the Moon" type="RANGED" slot="RELIC" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_relics_idolofrejuvenation.png"/>
+		<info name="Idol of the Moon" name_zh="月亮神像" type="RANGED" slot="RELIC" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_relics_idolofrejuvenation.png"/>
 		<class_restriction class="DRUID"/>
 		<stats/>
 		<source>
@@ -44,7 +44,7 @@
 	</item>
 
 	<item id="23199" phase="6">
-		<info name="Totem of the Storm" type="RANGED" slot="RELIC" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_relics_totemofrage.png"/>
+		<info name="Totem of the Storm" name_zh="风暴图腾" type="RANGED" slot="RELIC" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_relics_totemofrage.png"/>
 		<class_restriction class="SHAMAN"/>
 		<stats/>
 		<source>

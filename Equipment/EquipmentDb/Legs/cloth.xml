@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="14632" phase="1">
-		<info name="Necropile Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Necropile Leggings" name_zh="骨堆护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="76"/>
 			<stat type="INTELLECT" value="18"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="13170" phase="1">
-		<info name="Skyshroud Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_pants_13.png"/>
+		<info name="Skyshroud Leggings" name_zh="天空护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_pants_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="75"/>
 			<stat type="INTELLECT" value="8"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="16687" phase="1">
-		<info name="Magister's Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+		<info name="Magister's Leggings" name_zh="博学者护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="76"/>
 			<stat type="SPIRIT" value="21"/>
@@ -40,7 +40,7 @@
 	</item>
 
 	<item id="13389" phase="1">
-		<info name="The Postmaster's Trousers" type="CLOTH" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+		<info name="The Postmaster's Trousers" name_zh="邮差长裤" type="CLOTH" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="76"/>
 			<stat type="STAMINA" value="12"/>
@@ -53,7 +53,7 @@
 	</item>
 
 	<item id="12965" phase="1">
-		<info name="Spiritshroud Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+		<info name="Spiritshroud Leggings" name_zh="裹灵护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="78"/>
 			<stat type="SPIRIT" value="16"/>
@@ -67,7 +67,7 @@
 	</item>
 
 	<item id="16796" phase="1">
-		<info name="Arcanist Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Arcanist Leggings" name_zh="奥术师护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="89"/>
@@ -84,7 +84,7 @@
 	</item>
 
 	<item id="16915" phase="1">
-		<info name="Netherwind Pants" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Netherwind Pants" name_zh="灵风短裤" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="101"/>
@@ -102,7 +102,7 @@
 	</item>
 
 	<item id="16930" phase="1">
-		<info name="Nemesis Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_07.png"/>
+		<info name="Nemesis Leggings" name_zh="复仇护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_07.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="101"/>
@@ -119,7 +119,7 @@
 	</item>
 
 	<item id="18872" phase="1">
-		<info name="Manastorm Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="63" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Manastorm Leggings" name_zh="法力风暴护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="63" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="85"/>
 			<stat type="STAMINA" value="19"/>
@@ -132,7 +132,7 @@
 	</item>
 
 	<item id="23304" phase="2">
-		<info name="Knight-Captain's Silk Legguards" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_pants_11.png"/>
+		<info name="Knight-Captain's Silk Legguards" name_zh="骑士队长的丝质裹腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_pants_11.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="144"/>
@@ -148,7 +148,7 @@
 	</item>
 
 	<item id="22883" phase="2">
-		<info name="Legionnaire's Silk Legguards" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_pants_11.png"/>
+		<info name="Legionnaire's Silk Legguards" name_zh="军团士兵的丝质护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_pants_11.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="144"/>
@@ -164,7 +164,7 @@
 	</item>
 
 	<item id="18545" phase="2">
-		<info name="Leggings of Arcane Supremacy" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Leggings of Arcane Supremacy" name_zh="无上奥法护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="93"/>
 			<stat type="INTELLECT" value="24"/>
@@ -179,7 +179,7 @@
 	</item>
 
 	<item id="19165" phase="2">
-		<info name="Flarecore Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="yes" icon="Inv_pants_06.png"/>
+		<info name="Flarecore Leggings" name_zh="光芒护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="yes" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="94"/>
 			<stat type="STAMINA" value="21"/>
@@ -192,7 +192,7 @@
 	</item>
 
 	<item id="16534" phase="2">
-		<info name="General's Silk Trousers" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_07.png"/>
+		<info name="General's Silk Trousers" name_zh="将军的丝质长裤" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_07.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="155"/>
@@ -208,7 +208,7 @@
 	</item>
 
 	<item id="16442" phase="2">
-		<info name="Marshal's Silk Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Marshal's Silk Leggings" name_zh="统帅的丝质护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_08.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="155"/>
@@ -224,7 +224,7 @@
 	</item>
 
 	<item id="19133" phase="2">
-		<info name="Fel Infused Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_pants_06.png"/>
+		<info name="Fel Infused Leggings" name_zh="魔能护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="95"/>
 			<stat type="STAMINA" value="21"/>
@@ -236,7 +236,7 @@
 	</item>
 
 	<item id="20538" phase="4">
-		<info name="Runed Stygian Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_pants_cloth_05.png"/>
+		<info name="Runed Stygian Leggings" name_zh="符文冥河护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_pants_cloth_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="78"/>
 			<stat type="STAMINA" value="13"/>
@@ -249,7 +249,7 @@
 	</item>
 
 	<item id="19895" phase="4">
-		<info name="Bloodtinged Kilt" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_pants_cloth_14.png"/>
+		<info name="Bloodtinged Kilt" name_zh="淡血褶裙" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_pants_cloth_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
 			<stat type="INTELLECT" value="20"/>
@@ -262,7 +262,7 @@
 	</item>
 
 	<item id="19683" phase="4">
-		<info name="Bloodvine Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_pants_cloth_14.png"/>
+		<info name="Bloodvine Leggings" name_zh="血藤护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_pants_cloth_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="80"/>
 			<stat type="INTELLECT" value="6"/>
@@ -275,7 +275,7 @@
 	</item>
 
 	<item id="22747" phase="4">
-		<info name="Outrider's Silk Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_cloth_05.png"/>
+		<info name="Outrider's Silk Leggings" name_zh="护卫的丝质护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_cloth_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="188"/>
 			<stat type="STAMINA" value="23"/>
@@ -289,7 +289,7 @@
 	</item>
 
 	<item id="22752" phase="4">
-		<info name="Sentinel's Silk Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_cloth_05.png"/>
+		<info name="Sentinel's Silk Leggings" name_zh="哨兵的丝质护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_cloth_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="188"/>
 			<stat type="STAMINA" value="23"/>
@@ -303,7 +303,7 @@
 	</item>
 
 	<item id="22342" phase="5">
-		<info name="Leggings of Torment" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_09.png"/>
+		<info name="Leggings of Torment" name_zh="折磨护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_09.png"/>
 		<stats>
 			<stat type="ARMOR" value="78"/>
 			<stat type="STAMINA" value="16"/>
@@ -316,7 +316,7 @@
 	</item>
 
 	<item id="20705" phase="5">
-		<info name="Cenarion Reservist's Pants" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_cloth_06.png"/>
+		<info name="Cenarion Reservist's Pants" name_zh="塞纳里奥预备兵短裤" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_cloth_06.png"/>
 		<mutex item_id="20716"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="WARLOCK"/>
@@ -332,7 +332,7 @@
 	</item>
 
 	<item id="22067" phase="5">
-		<info name="Sorcerer's Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="66" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+		<info name="Sorcerer's Leggings" name_zh="巫师护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="58" item_lvl="66" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="81"/>
@@ -347,7 +347,7 @@
 	</item>
 
 	<item id="21676" phase="5">
-		<info name="Leggings of the Festering Swarm" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_cloth_02.png"/>
+		<info name="Leggings of the Festering Swarm" name_zh="腐烂虫群护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_cloth_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="101"/>
 			<stat type="INTELLECT" value="23"/>
@@ -360,7 +360,7 @@
 	</item>
 
 	<item id="21461" phase="5">
-		<info name="Leggings of the Black Blizzard" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_pants_cloth_06.png"/>
+		<info name="Leggings of the Black Blizzard" name_zh="黑色暴风雪护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_pants_cloth_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="97"/>
 			<stat type="INTELLECT" value="16"/>
@@ -375,7 +375,7 @@
 	</item>
 
 	<item id="21346" phase="5">
-		<info name="Enigma Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_cloth_08.png"/>
+		<info name="Enigma Leggings" name_zh="神秘护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_cloth_08.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="107"/>
@@ -392,7 +392,7 @@
 	</item>
 
 	<item id="22700" phase="6">
-		<info name="Glacial Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="80" quality="EPIC" boe="no" icon="Inv_pants_06.png"/>
+		<info name="Glacial Leggings" name_zh="冰川护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="80" quality="EPIC" boe="no" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="106"/>
 			<stat type="STAMINA" value="28"/>
@@ -405,7 +405,7 @@
 	</item>
 
 	<item id="23070" phase="6">
-		<info name="Leggings of Polarity" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
+		<info name="Leggings of Polarity" name_zh="极性护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_pants_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="112"/>
 			<stat type="STAMINA" value="20"/>
@@ -419,7 +419,7 @@
 	</item>
 
 	<item id="22497" phase="6">
-		<info name="Frostfire Leggings" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_pants_cloth_05.png"/>
+		<info name="Frostfire Leggings" name_zh="霜火护腿" type="CLOTH" slot="LEGS" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_pants_cloth_05.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="116"/>

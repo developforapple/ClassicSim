@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="16680" phase="1">
-		<info name="Beaststalker's Belt" type="MAIL" slot="BELT" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_belt_28.png"/>
+		<info name="Beaststalker's Belt" name_zh="野兽追猎者腰带" type="MAIL" slot="BELT" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_belt_28.png"/>
 		<stats>
 			<stat type="ARMOR" value="193"/>
 			<stat type="SPIRIT" value="11"/>
@@ -16,7 +16,7 @@
 	</item>
 
 	<item id="16851" phase="1">
-		<info name="Giantstalker's Belt" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_belt_28.png"/>
+		<info name="Giantstalker's Belt" name_zh="巨人追猎者腰带" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_belt_28.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="237"/>
@@ -33,7 +33,7 @@
 	</item>
 
 	<item id="18393" phase="2">
-		<info name="Warpwood Binding" type="MAIL" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_34.png"/>
+		<info name="Warpwood Binding" name_zh="扭木腰带" type="MAIL" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_34.png"/>
 		<stats>
 			<stat type="ARMOR" value="202"/>
 			<stat type="AGILITY" value="14"/>
@@ -47,7 +47,7 @@
 	</item>
 
 	<item id="16936" phase="3">
-		<info name="Dragonstalker's Belt" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_28.png"/>
+		<info name="Dragonstalker's Belt" name_zh="巨龙追猎者腰带" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_28.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="271"/>
@@ -64,7 +64,7 @@
 	</item>
 
 	<item id="19380" phase="3">
-		<info name="Therazane's Link" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_belt_18.png"/>
+		<info name="Therazane's Link" name_zh="塞拉赞恩之链" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_belt_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="295"/>
 			<stat type="INTELLECT" value="12"/>
@@ -83,7 +83,7 @@
 	</item>
 
 	<item id="20150" phase="4">
-		<info name="Defiler's Chain Girdle" type="MAIL" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_20.png"/>
+		<info name="Defiler's Chain Girdle" name_zh="污染者的链甲束带" type="MAIL" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_20.png"/>
 		<class_restriction class="HUNTER"/>
 		<class_restriction class="SHAMAN"/>
 		<stats>
@@ -98,7 +98,7 @@
 	</item>
 
 	<item id="20043" phase="4">
-		<info name="Highlander's Chain Girdle" type="MAIL" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_20.png"/>
+		<info name="Highlander's Chain Girdle" name_zh="高地链甲束带" type="MAIL" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_20.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="208"/>
@@ -112,7 +112,7 @@
 	</item>
 
 	<item id="19832" phase="4">
-		<info name="Zandalar Predator's Belt" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="61" quality="EPIC" boe="no" icon="Inv_belt_19.png"/>
+		<info name="Zandalar Predator's Belt" name_zh="赞达拉捕猎者腰带" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="61" quality="EPIC" boe="no" icon="Inv_belt_19.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="221"/>
@@ -128,7 +128,7 @@
 	</item>
 
 	<item id="21463" phase="5">
-		<info name="Ossirian's Binding" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_belt_18.png"/>
+		<info name="Ossirian's Binding" name_zh="奥斯里安的束缚" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_belt_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="258"/>
 			<stat type="AGILITY" value="20"/>
@@ -143,7 +143,7 @@
 	</item>
 
 	<item id="14614" phase="5">
-		<info name="Bloodmail Belt" type="MAIL" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_23.png"/>
+		<info name="Bloodmail Belt" name_zh="血链腰带" type="MAIL" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="202"/>
 			<stat type="STAMINA" value="11"/>
@@ -157,7 +157,7 @@
 	</item>
 
 	<item id="22010" phase="5">
-		<info name="Beastmaster's Belt" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_belt_28.png"/>
+		<info name="Beastmaster's Belt" name_zh="兽王腰带" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_belt_28.png"/>
 		<stats>
 			<stat type="ARMOR" value="214"/>
 			<stat type="AGILITY" value="16"/>
@@ -170,7 +170,7 @@
 	</item>
 
 	<item id="22207" phase="5">
-		<info name="Sash of the Grand Hunt" type="MAIL" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_28.png"/>
+		<info name="Sash of the Grand Hunt" name_zh="追猎腰带" type="MAIL" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_28.png"/>
 		<stats>
 			<stat type="ARMOR" value="199"/>
 			<stat type="AGILITY" value="15"/>
@@ -186,7 +186,7 @@
 	</item>
 
 	<item id="22195" phase="5">
-		<info name="Light Obsidian Belt" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="yes" icon="Inv_belt_16.png"/>
+		<info name="Light Obsidian Belt" name_zh="轻型黑曜石腰带" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="yes" icon="Inv_belt_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="224"/>
 			<stat type="ATTACK_POWER" value="32"/>
@@ -199,7 +199,7 @@
 	</item>
 
 	<item id="22232" phase="5">
-		<info name="Marksman's Girdle" type="MAIL" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_18.png"/>
+		<info name="Marksman's Girdle" name_zh="神射手束带" type="MAIL" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="202"/>
 			<stat type="AGILITY" value="21"/>
@@ -211,7 +211,7 @@
 	</item>
 
 	<item id="22442" phase="6">
-		<info name="Crypstalker Girdle" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_22.png"/>
+		<info name="Crypstalker Girdle" name_zh="地穴追猎者束带" type="MAIL" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_22.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="311"/>

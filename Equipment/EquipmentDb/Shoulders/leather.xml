@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="12082" phase="1">
-		<info name="Wyrmhide Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="58" quality="UNCOMMON" boe="no" icon="Inv_shoulder_16.png"/>
+		<info name="Wyrmhide Spaulders" name_zh="龙皮肩铠" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="58" quality="UNCOMMON" boe="no" icon="Inv_shoulder_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="113"/>
 			<stat type="HIT_CHANCE" value="0.02"/>
@@ -12,7 +12,7 @@
 	</item>
 
 	<item id="12927" phase="1">
-		<info name="Truestrike Shoulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_10.png"/>
+		<info name="Truestrike Shoulders" name_zh="强击护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="129"/>
 			<stat type="HIT_CHANCE" value="0.02"/>
@@ -24,7 +24,7 @@
 	</item>
 
 	<item id="13358" phase="1">
-		<info name="Wyrmtongue Shoulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_shoulder_24.png"/>
+		<info name="Wyrmtongue Shoulders" name_zh="巨龙之舌" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_shoulder_24.png"/>
 		<stats>
 			<stat type="ARMOR" value="132"/>
 			<stat type="AGILITY" value="23"/>
@@ -36,7 +36,7 @@
 	</item>
 
 	<item id="16708" phase="1">
-		<info name="Shadowcraft Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_07.png"/>
+		<info name="Shadowcraft Spaulders" name_zh="迅影肩甲" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="127"/>
 			<stat type="AGILITY" value="22"/>
@@ -48,7 +48,7 @@
 	</item>
 
 	<item id="16823" phase="1">
-		<info name="Nightslayer Shoulder Pads" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Nightslayer Shoulder Pads" name_zh="夜幕杀手护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="150"/>
@@ -64,7 +64,7 @@
 	</item>
 
     <item id="18374" phase="2">
-        <info name="Flamescarred Shoulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_shoulder_24.png"/>
+        <info name="Flamescarred Shoulders" name_zh="火痕护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_shoulder_24.png"/>
         <stats>
             <stat type="ARMOR" value="131"/>
             <stat type="STRENGTH" value="12"/>
@@ -78,7 +78,7 @@
     </item>
 
 	<item id="16832" phase="3">
-		<info name="Bloodfang Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_23.png"/>
+		<info name="Bloodfang Spaulders" name_zh="血牙肩甲" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_23.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="169"/>
@@ -94,7 +94,7 @@
 	</item>
 
 	<item id="19389" phase="3">
-		<info name="Taut Dragonhide Shoulderpads" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_shoulder_08.png"/>
+		<info name="Taut Dragonhide Shoulderpads" name_zh="紧绷的龙皮护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_shoulder_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="170"/>
 			<stat type="STAMINA" value="30"/>
@@ -109,7 +109,7 @@
 	</item>
 
 	<item id="19835" phase="4">
-		<info name="Zandalar Madcap's Mantle" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="61" quality="EPIC" boe="no" icon="Inv_shoulder_29.png"/>
+		<info name="Zandalar Madcap's Mantle" name_zh="赞达拉狂妄者衬肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="61" quality="EPIC" boe="no" icon="Inv_shoulder_29.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="140"/>
@@ -124,7 +124,7 @@
 	</item>
 
 	<item id="20633" phase="4">
-		<info name="Unnatural Leather Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_shoulder_29.png"/>
+		<info name="Unnatural Leather Spaulders" name_zh="异常皮质肩甲" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_shoulder_29.png"/>
 		<stats>
 			<stat type="ARMOR" value="161"/>
 			<stat type="STAMINA" value="19"/>
@@ -138,7 +138,7 @@
 	</item>
 
 	<item id="21474" phase="5">
-		<info name="Chitinous Shoulderguards" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="RARE" boe="no" icon="Inv_shoulder_29.png"/>
+		<info name="Chitinous Shoulderguards" name_zh="几丁质护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="RARE" boe="no" icon="Inv_shoulder_29.png"/>
 		<stats>
 			<stat type="ARMOR" value="151"/>
 			<stat type="AGILITY" value="25"/>
@@ -151,7 +151,7 @@
 	</item>
 
 	<item id="21665" phase="5">
-		<info name="Mantle of Wicked Revenge" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_shoulder_30.png"/>
+		<info name="Mantle of Wicked Revenge" name_zh="邪恶复仇衬肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_shoulder_30.png"/>
 		<stats>
 			<stat type="ARMOR" value="170"/>
 			<stat type="AGILITY" value="30"/>
@@ -164,7 +164,7 @@
 	</item>
 
 	<item id="21361" phase="5">
-		<info name="Deathdealer's Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_03.png"/>
+		<info name="Deathdealer's Spaulders" name_zh="死亡执行者的护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_03.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="172"/>
@@ -179,7 +179,7 @@
 	</item>
 
 	<item id="22479" phase="6">
-		<info name="Bonescythe Pauldrons" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_29.png"/>
+		<info name="Bonescythe Pauldrons" name_zh="骨镰肩铠" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_29.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="186"/>
@@ -195,7 +195,7 @@
 	</item>
 	
 	<item id="15058" phase="1">
-		<info name="Stormshroud Shoulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="yes" icon="Inv_shoulder_05.png"/>
+		<info name="Stormshroud Shoulders" name_zh="雷暴护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="yes" icon="Inv_shoulder_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="126"/>
 			<stat type="STAMINA" value="12"/>
@@ -208,7 +208,7 @@
 	</item>
 	
 	<item id="20194" phase="4">
-		<info name="Defiler's Leather Shoulders" type="LEATHER" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_24.png"/>
+		<info name="Defiler's Leather Shoulders" name_zh="污染者的皮甲护肩" type="LEATHER" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_24.png"/>
 		<class_restriction class="ROGUE"/>
 		<class_restriction class="DRUID"/>
 		<stats>
@@ -223,7 +223,7 @@
 	</item>
 	
 	<item id="20059" phase="4">
-		<info name="Highlander's Leather Shoulders" type="LEATHER" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_24.png"/>
+		<info name="Highlander's Leather Shoulders" name_zh="高地皮甲护肩" type="LEATHER" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_24.png"/>
 		<class_restriction class="ROGUE"/>
 		<class_restriction class="DRUID"/>
 		<stats>

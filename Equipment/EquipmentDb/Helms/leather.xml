@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="9375" phase="1">
-		<info name="Expert Goldminer's Helmet" type="LEATHER" slot="HEAD" unique="no" req_lvl="33" item_lvl="38" quality="RARE" boe="yes" icon="Inv_helmet_18.png"/>
+		<info name="Expert Goldminer's Helmet" name_zh="采金专家的头盔" type="LEATHER" slot="HEAD" unique="no" req_lvl="33" item_lvl="38" quality="RARE" boe="yes" icon="Inv_helmet_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="95"/>
 			<stat type="STAMINA" value="6"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="8345" phase="1">
-		<info name="Wolfshead Helm" type="LEATHER" slot="HEAD" unique="no" req_lvl="40" item_lvl="45" quality="RARE" boe="yes" icon="Inv_helmet_04.png"/>
+		<info name="Wolfshead Helm" name_zh="狼头之盔" type="LEATHER" slot="HEAD" unique="no" req_lvl="40" item_lvl="45" quality="RARE" boe="yes" icon="Inv_helmet_04.png"/>
 		<class_restriction class="DRUID"/>
 		<stats>
 			<stat type="ARMOR" value="109"/>
@@ -30,7 +30,7 @@
 	</item>
 
 	<item id="13404" phase="1">
-		<info name="Mask of the Unforgiven" type="LEATHER" slot="HEAD" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_misc_bandana_01.png"/>
+		<info name="Mask of the Unforgiven" name_zh="不可宽恕者的面具" type="LEATHER" slot="HEAD" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_misc_bandana_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="132"/>
 			<stat type="STAMINA" value="12"/>
@@ -43,7 +43,7 @@
 	</item>
 
 	<item id="16707" phase="1">
-		<info name="Shadowcraft Cap" type="LEATHER" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_41.png"/>
+		<info name="Shadowcraft Cap" name_zh="迅影罩帽" type="LEATHER" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_41.png"/>
 		<stats>
 			<stat type="ARMOR" value="141"/>
 			<stat type="AGILITY" value="20"/>
@@ -57,7 +57,7 @@
 	</item>
 
 	<item id="12587" phase="1">
-		<info name="Eye of Rend" type="LEATHER" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_46.png"/>
+		<info name="Eye of Rend" name_zh="雷德之眼" type="LEATHER" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_46.png"/>
 		<stats>
 			<stat type="ARMOR" value="143"/>
 			<stat type="STAMINA" value="7"/>
@@ -70,7 +70,7 @@
 	</item>
 
 	<item id="16821" phase="1">
-		<info name="Nightslayer Cover" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
+		<info name="Nightslayer Cover" name_zh="夜幕杀手头巾" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="163"/>
@@ -86,7 +86,7 @@
 	</item>
 
 	<item id="16908" phase="1">
-		<info name="Bloodfang Hood" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
+		<info name="Bloodfang Hood" name_zh="血牙头巾" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="183"/>
@@ -103,7 +103,7 @@
 	</item>
 
 	<item id="19945" phase="4">
-		<info name="Foror's Eyepatch" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_helmet_46.png"/>
+		<info name="Foror's Eyepatch" name_zh="弗洛尔的眼罩" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_helmet_46.png"/>
 		<stats>
 			<stat type="ARMOR" value="160"/>
 			<stat type="STAMINA" value="19"/>
@@ -116,7 +116,7 @@
 	</item>
 
 	<item id="22718" phase="4">
-		<info name="Blooddrenched Mask" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_helmet_41.png"/>
+		<info name="Blooddrenched Mask" name_zh="浴血面具" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_helmet_41.png"/>
 		<stats>
 			<stat type="ARMOR" value="153"/>
 			<stat type="AGILITY" value="22"/>
@@ -129,7 +129,7 @@
 	</item>
 
 	<item id="20623" phase="4">
-		<info name="Circlet of Restless Dreams" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_helmet_17.png"/>
+		<info name="Circlet of Restless Dreams" name_zh="躁动梦境头饰" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_helmet_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="175"/>
 			<stat type="AGILITY" value="21"/>
@@ -142,7 +142,7 @@
 	</item>
 
 	<item id="21455" phase="5">
-		<info name="Southwind Helm" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="74" quality="RARE" boe="no" icon="Inv_helmet_01.png"/>
+		<info name="Southwind Helm" name_zh="南风头盔" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="74" quality="RARE" boe="no" icon="Inv_helmet_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="164"/>
 			<stat type="STRENGTH" value="21"/>
@@ -156,7 +156,7 @@
 	</item>
 
 	<item id="21693" phase="5">
-		<info name="Guise of the Devourer" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_helmet_06.png"/>
+		<info name="Guise of the Devourer" name_zh="吞噬者之帽" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_helmet_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="250"/>
 			<stat type="STAMINA" value="36"/>
@@ -170,7 +170,7 @@
 	</item>
 
 	<item id="21360" phase="5">
-		<info name="Deathdealer's Helm" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_04.png"/>
+		<info name="Deathdealer's Helm" name_zh="死亡执行者的头盔" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_04.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="192"/>
@@ -186,7 +186,7 @@
 	</item>
 
 	<item id="23020" phase="6">
-		<info name="Polar Helmet" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_helmet_04.png"/>
+		<info name="Polar Helmet" name_zh="北极头盔" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_helmet_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="196"/>
 			<stat type="STAMINA" value="24"/>
@@ -199,7 +199,7 @@
 	</item>
 
 	<item id="22478" phase="6">
-		<info name="Bonescythe Helmet" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_58.png"/>
+		<info name="Bonescythe Helmet" name_zh="骨镰头盔" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_58.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="205"/>

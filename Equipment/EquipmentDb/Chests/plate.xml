@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="11195" phase="1">
-		<info name="Warforged Chestplate" type="PLATE" slot="CHEST" unique="no" req_lvl="40" item_lvl="57" quality="UNCOMMON" boe="no" icon="Inv_chest_chain_16.png"/>
+		<info name="Warforged Chestplate" name_zh="战铸胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="40" item_lvl="57" quality="UNCOMMON" boe="no" icon="Inv_chest_chain_16.png"/>
 		<mutex item_id="11193"/>
 		<mutex item_id="11194"/>
 		<mutex item_id="11196"/>
@@ -16,7 +16,7 @@
 	</item>
 
 	<item id="11678" phase="1">
-		<info name="Carapace of Anub'shiah" type="PLATE" slot="CHEST" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_chest_plate08.png"/>
+		<info name="Carapace of Anub'shiah" name_zh="阿努希尔之壳" type="PLATE" slot="CHEST" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_chest_plate08.png"/>
 		<stats>
 			<stat type="ARMOR" value="577"/>
 			<stat type="STAMINA" value="22"/>
@@ -29,7 +29,7 @@
 	</item>
 
 	<item id="12895" phase="1">
-		<info name="Breastplate of the Chromatic Flight" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_plate09.png"/>
+		<info name="Breastplate of the Chromatic Flight" name_zh="多彩巨龙胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_plate09.png"/>
 		<stats>
 			<stat type="ARMOR" value="706"/>
 			<stat type="STAMINA" value="30"/>
@@ -43,7 +43,7 @@
 	</item>
 
 	<item id="16865" phase="1">
-		<info name="Breastplate of Might" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_plate16.png"/>
+		<info name="Breastplate of Might" name_zh="力量胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_plate16.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="749"/>
@@ -59,7 +59,7 @@
 	</item>
 
 	<item id="19822" phase="4">
-		<info name="Zandalar Vindicator's Breastplate" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_plate07.png"/>
+		<info name="Zandalar Vindicator's Breastplate" name_zh="赞达拉辩护者胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_plate07.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="828"/>
@@ -74,7 +74,7 @@
 	</item>
 
 	<item id="16966" phase="3">
-		<info name="Breastplate of Wrath" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_plate16.png"/>
+		<info name="Breastplate of Wrath" name_zh="愤怒胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_plate16.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="857"/>
@@ -90,7 +90,7 @@
 	</item>
 
 	<item id="13394" phase="1">
-		<info name="Skul's Cold Embrace" type="PLATE" slot="CHEST" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_chest_chain_15.png"/>
+		<info name="Skul's Cold Embrace" name_zh="斯库尔的寒冷拥抱" type="PLATE" slot="CHEST" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_chest_chain_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="617"/>
 			<stat type="STAMINA" value="20"/>
@@ -104,7 +104,7 @@
 	</item>
 
 	<item id="16477" phase="2">
-		<info name="Field Marshal's Plate Armor" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_chest_plate03.png"/>
+		<info name="Field Marshal's Plate Armor" name_zh="元帅的板甲护胸" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_chest_plate03.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="875"/>
@@ -119,7 +119,7 @@
 	</item>
 
 	<item id="16541" phase="2">
-		<info name="Warlord's Plate Armor" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_chest_plate16.png"/>
+		<info name="Warlord's Plate Armor" name_zh="督军的板甲护胸" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_chest_plate16.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="875"/>
@@ -134,7 +134,7 @@
 	</item>
 
 	<item id="23272" phase="2">
-		<info name="Knight-Captain's Lamellar Breastplate" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_chest_plate03.png"/>
+		<info name="Knight-Captain's Lamellar Breastplate" name_zh="骑士队长的板层甲护胸" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_chest_plate03.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="706"/>
@@ -149,7 +149,7 @@
 	</item>
 
 	<item id="16473" phase="2">
-		<info name="Field Marshal's Lamellar Breastplate" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_chest_plate03.png"/>
+		<info name="Field Marshal's Lamellar Breastplate" name_zh="元帅的板层甲护胸" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_chest_plate03.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="835"/>
@@ -166,7 +166,7 @@
 	</item>
 
 	<item id="23300" phase="2">
-		<info name="Knight-Captain's Plate Hauberk" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_chest_plate16.png"/>
+		<info name="Knight-Captain's Plate Hauberk" name_zh="骑士队长的板甲护胸" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_chest_plate16.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="706"/>
@@ -180,7 +180,7 @@
 	</item>
 
 	<item id="22872" phase="2">
-		<info name="Legionnaire's Plate Hauberk" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_chest_plate16.png"/>
+		<info name="Legionnaire's Plate Hauberk" name_zh="军团士兵的板甲护胸" type="PLATE" slot="CHEST" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_chest_plate16.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="706"/>
@@ -194,7 +194,7 @@
 	</item>
 
 	<item id="19825" phase="4">
-		<info name="Zandalar Freethinker's Breastplate" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_plate07.png"/>
+		<info name="Zandalar Freethinker's Breastplate" name_zh="赞达拉思考者胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_plate07.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="738"/>
@@ -210,7 +210,7 @@
 	</item>
 
 	<item id="21814" phase="5">
-		<info name="Breastplate of Annihilation" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_chest_plate02.png"/>
+		<info name="Breastplate of Annihilation" name_zh="灭绝胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_chest_plate02.png"/>
 		<stats>
 			<stat type="ARMOR" value="824"/>
 			<stat type="STRENGTH" value="37"/>
@@ -224,7 +224,7 @@
 	</item>	
 
 	<item id="21331" phase="5">
-		<info name="Conqueror's Breastplate" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_plate12.png"/>
+		<info name="Conqueror's Breastplate" name_zh="征服者的胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_plate12.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="985"/>
@@ -239,7 +239,7 @@
 	</item>
 
 	<item id="21389" phase="5">
-		<info name="Avenger's Breastplate" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_plate03.png"/>
+		<info name="Avenger's Breastplate" name_zh="复仇者的胸甲" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_plate03.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="985"/>
@@ -258,7 +258,7 @@
 	</item>
 
 	<item id="23000" phase="6">
-		<info name="Plated Abomination Ribcage" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_chest_chain_15.png"/>
+		<info name="Plated Abomination Ribcage" name_zh="钉板憎恶胸骨" type="PLATE" slot="CHEST" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_chest_chain_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="953"/>
 			<stat type="STRENGTH" value="45"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="16679" phase="1">
-		<info name="Beaststalker's Mantle" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_10.png"/>
+		<info name="Beaststalker's Mantle" name_zh="野兽追猎者衬肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="266"/>
 			<stat type="STAMINA" value="17"/>
@@ -15,7 +15,7 @@
 	</item>
 
 	<item id="15051" phase="1">
-		<info name="Black Dragonscale Shoulders" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="yes" icon="Inv_shoulder_01.png"/>
+		<info name="Black Dragonscale Shoulders" name_zh="黑色龙鳞护肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="yes" icon="Inv_shoulder_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="266"/>
 			<stat type="STAMINA" value="9"/>
@@ -28,7 +28,7 @@
 	</item>
 
 	<item id="16848" phase="1">
-		<info name="Giantstalker's Epaulets" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_10.png"/>
+		<info name="Giantstalker's Epaulets" name_zh="巨人追猎者肩饰" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_10.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="317"/>
@@ -45,7 +45,7 @@
 	</item>
 
 	<item id="23307" phase="2">
-		<info name="Lieutenant Commander's Chain Shoulders" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_shoulder_16.png"/>
+		<info name="Lieutenant Commander's Chain Shoulders" name_zh="少校的链甲护肩" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_shoulder_16.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="311"/>
@@ -59,7 +59,7 @@
 	</item>
 
 	<item id="23252" phase="2">
-		<info name="Champion's Chain Shoulders" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Champion's Chain Shoulders" name_zh="勇士的链甲护肩" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_shoulder_01.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="311"/>
@@ -73,7 +73,7 @@
 	</item>
 	
 	<item id="16468" phase="2">
-		<info name="Field Marshal's Chain Spaulders" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_10.png"/>
+		<info name="Field Marshal's Chain Spaulders" name_zh="元帅的链甲护肩" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_10.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="403"/>
@@ -88,7 +88,7 @@
 	</item>
 
 	<item id="16568" phase="2">
-		<info name="Warlord's Chain Shoulders" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_29.png"/>
+		<info name="Warlord's Chain Shoulders" name_zh="督军的链甲护肩" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_29.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="403"/>
@@ -103,7 +103,7 @@
 	</item>
 
 	<item id="16937" phase="3">
-		<info name="Dragonstalker's Spaulders" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_10.png"/>
+		<info name="Dragonstalker's Spaulders" name_zh="巨龙追猎者肩甲" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_10.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="362"/>
@@ -120,7 +120,7 @@
 	</item>
 
 	<item id="19373" phase="3">
-		<info name="Black Brood Pauldrons" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
+		<info name="Black Brood Pauldrons" name_zh="黑龙肩铠" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="357"/>
 			<stat type="AGILITY" value="17"/>
@@ -134,7 +134,7 @@
 	</item>
 
 	<item id="19691" phase="4">
-		<info name="Bloodsoul Shoulders" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_shoulder_15.png"/>
+		<info name="Bloodsoul Shoulders" name_zh="血魂护肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_shoulder_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="286"/>
 			<stat type="AGILITY" value="24"/>
@@ -146,7 +146,7 @@
 	</item>
 
 	<item id="20055" phase="4">
-		<info name="Highlander's Chain Pauldrons" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Highlander's Chain Pauldrons" name_zh="高地链甲护肩" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_01.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="312"/>
@@ -160,7 +160,7 @@
 	</item>
 
 	<item id="20158" phase="4">
-		<info name="Defiler's Chain Pauldrons" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Defiler's Chain Pauldrons" name_zh="污染者的链甲护肩" type="MAIL" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_01.png"/>
 		<class_restriction class="HUNTER"/>
 		<class_restriction class="SHAMAN"/>
 		<stats>
@@ -175,7 +175,7 @@
 	</item>
 
 	<item id="19831" phase="4">
-		<info name="Zandalar Predator's Mantle" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_shoulder_22.png"/>
+		<info name="Zandalar Predator's Mantle" name_zh="赞达拉捕猎者衬肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_shoulder_22.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="326"/>
@@ -190,7 +190,7 @@
 	</item>
 
 	<item id="21699" phase="5">
-		<info name="Barrage Shoulders" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
+		<info name="Barrage Shoulders" name_zh="障碍护肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="348"/>
 			<stat type="AGILITY" value="29"/>
@@ -202,7 +202,7 @@
 	</item>
 
 	<item id="21367" phase="5">
-		<info name="Striker's Pauldrons" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_shoulder_36.png"/>
+		<info name="Striker's Pauldrons" name_zh="攻击者的护肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_shoulder_36.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="384"/>
@@ -218,7 +218,7 @@
 	</item>
 
 	<item id="22016" phase="5">
-		<info name="Beastmaster's Mantle" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_10.png"/>
+		<info name="Beastmaster's Mantle" name_zh="兽王护肩" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="286"/>
 			<stat type="STAMINA" value="18"/>
@@ -231,7 +231,7 @@
 	</item>
 
 	<item id="22439" phase="6">
-		<info name="Crypstalker Spaulders" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
+		<info name="Crypstalker Spaulders" name_zh="地穴追猎者肩甲" type="MAIL" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="406"/>

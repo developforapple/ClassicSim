@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
 	<melee_weapon id="13198" phase="1">
-		<info name="Hurd Smasher" type="FIST" slot="MH" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_gauntlets_11.png"/>
+		<info name="Hurd Smasher" name_zh="巴什古德拳套" type="FIST" slot="MH" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_gauntlets_11.png"/>
 		<dmg_range min="49" max="93" speed="1.8"/>
 		<stats/>
 		<special_equip_effect>
@@ -13,7 +13,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18203" phase="1">
-		<info name="Eskhandar's Right Claw" type="FIST" slot="MH" unique="yes" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_monsterclaw_04.png"/>
+		<info name="Eskhandar's Right Claw" name_zh="艾斯卡达尔的右爪" type="FIST" slot="MH" unique="yes" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_monsterclaw_04.png"/>
 		<dmg_range min="50" max="94" speed="1.5"/>
 		<stats>
 			<stat type="AGILITY" value="4"/>
@@ -30,7 +30,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18202" phase="1">
-		<info name="Eskhandar's Left Claw" type="FIST" slot="OH" unique="yes" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_monsterclaw_04.png"/>
+		<info name="Eskhandar's Left Claw" name_zh="艾斯卡达尔的左爪" type="FIST" slot="OH" unique="yes" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_monsterclaw_04.png"/>
 		<dmg_range min="50" max="94" speed="1.5"/>
 		<stats>
 			<stat type="AGILITY" value="4"/>
@@ -48,7 +48,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18844" phase="2">
-		<info name="High Warlord's Right Claw" type="FIST" slot="MH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_monsterclaw_03.png"/>
+		<info name="High Warlord's Right Claw" name_zh="高阶督军的右手爪" type="FIST" slot="MH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_monsterclaw_03.png"/>
 		<dmg_range min="138" max="207" speed="2.9"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="28"/>
@@ -61,7 +61,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18843" phase="2">
-		<info name="Grand Marshal's Right Hand Blade" type="FIST" slot="MH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_weapon_shortblade_07.png"/>
+		<info name="Grand Marshal's Right Hand Blade" name_zh="大元帅的右手刃" type="FIST" slot="MH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_weapon_shortblade_07.png"/>
 		<dmg_range min="138" max="207" speed="2.9"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="28"/>
@@ -74,7 +74,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18848" phase="2">
-		<info name="High Warlord's Razor Claw" type="FIST" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_monsterclaw_04.png"/>
+		<info name="High Warlord's Razor Claw" name_zh="高阶督军的左手爪" type="FIST" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_monsterclaw_04.png"/>
 		<dmg_range min="138" max="207" speed="2.9"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="28"/>
@@ -87,7 +87,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18847" phase="2">
-		<info name="Grand Marshal's Razor Hand Blade" type="FIST" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Ability_rogue_rupture.png"/>
+		<info name="Grand Marshal's Razor Hand Blade" name_zh="大元帅的左手刃" type="FIST" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Ability_rogue_rupture.png"/>
 		<dmg_range min="138" max="207" speed="2.9"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="28"/>
@@ -100,7 +100,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19365" phase="3">
-		<info name="Claw of the Black Drake" type="FIST" slot="MH" unique="yes" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_27.png"/>
+		<info name="Claw of the Black Drake" name_zh="黑龙之爪" type="FIST" slot="MH" unique="yes" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_27.png"/>
 		<dmg_range min="102" max="191" speed="2.6"/>
 		<stats>
 			<stat type="STRENGTH" value="13"/>
@@ -113,7 +113,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19910" phase="4">
-		<info name="Arlokk's Grasp" type="FIST" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_hand_01.png"/>
+		<info name="Arlokk's Grasp" name_zh="娅尔罗之握" type="FIST" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_hand_01.png"/>
 		<dmg_range min="41" max="85" speed="1.5"/>
 		<proc>
 			<spell name="SHADOW_ATTACK" min="55" max="86" instant="yes" rate="0.025" internal_cd="0" spell_dmg_coefficient="0.0"/>
@@ -127,7 +127,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19896" phase="4">
-		<info name="Thekal's Grasp" type="FIST" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_hand_01.png"/>
+		<info name="Thekal's Grasp" name_zh="塞卡尔之握" type="FIST" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_hand_01.png"/>
 		<dmg_range min="72" max="135" speed="2.2"/>
 		<stats>
 			<stat type="STAMINA" value="13"/>
@@ -139,7 +139,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21673" phase="5">
-		<info name="Silithid Claw" type="FIST" slot="MH" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_misc_monsterclaw_03.png"/>
+		<info name="Silithid Claw" name_zh="异种虫爪" type="FIST" slot="MH" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_misc_monsterclaw_03.png"/>
 		<dmg_range min="64" max="120" speed="1.6"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -151,7 +151,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23242" phase="6">
-		<info name="Claw of the Frost Wyrm" type="FIST" slot="OH" unique="yes" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_weapon_hand_03.png"/>
+		<info name="Claw of the Frost Wyrm" name_zh="冰霜巨龙之爪" type="FIST" slot="OH" unique="yes" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_weapon_hand_03.png"/>
 		<dmg_range min="75" max="140" speed="1.5"/>
 		<stats>
 			<stat type="STAMINA" value="8"/>

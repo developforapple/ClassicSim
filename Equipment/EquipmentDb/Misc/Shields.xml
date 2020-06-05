@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
 	<melee_weapon id="17066" phase="1">
-		<info name="Drillborer Disk" type="SHIELD" slot="OH" unique="NO" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_shield_10.png"/>
+		<info name="Drillborer Disk" name_zh="钻孔虫之碟" type="SHIELD" slot="OH" unique="NO" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_shield_10.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="ARMOR" value="2539"/>
@@ -18,7 +18,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19349" phase="3">
-		<info name="Elementium Reinforced Bulwark" type="SHIELD" slot="OH" unique="NO" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_shield_17.png"/>
+		<info name="Elementium Reinforced Bulwark" name_zh="源质壁垒" type="SHIELD" slot="OH" unique="NO" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_shield_17.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="ARMOR" value="2893"/>

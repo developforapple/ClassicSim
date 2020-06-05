@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="20642" phase="1">
-		<info name="Antiquated Nobleman's Tunic" type="CLOTH" slot="CHEST" unique="no" req_lvl="42" item_lvl="47" quality="UNCOMMON" boe="no" icon="Inv_chest_cloth_47.png"/>
+		<info name="Antiquated Nobleman's Tunic" name_zh="陈旧的贵族外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="42" item_lvl="47" quality="UNCOMMON" boe="no" icon="Inv_chest_cloth_47.png"/>
 		<mutex item_id="20643"/>
 		<stats>
 			<stat type="ARMOR" value="61"/>
@@ -15,7 +15,7 @@
 	</item>
 
 	<item id="17741" phase="1">
-		<info name="Nature's Embrace" type="CLOTH" slot="CHEST" unique="no" req_lvl="46" item_lvl="51" quality="RARE" boe="no" icon="Inv_chest_cloth_15.png"/>
+		<info name="Nature's Embrace" name_zh="自然的拥抱" type="CLOTH" slot="CHEST" unique="no" req_lvl="46" item_lvl="51" quality="RARE" boe="no" icon="Inv_chest_cloth_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="73"/>
 			<stat type="SPELL_DAMAGE_HOLY" value="29"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="14042" phase="1">
-		<info name="Cindercloth Vest" type="CLOTH" slot="CHEST" unique="no" req_lvl="47" item_lvl="52" quality="UNCOMMON" boe="yes" icon="Inv_chest_cloth_07.png"/>
+		<info name="Cindercloth Vest" name_zh="灰布外衣" type="CLOTH" slot="CHEST" unique="no" req_lvl="47" item_lvl="52" quality="UNCOMMON" boe="yes" icon="Inv_chest_cloth_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="68"/>
 			<stat type="SPIRIT" value="11"/>
@@ -39,7 +39,7 @@
 	</item>
 
 	<item id="14136" phase="1">
-		<info name="Robe of Winter Night" type="CLOTH" slot="CHEST" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="yes" icon="Inv_chest_cloth_49.png"/>
+		<info name="Robe of Winter Night" name_zh="冬夜法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="yes" icon="Inv_chest_cloth_49.png"/>
 		<stats>
 			<stat type="ARMOR" value="81"/>
 			<stat type="INTELLECT" value="12"/>
@@ -52,7 +52,7 @@
 	</item>
 
 	<item id="11924" phase="1">
-		<info name="Robes of the Royal Crown" type="CLOTH" slot="CHEST" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_chest_cloth_16.png"/>
+		<info name="Robes of the Royal Crown" name_zh="皇冠法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_chest_cloth_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="85"/>
 			<stat type="SPIRIT" value="10"/>
@@ -66,7 +66,7 @@
 	</item>
 
 	<item id="14106" phase="1">
-		<info name="Felcloth Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="UNCOMMON" boe="yes" icon="Inv_chest_cloth_09.png"/>
+		<info name="Felcloth Robe" name_zh="恶魔布袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="UNCOMMON" boe="yes" icon="Inv_chest_cloth_09.png"/>
 		<stats>
 			<stat type="ARMOR" value="79"/>
 			<stat type="STAMINA" value="7"/>
@@ -78,7 +78,7 @@
 	</item>
 
 	<item id="14626" phase="1">
-		<info name="Necropile Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_cloth_43.png"/>
+		<info name="Necropile Robe" name_zh="骨堆长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_cloth_43.png"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
 			<stat type="STAMINA" value="22"/>
@@ -92,7 +92,7 @@
 	</item>
 
 	<item id="13388" phase="1">
-		<info name="The Postmaster's Tunic" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_leather_10.png"/>
+		<info name="The Postmaster's Tunic" name_zh="邮差外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_leather_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
 			<stat type="SPIRIT" value="10"/>
@@ -106,7 +106,7 @@
 	</item>
 
 	<item id="14340" phase="1">
-		<info name="Freezing Lich Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_cloth_46.png"/>
+		<info name="Freezing Lich Robes" name_zh="寒冰巫妖法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_cloth_46.png"/>
 		<stats>
 			<stat type="ARMOR" value="88"/>
 			<stat type="STAMINA" value="15"/>
@@ -118,7 +118,7 @@
 	</item>
 
 	<item id="13314" phase="1">
-		<info name="Alanna's Embrace" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_cloth_12.png"/>
+		<info name="Alanna's Embrace" name_zh="奥兰纳的拥抱" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_cloth_12.png"/>
 		<stats>
 			<stat type="ARMOR" value="96"/>
 			<stat type="INTELLECT" value="20"/>
@@ -132,7 +132,7 @@
 	</item>
 
 	<item id="14152" phase="1">
-		<info name="Robe of the Archmage" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_cloth_38.png"/>
+		<info name="Robe of the Archmage" name_zh="大法师之袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_cloth_38.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="96"/>
@@ -150,7 +150,7 @@
 	</item>
     
     <item id="14153" phase="1">
-		<info name="Robe of the Void" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_cloth_51.png"/>
+		<info name="Robe of the Void" name_zh="虚空法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_cloth_51.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="96"/>
@@ -166,7 +166,7 @@
 	</item>
 
 	<item id="16690" phase="1">
-		<info name="Devout Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_11.png"/>
+		<info name="Devout Robe" name_zh="虔诚长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_11.png"/>
 		<stats>
 			<stat type="ARMOR" value="84"/>
 			<stat type="INTELLECT" value="24"/>
@@ -179,7 +179,7 @@
 	</item>
 
 	<item id="16700" phase="1">
-		<info name="Dreadmist Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_49.png"/>
+		<info name="Dreadmist Robe" name_zh="鬼雾长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_49.png"/>
 		<stats>
 			<stat type="ARMOR" value="89"/>
 			<stat type="INTELLECT" value="21"/>
@@ -192,7 +192,7 @@
 	</item>
 
 	<item id="16688" phase="1">
-		<info name="Magister's Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_25.png"/>
+		<info name="Magister's Robes" name_zh="博学者长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="89"/>
 			<stat type="INTELLECT" value="31"/>
@@ -205,7 +205,7 @@
 	</item>
 
 	<item id="19156" phase="1">
-		<info name="Flarecore Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_chest_cloth_18.png"/>
+		<info name="Flarecore Robes" name_zh="光芒长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_chest_cloth_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="102"/>
 			<stat type="STAMINA" value="35"/>
@@ -218,7 +218,7 @@
 	</item>
 
 	<item id="19145" phase="1">
-		<info name="Robes of Volatile Power" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_18.png"/>
+		<info name="Robes of Volatile Power" name_zh="波动长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="102"/>
 			<stat type="INTELLECT" value="15"/>
@@ -233,7 +233,7 @@
 	</item>
 
 	<item id="16798" phase="1">
-		<info name="Arcanist Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_03.png"/>
+		<info name="Arcanist Robes" name_zh="奥术师长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_03.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="102"/>
@@ -249,7 +249,7 @@
 	</item>
 
 	<item id="18450" phase="2">
-		<info name="Robe of Combustion" type="CLOTH" slot="CHEST" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="no" icon="Inv_chest_cloth_24.png"/>
+		<info name="Robe of Combustion" name_zh="燃烧法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="no" icon="Inv_chest_cloth_24.png"/>
 		<stats>
 			<stat type="ARMOR" value="77"/>
 			<stat type="INTELLECT" value="17"/>
@@ -261,7 +261,7 @@
 	</item>
 
 	<item id="18486" phase="2">
-		<info name="Mooncloth Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="yes" icon="Inv_chest_cloth_04.png"/>
+		<info name="Mooncloth Robe" name_zh="月布长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="yes" icon="Inv_chest_cloth_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
 			<stat type="INTELLECT" value="25"/>
@@ -274,7 +274,7 @@
 	</item>
 
 	<item id="18532" phase="2">
-		<info name="Mindsurge Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_cloth_29.png"/>
+		<info name="Mindsurge Robe" name_zh="心灵漩涡长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_cloth_29.png"/>
 		<stats>
 			<stat type="ARMOR" value="88"/>
 			<stat type="INTELLECT" value="13"/>
@@ -287,7 +287,7 @@
 	</item>
 
 	<item id="18385" phase="2">
-		<info name="Robe of Everlasting Night" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_cloth_51.png"/>
+		<info name="Robe of Everlasting Night" name_zh="永恒长夜法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_cloth_51.png"/>
 		<stats>
 			<stat type="ARMOR" value="88"/>
 			<stat type="INTELLECT" value="13"/>
@@ -301,7 +301,7 @@
 	</item>
 
 	<item id="23305" phase="2">
-		<info name="Knight-Captain's Silk Tunic" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_chest_cloth_28.png"/>
+		<info name="Knight-Captain's Silk Tunic" name_zh="骑士队长的丝质外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_chest_cloth_28.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="156"/>
@@ -317,7 +317,7 @@
 	</item>
 
 	<item id="22886" phase="2">
-		<info name="Legionnaire's Silk Tunic" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_chest_cloth_28.png"/>
+		<info name="Legionnaire's Silk Tunic" name_zh="军团士兵的丝质外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_chest_cloth_28.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="156"/>
@@ -333,7 +333,7 @@
 	</item>
 
 	<item id="16443" phase="2">
-		<info name="Field Marshal's Silk Vestments" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_chest_cloth_12.png"/>
+		<info name="Field Marshal's Silk Vestments" name_zh="元帅的丝质外衣" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_chest_cloth_12.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="183"/>
@@ -349,7 +349,7 @@
 	</item>
 
 	<item id="16535" phase="2">
-		<info name="Warlord's Silk Raiments" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_chest_leather_01.png"/>
+		<info name="Warlord's Silk Raiments" name_zh="督军的丝质外衣" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_chest_leather_01.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="183"/>
@@ -365,7 +365,7 @@
 	</item>
 
 	<item id="19399" phase="3">
-		<info name="Black Ash Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_chest_cloth_50.png"/>
+		<info name="Black Ash Robe" name_zh="黑灰长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_chest_cloth_50.png"/>
 		<stats>
 			<stat type="ARMOR" value="114"/>
 			<stat type="INTELLECT" value="22"/>
@@ -379,7 +379,7 @@
 	</item>
 
 	<item id="16916" phase="3">
-		<info name="Netherwind Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_cloth_03.png"/>
+		<info name="Netherwind Robes" name_zh="灵风长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_cloth_03.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="116"/>
@@ -397,7 +397,7 @@
 	</item>
 	
 	<item id="16931" phase="3">
-		<info name="Nemesis Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_leather_01.png"/>
+		<info name="Nemesis Robes" name_zh="复仇法袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_leather_01.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="116"/>
@@ -415,7 +415,7 @@
 	</item>
 
 	<item id="19682" phase="4">
-		<info name="Bloodvine Vest" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_chest_cloth_07.png"/>
+		<info name="Bloodvine Vest" name_zh="血藤外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_chest_cloth_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="92"/>
 			<stat type="INTELLECT" value="13"/>
@@ -428,7 +428,7 @@
 	</item>
 
 	<item id="20032" phase="4">
-		<info name="Flowing Ritual Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_cloth_25.png"/>
+		<info name="Flowing Ritual Robes" name_zh="仪祭海袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_cloth_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="100"/>
 			<stat type="SPIRIT" value="24"/>
@@ -442,7 +442,7 @@
 	</item>
 
 	<item id="20034" phase="4">
-		<info name="Zandalar Illusionist's Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_cloth_12.png"/>
+		<info name="Zandalar Illusionist's Robe" name_zh="赞达拉幻术师长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_cloth_12.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="100"/>
@@ -457,7 +457,7 @@
 	</item>
 
 	<item id="20635" phase="4">
-		<info name="Jade Inlaid Vestments" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_chest_cloth_39.png"/>
+		<info name="Jade Inlaid Vestments" name_zh="镶玉外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_chest_cloth_39.png"/>
 		<stats>
 			<stat type="ARMOR" value="109"/>
 			<stat type="INTELLECT" value="18"/>
@@ -471,7 +471,7 @@
 	</item>
 
 	<item id="20530" phase="1">
-		<info name="Robes of Servitude" type="CLOTH" slot="CHEST" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_chest_cloth_10.png"/>
+		<info name="Robes of Servitude" name_zh="束缚长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_chest_cloth_10.png"/>
 		<mutex item_id="20536"/>
 		<stats>
 			<stat type="ARMOR" value="75"/>
@@ -486,7 +486,7 @@
 	</item>
 
 	<item id="22069" phase="5">
-		<info name="Sorcerer's Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="60" quality="EPIC" boe="no" icon="Inv_chest_cloth_25.png"/>
+		<info name="Sorcerer's Robes" name_zh="巫师长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="60" quality="EPIC" boe="no" icon="Inv_chest_cloth_25.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="93"/>
@@ -502,7 +502,7 @@
 	</item>
 
 	<item id="22301" phase="5">
-		<info name="Ironweave Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_48.png"/>
+		<info name="Ironweave Robe" name_zh="铁纹长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_48.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -517,7 +517,7 @@
 	</item>
 
 	<item id="21183" phase="5">
-		<info name="Earthpower Vest" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_chest_cloth_06.png"/>
+		<info name="Earthpower Vest" name_zh="大地能量外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_chest_cloth_06.png"/>
 		<mutex item_id="21181"/>
 		<mutex item_id="21182"/>
 		<stats>
@@ -532,7 +532,7 @@
 	</item>
 
 	<item id="21499" phase="5">
-		<info name="Vestments of the Shifting Sands" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_17.png"/>
+		<info name="Vestments of the Shifting Sands" name_zh="流沙外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="102"/>
 			<stat type="STAMINA" value="20"/>
@@ -547,7 +547,7 @@
 	</item>
 
 	<item id="21838" phase="5">
-		<info name="Garb of Royal Ascension" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_chest_cloth_48.png"/>
+		<info name="Garb of Royal Ascension" name_zh="晋升衣饰" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_chest_cloth_48.png"/>
 		<stats>
 			<stat type="ARMOR" value="109"/>
 			<stat type="STAMINA" value="21"/>
@@ -561,7 +561,7 @@
 	</item>
 
 	<item id="21696" phase="5">
-		<info name="Robes of the Triumvirate" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_chest_cloth_22.png"/>
+		<info name="Robes of the Triumvirate" name_zh="执政者长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_chest_cloth_22.png"/>
 		<stats>
 			<stat type="ARMOR" value="114"/>
 			<stat type="INTELLECT" value="22"/>
@@ -575,7 +575,7 @@
 	</item>
 
 	<item id="21671" phase="5">
-		<info name="Robes of the Battleguard" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_cloth_26.png"/>
+		<info name="Robes of the Battleguard" name_zh="作战卫士长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_cloth_26.png"/>
 		<stats>
 			<stat type="ARMOR" value="116"/>
 			<stat type="STAMINA" value="23"/>
@@ -590,7 +590,7 @@
 	</item>
 
 	<item id="21527" phase="5">
-		<info name="Darkwater Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_chest_cloth_31.png"/>
+		<info name="Darkwater Robes" name_zh="暗水长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_chest_cloth_31.png"/>
 		<mutex item_id="21526"/>
 		<stats>
 			<stat type="ARMOR" value="117"/>
@@ -605,7 +605,7 @@
 	</item>
 
 	<item id="21343" phase="5">
-		<info name="Enigma Robes" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_cloth_11.png"/>
+		<info name="Enigma Robes" name_zh="神秘长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_cloth_11.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="133"/>
@@ -622,7 +622,7 @@
 	</item>
 
 	<item id="23085" phase="6">
-		<info name="Robe of Undead Cleansing" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_04.png"/>
+		<info name="Robe of Undead Cleansing" name_zh="亡灵净化之袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_cloth_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="89"/>
 			<stat type="STAMINA" value="12"/>
@@ -635,7 +635,7 @@
 	</item>
 
 	<item id="22756" phase="6">
-		<info name="Sylvan Vest" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="yes" icon="Inv_chest_plate07.png"/>
+		<info name="Sylvan Vest" name_zh="林栖者外套" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="yes" icon="Inv_chest_plate07.png"/>
 		<stats>
 			<stat type="ARMOR" value="98"/>
 			<stat type="STAMINA" value="15"/>
@@ -648,7 +648,7 @@
 	</item>
 
 	<item id="23069" phase="6">
-		<info name="Necro-Knight's Garb" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_chest_cloth_46.png"/>
+		<info name="Necro-Knight's Garb" name_zh="死灵骑士的外衣" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_chest_cloth_46.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -663,7 +663,7 @@
 	</item>
 
 	<item id="22652" phase="6">
-		<info name="Glacial Vest" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="80" quality="EPIC" boe="yes" icon="Inv_chest_cloth_08.png"/>
+		<info name="Glacial Vest" name_zh="冰川外衣" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="80" quality="EPIC" boe="yes" icon="Inv_chest_cloth_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="121"/>
 			<stat type="STAMINA" value="26"/>
@@ -676,7 +676,7 @@
 	</item>
 
 	<item id="23220" phase="6">
-		<info name="Crystal Webbed Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_chest_cloth_46.png"/>
+		<info name="Crystal Webbed Robe" name_zh="水晶网袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_chest_cloth_46.png"/>
 		<stats>
 			<stat type="ARMOR" value="128"/>
 			<stat type="STAMINA" value="25"/>
@@ -689,7 +689,7 @@
 	</item>
 
 	<item id="22496" phase="6">
-		<info name="Frostfire Robe" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_chest_cloth_43.png"/>
+		<info name="Frostfire Robe" name_zh="霜火长袍" type="CLOTH" slot="CHEST" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_chest_cloth_43.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="138"/>

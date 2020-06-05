@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="16684" phase="1">
-		<info name="Magister's Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="yes" icon="Inv_gauntlets_17.png"/>
+		<info name="Magister's Gloves" name_zh="博学者手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="yes" icon="Inv_gauntlets_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
 			<stat type="SPIRIT" value="14"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="13253" phase="1">
-		<info name="Hands of Power" type="CLOTH" slot="GLOVES" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_gauntlets_14.png"/>
+		<info name="Hands of Power" name_zh="力量之手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_gauntlets_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="53"/>
 			<stat type="SPIRIT" value="6"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="14543" phase="1">
-		<info name="Darkshade Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_gauntlets_15.png"/>
+		<info name="Darkshade Gloves" name_zh="暗影手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_gauntlets_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="INTELLECT" value="7"/>
@@ -42,7 +42,7 @@
 	</item>
 
 	<item id="14146" phase="1">
-		<info name="Gloves of Spell Mastery" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_gauntlets_06.png"/>
+		<info name="Gloves of Spell Mastery" name_zh="法术掌握手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_gauntlets_06.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -58,7 +58,7 @@
 	</item>
 
 	<item id="16979" phase="1">
-		<info name="Flarecore Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_gauntlets_26.png"/>
+		<info name="Flarecore Gloves" name_zh="光芒手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_gauntlets_26.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -74,7 +74,7 @@
 	</item>
 
 	<item id="16801" phase="1">
-		<info name="Arcanist Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_gauntlets_14.png"/>
+		<info name="Arcanist Gloves" name_zh="奥术师手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_gauntlets_14.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="63"/>
@@ -91,7 +91,7 @@
 	</item>
 
 	<item id="18693" phase="2">
-		<info name="Shivery Handwraps" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
+		<info name="Shivery Handwraps" name_zh="寒冷护手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="INTELLECT" value="12"/>
@@ -105,7 +105,7 @@
 	</item>
 
 	<item id="18409" phase="2">
-		<info name="Mooncloth Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_gauntlets_17.png"/>
+		<info name="Mooncloth Gloves" name_zh="月布手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_gauntlets_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="INTELLECT" value="16"/>
@@ -118,7 +118,7 @@
 	</item>
 
 	<item id="18407" phase="2">
-		<info name="Felcloth Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_gauntlets_19.png"/>
+		<info name="Felcloth Gloves" name_zh="恶魔布手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_gauntlets_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="STAMINA" value="9"/>
@@ -130,7 +130,7 @@
 	</item>
 
 	<item id="22870" phase="2">
-		<info name="Blood Guard's Silk Handguards" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="66" quality="RARE" faction="HORDE" boe="no" icon="Inv_gauntlets_06.png"/>
+		<info name="Blood Guard's Silk Handguards" name_zh="血卫士的丝质裹手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="66" quality="RARE" faction="HORDE" boe="no" icon="Inv_gauntlets_06.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="98"/>
@@ -147,7 +147,7 @@
 	</item>
 
 	<item id="23290" phase="2">
-		<info name="Knight-Lieutenant's Silk Handguards" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="66" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_gauntlets_06.png"/>
+		<info name="Knight-Lieutenant's Silk Handguards" name_zh="骑士中尉的丝质裹手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="66" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_gauntlets_06.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="98"/>
@@ -164,7 +164,7 @@
 	</item>
 
 	<item id="16540" phase="2">
-		<info name="General's Silk Handguards" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_gauntlets_19.png"/>
+		<info name="General's Silk Handguards" name_zh="将军的丝质护手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_gauntlets_19.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="108"/>
@@ -182,7 +182,7 @@
 	</item>
 
 	<item id="16440" phase="2">
-		<info name="Marshal's Silk Handguards" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_gauntlets_14.png"/>
+		<info name="Marshal's Silk Handguards" name_zh="统帅的丝质手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_gauntlets_14.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="108"/>
@@ -200,7 +200,7 @@
 	</item>
 
 	<item id="19369" phase="3">
-		<info name="Gloves of Rapid Evolution" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_gauntlets_06.png"/>
+		<info name="Gloves of Rapid Evolution" name_zh="疾速进化手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_gauntlets_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="70"/>
 			<stat type="INTELLECT" value="12"/>
@@ -213,7 +213,7 @@
 	</item>
 
 	<item id="19407" phase="3">
-		<info name="Ebony Flame Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_gauntlets_27.png"/>
+		<info name="Ebony Flame Gloves" name_zh="黑焰手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_gauntlets_27.png"/>
 		<stats>
 			<stat type="ARMOR" value="72"/>
 			<stat type="INTELLECT" value="12"/>
@@ -226,7 +226,7 @@
 	</item>
 
 	<item id="16913" phase="3">
-		<info name="Netherwind Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_gauntlets_14.png"/>
+		<info name="Netherwind Gloves" name_zh="灵风手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_gauntlets_14.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="72"/>
@@ -243,7 +243,7 @@
 	</item>
 
 	<item id="16928" phase="3">
-		<info name="Nemesis Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_gauntlets_19.png"/>
+		<info name="Nemesis Gloves" name_zh="复仇手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_gauntlets_19.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="72"/>
@@ -260,7 +260,7 @@
 	</item>
 
 	<item id="19929" phase="4">
-		<info name="Bloodtinged Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
+		<info name="Bloodtinged Gloves" name_zh="淡血手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="62"/>
 			<stat type="SPIRIT" value="10"/>
@@ -275,7 +275,7 @@
 	</item>
 
 	<item id="20618" phase="4">
-		<info name="Gloves of Delusional Power" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
+		<info name="Gloves of Delusional Power" name_zh="虚幻能量手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="69"/>
 			<stat type="STAMINA" value="14"/>
@@ -289,7 +289,7 @@
 	</item>
 
 	<item id="22066" phase="5">
-		<info name="Sorcerer's Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="58" item_lvl="55" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
+		<info name="Sorcerer's Gloves" name_zh="巫师手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="58" item_lvl="55" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="54"/>
@@ -305,7 +305,7 @@
 	</item>
 
 	<item id="20716" phase="5">
-		<info name="Sandworm Skin Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_gauntlets_17.png"/>
+		<info name="Sandworm Skin Gloves" name_zh="沙虫皮护手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_gauntlets_17.png"/>
 		<mutex item_id="20705"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="WARLOCK"/>
@@ -321,7 +321,7 @@
 	</item>
 
 	<item id="21888" phase="5">
-		<info name="Gloves of the Immortal" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_gauntlets_14.png"/>
+		<info name="Gloves of the Immortal" name_zh="不朽手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_gauntlets_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="188"/>
 			<stat type="STAMINA" value="28"/>
@@ -333,7 +333,7 @@
 	</item>
 
 	<item id="21585" phase="5">
-		<info name="Darkstorm Gauntlets" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
+		<info name="Darkstorm Gauntlets" name_zh="黑暗风暴护手" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="83"/>
 			<stat type="INTELLECT" value="15"/>
@@ -347,7 +347,7 @@
 	</item>
 
 	<item id="23084" phase="6">
-		<info name="Gloves of Undead Cleansing" type="CLOTH" slot="GLOVES" unique="no" req_lvl="50" item_lvl="63" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
+		<info name="Gloves of Undead Cleansing" name_zh="亡灵净化手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="50" item_lvl="63" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="56"/>
 			<stat type="STAMINA" value="10"/>
@@ -360,7 +360,7 @@
 	</item>
 
 	<item id="23128" phase="6">
-		<info name="The Shadow's Grasp" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
+		<info name="The Shadow's Grasp" name_zh="暗影之握" type="CLOTH" slot="GLOVES" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_gauntlets_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="STAMINA" value="14"/>
@@ -373,7 +373,7 @@
 	</item>
 
 	<item id="22654" phase="6">
-		<info name="Glacial Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="80" quality="EPIC" boe="yes" icon="Inv_gauntlets_06.png"/>
+		<info name="Glacial Gloves" name_zh="冰川手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="80" quality="EPIC" boe="yes" icon="Inv_gauntlets_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="76"/>
 			<stat type="STAMINA" value="22"/>
@@ -386,7 +386,7 @@
 	</item>
 
 	<item id="22501" phase="6">
-		<info name="Frostfire Gloves" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
+		<info name="Frostfire Gloves" name_zh="霜火手套" type="CLOTH" slot="GLOVES" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_gauntlets_17.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="83"/>

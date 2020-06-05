@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="11933" phase="1">
-		<info name="Imperial Jewel" type="AMULET" slot="NECK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_gem_sapphire_01.png"/>
+		<info name="Imperial Jewel" name_zh="帝王宝石" type="AMULET" slot="NECK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_gem_sapphire_01.png"/>
 		<stats>
 			<stat type="STAMINA" value="7"/>
 			<stat type="ATTACK_POWER" value="32"/>
@@ -12,7 +12,7 @@
 	</item>
 
 	<item id="12929" phase="1">
-		<info name="Emberfury Talisman" type="AMULET" slot="NECK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_jewelry_necklace_05.png"/>
+		<info name="Emberfury Talisman" name_zh="灰烬之怒" type="AMULET" slot="NECK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_jewelry_necklace_05.png"/>
 		<stats>
 			<stat type="STAMINA" value="8"/>
 			<stat type="SPIRIT" value="5"/>
@@ -25,7 +25,7 @@
 	</item>
 
 	<item id="17044" phase="1">
-		<info name="Will of the Martyr" type="AMULET" slot="NECK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_jewelry_talisman_07.png"/>
+		<info name="Will of the Martyr" name_zh="殉难者的意志" type="AMULET" slot="NECK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_jewelry_talisman_07.png"/>
 		<mutex item_id="17045"/>
 		<stats>
 			<stat type="STAMINA" value="10"/>
@@ -37,7 +37,7 @@
 	</item>
 
 	<item id="15411" phase="1">
-		<info name="Mark of Fordring" type="AMULET" slot="NECK" unique="no" req_lvl="57" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_talisman_07.png"/>
+		<info name="Mark of Fordring" name_zh="弗丁印记" type="AMULET" slot="NECK" unique="no" req_lvl="57" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_talisman_07.png"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 			<stat type="ATTACK_POWER" value="26"/>
@@ -48,7 +48,7 @@
 	</item>
 
 	<item id="12103" phase="1">
-		<info name="Star of Mystaria" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_talisman_08.png"/>
+		<info name="Star of Mystaria" name_zh="秘术之星" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_talisman_08.png"/>
 		<stats>
 			<stat type="SPIRIT" value="8"/>
 			<stat type="INTELLECT" value="9"/>
@@ -61,7 +61,7 @@
 	</item>
 
 	<item id="13141" phase="1">
-		<info name="Tooth of Gnarr" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_necklace_09.png"/>
+		<info name="Tooth of Gnarr" name_zh="咆哮之牙" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_necklace_09.png"/>
 		<stats>
 			<stat type="INTELLECT" value="14"/>
 			<stat type="STAMINA" value="8"/>
@@ -73,7 +73,7 @@
 	</item>
 
 	<item id="17065" phase="1">
-		<info name="Medallion of Steadfast Might" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_03.png"/>
+		<info name="Medallion of Steadfast Might" name_zh="稳固之力勋章" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_03.png"/>
 		<stats>
 			<stat type="STRENGTH" value="9"/>
 			<stat type="STAMINA" value="13"/>
@@ -86,7 +86,7 @@
 	</item>
 
 	<item id="17109" phase="1">
-		<info name="Choker of Enlightenment" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_10.png"/>
+		<info name="Choker of Enlightenment" name_zh="启示项链" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_10.png"/>
 		<stats>
 			<stat type="INTELLECT" value="10"/>
 			<stat type="SPIRIT" value="10"/>
@@ -99,7 +99,7 @@
 	</item>
 
 	<item id="18814" phase="1">
-		<info name="Choker of the Fire Lord" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_05.png"/>
+		<info name="Choker of the Fire Lord" name_zh="火焰之王的项圈" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_05.png"/>
 		<stats>
 			<stat type="INTELLECT" value="7"/>
 			<stat type="STAMINA" value="7"/>
@@ -111,7 +111,7 @@
 	</item>
 
 	<item id="18205" phase="1">
-		<info name="Eskhandar's Collar" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_12.png"/>
+		<info name="Eskhandar's Collar" name_zh="艾斯卡达尔的项圈" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_12.png"/>
 		<stats>
 			<stat type="STAMINA" value="17"/>
 			<stat type="DODGE_CHANCE" value="0.01"/>
@@ -123,7 +123,7 @@
 	</item>
 
 	<item id="18404" phase="1">
-		<info name="Onyxia Tooth Pendant" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_09.png"/>
+		<info name="Onyxia Tooth Pendant" name_zh="奥妮克希亚龙牙坠饰" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_09.png"/>
 		<mutex item_id="18403"/>
 		<mutex item_id="18406"/>
 		<stats>
@@ -139,7 +139,7 @@
 	</item>
 
 	<item id="22150" phase="2">
-		<info name="Beads of Ogre Might" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_amulet_05.png"/>
+		<info name="Beads of Ogre Might" name_zh="食人魔的力量珠串" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_amulet_05.png"/>
 		<mutex item_id="22149"/>
 		<stats>
 			<stat type="STAMINA" value="7"/>
@@ -152,7 +152,7 @@
 	</item>
 
 	<item id="22149" phase="2">
-		<info name="Beads of Ogre Mojo" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_amulet_05.png"/>
+		<info name="Beads of Ogre Mojo" name_zh="食人魔的魔精珠串" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_amulet_05.png"/>
 		<mutex item_id="22150"/>
 		<stats>
 			<stat type="STAMINA" value="7"/>
@@ -165,7 +165,7 @@
 	</item>
 
 	<item id="17111" phase="2">
-		<info name="Blazefury Medallion" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_talisman_01.png"/>
+		<info name="Blazefury Medallion" name_zh="火焰之怒" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_talisman_01.png"/>
 		<stats>
 			<stat type="AGILITY" value="13"/>
 			<stat type="STAMINA" value="14"/>
@@ -183,7 +183,7 @@
 	</item>
 
 	<item id="19538" phase="3">
-		<info name="Sentinel's Medallion" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_jewelry_necklace_13.png"/>
+		<info name="Sentinel's Medallion" name_zh="哨兵徽章" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_jewelry_necklace_13.png"/>
 		<stats>
 			<stat type="AGILITY" value="15"/>
 			<stat type="STAMINA" value="10"/>
@@ -194,7 +194,7 @@
 	</item>
 
 	<item id="19534" phase="3">
-		<info name="Scout's Medallion" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_jewelry_necklace_14.png"/>
+		<info name="Scout's Medallion" name_zh="斥候徽章" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_jewelry_necklace_14.png"/>
 		<stats>
 			<stat type="AGILITY" value="15"/>
 			<stat type="STAMINA" value="10"/>
@@ -205,7 +205,7 @@
 	</item>
 
 	<item id="19491" phase="3">
-		<info name="Amulet of the Darkmoon" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_14.png"/>
+		<info name="Amulet of the Darkmoon" name_zh="暗月护符" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_14.png"/>
 		<stats>
 			<stat type="AGILITY" value="19"/>
 			<stat type="STAMINA" value="10"/>
@@ -217,7 +217,7 @@
 	</item>
 
 	<item id="19426" phase="3">
-		<info name="Orb of the Darkmoon" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_16.png"/>
+		<info name="Orb of the Darkmoon" name_zh="暗月宝珠" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_16.png"/>
 		<stats>
 			<stat type="STAMINA" value="11"/>
 			<stat type="SPIRIT" value="8"/>
@@ -229,7 +229,7 @@
 	</item>
 
 	<item id="19371" phase="3">
-		<info name="Pendant of the Fallen Dragon" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_12.png"/>
+		<info name="Pendant of the Fallen Dragon" name_zh="龙魂坠饰" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_12.png"/>
 		<stats>
 			<stat type="INTELLECT" value="12"/>
 			<stat type="STAMINA" value="9"/>
@@ -241,7 +241,7 @@
 	</item>
 
 	<item id="19377" phase="3">
-		<info name="Prestor's Talisman of Connivery" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_17.png"/>
+		<info name="Prestor's Talisman of Connivery" name_zh="普瑞斯托的阴谋饰物" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_17.png"/>
 		<stats>
 			<stat type="AGILITY" value="30"/>
 			<stat type="HIT_CHANCE" value="0.01"/>
@@ -252,7 +252,7 @@
 	</item>
 
 	<item id="19621" phase="4">
-		<info name="Maelstrom's Wrath" type="AMULET" slot="NECK" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
+		<info name="Maelstrom's Wrath" name_zh="漩涡之怒" type="AMULET" slot="NECK" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="AGILITY" value="15"/>
@@ -268,7 +268,7 @@
 	</item>
 
 	<item id="19600" phase="4">
-		<info name="Pebble of Kajaro" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_jewelry_necklace_25.png"/>
+		<info name="Pebble of Kajaro" name_zh="卡亚罗之石" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_jewelry_necklace_25.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="INTELLECT" value="13"/>
@@ -282,7 +282,7 @@
 	</item>
 
 	<item id="19601" phase="4">
-		<info name="Jewel of Kajaro" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
+		<info name="Jewel of Kajaro" name_zh="卡亚罗的珠宝" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="INTELLECT" value="13"/>
@@ -299,7 +299,7 @@
 	</item>
 
 	<item id="19923" phase="4">
-		<info name="Jeklik's Opaline Talisman" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_jewelry_necklace_03.png"/>
+		<info name="Jeklik's Opaline Talisman" name_zh="耶克里克的蛋白石护符" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_jewelry_necklace_03.png"/>
 		<stats>
 			<stat type="SPELL_DAMAGE" value="22"/>
 			<stat type="MANA_PER_5" value="3"/>
@@ -310,7 +310,7 @@
 	</item>
 
 	<item id="19856" phase="4">
-		<info name="The Eye of Hakkar" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_22.png"/>
+		<info name="The Eye of Hakkar" name_zh="哈卡之眼" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_22.png"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 			<stat type="ATTACK_POWER" value="40"/>
@@ -321,7 +321,7 @@
 	</item>
 
 	<item id="19876" phase="4">
-		<info name="Soul Corrupter's Necklace" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_19.png"/>
+		<info name="Soul Corrupter's Necklace" name_zh="堕灵者项链" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_19.png"/>
 		<stats>
 			<stat type="INTELLECT" value="16"/>
 			<stat type="SPIRIT" value="8"/>
@@ -334,7 +334,7 @@
 	</item>
 
 	<item id="22403" phase="5">
-		<info name="Diana's Pearl Necklace" type="AMULET" slot="NECK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_jewelry_necklace_10.png"/>
+		<info name="Diana's Pearl Necklace" name_zh="蒂亚娜的珍珠项链" type="AMULET" slot="NECK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_jewelry_necklace_10.png"/>
 		<stats>
 			<stat type="STAMINA" value="8"/>
 			<stat type="INTELLECT" value="8"/>
@@ -347,7 +347,7 @@
 	</item>
 
 	<item id="22340" phase="5">
-		<info name="Pendant of Celerity" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_necklace_04.png"/>
+		<info name="Pendant of Celerity" name_zh="迅捷坠饰" type="AMULET" slot="NECK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_jewelry_necklace_04.png"/>
 		<stats>
 			<stat type="AGILITY" value="15"/>
 			<stat type="HIT_CHANCE" value="0.01"/>
@@ -358,7 +358,7 @@
 	</item>
 
 	<item id="21809" phase="5">
-		<info name="Fury of the Forgotten Swarm" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_jewelry_necklace_14.png"/>
+		<info name="Fury of the Forgotten Swarm" name_zh="遗忘虫群之怒" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_jewelry_necklace_14.png"/>
 		<stats>
 			<stat type="STRENGTH" value="8"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -370,7 +370,7 @@
 	</item>
 
 	<item id="21505" phase="5">
-		<info name="Choker of the Shifting Sands" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_03.png"/>
+		<info name="Choker of the Shifting Sands" name_zh="流沙颈饰" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_03.png"/>
 		<stats>
 			<stat type="STAMINA" value="16"/>
 			<stat type="ATTACK_POWER" value="42"/>
@@ -381,7 +381,7 @@
 	</item>
 
 	<item id="21504" phase="5">
-		<info name="Charm of the Shifting Sands" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_03.png"/>
+		<info name="Charm of the Shifting Sands" name_zh="流沙护符" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_03.png"/>
 		<stats>
 			<stat type="INTELLECT" value="12"/>
 			<stat type="STAMINA" value="9"/>
@@ -393,7 +393,7 @@
 	</item>
 
 	<item id="21678" phase="5">
-		<info name="Necklace of Purity" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_04.png"/>
+		<info name="Necklace of Purity" name_zh="纯洁项链" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_04.png"/>
 		<stats>
 			<stat type="INTELLECT" value="13"/>
 			<stat type="STAMINA" value="9"/>
@@ -406,7 +406,7 @@
 	</item>
 
 	<item id="21664" phase="5">
-		<info name="Barbed Choker" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_02.png"/>
+		<info name="Barbed Choker" name_zh="尖刺颈饰" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_02.png"/>
 		<stats>
 			<stat type="STAMINA" value="10"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -418,7 +418,7 @@
 	</item>
 
 	<item id="21608" phase="5">
-		<info name="Amulet of Vek'nilash" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_01.png"/>
+		<info name="Amulet of Vek'nilash" name_zh="维克尼拉斯的咒符" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_01.png"/>
 		<stats>
 			<stat type="INTELLECT" value="5"/>
 			<stat type="STAMINA" value="9"/>
@@ -431,7 +431,7 @@
 	</item>
 
 	<item id="23125" phase="6">
-		<info name="Chains of the Lich" type="AMULET" slot="NECK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_18.png"/>
+		<info name="Chains of the Lich" name_zh="巫妖之链" type="AMULET" slot="NECK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_18.png"/>
 		<stats>
 			<stat type="SPELL_DAMAGE" value="22"/>
 		</stats>
@@ -441,7 +441,7 @@
 	</item>
 
 	<item id="22659" phase="6">
-		<info name="Medallion of the Dawn" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_04.png"/>
+		<info name="Medallion of the Dawn" name_zh="黎明勋章" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_04.png"/>
 		<mutex item_id="22667"/>
 		<mutex item_id="22668"/>
 		<mutex item_id="22678"/>
@@ -457,7 +457,7 @@
 	</item>
 
 	<item id="22657" phase="6">
-		<info name="Amulet of the Dawn" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_04.png"/>
+		<info name="Amulet of the Dawn" name_zh="黎明护符" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_jewelry_amulet_04.png"/>
 		<mutex item_id="22667"/>
 		<mutex item_id="22668"/>
 		<mutex item_id="22678"/>
@@ -473,7 +473,7 @@
 	</item>
 
 	<item id="23023" phase="6">
-		<info name="Sadist's Collar" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_29naxxramas.png"/>
+		<info name="Sadist's Collar" name_zh="萨迪斯的项圈" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_29naxxramas.png"/>
 		<stats>
 			<stat type="STAMINA" value="24"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -485,7 +485,7 @@
 	</item>
 
 	<item id="22943" phase="6">
-		<info name="Malice Stone Pendant" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_29naxxramas.png"/>
+		<info name="Malice Stone Pendant" name_zh="仇恨石坠" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_29naxxramas.png"/>
 		<stats>
 			<stat type="INTELLECT" value="8"/>
 			<stat type="STAMINA" value="9"/>
@@ -498,7 +498,7 @@
 	</item>
 
 	<item id="23057" phase="6">
-		<info name="Gem of Trapped Innocents" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_29naxxramas.png"/>
+		<info name="Gem of Trapped Innocents" name_zh="无辜囚徒宝石" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_29naxxramas.png"/>
 		<stats>
 			<stat type="INTELLECT" value="7"/>
 			<stat type="STAMINA" value="9"/>
@@ -511,7 +511,7 @@
 	</item>
 
 	<item id="23053" phase="6">
-		<info name="Stormrage's Talisman of Seething" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_28naxxramas.png"/>
+		<info name="Stormrage's Talisman of Seething" name_zh="怒风的沸腾符咒" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_28naxxramas.png"/>
 		<stats>
 			<stat type="STAMINA" value="12"/>
 			<stat type="CRIT_CHANCE" value="0.02"/>

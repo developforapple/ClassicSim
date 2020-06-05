@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="11626" phase="1">
-		<info name="Blackveil Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="48" item_lvl="53" quality="RARE" boe="no" icon="Inv_misc_cape_18.png"/>
+		<info name="Blackveil Cape" name_zh="黑雾斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="48" item_lvl="53" quality="RARE" boe="no" icon="Inv_misc_cape_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="38"/>
 			<stat type="STRENGTH" value="6"/>
@@ -13,7 +13,7 @@
 	</item>
 
 	<item id="11623" phase="1">
-		<info name="Spritecaster Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Spritecaster Cape" name_zh="灵法斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
 		<stats>
 			<stat type="ARMOR" value="37"/>
 			<stat type="INTELLECT" value="4"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="13203" phase="1">
-		<info name="Armswake Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_cape_19.png"/>
+		<info name="Armswake Cloak" name_zh="振奋披风" type="CLOTH" slot="BACK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_cape_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="43"/>
 			<stat type="STAMINA" value="15"/>
@@ -39,7 +39,7 @@
 	</item>
 
 	<item id="18689" phase="1">
-		<info name="Phantasmal Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Phantasmal Cloak" name_zh="幽灵披风" type="CLOTH" slot="BACK" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
 		<stats>
 			<stat type="ARMOR" value="114"/>
 			<stat type="STRENGTH" value="12"/>
@@ -51,7 +51,7 @@
 	</item>
 
 	<item id="13397" phase="1">
-		<info name="Stoneskin Gargoyle Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_misc_cape_19.png"/>
+		<info name="Stoneskin Gargoyle Cape" name_zh="石像鬼斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_misc_cape_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="43"/>
 			<stat type="AGILITY" value="8"/>
@@ -64,7 +64,7 @@
 	</item>
 
 	<item id="13340" phase="1">
-		<info name="Cape of the Black Baron" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Cape of the Black Baron" name_zh="黑爵士的斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
 		<stats>
 			<stat type="AGILITY" value="15"/>
 			<stat type="ATTACK_POWER" value="20"/>
@@ -75,7 +75,7 @@
 	</item>
 
 	<item id="15138" phase="1">
-		<info name="Onyxia Scale Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_misc_cape_05.png"/>
+		<info name="Onyxia Scale Cloak" name_zh="奥妮克希亚鳞片披风" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_misc_cape_05.png"/>
 		<stats>
 			<stat type="STAMINA" value="7"/>
 			<stat type="FIRE_RESISTANCE" value="16"/>
@@ -89,7 +89,7 @@
 	</item>
 
 	<item id="17078" phase="1">
-		<info name="Sapphiron Drape" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_misc_cape_16.png"/>
+		<info name="Sapphiron Drape" name_zh="萨菲隆斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_misc_cape_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="INTELLECT" value="17"/>
@@ -104,7 +104,7 @@
 	</item>
 
 	<item id="17107" phase="1">
-		<info name="Dragon's Blood Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_misc_cape_08.png"/>
+		<info name="Dragon's Blood Cape" name_zh="龙血斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_misc_cape_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="116"/>
 			<stat type="STAMINA" value="22"/>
@@ -119,7 +119,7 @@
 	</item>
 
 	<item id="17102" phase="1">
-		<info name="Cloak of the Shrouded Mists" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_misc_cape_17.png"/>
+		<info name="Cloak of the Shrouded Mists" name_zh="环雾披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_misc_cape_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="AGILITY" value="22"/>
@@ -133,7 +133,7 @@
 	</item>
 
 	<item id="20697" phase="4">
-		<info name="Crystalline Threaded Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_misc_cape_19.png"/>
+		<info name="Crystalline Threaded Cape" name_zh="晶化丝线斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_misc_cape_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="45"/>
 			<stat type="STAMINA" value="5"/>
@@ -146,7 +146,7 @@
 	</item>
 
 	<item id="18204" phase="2">
-		<info name="Eskhandar's Pelt" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_cape_07.png"/>
+		<info name="Eskhandar's Pelt" name_zh="艾斯卡达尔的毛皮" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_cape_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="51"/>
 			<stat type="STAMINA" value="20"/>
@@ -158,7 +158,7 @@
 	</item>
 
 	<item id="18509" phase="2">
-		<info name="Chromatic Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_misc_cape_02.png"/>
+		<info name="Chromatic Cloak" name_zh="多彩披风" type="CLOTH" slot="BACK" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_misc_cape_02.png"/>
 		<stats>
 			<stat type="STAMINA" value="10"/>
 			<stat type="FIRE_RESISTANCE" value="9"/>
@@ -171,7 +171,7 @@
 	</item>
 
 	<item id="18541" phase="2">
-		<info name="Puissant Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_cape_06.png"/>
+		<info name="Puissant Cape" name_zh="强者斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_cape_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="54"/>
 			<stat type="STAMINA" value="12"/>
@@ -184,7 +184,7 @@
 	</item>
 
 	<item id="19436" phase="3">
-		<info name="Cloak of Draconic Might" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_cape_11.png"/>
+		<info name="Cloak of Draconic Might" name_zh="飞龙披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_cape_11.png"/>
 		<stats>
 			<stat type="ARMOR" value="54"/>
 			<stat type="AGILITY" value="16"/>
@@ -197,7 +197,7 @@
 	</item>
 
 	<item id="19398" phase="3">
-		<info name="Cloak of Firemaw" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_misc_cape_18.png"/>
+		<info name="Cloak of Firemaw" name_zh="火喉披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_misc_cape_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="12"/>
@@ -209,7 +209,7 @@
 	</item>
 
 	<item id="19378" phase="3">
-		<info name="Cloak of the Brood Lord" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Cloak of the Brood Lord" name_zh="龙王披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_cape_20.png"/>
 		<stats>
 			<stat type="ARMOR" value="63"/>
 			<stat type="INTELLECT" value="14"/>
@@ -225,7 +225,7 @@
 	</item>
 
 	<item id="20073" phase="4">
-		<info name="Cloak of the Honor Guard" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_misc_cape_02.png"/>
+		<info name="Cloak of the Honor Guard" name_zh="荣誉卫士披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_misc_cape_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="50"/>
 			<stat type="STAMINA" value="11"/>
@@ -238,7 +238,7 @@
 	</item>
 
 	<item id="20068" phase="4">
-		<info name="Deathguard's Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_cape_02.png"/>
+		<info name="Deathguard's Cloak" name_zh="亡灵卫兵披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_cape_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="50"/>
 			<stat type="STAMINA" value="11"/>
@@ -251,7 +251,7 @@
 	</item>
 
 	<item id="22712" phase="4">
-		<info name="Might of the Tribe" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
+		<info name="Might of the Tribe" name_zh="部族之力" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="STAMINA" value="18"/>
@@ -263,7 +263,7 @@
 	</item>
 
 	<item id="19907" phase="4">
-		<info name="Zulian Tigerhide Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_misc_cape_10.png"/>
+		<info name="Zulian Tigerhide Cloak" name_zh="祖利安虎皮披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_misc_cape_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="AGILITY" value="13"/>
@@ -276,7 +276,7 @@
 	</item>
 
 	<item id="22711" phase="4">
-		<info name="Cloak of the Hakkari Worshipers" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
+		<info name="Cloak of the Hakkari Worshipers" name_zh="哈卡莱崇拜者披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="STAMINA" value="6"/>
@@ -289,7 +289,7 @@
 	</item>
 
 	<item id="19857" phase="4">
-		<info name="Cloak of Consumption" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_misc_cape_22.png"/>
+		<info name="Cloak of Consumption" name_zh="吞噬披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_misc_cape_22.png"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
 			<stat type="INTELLECT" value="10"/>
@@ -302,7 +302,7 @@
 	</item>
 
 	<item id="22269" phase="5">
-		<info name="Shadow Prowler's Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Shadow Prowler's Cloak" name_zh="暗影徘徊者披风" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_20.png"/>
 		<stats>
 			<stat type="ARMOR" value="45"/>
 			<stat type="AGILITY" value="17"/>
@@ -314,7 +314,7 @@
 	</item>
 
 	<item id="22337" phase="5">
-		<info name="Shroud of Domination" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_19.png"/>
+		<info name="Shroud of Domination" name_zh="统御裹衣" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="45"/>
 			<stat type="STAMINA" value="7"/>
@@ -326,7 +326,7 @@
 	</item>
 
 	<item id="21394" phase="5">
-		<info name="Drape of Unyielding Strength" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Drape of Unyielding Strength" name_zh="坚定力量披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_20.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -341,7 +341,7 @@
 	</item>
 
 	<item id="21397" phase="5">
-		<info name="Cape of Eternal Justice" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_14.png"/>
+		<info name="Cape of Eternal Justice" name_zh="永恒公正斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_14.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -356,7 +356,7 @@
 	</item>
 
 	<item id="21406" phase="5">
-		<info name="Cloak of Veiled Shadows" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_19.png"/>
+		<info name="Cloak of Veiled Shadows" name_zh="笼罩阴影披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_19.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -370,7 +370,7 @@
 	</item>
 
 	<item id="21403" phase="5">
-		<info name="Cloak of the Unseen Path" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_15.png"/>
+		<info name="Cloak of the Unseen Path" name_zh="隐秘通途披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_15.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -384,7 +384,7 @@
 	</item>
 
 	<item id="21415" phase="5">
-		<info name="Drape of Vaulted Secrets" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_19.png"/>
+		<info name="Drape of Vaulted Secrets" name_zh="魔法秘密披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_misc_cape_19.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -399,7 +399,7 @@
 	</item>
 
 	<item id="20691" phase="5">
-		<info name="Windshear Cape" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_cape_20.png"/>
+		<info name="Windshear Cape" name_zh="风矛斗篷" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_cape_20.png"/>
 		<stats>
 			<stat type="ARMOR" value="50"/>
 			<stat type="AGILITY" value="15"/>
@@ -413,7 +413,7 @@
 	</item>
 
 	<item id="21697" phase="5">
-		<info name="Cape of the Trinity" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_misc_cape_18.png"/>
+		<info name="Cape of the Trinity" name_zh="神性披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_misc_cape_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="17"/>
@@ -426,7 +426,7 @@
 	</item>
 
 	<item id="21701" phase="5">
-		<info name="Cloak of Concentrated Hatred" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_misc_cape_02.png"/>
+		<info name="Cloak of Concentrated Hatred" name_zh="强烈仇恨披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_misc_cape_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="56"/>
 			<stat type="AGILITY" value="16"/>
@@ -440,7 +440,7 @@
 	</item>
 
 	<item id="21710" phase="5">
-		<info name="Cloak of the Fallen God" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_misc_cape_10.png"/>
+		<info name="Cloak of the Fallen God" name_zh="堕落神明披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_misc_cape_10.png"/>
 		<mutex item_id="21712"/>
 		<mutex item_id="21709"/>
 		<stats>
@@ -455,7 +455,7 @@
 	</item>
 
 	<item id="22731" phase="5">
-		<info name="Cloak of the Devoured" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_misc_cape_18.png"/>
+		<info name="Cloak of the Devoured" name_zh="被吞噬者的披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_misc_cape_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="66"/>
 			<stat type="INTELLECT" value="10"/>
@@ -469,7 +469,7 @@
 	</item>
 
 	<item id="23127" phase="6">
-		<info name="Cloak of Revanchion" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_02.png"/>
+		<info name="Cloak of Revanchion" name_zh="报复披风" type="CLOTH" slot="BACK" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_cape_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="45"/>
 			<stat type="STAMINA" value="11"/>
@@ -482,7 +482,7 @@
 	</item>
 
 	<item id="23030" phase="6">
-		<info name="Cloak of the Scourge" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_01.png"/>
+		<info name="Cloak of the Scourge" name_zh="天灾披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="63"/>
 			<stat type="STAMINA" value="23"/>
@@ -495,7 +495,7 @@
 	</item>
 
 	<item id="23017" phase="6">
-		<info name="Veil of Eclipse" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_01.png"/>
+		<info name="Veil of Eclipse" name_zh="日蚀之幕" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="63"/>
 			<stat type="INTELLECT" value="10"/>
@@ -509,7 +509,7 @@
 	</item>
 
 	<item id="23405" phase="6">
-		<info name="Shroud of Dominion" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_03.png"/>
+		<info name="Shroud of Dominion" name_zh="" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="68"/>
 			<stat type="STAMINA" value="11"/>
@@ -522,7 +522,7 @@
 	</item>
 
 	<item id="23050" phase="6">
-		<info name="Cloak of the Necropolis" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_03.png"/>
+		<info name="Cloak of the Necropolis" name_zh="大墓地披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="68"/>
 			<stat type="INTELLECT" value="11"/>

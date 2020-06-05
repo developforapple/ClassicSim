@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="11686" phase="1">
-		<info name="Girdle of Beastial Fury" type="LEATHER" slot="BELT" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_belt_12.png"/>
+		<info name="Girdle of Beastial Fury" name_zh="野兽怒气腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_belt_12.png"/>
 		<stats>
 			<stat type="ARMOR" value="89"/>
 			<stat type="STRENGTH" value="8"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="16713" phase="1">
-		<info name="Shadowcraft Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_belt_03.png"/>
+		<info name="Shadowcraft Belt" name_zh="迅影腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_belt_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="93"/>
 			<stat type="AGILITY" value="14"/>
@@ -28,7 +28,7 @@
 	</item>
 
 	<item id="13252" phase="1">
-		<info name="Cloudrunner Girdle" type="LEATHER" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_10.png"/>
+		<info name="Cloudrunner Girdle" name_zh="踏云束带" type="LEATHER" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="185"/>
 			<stat type="AGILITY" value="15"/>
@@ -40,7 +40,7 @@
 	</item>
 
 	<item id="14636" phase="1">
-		<info name="Cadaverous Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_16.png"/>
+		<info name="Cadaverous Belt" name_zh="苍白腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="97"/>
 			<stat type="STAMINA" value="12"/>
@@ -52,7 +52,7 @@
 	</item>
 
 	<item id="14502" phase="1">
-		<info name="Frostbite Girdle" type="LEATHER" slot="BELT" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_belt_10.png"/>
+		<info name="Frostbite Girdle" name_zh="霜冻束带" type="LEATHER" slot="BELT" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_belt_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="98"/>
 			<stat type="STRENGTH" value="5"/>
@@ -66,7 +66,7 @@
 	</item>
 	
 	<item id="16827" phase="1">
-		<info name="Nightslayer Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_belt_23.png"/>
+		<info name="Nightslayer Belt" name_zh="夜幕杀手腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_belt_23.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="113"/>
@@ -82,7 +82,7 @@
 	</item>
 
 	<item id="18505" phase="2">
-		<info name="Mugger's Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_belt_02.png"/>
+		<info name="Mugger's Belt" name_zh="沼泽鳄皮腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_belt_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="98"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -94,7 +94,7 @@
 	</item>
 
 	<item id="19134" phase="2">
-		<info name="Flayed Doomguard Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_belt_16.png"/>
+		<info name="Flayed Doomguard Belt" name_zh="末日守卫腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_belt_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="115"/>
 			<stat type="STAMINA" value="18"/>
@@ -108,7 +108,7 @@
 	</item>
 
 	<item id="19396" phase="3">
-		<info name="Taut Dragonhide Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_belt_16.png"/>
+		<info name="Taut Dragonhide Belt" name_zh="紧绷的龙皮腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_belt_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="125"/>
 			<stat type="STAMINA" value="17"/>
@@ -124,7 +124,7 @@
 	</item>
 
 	<item id="16910" phase="3">
-		<info name="Bloodfang Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_23.png"/>
+		<info name="Bloodfang Belt" name_zh="血牙腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_23.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="126"/>
@@ -140,7 +140,7 @@
 	</item>
 
 	<item id="20216" phase="4">
-		<info name="Belt of Preserved Heads" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="no" icon="Inv_belt_14.png"/>
+		<info name="Belt of Preserved Heads" name_zh="防腐头颅腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="no" icon="Inv_belt_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="108"/>
 			<stat type="AGILITY" value="15"/>
@@ -154,7 +154,7 @@
 	</item>
 
 	<item id="21586" phase="5">
-		<info name="Belt of Never-ending Agony" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_26.png"/>
+		<info name="Belt of Never-ending Agony" name_zh="无尽痛苦腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_26.png"/>
 		<stats>
 			<stat type="ARMOR" value="142"/>
 			<stat type="STAMINA" value="20"/>
@@ -168,7 +168,7 @@
 	</item>
 
 	<item id="22482" phase="6">
-		<info name="Bonescythe Waistguard" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_27.png"/>
+		<info name="Bonescythe Waistguard" name_zh="骨镰护腰" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_27.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="142"/>
@@ -183,7 +183,7 @@
 	</item>
 	
 	<item id="19163" phase="3">
-		<info name="Molten Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Molten Belt" name_zh="熔火腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="118"/>
 			<stat type="AGILITY" value="28"/>
@@ -196,7 +196,7 @@
 	</item>
 	
 	<item id="21675" phase="5">
-		<info name="Thick Qirajihide Belt" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_15.png"/>
+		<info name="Thick Qirajihide Belt" name_zh="厚重其拉腰带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="186"/>
 			<stat type="STRENGTH" value="10"/>
@@ -210,7 +210,7 @@
 	</item>
 	
 	<item id="20190" phase="4">
-		<info name="Defiler's Leather Girdle" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="63" quality="EPIC" faction="HORDE" boe="no" icon="Inv_belt_17.png"/>
+		<info name="Defiler's Leather Girdle" name_zh="污染者的皮甲束带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="63" quality="EPIC" faction="HORDE" boe="no" icon="Inv_belt_17.png"/>
 		<class_restriction class="DRUID"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
@@ -225,7 +225,7 @@
 	</item>
 	
 	<item id="20045" phase="4">
-		<info name="Highlander's Leather Girdle" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="63" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_belt_17.png"/>
+		<info name="Highlander's Leather Girdle" name_zh="高地皮甲束带" type="LEATHER" slot="BELT" unique="no" req_lvl="60" item_lvl="63" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_belt_17.png"/>
 		<class_restriction class="DRUID"/>
 		<class_restriction class="ROGUE"/>
 		<stats>

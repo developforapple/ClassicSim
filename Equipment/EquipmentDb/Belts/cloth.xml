@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="16685" phase="1">
-		<info name="Magister's Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_belt_08.png"/>
+		<info name="Magister's Belt" name_zh="博学者腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_belt_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="46"/>
 			<stat type="INTELLECT" value="21"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="12589" phase="1">
-		<info name="Dustfeather Sash" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_11.png"/>
+		<info name="Dustfeather Sash" name_zh="尘羽腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_11.png"/>
 		<stats>
 			<stat type="ARMOR" value="49"/>
 			<stat type="INTELLECT" value="18"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="11662" phase="1">
-		<info name="Ban'thok Sash" type="CLOTH" slot="BELT" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="no" icon="Inv_belt_29.png"/>
+		<info name="Ban'thok Sash" name_zh="奥科索尔腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="no" icon="Inv_belt_29.png"/>
 		<stats>
 			<stat type="ARMOR" value="43"/>
 			<stat type="INTELLECT" value="11"/>
@@ -41,7 +41,7 @@
 	</item>
 
 	<item id="13956" phase="1">
-		<info name="Clutch of Andros" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_12.png"/>
+		<info name="Clutch of Andros" name_zh="尸魔腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_12.png"/>
 		<stats>
 			<stat type="ARMOR" value="49"/>
 			<stat type="INTELLECT" value="19"/>
@@ -54,7 +54,7 @@
 	</item>
 
 	<item id="16802" phase="1">
-		<info name="Arcanist Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_belt_30.png"/>
+		<info name="Arcanist Belt" name_zh="奥术师腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_belt_30.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
@@ -70,7 +70,7 @@
 	</item>
 
 	<item id="18740" phase="2">
-		<info name="Thuzadin Sash" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Thuzadin Sash" name_zh="图萨丁腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="49"/>
 			<stat type="INTELLECT" value="12"/>
@@ -84,7 +84,7 @@
 	</item>
 
 	<item id="18405" phase="2">
-		<info name="Belt of the Archmage" type="CLOTH" slot="BELT" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_belt_31.png"/>
+		<info name="Belt of the Archmage" name_zh="大法师腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_belt_31.png"/>
 		<stats>
 			<stat type="ARMOR" value="54"/>
 			<stat type="INTELLECT" value="25"/>
@@ -97,7 +97,7 @@
 	</item>
 
 	<item id="18809" phase="1">
-		<info name="Sash of Whispered Secrets" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_12.png"/>
+		<info name="Sash of Whispered Secrets" name_zh="耳语秘言腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_12.png"/>
 		<stats>
 			<stat type="ARMOR" value="61"/>
 			<stat type="STAMINA" value="20"/>
@@ -110,7 +110,7 @@
 	</item>
 
 	<item id="19136" phase="1">
-		<info name="Mana Igniting Cord" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_11.png"/>
+		<info name="Mana Igniting Cord" name_zh="燃魔腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_11.png"/>
 		<stats>
 			<stat type="ARMOR" value="61"/>
 			<stat type="INTELLECT" value="16"/>
@@ -124,7 +124,7 @@
 	</item>
 
 	<item id="19090" phase="3">
-		<info name="Frostwolf Cloth Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_04.png"/>
+		<info name="Frostwolf Cloth Belt" name_zh="霜狼布质腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="INTELLECT" value="10"/>
@@ -138,7 +138,7 @@
 	</item>
 
 	<item id="19094" phase="3">
-		<info name="Stormpike Cloth Girdle" type="CLOTH" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_04.png"/>
+		<info name="Stormpike Cloth Girdle" name_zh="雷矛布质腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="INTELLECT" value="10"/>
@@ -152,7 +152,7 @@
 	</item>
 
 	<item id="19400" phase="3">
-		<info name="Firemaw's Clutch" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_belt_10.png"/>
+		<info name="Firemaw's Clutch" name_zh="火喉之握" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_belt_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="64"/>
 			<stat type="INTELLECT" value="12"/>
@@ -166,7 +166,7 @@
 	</item>
 
 	<item id="16818" phase="3">
-		<info name="Netherwind Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_22.png"/>
+		<info name="Netherwind Belt" name_zh="灵风腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_22.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="65"/>
@@ -182,7 +182,7 @@
 	</item>
 
 	<item id="16933" phase="3">
-		<info name="Nemesis Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Nemesis Belt" name_zh="复仇腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="65"/>
@@ -199,7 +199,7 @@
 	</item>
 
 	<item id="19388" phase="3">
-		<info name="Angelista's Grasp" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Angelista's Grasp" name_zh="安格莉丝塔之握" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="66"/>
 			<stat type="INTELLECT" value="20"/>
@@ -213,7 +213,7 @@
 	</item>
 
 	<item id="20539" phase="4">
-		<info name="Runed Stygian Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_belt_14.png"/>
+		<info name="Runed Stygian Belt" name_zh="符文冥河腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_belt_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="50"/>
 			<stat type="STAMINA" value="10"/>
@@ -226,7 +226,7 @@
 	</item>
 
 	<item id="20163" phase="4">
-		<info name="Defiler's Cloth Girdle" type="CLOTH" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_17.png"/>
+		<info name="Defiler's Cloth Girdle" name_zh="污染者的布质束带" type="CLOTH" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_17.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -243,7 +243,7 @@
 	</item>
 
 	<item id="20047" phase="4">
-		<info name="Highlander's Cloth Girdle" type="CLOTH" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_17.png"/>
+		<info name="Highlander's Cloth Girdle" name_zh="高地布质束带" type="CLOTH" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_17.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -260,7 +260,7 @@
 	</item>
 
 	<item id="22716" phase="4">
-		<info name="Belt of Untapped Power" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_belt_01.png"/>
+		<info name="Belt of Untapped Power" name_zh="无尽潜能腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_belt_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="54"/>
 			<stat type="INTELLECT" value="7"/>
@@ -273,7 +273,7 @@
 	</item>
 
 	<item id="20217" phase="4">
-		<info name="Belt of Tiny Heads" type="CLOTH" slot="BELT" unique="no" req_lvl="58" item_lvl="70" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Belt of Tiny Heads" name_zh="细小头颅腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="58" item_lvl="70" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="55"/>
 			<stat type="INTELLECT" value="17"/>
@@ -286,7 +286,7 @@
 	</item>
 
 	<item id="20625" phase="4">
-		<info name="Belt of the Dark Bog" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_15.png"/>
+		<info name="Belt of the Dark Bog" name_zh="黑暗沼泽腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_belt_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="61"/>
 			<stat type="STAMINA" value="16"/>
@@ -300,7 +300,7 @@
 	</item>
 
 	<item id="22306" phase="5">
-		<info name="Ironweave Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_03.png"/>
+		<info name="Ironweave Belt" name_zh="铁纹腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_belt_03.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -315,7 +315,7 @@
 	</item>
 
 	<item id="20664" phase="4">
-		<info name="Abyssal Cloth Sash of Sorcery" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="UNCOMMON" boe="yes" icon="Inv_belt_06.png"/>
+		<info name="Abyssal Cloth Sash of Sorcery" name_zh="深渊布质腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="UNCOMMON" boe="yes" icon="Inv_belt_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="47"/>
 			<stat type="STAMINA" value="11"/>
@@ -328,7 +328,7 @@
 	</item>
 
 	<item id="22062" phase="5">
-		<info name="Sorcerer's Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_belt_08.png"/>
+		<info name="Sorcerer's Belt" name_zh="巫师的腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_belt_08.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -343,7 +343,7 @@
 	</item>
 
 	<item id="22070" phase="5">
-		<info name="Deathmist Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_belt_12.png"/>
+		<info name="Deathmist Belt" name_zh="死雾腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_belt_12.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="52"/>
@@ -357,7 +357,7 @@
 	</item>
 
 	<item id="22730" phase="5">
-		<info name="Eyestalk Waist Cord" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_12.png"/>
+		<info name="Eyestalk Waist Cord" name_zh="眼柄腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_12.png"/>
 		<stats>
 			<stat type="ARMOR" value="75"/>
 			<stat type="INTELLECT" value="9"/>
@@ -371,7 +371,7 @@
 	</item>
 
 	<item id="23126" phase="6">
-		<info name="Waistband of Balzaphon" type="CLOTH" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Waistband of Balzaphon" name_zh="巴尔萨冯的腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="INTELLECT" value="14"/>
@@ -384,7 +384,7 @@
 	</item>
 
 	<item id="22502" phase="6">
-		<info name="Frostfire Belt" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_03.png"/>
+		<info name="Frostfire Belt" name_zh="霜火腰带" type="CLOTH" slot="BELT" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_belt_03.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="75"/>

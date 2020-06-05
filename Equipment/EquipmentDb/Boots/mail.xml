@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="13967" phase="1">
-		<info name="Windreaver Greaves" type="MAIL" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Windreaver Greaves" name_zh="疾风胫甲" type="MAIL" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_boots_plate_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="247"/>
 			<stat type="AGILITY" value="20"/>
@@ -13,7 +13,7 @@
 	</item>
 
 	<item id="16675" phase="1">
-		<info name="Beaststalker's Boots" type="MAIL" slot="BOOTS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_boots_plate_07.png"/>
+		<info name="Beaststalker's Boots" name_zh="野兽追猎者长靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_boots_plate_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="240"/>
 			<stat type="AGILITY" value="21"/>
@@ -25,7 +25,7 @@
 	</item>
 
 	<item id="11731" phase="1">
-		<info name="Savage Gladiator Greaves" type="MAIL" slot="BOOTS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_boots_01.png"/>
+		<info name="Savage Gladiator Greaves" name_zh="野蛮角斗士护胫" type="MAIL" slot="BOOTS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_boots_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="233"/>
 			<stat type="AGILITY" value="15"/>
@@ -38,7 +38,7 @@
 	</item>
 
 	<item id="14616" phase="1">
-		<info name="Bloodmail Boots" type="MAIL" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_boots_01.png"/>
+		<info name="Bloodmail Boots" name_zh="血链战靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_boots_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="247"/>
 			<stat type="STAMINA" value="10"/>
@@ -53,7 +53,7 @@
 	</item>
 
 	<item id="16984" phase="1">
-		<info name="Black Dragonscale Boots" type="MAIL" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="EPIC" boe="no" icon="Inv_boots_plate_09.png"/>
+		<info name="Black Dragonscale Boots" name_zh="黑色龙鳞战靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="EPIC" boe="no" icon="Inv_boots_plate_09.png"/>
 		<stats>
 			<stat type="ARMOR" value="270"/>
 			<stat type="STAMINA" value="10"/>
@@ -66,7 +66,7 @@
 	</item>
 
 	<item id="16849" phase="1">
-		<info name="Giantstalker's Boots" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_chain_13.png"/>
+		<info name="Giantstalker's Boots" name_zh="巨人追猎者长靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_chain_13.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="290"/>
@@ -81,7 +81,7 @@
 	</item>
 
 	<item id="19144" phase="1">
-		<info name="Sabatons of the Flamewalker" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_boots_chain_05.png"/>
+		<info name="Sabatons of the Flamewalker" name_zh="烈焰行者重靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_boots_chain_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="298"/>
 			<stat type="STAMINA" value="27"/>
@@ -94,7 +94,7 @@
 	</item>
 
 	<item id="23278" phase="2">
-		<info name="Knight-Lieutenant's Chain Greaves" type="MAIL" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_05.png"/>
+		<info name="Knight-Lieutenant's Chain Greaves" name_zh="骑士中尉的链甲长靴" type="MAIL" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_05.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="266"/>
@@ -107,7 +107,7 @@
 	</item>
 
 	<item id="22843" phase="2">
-		<info name="Blood Guard's Chain Greaves" type="MAIL" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="66" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_05.png"/>
+		<info name="Blood Guard's Chain Greaves" name_zh="血卫士的链甲长靴" type="MAIL" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="66" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_05.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="266"/>
@@ -120,7 +120,7 @@
 	</item>
 
 	<item id="16462" phase="2">
-		<info name="Marshal's Chain Boots" type="MAIL" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_07.png"/>
+		<info name="Marshal's Chain Boots" name_zh="统帅的链甲战靴" type="MAIL" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_07.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="361"/>
@@ -135,7 +135,7 @@
 	</item>
 
 	<item id="16569" phase="2">
-		<info name="General's Chain Boots" type="MAIL" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_boots_plate_06.png"/>
+		<info name="General's Chain Boots" name_zh="将军的链甲战靴" type="MAIL" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_boots_plate_06.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="361"/>
@@ -150,7 +150,7 @@
 	</item>
 
 	<item id="16941" phase="3">
-		<info name="Dragonstalker's Greaves" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_boots_plate_07.png"/>
+		<info name="Dragonstalker's Greaves" name_zh="巨龙追猎者胫甲" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_boots_plate_07.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="332"/>
@@ -166,7 +166,7 @@
 	</item>
 
 	<item id="19919" phase="4">
-		<info name="Bloodstained Greaves" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_boots_chain_04.png"/>
+		<info name="Bloodstained Greaves" name_zh="血污胫甲" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_boots_chain_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="274"/>
 			<stat type="AGILITY" value="21"/>
@@ -179,7 +179,7 @@
 	</item>
 
 	<item id="20050" phase="4">
-		<info name="Highlander's Chain Greaves" type="MAIL" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_chain_02.png"/>
+		<info name="Highlander's Chain Greaves" name_zh="高地链甲护胫" type="MAIL" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_chain_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="255"/>
 			<stat type="STAMINA" value="16"/>
@@ -195,7 +195,7 @@
 	</item>
 
 	<item id="20154" phase="4">
-		<info name="Defiler's Chain Greaves" type="MAIL" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_chain_02.png"/>
+		<info name="Defiler's Chain Greaves" name_zh="污染者的链甲护胫" type="MAIL" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_chain_02.png"/>
 		<class_restriction class="HUNTER"/>
 		<class_restriction class="SHAMAN"/>
 		<stats>
@@ -213,7 +213,7 @@
 	</item>
 
 	<item id="22061" phase="5">
-		<info name="Beastmaster's Boots" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_boots_plate_07.png"/>
+		<info name="Beastmaster's Boots" name_zh="兽王长靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_boots_plate_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="266"/>
 			<stat type="AGILITY" value="24"/>
@@ -229,7 +229,7 @@
 	</item>
 
 	<item id="21497" phase="5">
-		<info name="Boots of the Qiraji General" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_boots_chain_11.png"/>
+		<info name="Boots of the Qiraji General" name_zh="其拉将军长靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_boots_chain_11.png"/>
 		<stats>
 			<stat type="ARMOR" value="285"/>
 			<stat type="AGILITY" value="26"/>
@@ -241,7 +241,7 @@
 	</item>
 
 	<item id="21365" phase="5">
-		<info name="Striker's Footguards" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_chain_08.png"/>
+		<info name="Striker's Footguards" name_zh="攻击者的足甲" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_chain_08.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="340"/>
@@ -257,7 +257,7 @@
 	</item>
 
 	<item id="22440" phase="6">
-		<info name="Crypstalker Boots" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_boots_chain_05.png"/>
+		<info name="Crypstalker Boots" name_zh="地穴追猎者长靴" type="MAIL" slot="BOOTS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_boots_chain_05.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="372"/>

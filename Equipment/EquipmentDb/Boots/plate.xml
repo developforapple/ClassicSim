@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="11919" phase="1">
-		<info name="Cragplate Greaves" type="PLATE" slot="BOOTS" unique="no" req_lvl="49" item_lvl="55" quality="UNCOMMON" boe="no" icon="Inv_boots_plate_08.png"/>
+		<info name="Cragplate Greaves" name_zh="峭崖胫甲" type="PLATE" slot="BOOTS" unique="no" req_lvl="49" item_lvl="55" quality="UNCOMMON" boe="no" icon="Inv_boots_plate_08.png"/>
 		<mutex item_id="11918"/>
 		<stats>
 			<stat type="ARMOR" value="361"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="12555" phase="1">
-		<info name="Battlechaser's Greaves" type="PLATE" slot="BOOTS" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="yes" icon="Inv_boots_plate_06.png"/>
+		<info name="Battlechaser's Greaves" name_zh="驱逐者胫甲" type="PLATE" slot="BOOTS" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="yes" icon="Inv_boots_plate_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="397"/>
 			<stat type="AGILITY" value="13"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="13070" phase="1">
-		<info name="Sapphiron's Scale Boots" type="PLATE" slot="BOOTS" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_boots_plate_05.png"/>
+		<info name="Sapphiron's Scale Boots" name_zh="萨菲隆的鳞片长靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="yes" icon="Inv_boots_plate_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="417"/>
 			<stat type="AGILITY" value="9"/>
@@ -40,7 +40,7 @@
 	</item>
 
 	<item id="16965" phase="3">
-		<info name="Sabatons of Wrath" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Sabatons of Wrath" name_zh="愤怒马靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="589"/>
@@ -56,7 +56,7 @@
 	</item>
 
 	<item id="23287" phase="2">
-		<info name="Knight-Lieutenant's Plate Greaves" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_09.png"/>
+		<info name="Knight-Lieutenant's Plate Greaves" name_zh="骑士中尉的板甲战靴" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="472"/>
@@ -70,7 +70,7 @@
 	</item>
 
 	<item id="16862" phase="1">
-		<info name="Sabatons of Might" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Sabatons of Might" name_zh="力量马靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="515"/>
@@ -85,7 +85,7 @@
 	</item>
 
 	<item id="22858" phase="2">
-		<info name="Blood Guard's Plate Greaves" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_plate_09.png"/>
+		<info name="Blood Guard's Plate Greaves" name_zh="血卫士的板甲战靴" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_plate_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="472"/>
@@ -99,7 +99,7 @@
 	</item>
 
 	<item id="23275" phase="2">
-		<info name="Knight-Lieutenant's Lamellar Greaves" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_boots_plate_03.png"/>
+		<info name="Knight-Lieutenant's Lamellar Greaves" name_zh="骑士中尉的板层甲马靴" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_boots_plate_03.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="472"/>
@@ -114,7 +114,7 @@
 	</item>
 
 	<item id="16472" phase="2">
-		<info name="Marshal's Lamellar Boots" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_boots_plate_09.png"/>
+		<info name="Marshal's Lamellar Boots" name_zh="统帅的板层甲战靴" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_boots_plate_09.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="552"/>
@@ -130,7 +130,7 @@
 	</item>
 
 	<item id="16483" phase="2">
-		<info name="Marshal's Plate Boots" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_09.png"/>
+		<info name="Marshal's Plate Boots" name_zh="统帅的板甲战靴" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="592"/>
@@ -145,7 +145,7 @@
 	</item>
 
 	<item id="16545" phase="2">
-		<info name="General's Plate Boots" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="General's Plate Boots" name_zh="将军的板甲战靴" type="PLATE" slot="BOOTS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_boots_plate_04.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="592"/>
@@ -160,7 +160,7 @@
 	</item>
 
 	<item id="19387" phase="3">
-		<info name="Chromatic Boots" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Chromatic Boots" name_zh="多彩长靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="596"/>
 			<stat type="AGILITY" value="20"/>
@@ -174,7 +174,7 @@
 	</item>
 
 	<item id="20049"  phase="4">
-		<info name="Highlander's Lamellar Greaves" type="PLATE" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Highlander's Lamellar Greaves" name_zh="高地板层甲护胫" type="PLATE" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_04.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="452"/>
@@ -192,7 +192,7 @@
 	</item>
 
 	<item id="20048"  phase="4">
-		<info name="Highlander's Plate Greaves" type="PLATE" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Highlander's Plate Greaves" name_zh="高地板甲护胫" type="PLATE" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_plate_04.png"/>
 		<class_restriction class="WARRIOR"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
@@ -210,7 +210,7 @@
 	</item>
 
 	<item id="20208" phase="4">
-		<info name="Defiler's Plate Greaves" type="PLATE" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Defiler's Plate Greaves" name_zh="污染者的板甲护胫" type="PLATE" slot="BOOTS" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_plate_04.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="452"/>
@@ -227,7 +227,7 @@
 	</item>
 
 	<item id="21481" phase="5">
-		<info name="Boots of the Desert Protector" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_boots_plate_05.png"/>
+		<info name="Boots of the Desert Protector" name_zh="沙漠保护者长靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_boots_plate_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="519"/>
 			<stat type="STRENGTH" value="14"/>
@@ -241,7 +241,7 @@
 	</item>
 
 	<item id="21490" phase="5">
-		<info name="Slime Kickers" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
+		<info name="Slime Kickers" name_zh="粘液长靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_boots_plate_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="519"/>
 			<stat type="STRENGTH" value="18"/>
@@ -255,7 +255,7 @@
 	</item>
 
 	<item id="21688" phase="5">
-		<info name="Boots of the Fallen Hero" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_boots_plate_01.png"/>
+		<info name="Boots of the Fallen Hero" name_zh="堕落英雄长靴" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_boots_plate_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="581"/>
 			<stat type="STRENGTH" value="20"/>
@@ -269,7 +269,7 @@
 	</item>
 
 	<item id="21333" phase="5">
-		<info name="Conqueror's Greaves" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_plate_05.png"/>
+		<info name="Conqueror's Greaves" name_zh="征服者的胫甲" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_plate_05.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="604"/>
@@ -284,7 +284,7 @@
 	</item>
 
 	<item id="21388" phase="5">
-		<info name="Avenger's Greaves" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_chain_07.png"/>
+		<info name="Avenger's Greaves" name_zh="复仇者的胫甲" type="PLATE" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_chain_07.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="604"/>

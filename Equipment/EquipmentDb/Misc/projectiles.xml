@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <projectiles>
 	<projectile id="11284" phase="1">
-		<info name="Accurate Slugs" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="40" item_lvl="45" quality="COMMON" boe="yes" icon="Inv_ammo_bullet_01.png"/>
+		<info name="Accurate Slugs" name_zh="精准弹丸" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="40" item_lvl="45" quality="COMMON" boe="yes" icon="Inv_ammo_bullet_01.png"/>
 		<dps value="13.0"/>
 		<source>
 			Sold by many vendors (Gunsmiths, General Goods vendors, and more).
@@ -9,7 +9,7 @@
 	</projectile>
 
 	<projectile id="11285" phase="1">
-		<info name="Jagged Arrow" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="40" item_lvl="45" quality="COMMON" boe="yes" icon="Inv_weapon_shortblade_25.png"/>
+		<info name="Jagged Arrow" name_zh="锯齿箭" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="40" item_lvl="45" quality="COMMON" boe="yes" icon="Inv_weapon_shortblade_25.png"/>
 		<dps value="13.0"/>
 		<source>
 			Sold by many vendors (Bow Merchants, General Goods vendors, Bowyers, and more).
@@ -17,7 +17,7 @@
 	</projectile>
 
 	<projectile id="10513" phase="1">
-		<info name="Mithril Gyro-Shot" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="44" item_lvl="49" quality="UNCOMMON" boe="yes" icon="Inv_ammo_bullet_01.png"/>
+		<info name="Mithril Gyro-Shot" name_zh="秘银螺旋弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="44" item_lvl="49" quality="UNCOMMON" boe="yes" icon="Inv_ammo_bullet_01.png"/>
 		<dps value="15.0"/>
 		<source>
 			Crafted by Engineers (245).
@@ -25,7 +25,7 @@
 	</projectile>
 
 	<projectile id="11630" phase="1">
-		<info name="Rockshard Pellets" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_ammo_bullet_02.png"/>
+		<info name="Rockshard Pellets" name_zh="石片弹丸" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_ammo_bullet_02.png"/>
 		<dps value="18.0"/>
 		<source>
 			Drops from Lord Roccor in Blackrock Depths.
@@ -33,7 +33,7 @@
 	</projectile>
 
 	<projectile id="19316" phase="3">
-		<info name="Ice Threaded Arrow" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="51" item_lvl="54" quality="UNCOMMON" boe="no" icon="Spell_frost_iceshard.png"/>
+		<info name="Ice Threaded Arrow" name_zh="冰线箭矢" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="51" item_lvl="54" quality="UNCOMMON" boe="no" icon="Spell_frost_iceshard.png"/>
 		<dps value="16.5"/>
 		<source>
 			Sold by Alterac Valley faction vendors inside and outside of battleground.
@@ -41,7 +41,7 @@
 	</projectile>
 
 	<projectile id="19317" phase="3">
-		<info name="Ice Threaded Bullet" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="51" item_lvl="54" quality="UNCOMMON" boe="no" icon="Spell_frost_frostblast.png"/>
+		<info name="Ice Threaded Bullet" name_zh="冰线枪弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="51" item_lvl="54" quality="UNCOMMON" boe="no" icon="Spell_frost_frostblast.png"/>
 		<dps value="16.5"/>
 		<source>
 			Sold by Alterac Valley faction vendors inside and outside of battleground.
@@ -49,7 +49,7 @@
 	</projectile>
 
 	<projectile id="18042" phase="1">
-		<info name="Thorium Headed Arrow" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="52" item_lvl="57" quality="UNCOMMON" boe="yes" icon="Inv_ammo_arrow_02.png"/>
+		<info name="Thorium Headed Arrow" name_zh="瑟银之箭" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="52" item_lvl="57" quality="UNCOMMON" boe="yes" icon="Inv_ammo_arrow_02.png"/>
 		<dps value="17.5"/>
 		<source>
 			Quest reward. Requires Thorium Shells x200, which are crafted by Engineers.
@@ -57,7 +57,7 @@
 	</projectile>
 
 	<projectile id="15997" phase="1">
-		<info name="Thorium Shells" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="52" item_lvl="57" quality="UNCOMMON" boe="yes" icon="Inv_ammo_bullet_03.png"/>
+		<info name="Thorium Shells" name_zh="瑟银弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="52" item_lvl="57" quality="UNCOMMON" boe="yes" icon="Inv_ammo_bullet_03.png"/>
 		<dps value="17.5"/>
 		<source>
 			Crafted by Engineers (285).
@@ -65,7 +65,7 @@
 	</projectile>
 
 	<projectile id="12654" phase="1">
-		<info name="Doomshot" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Ability_hunter_criticalshot.png"/>
+		<info name="Doomshot" name_zh="末日之击" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Ability_hunter_criticalshot.png"/>
 		<dps value="20.0"/>
 		<source>
 			Drops from Shadow Hunter Vosh'gajin in Lower Blackrock Spire (LBRS).
@@ -73,7 +73,7 @@
 	</projectile>
 
 	<projectile id="13377" phase="1">
-		<info name="Miniature Cannon Balls" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_ammo_bullet_02.png"/>
+		<info name="Miniature Cannon Balls" name_zh="迷你炮弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_ammo_bullet_02.png"/>
 		<dps value="20.5"/>
 		<source>
 			Drops from Cannon Master Willey in Stratholme Living.

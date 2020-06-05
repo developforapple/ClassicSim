@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="16678" phase="1">
-		<info name="Beaststalker's Pants" type="MAIL" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Beaststalker's Pants" name_zh="野兽追猎者短裤" type="MAIL" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="315"/>
 			<stat type="AGILITY" value="26"/>
@@ -15,7 +15,7 @@
 	</item>
 
 	<item id="11728" phase="1">
-		<info name="Savage Gladiator Leggings" type="MAIL" slot="LEGS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Savage Gladiator Leggings" name_zh="野蛮角斗士护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="296"/>
 			<stat type="STAMINA" value="19"/>
@@ -28,7 +28,7 @@
 	</item>
 
 	<item id="14612" phase="1">
-		<info name="Bloodmail Leguards" type="MAIL" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+		<info name="Bloodmail Leguards" name_zh="血链护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="315"/>
 			<stat type="INTELLECT" value="15"/>
@@ -42,7 +42,7 @@
 	</item>
 
 	<item id="15052" phase="1">
-		<info name="Black Dragonscale Leggings" type="MAIL" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_pants_03.png"/>
+		<info name="Black Dragonscale Leggings" name_zh="黑色龙鳞护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_pants_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="320"/>
 			<stat type="STAMINA" value="8"/>
@@ -55,7 +55,7 @@
 	</item>
 
 	<item id="16847" phase="1">
-		<info name="Giantstalker's Leggings" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_pants_mail_03.png"/>
+		<info name="Giantstalker's Leggings" name_zh="巨人追猎者护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_pants_mail_03.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="369"/>
@@ -72,7 +72,7 @@
 	</item>
 
 	<item id="16938" phase="1">
-		<info name="Dragonstalker's Legguards" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Dragonstalker's Legguards" name_zh="巨龙追猎者腿甲" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_03.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="422"/>
@@ -91,7 +91,7 @@
 	</item>
 
 	<item id="18524" phase="2">
-		<info name="Leggings of Destruction" type="MAIL" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Leggings of Destruction" name_zh="毁灭护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="324"/>
 			<stat type="AGILITY" value="14"/>
@@ -105,7 +105,7 @@
 	</item>
 
 	<item id="23293" phase="2">
-		<info name="Knight-Captain's Chain Legguards" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Knight-Captain's Chain Legguards" name_zh="骑士队长的链甲腿铠" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_pants_03.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="348"/>
@@ -120,7 +120,7 @@
 	</item>
 
 	<item id="22875" phase="2">
-		<info name="Legionnaire's Chain Legguards" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Legionnaire's Chain Legguards" name_zh="军团士兵的链甲护腿" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_pants_03.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="348"/>
@@ -135,7 +135,7 @@
 	</item>
 
 	<item id="16467" phase="2">
-		<info name="Marshal's Chain Legguards" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_mail_17.png"/>
+		<info name="Marshal's Chain Legguards" name_zh="统帅的链甲护腿" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_mail_17.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="446"/>
@@ -150,7 +150,7 @@
 	</item>
 
 	<item id="16567" phase="2">
-		<info name="General's Chain Legguards" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_mail_16.png"/>
+		<info name="General's Chain Legguards" name_zh="将军的链甲护腿" type="MAIL" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_mail_16.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="446"/>
@@ -165,7 +165,7 @@
 	</item>
 
 	<item id="19887" phase="4">
-		<info name="Bloodstained Legplates" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_pants_mail_09.png"/>
+		<info name="Bloodstained Legplates" name_zh="血污腿甲" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_pants_mail_09.png"/>
 		<stats>
 			<stat type="ARMOR" value="363"/>
 			<stat type="AGILITY" value="24"/>
@@ -179,7 +179,7 @@
 	</item>
 
 	<item id="21651" phase="5">
-		<info name="Scaled Sand Reaver Leggings" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_pants_mail_10.png"/>
+		<info name="Scaled Sand Reaver Leggings" name_zh="缀鳞沙漠掠夺者护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_pants_mail_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="427"/>
 			<stat type="STAMINA" value="23"/>
@@ -193,7 +193,7 @@
 	</item>
 
 	<item id="21368" phase="5">
-		<info name="Striker's Leggings" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_mail_11.png"/>
+		<info name="Striker's Leggings" name_zh="攻击者的护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_mail_11.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="448"/>
@@ -210,7 +210,7 @@
 	</item>
 
 	<item id="22017" phase="5">
-		<info name="Beastmaster's Pants" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
+		<info name="Beastmaster's Pants" name_zh="兽王短裤" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_pants_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="339"/>
 			<stat type="AGILITY" value="28"/>
@@ -223,7 +223,7 @@
 	</item>
 
 	<item id="22437" phase="6">
-		<info name="Crypstalker Legguards" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_pants_mail_15.png"/>
+		<info name="Crypstalker Legguards" name_zh="地穴追猎者护腿" type="MAIL" slot="LEGS" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_pants_mail_15.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="484"/>

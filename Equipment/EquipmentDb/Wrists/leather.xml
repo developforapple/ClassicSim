@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<wrist id="12966" phase="1">
-		<info name="Blackmist Armguards" type="LEATHER" slot="WRIST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_bracer_07.png"/>
+		<info name="Blackmist Armguards" name_zh="黑雾护臂" type="LEATHER" slot="WRIST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_bracer_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="77"/>
 			<stat type="STAMINA" value="13"/>
@@ -15,7 +15,7 @@
 	</wrist>
 
 	<wrist id="13120" phase="1">
-		<info name="Deepfury Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="yes" icon="Inv_bracer_07.png"/>
+		<info name="Deepfury Bracers" name_zh="深怒护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="yes" icon="Inv_bracer_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="69"/>
 			<stat type="AGILITY" value="15"/>
@@ -28,7 +28,7 @@
 	</wrist>
 
 	<wrist id="16710" phase="1">
-		<info name="Shadowcraft Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="yes" icon="Inv_bracer_07.png"/>
+		<info name="Shadowcraft Bracers" name_zh="迅影护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="yes" icon="Inv_bracer_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="71"/>
 			<stat type="AGILITY" value="15"/>
@@ -40,7 +40,7 @@
 	</wrist>
 
 	<wrist id="16825" phase="1">
-		<info name="Nightslayer Bracelets" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_bracer_02.png"/>
+		<info name="Nightslayer Bracelets" name_zh="夜幕杀手护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="yes" icon="Inv_bracer_02.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="88"/>
@@ -53,7 +53,7 @@
 	</wrist>
 
 	<wrist id="19146" phase="1">
-		<info name="Wristguards of Stability" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_bracer_04.png"/>
+		<info name="Wristguards of Stability" name_zh="稳固护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_bracer_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="86"/>
 			<stat type="STRENGTH" value="24"/>
@@ -65,7 +65,7 @@
 	</wrist>
 
 	<wrist id="18375" phase="2">
-		<info name="Bracers of the Eclipse" type="LEATHER" slot="WRIST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_bracer_07.png"/>
+		<info name="Bracers of the Eclipse" name_zh="日蚀护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_bracer_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="76"/>
 			<stat type="AGILITY" value="10"/>
@@ -78,7 +78,7 @@
 	</wrist>
 
 	<wrist id="19587" phase="3">
-		<info name="Forest Stalker's Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_bracer_12.png"/>
+		<info name="Forest Stalker's Bracers" name_zh="巡林者护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_bracer_12.png"/>
 		<stats>
 			<stat type="ARMOR" value="86"/>
 			<stat type="AGILITY" value="19"/>
@@ -91,7 +91,7 @@
 	</wrist>
 
 	<wrist id="16911" phase="3">
-		<info name="Bloodfang Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_bracer_02.png"/>
+		<info name="Bloodfang Bracers" name_zh="血牙护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_bracer_02.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="98"/>
@@ -105,7 +105,7 @@
 	</wrist>
 
 	<wrist id="19687" phase="4">
-		<info name="Primal Batskin Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_bracer_07.png"/>
+		<info name="Primal Batskin Bracers" name_zh="原始蝙蝠皮护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_bracer_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="79"/>
 			<stat type="AGILITY" value="14"/>
@@ -118,7 +118,7 @@
 	</wrist>
 
 	<wrist id="20615" phase="4">
-		<info name="Dragonspur Wraps" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_bracer_15.png"/>
+		<info name="Dragonspur Wraps" name_zh="龙刺裹布" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_bracer_15.png"/>
 		<stats>
 			<stat type="ARMOR" value="93"/>
 			<stat type="STAMINA" value="17"/>
@@ -135,7 +135,7 @@
 	</wrist>
 
 	<wrist id="21491" phase="5">
-		<info name="Scaled Bracers of the Gorger" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="73" quality="RARE" boe="no" icon="Inv_bracer_03.png"/>
+		<info name="Scaled Bracers of the Gorger" name_zh="缀鳞吞咽者护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="73" quality="RARE" boe="no" icon="Inv_bracer_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
 			<stat type="AGILITY" value="15"/>
@@ -148,7 +148,7 @@
 	</wrist>
 
 	<wrist id="21602" phase="5">
-		<info name="Qiraji Execution Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_bracer_13.png"/>
+		<info name="Qiraji Execution Bracers" name_zh="其拉死刑护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_bracer_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="103"/>
 			<stat type="AGILITY" value="16"/>
@@ -162,7 +162,7 @@
 	</wrist>
 
 	<wrist id="22483" phase="6">
-		<info name="Bonescythe Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_bracer_15.png"/>
+		<info name="Bonescythe Bracers" name_zh="骨镰护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_bracer_15.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="111"/>

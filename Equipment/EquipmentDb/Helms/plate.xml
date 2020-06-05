@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="14866" phase="1">
-		<info name="Warleader's Crown" type="PLATE" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="UNCOMMON" boe="yes" icon="Inv_helmet_19.png"/>
+		<info name="Warleader's Crown" name_zh="领军头冠" type="PLATE" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="UNCOMMON" boe="yes" icon="Inv_helmet_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="478"/>
 			<stat type="STRENGTH" value="18"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="16727" phase="1">
-		<info name="Lightforge Helm" type="PLATE" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_08.png"/>
+		<info name="Lightforge Helm" name_zh="光铸头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="478"/>
 			<stat type="STAMINA" value="20"/>
@@ -29,7 +29,7 @@
 	</item>
 
 	<item id="16731" phase="1">
-		<info name="Helm of Valor" type="PLATE" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_02.png"/>
+		<info name="Helm of Valor" name_zh="勇气头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="478"/>
 			<stat type="STAMINA" value="23"/>
@@ -43,7 +43,7 @@
 	</item>
 
 	<item id="16866" phase="1">
-		<info name="Helm of Might" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_helmet_09.png"/>
+		<info name="Helm of Might" name_zh="力量头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_helmet_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="608"/>
@@ -59,7 +59,7 @@
 	</item>
 
 	<item id="16963" phase="1">
-		<info name="Helm of Wrath" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_helmet_71.png"/>
+		<info name="Helm of Wrath" name_zh="愤怒头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_helmet_71.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="696"/>
@@ -75,7 +75,7 @@
 	</item>
 
 	<item id="12640" phase="1">
-		<info name="Lionheart Helm" type="PLATE" slot="HEAD" unique="no" req_lvl="56" item_lvl="61" quality="EPIC" boe="yes" icon="Inv_helmet_36.png"/>
+		<info name="Lionheart Helm" name_zh="狮心头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="56" item_lvl="61" quality="EPIC" boe="yes" icon="Inv_helmet_36.png"/>
 		<stats>
 			<stat type="ARMOR" value="565"/>
 			<stat type="STRENGTH" value="18"/>
@@ -88,7 +88,7 @@
 	</item>
 
 	<item id="18718" phase="1">
-		<info name="Grand Crusader's Helm" type="PLATE" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_10.png"/>
+		<info name="Grand Crusader's Helm" name_zh="大十字军的头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="584"/>
 			<stat type="STRENGTH" value="16"/>
@@ -102,7 +102,7 @@
 	</item>
 
 	<item id="19148" phase="2">
-		<info name="Dark Iron Helm" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_helmet_22.png"/>
+		<info name="Dark Iron Helm" name_zh="黑铁头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_helmet_22.png"/>
 		<stats>
 			<stat type="ARMOR" value="758"/>
 			<stat type="STAMINA" value="20"/>
@@ -114,7 +114,7 @@
 	</item>
 
 	<item id="23314" phase="2">
-		<info name="Lieutenant Commander's Plate Helm" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_helmet_09.png"/>
+		<info name="Lieutenant Commander's Plate Helm" name_zh="少校的板甲头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_helmet_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="598"/>
@@ -129,7 +129,7 @@
 	</item>
 
 	<item id="23244" phase="2">
-		<info name="Champion's Plate Helm" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
+		<info name="Champion's Plate Helm" name_zh="勇士的板甲头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="598"/>
@@ -144,7 +144,7 @@
 	</item>
 
 	<item id="16542" phase="2">
-		<info name="Warlord's Plate Headpiece" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
+		<info name="Warlord's Plate Headpiece" name_zh="督军的板甲头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="719"/>
@@ -158,7 +158,7 @@
 	</item>
 
 	<item id="16478" phase="2">
-		<info name="Field Marshal's Plate Helm" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_helmet_05.png"/>
+		<info name="Field Marshal's Plate Helm" name_zh="元帅的板甲头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_helmet_05.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="598"/>
@@ -172,7 +172,7 @@
 	</item>
 
 	<item id="23276" phase="2">
-		<info name="Lieutenant Commander's Lamellar Headguard" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_helmet_05.png"/>
+		<info name="Lieutenant Commander's Lamellar Headguard" name_zh="少校的板层甲头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_helmet_05.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="598"/>
@@ -187,7 +187,7 @@
 	</item>
 
 	<item id="16474" phase="2">
-		<info name="Field Marshal's Lamellar Headguard" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_helmet_05.png"/>
+		<info name="Field Marshal's Lamellar Headguard" name_zh="元帅的板层甲头盔" type="PLATE" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_helmet_05.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="679"/>
@@ -204,7 +204,7 @@
 	</item>
 
 	<item id="19372" phase="3">
-		<info name="Helm of Endless Rage" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_helmet_10.png"/>
+		<info name="Helm of Endless Rage" name_zh="无尽怒气头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_helmet_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="679"/>
 			<stat type="STRENGTH" value="26"/>
@@ -218,7 +218,7 @@
 
 
 	<item id="20263" phase="4">
-		<info name="Gurubashi Helm" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_helmet_25.png"/>
+		<info name="Gurubashi Helm" name_zh="古拉巴什头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_helmet_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="549"/>
 			<stat type="STRENGTH" value="22"/>
@@ -231,7 +231,7 @@
 	</item>
 
 	<item id="20551" phase="5">
-		<info name="Darkrune Helm" type="PLATE" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_10.png"/>
+		<info name="Darkrune Helm" name_zh="黑暗符文头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_10.png"/>
 		<stats>
 			<stat type="ARMOR" value="584"/>
 			<stat type="STAMINA" value="13"/>
@@ -244,7 +244,7 @@
 	</item>
 
 	<item id="21460" phase="5">
-		<info name="Helm of Domination" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_helmet_09.png"/>
+		<info name="Helm of Domination" name_zh="统御头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_helmet_09.png"/>
 		<stats>
 			<stat type="ARMOR" value="661"/>
 			<stat type="STAMINA" value="28"/>
@@ -259,7 +259,7 @@
 	</item>
 
 	<item id="21329" phase="5">
-		<info name="Conqueror's Crown" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_72.png"/>
+		<info name="Conqueror's Crown" name_zh="征服者的皇冠" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_72.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="739"/>
@@ -274,7 +274,7 @@
 	</item>
 
 	<item id="22411" phase="5">
-		<info name="Helm of the Executioner" type="PLATE" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_01.png"/>
+		<info name="Helm of the Executioner" name_zh="刽子手的头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="534"/>
 			<stat type="STRENGTH" value="14"/>
@@ -287,7 +287,7 @@
 	</item>
 
 	<item id="21387" phase="5">
-		<info name="Avenger's Crown" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_72.png"/>
+		<info name="Avenger's Crown" name_zh="复仇者的王冠" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_72.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="739"/>
@@ -305,7 +305,7 @@
 	</item>
 
 	<item id="23019" phase="6">
-		<info name="Icebane Helmet" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_helmet_06.png"/>
+		<info name="Icebane Helmet" name_zh="破冰头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_helmet_06.png"/>
 		<stats>
 			<stat type="ARMOR" value="757"/>
 			<stat type="STAMINA" value="24"/>
@@ -319,7 +319,7 @@
 	</item>
 
 	<item id="22418" phase="6">
-		<info name="Dreadnaught Helmet" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_58.png"/>
+		<info name="Dreadnaught Helmet" name_zh="无畏头盔" type="PLATE" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_58.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="800"/>

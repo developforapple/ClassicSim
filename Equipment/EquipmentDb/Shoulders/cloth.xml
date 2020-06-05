@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="7060" phase="1">
-		<info name="Azure Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="33" item_lvl="38" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_27.png"/>
+		<info name="Azure Shoulders" name_zh="碧蓝护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="33" item_lvl="38" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_27.png"/>
 		<stats>
 			<stat type="ARMOR" value="38"/>
 			<stat type="STAMINA" value="5"/>
@@ -13,7 +13,7 @@
 	</item>
 
 	<item id="4734" phase="1">
-		<info name="Mistscape Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="38" item_lvl="43" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_02.png"/>
+		<info name="Mistscape Mantle" name_zh="雾纹衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="38" item_lvl="43" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="42"/>
 			<stat type="INTELLECT" value="11"/>
@@ -25,7 +25,7 @@
 	</item>
 
 	<item id="10027" phase="1">
-		<info name="Black Mageweave Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="41" item_lvl="46" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_25.png"/>
+		<info name="Black Mageweave Shoulders" name_zh="黑色魔纹护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="41" item_lvl="46" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="45"/>
 			<stat type="SPIRIT" value="10"/>
@@ -37,7 +37,7 @@
 	</item>
 
 	<item id="10028" phase="1">
-		<info name="Shadoweave Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="42" item_lvl="47" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_25.png"/>
+		<info name="Shadoweave Shoulders" name_zh="暗纹护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="42" item_lvl="47" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="46"/>
 			<stat type="STAMINA" value="7"/>
@@ -49,7 +49,7 @@
 	</item>
 
 	<item id="10029" phase="1">
-		<info name="Red Mageweave Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="42" item_lvl="47" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_23.png"/>
+		<info name="Red Mageweave Shoulders" name_zh="红色魔纹护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="42" item_lvl="47" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="46"/>
 			<stat type="INTELLECT" value="15"/>
@@ -60,7 +60,7 @@
 	</item>
 
 	<item id="8111" phase="1">
-		<info name="Hibernal Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="43" item_lvl="48" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_18.png"/>
+		<info name="Hibernal Mantle" name_zh="寒冬衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="43" item_lvl="48" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="47"/>
 			<stat type="INTELLECT" value="10"/>
@@ -72,7 +72,7 @@
 	</item>
 
 	<item id="14443" phase="1">
-		<info name="Venomshroud Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="44" item_lvl="49" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_18.png"/>
+		<info name="Venomshroud Mantle" name_zh="毒丝衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="44" item_lvl="49" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="48"/>
 			<stat type="INTELLECT" value="12"/>
@@ -85,7 +85,7 @@
 	</item>
 
 	<item id="11310" phase="1">
-		<info name="Flameseer Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="42" item_lvl="47" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Flameseer Mantle" name_zh="烈焰先知衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="42" item_lvl="47" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="51"/>
 			<stat type="SPIRIT" value="10"/>
@@ -97,7 +97,7 @@
 	</item>
 
 	<item id="14452" phase="1">
-		<info name="Highborne Pauldrons" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="49" item_lvl="54" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_24.png"/>
+		<info name="Highborne Pauldrons" name_zh="上层精灵肩铠" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="49" item_lvl="54" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_24.png"/>
 		<stats>
 			<stat type="ARMOR" value="53"/>
 			<stat type="SPIRIT" value="12"/>
@@ -109,7 +109,7 @@
 	</item>
 
 	<item id="11624" phase="1">
-		<info name="Kentic Amice" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Kentic Amice" name_zh="肯提克护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="56"/>
 			<stat type="INTELLECT" value="13"/>
@@ -123,7 +123,7 @@
 	</item>
 
 	<item id="15812" phase="1">
-		<info name="Orchid Amice" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="53" item_lvl="56" quality="UNCOMMON" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Orchid Amice" name_zh="紫兰花披肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="53" item_lvl="56" quality="UNCOMMON" boe="no" icon="Inv_shoulder_02.png"/>
 		<mutex item_id="15813"/>
 		<stats>
 			<stat type="ARMOR" value="54"/>
@@ -138,7 +138,7 @@
 	</item>
 
 	<item id="13013" phase="1">
-		<info name="Elder Wizard's Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="51" item_lvl="56" quality="RARE" boe="yes" icon="Inv_shoulder_14.png"/>
+		<info name="Elder Wizard's Mantle" name_zh="巫师长者衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="51" item_lvl="56" quality="RARE" boe="yes" icon="Inv_shoulder_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="60"/>
 			<stat type="INTELLECT" value="20"/>
@@ -150,7 +150,7 @@
 	</item>
 
 	<item id="11782" phase="1">
-		<info name="Boreal Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Boreal Mantle" name_zh="北地衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="61"/>
 			<stat type="INTELLECT" value="8"/>
@@ -163,7 +163,7 @@
 	</item>
 
 	<item id="12109" phase="1">
-		<info name="Azure Moon Amice" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="58" quality="UNCOMMON" faction="HORDE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Azure Moon Amice" name_zh="蓝月披肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="58" quality="UNCOMMON" faction="HORDE" boe="no" icon="Inv_shoulder_02.png"/>
 		<mutex item_id="12110"/>
 		<mutex item_id="12108"/>
 		<mutex item_id="12111"/>
@@ -178,7 +178,7 @@
 	</item>
 
 	<item id="15784" phase="1">
-		<info name="Crystal Breeze Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="59" quality="UNCOMMON" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Crystal Breeze Mantle" name_zh="水晶之风衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="52" item_lvl="59" quality="UNCOMMON" boe="no" icon="Inv_shoulder_02.png"/>
 		<mutex item_id="15786"/>
 		<mutex item_id="15787"/>
 		<stats>
@@ -192,7 +192,7 @@
 	</item>
 
 	<item id="8288" phase="1">
-		<info name="Arcane Pads" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="54" item_lvl="59" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_02.png"/>
+		<info name="Arcane Pads" name_zh="奥术护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="54" item_lvl="59" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="4"/>
@@ -204,7 +204,7 @@
 	</item>
 
 	<item id="13867" phase="1">
-		<info name="Runecloth Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_21.png"/>
+		<info name="Runecloth Shoulders" name_zh="符文布护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_21.png"/>
 		<stats>
 			<stat type="ARMOR" value="59"/>
 			<stat type="INTELLECT" value="15"/>
@@ -216,7 +216,7 @@
 	</item>
 
 	<item id="13374" phase="1">
-		<info name="Soulstealer Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Soulstealer Mantle" name_zh="盗灵衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="64"/>
 			<stat type="SPIRIT" value="9"/>
@@ -228,7 +228,7 @@
 	</item>
 
 	<item id="16689" phase="1">
-		<info name="Magister's Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_23.png"/>
+		<info name="Magister's Mantle" name_zh="博学者衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="64"/>
 			<stat type="INTELLECT" value="22"/>
@@ -241,7 +241,7 @@
 	</item>
 
 	<item id="16701" phase="1">
-		<info name="Dreadmist Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_bone_taurenskull_01.png"/>
+		<info name="Dreadmist Mantle" name_zh="鬼雾衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_bone_taurenskull_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="64"/>
 			<stat type="INTELLECT" value="15"/>
@@ -254,7 +254,7 @@
 	</item>
 
 	<item id="16695" phase="1">
-		<info name="Devout Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Devout Mantle" name_zh="虔诚衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="64"/>
 			<stat type="INTELLECT" value="21"/>
@@ -267,7 +267,7 @@
 	</item>
 
 	<item id="13185" phase="1">
-		<info name="Sunderseer Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Sunderseer Mantle" name_zh="碎裂先知衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="65"/>
 			<stat type="INTELLECT" value="17"/>
@@ -281,7 +281,7 @@
 	</item>
 
 	<item id="14633" phase="1">
-		<info name="Necropile Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Necropile Mantle" name_zh="骨堆衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="65"/>
 			<stat type="STAMINA" value="17"/>
@@ -294,7 +294,7 @@
 	</item>
 
 	<item id="14139" phase="1">
-		<info name="Mooncloth Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="yes" icon="Inv_shoulder_02.png"/>
+		<info name="Mooncloth Shoulders" name_zh="月布护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="yes" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="65"/>
 			<stat type="INTELLECT" value="17"/>
@@ -307,7 +307,7 @@
 	</item>
 
 	<item id="14112" phase="1">
-		<info name="Felcloth Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_23.png"/>
+		<info name="Felcloth Shoulders" name_zh="恶魔布护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="UNCOMMON" boe="yes" icon="Inv_shoulder_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="60"/>
 			<stat type="SPIRIT" value="5"/>
@@ -319,7 +319,7 @@
 	</item>
 
 	<item id="14538" phase="1">
-		<info name="Deadwalker Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Deadwalker Mantle" name_zh="行尸衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="66"/>
 			<stat type="STAMINA" value="19"/>
@@ -332,7 +332,7 @@
 	</item>
 
 	<item id="16797" phase="1">
-		<info name="Arcanist Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Arcanist Mantle" name_zh="奥术师衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_02.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="76"/>
@@ -349,7 +349,7 @@
 	</item>
 
 	<item id="18681" phase="1">
-		<info name="Burial Shawl" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_05.png"/>
+		<info name="Burial Shawl" name_zh="葬礼披肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="65"/>
 			<stat type="INTELLECT" value="16"/>
@@ -361,7 +361,7 @@
 	</item>
 
 	<item id="18757" phase="2">
-		<info name="Diabolic Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Diabolic Mantle" name_zh="恶魔衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="66"/>
 			<stat type="STAMINA" value="16"/>
@@ -373,7 +373,7 @@
 	</item>
 
 	<item id="18720" phase="2">
-		<info name="Shroud of the Nathrezim" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_shoulder_23.png"/>
+		<info name="Shroud of the Nathrezim" name_zh="纳斯雷兹姆护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_shoulder_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="67"/>
 			<stat type="INTELLECT" value="16"/>
@@ -386,7 +386,7 @@
 	</item>
 
 	<item id="23319" phase="2">
-		<info name="Lieutenant Commander's Silk Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Lieutenant Commander's Silk Mantle" name_zh="少校的丝质衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_shoulder_02.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="135"/>
@@ -402,7 +402,7 @@
 	</item>
 
 	<item id="23264" phase="2">
-		<info name="Champion's Silk Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Champion's Silk Mantle" name_zh="勇士的丝质衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_shoulder_02.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="135"/>
@@ -418,7 +418,7 @@
 	</item>
 
 	<item id="16444" phase="2">
-		<info name="Field Marshal's Silk Spaulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_23.png"/>
+		<info name="Field Marshal's Silk Spaulders" name_zh="元帅的丝质肩甲" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_23.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="135"/>
@@ -434,7 +434,7 @@
 	</item>
 
 	<item id="16536" phase="2">
-		<info name="Warlord's Silk Amice" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_19.png"/>
+		<info name="Warlord's Silk Amice" name_zh="督军的丝质披肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_19.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="135"/>
@@ -450,7 +450,7 @@
 	</item>
 
 	<item id="19507" phase="3">
-		<info name="Inquisitor's Shawl" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="36" item_lvl="41" quality="UNCOMMON" boe="no" icon="Inv_shoulder_27.png"/>
+		<info name="Inquisitor's Shawl" name_zh="审讯者披肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="36" item_lvl="41" quality="UNCOMMON" boe="no" icon="Inv_shoulder_27.png"/>
 		<stats>
 			<stat type="ARMOR" value="40"/>
 			<stat type="INTELLECT" value="8"/>
@@ -462,7 +462,7 @@
 	</item>
 
 	<item id="19050" phase="3">
-		<info name="Mantle of the Timbermaw" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="59" item_lvl="64" quality="RARE" boe="yes" icon="Inv_shoulder_19.png"/>
+		<info name="Mantle of the Timbermaw" name_zh="木喉衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="59" item_lvl="64" quality="RARE" boe="yes" icon="Inv_shoulder_19.png"/>
 		<stats>
 			<stat type="ARMOR" value="68"/>
 			<stat type="INTELLECT" value="21"/>
@@ -474,7 +474,7 @@
 	</item>
 
 	<item id="19059" phase="3">
-		<info name="Argent Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="59" item_lvl="64" quality="RARE" boe="yes" icon="Inv_shoulder_13.png"/>
+		<info name="Argent Shoulders" name_zh="银色护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="59" item_lvl="64" quality="RARE" boe="yes" icon="Inv_shoulder_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="68"/>
 			<stat type="STAMINA" value="23"/>
@@ -487,7 +487,7 @@
 	</item>
 
 	<item id="19370" phase="3">
-		<info name="Mantle of the Blackwing Cabal" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Mantle of the Blackwing Cabal" name_zh="黑翼衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="84"/>
 			<stat type="INTELLECT" value="16"/>
@@ -500,7 +500,7 @@
 	</item>
 
 	<item id="16917" phase="3">
-		<info name="Netherwind Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_32.png"/>
+		<info name="Netherwind Mantle" name_zh="灵风衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_32.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
@@ -517,7 +517,7 @@
 	</item>
 
 	<item id="16932" phase="3">
-		<info name="Nemesis Spaulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_19.png"/>
+		<info name="Nemesis Spaulders" name_zh="复仇肩铠" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_19.png"/>
 		<class_restriction class="WARLOCK"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
@@ -534,7 +534,7 @@
 	</item>
 
 	<item id="19845" phase="4">
-		<info name="Zandalar Illusionist's Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="61" quality="EPIC" boe="no" icon="Inv_shoulder_17.png"/>
+		<info name="Zandalar Illusionist's Mantle" name_zh="赞达拉幻术师衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="61" quality="EPIC" boe="no" icon="Inv_shoulder_17.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="71"/>
@@ -549,7 +549,7 @@
 	</item>
 
 	<item id="20061" phase="4">
-		<info name="Highlander's Epaulets" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_24.png"/>
+		<info name="Highlander's Epaulets" name_zh="高地肩饰" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_24.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -566,7 +566,7 @@
 	</item>
 
 	<item id="20176" phase="4">
-		<info name="Defiler's Epaulets" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_24.png"/>
+		<info name="Defiler's Epaulets" name_zh="污染者肩饰" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_24.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -583,7 +583,7 @@
 	</item>
 
 	<item id="22305" phase="5">
-		<info name="Ironweave Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_05.png"/>
+		<info name="Ironweave Mantle" name_zh="铁纹衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_shoulder_05.png"/>
 		<class_restriction class="MAGE"/>
 		<class_restriction class="PRIEST"/>
 		<class_restriction class="WARLOCK"/>
@@ -598,7 +598,7 @@
 	</item>
 
 	<item id="22412" phase="5">
-		<info name="Thuzadin Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Thuzadin Mantle" name_zh="图萨丁衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="67"/>
 			<stat type="STAMINA" value="11"/>
@@ -611,7 +611,7 @@
 	</item>
 
 	<item id="22068" phase="5">
-		<info name="Sorcerer's Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_23.png"/>
+		<info name="Sorcerer's Mantle" name_zh="巫师衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_23.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="69"/>
@@ -626,7 +626,7 @@
 	</item>
 
 	<item id="20686" phase="4">
-		<info name="Abyssal Cloth Amice of Sorcery" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Abyssal Cloth Amice of Sorcery" name_zh="深渊布质肩饰" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="72"/>
 			<stat type="STAMINA" value="13"/>
@@ -640,7 +640,7 @@
 	</item>
 
 	<item id="21468" phase="5">
-		<info name="Mantle of Maz'Nadir" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Mantle of Maz'Nadir" name_zh="玛兹纳迪尔衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="74" quality="RARE" boe="no" icon="Inv_shoulder_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="78"/>
 			<stat type="STAMINA" value="11"/>
@@ -654,7 +654,7 @@
 	</item>
 
 	<item id="21686" phase="5">
-		<info name="Mantle of Phrenic Power" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_02.png"/>
+		<info name="Mantle of Phrenic Power" name_zh="精神力量衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="87"/>
 			<stat type="INTELLECT" value="20"/>
@@ -667,7 +667,7 @@
 	</item>
 
 	<item id="21345" phase="5">
-		<info name="Enigma Shoulderpads" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_03.png"/>
+		<info name="Enigma Shoulderpads" name_zh="神秘肩垫" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_03.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="89"/>
@@ -684,7 +684,7 @@
 	</item>
 
 	<item id="22758" phase="6">
-		<info name="Sylvan Shoulders" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="yes" icon="Inv_shoulder_18.png"/>
+		<info name="Sylvan Shoulders" name_zh="林栖者护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="yes" icon="Inv_shoulder_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="74"/>
 			<stat type="STAMINA" value="18"/>
@@ -697,7 +697,7 @@
 	</item>
 
 	<item id="22983" phase="6">
-		<info name="Rime Covered Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_shoulder_05.png"/>
+		<info name="Rime Covered Mantle" name_zh="蒙霜衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_shoulder_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="94"/>
 			<stat type="INTELLECT" value="12"/>
@@ -711,7 +711,7 @@
 	</item>
 
 	<item id="22968" phase="6">
-		<info name="Glacial Mantle" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
+		<info name="Glacial Mantle" name_zh="冰川衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_shoulder_14.png"/>
 		<stats>
 			<stat type="ARMOR" value="94"/>
 			<stat type="STAMINA" value="18"/>
@@ -724,7 +724,7 @@
 	</item>
 
 	<item id="22499" phase="6">
-		<info name="Frostfire Shoulderpads" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
+		<info name="Frostfire Shoulderpads" name_zh="霜火肩垫" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
 		<class_restriction class="MAGE"/>
 		<stats>
 			<stat type="ARMOR" value="97"/>

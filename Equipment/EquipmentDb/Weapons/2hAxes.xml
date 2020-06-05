@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
 	<melee_weapon id="12784" phase="1">
-		<info name="Arcanite Reaper" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_axe_09.png"/>
+		<info name="Arcanite Reaper" name_zh="奥金斧" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_axe_09.png"/>
 		<dmg_range min="153" max="256" speed="3.8"/>
 		<stats>
 			<stat type="STAMINA" value="13"/>
@@ -13,7 +13,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="11931" phase="1">
-		<info name="Dreadforge Retaliator" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_axe_22.png"/>
+		<info name="Dreadforge Retaliator" name_zh="恐怖复仇者" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_axe_22.png"/>
 		<dmg_range min="149" max="225" speed="3.7"/>
 		<stats>
 			<stat type="PARRY_CHANCE" value="0.01"/>
@@ -26,7 +26,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="17104" phase="1">
-		<info name="Spinal Reaper" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_axe_09.png"/>
+		<info name="Spinal Reaper" name_zh="脊骨收割者" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_axe_09.png"/>
 		<dmg_range min="203" max="305" speed="3.4"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="34"/>
@@ -41,7 +41,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18830" phase="2">
-		<info name="Grand Marshal's Sunderer" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_axe_10.png"/>
+		<info name="Grand Marshal's Sunderer" name_zh="大元帅的斩石斧" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_axe_10.png"/>
 		<dmg_range min="235" max="353" speed="3.8"/>
 		<stats>
 			<stat type="STAMINA" value="41"/>
@@ -54,7 +54,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18831" phase="2">
-		<info name="High Warlord's Battle Axe" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_axe_21.png"/>
+		<info name="High Warlord's Battle Axe" name_zh="高阶督军的战斧" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_axe_21.png"/>
 		<dmg_range min="235" max="353" speed="3.8"/>
 		<stats>
 			<stat type="STAMINA" value="41"/>
@@ -67,7 +67,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19169" phase="3">
-		<info name="Nightfall" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="yes" icon="Inv_axe_12.png"/>
+		<info name="Nightfall" name_zh="夜幕" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="yes" icon="Inv_axe_12.png"/>
 		<dmg_range min="187" max="282" speed="3.5"/>
 		<proc>
 			<spell name="NIGHTFALL" min="0" max="0" instant="yes" rate="0.20" internal_cd="0"/>
@@ -81,7 +81,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19353" phase="3">
-		<info name="Drake Talon Cleaver" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_axe_10.png"/>
+		<info name="Drake Talon Cleaver" name_zh="龙爪巨斧" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_axe_10.png"/>
 		<dmg_range min="199" max="300" speed="3.4"/>
 		<stats>
 			<stat type="STRENGTH" value="22"/>
@@ -99,7 +99,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19354" phase="3">
-		<info name="Draconic Avenger" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_axe_21.png"/>
+		<info name="Draconic Avenger" name_zh="巨龙复仇者" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_axe_21.png"/>
 		<dmg_range min="174" max="262" speed="3.2"/>
 		<stats>
 			<stat type="STRENGTH" value="21"/>
@@ -112,7 +112,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21856" phase="5">
-		<info name="Neretzek, The Blood Drinker" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_axe_09.png"/>
+		<info name="Neretzek, The Blood Drinker" name_zh="奈雷萨克，饮血者" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_axe_09.png"/>
 		<dmg_range min="202" max="303" speed="3.7"/>
 		<stats>
 			<stat type="STRENGTH" value="21"/>
@@ -130,7 +130,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21134" phase="5">
-		<info name="Dark Edge of Insanity" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="84" quality="EPIC" boe="no" icon="Inv_axe_24.png"/>
+		<info name="Dark Edge of Insanity" name_zh="疯狂黑暗之刃" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="84" quality="EPIC" boe="no" icon="Inv_axe_24.png"/>
 		<dmg_range min="242" max="364" speed="3.5"/>
 		<stats>
 			<stat type="STRENGTH" value="35"/>
@@ -146,7 +146,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22815" phase="6">
-		<info name="Severance" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_axe_22.png"/>
+		<info name="Severance" name_zh="断离" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_axe_22.png"/>
 		<dmg_range min="235" max="354" speed="3.6"/>
 		<stats>
 			<stat type="STAMINA" value="18"/>
@@ -159,7 +159,7 @@
 	</melee_weapon>
 	
 	<melee_weapon id="12775" phase="1">
-		<info name="Huge Thorium Battleaxe" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="51" item_lvl="56" quality="UNCOMMON" boe="yes" icon="Inv_weapon_halberd_11.png"/>
+		<info name="Huge Thorium Battleaxe" name_zh="巨型瑟银战斧" type="TWOHAND_AXE" slot="2H" unique="no" req_lvl="51" item_lvl="56" quality="UNCOMMON" boe="yes" icon="Inv_weapon_halberd_11.png"/>
 		<dmg_range min="114" max="172" speed="3.3"/>
 		<stats>
 			<stat type="TWOHAND_AXE_SKILL" value="10"/>

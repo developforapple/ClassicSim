@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="11675" phase="1">
-		<info name="Shadefiend Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_boots_01.png"/>
+		<info name="Shadefiend Boots" name_zh="蛛魔长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_boots_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="109"/>
 			<stat type="STRENGTH" value="10"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="18043" phase="1">
-		<info name="Coal Miner Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Coal Miner Boots" name_zh="煤工长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_boots_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="112"/>
 			<stat type="STAMINA" value="17"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="15861" phase="1">
-		<info name="Swiftfoot Treads" type="LEATHER" slot="BOOTS" unique="no" req_lvl="57" item_lvl="60" quality="UNCOMMON" boe="no" icon="Inv_boots_07.png"/>
+		<info name="Swiftfoot Treads" name_zh="迅捷皮靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="57" item_lvl="60" quality="UNCOMMON" boe="no" icon="Inv_boots_07.png"/>
 		<mutex item_id="15860"/>
 		<stats>
 			<stat type="ARMOR" value="106"/>
@@ -40,7 +40,7 @@
 	</item>
 
 	<item id="16711" phase="1">
-		<info name="Shadowcraft Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Shadowcraft Boots" name_zh="迅影长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_boots_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="115"/>
 			<stat type="AGILITY" value="21"/>
@@ -52,7 +52,7 @@
 	</item>
 
 	<item id="14641" phase="1">
-		<info name="Cadaverous Walkers" type="LEATHER" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_boots_05.png"/>
+		<info name="Cadaverous Walkers" name_zh="苍白长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_boots_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="118"/>
 			<stat type="STAMINA" value="20"/>
@@ -64,7 +64,7 @@
 	</item>
 
 	<item id="12553" phase="1">
-		<info name="Swiftwalker Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_boots_02.png"/>
+		<info name="Swiftwalker Boots" name_zh="迅捷长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Inv_boots_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="115"/>
 			<stat type="AGILITY" value="21"/>
@@ -77,7 +77,7 @@
 	</item>
 
 	<item id="13210" phase="1">
-		<info name="Pads of the Dread Wolf" type="LEATHER" slot="BOOTS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_boots_wolf.png"/>
+		<info name="Pads of the Dread Wolf" name_zh="巨狼皮靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_boots_wolf.png"/>
 		<stats>
 			<stat type="ARMOR" value="116"/>
 			<stat type="STAMINA" value="14"/>
@@ -89,7 +89,7 @@
 	</item>
 
 	<item id="16824" phase="1">
-		<info name="Nightslayer Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Nightslayer Boots" name_zh="夜幕杀手长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="138"/>
@@ -103,7 +103,7 @@
 	</item>
 
 	<item id="18322" phase="2">
-		<info name="Waterspout Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Waterspout Boots" name_zh="海风长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="no" icon="Inv_boots_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="114"/>
 			<stat type="INTELLECT" value="6"/>
@@ -116,7 +116,7 @@
 	</item>
 
 	<item id="16906" phase="3">
-		<info name="Bloodfang Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Bloodfang Boots" name_zh="血牙长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="154"/>
@@ -132,7 +132,7 @@
 	</item>
 
 	<item id="19381" phase="3">
-		<info name="Boots of the Shadow Flame" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_boots_cloth_05.png"/>
+		<info name="Boots of the Shadow Flame" name_zh="暗影烈焰长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_boots_cloth_05.png"/>
 		<stats>
 			<stat type="ARMOR" value="286"/>
 			<stat type="STAMINA" value="22"/>
@@ -145,7 +145,7 @@
 	</item>
 
 	<item id="19906" phase="4">
-		<info name="Blooddrenched Footpads" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_boots_chain_04.png"/>
+		<info name="Blooddrenched Footpads" name_zh="浴血软鞋" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_boots_chain_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="129"/>
 			<stat type="AGILITY" value="21"/>
@@ -158,7 +158,7 @@
 	</item>
 
 	<item id="21493" phase="5">
-		<info name="Boots of the Vanguard" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Boots of the Vanguard" name_zh="前锋之靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="138"/>
 			<stat type="AGILITY" value="22"/>
@@ -171,7 +171,7 @@
 	</item>
 
 	<item id="21645" phase="5">
-		<info name="Hive Tunneler's Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_boots_04.png"/>
+		<info name="Hive Tunneler's Boots" name_zh="掘洞者之靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_boots_04.png"/>
 		<stats>
 			<stat type="ARMOR" value="216"/>
 			<stat type="STAMINA" value="30"/>
@@ -184,7 +184,7 @@
 	</item>
 
 	<item id="21532" phase="5">
-		<info name="Drudge Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Drudge Boots" name_zh="苦力长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
 		<mutex item_id="21531"/>
 		<stats>
 			<stat type="ARMOR" value="156"/>
@@ -199,7 +199,7 @@
 	</item>
 
 	<item id="21359" phase="5">
-		<info name="Deathdealer's Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Deathdealer's Boots" name_zh="死亡执行者的长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="158"/>
@@ -214,7 +214,7 @@
 	</item>
 
 	<item id="23073" phase="6">
-		<info name="Boots of Displacement" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+		<info name="Boots of Displacement" name_zh="偏移之靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="166"/>
 			<stat type="AGILITY" value="33"/>
@@ -229,7 +229,7 @@
 	</item>
 
 	<item id="22480" phase="6">
-		<info name="Bonescythe Sabatons" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_boots_plate_06.png"/>
+		<info name="Bonescythe Sabatons" name_zh="骨镰马靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_boots_plate_06.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="171"/>
@@ -244,7 +244,7 @@
 	</item>
 	
 	<item id="20186" phase="4">
-		<info name="Defiler's Leather Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_cloth_05.png"/>
+		<info name="Defiler's Leather Boots" name_zh="污染者的皮甲长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_boots_cloth_05.png"/>
 		<class_restriction class="ROGUE"/>
 		<class_restriction class="DRUID"/>
 		<stats>
@@ -259,7 +259,7 @@
 	</item>
 	
 	<item id="20052" phase="4">
-		<info name="Highlander's Leather Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_cloth_05.png"/>
+		<info name="Highlander's Leather Boots" name_zh="高地皮甲长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_boots_cloth_05.png"/>
 		<class_restriction class="ROGUE"/>
 		<class_restriction class="DRUID"/>
 		<stats>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="12793" phase="1">
-		<info name="Mixologist's Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_chest_leather_01.png"/>
+		<info name="Mixologist's Tunic" name_zh="调酒大师的外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="no" icon="Inv_chest_leather_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="158"/>
 			<stat type="STRENGTH" value="18"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="13944" phase="1">
-		<info name="Tombstone Breastplate" type="LEATHER" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_chain_17.png"/>
+		<info name="Tombstone Breastplate" name_zh="墓碑胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_chest_chain_17.png"/>
 		<stats>
 			<stat type="ARMOR" value="174"/>
 			<stat type="STAMINA" value="10"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="14637" phase="1">
-		<info name="Cadaverous Armor" type="LEATHER" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_leather_03.png"/>
+		<info name="Cadaverous Armor" name_zh="苍白护甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_leather_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="172"/>
 			<stat type="STRENGTH" value="8"/>
@@ -40,7 +40,7 @@
 	</item>
 
 	<item id="12603" phase="1">
-		<info name="Nightbrace Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_plate06.png"/>
+		<info name="Nightbrace Tunic" name_zh="深夜外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_chest_plate06.png"/>
 		<stats>
 			<stat type="ARMOR" value="172"/>
 			<stat type="AGILITY" value="5"/>
@@ -55,7 +55,7 @@
 	</item>
 
 	<item id="16721" phase="1">
-		<info name="Shadowcraft Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_leather_07.png"/>
+		<info name="Shadowcraft Tunic" name_zh="迅影外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_chest_leather_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="176"/>
 			<stat type="AGILITY" value="26"/>
@@ -68,7 +68,7 @@
 	</item>
 
 	<item id="12757" phase="1">
-		<info name="Breastplate of Bloodthirst" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_chain_13.png"/>
+		<info name="Breastplate of Bloodthirst" name_zh="嗜血胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_chain_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="190"/>
 			<stat type="STAMINA" value="20"/>
@@ -82,7 +82,7 @@
 	</item>
 
 	<item id="16820" phase="1">
-		<info name="Nightslayer Chestpiece" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_07.png"/>
+		<info name="Nightslayer Chestpiece" name_zh="夜幕杀手胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_chest_cloth_07.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="200"/>
@@ -98,7 +98,7 @@
 	</item>
 
 	<item id="16905" phase="3">
-		<info name="Bloodfang Chestpiece" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_cloth_07.png"/>
+		<info name="Bloodfang Chestpiece" name_zh="血牙胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_chest_cloth_07.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="225"/>
@@ -116,7 +116,7 @@
 	</item>
 
 	<item id="19405" phase="3">
-		<info name="Malfurion's Blessed Bulwark" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_chest_leather_08.png"/>
+		<info name="Malfurion's Blessed Bulwark" name_zh="玛法里奥的祝福" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_chest_leather_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="392"/>
 			<stat type="STRENGTH" value="40"/>
@@ -128,7 +128,7 @@
 	</item>
 
 	<item id="19685" phase="4">
-		<info name="Primal Batskin Jerkin" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_chest_leather_03.png"/>
+		<info name="Primal Batskin Jerkin" name_zh="原始蝙蝠皮外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_chest_leather_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="181"/>
 			<stat type="AGILITY" value="32"/>
@@ -141,7 +141,7 @@
 	</item>
 
 	<item id="19834" phase="4">
-		<info name="Zandalar Madcap's Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_leather_10.png"/>
+		<info name="Zandalar Madcap's Tunic" name_zh="赞达拉狂妄者外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_chest_leather_10.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="197"/>
@@ -155,7 +155,7 @@
 	</item>
 
 	<item id="21680" phase="5">
-		<info name="Vest of Swift Execution" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_chest_cloth_45.png"/>
+		<info name="Vest of Swift Execution" name_zh="处决者的外衣" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_chest_cloth_45.png"/>
 		<stats>
 			<stat type="ARMOR" value="229"/>
 			<stat type="AGILITY" value="41"/>
@@ -168,7 +168,7 @@
 	</item>
 
 	<item id="21364" phase="5">
-		<info name="Deathdealer's Vest" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_leather_08.png"/>
+		<info name="Deathdealer's Vest" name_zh="死亡执行者的胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_chest_leather_08.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="253"/>
@@ -184,7 +184,7 @@
 	</item>
 
 	<item id="23226" phase="6">
-		<info name="Ghoul Skin Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_chest_leather_02.png"/>
+		<info name="Ghoul Skin Tunic" name_zh="食尸鬼皮外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_chest_leather_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="411"/>
 			<stat type="STRENGTH" value="40"/>
@@ -197,7 +197,7 @@
 	</item>
 
 	<item id="22476" phase="6">
-		<info name="Bonescythe Breastplate" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_chest_plate02.png"/>
+		<info name="Bonescythe Breastplate" name_zh="骨镰胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_chest_plate02.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="262"/>
@@ -212,7 +212,7 @@
 	</item>
 	
 	<item id="15056" phase="1">
-		<info name="Stormshroud Armor" type="LEATHER" slot="CHEST" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="yes" icon="Inv_chest_leather_08.png"/>
+		<info name="Stormshroud Armor" name_zh="雷暴护甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="yes" icon="Inv_chest_leather_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="163"/>
 			<stat type="CRIT_CHANCE" value="0.02"/>

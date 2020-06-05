@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
 	<melee_weapon id="11904" phase="1">
-		<info name="Spirit of Aquementas" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="47" item_lvl="56" quality="UNCOMMON" boe="no" icon="Inv_ore_arcanite_02.png"/>
+		<info name="Spirit of Aquementas" name_zh="亚奎门塔斯之魂" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="47" item_lvl="56" quality="UNCOMMON" boe="no" icon="Inv_ore_arcanite_02.png"/>
 		<mutex item_id="11902"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
@@ -13,7 +13,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19142" phase="1">
-		<info name="Fire Runed Grimoire" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_book_09.png"/>
+		<info name="Fire Runed Grimoire" name_zh="火焰符文魔典" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_book_09.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="21"/>
@@ -26,7 +26,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18672" phase="2">
-		<info name="Elemental Ember" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="54" item_lvl="59" quality="UNCOMMON" boe="no" icon="Inv_misc_orb_05.png"/>
+		<info name="Elemental Ember" name_zh="元素灰烬" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="54" item_lvl="59" quality="UNCOMMON" boe="no" icon="Inv_misc_orb_05.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="10"/>
@@ -38,7 +38,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23452" phase="2">
-		<info name="Grand Marshal's Tome of Power" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_misc_book_12.png"/>
+		<info name="Grand Marshal's Tome of Power" name_zh="大元帅的力量之书" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_misc_book_12.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="17"/>
@@ -51,7 +51,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23468" phase="2">
-		<info name="High Warlord's Tome of Destruction" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_book_15.png"/>
+		<info name="High Warlord's Tome of Destruction" name_zh="高阶督军的毁灭宝典" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_book_15.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="17"/>
@@ -64,7 +64,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19366" phase="3">
-		<info name="Master Dragonslayer's Orb" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_orb_03.png"/>
+		<info name="Master Dragonslayer's Orb" name_zh="屠龙大师宝珠" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_misc_orb_03.png"/>
 		<mutex item_id="19383"/>
 		<mutex item_id="19384"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
@@ -79,7 +79,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19315" phase="3">
-		<info name="Therazane's Touch" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_branch_01.png"/>
+		<info name="Therazane's Touch" name_zh="塞拉赞恩之触" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_branch_01.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="SPELL_DAMAGE" value="33"/>
@@ -90,7 +90,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19308" phase="3">
-		<info name="Tome of Arcane Domination" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_01.png"/>
+		<info name="Tome of Arcane Domination" name_zh="奥术统御宝典" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_01.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_ARCANE" value="34"/>
@@ -102,7 +102,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19311" phase="3">
-		<info name="Tome of Fiery Arcana" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_09.png"/>
+		<info name="Tome of Fiery Arcana" name_zh="火焰魔法宝典" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_09.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_FIRE" value="40"/>
@@ -113,7 +113,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19309" phase="3">
-		<info name="Tome of Shadow Force" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_06.png"/>
+		<info name="Tome of Shadow Force" name_zh="暗影力量宝典" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_06.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="8"/>
@@ -125,7 +125,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19310" phase="3">
-		<info name="Tome of the Ice Lord" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_11.png"/>
+		<info name="Tome of the Ice Lord" name_zh="冰雪之王宝典" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_misc_book_11.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="9"/>
@@ -137,7 +137,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20582" phase="4">
-		<info name="Trance Stone" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_misc_orb_01.png"/>
+		<info name="Trance Stone" name_zh="沉睡之石" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_misc_orb_01.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="9"/>
@@ -151,7 +151,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19891" phase="4">
-		<info name="Jin'do's Bag of Whammies" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_bag_10_black.png"/>
+		<info name="Jin'do's Bag of Whammies" name_zh="金度的厄运袋" type="CASTER_OFFHAND" slot="OH" unique="yes" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_misc_bag_10_black.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="11"/>
@@ -165,7 +165,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20694" phase="4">
-		<info name="Glowing Black Orb" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="no" icon="Inv_misc_orb_04.png"/>
+		<info name="Glowing Black Orb" name_zh="闪光黑色宝珠" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="no" icon="Inv_misc_orb_04.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="10"/>
@@ -177,7 +177,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22253" phase="5">
-		<info name="Tome of the Lost" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_book_06.png"/>
+		<info name="Tome of the Lost" name_zh="失落之书" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_misc_book_06.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="7"/>
@@ -190,7 +190,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22329" phase="5">
-		<info name="Scepter of Interminable Focus" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_wand_07.png"/>
+		<info name="Scepter of Interminable Focus" name_zh="无限专注节杖" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_wand_07.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="SPELL_DAMAGE" value="9"/>
@@ -203,7 +203,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21471" phase="5">
-		<info name="Talon of Furious Concentration" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_mace_21.png"/>
+		<info name="Talon of Furious Concentration" name_zh="狂暴专注之爪" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_mace_21.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="8"/>
@@ -217,7 +217,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21597" phase="5">
-		<info name="Royal Scepter of Vek'lor" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_wand_10.png"/>
+		<info name="Royal Scepter of Vek'lor" name_zh="维克洛尔皇家节杖" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_wand_10.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="9"/>
@@ -232,7 +232,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23156" phase="6">
-		<info name="Blackwood's Thigh" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_misc_bone_10.png"/>
+		<info name="Blackwood's Thigh" name_zh="布莱克伍德的腿骨" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_misc_bone_10.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="12"/>
@@ -245,7 +245,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22937" phase="6">
-		<info name="Gem of Nerubis" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_offhand_naxxramas_d_01.png"/>
+		<info name="Gem of Nerubis" name_zh="蛛魔宝石" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_offhand_naxxramas_d_01.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="STAMINA" value="14"/>
@@ -259,7 +259,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23049" phase="6">
-		<info name="Sapphiron's Left Eye" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_offhand_naxxramas_03.png"/>
+		<info name="Sapphiron's Left Eye" name_zh="萨菲隆的左眼" type="CASTER_OFFHAND" slot="OH" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_offhand_naxxramas_03.png"/>
 		<dmg_range min="1" max="1" speed="1.0"/>
 		<stats>
 			<stat type="INTELLECT" value="8"/>

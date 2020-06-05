@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
     <melee_weapon id="11805" phase="1">
-        <info name="Rubidium Hammer" type="MACE" slot="MH" unique="no" req_lvl="51" item_lvl="56" quality="RARE" boe="no" icon="Inv_hammer_09.png"/>
+        <info name="Rubidium Hammer" name_zh="燃石战锤" type="MACE" slot="MH" unique="no" req_lvl="51" item_lvl="56" quality="RARE" boe="no" icon="Inv_hammer_09.png"/>
         <dmg_range min="51" max="96" speed="2.0"/>
         <stats>
             <stat type="ARMOR" value="120"/>
@@ -13,7 +13,7 @@
     </melee_weapon>
 
     <melee_weapon id="14487" phase="1">
-        <info name="Bonechill Hammer" type="MACE" slot="1H" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_hammer_13.png"/>
+        <info name="Bonechill Hammer" name_zh="寒骨战锤" type="MACE" slot="1H" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_hammer_13.png"/>
         <dmg_range min="68" max="127" speed="2.4"/>
         <proc>
             <spell name="FROST_ATTACK" min="90" max="90" instant="yes" rate="0.05" internal_cd="0" spell_dmg_coefficient="0.0"/>
@@ -27,7 +27,7 @@
     </melee_weapon>
 
     <melee_weapon id="18044" phase="1">
-        <info name="Hurley's Tankard" type="MACE" slot="MH" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_drink_04.png"/>
+        <info name="Hurley's Tankard" name_zh="霍尔雷的酒杯" type="MACE" slot="MH" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_drink_04.png"/>
         <dmg_range min="71" max="132" speed="2.7"/>
         <stats>
             <stat type="STAMINA" value="12"/>
@@ -39,7 +39,7 @@
     </melee_weapon>
 
     <melee_weapon id="18683" phase="1">
-        <info name="Hammer of the Vesper" type="MACE" slot="1H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_hammer_13.png"/>
+        <info name="Hammer of the Vesper" name_zh="薄暮之锤" type="MACE" slot="1H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_hammer_13.png"/>
         <dmg_range min="70" max="131" speed="2.5"/>
         <stats>
             <stat type="STRENGTH" value="7"/>
@@ -51,7 +51,7 @@
     </melee_weapon>
 
     <melee_weapon id="18671" phase="1">
-        <info name="Baron Charr's Sceptre" type="MACE" slot="MH" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="yes" icon="Inv_mace_08.png"/>
+        <info name="Baron Charr's Sceptre" name_zh="火焰男爵查尔的节杖" type="MACE" slot="MH" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="yes" icon="Inv_mace_08.png"/>
         <dmg_range min="70" max="132" speed="2.6"/>
         <proc>
             <spell name="FIRE_ATTACK" min="35" max="35" instant="yes" rate="0.04" internal_cd="0" spell_dmg_coefficient="0.0"/>
@@ -65,7 +65,7 @@
     </melee_weapon>
 
     <melee_weapon id="13204" phase="1">
-        <info name="Bashguuder" type="MACE" slot="1H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_mace_15.png"/>
+        <info name="Bashguuder" name_zh="巴什古德之锤" type="MACE" slot="1H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_mace_15.png"/>
         <dmg_range min="49" max="93" speed="1.8"/>
         <stats>
             <stat type="STRENGTH" value="9"/>
@@ -82,7 +82,7 @@
     </melee_weapon>
 
     <melee_weapon id="13183" phase="1">
-        <info name="Venomspitter" type="MACE" slot="1H" unique="yes" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_wand_10.png"/>
+        <info name="Venomspitter" name_zh="喷毒者" type="MACE" slot="1H" unique="yes" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_wand_10.png"/>
         <dmg_range min="52" max="98" speed="1.9"/>
         <stats/>
         <special_equip_effect>
@@ -94,7 +94,7 @@
     </melee_weapon>
 
     <melee_weapon id="11684" phase="1">
-        <info name="Ironfoe" type="MACE" slot="MH" unique="yes" req_lvl="55" item_lvl="60" quality="EPIC" boe="no" icon="Spell_frost_frostbrand.png"/>
+        <info name="Ironfoe" name_zh="反对者" type="MACE" slot="MH" unique="yes" req_lvl="55" item_lvl="60" quality="EPIC" boe="no" icon="Spell_frost_frostbrand.png"/>
         <dmg_range min="73" max="136" speed="2.4"/>
         <proc>
             <spell name="EXTRA_ATTACK" amount="2" instant="no" rate="0.032" internal_cd="0"/>
@@ -108,7 +108,7 @@
     </melee_weapon>
 
     <melee_weapon id="17105" phase="1">
-        <info name="Aurastone Hammer" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_hammer_05.png"/>
+        <info name="Aurastone Hammer" name_zh="光环石锤" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_hammer_05.png"/>
         <dmg_range min="79" max="162" speed="2.7"/>
         <stats>
             <stat type="INTELLECT" value="10"/>
@@ -122,7 +122,7 @@
     </melee_weapon>
 
     <melee_weapon id="19104" phase="3">
-        <info name="Stormstrike Hammer" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_hammer_21.png"/>
+        <info name="Stormstrike Hammer" name_zh="雷霆战锤" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_hammer_21.png"/>
         <dmg_range min="80" max="150" speed="2.7"/>
         <stats>
             <stat type="STRENGTH" value="15"/>
@@ -133,7 +133,7 @@
     </melee_weapon>
 
     <melee_weapon id="17112" phase="2">
-        <info name="Empyrean Demolisher" type="MACE" slot="MH" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_hammer_05.png"/>
+        <info name="Empyrean Demolisher" name_zh="苍穹击碎者" type="MACE" slot="MH" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_hammer_05.png"/>
         <dmg_range min="94" max="175" speed="2.8"/>
         <proc>
             <spell name="GENERIC_STAT_BUFF" type="ATTACK_SPEED" amount="20" instant="yes" rate="0.04666667" duration="10" internal_cd="0" proc_melee_weapon_side="true"/>
@@ -147,7 +147,7 @@
     </melee_weapon>
 
     <melee_weapon id="18866" phase="2">
-        <info name="High Warlord's Bludgeon" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_hammer_20.png"/>
+        <info name="High Warlord's Bludgeon" name_zh="高阶督军的大头棒" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_hammer_20.png"/>
         <dmg_range min="138" max="207" speed="2.9"/>
         <stats>
             <stat type="ATTACK_POWER" value="28"/>
@@ -160,7 +160,7 @@
     </melee_weapon>
 
     <melee_weapon id="18865" phase="2">
-        <info name="Grand Marshal's Punisher" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_mace_13.png"/>
+        <info name="Grand Marshal's Punisher" name_zh="大元帅的惩戒之锤" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_mace_13.png"/>
         <dmg_range min="138" max="207" speed="2.9"/>
         <stats>
             <stat type="ATTACK_POWER" value="28"/>
@@ -173,7 +173,7 @@
     </melee_weapon>
 
     <melee_weapon id="19335" phase="3">
-        <info name="Spineshatter" type="MACE" slot="MH" unique="yes" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_mace_06.png"/>
+        <info name="Spineshatter" name_zh="碎脊者" type="MACE" slot="MH" unique="yes" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_mace_06.png"/>
         <dmg_range min="99" max="184" speed="2.6"/>
         <stats>
             <stat type="STAMINA" value="16"/>
@@ -186,7 +186,7 @@
     </melee_weapon>
 
     <melee_weapon id="19170" phase="3">
-        <info name="Ebon Hand" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="yes" icon="Inv_hammer_19.png"/>
+        <info name="Ebon Hand" name_zh="黑手" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="yes" icon="Inv_hammer_19.png"/>
         <dmg_range min="90" max="168" speed="2.5"/>
         <stats>
             <stat type="STAMINA" value="9"/>
@@ -204,7 +204,7 @@
     </melee_weapon>
 
     <melee_weapon id="19908" phase="4">
-        <info name="Sceptre of Smiting" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_mace_08.png"/>
+        <info name="Sceptre of Smiting" name_zh="惩击节杖" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_mace_08.png"/>
         <dmg_range min="77" max="145" speed="2.6"/>
         <stats>
             <stat type="MACE_SKILL" value="2"/>
@@ -221,7 +221,7 @@
     </melee_weapon>
 
     <melee_weapon id="19961" phase="4">
-        <info name="Gri'lek's Grinder" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_mace_04.png"/>
+        <info name="Gri'lek's Grinder" name_zh="格里雷克的磨具" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_mace_04.png"/>
         <dmg_range min="75" max="140" speed="2.4"/>
         <stats>
             <stat type="ATTACK_POWER_DRAGONKIN" value="48"/>
@@ -232,7 +232,7 @@
     </melee_weapon>
 
     <melee_weapon id="19360" phase="3">
-        <info name="Lok'amir il Romathis" type="MACE" slot="MH" unique="yes" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_mace_06.png"/>
+        <info name="Lok'amir il Romathis" name_zh="洛卡米尔·伊洛曼希斯" type="MACE" slot="MH" unique="yes" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_mace_06.png"/>
         <dmg_range min="48" max="128" speed="2.1"/>
         <stats>
             <stat type="INTELLECT" value="18"/>
@@ -249,7 +249,7 @@
     </melee_weapon>
 
     <melee_weapon id="22384" phase="5">
-        <info name="Persuader" type="MACE" slot="MH" unique="no" req_lvl="58" item_lvl="63" quality="EPIC" boe="yes" icon="Inv_hammer_08.png"/>
+        <info name="Persuader" name_zh="说服者" type="MACE" slot="MH" unique="no" req_lvl="58" item_lvl="63" quality="EPIC" boe="yes" icon="Inv_hammer_08.png"/>
         <dmg_range min="86" max="161" speed="2.7"/>
         <stats>
             <stat type="HIT_CHANCE" value="0.01"/>
@@ -261,7 +261,7 @@
     </melee_weapon>
 
     <melee_weapon id="21837" phase="5">
-        <info name="Anubisath Warhammer" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_hammer_11.png"/>
+        <info name="Anubisath Warhammer" name_zh="阿努比萨斯战锤" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_hammer_11.png"/>
         <dmg_range min="66" max="123" speed="1.8"/>
         <stats>
             <stat type="STAMINA" value="7"/>
@@ -274,7 +274,7 @@
     </melee_weapon>
 
     <melee_weapon id="21715" phase="5">
-        <info name="Sand Polished Hammer" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_mace_24.png"/>
+        <info name="Sand Polished Hammer" name_zh="磨砂战锤" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_mace_24.png"/>
         <dmg_range min="97" max="181" speed="2.6"/>
         <stats>
             <stat type="STAMINA" value="9"/>
@@ -287,7 +287,7 @@
     </melee_weapon>
 
     <melee_weapon id="22808" phase="6">
-        <info name="The Castigator" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_mace_1h_stratholme_d_01.png"/>
+        <info name="The Castigator" name_zh="谴责者" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_mace_1h_stratholme_d_01.png"/>
         <dmg_range min="119" max="221" speed="2.6"/>
         <stats>
             <stat type="STAMINA" value="9"/>
@@ -301,7 +301,7 @@
     </melee_weapon>
 
     <melee_weapon id="23221" phase="6">
-        <info name="Misplaced Servo Arm" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_mace_28.png"/>
+        <info name="Misplaced Servo Arm" name_zh="遗失的义肢" type="MACE" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_mace_28.png"/>
         <dmg_range min="128" max="238" speed="2.8"/>
         <proc>
             <spell name="NATURE_ATTACK" min="100" max="151" instant="yes" rate="0.14" internal_cd="0" spell_dmg_coefficient="0.0"/>

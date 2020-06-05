@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
 	<melee_weapon id="19346" phase="3">
-		<info name="Dragonfang Blade" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_29.png"/>
+		<info name="Dragonfang Blade" name_zh="龙牙之刃" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_29.png"/>
 		<dmg_range min="69" max="130" speed="1.8"/>
 		<stats>
 			<stat type="AGILITY" value="16"/>
@@ -13,7 +13,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="12783" phase="1">
-		<info name="Heartseeker" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_sword_17.png"/>
+		<info name="Heartseeker" name_zh="觅心者" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_sword_17.png"/>
 		<dmg_range min="49" max="92" speed="1.7"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -25,7 +25,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="12582" phase="1">
-		<info name="Keris of Zul'Serak" type="DAGGER" slot="1H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_weapon_shortblade_12.png"/>
+		<info name="Keris of Zul'Serak" name_zh="祖尔塞拉克之刃" type="DAGGER" slot="1H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_weapon_shortblade_12.png"/>
 		<dmg_range min="49" max="93" speed="1.8"/>
 		<stats/>
 		<special_equip_effect>
@@ -37,7 +37,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="13218" phase="1">
-		<info name="Fang of the Crystal Spider" type="DAGGER" slot="1H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_weapon_shortblade_16.png"/>
+		<info name="Fang of the Crystal Spider" name_zh="水晶蜘蛛之牙" type="DAGGER" slot="1H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_weapon_shortblade_16.png"/>
 		<dmg_range min="45" max="84" speed="1.6"/>
 		<stats/>
 		<special_equip_effect>
@@ -49,7 +49,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="5267" phase="1">
-		<info name="Scarlet Kris" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_weapon_shortblade_03.png"/>
+		<info name="Scarlet Kris" name_zh="血色十字军波刃剑" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_weapon_shortblade_03.png"/>
 		<dmg_range min="43" max="81" speed="1.5"/>
 		<stats>
 			<stat type="AGILITY" value="10"/>
@@ -61,7 +61,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="13964" phase="1">
-		<info name="Witchblade" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="62" quality="RARE" boe="no" icon="Inv_weapon_shortblade_25.png"/>
+		<info name="Witchblade" name_zh="女巫之刃" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="62" quality="RARE" boe="no" icon="Inv_weapon_shortblade_25.png"/>
 		<dmg_range min="45" max="85" speed="1.6"/>
 		<stats>
 			<stat type="INTELLECT" value="8"/>
@@ -73,7 +73,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="14555" phase="1">
-		<info name="Alcor's Sunrazor" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="EPIC" boe="yes" icon="Inv_sword_34.png"/>
+		<info name="Alcor's Sunrazor" name_zh="亚考尔的阳炎刀" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="EPIC" boe="yes" icon="Inv_sword_34.png"/>
 		<dmg_range min="41" max="77" speed="1.3"/>
 		<proc>
 			<spell name="FIRE_ATTACK" min="75" max="106" instant="yes" rate="0.02816667" internal_cd="0" spell_dmg_coefficient="0.0"/>
@@ -87,7 +87,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="12590" phase="1">
-		<info name="Felstriker" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_25.png"/>
+		<info name="Felstriker" name_zh="恶魔之击" type="DAGGER" slot="1H" unique="no" req_lvl="58" item_lvl="63" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_25.png"/>
 		<dmg_range min="54" max="101" speed="1.7"/>
 		<proc>
 			<spell name="FELSTRIKER_PROC" duration="3" instant="yes" rate="0.028333333" internal_cd="0"/>
@@ -101,7 +101,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18878" phase="1">
-		<info name="Sorcerous Dagger" type="DAGGER" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_07.png"/>
+		<info name="Sorcerous Dagger" name_zh="巫术匕首" type="DAGGER" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_07.png"/>
 		<dmg_range min="39" max="79" speed="1.4"/>
 		<stats>
 			<stat type="INTELLECT" value="17"/>
@@ -114,7 +114,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="17071" phase="1">
-		<info name="Gutgore Ripper" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_18.png"/>
+		<info name="Gutgore Ripper" name_zh="血腥撕裂者" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_18.png"/>
 		<dmg_range min="63" max="119" speed="1.8"/>
 		<proc>
 			<spell name="SHADOW_ATTACK" min="75" max="75" instant="yes" rate="0.03" internal_cd="0" spell_dmg_coefficient="0.0"/>
@@ -128,7 +128,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18805" phase="1">
-		<info name="Core Hound Tooth" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_11.png"/>
+		<info name="Core Hound Tooth" name_zh="熔火犬牙" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_11.png"/>
 		<dmg_range min="57" max="107" speed="1.6"/>
 		<stats>
 			<stat type="STAMINA" value="9"/>
@@ -141,7 +141,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18816" phase="1">
-		<info name="Perdition's Blade" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_sword_48.png"/>
+		<info name="Perdition's Blade" name_zh="毁灭之刃" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_sword_48.png"/>
 		<dmg_range min="73" max="137" speed="1.8"/>
 		<proc>
 			<spell name="FIRE_ATTACK" min="40" max="57" instant="yes" rate="0.039" internal_cd="0" spell_dmg_coefficient="0.0"/>
@@ -155,7 +155,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19324" phase="2">
-		<info name="The Lobotomizer" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_sword_29.png"/>
+		<info name="The Lobotomizer" name_zh="剥夺者" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_sword_29.png"/>
 		<dmg_range min="59" max="111" speed="1.8"/>
 		<proc>
 			<!-- TODO: Find actual proc rate -->
@@ -170,7 +170,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19347" phase="3">
-		<info name="Claw of Chromaggus" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_28.png"/>
+		<info name="Claw of Chromaggus" name_zh="克洛玛古斯之爪" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_28.png"/>
 		<dmg_range min="37" max="90" speed="1.5"/>
 		<stats>
 			<stat type="INTELLECT" value="17"/>
@@ -184,7 +184,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20214" phase="3">
-		<info name="Mindfang" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_sword_13.png"/>
+		<info name="Mindfang" name_zh="心灵之牙" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_sword_13.png"/>
         <dmg_range min="49" max="95" speed="1.7"/>
 		<stats>
 			<stat type="ARMOR" value="35"/>
@@ -198,7 +198,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="17070" phase="4">
-		<info name="Fang of the Mystics" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_06.png"/>
+		<info name="Fang of the Mystics" name_zh="秘法之牙" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_06.png"/>
 		<dmg_range min="39" max="86" speed="1.5"/>
 		<stats>
 			<stat type="INTELLECT" value="10"/>
@@ -212,7 +212,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19903" phase="4">
-		<info name="Fang of Venoxis" type="DAGGER" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_31.png"/>
+		<info name="Fang of Venoxis" name_zh="温诺希斯之牙" type="DAGGER" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_31.png"/>
 		<dmg_range min="35" max="72" speed="1.3"/>
 		<stats>
 			<stat type="INTELLECT" value="8"/>
@@ -226,7 +226,7 @@
 	</melee_weapon>
 
     <melee_weapon id="19859" phase="4">
-		<info name="Fang of the Faceless" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_30.png"/>
+		<info name="Fang of the Faceless" name_zh="无面者之牙" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_30.png"/>
 		<dmg_range min="66" max="123" speed="1.9"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -238,7 +238,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20720" phase="5">
-		<info name="Dark Whisper Blade" type="DAGGER" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_weapon_shortblade_16.png"/>
+		<info name="Dark Whisper Blade" name_zh="黑暗密语之刃" type="DAGGER" slot="MH" unique="yes" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_weapon_shortblade_16.png"/>
 		<dmg_range min="40" max="77" speed="1.4"/>
 		<stats>
 			<stat type="STAMINA" value="6"/>
@@ -250,7 +250,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22379" phase="5">
-		<info name="Shivsprocket's Shiv" type="DAGGER" slot="MH" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_sword_21.png"/>
+		<info name="Shivsprocket's Shiv" name_zh="开闸刀" type="DAGGER" slot="MH" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_sword_21.png"/>
 		<mutex item_id="22378"/>
 		<mutex item_id="22377"/>
 		<mutex item_id="22348"/>
@@ -267,7 +267,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21404" phase="5">
-		<info name="Dagger of Veiled Shadows" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_27.png"/>
+		<info name="Dagger of Veiled Shadows" name_zh="笼罩阴影匕首" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_27.png"/>
 		<class_restriction class="ROGUE"/>
 		<dmg_range min="65" max="121" speed="1.8"/>
 		<stats>
@@ -281,7 +281,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21802" phase="5">
-		<info name="The Lost Kris of Zedd" type="DAGGER" slot="MH" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="yes" icon="Inv_sword_32.png"/>
+		<info name="The Lost Kris of Zedd" name_zh="赛德的失落之剑" type="DAGGER" slot="MH" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="yes" icon="Inv_sword_32.png"/>
 		<dmg_range min="42" max="83" speed="1.5"/>
 		<stats>
 			<stat type="STAMINA" value="6"/>
@@ -294,7 +294,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21244" phase="5">
-		<info name="Blessed Qiraji Pugio" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="79" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_35.png"/>
+		<info name="Blessed Qiraji Pugio" name_zh="神圣其拉短剑" type="DAGGER" slot="1H" unique="no" req_lvl="60" item_lvl="79" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_35.png"/>
 		<dmg_range min="72" max="134" speed="1.7"/>
 		<stats>
 			<stat type="STAMINA" value="7"/>
@@ -311,7 +311,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22688" phase="6">
-		<info name="Verimonde's Last Resort" type="DAGGER" slot="MH" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_weapon_shortblade_03.png"/>
+		<info name="Verimonde's Last Resort" name_zh="维里蒙德的庇护" type="DAGGER" slot="MH" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_weapon_shortblade_03.png"/>
 		<dmg_range min="39" max="76" speed="1.4"/>
 		<stats>
 			<stat type="STAMINA" value="7"/>
@@ -324,7 +324,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22803" phase="6">
-		<info name="Midnight Haze" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_knife_1h_stratholme_d_02.png"/>
+		<info name="Midnight Haze" name_zh="午夜之雾" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_knife_1h_stratholme_d_02.png"/>
 		<dmg_range min="51" max="97" speed="1.8"/>
 		<stats>
 			<stat type="STAMINA" value="20"/>
@@ -337,7 +337,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22804" phase="6">
-		<info name="Maexxna's Fang" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_knife_1h_stratholme_d_01.png"/>
+		<info name="Maexxna's Fang" name_zh="迈克斯纳之牙" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_knife_1h_stratholme_d_01.png"/>
 		<dmg_range min="94" max="141" speed="1.8"/>
 		<stats>
 			<stat type="STAMINA" value="8"/>
@@ -350,7 +350,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23044" phase="6">
-		<info name="Harbinger of Doom" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_knife_1h_stratholme_d_03.png"/>
+		<info name="Harbinger of Doom" name_zh="末日先驱" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_knife_1h_stratholme_d_03.png"/>
 		<dmg_range min="83" max="126" speed="1.6"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -364,7 +364,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21126" phase="5">
-		<info name="Death's Sting" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="84" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_33.png"/>
+		<info name="Death's Sting" name_zh="死亡之钉" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="84" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_33.png"/>
 		<dmg_range min="95" max="144" speed="1.8"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="38"/>
@@ -377,7 +377,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22802" phase="6">
-		<info name="Kingsfall" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="89" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_37.png"/>
+		<info name="Kingsfall" name_zh="帝殒" type="DAGGER" slot="1H" unique="yes" req_lvl="60" item_lvl="89" quality="EPIC" boe="no" icon="Inv_weapon_shortblade_37.png"/>
 		<dmg_range min="105" max="158" speed="1.8"/>
 		<stats>
 			<stat type="CRIT_CHANCE" value="0.01"/>
@@ -390,7 +390,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18392" phase="2">
-		<info name="Distracting Dagger" type="DAGGER" slot="OH" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_weapon_shortblade_05.png"/>
+		<info name="Distracting Dagger" name_zh="混乱匕首" type="DAGGER" slot="OH" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_weapon_shortblade_05.png"/>
 		<dmg_range min="42" max="64" speed="1.3"/>
 		<stats>
 			<stat type="DAGGER_SKILL" value="6"/>
@@ -401,7 +401,7 @@
 	</melee_weapon>
 	
 	<melee_weapon id="13368" phase="1">
-		<info name="Bonescraper" type="DAGGER" slot="1H" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_weapon_shortblade_12.png"/>
+		<info name="Bonescraper" name_zh="刮骨者" type="DAGGER" slot="1H" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_weapon_shortblade_12.png"/>
 		<dmg_range min="40" max="74" speed="1.4"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="30"/>

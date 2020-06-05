@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
     <item id="17711" phase="1">
-        <info name="Elemental Rockridge Leggings" type="PLATE" slot="LEGS" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Elemental Rockridge Leggings" name_zh="元素石脊护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="496"/>
             <stat type="STAMINA" value="18"/>
@@ -14,7 +14,7 @@
     </item>
 
     <item id="21316" phase="1">
-        <info name="Leggings of the Ursa" type="PLATE" slot="LEGS" unique="no" req_lvl="45" item_lvl="55" quality="UNCOMMON" boe="no" icon="Inv_pants_mail_10.png"/>
+        <info name="Leggings of the Ursa" name_zh="巨熊护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="45" item_lvl="55" quality="UNCOMMON" boe="no" icon="Inv_pants_mail_10.png"/>
         <mutex item_id="21317"/>
         <stats>
             <stat type="ARMOR" value="459"/>
@@ -27,7 +27,7 @@
     </item>
 
     <item id="11802" phase="1">
-        <info name="Lavacrest Leggings" type="PLATE" slot="LEGS" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Lavacrest Leggings" name_zh="火浪护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="53" item_lvl="58" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="531"/>
             <stat type="STRENGTH" value="28"/>
@@ -39,7 +39,7 @@
     </item>
 
     <item id="13498" phase="1">
-        <info name="Handcrafted Mastersmith Leggings" type="PLATE" slot="LEGS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Handcrafted Mastersmith Leggings" name_zh="手工精制护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="548"/>
             <stat type="STRENGTH" value="29"/>
@@ -51,7 +51,7 @@
     </item>
 
     <item id="16732" phase="1">
-        <info name="Legplates of Valor" type="PLATE" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Legplates of Valor" name_zh="勇气腿铠" type="PLATE" slot="LEGS" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="557"/>
             <stat type="STRENGTH" value="23"/>
@@ -65,7 +65,7 @@
     </item>
 
     <item id="13075" phase="1">
-        <info name="Direwing Legguards" type="PLATE" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_pants_04.png"/>
+        <info name="Direwing Legguards" name_zh="魔翼护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="yes" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="575"/>
             <stat type="STRENGTH" value="15"/>
@@ -79,7 +79,7 @@
     </item>
 
     <item id="14554" phase="1">
-        <info name="Cloudkeeper Legplates" type="PLATE" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_pants_04.png"/>
+        <info name="Cloudkeeper Legplates" name_zh="踏云腿甲" type="PLATE" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="EPIC" boe="yes" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="617"/>
             <stat type="STAMINA" value="20"/>
@@ -98,7 +98,7 @@
     </item>
 
     <item id="18380" phase="2">
-        <info name="Eldritch Reinforced Legplates" type="PLATE" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Eldritch Reinforced Legplates" name_zh="怪异强化腿甲" type="PLATE" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="566"/>
             <stat type="STRENGTH" value="15"/>
@@ -112,7 +112,7 @@
     </item>
 
     <item id="23301" phase="2">
-        <info name="Knight-Captain's Plate Leggings" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_pants_06.png"/>
+        <info name="Knight-Captain's Plate Leggings" name_zh="骑士队长的板甲护腿" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_pants_06.png"/>
         <class_restriction class="WARRIOR"/>
         <stats>
             <stat type="ARMOR" value="618"/>
@@ -126,7 +126,7 @@
     </item>
 
     <item id="16962" phase="1">
-        <info name="Legplates of Wrath" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Legplates of Wrath" name_zh="愤怒腿铠" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_pants_04.png"/>
         <class_restriction class="WARRIOR"/>
         <stats>
             <stat type="ARMOR" value="749"/>
@@ -143,7 +143,7 @@
     </item>
 
     <item id="22873" phase="2">
-        <info name="Legionnaire's Plate Leggings" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_pants_06.png"/>
+        <info name="Legionnaire's Plate Leggings" name_zh="军团士兵的板甲护腿" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" faction="HORDE" boe="no" icon="Inv_pants_06.png"/>
         <class_restriction class="WARRIOR"/>
         <stats>
             <stat type="ARMOR" value="618"/>
@@ -157,7 +157,7 @@
     </item>
 
     <item id="23273" phase="2">
-        <info name="Knight-Captain's Lamellar Leggings" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+        <info name="Knight-Captain's Lamellar Leggings" name_zh="" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
         <class_restriction class="PALADIN"/>
         <stats>
             <stat type="ARMOR" value="618"/>
@@ -172,7 +172,7 @@
     </item>
 
     <item id="16475" phase="2">
-        <info name="Marshal's Lamellar Legplates" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Marshal's Lamellar Legplates" name_zh="统帅的板层甲腿铠" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" boe="no" icon="Inv_pants_04.png"/>
         <class_restriction class="PALADIN"/>
         <stats>
             <stat type="ARMOR" value="703"/>
@@ -188,7 +188,7 @@
     </item>
 
     <item id="16479" phase="2">
-        <info name="Marshal's Plate Legguards" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="Marshal's Plate Legguards" name_zh="统帅的板甲护腿" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_04.png"/>
         <class_restriction class="WARRIOR"/>
         <stats>
             <stat type="ARMOR" value="743"/>
@@ -203,7 +203,7 @@
     </item>
 
     <item id="16543" phase="2">
-        <info name="General's Plate Leggings" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_04.png"/>
+        <info name="General's Plate Leggings" name_zh="将军的板甲护腿" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="71" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_04.png"/>
         <class_restriction class="WARRIOR"/>
         <stats>
             <stat type="ARMOR" value="743"/>
@@ -218,7 +218,7 @@
     </item>
 
     <item id="19402" phase="3">
-        <info name="Legguards of the Fallen Crusader" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_pants_plate_16.png"/>
+        <info name="Legguards of the Fallen Crusader" name_zh="堕落十字军腿甲" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_pants_plate_16.png"/>
         <stats>
             <stat type="ARMOR" value="740"/>
             <stat type="STRENGTH" value="28"/>
@@ -232,7 +232,7 @@
     </item>
 
     <item id="20671" phase="4">
-        <info name="Abyssal Plate Legplates" type="PLATE" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_pants_plate_12.png"/>
+        <info name="Abyssal Plate Legplates" name_zh="深渊板甲护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_pants_plate_12.png"/>
         <stats>
             <stat type="ARMOR" value="566"/>
             <stat type="CRIT_CHANCE" value="0.01"/>
@@ -246,7 +246,7 @@
     </item>
 
     <item id="19855" phase="4">
-        <info name="Bloodsoaked Legplates" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_pants_plate_21.png"/>
+        <info name="Bloodsoaked Legplates" name_zh="" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_pants_plate_21.png"/>
         <stats>
             <stat type="ARMOR" value="674"/>
             <stat type="STRENGTH" value="36"/>
@@ -259,7 +259,7 @@
     </item>
 
     <item id="22651" phase="4">
-        <info name="Outrider's Plate Legguards" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_plate_20.png"/>
+        <info name="Outrider's Plate Legguards" name_zh="护卫的板甲护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_pants_plate_20.png"/>
         <stats>
             <stat type="ARMOR" value="646"/>
             <stat type="STRENGTH" value="28"/>
@@ -273,7 +273,7 @@
     </item>
 
     <item id="22672" phase="4">
-        <info name="Sentinel's Plate Legguards" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_plate_20.png"/>
+        <info name="Sentinel's Plate Legguards" name_zh="哨兵的板甲护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_plate_20.png"/>
         <stats>
             <stat type="ARMOR" value="646"/>
             <stat type="STRENGTH" value="28"/>
@@ -287,7 +287,7 @@
     </item>
 
     <item id="22753" phase="4">
-        <info name="Sentinel's Lamellar Legguards" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_plate_15.png"/>
+        <info name="Sentinel's Lamellar Legguards" name_zh="哨兵的板层腿甲" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_pants_plate_15.png"/>
         <stats>
             <stat type="ARMOR" value="646"/>
             <stat type="STRENGTH" value="21"/>
@@ -302,7 +302,7 @@
     </item>
 
     <item id="22385" phase="5">
-        <info name="Titanic Leggings" type="PLATE" slot="LEGS" unique="no" req_lvl="55" item_lvl="60" quality="EPIC" boe="yes" icon="Inv_pants_04.png"/>
+        <info name="Titanic Leggings" name_zh="泰坦护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="55" item_lvl="60" quality="EPIC" boe="yes" icon="Inv_pants_04.png"/>
         <stats>
             <stat type="ARMOR" value="598"/>
             <stat type="STRENGTH" value="30"/>
@@ -315,7 +315,7 @@
     </item>
 
     <item id="21495" phase="5">
-        <info name="Legplates of the Qiraji Command" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_pants_plate_15.png"/>
+        <info name="Legplates of the Qiraji Command" name_zh="其拉指挥官腿甲" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_pants_plate_15.png"/>
         <stats>
             <stat type="ARMOR" value="644"/>
             <stat type="STRENGTH" value="20"/>
@@ -328,7 +328,7 @@
     </item>
 
     <item id="21332" phase="5">
-        <info name="Conqueror's Legguards" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_plate_03.png"/>
+        <info name="Conqueror's Legguards" name_zh="征服者的腿铠" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_plate_03.png"/>
         <class_restriction class="WARRIOR"/>
         <stats>
             <stat type="ARMOR" value="796"/>
@@ -344,7 +344,7 @@
     </item>
 
     <item id="21390" phase="5">
-        <info name="Avenger's Legguards" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_plate_02.png"/>
+        <info name="Avenger's Legguards" name_zh="复仇者的护腿" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_pants_plate_02.png"/>
         <class_restriction class="PALADIN"/>
         <stats>
             <stat type="ARMOR" value="796"/>
@@ -363,7 +363,7 @@
     </item>
 
     <item id="23068" phase="6">
-        <info name="Legplates of Carnage" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_pants_plate_20.png"/>
+        <info name="Legplates of Carnage" name_zh="血战腿铠" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_pants_plate_20.png"/>
         <stats>
             <stat type="ARMOR" value="815"/>
             <stat type="STRENGTH" value="42"/>

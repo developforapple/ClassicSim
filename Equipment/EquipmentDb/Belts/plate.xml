@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="13959" phase="1">
-		<info name="Omokk's Girth Restrainer" type="PLATE" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Omokk's Girth Restrainer" name_zh="欧莫克的瘦身腰带" type="PLATE" slot="BELT" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
 		<mutex item_id="13958"/>
 		<mutex item_id="13961"/>
 		<mutex item_id="13962"/>
@@ -18,7 +18,7 @@
 	</item>
 
 	<item id="13142" phase="1">
-		<info name="Brigam Girdle" type="PLATE" slot="BELT" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_belt_33.png"/>
+		<info name="Brigam Girdle" name_zh="黑龙束带" type="PLATE" slot="BELT" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_belt_33.png"/>
 		<stats>
 			<stat type="ARMOR" value="369"/>
 			<stat type="STRENGTH" value="15"/>
@@ -31,7 +31,7 @@
 	</item>
 
 	<item id="13502" phase="1">
-		<info name="Handcrafted Mastersmith Girdle" type="PLATE" slot="BELT" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_belt_23.png"/>
+		<info name="Handcrafted Mastersmith Girdle" name_zh="手工精制束带" type="PLATE" slot="BELT" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_belt_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="519"/>
 			<stat type="STRENGTH" value="11"/>
@@ -44,7 +44,7 @@
 	</item>
 
 	<item id="19137" phase="1">
-		<info name="Onslaught Girdle" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_belt_29.png"/>
+		<info name="Onslaught Girdle" name_zh="冲击束带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_belt_29.png"/>
 		<stats>
 			<stat type="ARMOR" value="494"/>
 			<stat type="STRENGTH" value="31"/>
@@ -58,7 +58,7 @@
 	</item>
 
 	<item id="16960" phase="3">
-		<info name="Waistband of Wrath" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_09.png"/>
+		<info name="Waistband of Wrath" name_zh="愤怒腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_belt_09.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="482"/>
@@ -74,7 +74,7 @@
 	</item>
 
 	<item id="19392" phase="3">
-		<info name="Girdle of the Fallen Crusader" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_belt_11.png"/>
+		<info name="Girdle of the Fallen Crusader" name_zh="堕落十字军腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="77" quality="EPIC" boe="no" icon="Inv_belt_11.png"/>
 		<stats>
 			<stat type="ARMOR" value="488"/>
 			<stat type="STRENGTH" value="20"/>
@@ -89,7 +89,7 @@
 	</item>
 
 	<item id="20042" phase="4">
-		<info name="Highlander's Lamellar Girdle" type="PLATE" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_14.png"/>
+		<info name="Highlander's Lamellar Girdle" name_zh="高地板层甲束带" type="PLATE" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_14.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="369"/>
@@ -104,7 +104,7 @@
 	</item>
 
 	<item id="20041" phase="4">
-		<info name="Highlander's Plate Girdle" type="PLATE" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_14.png"/>
+		<info name="Highlander's Plate Girdle" name_zh="高地板甲束带" type="PLATE" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_belt_14.png"/>
 		<class_restriction class="WARRIOR"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
@@ -119,7 +119,7 @@
 	</item>
 
 	<item id="20204" phase="4">
-		<info name="Defiler's Plate Girdle" type="PLATE" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_14.png"/>
+		<info name="Defiler's Plate Girdle" name_zh="污染者的板甲束带" type="PLATE" slot="BELT" unique="yes" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_belt_14.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="369"/>
@@ -133,7 +133,7 @@
 	</item>
 
 	<item id="20213" phase="4">
-		<info name="Belt of Shrunken Heads" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Belt of Shrunken Heads" name_zh="扭曲头颅腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="408"/>
 			<stat type="STRENGTH" value="23"/>
@@ -146,7 +146,7 @@
 	</item>
 
 	<item id="22197" phase="5">
-		<info name="Heavy Obsidian Belt" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="yes" icon="Inv_belt_16.png"/>
+		<info name="Heavy Obsidian Belt" name_zh="重型黑曜石腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="yes" icon="Inv_belt_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="397"/>
 			<stat type="STRENGTH" value="25"/>
@@ -158,7 +158,7 @@
 	</item>
 
 	<item id="21692" phase="5">
-		<info name="Triad Girdle" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_belt_18.png"/>
+		<info name="Triad Girdle" name_zh="蔓延腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_belt_18.png"/>
 		<stats>
 			<stat type="ARMOR" value="476"/>
 			<stat type="STRENGTH" value="26"/>
@@ -171,7 +171,7 @@
 	</item>
 
 	<item id="23666" phase="6">
-		<info name="Belt of the Grand Crusader" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_belt_27.png"/>
+		<info name="Belt of the Grand Crusader" name_zh="大十字军的腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_belt_27.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="536"/>
@@ -187,7 +187,7 @@
 	</item>
 
 	<item id="23219" phase="6">
-		<info name="Girdle of the Mentor" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
+		<info name="Girdle of the Mentor" name_zh="教官的腰带" type="PLATE" slot="BELT" unique="no" req_lvl="60" item_lvl="85" quality="EPIC" boe="no" icon="Inv_belt_13.png"/>
 		<stats>
 			<stat type="ARMOR" value="536"/>
 			<stat type="STRENGTH" value="21"/>

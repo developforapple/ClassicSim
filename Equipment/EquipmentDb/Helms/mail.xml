@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="7719" phase="1">
-		<info name="Raging Berserker's Helm" type="MAIL" slot="HEAD" unique="no" req_lvl="37" item_lvl="42" quality="RARE" boe="no" icon="Inv_helmet_25.png"/>
+		<info name="Raging Berserker's Helm" name_zh="狂暴者头盔" type="MAIL" slot="HEAD" unique="no" req_lvl="37" item_lvl="42" quality="RARE" boe="no" icon="Inv_helmet_25.png"/>
 		<stats>
 			<stat type="ARMOR" value="213"/>
 			<stat type="STAMINA" value="8"/>
@@ -14,7 +14,7 @@
 	</item>
 
 	<item id="13359" phase="1">
-		<info name="Crown of Tyranny" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_03.png"/>
+		<info name="Crown of Tyranny" name_zh="暴君之冠" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="301"/>
 			<stat type="STAMINA" value="20"/>
@@ -27,7 +27,7 @@
 	</item>
 
 	<item id="11729" phase="1">
-		<info name="Savage Gladiator Helm" type="MAIL" slot="HEAD" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_helmet_01.png"/>
+		<info name="Savage Gladiator Helm" name_zh="野蛮角斗士头盔" type="MAIL" slot="HEAD" unique="no" req_lvl="52" item_lvl="57" quality="RARE" boe="no" icon="Inv_helmet_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="275"/>
 			<stat type="STAMINA" value="28"/>
@@ -39,7 +39,7 @@
 	</item>
 
 	<item id="16677" phase="1">
-		<info name="Beaststalker's Cap" type="MAIL" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_24.png"/>
+		<info name="Beaststalker's Cap" name_zh="野兽追猎者之帽" type="MAIL" slot="HEAD" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="no" icon="Inv_helmet_24.png"/>
 		<stats>
 			<stat type="ARMOR" value="297"/>
 			<stat type="AGILITY" value="20"/>
@@ -53,7 +53,7 @@
 	</item>
 
 	<item id="16846" phase="1">
-		<info name="Giantstalker's Helmet" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_helmet_05.png"/>
+		<info name="Giantstalker's Helmet" name_zh="巨人追猎者头盔" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_helmet_05.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="343"/>
@@ -70,7 +70,7 @@
 	</item>
 
 	<item id="16939" phase="1">
-		<info name="Dragonstalker's Helm" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_helmet_05.png"/>
+		<info name="Dragonstalker's Helm" name_zh="巨龙追猎者头盔" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_helmet_05.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="392"/>
@@ -88,7 +88,7 @@
 	</item>
 
 	<item id="18817" phase="1">
-		<info name="Crown of Destruction" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_crown_02.png"/>
+		<info name="Crown of Destruction" name_zh="毁灭王冠" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_crown_02.png"/>
 		<stats>
 			<stat type="ARMOR" value="392"/>
 			<stat type="STAMINA" value="23"/>
@@ -104,7 +104,7 @@
 	</item>
 
 	<item id="18421" phase="2">
-		<info name="Backwood Helm" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_19.png"/>
+		<info name="Backwood Helm" name_zh="密林头盔" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="63" quality="RARE" boe="no" icon="Inv_helmet_19.png"/>
 		<mutex item_id="18420"/>
 		<mutex item_id="18424"/>
 		<stats>
@@ -121,7 +121,7 @@
 	</item>
 
 	<item id="23306" phase="2">
-		<info name="Lieutenant Commander's Chain Helm" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_helmet_21.png"/>
+		<info name="Lieutenant Commander's Chain Helm" name_zh="少校的链甲头盔" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_helmet_21.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="337"/>
@@ -136,7 +136,7 @@
 	</item>
 
 	<item id="23251" phase="2">
-		<info name="Champion's Chain Helm" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_helmet_03.png"/>
+		<info name="Champion's Chain Helm" name_zh="勇士的链甲头盔" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_helmet_03.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="337"/>
@@ -151,7 +151,7 @@
 	</item>
 
 	<item id="16465" phase="2">
-		<info name="Field Marshal's Chain Helm" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_helmet_05.png"/>
+		<info name="Field Marshal's Chain Helm" name_zh="元帅的链甲头盔" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_helmet_05.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="432"/>
@@ -166,7 +166,7 @@
 	</item>
 
 	<item id="16566" phase="2">
-		<info name="Warlord's Chain Helmet" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
+		<info name="Warlord's Chain Helmet" name_zh="督军的链甲头盔" type="MAIL" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="432"/>
@@ -181,7 +181,7 @@
 	</item>
 
 	<item id="19875" phase="4">
-		<info name="Bloodstained Coif" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_helmet_39.png"/>
+		<info name="Bloodstained Coif" name_zh="血污头巾" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_helmet_39.png"/>
 		<stats>
 			<stat type="ARMOR" value="337"/>
 			<stat type="INTELLECT" value="14"/>
@@ -195,7 +195,7 @@
 	</item>
 
 	<item id="21366" phase="5">
-		<info name="Striker's Diadem" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_73.png"/>
+		<info name="Striker's Diadem" name_zh="攻击者的王冠" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_73.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="416"/>
@@ -212,7 +212,7 @@
 	</item>
 
 	<item id="22013" phase="5">
-		<info name="Beastmaster's Cap" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_helmet_24.png"/>
+		<info name="Beastmaster's Cap" name_zh="兽王罩帽" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_helmet_24.png"/>
 		<stats>
 			<stat type="ARMOR" value="314"/>
 			<stat type="AGILITY" value="22"/>
@@ -229,7 +229,7 @@
 	</item>
 
 	<item id="22438" phase="6">
-		<info name="Crypstalker Headpiece" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_15.png"/>
+		<info name="Crypstalker Headpiece" name_zh="地穴追猎者头饰" type="MAIL" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_15.png"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
 			<stat type="ARMOR" value="449"/>

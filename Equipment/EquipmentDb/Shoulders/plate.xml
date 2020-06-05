@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <items>
 	<item id="23315" phase="2">
-		<info name="Lieutenant Commander's Plate Shoulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_shoulder_11.png"/>
+		<info name="Lieutenant Commander's Plate Shoulders" name_zh="少校的板甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_shoulder_11.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="552"/>
@@ -15,7 +15,7 @@
 	</item>
 
 	<item id="23243" phase="2">
-		<info name="Champion's Plate Shoulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_shoulder_11.png"/>
+		<info name="Champion's Plate Shoulders" name_zh="勇士的板甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" faction="HORDE" boe="no" icon="Inv_shoulder_11.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="552"/>
@@ -29,7 +29,7 @@
 	</item>
 
 	<item id="19878" phase="4">
-		<info name="Bloodsoaked Pauldrons" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Bloodsoaked Pauldrons" name_zh="浸血肩铠" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_shoulder_01.png"/>
 		<stats>
 			<stat type="ARMOR" value="552"/>
 			<stat type="STAMINA" value="16"/>
@@ -43,7 +43,7 @@
 	</item>
 
 	<item id="16480" phase="2">
-		<info name="Field Marshal's Plate Shoulderguards" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_20.png"/>
+		<info name="Field Marshal's Plate Shoulderguards" name_zh="元帅的板甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_20.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="626"/>
@@ -58,7 +58,7 @@
 	</item>
 
 	<item id="16544" phase="2">
-		<info name="Warlord's Plate Shoulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_11.png"/>
+		<info name="Warlord's Plate Shoulders" name_zh="督军的板甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_11.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="626"/>
@@ -73,7 +73,7 @@
 	</item>
 
 	<item id="23277" phase="2">
-		<info name="Lieutenant Commander's Lamellar Shoulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_shoulder_28.png"/>
+		<info name="Lieutenant Commander's Lamellar Shoulders" name_zh="少校的板层甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="71" quality="RARE" boe="no" icon="Inv_shoulder_28.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="552"/>
@@ -88,7 +88,7 @@
 	</item>
 
 	<item id="16476" phase="2">
-		<info name="Field Marshal's Lamellar Shoulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_shoulder_20.png"/>
+		<info name="Field Marshal's Lamellar Shoulders" name_zh="元帅的板层甲肩铠" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" boe="no" icon="Inv_shoulder_20.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="626"/>
@@ -104,7 +104,7 @@
 	</item>
 
 	<item id="19394" phase="3">
-		<info name="Drake Talon Pauldrons" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_shoulder_23.png"/>
+		<info name="Drake Talon Pauldrons" name_zh="龙爪肩铠" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_shoulder_23.png"/>
 		<stats>
 			<stat type="ARMOR" value="634"/>
 			<stat type="AGILITY" value="20"/>
@@ -118,7 +118,7 @@
 	</item>
 
 	<item id="16961" phase="3">
-		<info name="Pauldrons of Wrath" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_34.png"/>
+		<info name="Pauldrons of Wrath" name_zh="愤怒肩铠" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_34.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="642"/>
@@ -134,7 +134,7 @@
 	</item>
 
 	<item id="20058" phase="4">
-		<info name="Highlander's Lamellar Spaulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Highlander's Lamellar Spaulders" name_zh="高地板层甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_01.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="553"/>
@@ -149,7 +149,7 @@
 	</item>
 
 	<item id="20057" phase="4">
-		<info name="Highlander's Plate Spaulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Highlander's Plate Spaulders" name_zh="高地板甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_shoulder_01.png"/>
 		<class_restriction class="WARRIOR"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
@@ -164,7 +164,7 @@
 	</item>
 
 	<item id="20212" phase="4">
-		<info name="Defiler's Plate Spaulders" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_01.png"/>
+		<info name="Defiler's Plate Spaulders" name_zh="污染者的板甲护肩" type="PLATE" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_01.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="553"/>
@@ -178,7 +178,7 @@
 	</item>
 
 	<item id="20517" phase="4">
-		<info name="Razorsteel Shoulders" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_shoulder_16.png"/>
+		<info name="Razorsteel Shoulders" name_zh="刺钢护肩" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_shoulder_16.png"/>
 		<mutex item_id="20130"/>
 		<mutex item_id="20251"/>
 		<stats>
@@ -194,7 +194,7 @@
 	</item>
 
 	<item id="21330" phase="5">
-		<info name="Conqueror's Spaulders" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_35.png"/>
+		<info name="Conqueror's Spaulders" name_zh="征服者的肩铠" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_35.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="659"/>
@@ -210,7 +210,7 @@
 	</item>
 
 	<item id="21391" phase="5">
-		<info name="Avenger's Pauldrons" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_35.png"/>
+		<info name="Avenger's Pauldrons" name_zh="复仇者的护肩" type="PLATE" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_35.png"/>
 		<class_restriction class="PALADIN"/>
 		<stats>
 			<stat type="ARMOR" value="659"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <weapons>
 	<melee_weapon id="18715" phase="1">
-		<info name="Lok'delar, Stave of the Ancient Keepers" type="STAFF" slot="2H" unique="yes" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_staff_21.png"/>
+		<info name="Lok'delar, Stave of the Ancient Keepers" name_zh="罗克迪洛尔，上古守护者的手杖" type="STAFF" slot="2H" unique="yes" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_staff_21.png"/>
 		<dmg_range min="187" max="282" speed="3.2"/>
 		<class_restriction class="HUNTER"/>
 		<stats>
@@ -17,7 +17,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="873" phase="1">
-		<info name="Staff of Jordan" type="STAFF" slot="2H" unique="no" req_lvl="35" item_lvl="40" quality="EPIC" boe="yes" icon="Inv_staff_13.png"/>
+		<info name="Staff of Jordan" name_zh="乔丹法杖" type="STAFF" slot="2H" unique="no" req_lvl="35" item_lvl="40" quality="EPIC" boe="yes" icon="Inv_staff_13.png"/>
 		<dmg_range min="119" max="180" speed="3.7"/>
 		<stats>
 			<stat type="INTELLECT" value="11"/>
@@ -30,7 +30,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="9517" phase="1">
-		<info name="Celestial Stave" type="STAFF" slot="2H" unique="no" req_lvl="35" item_lvl="40" quality="RARE" boe="no" icon="Inv_staff_14.png"/>
+		<info name="Celestial Stave" name_zh="苍穹手杖" type="STAFF" slot="2H" unique="no" req_lvl="35" item_lvl="40" quality="RARE" boe="no" icon="Inv_staff_14.png"/>
 		<dmg_range min="85" max="129" speed="3.0"/>
 		<class_restriction class="MAGE"/>
 		<stats>
@@ -43,7 +43,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="17743" phase="1">
-		<info name="Resurgence Rod" type="STAFF" slot="2H" unique="no" req_lvl="45" item_lvl="53" quality="RARE" boe="no" icon="Inv_staff_goldfeathered_01.png"/>
+		<info name="Resurgence Rod" name_zh="苏醒之杖" type="STAFF" slot="2H" unique="no" req_lvl="45" item_lvl="53" quality="RARE" boe="no" icon="Inv_staff_goldfeathered_01.png"/>
 		<dmg_range min="139" max="209" speed="3.8"/>
 		<mutex item_id="17705"/>
 		<mutex item_id="17753"/>
@@ -57,7 +57,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="13249" phase="1">
-		<info name="Argent Crusader" type="STAFF" slot="2H" unique="no" req_lvl="55" item_lvl="62" quality="RARE" boe="no" icon="Inv_staff_13.png"/>
+		<info name="Argent Crusader" name_zh="银色十字军" type="STAFF" slot="2H" unique="no" req_lvl="55" item_lvl="62" quality="RARE" boe="no" icon="Inv_staff_13.png"/>
 		<dmg_range min="127" max="191" speed="3.0"/>
 		<stats>
 			<stat type="INTELLECT" value="30"/>
@@ -70,7 +70,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="1607" phase="1">
-		<info name="Soulkeeper" type="STAFF" slot="2H" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="yes" icon="Spell_shadow_haunting.png"/>
+		<info name="Soulkeeper" name_zh="缚魂者" type="STAFF" slot="2H" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="yes" icon="Spell_shadow_haunting.png"/>
 		<dmg_range min="141" max="213" speed="3.8"/>
 		<stats>
 			<stat type="SPIRIT" value="26"/>
@@ -82,7 +82,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="13000" phase="1">
-		<info name="Staff of Hale Magefire" type="STAFF" slot="2H" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_staff_23.png"/>
+		<info name="Staff of Hale Magefire" name_zh="魔法火焰之杖" type="STAFF" slot="2H" unique="no" req_lvl="57" item_lvl="62" quality="RARE" boe="yes" icon="Inv_staff_23.png"/>
 		<dmg_range min="140" max="210" speed="3.3"/>
 		<stats>
 			<stat type="SPIRIT" value="22"/>
@@ -94,7 +94,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="812" phase="1">
-		<info name="Glowing Brightwood Staff" type="STAFF" slot="2H" unique="no" req_lvl="49" item_lvl="54" quality="EPIC" boe="yes" icon="Inv_staff_29.png"/>
+		<info name="Glowing Brightwood Staff" name_zh="亮木法杖" type="STAFF" slot="2H" unique="no" req_lvl="49" item_lvl="54" quality="EPIC" boe="yes" icon="Inv_staff_29.png"/>
 		<dmg_range min="127" max="191" speed="3.1"/>
 		<stats>
 			<stat type="INTELLECT" value="29"/>
@@ -108,7 +108,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="11750" phase="1">
-		<info name="Kindling Stave" type="STAFF" slot="2H" unique="no" req_lvl="48" item_lvl="53" quality="RARE" boe="no" icon="Inv_staff_18.png"/>
+		<info name="Kindling Stave" name_zh="引火手杖" type="STAFF" slot="2H" unique="no" req_lvl="48" item_lvl="53" quality="RARE" boe="no" icon="Inv_staff_18.png"/>
 		<dmg_range min="106" max="160" speed="2.9"/>
 		<stats>
 			<stat type="SPIRIT" value="13"/>
@@ -123,7 +123,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="13161" phase="1">
-		<info name="Trindlehaven Staff" type="STAFF" slot="2H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_staff_29.png"/>
+		<info name="Trindlehaven Staff" name_zh="庇护法杖" type="STAFF" slot="2H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_staff_29.png"/>
 		<dmg_range min="87" max="132" speed="2.1"/>
 		<stats>
 			<stat type="INTELLECT" value="25"/>
@@ -136,7 +136,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="10844" phase="1">
-		<info name="Spire of Hakkar" type="STAFF" slot="2H" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="no" icon="Inv_staff_32.png"/>
+		<info name="Spire of Hakkar" name_zh="哈卡之塔" type="STAFF" slot="2H" unique="no" req_lvl="49" item_lvl="54" quality="RARE" boe="no" icon="Inv_staff_32.png"/>
 		<dmg_range min="126" max="190" speed="3.4"/>
 		<stats>
 			<stat type="SPIRIT" value="16"/>
@@ -149,7 +149,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18842" phase="1">
-		<info name="Staff of Dominance" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_staff_13.png"/>
+		<info name="Staff of Dominance" name_zh="统御法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_staff_13.png"/>
 		<dmg_range min="126" max="205" speed="2.9"/>
 		<stats>
 			<stat type="INTELLECT" value="37"/>
@@ -164,7 +164,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="944" phase="1">
-		<info name="Elemental Mage Staff" type="STAFF" slot="2H" unique="no" req_lvl="56" item_lvl="61" quality="EPIC" boe="yes" icon="Inv_staff_07.png"/>
+		<info name="Elemental Mage Staff" name_zh="元素法杖" type="STAFF" slot="2H" unique="no" req_lvl="56" item_lvl="61" quality="EPIC" boe="yes" icon="Inv_staff_07.png"/>
 		<dmg_range min="147" max="221" speed="3.2"/>
 		<stats>
 			<stat type="FIRE_RESISTANCE" value="20"/>
@@ -178,7 +178,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="17113" phase="1">
-		<info name="Amberseal Keeper" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_staff_goldfeathered_01.png"/>
+		<info name="Amberseal Keeper" name_zh="琥珀封印" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="67" quality="EPIC" boe="no" icon="Inv_staff_goldfeathered_01.png"/>
 		<dmg_range min="145" max="229" speed="3.3"/>
 		<stats>
 			<stat type="INTELLECT" value="20"/>
@@ -196,7 +196,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18082" phase="1">
-		<info name="Zum'rah's Vexing Cane" type="STAFF" slot="2H" unique="no" req_lvl="42" item_lvl="47" quality="RARE" boe="no" icon="Inv_staff_10.png"/>
+		<info name="Zum'rah's Vexing Cane" name_zh="祖穆拉恩的能量法杖" type="STAFF" slot="2H" unique="no" req_lvl="42" item_lvl="47" quality="RARE" boe="no" icon="Inv_staff_10.png"/>
 		<dmg_range min="88" max="133" speed="2.7"/>
 		<stats>
 			<stat type="INTELLECT" value="10"/>
@@ -209,7 +209,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18534" phase="2">
-		<info name="Rod of the Ogre Magi" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_staff_32.png"/>
+		<info name="Rod of the Ogre Magi" name_zh="食人魔法师魔棒" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_staff_32.png"/>
 		<dmg_range min="116" max="175" speed="2.7"/>
 		<stats>
 			<stat type="INTELLECT" value="14"/>
@@ -224,7 +224,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18873" phase="2">
-		<info name="Grand Marshal's Stave" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_staff_14.png"/>
+		<info name="Grand Marshal's Stave" name_zh="大元帅的手杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_staff_14.png"/>
 		<dmg_range min="131" max="225" speed="3.0"/>
 		<stats>
 			<stat type="STAMINA" value="41"/>
@@ -238,7 +238,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="18874" phase="2">
-		<info name="High Warlord's War Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_bone_elfskull_01.png"/>
+		<info name="High Warlord's War Staff" name_zh="高阶督军的战斗法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="HORDE" boe="no" icon="Inv_misc_bone_elfskull_01.png"/>
 		<dmg_range min="131" max="225" speed="3.0"/>
 		<stats>
 			<stat type="STAMINA" value="41"/>
@@ -252,7 +252,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19102" phase="3">
-		<info name="Crackling Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_staff_20.png"/>
+		<info name="Crackling Staff" name_zh="细碎法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_staff_20.png"/>
 		<dmg_range min="138" max="207" speed="3.1"/>
 		<stats>
 			<stat type="INTELLECT" value="16"/>
@@ -265,7 +265,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19101" phase="3">
-		<info name="Whiteout Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="RARE" faction="HORDE" boe="no" icon="Inv_staff_30.png"/>
+		<info name="Whiteout Staff" name_zh="雪白法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="RARE" faction="HORDE" boe="no" icon="Inv_staff_30.png"/>
 		<dmg_range min="138" max="207" speed="3.1"/>
 		<stats>
 			<stat type="INTELLECT" value="16"/>
@@ -278,7 +278,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19566" phase="3">
-		<info name="Advisor's Gnarled Staff" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_staff_25.png"/>
+		<info name="Advisor's Gnarled Staff" name_zh="顾问的木节法杖" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="HORDE" boe="no" icon="Inv_staff_25.png"/>
 		<dmg_range min="125" max="188" speed="2.9"/>
 		<stats>
 			<stat type="STAMINA" value="21"/>
@@ -291,7 +291,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19571" phase="3">
-		<info name="Lorekeeper's Staff" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_staff_28.png"/>
+		<info name="Lorekeeper's Staff" name_zh="博学者法杖" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" faction="ALLIANCE" boe="no" icon="Inv_staff_28.png"/>
 		<dmg_range min="125" max="188" speed="2.9"/>
 		<stats>
 			<stat type="STAMINA" value="21"/>
@@ -304,7 +304,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19355" phase="3">
-		<info name="Shadow Wing Focus Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_staff_13.png"/>
+		<info name="Shadow Wing Focus Staff" name_zh="暗影之翼" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_staff_13.png"/>
 		<dmg_range min="142" max="237" speed="3.2"/>
 		<stats>
 			<stat type="INTELLECT" value="40"/>
@@ -318,7 +318,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19356" phase="3">
-		<info name="Staff of the Shadow Flame" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_staff_06.png"/>
+		<info name="Staff of the Shadow Flame" name_zh="暗影烈焰法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_staff_06.png"/>
 		<dmg_range min="142" max="248" speed="3.2"/>
 		<stats>
 			<stat type="INTELLECT" value="29"/>
@@ -333,7 +333,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20069" phase="4">
-		<info name="Ironbark Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_wand_04.png"/>
+		<info name="Ironbark Staff" name_zh="铁皮法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_wand_04.png"/>
 		<dmg_range min="137" max="243" speed="3.4"/>
 		<stats>
 			<stat type="ARMOR" value="100"/>
@@ -348,7 +348,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20258" phase="4">
-		<info name="Zulian Ceremonial Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_staff_34.png"/>
+		<info name="Zulian Ceremonial Staff" name_zh="祖利安仪祭法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_staff_34.png"/>
 		<dmg_range min="112" max="171" speed="2.6"/>
 		<stats>
 			<stat type="INTELLECT" value="16"/>
@@ -361,7 +361,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="19884" phase="4">
-		<info name="Jin'do's Judgement" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_staff_33.png"/>
+		<info name="Jin'do's Judgement" name_zh="金度的裁决" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_staff_33.png"/>
 		<dmg_range min="144" max="227" speed="3.3"/>
 		<stats>
 			<stat type="INTELLECT" value="10"/>
@@ -376,7 +376,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20724" phase="5">
-		<info name="Corrupted Blackwood Staff" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="62" quality="UNCOMMON" boe="no" icon="Inv_staff_07.png"/>
+		<info name="Corrupted Blackwood Staff" name_zh="堕落黑木法杖" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="62" quality="UNCOMMON" boe="no" icon="Inv_staff_07.png"/>
 		<dmg_range min="131" max="197" speed="3.4"/>
 		<stats>
 			<stat type="STAMINA" value="11"/>
@@ -388,7 +388,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22458" phase="5">
-		<info name="Moonshadow Stave" type="STAFF" slot="2H" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_staff_28.png"/>
+		<info name="Moonshadow Stave" name_zh="月影手杖" type="STAFF" slot="2H" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_staff_28.png"/>
 		<dmg_range min="133" max="200" speed="3.7"/>
 		<stats>
 			<stat type="SPELL_DAMAGE" value="18"/>
@@ -401,7 +401,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20536" phase="5">
-		<info name="Soul Harvester" type="STAFF" slot="2H" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_sword_48.png"/>
+		<info name="Soul Harvester" name_zh="灵魂收割者" type="STAFF" slot="2H" unique="no" req_lvl="50" item_lvl="52" quality="RARE" boe="no" icon="Inv_sword_48.png"/>
 		<dmg_range min="118" max="178" speed="3.3"/>
 		<mutex item_id="20530"/>
 		<stats>
@@ -415,7 +415,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="20654" phase="5">
-		<info name="Amethyst War Staff" type="STAFF" slot="2H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_staff_11.png"/>
+		<info name="Amethyst War Staff" name_zh="紫水晶作战法杖" type="STAFF" slot="2H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_staff_11.png"/>
 		<dmg_range min="119" max="179" speed="2.9"/>
 		<stats>
 			<stat type="INTELLECT" value="9"/>
@@ -428,7 +428,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22335" phase="5">
-		<info name="Lord Valthalak's Staff of Command" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_staff_07.png"/>
+		<info name="Lord Valthalak's Staff of Command" name_zh="瓦塔拉克公爵的命令法杖" type="STAFF" slot="2H" unique="no" req_lvl="58" item_lvl="63" quality="RARE" boe="no" icon="Inv_staff_07.png"/>
 		<dmg_range min="90" max="136" speed="2.1"/>
 		<stats>
 			<stat type="STAMINA" value="11"/>
@@ -442,7 +442,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21452" phase="5">
-		<info name="Staff of the Ruins" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_staff_12.png"/>
+		<info name="Staff of the Ruins" name_zh="废墟法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="72" quality="EPIC" boe="no" icon="Inv_staff_12.png"/>
 		<dmg_range min="152" max="247" speed="3.4"/>
 		<stats>
 			<stat type="INTELLECT" value="23"/>
@@ -458,7 +458,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21128" phase="5">
-		<info name="Staff of the Qiraji Prophets" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_staff_01.png"/>
+		<info name="Staff of the Qiraji Prophets" name_zh="其拉预言者法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="75" quality="EPIC" boe="no" icon="Inv_staff_01.png"/>
 		<dmg_range min="129" max="214" speed="2.9"/>
 		<stats>
 			<stat type="INTELLECT" value="26"/>
@@ -483,7 +483,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="21273" phase="5">
-		<info name="Blessed Qiraji Acolyte Staff" type="STAFF" slot="2H" unique="yes" req_lvl="60" item_lvl="79" quality="EPIC" boe="no" icon="Inv_staff_20.png"/>
+		<info name="Blessed Qiraji Acolyte Staff" name_zh="神圣其拉侍僧法杖" type="STAFF" slot="2H" unique="yes" req_lvl="60" item_lvl="79" quality="EPIC" boe="no" icon="Inv_staff_20.png"/>
 		<dmg_range min="132" max="227" speed="3.0"/>
 		<stats>
 			<stat type="INTELLECT" value="33"/>
@@ -501,7 +501,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="23124" phase="6">
-		<info name="Staff of Balzaphon" type="STAFF" slot="2H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_staff_07.png"/>
+		<info name="Staff of Balzaphon" name_zh="巴尔萨冯的法杖" type="STAFF" slot="2H" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_staff_07.png"/>
 		<dmg_range min="160" max="241" speed="3.9"/>
 		<stats>
 			<stat type="STAMINA" value="8"/>
@@ -516,7 +516,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22800" phase="6">
-		<info name="Brimstone Staff" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_staff_13.png"/>
+		<info name="Brimstone Staff" name_zh="硫磺法杖" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="83" quality="EPIC" boe="no" icon="Inv_staff_13.png"/>
 		<dmg_range min="140" max="250" speed="3.2"/>
 		<stats>
 			<stat type="STAMINA" value="31"/>
@@ -531,7 +531,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="22799" phase="6">
-		<info name="Soulseeker" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="89" quality="EPIC" boe="no" icon="Inv_staff_15.png"/>
+		<info name="Soulseeker" name_zh="搜魂者" type="STAFF" slot="2H" unique="no" req_lvl="60" item_lvl="89" quality="EPIC" boe="no" icon="Inv_staff_15.png"/>
 		<dmg_range min="142" max="265" speed="3.2"/>
 		<stats>
 			<stat type="STAMINA" value="30"/>
