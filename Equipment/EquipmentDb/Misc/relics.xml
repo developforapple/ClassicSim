@@ -11,7 +11,8 @@
 		<modifies name="Seal of the Crusader"/>
 		<modifies name="Seal of Righteousness"/>
 		<special_equip_effect>
-		Equip: Reduces the mana cost of your Seal spells by 20.
+			<en>Equip: Reduces the mana cost of your Seal spells by 20.</en>
+			<zh>装备：使你的圣印法术所消耗的法力值降低20点。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -25,8 +26,8 @@
 		<modifies name="Seal of the Crusader"/>
 		<modifies name="Judgement of the Crusader"/>
 		<special_equip_effect>
-		Equip: Increases the melee attack power bonus of your Seal of the Crusader by 48
-		and the Holy damage increase of your Judgement of the Crusader by 33.
+			<en>Equip: Increases the melee attack power bonus of your Seal of the Crusader by 48 and the Holy damage increase of your Judgement of the Crusader by 33.</en>
+			<zh>装备：使你的十字军圣印的近战攻击强度加成提高48点，十字军审判的神圣伤害加成提高33点。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -39,7 +40,8 @@
 		</source>
 		<modifies name="Moonfire"/>
 		<special_equip_effect>
-		Equip: Increases the damage of your Moonfire spell by up to 17% (HAS NO EFFECT CURRENTLY).
+			<en>Equip: Increases the damage of your Moonfire spell by up to 17% (HAS NO EFFECT CURRENTLY).</en>
+			<zh>装备：使你的月火术所造成的伤害提高最多17%。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -53,7 +55,8 @@
 		<modifies name="Lightning Bolt"/>
 		<modifies name="Chain Lightning"/>
 		<special_equip_effect>
-		Equip: Increases damage done by Chain Lightning and Lightning Bolt by up to 33.
+			<en>Equip: Increases damage done by Chain Lightning and Lightning Bolt by up to 33.</en>
+			<zh>装备：使闪电链和闪电箭所造成的伤害提高最多33点。</zh>
 		</special_equip_effect>
 	</item>
 </items>

@@ -5,7 +5,8 @@
 		<dmg_range min="49" max="93" speed="1.8"/>
 		<stats/>
 		<special_equip_effect>
-			Chance on hit: Knocks target silly for 2 sec.
+			<en>Chance on hit: Knocks target silly for 2 sec.</en>
+			<zh>击中时可能：将目标打傻2秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Ghok Bashguud in Lower Blackrock Spire (LBRS).
@@ -22,7 +23,8 @@
 			<spell name="GENERIC_STAT_BUFF" type="ATTACK_SPEED" amount="30" instant="yes" rate="0.025" duration="5" internal_cd="0" proc_melee_weapon_side="true"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Increases your attack speed by 30% for 5 sec.
+			<en>Chance on hit: Increases your attack speed by 30% for 5 sec.</en>
+			<zh>击中时可能：使你的攻击速度提高30%，持续5秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Magmadar in Molten Core.
@@ -40,7 +42,8 @@
 			<spell name="PHYSICAL_DOT" amount="5" tick_rate="1" duration="30" rate="0.05" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Slows enemy's movement by 60% and causes them to bleed for 150 damage over 30 sec.
+			<en>Chance on hit: Slows enemy's movement by 60% and causes them to bleed for 150 damage over 30 sec.</en>
+			<zh>击中时可能：使敌人的移动速度降低60%，并在接下来的30秒内不断流血，承受总计150点伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Azuregos (world boss).
@@ -119,7 +122,8 @@
 			<spell name="SHADOW_ATTACK" min="55" max="86" instant="yes" rate="0.025" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Sends a shadowy bolt at the enemy causing 55 to 86 Shadow damage.
+			<en>Chance on hit: Sends a shadowy bolt at the enemy causing 55 to 86 Shadow damage.</en>
+			<zh>击中时可能：向目标射出一支暗影箭，对其造成55到86点暗影伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from High Priestess Arlokk in Zul'Gurub.

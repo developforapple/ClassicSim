@@ -19,7 +19,8 @@
             <spell name="EXTRA_ATTACK" amount="1" instant="no" rate="0.04625" internal_cd="0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Grants 1 extra attack on your next swing.
+			<en>Chance on hit: Grants 1 extra attack on your next swing.</en>
+            <zh>击中时可能：使你的下次攻击获得1次额外的攻击机会。</zh>
         </special_equip_effect>
         <source>
 			World drop.
@@ -45,7 +46,8 @@
             <spell name="NATURE_ATTACK" min="90" max="127" instant="yes" rate="0.045" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Blasts a target for 90 to 127 Nature damage.
+			<en>Chance on hit: Blasts a target for 90 to 127 Nature damage.</en>
+            <zh>击中时可能：冲击目标，对其造成90到127点自然伤害。</zh>
         </special_equip_effect>
         <source>
 			World drop.
@@ -59,7 +61,8 @@
             <spell name="ARMOR_PENETRATION" value="200" max_stacks="3" duration="30" rate="0.04" internal_cd="0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Puncture's target's armor lowering it by 200. Can be applied up to 3 times.
+			<en>Chance on hit: Puncture's target's armor lowering it by 200. Can be applied up to 3 times.</en>
+            <zh>击中时可能：使目标的护甲降低200点，可叠加3次。</zh>
         </special_equip_effect>
         <source>
 			Drops from Spirestone Butcher in Lower Blackrock Spire (LBRS).
@@ -73,7 +76,8 @@
             <spell name="SHADOW_DOT" instant="no" amount="0"  min="10" max="10" tick_rate="5" duration="25" rate="0.10" internal_cd="0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Transfers 10 health every 5 seconds from the target to the caster for 25 sec.
+			<en>Chance on hit: Transfers 10 health every 5 seconds from the target to the caster for 25 sec.</en>
+            <zh>击中时可能：每5秒钟吸取目标10点生命值，并将其转移给施法者，持续25秒。</zh>
         </special_equip_effect>
         <source>
 			Drops from Bannok Grimaxe in Lower Blackrock Spire (LBRS).
@@ -99,7 +103,8 @@
             <spell name="SHADOW_ATTACK" min="110" max="141" instant="yes" rate="0.038666667" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Sends a shadowy bolt at the enemy causing 110 to 141 Shadow damage.
+			<en>Chance on hit: Sends a shadowy bolt at the enemy causing 110 to 141 Shadow damage.</en>
+            <zh>击中时可能：向目标射出一支暗影箭，对其造成110到141点暗影伤害。</zh>
         </special_equip_effect>
         <source>
 			Drops from Onyxia in Onyxia's Lair.
@@ -204,13 +209,14 @@
     </melee_weapon>
 
     <melee_weapon id="19852" phase="4">
-        <info name="Ancient Hakkari Manslayer" name_zh="" type="AXE" slot="1H" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_axe_35.png"/>
+        <info name="Ancient Hakkari Manslayer" name_zh="上古哈卡莱之斧" type="AXE" slot="1H" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_axe_35.png"/>
         <dmg_range min="69" max="130" speed="2.0"/>
         <proc>
             <spell name="SHADOW_ATTACK" min="48" max="54" instant="yes" rate="0.06" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Steals 48 to 55 life from target enemy.
+			<en>Chance on hit: Steals 48 to 55 life from target enemy.</en>
+            <zh>击中时可能：从敌人身上吸取48到55点生命值。</zh>
         </special_equip_effect>
         <source>
 			Drops from Hakkar the Soulflayer in Zul'Gurub.

@@ -151,7 +151,8 @@
 		</stats>
 		<modifies name="Multi-Shot"/>
 		<special_equip_effect>
-			Equip: Increases the damage done by your Multi-Shot by 4%.
+			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
+			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).
@@ -168,7 +169,8 @@
 		</stats>
 		<modifies name="Multi-Shot"/>
 		<special_equip_effect>
-			Equip: Increases the damage done by your Multi-Shot by 4%.
+			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
+			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Blood Guard (rank 7).
@@ -187,7 +189,8 @@
 		</stats>
 		<modifies name="Multi-Shot"/>
 		<special_equip_effect>
-			Equip: Increases the damage done by your Multi-Shot by 4%.
+			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
+			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).
@@ -206,7 +209,8 @@
 		</stats>
 		<modifies name="Multi-Shot"/>
 		<special_equip_effect>
-			Equip: Increases the damage done by your Multi-Shot by 4%.
+			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
+			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires General (rank 12).
@@ -311,7 +315,8 @@
 		</stats>
 		<modifies name="BEASTMASTER_HUNTER_PET"/>
 		<special_equip_effect>
-			Equip: Increases your pet's critical strike chance by 2%.
+			<en>Equip: Increases your pet's critical strike chance by 2%.</en>
+			<zh>装备：使你的宠物的爆击几率提高2%。</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward. Requires Beaststalker's Belt, Beaststalker's Gloves.
@@ -329,7 +334,8 @@
 			<spell name="BLACK_GRASP_OF_THE_DESTROYER" min="8" max="8" instant="yes" rate="1.0" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Equip: On successful melee or ranged attack gain 8 mana and if possible drain 8 mana from the target.
+			<en>Equip: On successful melee or ranged attack gain 8 mana and if possible drain 8 mana from the target.</en>
+			<zh>装备：近战或远程攻击成功命中目标后，获得8点法力值，并从敌人身上抽取8点法力值。</zh>
 		</special_equip_effect>
 		<source>
 			Crafted by Blacksmiths. Recipe from Moam in AQ20 and requires material from AQ20/AQ40.

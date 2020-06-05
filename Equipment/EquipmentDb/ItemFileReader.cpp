@@ -33,6 +33,7 @@ void ItemFileReader::read_items(QVector<Item*>& items, const QString& path) {
 }
 
 void ItemFileReader::item_file_handler(QXmlStreamReader& reader, QVector<Item*>& items) {
+    QString lang = "zh";
     while (reader.readNextStartElement()) {
         QString classification = reader.name().toString();
 
@@ -83,7 +84,28 @@ void ItemFileReader::item_file_handler(QXmlStreamReader& reader, QVector<Item*>&
             } else if (reader.name() == "flavour_text") {
                 item_map["flavour_text"] = reader.readElementText().simplified();
             } else if (reader.name() == "special_equip_effect") {
-                special_equip_effects.append(reader.readElementText().simplified());
+
+                QString defaultText = nullptr;
+                QString localizedText = nullptr;
+
+                while (reader.readNextStartElement()) {
+                    if (reader.name() == "en" || reader.name() == lang) {
+                        QString text = reader.readElementText().simplified();
+                        if (text != nullptr && text.length()) {
+                            if (reader.name() == "en") {
+                                defaultText = text;
+                            } else if (reader.name() == lang) {
+                                localizedText = text;
+                            }
+                        }
+                    }
+                }
+                if (localizedText == nullptr || localizedText.length() == 0) {
+                    qDebug() << QString("localized special_equip_effect not found. ItemId: %1. Language: %2").arg(id).arg(lang);
+                    localizedText = defaultText;
+                }
+                special_equip_effects.append(localizedText);
+
             } else if (reader.name() == "modifies") {
                 modifies_element_reader(reader, spell_modifications);
             } else if (reader.name() == "mutex") {

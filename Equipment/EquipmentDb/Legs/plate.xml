@@ -90,7 +90,8 @@
             <use name="GENERIC_STAT_BUFF" type="ATTACK_POWER" value="100" duration="30" cooldown="900"/>
         </uses>
         <special_equip_effect>
-		Use: Increases Attack Power by 100 for 30 sec. (cooldown 15 min)
+		  <en>Use: Increases Attack Power by 100 for 30 sec. (cooldown 15 min)</en>
+          <zh>使用：攻击强度提高100点，持续30秒。 (15分钟冷却)</zh>
         </special_equip_effect>
         <source>
 		World drop.

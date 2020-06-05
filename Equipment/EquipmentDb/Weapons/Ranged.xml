@@ -62,7 +62,8 @@
 			<spell name="SHADOW_ATTACK" min="13" max="20" instant="yes" rate="0.06" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-        Equip: Chance to strike your ranged target with a Shadowbolt for 13 to 20 Shadow damage.
+        	<en>Equip: Chance to strike your ranged target with a Shadowbolt for 13 to 20 Shadow damage.</en>
+        	<zh>Equip: Chance to strike your ranged target with a Shadowbolt for 13 to 20 Shadow damage.</zh>
 		</special_equip_effect>
 		<source>
         World drop.
@@ -76,7 +77,8 @@
 			<spell name="FIRE_ATTACK" min="33" max="50" instant="yes" rate="0.06" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-        Equip: Chance to strike your ranged target with a Flaming Cannonbal for 33 to 50 Fire damage.
+        	<en>Equip: Chance to strike your ranged target with a Flaming Cannonbal for 33 to 50 Fire damage.</en>
+        	<zh>装备：有一定几率对你的远程攻击目标造成33到50点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
         World drop.

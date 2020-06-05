@@ -22,7 +22,8 @@
 			Drops from Ras Frostwhisper in Scholomance.
         </source>
         <special_equip_effect>
-			Chance on hit: Blasts a target for 90 Frost damage.
+			<en>Chance on hit: Blasts a target for 90 Frost damage.</en>
+            <zh>击中时可能：冲击目标，对其造成90点冰霜伤害。</zh>
         </special_equip_effect>
     </melee_weapon>
 
@@ -57,7 +58,8 @@
             <spell name="FIRE_ATTACK" min="35" max="35" instant="yes" rate="0.04" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Blasts a target for 35 Fire damage.
+			<en>Chance on hit: Blasts a target for 35 Fire damage.</en>
+            <zh>击中时可能：冲击目标，对其造成35点火焰伤害。</zh>
         </special_equip_effect>
         <source>
 			Drops from Baron Charr in Un'Goro Crater.
@@ -74,7 +76,8 @@
             <spell name="ARMOR_PENETRATION" value="200" max_stacks="3" duration="30" rate="0.04" internal_cd="0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Puncture's target's armor lowering it by 200. Can be applied up to 3 times.
+			<en>Chance on hit: Puncture's target's armor lowering it by 200. Can be applied up to 3 times.</en>
+            <zh>击中时可能：使目标的护甲降低200点，可叠加3次。</zh>
         </special_equip_effect>
         <source>
 			Drops from Ghok Bashguud in Lower Blackrock Spire (LBRS).
@@ -86,7 +89,8 @@
         <dmg_range min="52" max="98" speed="1.9"/>
         <stats/>
         <special_equip_effect>
-			Chance on hit: Poisons target for 7 Nature damage every 2 sec for 30 sec.
+			<en>Chance on hit: Poisons target for 7 Nature damage every 2 sec for 30 sec.</en>
+            <zh>击中时可能：使目标每2秒毒发一次，对其造成7点自然伤害，持续30秒。</zh>
         </special_equip_effect>
         <source>
 			Drops from Mother Smolderweb in Lower Blackrock Spire (LBRS).
@@ -100,7 +104,8 @@
             <spell name="EXTRA_ATTACK" amount="2" instant="no" rate="0.032" internal_cd="0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Grants 2 extra attacks on your next swing.
+			<en>Chance on hit: Grants 2 extra attacks on your next swing.</en>
+            <zh>击中时可能：使你的下次攻击获得2次额外的攻击机会。</zh>
         </special_equip_effect>
         <source>
 			Drops from Emperor Dagran Thaurissan in Blackrock Depths.
@@ -139,7 +144,8 @@
             <spell name="GENERIC_STAT_BUFF" type="ATTACK_SPEED" amount="20" instant="yes" rate="0.04666667" duration="10" internal_cd="0" proc_melee_weapon_side="true"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Increases your attack speed by 20% for 10 sec.
+			<en>Chance on hit: Increases your attack speed by 20% for 10 sec.</en>
+            <zh>击中时可能：使你的攻击速度提高20%，持续10秒。</zh>
         </special_equip_effect>
         <source>
 			Drops from Lord Kazzak (world boss).
@@ -196,7 +202,8 @@
             <spell name="SHADOW_ATTACK" min="125" max="275" instant="yes" rate="0.038333333" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Sends a shadowy bolt at the enemy causing 125 to 275 Shadow damage.
+			<en>Chance on hit: Sends a shadowy bolt at the enemy causing 125 to 275 Shadow damage.</en>
+            <zh>击中时可能：向目标射出一支暗影箭，对其造成125到276点暗影伤害。</zh>
         </special_equip_effect>
         <source>
 			Crafted by Blacksmiths with Thorium Brotherhood reputation. Requires Molten Core materials.
@@ -213,7 +220,8 @@
             <spell name="NATURE_ATTACK" min="63" max="94" instant="yes" rate="0.043333333" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance on hit: Blasts the enemy with poison for 63 to 94 Nature damage.
+			<en>Chance on hit: Blasts the enemy with poison for 63 to 94 Nature damage.</en>
+            <zh>击中时可能：对敌人造成63到94点自然伤害。</zh>
         </special_equip_effect>
         <source>
 			Random drop from trash in Zul'Gurub.
@@ -307,7 +315,8 @@
             <spell name="NATURE_ATTACK" min="100" max="151" instant="yes" rate="0.14" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <special_equip_effect>
-			Chance to discharge electricity causing 100 to 151 Nature damage to your target.
+			<en>Chance to discharge electricity causing 100 to 151 Nature damage to your target.</en>
+            <zh>装备：有一定几率放电，对你的目标造成100到151点自然伤害。</zh>
         </special_equip_effect>
         <source>
 			Drops from trash mobs in Naxxramas.

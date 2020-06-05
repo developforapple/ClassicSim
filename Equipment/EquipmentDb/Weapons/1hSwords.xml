@@ -5,7 +5,8 @@
 		<dmg_range min="70" max="130" speed="2.7"/>
 		<stats/>
 		<special_equip_effect>
-			Chance on hit: Wounds the target causing them to bleed for 120 damage over 30 sec.
+			<en>Chance on hit: Wounds the target causing them to bleed for 120 damage over 30 sec.</en>
+			<zh>击中时可能：使目标的伤口不断流血，在30秒内造成累计120点伤害。</zh>
 		</special_equip_effect>
 		<source>
 			World drop.
@@ -21,7 +22,8 @@
 			<spell name="EXTRA_ATTACK" amount="1" instant="no" rate="0.045" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Grants an extra attack on your next swing.
+			<en>Chance on hit: Grants an extra attack on your next swing.</en>
+			<zh>击中时可能：使你的下次攻击变为两次连续攻击。</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward. Requires killing Princess Theradras in Maraudon.
@@ -47,7 +49,8 @@
 			<spell name="GENERIC_STAT_BUFF" type="ATTACK_POWER_UNDEAD" amount="200" instant="yes" rate="0.041666677" duration="10" internal_cd="0" proc_melee_weapon_side="true"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Increases Attack Power against Undead by 200 for 10 sec.
+			<en>Chance on hit: Increases Attack Power against Undead by 200 for 10 sec.</en>
+			<zh>击中时可能：对亡灵的攻击强度提高200点，持续10秒。</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward from The Argent Hold.
@@ -73,7 +76,8 @@
 			<spell name="PHYSICAL_ATTACK" min="75" max="75" instant="yes" rate="0.05633333" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Wounds the target for 75 damage.
+			<en>Chance on hit: Wounds the target for 75 damage.</en>
+			<zh>击中时可能：对目标造成75点伤害。</zh>
 		</special_equip_effect>
 		<source>
 			World drop.
@@ -100,7 +104,8 @@
 			<spell name="GENERIC_STAT_BUFF" type="ATTACK_POWER" amount="50" instant="yes" rate="0.08" duration="30" internal_cd="0" proc_melee_weapon_side="true"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Increases attack power by 50 for 30 sec.
+			<en>Chance on hit: Increases attack power by 50 for 30 sec.</en>
+			<zh>击中时可能：攻击强度提高50点，持续30秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from General Angerforge in Blackrock Depths.
@@ -138,7 +143,8 @@
 			<spell name="SHADOW_ATTACK" min="210" max="210" instant="yes" rate="0.08" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Corrupts the target, causing 210 damage over 3 sec.
+			<en>Chance on hit: Corrupts the target, causing 210 damage over 3 sec.</en>
+			<zh>击中时可能：腐蚀目标，在3秒内造成累计210点伤害。</zh>
 		</special_equip_effect>
 		<stats/>
 		<source>
@@ -166,7 +172,8 @@
 			<spell name="ADDITIONAL_DMG_BUFF" min="10" max="10" duration="15" rate="0.05" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: A burst of energy fills thecaster, increasing damage by 10 and armor by 150 for 15 sec.
+			<en>Chance on hit: A burst of energy fills thecaster, increasing damage by 10 and armor by 150 for 15 sec.</en>
+			<zh>击中时可能：能量充满施法者全身，使他的攻击伤害提高10点，护甲提高150点，持续15秒。</zh>
 		</special_equip_effect>
 		<source>
 			World drop.
@@ -180,7 +187,8 @@
 			<spell name="SHADOW_DOT" instant="no" amount="0"  min="2" max="2" tick_rate="1" duration="30" rate="0.05" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Drains the target for 2 Shadow damage every 1 sec and transfers it to the caster. Lasts for 30 sec.
+			<en>Chance on hit: Drains the target for 2 Shadow damage every 1 sec and transfers it to the caster. Lasts for 30 sec.</en>
+			<zh>击中时可能：每1秒对敌人造成2点暗影伤害，并将其转移给施法者。持续30秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Baron Rivendare in Stratholme Undead.
@@ -230,7 +238,8 @@
 			<spell name="SUMMON_NATURE_MINION" amount="1" duration="30" rate="0.05" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Calls forth an Emerald Dragon Whelp to protect you in battle for a short period of time.
+			<en>Chance on hit: Calls forth an Emerald Dragon Whelp to protect you in battle for a short period of time.</en>
+			<zh>击中时可能：召唤翡翠雏龙，在短时间内为你作战。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Shade of Eranikus in Sunken Temple.
@@ -244,7 +253,8 @@
 			<spell name="PHYSICAL_ATTACK" min="240" max="240" instant="yes" rate="0.026" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Delivers a fatal wound for 240 damage.
+			<en>Chance on hit: Delivers a fatal wound for 240 damage.</en>
+			<zh>击中时可能：使目标遭到重创，对其造成240点伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Onyxia in Onyxia's Lair.
@@ -291,7 +301,8 @@
 			Quest reward. Requires rare quest item Foror's Compendium of Dragonslaying from Dire Maul and an Onyxia kill.
 		</source>
 		<special_equip_effect>
-			Chance on hit: When active, grants the wielder 13 defense and 300 armor for 10 sec.
+			<en>Chance on hit: When active, grants the wielder 13 defense and 300 armor for 10 sec.</en>
+			<zh>击中时可能：激活之后，佩戴者可以获得13点防御值和300点护甲值，持续10秒。</zh>
 		</special_equip_effect>
 		<flavour_text>
 			"The High Blade"
@@ -453,9 +464,10 @@
 			<spell name="NATURE_ATTACK" display_name="Thunderfury Chain Lightning" min="300" max="300" instant="yes" rate="0.2" internal_cd="0" spell_dmg_coefficient="0.0" innate_threat="241"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Blasts your enemy with lightning, dealing 300  Nature damage and then jumping to additional nearby enemies.
+			<en>Chance on hit: Blasts your enemy with lightning, dealing 300  Nature damage and then jumping to additional nearby enemies.
 			Each jump reduces that victim's Nature resistance by 25. Affects 5 targets.
-			Your primary target is also consumed by a cyclone, slowing its attack speed by 20% for 12 sec.
+			Your primary target is also consumed by a cyclone, slowing its attack speed by 20% for 12 sec.</en>
+			<zh>击中时可能：以闪电的力量攻击敌人，对其造成300点自然伤害，然后攻击附近的下一个敌人。闪电每次跳跃都使目标的自然抗性降低25点。可攻击5个目标。你的目标也会因此被飓风吞噬，使其攻击速度降低20%，持续12秒。</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward. Requires Left and Right Bindings of the Windseeker from Garr and Baron Geddon in Molten Core.
@@ -511,7 +523,8 @@
 			<spell name="FIRE_ATTACK" min="2" max="2" instant="yes" rate="1.0" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Equip: Adds 2 fire damage to your melee attacks.
+			<en>Equip: Adds 2 fire damage to your melee attacks.</en>
+			<zh>装备：为你的武器攻击附加2点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Hazza'rah (Edge of Madness) in Zul'Gurub.
@@ -528,7 +541,8 @@
 			<spell name="NATURE_ATTACK" min="72" max="97" instant="yes" rate="0.041666677" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Slices the enemy for 72 to 97 Nature damage.
+			<en>Chance on hit: Slices the enemy for 72 to 97 Nature damage.</en>
+			<zh>击中时可能：切割敌人，对其造成72到97点自然伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from High Priest Thekal in Zul'Gurub.
@@ -601,7 +615,8 @@
 			<spell name="FIRE_ATTACK" min="150" max="150" instant="yes" rate="0.04833333" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Blasts a target for 150 Fire damage.
+			<en>Chance on hit: Blasts a target for 150 Fire damage.</en>
+			<zh>击中时可能：冲击目标，对其造成150点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops randomly in selected dungeons and raids.

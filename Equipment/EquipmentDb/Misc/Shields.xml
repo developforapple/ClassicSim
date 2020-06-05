@@ -13,7 +13,8 @@
 			Drops from Garr in Molten Core.
 		</source>
 		<special_equip_effect>
-		Equip: When struct in combat inflicts 3 Arcane damage to the attacker.
+			<en>Equip: When struct in combat inflicts 3 Arcane damage to the attacker.</en>
+			<zh>装备：在被击中之后对攻击者造成3点奥术伤害。</zh>
 		</special_equip_effect>
 	</melee_weapon>
 

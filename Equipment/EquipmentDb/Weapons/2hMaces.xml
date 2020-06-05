@@ -11,7 +11,8 @@
 			<use name="GENERIC_STAT_BUFF" type="MELEE_ATTACK_SPEED" value="50" duration="30" cooldown="30"/>
 		</uses>
 		<special_equip_effect>
-		Use: Increases your attack speed by 50% for 30 sec. 3 charges.
+			<en>Use: Increases your attack speed by 50% for 30 sec. 3 charges.</en>
+			<zh>使用：使你的攻击速度提高50%，持续30秒。3次</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Crowd Pummeler 9-60 in Gnomeregan.
@@ -25,7 +26,8 @@
 			<stat type="ATTACK_POWER" value="22"/>
 		</stats>
 		<special_equip_effect>
-		Chance on hit: Knocks down all nearby enemies for 3 sec.
+			<en>Chance on hit: Knocks down all nearby enemies for 3 sec.</en>
+			<zh>击中时可能：将附近所有的敌人击倒3秒。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Magmadar in Molten Core.
@@ -68,7 +70,8 @@
 			<spell name="INSTANT_FIREBALL" min="83" max="102" instant="yes" rate="0.0431666667" internal_cd="0" duration="8" dmg_over_duration="16"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Hurls a fiery ball that causes 83 to 102 Fire damage and an additional 16 damage over 8 sec.
+			<en>Chance on hit: Hurls a fiery ball that causes 83 to 102 Fire damage and an additional 16 damage over 8 sec.</en>
+			<zh>击中时可能：发射一枚火球攻击目标，对其造成83到102点火焰伤害，并在8秒内造成额外的16点伤害。</zh>
 		</special_equip_effect>
 		<source>
 		Crafted by Blacksmiths (300 skill). Extremely expensive materials, and requires Molten Core drops.
@@ -87,10 +90,12 @@
 			<spell name="INSTANT_FIREBALL" min="273" max="334" instant="yes" rate="0.061666667" internal_cd="0" duration="10" dmg_over_duration="75"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Hurls a fiery ball that causes 273 to 334 Fire damage and an additional 75 damage over 10 sec.
+			<en>Chance on hit: Hurls a fiery ball that causes 273 to 334 Fire damage and an additional 75 damage over 10 sec.</en>
+			<zh>击中时可能：发射一枚火球攻击目标，对其造成273到334点火焰伤害，并在10秒内造成额外的75点伤害。</zh>
 		</special_equip_effect>
 		<special_equip_effect>
-		Equip: Deals 5 Fire damage to anyone who strikes you with a melee attack.
+			<en>Equip: Deals 5 Fire damage to anyone who strikes you with a melee attack.</en>
+			<zh>装备：对使用近战武器攻击你的敌人造成5点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
 		Created with rare boss drop from Ragnaros and Sulfuron Hammer.
@@ -160,7 +165,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<special_equip_effect>
-		Chance on hit: Stuns target for 1 sec.
+			<en>Chance on hit: Stuns target for 1 sec.</en>
+			<zh>击中时可能：使目标昏迷1秒。</zh>
 		</special_equip_effect>
 		<source>
 		Purchased with gold. Requires Exalted with Alterac Valley faction.
@@ -201,7 +207,8 @@
 			<spell name="PHYSICAL_ATTACK" min="200" max="221" instant="yes" rate="0.06" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Wounds  the target for 200 to 221 damage.
+			<en>Chance on hit: Wounds  the target for 200 to 221 damage.</en>
+			<zh>击中时可能：使目标受到200到221点伤害。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from High Priestess Jeklik in Zul'Gurub.

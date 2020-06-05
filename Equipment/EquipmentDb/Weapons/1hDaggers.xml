@@ -29,7 +29,8 @@
 		<dmg_range min="49" max="93" speed="1.8"/>
 		<stats/>
 		<special_equip_effect>
-			Chance on hit: Inflicts numbing pain that deals 10 Nature damage every 2 sec and increases time between target's attacks by 10% for 10 sec.
+			<en>Chance on hit: Inflicts numbing pain that deals 10 Nature damage every 2 sec and increases time between target's attacks by 10% for 10 sec.</en>
+			<zh>击中时可能：每2秒对目标造成$m1点自然伤害，并使其攻击间隔延长10%，持续10秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from War Master Voone in Lower Blackrock Spire (LBRS).
@@ -41,7 +42,8 @@
 		<dmg_range min="45" max="84" speed="1.6"/>
 		<stats/>
 		<special_equip_effect>
-			Chance on hit: Slows target enemy's casting speed and increases the time between melee and ranged attacks by 10% for 10 sec.
+			<en>Chance on hit: Slows target enemy's casting speed and increases the time between melee and ranged attacks by 10% for 10 sec.</en>
+			<zh>击中时可能：使目标的施法速度、近战和远程攻击的攻击间隔延长10%，持续10秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Crystal Fang in Lower Blackrock Spire (LBRS).
@@ -79,7 +81,8 @@
 			<spell name="FIRE_ATTACK" min="75" max="106" instant="yes" rate="0.02816667" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Blasts a target for 75 to 106 Fire damage.
+			<en>Chance on hit: Blasts a target for 75 to 106 Fire damage.</en>
+			<zh>击中时可能：冲击目标，对其造成75到106点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
 			World drop. BoE in 1.9.0, BoP in patches before that.
@@ -93,7 +96,8 @@
 			<spell name="FELSTRIKER_PROC" duration="3" instant="yes" rate="0.028333333" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: All attacks are guaranteed to land and will be critical strikes for the next 3 sec.
+			<en>Chance on hit: All attacks are guaranteed to land and will be critical strikes for the next 3 sec.</en>
+			<zh>击中时可能：下3秒的所有攻击都一定命中，并且一定是致命一击。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).
@@ -120,7 +124,8 @@
 			<spell name="SHADOW_ATTACK" min="75" max="75" instant="yes" rate="0.03" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Sends a shadowy bolt at the enemy causing 75 Shadow damage and lowering all stats by 25 for 30 sec.
+			<en>Chance on hit: Sends a shadowy bolt at the enemy causing 75 Shadow damage and lowering all stats by 25 for 30 sec.</en>
+			<zh>击中时可能：向敌人发射一支暗影箭，对其造成75点暗影伤害，并使所有属性降低25点，持续30秒。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Garr in Molten Core.
@@ -147,7 +152,8 @@
 			<spell name="FIRE_ATTACK" min="40" max="57" instant="yes" rate="0.039" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Chance on hit: Blasts a target for 40 to 57 Fire damage.
+			<en>Chance on hit: Blasts a target for 40 to 57 Fire damage.</en>
+			<zh>击中时可能：对目标造成40到57点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Ragnaros in Molten Core.
@@ -165,7 +171,8 @@
 			Purchased from Alterac Valley faction upon reaching Exalted.
 		</source>
 		<special_equip_effect>
-			Chance on hit: Wounds the target for 200 to 300 damage and lowers Intellect of target by 25 for 30 sec.
+			<en>Chance on hit: Wounds the target for 200 to 300 damage and lowers Intellect of target by 25 for 30 sec.</en>
+			<zh>击中时可能：使目标受到200到301点伤害，并使其智力降低25点，持续30秒。</zh>
 		</special_equip_effect>
 	</melee_weapon>
 

@@ -163,7 +163,8 @@
 			<stat type="SHADOW_RESISTANCE" value="10"/>
 		</stats>
 		<special_equip_effect>
-			Equip: Immune to Disarm.
+			<en>Equip: Immune to Disarm.</en>
+			<zh>装备：免疫缴械。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Ebonroc/Flamegor/Firemaw in Blackwing Lair.

@@ -81,7 +81,8 @@
 			<stat type="FIRE_RESISTANCE" value="16"/>
 		</stats>
 		<source>
-			Crafted by leatherworkers.
+			<en>Crafted by leatherworkers.</en>
+			<zh>装备：保护你不被暗影烈焰完全吞噬。</zh>
 		</source>
 		<special_equip_effect>
 			Equip: Protects the wearer from being fully engulfed by Shadow Flame.

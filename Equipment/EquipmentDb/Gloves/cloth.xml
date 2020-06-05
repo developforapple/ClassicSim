@@ -139,7 +139,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Increases the damage absorbed by your Mana Shield by 285.
+			<en>Equip: Increases the damage absorbed by your Mana Shield by 285.</en>
+			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
 		May be purchased upon reaching Blood Guard (rank 7). Horde only.
@@ -156,7 +157,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Increases the damage absorbed by your Mana Shield by 285.
+			<en>Equip: Increases the damage absorbed by your Mana Shield by 285.</en>
+			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
 		May be purchased upon reaching Knight-Lieutenant (rank 7). Alliance only.
@@ -174,7 +176,8 @@
 			<stat type="SPELL_DAMAGE" value="27"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Increases the damage absorbed by your Mana Shield by 285.
+			<en>Equip: Increases the damage absorbed by your Mana Shield by 285.</en>
+			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
 		May be purchased upon reaching General (rank 12). Horde only.
@@ -192,7 +195,8 @@
 			<stat type="SPELL_DAMAGE" value="27"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Increases the damage absorbed by your Mana Shield by 285.
+			<en>Equip: Increases the damage absorbed by your Mana Shield by 285.</en>
+			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
 		May be purchased upon reaching Marshal (rank 12). Alliance only.

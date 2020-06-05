@@ -34,7 +34,8 @@
 			<spell name="SHADOW_ATTACK" min="150" max="150" instant="yes" rate="0.06" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Sends a shadowy bolt at the enemy causing 150 Shadow damage and dealing 40 damage every 2 sec for 6 sec.
+			<en>Chance on hit: Sends a shadowy bolt at the enemy causing 150 Shadow damage and dealing 40 damage every 2 sec for 6 sec.</en>
+			<zh>击中时可能：向目标射出一支暗影箭，对其造成150点暗影伤害，并在接下来的6秒内每2秒造成40点伤害。</zh>
 		</special_equip_effect>
 		<source>
         Drops from Grand Crusader Dathrohan and Balnazzar in Stratholme.
@@ -64,7 +65,8 @@
 			<spell name="ARMOR_PENETRATION" value="700" max_stacks="3" duration="10" rate="0.11333333" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-        Chance on hit: Reduces target's armor by 700 for 10 seconds. This effect stacks up to 3 times.
+        	<en>Chance on hit: Reduces target's armor by 700 for 10 seconds. This effect stacks up to 3 times.</en>
+        	<zh>击中时可能：你的攻击忽略目标的700点护甲值，持续10秒。该效果可叠加最多3次。</zh>
 		</special_equip_effect>
 		<source>
         Drops from Ragnaros in Molten Core.
@@ -134,7 +136,8 @@
 			<spell name="GENERIC_STAT_BUFF" type="STRENGTH" amount="300" instant="yes" rate="0.056666667" duration="8" internal_cd="0" proc_melee_weapon_side="true"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Increases Strength by 300 for 8 sec.
+			<en>Chance on hit: Increases Strength by 300 for 8 sec.</en>
+			<zh>击中时可能：力量提高300点，持续8秒。</zh>
 		</special_equip_effect>
 		<source>
         Drops from Razorgore the Untamed in Blackwing Lair.
@@ -192,7 +195,8 @@
 			<spell name="NATURE_ATTACK" min="239" max="279" instant="yes" rate="0.053333333" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Instantly lightning shocks the target for 239 to 278 Nature damage.
+			<en>Chance on hit: Instantly lightning shocks the target for 239 to 278 Nature damage.</en>
+			<zh>击中时可能：立刻向目标射出闪电箭，对其造成239到278点自然伤害。</zh>
 		</special_equip_effect>
 		<source>
         Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
@@ -223,10 +227,12 @@
 			<spell name="SHADOW_ATTACK" min="185" max="216" instant="yes" rate="0.06" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Steals 185 to 216 life from target enemy.
+			<en>Chance on hit: Steals 185 to 216 life from target enemy.</en>
+			<zh>击中时可能：从目标身上吸取185到216点生命值。</zh>
 		</special_equip_effect>
 		<special_equip_effect>
-		Equip: Inflicts the will of the Ashbringer upon the wielder.
+			<en>Equip: Inflicts the will of the Ashbringer upon the wielder.</en>
+			<zh>装备：将灰烬使者的意志灌注到持有者体内。</zh>
 		</special_equip_effect>
 		<source>
         Drops from Four Horsemen in Naxxramas.

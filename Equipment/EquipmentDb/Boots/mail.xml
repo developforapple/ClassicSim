@@ -190,7 +190,8 @@
 		Requires Exalted with The League of Arathor (Arathi Basin).
 		</source>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -208,7 +209,8 @@
 		Requires Exalted with The Defilers (Arathi Basin).
 		</source>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -224,7 +226,8 @@
 		Quest reward. Requires Beaststalker's Boots, Beaststalker's Pants, and Beaststalker's Mantle.
 		</source>
 		<special_equip_effect>
-		Equip: Increases damage dealt by your pet by 3%.
+			<en>Equip: Increases damage dealt by your pet by 3%.</en>
+			<zh>装备：使你的宠物所能造成的伤害提高3%。</zh>
 		</special_equip_effect>
 	</item>
 

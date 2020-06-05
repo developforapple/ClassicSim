@@ -32,8 +32,8 @@
 			<stat type="ATTACK_POWER" value="34"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Restores 150 mana or 20 rage when you kill a target that gives experience; this effect cannot occur
-		more than once every 10 seconds.
+			<en>Equip: Restores 150 mana or 20 rage when you kill a target that gives experience; this effect cannot occur more than once every 10 seconds.</en>
+			<zh>装备：在杀死一个敌人并获得经验值之后获得150点法力值或者20点怒气值。此效果每10秒钟内最多出现一次。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Ragnaros in Molten Core.
@@ -73,7 +73,8 @@
 			<spell name="NIGHTFALL" min="0" max="0" instant="yes" rate="0.20" internal_cd="0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Spell damage taken by target increased by 15% for 5 sec.
+			<en>Chance on hit: Spell damage taken by target increased by 15% for 5 sec.</en>
+			<zh>击中时可能：使目标受到法术攻击时承受的伤害提高15%。</zh>
 		</special_equip_effect>
 		<source>
 		Crafted by Blacksmiths (300 skill). Requires materials from Molten Core.
@@ -91,7 +92,8 @@
 			<spell name="PHYSICAL_ATTACK" min="240" max="240" instant="yes" rate="0.0566666667" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Delivers a fatal wound for 240 damage.
+			<en>Chance on hit: Delivers a fatal wound for 240 damage.</en>
+			<zh>击中时可能：使目标遭到重创，对其造成240点伤害。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.
@@ -122,7 +124,8 @@
 			<spell name="SHADOW_ATTACK" min="141" max="164" instant="yes" rate="0.06166667" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Steals 141 to 164 life from target enemy.
+			<en>Chance on hit: Steals 141 to 164 life from target enemy.</en>
+			<zh>击中时可能：从目标身上偷取141到164点生命值。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).
@@ -138,7 +141,8 @@
 			<stat type="STAMINA" value="25"/>
 		</stats>
 		<special_equip_effect>
-		Chance on hit: Disorients the target, causing it to wander aimlessly for up to 3 sec.
+			<en>Chance on hit: Disorients the target, causing it to wander aimlessly for up to 3 sec.</en>
+			<zh>击中时可能：使目标疑惑，在周围盲目地游荡，持续最多3秒。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from C'Thun in Temple of Ahn'Qiraj.

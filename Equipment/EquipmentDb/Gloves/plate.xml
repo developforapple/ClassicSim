@@ -33,7 +33,8 @@
 			<stat type="STAMINA" value="12"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Immune to Disarm.
+			<en>Equip: Immune to Disarm.</en>
+			<zh>装备：免疫缴械。</zh>
 		</special_equip_effect>
 		<source>
 			Blacksmith crafted.
@@ -47,7 +48,8 @@
 			<stat type="STRENGTH" value="22"/>
 		</stats>
 		<special_equip_effect>
-			Equip: Immune to Disarm.
+			<en>Equip: Immune to Disarm.</en>
+			<zh>装备：免疫缴械。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Magistrate Barthilas in Stratholme.
@@ -131,7 +133,8 @@
 		</stats>
 		<modifies name="Hamstring"/>
 		<special_equip_effect>
-			Equip: Hamstring Rage cost reduced by 3.
+			<en>Equip: Hamstring Rage cost reduced by 3.</en>
+			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).
@@ -148,7 +151,8 @@
 		</stats>
 		<modifies name="Hamstring"/>
 		<special_equip_effect>
-			Equip: Hamstring Rage cost reduced by 3.
+			<en>Equip: Hamstring Rage cost reduced by 3.</en>
+			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Blood Guard (rank 7).
@@ -166,7 +170,8 @@
 		</stats>
 		<modifies name="Judgement of the Crusader"/>
 		<special_equip_effect>
-		Equip: Increases the Holy damage bonus of your Judgement of the Crusader by 20.
+			<en>Equip: Increases the Holy damage bonus of your Judgement of the Crusader by 20.</en>
+			<zh>装备：使你的十字军审判所提供的神圣伤害加成提高20点。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).
@@ -185,7 +190,8 @@
 		</stats>
 		<modifies name="Judgement of the Crusader"/>
 		<special_equip_effect>
-		Equip: Increases the Holy damage bonus of your Judgement of the Crusader by 20.
+			<en>Equip: Increases the Holy damage bonus of your Judgement of the Crusader by 20.</en>
+			<zh>装备：使你的十字军审判所提供的神圣伤害加成提高20点。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).
@@ -203,7 +209,8 @@
 		</stats>
 		<modifies name="Hamstring"/>
 		<special_equip_effect>
-			Equip: Hamstring Rage cost reduced by 3.
+			<en>Equip: Hamstring Rage cost reduced by 3.</en>
+			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).
@@ -221,7 +228,8 @@
 		</stats>
 		<modifies name="Hamstring"/>
 		<special_equip_effect>
-			Equip: Hamstring Rage cost reduced by 3.
+			<en>Equip: Hamstring Rage cost reduced by 3.</en>
+			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
 			Purchased with Honor Points and Alterac Valley marks. Requires General (rank 12).

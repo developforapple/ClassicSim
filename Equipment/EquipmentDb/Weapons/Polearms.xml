@@ -19,7 +19,8 @@
 			<spell name="PHYSICAL_ATTACK" min="324" max="541" instant="yes" rate="0.05833333" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Wounds the target for 324 to 541 damage.
+			<en>Chance on hit: Wounds the target for 324 to 541 damage.</en>
+			<zh>击中时可能：对目标造成324到541点伤害。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).
@@ -33,10 +34,12 @@
 			<spell name="SHADOW_ATTACK" min="100" max="181" instant="yes" rate="0.051666667" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Steals 100 to 181 life from target enemy.
+			<en>Chance on hit: Steals 100 to 181 life from target enemy.</en>
+			<zh>击中时可能：吸取敌人100到181点生命值，并将其转移给施法者。</zh>
 		</special_equip_effect>
 		<special_equip_effect>
-		Use: Transforms Shadowstrike into Thunderstrike. (cooldown 1 min)
+			<en>Use: Transforms Shadowstrike into Thunderstrike. (cooldown 1 min)</en>
+			<zh>使用：将暗影之击转化为雷霆之击。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Sulfuron Harbinger in Molten Core.
@@ -50,11 +53,12 @@
 			<spell name="NATURE_ATTACK" min="150" max="251" instant="yes" rate="0.051666667" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Chance on hit: Blasts up to 3 targets for 150 to 251 Nature damage. Each target after the first takes
-		less damage.
+			<en>Chance on hit: Blasts up to 3 targets for 150 to 251 Nature damage. Each target after the first takes less damage.</en>
+			<zh>击中时可能：对最多3个目标造成150到251点自然伤害。每个目标依次承受较少的伤害。</zh>
 		</special_equip_effect>
 		<special_equip_effect>
-		Use: Transforms Thunderstrike into Shadowstrike. (cooldown 1 min)
+			<en>Use: Transforms Thunderstrike into Shadowstrike. (cooldown 1 min)</en>
+			<zh>使用：将雷霆之击转化为暗影之击。</zh>
 		</special_equip_effect>
 		<source>
 		Transformed from Shadowstrike, which drops from Sulfuron Harbinger in Molten Core.
@@ -160,7 +164,8 @@
 			<spell name="PHYSICAL_ATTACK" min="452" max="677" instant="yes" rate="0.058333333" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-		Equip: Chance to decapitate the target on a melee swing, causing 452 to 677 damage.
+			<en>Equip: Chance to decapitate the target on a melee swing, causing 452 to 677 damage.</en>
+			<zh>装备：有一定几率在近战攻击命中目标后使其瘫痪，造成452到677点伤害。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Bloodlord Mandokir in Zul'Gurub.

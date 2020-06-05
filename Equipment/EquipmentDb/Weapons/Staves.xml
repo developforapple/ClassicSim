@@ -478,7 +478,8 @@
 		Quest reward. Requires expensive materials and boss drop from Temple of Ahn'Qiraj (AQ40).
 		</source>
 		<special_equip_effect>
-		Equip: Gives a chance when your harmful spells land to reduce the magical resistances of your spell targets by 50 for 8 sec.
+			<en>Equip: Gives a chance when your harmful spells land to reduce the magical resistances of your spell targets by 50 for 8 sec.</en>
+			<zh>装备：你的伤害法术有一定几率在击中目标后降低其魔法抗性50点，持续8秒。</zh>
 		</special_equip_effect>
 	</melee_weapon>
 

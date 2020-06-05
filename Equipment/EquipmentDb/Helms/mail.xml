@@ -221,7 +221,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<special_equip_effect>
-			Equip: Increases your pet's maximum health by 3%.
+			<en>Equip: Increases your pet's maximum health by 3%.</en>
+			<zh>装备：使你的宠物的生命值上限提高3%。</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward. Requires Beaststalker's Cap and Beaststalker's Tunic.

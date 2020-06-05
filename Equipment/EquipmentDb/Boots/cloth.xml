@@ -285,7 +285,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
 		Sold by Arathi Basin faction. Requires Revered with The League of Arathor.
@@ -304,7 +305,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
 		Sold by Arathi Basin faction. Requires Revered with The Defilers.

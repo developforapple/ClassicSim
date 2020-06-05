@@ -224,7 +224,8 @@
 		Drops from Gothik the Harvester in Naxxramas.
 		</source>
 		<special_equip_effect>
-		Equip: Increases your effective stealth level.
+			<en>Equip: Increases your effective stealth level.</en>
+			<zh>装备：使你的潜行技能等级提高。</zh>
 		</special_equip_effect>
 	</item>
 

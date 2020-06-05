@@ -142,7 +142,8 @@
 		</stats>
 		<modifies name="Robe of the Archmage"/>
 		<special_equip_effect>
-		Use: Restores 375 to 626 mana. (cooldown 5 min)
+			<en>Use: Restores 375 to 626 mana. (cooldown 5 min)</en>
+			<zh>使用：恢复375到626点法力值。 (5分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
 		Crafted by Tailorers. Pattern drops in Lower Blackrock Spire (LBRS). Requires many Essences of multiple elements.
@@ -158,7 +159,8 @@
 			<stat type="SPELL_DAMAGE" value="46"/>
 		</stats>
 		<special_equip_effect>
-		Use: Heal your pet for 450 to 750. (10 Min Cooldown)
+			<en>Use: Heal your pet for 450 to 750. (10 Min Cooldown)</en>
+			<zh>使用：为你的宠物回复450到751点生命值。 (10分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
 		Crafted by Tailorers. Pattern drops from Darkmaster Gandling in Scholomance. Requires many Essences of multiple elements.

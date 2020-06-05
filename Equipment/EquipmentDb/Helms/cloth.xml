@@ -619,7 +619,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<special_equip_effect>
-		+14-15 Random Resistance
+			<en>+14-15 Random Resistance</en>
+			<zh>+14-15点随机抗性</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Gyth in Upper Blackrock Spire (UBRS).
@@ -679,7 +680,8 @@
 			<stat type="MANA_PER_5" value="9"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Increases your resistance to silence effects by 10%.
+			<en>Equip: Increases your resistance to silence effects by 10%.</en>
+			<zh>装备：使你抵抗沉默效果的几率提高10%。</zh>
 		</special_equip_effect>
 		<source>
 		Drops from Nefarian in Blackwing Lair.

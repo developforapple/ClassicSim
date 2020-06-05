@@ -178,7 +178,8 @@
 			Drops from Lord Kazzak (world boss in Blasted Lands).
 		</source>
 		<special_equip_effect>
-			Equip: Adds 2 fire damage to your melee attacks.
+			<en>Equip: Adds 2 fire damage to your melee attacks.</en>
+			<zh>装备：为你的武器攻击附加2点火焰伤害。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -263,7 +264,8 @@
 			Reputation reward. Requires Exalted with Zandalar Tribe.
 		</source>
 		<special_equip_effect>
-			Equip: Decreases the cooldown of Feign Death by 2 sec.
+			<en>Equip: Decreases the cooldown of Feign Death by 2 sec.</en>
+			<zh>装备：使你的假死技能的冷却时间减少2秒。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -294,7 +296,8 @@
 			Reputation reward. Requires Revered with Zandalar Tribe.
 		</source>
 		<special_equip_effect>
-			Equip: Reduces the cooldown of Counterspell by 2 sec.
+			<en>Equip: Reduces the cooldown of Counterspell by 2 sec.</en>
+			<zh>装备：使你的法术反制的冷却时间减少2秒。</zh>
 		</special_equip_effect>
 	</item>
 

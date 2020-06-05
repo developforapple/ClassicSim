@@ -184,7 +184,8 @@
 			<stat type="INTELLECT" value="8"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
 		Requires Revered with League of Arathor (Arathi Basin faction).
@@ -202,7 +203,8 @@
 			<stat type="AGILITY" value="12"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
 		Requires Revered with League of Arathor (Arathi Basin faction).
@@ -219,7 +221,8 @@
 			<stat type="AGILITY" value="12"/>
 		</stats>
 		<special_equip_effect>
-		Equip: Run speed increased slightly.
+			<en>Equip: Run speed increased slightly.</en>
+			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
 		Requires Revered with League of Arathor (Arathi Basin faction).

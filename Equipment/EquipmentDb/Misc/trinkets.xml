@@ -12,7 +12,8 @@
 			Drops from Ambassador Flamelash in Blackrock Depths.
 		</source>
 		<special_equip_effect>
-			Use: Reduces mana cost of all spells by 100 for 10 sec. (cooldown 15 min)
+			<en>Use: Reduces mana cost of all spells by 100 for 10 sec. (cooldown 15 min)</en>
+			<zh>使用：使所有法术的法力值消耗减少100点，持续10秒。 (15分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -37,7 +38,8 @@
 			Quest reward. Requires Stratholme Undead.
 		</source>
 		<special_equip_effect>
-		It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.
+			<en>It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.</en>
+			<zh>装备：使魔法和法术效果对亡灵造成的伤害提高最多48点。同时也可为银色黎明收集天灾石。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -51,7 +53,8 @@
 			Quest reward. Requires Stratholme Undead.
 		</source>
 		<special_equip_effect>
-		It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.
+			<en>It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.</en>
+			<zh>装备：与亡灵作战时的攻击强度提高81点。同时也可获得天灾石。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -64,7 +67,8 @@
 			<spell name="EXTRA_ATTACK" amount="1" instant="yes" rate="0.02" internal_cd="0" recursive="yes"/>
 		</proc>
 		<special_equip_effect>
-			Equip: 2% chance on melee hit to gain 1 extra attack.
+			<en>Equip: 2% chance on melee hit to gain 1 extra attack.</en>
+			<zh>装备：击中目标后有2%的几率获得1次额外的攻击机会。</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Emperor Dagran Thaurissan in Blackrock Depths.
@@ -130,7 +134,8 @@
 			Drops from multiple bosses in Molten Core.
 		</source>
 		<special_equip_effect>
-			Use: Increases damage and healing done by magical spells and effects by up to 175 for 15 sec. (cooldown 1.5 min)
+			<en>Use: Increases damage and healing done by magical spells and effects by up to 175 for 15 sec. (cooldown 1.5 min)</en>
+			<zh>使用：提高所有法术和魔法效果所造成的伤害和治疗效果，最多175点。效果持续15秒。 (1.5分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -223,7 +228,8 @@
 			<use name="GENERIC_STAT_BUFF" type="MELEE_ATTACK_SPEED" value="25" duration="20" cooldown="300"/>
 		</uses>
 		<special_equip_effect>
-			Use: Energizes a Paladin with light, increasing melee attack speed by 25% and spell casting speed by 33% for 20 sec. (cooldown 5 min)
+			<en>Use: Energizes a Paladin with light, increasing melee attack speed by 25% and spell casting speed by 33% for 20 sec. (cooldown 5 min)</en>
+			<zh>使用：使圣骑士被光芒笼罩，近战攻击速度提高25%，施法速度提高33%，持续20秒。 (5分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Firemaw in Blackwing Lair.
@@ -237,7 +243,8 @@
 			<use name="GENERIC_STAT_BUFF" type="CASTING_SPEED" value="33" duration="20" cooldown="300"/>
 		</uses>
 		<special_equip_effect>
-			Use: Quickens the mind, increasing the Mage's casting speed by 33% for 20 sec. (cooldown 5 min)
+			<en>Use: Quickens the mind, increasing the Mage's casting speed by 33% for 20 sec. (cooldown 5 min)</en>
+			<zh>使用：使法师的施法速度提高33%，持续20秒。 (5分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
 			Drops from Vaelastrasz the Corrupt in Blackwing Lair.
@@ -276,7 +283,8 @@
 			<spell name="NATURE_ATTACK" min="200" max="300" instant="yes" rate="0.02" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<special_equip_effect>
-			Equip: Chance to strike your melee target with lightning for 200 to 300 Nature damage.
+			<en>Equip: Chance to strike your melee target with lightning for 200 to 300 Nature damage.</en>
+			<zh>装备：有一定几率对你的近战目标造成200到301点自然伤害。</zh>
 		</special_equip_effect>
 		<source>
 			Reward from Darkmoon Elementals Deck.
@@ -293,7 +301,8 @@
 			<use name="GENERIC_STAT_BUFF" type="STRENGTH" value="75" duration="60" cooldown="360"/>
 		</uses>
 		<special_equip_effect>
-			Use: Restores 9 health every 5 sec and increases your Strength by 75. Lasts 1 min. (cooldown 6 min)
+			<en>Use: Restores 9 health every 5 sec and increases your Strength by 75. Lasts 1 min. (cooldown 6 min)</en>
+			<zh>使用：每5秒回复9点生命值，并使你的力量提高75点。效果持续1分钟。 (6分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward. Requires running Sunken Temple.
@@ -317,7 +326,8 @@
 			Quest reward. Requires Sunken Temple.
 		</source>
 		<special_equip_effect>
-			Use: Increases your attack power by 150 and your chance to hit by 2%. Effect lasts for 20 sec. (cooldown 2 min)
+			<en>Use: Increases your attack power by 150 and your chance to hit by 2%. Effect lasts for 20 sec. (cooldown 2 min)</en>
+			<zh>使用：使你的攻击强度提高150点，击中敌人的几率提高2%。这个效果可以持续20秒。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -330,7 +340,8 @@
             <use name="SANCTIFIED_ORB"/>
 		</uses>
 		<special_equip_effect>
-			Use: Increases your critical strike chance with spells and melee attacks by 3%.  Lasts 25 sec. (3 Min Cooldown)
+			<en>Use: Increases your critical strike chance with spells and melee attacks by 3%.  Lasts 25 sec. (3 Min Cooldown)</en>
+			<zh>使用：使你的近战武器和法术造成爆击的几率提高3%，持续25秒。 (3分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
 			Quest reward. Requires Sunken Temple.
@@ -347,7 +358,8 @@
 			Drops from High Priestess Mar'li in Zul'Gurub.
 		</source>
 		<special_equip_effect>
-			Use: Restores 60 mana every 5 sec for 30 sec. (cooldown 3 min)
+			<en>Use: Restores 60 mana every 5 sec for 30 sec. (cooldown 3 min)</en>
+			<zh>使用：每5秒恢复60点法力值，持续30秒。 (3分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -363,7 +375,8 @@
 			Quest reward. Requires boss drop from Hakkar in Zul'Gurub.
 		</source>
 		<special_equip_effect>
-			Use: Increases your melee and ranged damage by 40 for 20 sec. Every time you hit a target, this bonus is reduced by 2. (cooldown 2 min)
+			<en>Use: Increases your melee and ranged damage by 40 for 20 sec. Every time you hit a target, this bonus is reduced by 2. (cooldown 2 min)</en>
+			<zh>使用：使你所能造成的近战和远程伤害提高40点，持续20秒。你每击中一次目标，这个数字就减少2点。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -379,7 +392,8 @@
 			Quest reward. Requires boss drop from Hakkar in Zul'Gurub.
 		</source>
 		<special_equip_effect>
-			Use: Increases your spell damage by up to 204 and your healing for up to 408 for 20 sec. Every time you cast a spell, the bonus is reduced by 17 spell damage and 34 healing. (cooldown 2 min)
+			<en>Use: Increases your spell damage by up to 204 and your healing for up to 408 for 20 sec. Every time you cast a spell, the bonus is reduced by 17 spell damage and 34 healing. (cooldown 2 min)</en>
+			<zh>使用：使你的法术伤害效果提高最多204点，法术治疗效果提高最多408点，持续20秒。你每施放一次法术，此增益的效果就降低17点伤害和34点治疗效果。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -391,7 +405,8 @@
 			Drops from Edge of Madness bosses in Zul'Gurub.
 		</source>
 		<special_equip_effect>
-			Use: Instantly clears the cooldowns of Aimed Shot, Multi-Shot, Volley, and Arcane Shot. (cooldown 3 min)
+			<en>Use: Instantly clears the cooldowns of Aimed Shot, Multi-Shot, Volley, and Arcane Shot. (cooldown 3 min)</en>
+			<zh>使用：立即使瞄准射击、多重射击、奥术射击和乱射技能的冷却时间结束。 (3分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -405,7 +420,8 @@
 			Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
 		</source>
 		<special_equip_effect>
-			Use: Increases your spell damage by up to 100 and your healing by up to 190 for 15 sec. (cooldown 1.25 min)
+			<en>Use: Increases your spell damage by up to 100 and your healing by up to 190 for 15 sec. (cooldown 1.25 min)</en>
+			<zh>使用：使你的法术伤害提高最多100点，治疗效果提高最多190点，持续15秒。 (1.2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -421,7 +437,8 @@
 			Quest reward. Requires exalted with Cenarion Circle.
 		</source>
 		<special_equip_effect>
-			Use: Increases your melee and ranged attack power by 280. Effect lasts for 20 sec. (cooldown 2 min)
+			<en>Use: Increases your melee and ranged attack power by 280. Effect lasts for 20 sec. (cooldown 2 min)</en>
+			<zh>使用：使你的远程和近战攻击强度提高280点，持续20秒。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -436,7 +453,8 @@
 			Drops from Moam in Ruins of Ahn'Qiraj (AQ20).
 		</source>
 		<special_equip_effect>
-			Use: Increases damage done by magical spells and effects by up to 50, and decreases the magical resistances of your spell targets by 100 for 30 sec. (cooldown 3 min)
+			<en>Use: Increases damage done by magical spells and effects by up to 50, and decreases the magical resistances of your spell targets by 100 for 30 sec. (cooldown 3 min)</en>
+			<zh>使用：提高法术所造成的伤害，最多50点，并使目标的魔法抗性降低100点，持续30秒。 (3分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -450,7 +468,8 @@
 			Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).
 		</source>
 		<special_equip_effect>
-			Use: Gives a chance on melee or ranged attack to apply an armor penetration effect on you for 30 sec, lowering the target's physical armor by 200 to your own attacks. The armor penetration effect can be applied up to 6 rimes. (cooldown 3 min)
+			<en>Use: Gives a chance on melee or ranged attack to apply an armor penetration effect on you for 30 sec, lowering the target's physical armor by 200 to your own attacks. The armor penetration effect can be applied up to 6 rimes. (cooldown 3 min)</en>
+			<zh>使用：使你的近战或远程攻击有一定几率为你提供护甲穿刺的效果，你的攻击可以令敌人对你作战时的物理护甲值降低200点。这种护甲穿刺效果可以叠加最多6次。 (3分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -464,7 +483,8 @@
 			Drops from Ouro in Temple of Ahn'Qiraj (AQ40).
 		</source>
 		<special_equip_effect>
-			Use: Increases attack power by 65 and an additional 65 every 2 sec. Lasts 20 sec. (cooldown 2 min)
+			<en>Use: Increases attack power by 65 and an additional 65 every 2 sec. Lasts 20 sec. (cooldown 2 min)</en>
+			<zh>使用：使攻击强度提高65点，并在接下来的时间内每2秒提高65点，效果持续20秒。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -477,7 +497,8 @@
 			Drops from Thaddius in Naxxramas.
 		</source>
 		<special_equip_effect>
-			Use: Reduces the threat you generate by 35% for 20 sec. (cooldown 2 min)
+			<en>Use: Reduces the threat you generate by 35% for 20 sec. (cooldown 2 min)</en>
+			<zh>使用：使你所产生的威胁值降低35%，持续20秒。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -493,7 +514,8 @@
 			Drops from Sapphiron in Naxxramas.
 		</source>
 		<special_equip_effect>
-			Use: Increases Attack Power by 260 for 20 sec. (cooldown 2 min)
+			<en>Use: Increases Attack Power by 260 for 20 sec. (cooldown 2 min)</en>
+			<zh>使用：攻击强度提高260点，持续20秒。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -509,7 +531,8 @@
 			Drops from Sapphiron in Naxxramas.
 		</source>
 		<special_equip_effect>
-			Use: Increases damage and healing done by magical spells and effects by up to 130 for 20 sec. (cooldown 2 min)
+			<en>Use: Increases damage and healing done by magical spells and effects by up to 130 for 20 sec. (cooldown 2 min)</en>
+			<zh>使用：提高所有法术和魔法效果所造成的伤害和治疗效果，最多130点。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
@@ -526,7 +549,8 @@
 			Drops from Maexxna in Naxxramas.
 		</source>
 		<special_equip_effect>
-			Use: Increases your attack speed by 20% for 15 sec. (cooldown 2 min)
+			<en>Use: Increases your attack speed by 20% for 15 sec. (cooldown 2 min)</en>
+			<zh>使用：使你的攻击速度提高20%，持续15秒。 (2分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 
