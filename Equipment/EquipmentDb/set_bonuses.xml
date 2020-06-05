@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <sets>
-	<set name="The Gladiator">
+	<set name="The Gladiator" name_zh="角斗士">
 		<item_id value="11729"/>
 		<item_id value="11726"/>
 		<item_id value="11728"/>
@@ -8,20 +8,24 @@
 		<item_id value="11730"/>
 
 		<bonus value="2">
-		(2) Set: +20 Armor.
+			<en>(2) Set: +20 Armor.</en>
+			<zh>(2) 套装：+20 护甲。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: Increased Defense +2.
+			<en>(3) Set: Increased Defense +2.</en>
+			<zh>(3) 套装：防御技能提高2点。</zh>
 		</bonus>
 		<bonus value="4" item_stat="ATTACK_POWER" stat_value="10">
-		(4) Set: +10 Attack Power.
+			<en>(4) Set: +10 Attack Power.</en>
+			<zh>(4) 套装：+10 攻击强度。</zh>
 		</bonus>
 		<bonus value="5" item_stat="CRIT_CHANCE" stat_value="100">
-		(5) Set: Increases your chance to get a critical strike by 1%.
+			<en>(5) Set: Increases your chance to get a critical strike by 1%.</en>
+			<zh>(5) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Cadaverous Garb">
+	<set name="Cadaverous Garb" name_zh="苍白">
 		<item_id value="14637"/>
 		<item_id value="14636"/>
 		<item_id value="14640"/>
@@ -29,20 +33,24 @@
 		<item_id value="14641"/>
 
 		<bonus value="2">
-		(2) Set: Increased Defense +3.
+			<en>(2) Set: Increased Defense +3.</en>
+			<zh>(2) 套装：防御技能提高3点。</zh>
 		</bonus>
 		<bonus value="3" item_stat="ATTACK_POWER" stat_value="10">
-		(3) Set: +10 Attack Power.
+			<en>(3) Set: +10 Attack Power.</en>
+			<zh>(3) 套装：+10 攻击强度。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: +15 All Resistances.
+			<en>(4) Set: +15 All Resistances.</en>
+			<zh>(4) 套装：+15 所有魔法抗性。</zh>
 		</bonus>
 		<bonus value="5"  item_stat="HIT_CHANCE" stat_value="200">
-		(5) Set: Improves your chance to hit by 2%.
+			<en>(5) Set: Improves your chance to hit by 2%.</en>
+			<zh>(5) 套装：使你击中目标的几率提高2%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Necropile Raiment">
+	<set name="Necropile Raiment" name_zh="骨堆">
 		<item_id value="14631"/>
 		<item_id value="14629"/>
 		<item_id value="14632"/>
@@ -50,20 +58,24 @@
 		<item_id value="14626"/>
 
 		<bonus value="2">
-		(2) Set: Increased Defense +3.
+			<en>(2) Set: Increased Defense +3.</en>
+			<zh>(2) 套装：防御技能提高3点。</zh>
 		</bonus>
 		<bonus value="3" item_stat="INTELLECT" stat_value="5">
-		(3) Set: +5 Intellect.
+			<en>(3) Set: +5 Intellect.</en>
+			<zh>(3) 套装：+5 智力。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: +15 All Resistances.
+			<en>(4) Set: +15 All Resistances.</en>
+			<zh>(4) 套装：+15 所有魔法抗性。</zh>
 		</bonus>
 		<bonus value="5" item_stat="SPELL_DAMAGE" stat_value="23">
-		(5) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(5) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(5) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Postmaster">
+	<set name="The Postmaster" name_zh="邮差">
 		<item_id value="13390"/>
 		<item_id value="13388"/>
 		<item_id value="13391"/>
@@ -71,35 +83,42 @@
 		<item_id value="13389"/>
 
 		<bonus value="2">
-		(2) Set: +50 Armor.
+			<en>(2) Set: +50 Armor.</en>
+			<zh>(2) 套装：+50 护甲。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: +10 Fire Resistance.
+			<en>(3) Set: +10 Fire Resistance.</en>
+			<zh>(3) 套装：+10 火焰抗性。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: +10 Arcane Resistance.
+			<en>(3) Set: +10 Arcane Resistance.</en>
+			<zh>(3) 套装：+10 奥术抗性。</zh>
 		</bonus>
 		<bonus value="4" item_stat="SPELL_DAMAGE" stat_value="12">
-		(4) Set: Increases damage and healing done by magical spells and effects by up to 12.
+			<en>(4) Set: Increases damage and healing done by magical spells and effects by up to 12.</en>
+			<zh>(4) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多12点。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases run speed by 5%.
+			<en>(5) Set: Increases run speed by 5%.</en>
+			<zh>(5) 套装：使你的奔跑速度提高5%。</zh>
 		</bonus>
 		<bonus value="5" item_stat="INTELLECT" stat_value="10">
-		(5) Set: +10 Intellect.
+			<en>(5) Set: +10 Intellect.</en>
+			<zh>(5) 套装：+10 智力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Devilsaur Armor">
+	<set name="Devilsaur Armor" name_zh="魔暴龙护甲">
 		<item_id value="15063"/>
 		<item_id value="15062"/>
 
 		<bonus value="2" item_stat="HIT_CHANCE" stat_value="200">
-		(2) Set: Improves your chance to hit by 2%.
+			<en>(2) Set: Improves your chance to hit by 2%.</en>
+			<zh>(2) 套装：使你击中目标的几率提高2%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Shadowcraft Armor">
+	<set name="Shadowcraft Armor" name_zh="迅影">
 		<item_id value="16707"/>
 		<item_id value="16708"/>
 		<item_id value="16709"/>
@@ -110,29 +129,34 @@
 		<item_id value="16721"/>
 
 		<bonus value="2">
-		(2) Set: +200 Armor.
+			<en>(2) Set: +200 Armor.</en>
+			<zh>(2) 套装：+200点护甲值。</zh>
 		</bonus>
 		<bonus value="4" item_stat="ATTACK_POWER" stat_value="40">
-		(4) Set: +40 Attack Power.
+			<en>(4) Set: +40 Attack Power.</en>
+			<zh>(4) 套装：攻击强度提高40点。</zh>
 		</bonus>
 		<bonus value="6">
-		(6) Set: Chance on melee attack to restore 35 energy.
+			<en>(6) Set: Chance on melee attack to restore 35 energy.</en>
+			<zh>(6) 套装：有一定几率在近战攻击时为你恢复35点能量值。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: +8 All Resistances.
+			<en>(8) Set: +8 All Resistances.</en>
+			<zh>(8) 套装：+8 所有魔法抗性。</zh>
 		</bonus>
 	</set>
 
-	<set name="Dal'Rend's Arms">
+	<set name="Dal'Rend's Arms" name_zh="雷德双刀">
 		<item_id value="12940"/>
 		<item_id value="12939"/>
 
 		<bonus value="2" item_stat="ATTACK_POWER" stat_value="50">
-		(2) Set: +50 Attack Power.
+			<en>(2) Set: +50 Attack Power.</en>
+			<zh>(2) 套装：+50 攻击强度。</zh>
 		</bonus>
 	</set>
 
-	<set name="Bloodmail Regalia">
+	<set name="Bloodmail Regalia" name_zh="血链">
 		<item_id value="14614"/>
 		<item_id value="14616"/>
 		<item_id value="14615"/>
@@ -140,172 +164,197 @@
 		<item_id value="14612"/>
 
 		<bonus value="2">
-		(2) Set: Increased Defense +3.
+			<en>(2) Set: Increased Defense +3.</en>
+			<zh>(2) 套装：防御技能提高3点。</zh>
 		</bonus>
 		<bonus value="3" item_stat="ATTACK_POWER" stat_value="10">
-		(3) Set: +10 Attack Power.
+			<en>(3) Set: +10 Attack Power.</en>
+			<zh>(3) 套装：+10 攻击强度。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: +15 All Resistances.
+			<en>(4) Set: +15 All Resistances.</en>
+			<zh>(4) 套装：+15 所有魔法抗性。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases your chance to parry an attack by 1%.
+			<en>(5) Set: Increases your chance to parry an attack by 1%.</en>
+			<zh>(5) 套装：使你招架攻击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Black Dragon Mail">
+	<set name="Black Dragon Mail" name_zh="黑龙锁甲">
 		<item_id value="16984"/>
 		<item_id value="15050"/>
 		<item_id value="15052"/>
 		<item_id value="15051"/>
 
 		<bonus value="2" item_stat="HIT_CHANCE" stat_value="100">
-		(2) Set: Improves your chance to hit by 1%.
+			<en>(2) Set: Improves your chance to hit by 1%.</en>
+			<zh>(2) 套装：使你击中目标的几率提高1%。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="200">
-		(3) Set: Improves your chance to get a critical strike by 2%.
+			<en>(3) Set: Improves your chance to get a critical strike by 2%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高2%。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: +10 Fire Resistance.
+			<en>(4) Set: +10 Fire Resistance.</en>
+			<zh>(4) 套装：+10 火焰抗性。</zh>
 		</bonus>
 	</set>
 
-	<set name="Bloodsoul Embrace">
+	<set name="Bloodsoul Embrace" name_zh="血魂的拥抱">
 		<item_id value="19690"/>
 		<item_id value="19691"/>
 		<item_id value="19692"/>
 
 		<bonus value="3" item_stat="MANA_PER_5" stat_value="12">
-		(3) Set: Restores 12 mana per 5 sec.
+			<en>(3) Set: Restores 12 mana per 5 sec.</en>
+			<zh>(3) 套装：每5秒回复12点法力值。</zh>
 		</bonus>
 	</set>
 
-	<set name="Primal Batskin">
+	<set name="Primal Batskin" name_zh="原始蝙蝠皮套装">
 		<item_id value="19685"/>
 		<item_id value="19687"/>
 		<item_id value="19686"/>
 
 		<bonus value="3">
-		(3) Set: Minor increase to running and swimming speed.
+			<en>(3) Set: Minor increase to running and swimming speed.</en>
+			<zh>(3) 套装：略微提高奔跑和游泳速度。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Twin Blades of Hakkari">
+	<set name="The Twin Blades of Hakkari" name_zh="哈卡莱双刃">
 		<item_id value="19865"/>
 		<item_id value="19866"/>
 
 		<bonus value="2" item_stat="SWORD_SKILL" stat_value="6">
-		(2) Set: Increased Swords +6.
+			<en>(2) Set: Increased Swords +6.</en>
+			<zh>(2) 套装：剑类武器技能提高6点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Major Mojo Infusion">
+	<set name="Major Mojo Infusion" name_zh="极效魔精套装">
 		<item_id value="19898"/>
 		<item_id value="19925"/>
 
 		<bonus value="2" item_stat="ATTACK_POWER" stat_value="30">
-		(2) Set: +30 Attack Power.
+			<en>(2) Set: +30 Attack Power.</en>
+			<zh>(2) 套装：+30 攻击强度。</zh>
 		</bonus>
 	</set>
 
-	<set name="Zanzil's Concentration">
+	<set name="Zanzil's Concentration" name_zh="赞吉尔的专注">
 		<item_id value="19905"/>
 		<item_id value="19893"/>
 
 		<bonus value="2">
-		(2) Set: Improves your chance to hit with spells by 1%.
+			<en>(2) Set: Improves your chance to hit with spells by 1%.</en>
+			<zh>(2) 套装：使你的法术击中敌人的几率提高1%。</zh>
 		</bonus>
 		<bonus value="2">
-		(2) Set: Increases damage and healing done by magical spells and effects by up to 6.
+			<en>(2) Set: Increases damage and healing done by magical spells and effects by up to 6.</en>
+			<zh>(2) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多6点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Bloodvine Garb">
+	<set name="Bloodvine Garb" name_zh="血藤">
 		<item_id value="19682"/>
 		<item_id value="19683"/>
 		<item_id value="19684"/>
 
 		<bonus value="3" item_stat="SPELL_CRIT_CHANCE" stat_value="200">
-		(3) Set: Improves your chance to get a critical strike with spells by 2%.
+			<en>(3) Set: Improves your chance to get a critical strike with spells by 2%.</en>
+			<zh>(3) 套装：使你的法术造成爆击的几率提高2%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Regalia of Undead Cleansing">
+	<set name="Regalia of Undead Cleansing" name_zh="亡灵净化者">
 		<item_id value="23091"/>
 		<item_id value="23084"/>
 		<item_id value="23085"/>
 
 		<bonus value="3">
-		(3) Set: Increases your damage against undead by 2%.
+			<en>(3) Set: Increases your damage against undead by 2%.</en>
+			<zh>(3) 套装：使你对亡灵所造成的伤害提高2%。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Highlander's Resolution">
+	<set name="The Highlander's Resolution" name_zh="高地人的决心">
 		<item_id value="20041"/>
 		<item_id value="20048"/>
 		<item_id value="20057"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-		(2) Set: +5 Stamina.
+			<en>(2) Set: +5 Stamina.</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-		(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Defiler's Resolution">
+	<set name="The Defiler's Resolution" name_zh="污染者的决心">
 		<item_id value="20204"/>
 		<item_id value="20208"/>
 		<item_id value="20212"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-		(2) Set: +5 Stamina.
+			<en>(2) Set: +5 Stamina.</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-		(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Highlander's Determination">
+	<set name="The Highlander's Determination" name_zh="高地人的果断">
 		<item_id value="20043"/>
 		<item_id value="20050"/>
 		<item_id value="20055"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-		(2) Set: +5 Stamina.
+			<en>(2) Set: +5 Stamina.</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-		(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Highlander's Resolve">
+	<set name="The Highlander's Resolve" name_zh="高地人的执著">
 		<item_id value="20042"/>
 		<item_id value="20049"/>
 		<item_id value="20058"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-		(2) Set: +5 Stamina.
+			<en>(2) Set: +5 Stamina.</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-		(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Defiler's Determination">
+	<set name="The Defiler's Determination" name_zh="污染者的果断">
 		<item_id value="20158"/>
 		<item_id value="20154"/>
 		<item_id value="20150"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-		(2) Set: +5 Stamina.
+			<en>(2) Set: +5 Stamina.</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-		(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Lieutenant Commander's Redoubt">
+	<set name="Lieutenant Commander's Redoubt" name_zh="少校的壁垒">
 		<item_id value="23272"/>
 		<item_id value="23273"/>
 		<item_id value="23274"/>
@@ -314,17 +363,20 @@
 		<item_id value="23277"/>
 
 		<bonus value="2" item_stat="SPELL_DAMAGE" stat_value="23">
-		(2) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(2) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(2) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Hammer of Justice by 10 sec.
+			<en>(4) Set: Reduces the cooldown of your Hammer of Justice by 10 sec.</en>
+			<zh>(4) 套装：使你的制裁之锤的冷却时间减少10秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Field Marshal's Aegis">
+	<set name="Field Marshal's Aegis" name_zh="元帅的庇护">
 		<item_id value="16473"/>
 		<item_id value="16474"/>
 		<item_id value="16476"/>
@@ -333,17 +385,20 @@
 		<item_id value="16475"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Hammer of Justice by 10 sec.
+			<en>(4) Set: Reduces the cooldown of your Hammer of Justice by 10 sec.</en>
+			<zh>(4) 套装：使你的制裁之锤的冷却时间减少10秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="SPELL_DAMAGE" stat_value="23">
-		(6) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(6) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(6) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Lieutenant Commander's Battlearmor">
+	<set name="Lieutenant Commander's Battlearmor" name_zh="少校的战铠">
 		<item_id value="23300"/>
 		<item_id value="23301"/>
 		<item_id value="23286"/>
@@ -352,17 +407,20 @@
 		<item_id value="23315"/>
 
 		<bonus value="2" item_stat="ATTACK_POWER" stat_value="40">
-		(2) Set: +40 Attack Power.
+			<en>(2) Set: +40 Attack Power.</en>
+			<zh>(2) 套装：+40 攻击强度。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.
+			<en>(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.</en>
+			<zh>(4) 套装：使你的拦截技能的冷却时间降低5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Field Marshal's Battlegear">
+	<set name="Field Marshal's Battlegear" name_zh="元帅的战甲">
 		<item_id value="16477"/>
 		<item_id value="16478"/>
 		<item_id value="16480"/>
@@ -371,17 +429,20 @@
 		<item_id value="16479"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.
+			<en>(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.</en>
+			<zh>(4) 套装：使你的拦截技能的冷却时间降低5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
-		(6) Set: +40 Attack Power.
+			<en>(6) Set: +40 Attack Power.</en>
+			<zh>(6) 套装：+40 攻击强度。</zh>
 		</bonus>
 	</set>
 
-	<set name="Champion's Battlearmor">
+	<set name="Champion's Battlearmor" name_zh="勇士的战铠">
 		<item_id value="22868"/>
 		<item_id value="22858"/>
 		<item_id value="22872"/>
@@ -390,17 +451,20 @@
 		<item_id value="23243"/>
 
 		<bonus value="2" item_stat="ATTACK_POWER" stat_value="40">
-		(2) Set: +40 Attack Power.
+			<en>(2) Set: +40 Attack Power.</en>
+			<zh>(2) 套装：+40 攻击强度。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.
+			<en>(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.</en>
+			<zh>(4) 套装：使你的拦截技能的冷却时间降低5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Warlord's Battlegear">
+	<set name="Warlord's Battlegear" name_zh="督军的战甲">
 		<item_id value="16541"/>
 		<item_id value="16542"/>
 		<item_id value="16544"/>
@@ -409,27 +473,31 @@
 		<item_id value="16543"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.
+			<en>(4) Set: Reduces the cooldown of your Intercept ability by 5 sec.</en>
+			<zh>(4) 套装：使你的拦截技能的冷却时间降低5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
-		(6) Set: +40 Attack Power.
+			<en>(6) Set: +40 Attack Power.</en>
+			<zh>(6) 套装：+40 攻击强度。</zh>
 		</bonus>
 	</set>
 
-	<set name="Battlegear of Unyielding Strength">
+	<set name="Battlegear of Unyielding Strength" name_zh="坚定的力量">
 		<item_id value="21394"/>
 		<item_id value="21392"/>
 		<item_id value="21393"/>
 
 		<bonus value="3">
-		(3) Set: -2 rage cost to Intercept.
+			<en>(3) Set: -2 rage cost to Intercept.</en>
+			<zh>(3) 套装：拦截所消耗的怒气减少2点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Conqueror's Battlegear">
+	<set name="Conqueror's Battlegear" name_zh="征服者">
 		<item_id value="21331"/>
 		<item_id value="21329"/>
 		<item_id value="21333"/>
@@ -437,14 +505,16 @@
 		<item_id value="21330"/>
 
 		<bonus value="3">
-		(3) Set: Decreases the rage cost of all Warrior shouts by 35%.
+			<en>(3) Set: Decreases the rage cost of all Warrior shouts by 35%.</en>
+			<zh>(3) 套装：使战士的所有怒吼技能所消耗的怒气值减少35%。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increase the Slow effect and damage of Thunder Clap by 50%.
+			<en>(5) Set: Increase the Slow effect and damage of Thunder Clap by 50%.</en>
+			<zh>(5) 套装：使雷霆一击的减速效果和伤害提高50%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Avenger's Battlegear">
+	<set name="Avenger's Battlegear" name_zh="复仇者">
 		<item_id value="21389"/>
 		<item_id value="21387"/>
 		<item_id value="21388"/>
@@ -452,24 +522,27 @@
 		<item_id value="21391"/>
 
 		<bonus value="3">
-		(3) Set: Increases the duration of your Judgements by 20%.
+			<en>(3) Set: Increases the duration of your Judgements by 20%.</en>
+			<zh>(3) 套装：使你的审判法术的持续时间延长20%。</zh>
 		</bonus>
 		<bonus value="5" item_stat="SPELL_DAMAGE" stat_value="71">
-		(5) Set: Increases damage and healing done by magical spells and effects by up to 71.
+			<en>(5) Set: Increases damage and healing done by magical spells and effects by up to 71.</en>
+			<zh>(5) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多71点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Emblems of Veiled Shadows">
+	<set name="Emblems of Veiled Shadows" name_zh="笼罩之阴影">
 		<item_id value="21405"/>
 		<item_id value="21406"/>
 		<item_id value="21404"/>
 
 		<bonus value="3">
-		(3) Set: -10 energy cost for your Slice and Dice ability.
+			<en>(3) Set: -10 energy cost for your Slice and Dice ability.</en>
+			<zh>(3) 套装：切割技能的能量值消耗降低10点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Nightslayer Armor">
+	<set name="Nightslayer Armor" name_zh="夜幕杀手">
 		<item_id value="16827"/>
 		<item_id value="16824"/>
 		<item_id value="16825"/>
@@ -480,17 +553,20 @@
 		<item_id value="16823"/>
 
 		<bonus value="3">
-		(3) Set: Reduces the cooldown of your Vanish ability by 30 sec.
+			<en>(3) Set: Reduces the cooldown of your Vanish ability by 30 sec.</en>
+			<zh>(3) 套装：使你的消失技能的冷却时间减少30秒。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases your maximum Energy by 10.
+			<en>(5) Set: Increases your maximum Energy by 10.</en>
+			<zh>(5) 套装：使你的能量值上限提高10点。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Heals the rogue for 500 when Vanish is performed.
+			<en>(8) Set: Heals the rogue for 500 when Vanish is performed.</en>
+			<zh>(8) 套装：在盗贼使用消失技能后为其回复500点生命值。</zh>
 		</bonus>
 	</set>
 
-	<set name="Bloodfang Armor">
+	<set name="Bloodfang Armor" name_zh="血牙">
 		<item_id value="16910"/>
 		<item_id value="16906"/>
 		<item_id value="16911"/>
@@ -501,18 +577,21 @@
 		<item_id value="16832"/>
 
 		<bonus value="3">
-		(3) Set: Increases the chance to apply poisons to your target by 5%.
+			<en>(3) Set: Increases the chance to apply poisons to your target by 5%.</en>
+			<zh>(3) 套装：使你的毒药令目标中毒的几率提高5%。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Improves the threat reduction of Feint by 25%.
+			<en>(5) Set: Improves the threat reduction of Feint by 25%.</en>
+			<zh>(5) 套装：使佯攻技能减少威胁值的效果提高25%。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Gives the Rogue a chance to inflict 283 to 318 damage on the target and heal the Rogue
-		for 50 health every 1 sec. for 6 sec. on a melee hit.
+			<en>(8) Set: Gives the Rogue a chance to inflict 283 to 318 damage on the target and heal the Rogue
+		for 50 health every 1 sec. for 6 sec. on a melee hit.</en>
+			<zh>(8) 套装：使盗贼有一定几率在使用近战武器击中目标后对其造成283到318点伤害，并每1秒回复50点生命值，持续6秒。</zh>
 		</bonus>
 	</set>
 
-	<set name="Deathdealer's Embrace">
+	<set name="Deathdealer's Embrace" name_zh="死亡执行者的拥抱">
 		<item_id value="21359"/>
 		<item_id value="21360"/>
 		<item_id value="21361"/>
@@ -520,14 +599,16 @@
 		<item_id value="21364"/>
 
 		<bonus value="3">
-		(3) Set: Reduces the cooldown of your Evasion ability by -1 min.
+			<en>(3) Set: Reduces the cooldown of your Evasion ability by -1 min.</en>
+			<zh>(3) 套装：闪避技能的冷却时间减少1分钟。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: 15% increased damage to your Eviscerate ability.
+			<en>(5) Set: 15% increased damage to your Eviscerate ability.</en>
+			<zh>(5) 套装：剔骨技能的伤害提高15%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Bonescythe Armor">
+	<set name="Bonescythe Armor" name_zh="骨镰">
 		<item_id value="22483"/>
 		<item_id value="22476"/>
 		<item_id value="22481"/>
@@ -539,21 +620,25 @@
 		<item_id value="23060"/>
 
 		<bonus value="2">
-		(2) Set: Your normal melee swings have a chance to Invigorate you, healing you for 90 to 111.
+			<en>(2) Set: Your normal melee swings have a chance to Invigorate you, healing you for 90 to 111.</en>
+			<zh>(2) 套装：你的普通近战攻击有一定几率为你恢复90到111点生命值。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Your Backstab, Sinister Strike, and Hemorrhage critical hits cause you to regain 5 energy.
+			<en>(4) Set: Your Backstab, Sinister Strike, and Hemorrhage critical hits cause you to regain 5 energy.</en>
+			<zh>(4) 套装：你的背刺、邪恶攻击和出血技能造成爆击之后，你可以获得5点能量值。</zh>
 		</bonus>
 		<bonus value="6">
-		(6) Set: Reduces the threat from your Backstab, Sinister Strike, Hemorrhage, and Eviscerate abilities.
+			<en>(6) Set: Reduces the threat from your Backstab, Sinister Strike, Hemorrhage, and Eviscerate abilities.</en>
+			<zh>(6) 套装：使你的背刺、邪恶攻击、出血和剔骨技能所产生的威胁值降低。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Your Eviscerate has a chance per combo point to reveal a flaw in your opponent's armor,
-		granting a 100% critical hit chance for your next Backstab, Sinister Strike, or Hemorrhage.
+			<en>(8) Set: Your Eviscerate has a chance per combo point to reveal a flaw in your opponent's armor,
+		granting a 100% critical hit chance for your next Backstab, Sinister Strike, or Hemorrhage.</en>
+			<zh>(8) 套装：你的剔骨技能有一定几率找到敌人护甲上的破绽，使你的下一次背刺、邪恶攻击或出血技能必定造成爆击。连击点数越多，找到破绽的几率越大。</zh>
 		</bonus>
 	</set>
 
-	<set name="Beaststalker Armor">
+	<set name="Beaststalker Armor" name_zh="野兽追猎者">
 		<item_id value="16680"/>
 		<item_id value="16675"/>
 		<item_id value="16681"/>
@@ -564,20 +649,24 @@
 		<item_id value="16676"/>
 
 		<bonus value="2">
-		(2) Set: +200 Armor.
+			<en>(2) Set: +200 Armor.</en>
+			<zh>(2) 套装：+200点护甲值。</zh>
 		</bonus>
 		<bonus value="4" item_stat="ATTACK_POWER" stat_value="40">
-		(4) Set: +40 Attack Power.
+			<en>(4) Set: +40 Attack Power.</en>
+			<zh>(4) 套装：攻击强度提高40点。</zh>
 		</bonus>
 		<bonus value="6">
-		(6) Set: Your normal ranged attacks have a 4% chance of restoring 200 mana.
+			<en>(6) Set: Your normal ranged attacks have a 4% chance of restoring 200 mana.</en>
+			<zh>(6) 套装：你的普通远程攻击有一定几率为你恢复200点法力值。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: +8 All Resistance.
+			<en>(8) Set: +8 All Resistance.</en>
+			<zh>(8) 套装：+8 所有魔法抗性。</zh>
 		</bonus>
 	</set>
 
-	<set name="Beastmaster Armor">
+	<set name="Beastmaster Armor" name_zh="兽王">
 		<item_id value="22010"/>
 		<item_id value="22011"/>
 		<item_id value="22061"/>
@@ -588,20 +677,24 @@
 		<item_id value="22060"/>
 
 		<bonus value="2">
-		(2) Set: +8 All Resistance.
+			<en>(2) Set: +8 All Resistance.</en>
+			<zh>(2) 套装：+8 所有魔法抗性。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Your normal ranged attacks have a 4% chance of restoring 200 mana.
+			<en>(4) Set: Your normal ranged attacks have a 4% chance of restoring 200 mana.</en>
+			<zh>(4) 套装：你的普通远程攻击有一定几率为你恢复200点法力值。</zh>
 		</bonus>
 		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
-		(6) Set: +40 Attack Power.
+			<en>(6) Set: +40 Attack Power.</en>
+			<zh>(6) 套装：+40 攻击强度。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: +200 Armor.
+			<en>(8) Set: +200 Armor.</en>
+			<zh>(8) 套装：+200 护甲。</zh>
 		</bonus>
 	</set>
 
-	<set name="Predator's Armor">
+	<set name="Predator's Armor" name_zh="捕猎者套装">
 		<item_id value="19621"/>
 		<item_id value="19953"/>
 		<item_id value="19833"/>
@@ -609,27 +702,31 @@
 		<item_id value="19831"/>
 
 		<bonus value="2"  item_stat="ATTACK_POWER" stat_value="20">
-		(2) Set: +20 Attack Power.
+			<en>(2) Set: +20 Attack Power.</en>
+			<zh>(2) 套装：+20 攻击强度。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: Decreases the cooldown of Concussive Shot by 1 sec.
+			<en>(3) Set: Decreases the cooldown of Concussive Shot by 1 sec.</en>
+			<zh>(3) 套装：使你的震荡射击的冷却时间减少1秒。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases the duration of Serpent Sting by 3 sec.
+			<en>(5) Set: Increases the duration of Serpent Sting by 3 sec.</en>
+			<zh>(5) 套装：使毒蛇钉刺的效果持续时间提高3秒。</zh>
 		</bonus>
 	</set>
 
-	<set name="Trappings of the Unseen Path">
+	<set name="Trappings of the Unseen Path" name_zh="隐秘的通途">
 		<item_id value="21403"/>
 		<item_id value="21401"/>
 		<item_id value="21402"/>
 
 		<bonus value="3">
-		(3) Set: Increases your pet's damage by 3%.
+			<en>(3) Set: Increases your pet's damage by 3%.</en>
+			<zh>(3) 套装：使你的宠物的伤害提高3%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Lieutenant Commander's Pursuance">
+	<set name="Lieutenant Commander's Pursuance" name_zh="少校的职责">
 		<item_id value="23292"/>
 		<item_id value="23293"/>
 		<item_id value="23278"/>
@@ -638,17 +735,20 @@
 		<item_id value="23307"/>
 
 		<bonus value="2" item_stat="AGILITY" stat_value="20">
-		(2) Set: +20 Agility.
+			<en>(2) Set: +20 Agility.</en>
+			<zh>(2) 套装：+20 敏捷。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Concussive Shot by 1 sec.
+			<en>(4) Set: Reduces the cooldown of your Concussive Shot by 1 sec.</en>
+			<zh>(4) 套装：使你的震荡射击的冷却时间减少1秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Champion's Pursuit">
+	<set name="Champion's Pursuit" name_zh="勇士的猎装">
 		<item_id value="22843"/>
 		<item_id value="22862"/>
 		<item_id value="23251"/>
@@ -657,17 +757,20 @@
 		<item_id value="22875"/>
 
 		<bonus value="2" item_stat="AGILITY" stat_value="20">
-		(2) Set: +20 Agility.
+			<en>(2) Set: +20 Agility.</en>
+			<zh>(2) 套装：+20 敏捷。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Concussive Shot by 1 sec.
+			<en>(4) Set: Reduces the cooldown of your Concussive Shot by 1 sec.</en>
+			<zh>(4) 套装：使你的震荡射击的冷却时间减少1秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Field Marshal's Pursuit">
+	<set name="Field Marshal's Pursuit" name_zh="元帅的猎装">
 		<item_id value="16466"/>
 		<item_id value="16465"/>
 		<item_id value="16468"/>
@@ -676,17 +779,20 @@
 		<item_id value="16467"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: Reduces the cooldown of your Concussive Shot by 1 sec.
+			<en>(3) Set: Reduces the cooldown of your Concussive Shot by 1 sec.</en>
+			<zh>(3) 套装：使你的震荡射击的冷却时间减少1秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="AGILITY" stat_value="20">
-		(6) Set: +20 Agility.
+			<en>(6) Set: +20 Agility.</en>
+			<zh>(6) 套装：+20 敏捷。</zh>
 		</bonus>
 	</set>
 
-	<set name="Warlord's Pursuit">
+	<set name="Warlord's Pursuit" name_zh="督军的猎装">
 		<item_id value="16569"/>
 		<item_id value="16571"/>
 		<item_id value="16567"/>
@@ -695,17 +801,20 @@
 		<item_id value="16568"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: Reduces the cooldown of your Concussive Shot by 1 sec.
+			<en>(3) Set: Reduces the cooldown of your Concussive Shot by 1 sec.</en>
+			<zh>(3) 套装：使你的震荡射击的冷却时间减少1秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="AGILITY" stat_value="20">
-		(6) Set: +20 Agility.
+			<en>(6) Set: +20 Agility.</en>
+			<zh>(6) 套装：+20 敏捷。</zh>
 		</bonus>
 	</set>
 
-	<set name="Giantstalker Armor">
+	<set name="Giantstalker Armor" name_zh="巨人追猎者">
 		<item_id value="16851"/>
 		<item_id value="16849"/>
 		<item_id value="16850"/>
@@ -716,17 +825,20 @@
 		<item_id value="16847"/>
 
 		<bonus value="3">
-		(3) Set: Increases the range of your Mend Pet spell by 50% and the effect by 10%. Also reduces the cost by 30%.
+			<en>(3) Set: Increases the range of your Mend Pet spell by 50% and the effect by 10%. Also reduces the cost by 30%.</en>
+			<zh>(3) 套装：使你的治疗宠物技能的施放距离增长50%，效果提高10%，法力值消耗降低30%。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases your pet's stamina by 30 and all spell resistances by 40.
+			<en>(5) Set: Increases your pet's stamina by 30 and all spell resistances by 40.</en>
+			<zh>(5) 套装：使你的宠物的耐力提高30点，所有法术抗性提高40点。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Increases the damage of Multi-shot and Volley by 15%.
+			<en>(8) Set: Increases the damage of Multi-shot and Volley by 15%.</en>
+			<zh>(8) 套装：多重射击和乱射所造成的伤害提高15%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Dragonstalker Armor">
+	<set name="Dragonstalker Armor" name_zh="巨龙追猎者">
 		<item_id value="16936"/>
 		<item_id value="16935"/>
 		<item_id value="16942"/>
@@ -737,18 +849,20 @@
 		<item_id value="16937"/>
 
 		<bonus value="3">
-		(3) Set: Increases the Ranged Attack Power bonus of your Aspect of the Hawk by 20%.
+			<en>(3) Set: Increases the Ranged Attack Power bonus of your Aspect of the Hawk by 20%.</en>
+			<zh>(3) 套装：使你的雄鹰守护所提供的远程攻击强度加成提高20%。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases your pet's stamina by 40 and all spell resistances by 60.
+			<en>(5) Set: Increases your pet's stamina by 40 and all spell resistances by 60.</en>
+			<zh>(5) 套装：使你的宠物的耐力提高40点，所有法术抗性提高60点。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: You have a chance whenever you deal ranged damage to apply an Expose Weakness effect to the target.
-		Expose Weakness increases the Ranged Attack Power of all attackers against that target by 450 for 7 sec.
+			<en>(8) Set: You have a chance whenever you deal ranged damage to apply an Expose Weakness effect to the target.Expose Weakness increases the Ranged Attack Power of all attackers against that target by 450 for 7 sec.</en>
+			<zh>(8) 套装：在你对目标造成远程攻击伤害时，有一定几率使其获得破甲虚弱效果。这个效果可以令所有远程攻击对该目标的攻击强度提高450点，持续7秒。</zh>
 		</bonus>
 	</set>
 
-	<set name="Striker's Garb">
+	<set name="Striker's Garb" name_zh="攻击者">
 		<item_id value="21366"/>
 		<item_id value="21365"/>
 		<item_id value="21370"/>
@@ -756,14 +870,16 @@
 		<item_id value="21367"/>
 
 		<bonus value="3">
-		(3) Set: Reduces the cost of your Arcane Shots by 10%.
+			<en>(3) Set: Reduces the cost of your Arcane Shots by 10%.</en>
+			<zh>(3) 套装：使你的奥术射击的法力消耗降低10%。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Reduces the cooldown of your Rapid Fire by 2 minutes.
+			<en>(5) Set: Reduces the cooldown of your Rapid Fire by 2 minutes.</en>
+			<zh>(5) 套装：使你的急速射击技能的冷却时间减少2分钟。</zh>
 		</bonus>
 	</set>
 
-	<set name="Cryptstalker Armor">
+	<set name="Cryptstalker Armor" name_zh="地穴追猎者">
 		<item_id value="22440"/>
 		<item_id value="22442"/>
 		<item_id value="22441"/>
@@ -775,20 +891,24 @@
 		<item_id value="23067"/>
 
 		<bonus value="2">
-		(2) Set: Increases the duration of your Rapid Fire by 4 secs.
+			<en>(2) Set: Increases the duration of your Rapid Fire by 4 secs.</en>
+			<zh>(2) 套装：使你的急速射击的持续时间延长4秒。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Increases Attack Power by 50 for both you and your pet.
+			<en>(4) Set: Increases Attack Power by 50 for both you and your pet.</en>
+			<zh>(4) 套装：使你和你的宠物的攻击强度提高50点。</zh>
 		</bonus>
 		<bonus value="6">
-		(6) Set: Your ranged critical hits cause an Adrenaline Rush, granting you 50 mana.
+			<en>(6) Set: Your ranged critical hits cause an Adrenaline Rush, granting you 50 mana.</en>
+			<zh>(6) 套装：你的远程攻击打出爆击后，使你获得激素刺激的效果，回复50点法力值。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Reduces the mana cost of your Multi-Shot and Aimed Shot by 20.
+			<en>(8) Set: Reduces the mana cost of your Multi-Shot and Aimed Shot by 20.</en>
+			<zh>(8) 套装：使你的多重射击和瞄准射击的法力值消耗降低20点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Magister's Regalia">
+	<set name="Magister's Regalia" name_zh="博学者的徽记">
 		<item_id value="16685"/>
 		<item_id value="16683"/>
 		<item_id value="16686"/>
@@ -799,20 +919,24 @@
 		<item_id value="16682"/>
 
 		<bonus value="2">
-		(2) Set: +200 Armor.
+			<en>(2) Set: +200 Armor.</en>
+			<zh>(2) 套装：+200点护甲值。</zh>
 		</bonus>
 		<bonus value="4" item_stat="SPELL_DAMAGE" stat_value="23">
-		(4) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(4) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(4) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 		<bonus value="6">
-		(6) Set: When struck in combat has a chance of freezing the attacker in place for 3 sec.
+			<en>(6) Set: When struck in combat has a chance of freezing the attacker in place for 3 sec.</en>
+			<zh>(6) 套装：被击中之后有一定几率令攻击者冻结在原地，持续3秒。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: +8 All Resistances.
+			<en>(8) Set: +8 All Resistances.</en>
+			<zh>(8) 套装：+8 所有魔法抗性。</zh>
 		</bonus>
 	</set>
 
-	<set name="Sorcerer's Regalia">
+	<set name="Sorcerer's Regalia" name_zh="巫师">
 		<item_id value="22062"/>
 		<item_id value="22063"/>
 		<item_id value="22064"/>
@@ -823,20 +947,24 @@
 		<item_id value="22069"/>
 
 		<bonus value="2">
-		(2) Set: +8 All Resistances.
+			<en>(2) Set: +8 All Resistances.</en>
+			<zh>(2) 套装：+8 所有魔法抗性。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: When struck in combat has a chance of freezing the attacker in place for 3 sec.
+			<en>(4) Set: When struck in combat has a chance of freezing the attacker in place for 3 sec.</en>
+			<zh>(4) 套装：被击中之后有一定几率令攻击者冻结在原地，持续3秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="SPELL_DAMAGE" stat_value="23">
-		(6) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(6) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(6) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: +200 Armor.
+			<en>(8) Set: +200 Armor.</en>
+			<zh>(8) 套装：+200 护甲。</zh>
 		</bonus>
 	</set>
 
-	<set name="Champion's Arcanum">
+	<set name="Champion's Arcanum" name_zh="勇士的秘密">
 		<item_id value="22870"/>
 		<item_id value="22860"/>
 		<item_id value="23263"/>
@@ -845,17 +973,20 @@
 		<item_id value="22886"/>
 
 		<bonus value="2" item_stat="SPELL_DAMAGE" stat_value="23">
-		(2) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(2) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(2) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.
+			<en>(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.</en>
+			<zh>(4) 套装：使你的闪现术的冷却时间减少1.5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Lieutenant Commander's Arcanum">
+	<set name="Lieutenant Commander's Arcanum" name_zh="少校的秘密">
 		<item_id value="23304"/>
 		<item_id value="23305"/>
 		<item_id value="23290"/>
@@ -864,17 +995,20 @@
 		<item_id value="23319"/>
 
 		<bonus value="2" item_stat="SPELL_DAMAGE" stat_value="23">
-		(2) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(2) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(2) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.
+			<en>(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.</en>
+			<zh>(4) 套装：使你的闪现术的冷却时间减少1.5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="STAMINA" stat_value="20">
-		(6) Set: +20 Stamina.
+			<en>(6) Set: +20 Stamina.</en>
+			<zh>(6) 套装：+20 耐力。</zh>
 		</bonus>
 	</set>
 
-	<set name="Warlord's Regalia">
+	<set name="Warlord's Regalia" name_zh="督军的法衣">
 		<item_id value="16536"/>
 		<item_id value="16533"/>
 		<item_id value="16535"/>
@@ -883,17 +1017,20 @@
 		<item_id value="16534"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.
+			<en>(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.</en>
+			<zh>(3) 套装：使你的闪现术的冷却时间减少1.5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="SPELL_DAMAGE" stat_value="23">
-		(6) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(6) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(6) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Field Marshal's Regalia">
+	<set name="Field Marshal's Regalia" name_zh="元帅的法衣">
 		<item_id value="16441"/>
 		<item_id value="16444"/>
 		<item_id value="16443"/>
@@ -902,17 +1039,20 @@
 		<item_id value="16442"/>
 
 		<bonus value="2" item_stat="STAMINA" stat_value="20">
-		(2) Set: +20 Stamina.
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.
+			<en>(4) Set: Reduces the cooldown of your Blink spell by 1.5 sec.</en>
+			<zh>(3) 套装：使你的闪现术的冷却时间减少1.5秒。</zh>
 		</bonus>
 		<bonus value="6" item_stat="SPELL_DAMAGE" stat_value="23">
-		(6) Set: Increases damage and healing done by magical spells and effects by up to 23.
+			<en>(6) Set: Increases damage and healing done by magical spells and effects by up to 23.</en>
+			<zh>(6) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多23点。</zh>
 		</bonus>
 	</set>
 
-	<set name="Arcanist Regalia">
+	<set name="Arcanist Regalia" name_zh="奥术师">
 		<item_id value="16802"/>
 		<item_id value="16799"/>
 		<item_id value="16795"/>
@@ -923,17 +1063,20 @@
 		<item_id value="16798"/>
 
 		<bonus value="3" item_stat="SPELL_DAMAGE" stat_value="18">
-		(3) Set: Increases damage and healing done by magical spells and effects by up to 18.
+			<en>(3) Set: Increases damage and healing done by magical spells and effects by up to 18.</en>
+			<zh>(3) 套装：提高所有法术和魔法效果所造成的伤害和治疗效果，最多18点。</zh>
 		</bonus>
 		<bonus value="5" item_stat="SPELL_PENETRATION" stat_value="10">
-		(5) Set: Decreases the magical resistances of your spell targets by 10.
+			<en>(5) Set: Decreases the magical resistances of your spell targets by 10.</en>
+			<zh>(5) 套装：使你的法术目标的魔法抗性降低10点。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Decreases the threat generated by your spells by 15%.
+			<en>(8) Set: Decreases the threat generated by your spells by 15%.</en>
+			<zh>(8) 套装：使你的法术所造成的威胁值减少15%。</zh>
 		</bonus>
 	</set>
 
-	<set name="Netherwind Regalia">
+	<set name="Netherwind Regalia" name_zh="灵风">
 		<item_id value="16818"/>
 		<item_id value="16918"/>
 		<item_id value="16912"/>
@@ -944,17 +1087,20 @@
 		<item_id value="16916"/>
 
 		<bonus value="3">
-		(3) Set: Reduces the threat generated by your Scorch, Arcane Missiles, and Frostbolt spells.
+			<en>(3) Set: Reduces the threat generated by your Scorch, Arcane Missiles, and Frostbolt spells.</en>
+			<zh>(3) 套装：使你的灼烧、奥术飞弹、火球术和寒冰箭所造成的威胁值降低。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Increases the radius of Arcane Explosion, Flamestrike, and Blizzard by 25%.
+			<en>(5) Set: Increases the radius of Arcane Explosion, Flamestrike, and Blizzard by 25%.</en>
+			<zh>(5) 套装：使魔爆术、烈焰风暴和暴风雪的攻击范围增加25%。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: 10% chance after casting Arcane Missiles, Fireball, or Frostbolt that your next spell with a casting time under 10 seconds cast instantly.
+			<en>(8) Set: 10% chance after casting Arcane Missiles, Fireball, or Frostbolt that your next spell with a casting time under 10 seconds cast instantly.</en>
+			<zh>(8) 套装：在你施放奥术飞弹、火球术或寒冰箭之后，有10%的几率使你的下一个施法时间少于10秒的法术变成瞬发。</zh>
 		</bonus>
 	</set>
 
-	<set name="Enigma Vestments">
+	<set name="Enigma Vestments" name_zh="神秘套装">
 		<item_id value="21344"/>
 		<item_id value="21347"/>
 		<item_id value="21346"/>
@@ -962,14 +1108,16 @@
 		<item_id value="21345"/>
 
 		<bonus value="3">
-		(3) Set: Your Blizzard spell has a 30% chance to be uninterruptible.
+			<en>(3) Set: Your Blizzard spell has a 30% chance to be uninterruptible.</en>
+			<zh>(3) 套装：你的暴风雪法术有30%的几率完全不被打断。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Grants +5% increased spell hit chance for 20 sec when one of your spells is resisted.
+			<en>(5) Set: Grants +5% increased spell hit chance for 20 sec when one of your spells is resisted.</en>
+			<zh>(5) 套装：当你的法术被抵抗后，法术命中率提高5%，持续20秒。</zh>
 		</bonus>
 	</set>
 
-	<set name="Frostfire Regalia">
+	<set name="Frostfire Regalia" name_zh="霜火">
 		<item_id value="22502"/>
 		<item_id value="22503"/>
 		<item_id value="22498"/>
@@ -981,59 +1129,70 @@
 		<item_id value="23062"/>
 
 		<bonus value="2">
-		(2) Set: Reduces the cooldown on your Evocation by 1 minute.
+			<en>(2) Set: Reduces the cooldown on your Evocation by 1 minute.</en>
+			<zh>(2) 套装：使你的唤醒法术的冷却时间减少1分钟。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Gives your Mage Armor a chance when struck by a harmful spell to increase resistance against that school of magic by 35 for 30 sec.
+			<en>(4) Set: Gives your Mage Armor a chance when struck by a harmful spell to increase resistance against that school of magic by 35 for 30 sec.</en>
+			<zh>(4) 套装：使你的魔甲术得到增强，有一定几率在受到伤害性法术攻击之后，对该系法术的抗性提高35点，持续30秒。</zh>
 		</bonus>
 		<bonus value="6">
-		(6) Set: Your damage spells have a chance to cause your target to take up to 200 increased damage from subsequent spells.
+			<en>(6) Set: Your damage spells have a chance to cause your target to take up to 200 increased damage from subsequent spells.</en>
+			<zh>(6) 套装：你的伤害法术有一定几率引发更强大的元素能量，使后续的法术对你的目标所造成的伤害提高最多200点。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: Your damage spells have a chance to displace you, causing the next spell cast to generate no threat.
+			<en>(8) Set: Your damage spells have a chance to displace you, causing the next spell cast to generate no threat.</en>
+			<zh>(8) 套装：你的伤害性法术有一定几率令你移位，使你所施放的下一个法术不造成任何威胁值。</zh>
 		</bonus>
 	</set>
 	
-	<set name="Stormshroud Armor">
+	<set name="Stormshroud Armor" name_zh="雷暴">
 		<item_id value="15056"/>
 		<item_id value="15057"/>
 		<item_id value="15058"/>
 		<item_id value="21278"/>
 	
 		<bonus value="2">
-			(2) Set : 5% chance of dealing 15 to 25 Nature damage on a successful melee attack.
+			<en>(2) Set : 5% chance of dealing 15 to 25 Nature damage on a successful melee attack.</en>
+			<zh>(2) 套装：有5%的几率在成功击中目标时对其造成15到26点自然伤害。</zh>
 		</bonus>
 		<bonus value="3">
-			(3) Set : 2% chance on melee attack of restoring 30 energy.
+			<en>(3) Set : 2% chance on melee attack of restoring 30 energy.</en>
+			<zh>(3) 套装：有2%的几率在进行近战攻击时回复30点能量值。</zh>
 		</bonus>
 		<bonus value="4" item_stat="ATTACK_POWER" stat_value="14">
-			(4) Set : +14 Attack Power.
+			<en>(4) Set : +14 Attack Power.</en>
+			<zh>(4) 套装：+14 攻击强度。</zh>
 		</bonus>
 	</set>
 	
-	<set name="The Defiler's Purpose">
+	<set name="The Defiler's Purpose" name_zh="污染者的毅力">
 		<item_id value="20186"/>
 		<item_id value="20190"/>
 		<item_id value="20194"/>
 	
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-			(2) Set: 5 Stamina
+			<en>(2) Set: 5 Stamina</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-			(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 
-	<set name="The Highlander's Purpose">
+	<set name="The Highlander's Purpose" name_zh="高地人的毅力">
 		<item_id value="20052"/>
 		<item_id value="20045"/>
 		<item_id value="20059"/>
 	
 		<bonus value="2" item_stat="STAMINA" stat_value="5">
-			(2) Set: 5 Stamina
+			<en>(2) Set: 5 Stamina</en>
+			<zh>(2) 套装：+5 耐力。</zh>
 		</bonus>
 		<bonus value="3" item_stat="CRIT_CHANCE" stat_value="100">
-			(3) Set: Improves your chance to get a critical strike by 1%.
+			<en>(3) Set: Improves your chance to get a critical strike by 1%.</en>
+			<zh>(3) 套装：使你造成爆击的几率提高1%。</zh>
 		</bonus>
 	</set>
 </sets>
