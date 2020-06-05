@@ -1,5 +1,6 @@
 #include "DefensiveStanceBuff.h"
 #include <QObject>
+#include <cmath>
 #include <vector>
 
 #include "CharacterStats.h"
