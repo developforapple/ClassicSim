@@ -32,9 +32,9 @@ QString read_localized_element_text(QXmlStreamReader& reader, QString lang, bool
             reader.skipCurrentElement();
         }
     }
-    if (localizedText == nullptr || localizedText.length() == 0) {
+    if (localizedText == nullptr || localizedText == "") {
         if (lang != "en") {
-            qDebug() << QString("localized element text not found, Line: %1,Column: %2").arg(reader.lineNumber()).arg(reader.columnNumber());
+            //qDebug() << QString("localized element text not found, Line: %1,Column: %2").arg(reader.lineNumber()).arg(reader.columnNumber());
         }
         localizedText = defaultText;
     }
@@ -64,7 +64,7 @@ QString read_localized_attribute_text(QXmlStreamReader& reader, QString attribut
         }
     }
 
-    if (localizedText == nullptr || localizedText.length() == 0) {
+    if (localizedText == nullptr || localizedText == "") {
         localizedText = defaultText;
     }
     return localizedText;
