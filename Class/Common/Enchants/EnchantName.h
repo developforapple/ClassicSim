@@ -88,25 +88,25 @@ public:
         case EnchantName::EnchantWeaponStrength:
             return QObject::tr("Strength", "Enchant Weapon Strength");
         case EnchantName::EnchantWeaponSpellPower:
-            return QObject::tr("Spell Power");
+            return QObject::tr("Spell Power", "Enchant Weapon Spell Power");
         case EnchantName::EnchantBracerGreaterIntellect:
-            return QObject::tr("Greater Intellect");
+            return QObject::tr("Greater Intellect", "Enchant Bracer Greater Intellect");
         case EnchantName::EnchantBracerManaRegeneration:
-            return QObject::tr("Mana Regeneration");
+            return QObject::tr("Mana Regeneration", "Enchant Bracer Mana Regeneration");
         case EnchantName::EnchantBracerMinorAgility:
-            return QObject::tr("Minor Agility");
+            return QObject::tr("Minor Agility", "Enchant Bracer Minor Agility");
         case EnchantName::EnchantBracerGreaterStrength:
-            return QObject::tr("Greater Strength");
+            return QObject::tr("Greater Strength", "Enchant Bracer Greater Strength");
         case EnchantName::EnchantBracerSuperiorStrength:
-            return QObject::tr("Superior Strength");
+            return QObject::tr("Superior Strength", "Enchant Bracer Superior Strength");
         case EnchantName::EnchantGlovesSuperiorAgility:
-            return QObject::tr("Superior Agility");
+            return QObject::tr("Superior Agility", "Enchant Gloves Superior Agility");
         case EnchantName::EnchantGlovesGreaterAgility:
-            return QObject::tr("Greater Agility");
+            return QObject::tr("Greater Agility", "Enchant Gloves Greater Agility");
         case EnchantName::EnchantGlovesGreaterStrength:
-            return QObject::tr("Greater Strength");
+            return QObject::tr("Greater Strength", "Enchant Gloves Greater Strength");
         case EnchantName::EnchantGlovesMinorHaste:
-            return QObject::tr("Minor Haste");
+            return QObject::tr("Minor Haste", "Enchant Gloves Minor Haste");
         case EnchantName::EnchantGlovesFirePower:
             return QObject::tr("Fire Power", "Enchant Gloves Fire Power");
         case EnchantName::EnchantGlovesFrostPower:
@@ -138,7 +138,7 @@ public:
         case EnchantName::PresenceOfSight:
             return QObject::tr("Presence of Sight");
         case EnchantName::EnchantCloakLesserAgility:
-            return QObject::tr("Lesser Agility");
+            return QObject::tr("Lesser Agility", "Enchant Cloak Lesser Agility");
         case EnchantName::ZandalarSignetOfMight:
             return QObject::tr("Zandalar Signet of Might");
         case EnchantName::ZandalarSignetOfMojo:
@@ -148,13 +148,13 @@ public:
         case EnchantName::EnchantChestStats:
             return QObject::tr("Stats", "Enchant Chest Stats");
         case EnchantName::EnchantChestGreaterStats:
-            return QObject::tr("Greater Stats");
+            return QObject::tr("Greater Stats", "Enchant Chest Greater Stats");
         case EnchantName::EnchantBootsMinorSpeed:
             return QObject::tr("Minor Speed");
         case EnchantName::EnchantBootsAgility:
-            return QObject::tr("Agility");
+            return QObject::tr("Agility", "Enchant Boots Agility");
         case EnchantName::EnchantBootsGreaterAgility:
-            return QObject::tr("Greater Agility");
+            return QObject::tr("Greater Agility", "Enchant Boots Greater Agility");
         case EnchantName::EnchantBootsSpirit:
             return QObject::tr("Spirit", "Enchant Boots Spirit");
         case EnchantName::ElementalSharpeningStone:

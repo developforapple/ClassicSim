@@ -769,51 +769,40 @@
         <translation>附魔武器 - 力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="91"/>
         <source>Spell Power</source>
-        <translation>附魔武器 - 法术能量</translation>
+        <translation type="vanished">附魔武器 - 法术能量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="93"/>
         <source>Greater Intellect</source>
-        <translation>附魔护腕 - 强效智力</translation>
+        <translation type="vanished">附魔护腕 - 强效智力</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="95"/>
         <source>Mana Regeneration</source>
-        <translation>附魔护腕 - 法力回复</translation>
+        <translation type="vanished">附魔护腕 - 法力回复</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="97"/>
         <source>Minor Agility</source>
-        <translation>附魔护腕 - 初级敏捷</translation>
+        <translation type="vanished">附魔护腕 - 初级敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="99"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="107"/>
         <source>Greater Strength</source>
-        <translation>附魔护腕 - 强效力量</translation>
+        <translation type="vanished">附魔护腕 - 强效力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="101"/>
         <source>Superior Strength</source>
-        <translation>附魔护腕 - 超强力量</translation>
+        <translation type="vanished">附魔护腕 - 超强力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="103"/>
         <source>Superior Agility</source>
-        <translation>附魔手套 - 超强敏捷</translation>
+        <translation type="vanished">附魔手套 - 超强敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="105"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="157"/>
         <source>Greater Agility</source>
-        <translation>附魔手套 - 强效敏捷</translation>
+        <translation type="vanished">附魔手套 - 强效敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="109"/>
         <source>Minor Haste</source>
-        <translation>附魔手套 - 初级加速</translation>
+        <translation type="vanished">附魔手套 - 初级加速</translation>
     </message>
     <message>
         <source>Frost Power</source>
@@ -875,9 +864,8 @@
         <translation>魔法的视域</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="141"/>
         <source>Lesser Agility</source>
-        <translation>附魔披风 - 次级敏捷</translation>
+        <translation type="vanished">附魔披风 - 次级敏捷</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.h" line="143"/>
@@ -899,9 +887,8 @@
         <translation type="vanished">附魔胸甲 - 状态</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="151"/>
         <source>Greater Stats</source>
-        <translation>附魔胸甲 - 强效属性</translation>
+        <translation type="vanished">附魔胸甲 - 强效属性</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.h" line="153"/>
@@ -911,6 +898,66 @@
     <message>
         <source>Spirit</source>
         <translation type="vanished">附魔靴子 - 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="91"/>
+        <source>Spell Power</source>
+        <comment>Enchant Weapon Spell Power</comment>
+        <translation>附魔武器 - 法术能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="93"/>
+        <source>Greater Intellect</source>
+        <comment>Enchant Bracer Greater Intellect</comment>
+        <translation>附魔护腕 - 强效智力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="95"/>
+        <source>Mana Regeneration</source>
+        <comment>Enchant Bracer Mana Regeneration</comment>
+        <translation>附魔护腕 - 法力回复</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="97"/>
+        <source>Minor Agility</source>
+        <comment>Enchant Bracer Minor Agility</comment>
+        <translation>附魔护腕 - 初级敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="99"/>
+        <source>Greater Strength</source>
+        <comment>Enchant Bracer Greater Strength</comment>
+        <translation>附魔护腕 - 强效力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="101"/>
+        <source>Superior Strength</source>
+        <comment>Enchant Bracer Superior Strength</comment>
+        <translation>附魔护腕 - 超强力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="103"/>
+        <source>Superior Agility</source>
+        <comment>Enchant Gloves Superior Agility</comment>
+        <translation>附魔手套 - 超强敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="105"/>
+        <source>Greater Agility</source>
+        <comment>Enchant Gloves Greater Agility</comment>
+        <translation>附魔手套 - 强效敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="107"/>
+        <source>Greater Strength</source>
+        <comment>Enchant Gloves Greater Strength</comment>
+        <translation>附魔护腕 - 强效力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="109"/>
+        <source>Minor Haste</source>
+        <comment>Enchant Gloves Minor Haste</comment>
+        <translation>附魔手套 - 初级加速</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.h" line="111"/>
@@ -925,10 +972,34 @@
         <translation>附魔手套 - 冰霜能量</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="141"/>
+        <source>Lesser Agility</source>
+        <comment>Enchant Cloak Lesser Agility</comment>
+        <translation>附魔披风 - 次级敏捷</translation>
+    </message>
+    <message>
         <location filename="Class/Common/Enchants/EnchantName.h" line="149"/>
         <source>Stats</source>
         <comment>Enchant Chest Stats</comment>
         <translation>附魔胸甲 - 状态</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="151"/>
+        <source>Greater Stats</source>
+        <comment>Enchant Chest Greater Stats</comment>
+        <translation>附魔胸甲 - 强效属性</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="155"/>
+        <source>Agility</source>
+        <comment>Enchant Boots Agility</comment>
+        <translation>附魔靴子 - 初级敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="157"/>
+        <source>Greater Agility</source>
+        <comment>Enchant Boots Greater Agility</comment>
+        <translation>附魔靴子 - 强效敏捷</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.h" line="159"/>
@@ -9069,7 +9140,6 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>需要等级 %1</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="155"/>
         <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="61"/>
         <source>Agility</source>
         <translation>敏捷</translation>
