@@ -529,7 +529,9 @@ SOURCES += main.cpp \
     Test/Paladin/Talents/TestRetribution.cpp \
     Class/Mage/Buffs/MageArmorBuff.cpp \
     Class/Mage/Spells/MageArmor.cpp \
-    Test/Mage/Spells/TestMageArmor.cpp
+    Test/Mage/Spells/TestMageArmor.cpp \
+    Utils/xmllocalizedtextreader.cpp \
+    Utils/i18n.cpp
 
 HEADERS += \
     Class/Common/Buffs/NoEffectSelfBuff.h \
@@ -1064,7 +1066,9 @@ HEADERS += \
     Test/Paladin/Talents/TestRetribution.h \
     Class/Mage/Buffs/MageArmorBuff.h \
     Class/Mage/Spells/MageArmor.h \
-    Test/Mage/Spells/TestMageArmor.h
+    Test/Mage/Spells/TestMageArmor.h \
+    Utils/xmllocalizedtextreader.h \
+    Utils/i18n.h
 
 INCLUDEPATH = $$PWD/Engine \
     $$PWD/Event \

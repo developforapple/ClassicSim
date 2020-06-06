@@ -8,6 +8,8 @@
 #include "RotationExecutor.h"
 #include "Spell.h"
 #include "Utils/Check.h"
+#include "Utils/xmllocalizedtextreader.h"
+#include "Utils/i18n.h"
 
 void RotationFileReader::add_rotations(QVector<Rotation*>& rotations) {
     QFile paths_file("rotation_paths.xml");
@@ -83,14 +85,16 @@ Rotation* RotationFileReader::parse_rotation_file(const QString& path) {
 }
 
 void RotationFileReader::rotation_file_handler(QXmlStreamReader& reader, Rotation* rotation) {
-    rotation->set_name(reader.attributes().value("name").toString());
+
+    rotation->set_name(read_localized_attribute_text(reader, "name", L_LANG));
 
     if (!rotation->try_set_attack_mode(reader.attributes().value("attack_mode").toString()))
         qDebug() << "Failed to set attack mode for" << rotation->get_name();
 
     while (reader.readNextStartElement()) {
         if (reader.name() == "description") {
-            rotation->set_description(reader.readElementText().simplified());
+            //rotation->set_description(reader.readElementText().simplified());
+            rotation->set_description(read_localized_element_text(reader, L_LANG));
             continue;
         }
 
@@ -108,10 +112,13 @@ void RotationFileReader::rotation_file_handler(QXmlStreamReader& reader, Rotatio
                     reader.skipCurrentElement();
                     continue;
                 }
-                if (element_name == "spell")
-                    rotation->add_precombat_spell(reader.attributes().value("name").toString());
-                else
-                    rotation->add_precast_spell(reader.attributes().value("name").toString());
+                if (element_name == "spell") {
+                    //rotation->add_precombat_spell(reader.attributes().value("name").toString());
+                    rotation->add_precombat_spell(read_localized_attribute_text(reader, "name", L_LANG));
+                } else {
+                    //rotation->add_precast_spell(reader.attributes().value("name").toString());
+                    rotation->add_precast_spell(read_localized_attribute_text(reader, "name", L_LANG));
+                }
                 reader.skipCurrentElement();
             }
 
@@ -119,7 +126,8 @@ void RotationFileReader::rotation_file_handler(QXmlStreamReader& reader, Rotatio
         }
 
         if (reader.name() == "cast_if") {
-            QString name = reader.attributes().value("name").toString();
+            //QString name = reader.attributes().value("name").toString();
+            QString name = read_localized_attribute_text(reader, "name", L_LANG);
             const int spell_rank = reader.attributes().hasAttribute("rank") ? reader.attributes().value("rank").toInt() : Spell::MAX_RANK;
             RotationExecutor* executor = new RotationExecutor(name, spell_rank);
             if (rotation_executor_handler(reader, executor)) {

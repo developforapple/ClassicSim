@@ -6,6 +6,8 @@
 #include "Item.h"
 #include "ProjectileFileReader.h"
 #include "WeaponFileReader.h"
+#include <Utils/xmllocalizedtextreader.h>
+#include <Utils/i18n.h>
 
 ItemFileReader::ItemFileReader(QObject* parent) : QObject(parent) {}
 
@@ -33,7 +35,7 @@ void ItemFileReader::read_items(QVector<Item*>& items, const QString& path) {
 }
 
 void ItemFileReader::item_file_handler(QXmlStreamReader& reader, QVector<Item*>& items) {
-    QString lang = "zh";
+
     while (reader.readNextStartElement()) {
         QString classification = reader.name().toString();
 
@@ -84,28 +86,7 @@ void ItemFileReader::item_file_handler(QXmlStreamReader& reader, QVector<Item*>&
             } else if (reader.name() == "flavour_text") {
                 item_map["flavour_text"] = reader.readElementText().simplified();
             } else if (reader.name() == "special_equip_effect") {
-
-                QString defaultText = nullptr;
-                QString localizedText = nullptr;
-
-                while (reader.readNextStartElement()) {
-                    if (reader.name() == "en" || reader.name() == lang) {
-                        QString text = reader.readElementText().simplified();
-                        if (text != nullptr && text.length()) {
-                            if (reader.name() == "en") {
-                                defaultText = text;
-                            } else if (reader.name() == lang) {
-                                localizedText = text;
-                            }
-                        }
-                    }
-                }
-                if (localizedText == nullptr || localizedText.length() == 0) {
-                    qDebug() << QString("localized special_equip_effect not found. ItemId: %1. Language: %2").arg(id).arg(lang);
-                    localizedText = defaultText;
-                }
-                special_equip_effects.append(localizedText);
-
+                special_equip_effects.append(read_localized_element_text(reader, L_LANG));
             } else if (reader.name() == "modifies") {
                 modifies_element_reader(reader, spell_modifications);
             } else if (reader.name() == "mutex") {
@@ -124,7 +105,8 @@ void ItemFileReader::item_file_handler(QXmlStreamReader& reader, QVector<Item*>&
 }
 
 void ItemFileReader::info_element_reader(const QXmlStreamAttributes& attrs, QMap<QString, QString>& item) {
-    QVector<QString> mandatory_attrs = {"name", "type", "slot", "unique", "req_lvl", "item_lvl", "quality", "boe"};
+    QString name_attr = localized_attribute_name("name", L_LANG);
+    QVector<QString> mandatory_attrs = {name_attr, "type", "slot", "unique", "req_lvl", "item_lvl", "quality", "boe"};
     QVector<QString> optional_attrs = {"faction", "icon"};
 
     for (const auto& mandatory_attr : mandatory_attrs)
@@ -132,6 +114,11 @@ void ItemFileReader::info_element_reader(const QXmlStreamAttributes& attrs, QMap
 
     for (const auto& optional_attr : optional_attrs)
         add_attr(attrs, optional_attr, item);
+
+    if (item.contains(name_attr)) {
+        QString v = item.take(name_attr);
+        item["name"] = v;
+    }
 }
 
 void ItemFileReader::class_restriction_element_reader(const QXmlStreamAttributes& attrs, QMap<QString, QString>& item) {
