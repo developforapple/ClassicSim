@@ -722,10 +722,504 @@
         <translation>厚甲蝎药粉</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="75"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="188"/>
+        <source>no enchant</source>
+        <translation>无附魔</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="77"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="190"/>
+        <source>Crusader</source>
+        <translation>附魔武器 - 十字军</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="79"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="192"/>
+        <source>Fiery Weapon</source>
+        <translation>附魔武器 - 烈焰</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="81"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="194"/>
+        <source>Windfury Totem</source>
+        <translation>风怒图腾</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="83"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="196"/>
+        <source>Instant Poison</source>
+        <translation>速效毒药</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="85"/>
+        <source>Superior Striking</source>
+        <translation>附魔武器 - 超强打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="87"/>
+        <source>Agility</source>
+        <comment>Enchant Weapon Agility</comment>
+        <translation>附魔武器 - 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="89"/>
+        <source>Strength</source>
+        <comment>Enchant Weapon Strength</comment>
+        <translation>附魔武器 - 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="91"/>
+        <source>Spell Power</source>
+        <translation>附魔武器 - 法术能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="93"/>
+        <source>Greater Intellect</source>
+        <translation>附魔护腕 - 强效智力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="95"/>
+        <source>Mana Regeneration</source>
+        <translation>附魔护腕 - 法力回复</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="97"/>
+        <source>Minor Agility</source>
+        <translation>附魔护腕 - 初级敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="99"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="107"/>
+        <source>Greater Strength</source>
+        <translation>附魔护腕 - 强效力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="101"/>
+        <source>Superior Strength</source>
+        <translation>附魔护腕 - 超强力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="103"/>
+        <source>Superior Agility</source>
+        <translation>附魔手套 - 超强敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="105"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="157"/>
+        <source>Greater Agility</source>
+        <translation>附魔手套 - 强效敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="109"/>
+        <source>Minor Haste</source>
+        <translation>附魔手套 - 初级加速</translation>
+    </message>
+    <message>
+        <source>Frost Power</source>
+        <translation type="vanished">附魔手套 - 冰霜能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="115"/>
+        <source>Iron Counterweight</source>
+        <translation>铁质平衡锤</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="117"/>
+        <source>2H Weapon Agility</source>
+        <translation>附魔双手武器 - 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="119"/>
+        <source>2H Weapon Superior Impact</source>
+        <translation>附魔双手武器 - 超强冲击</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="121"/>
+        <source>Biznicks 247x128 Accurascope</source>
+        <translation>比兹尼克247x128精确瞄准镜</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="123"/>
+        <source>Sniper Scope</source>
+        <translation>狙击瞄准镜</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="125"/>
+        <source>Arcanum of Focus</source>
+        <translation>专注秘药</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="127"/>
+        <source>Arcanum of Rapidity</source>
+        <translation>急速秘药</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="133"/>
+        <source>Lesser Arcanum of Voracity</source>
+        <translation>次级贪婪秘药</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="135"/>
+        <source>Death&apos;s Embrace</source>
+        <translation>死亡的拥抱</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="137"/>
+        <source>Falcon&apos;s Call</source>
+        <translation>猎鹰的召唤</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="139"/>
+        <source>Presence of Sight</source>
+        <translation>魔法的视域</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="141"/>
+        <source>Lesser Agility</source>
+        <translation>附魔披风 - 次级敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="143"/>
+        <source>Zandalar Signet of Might</source>
+        <translation>赞达拉力量徽记</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="145"/>
+        <source>Zandalar Signet of Mojo</source>
+        <translation>赞达拉魔精徽记</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="147"/>
+        <source>Might of the Scourge</source>
+        <translation>天灾的威严</translation>
+    </message>
+    <message>
+        <source>Stats</source>
+        <translation type="vanished">附魔胸甲 - 状态</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="151"/>
+        <source>Greater Stats</source>
+        <translation>附魔胸甲 - 强效属性</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="153"/>
+        <source>Minor Speed</source>
+        <translation>附魔靴子 - 初级速度</translation>
+    </message>
+    <message>
+        <source>Spirit</source>
+        <translation type="vanished">附魔靴子 - 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="111"/>
+        <source>Fire Power</source>
+        <comment>Enchant Gloves Fire Power</comment>
+        <translation>附魔手套 - 火焰能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="113"/>
+        <source>Frost Power</source>
+        <comment>Enchant Gloves Frost Power</comment>
+        <translation>附魔手套 - 冰霜能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="149"/>
+        <source>Stats</source>
+        <comment>Enchant Chest Stats</comment>
+        <translation>附魔胸甲 - 状态</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="159"/>
+        <source>Spirit</source>
+        <comment>Enchant Boots Spirit</comment>
+        <translation>附魔靴子 - 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="161"/>
+        <source>Elemental Sharpening Stone</source>
+        <translation>元素磨刀石</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="163"/>
+        <source>Consecrated Sharpening Stone</source>
+        <translation>神圣磨刀石</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="165"/>
+        <source>Dense Sharpening Stone</source>
+        <translation>致密磨刀石</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="167"/>
+        <source>Lesser Mana Oil</source>
+        <translation>次级法力之油</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="169"/>
+        <source>Brilliant Mana Oil</source>
+        <translation>卓越法力之油</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="171"/>
+        <source>Brilliant Wizard Oil</source>
+        <translation>卓越巫师之油</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="173"/>
+        <source>Shadow Oil</source>
+        <translation>暗影之油</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="175"/>
+        <source>Solid Weightstone</source>
+        <translation>坚固的平衡石</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="177"/>
+        <source>Dense Weightstone</source>
+        <translation>致密平衡石</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="198"/>
+        <source>+5 Damage</source>
+        <translation>+5 伤害</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="200"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="216"/>
+        <source>+15 Agility</source>
+        <translation>+15 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="202"/>
+        <source>+15 Strength</source>
+        <translation>+15 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="204"/>
+        <source>+30 Spell Damage/Healing</source>
+        <translation>+30 法术伤害/治疗效果</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="206"/>
+        <source>+7 Intellect</source>
+        <translation>+7 智力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="208"/>
+        <source>+4 mp5</source>
+        <translation>+4 5秒回蓝</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="210"/>
+        <source>+1 Agility</source>
+        <translation>+1 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="212"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="220"/>
+        <source>+7 Strength</source>
+        <translation>+7 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="214"/>
+        <source>+9 Strength</source>
+        <translation>+9 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="218"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="274"/>
+        <source>+7 Agility</source>
+        <translation>+7 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="222"/>
+        <source>+1% Attack Speed</source>
+        <translation>+1% 攻击速度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="224"/>
+        <source>+20 Fire Damage</source>
+        <translation>+20 火焰伤害</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="226"/>
+        <source>+20 Frost Damage</source>
+        <translation>+20 冰霜伤害</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="228"/>
+        <source>+3% Attack Speed</source>
+        <translation>+3% 攻击速度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="230"/>
         <location filename="Spells/ExternalBuff.cpp" line="500"/>
         <location filename="Spells/ExternalBuff.cpp" line="527"/>
         <source>+25 Agility</source>
         <translation>+25 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="232"/>
+        <source>+9 Damage</source>
+        <translation>+9 伤害</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="234"/>
+        <source>+3% Ranged Hit</source>
+        <translation>+3% 远程命中</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="236"/>
+        <source>+7 Damage</source>
+        <translation>+7 伤害</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="238"/>
+        <source>+8 Spell Damage/Healing</source>
+        <translation>+8 法术伤害/治疗效果</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="240"/>
+        <source>+1% Haste</source>
+        <translation>+1 攻击速度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="242"/>
+        <source>+8 Agility</source>
+        <translation>+8 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="244"/>
+        <source>+8 Intellect</source>
+        <translation>+8 智力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="246"/>
+        <source>+8 Spirit</source>
+        <translation>+8 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="248"/>
+        <source>+8 Stamina</source>
+        <translation>+8 耐力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="250"/>
+        <source>+8 Strength</source>
+        <translation>+8 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="252"/>
+        <source>+28 Attack and
+1% Dodge</source>
+        <translation>+28 攻击强度和1%躲闪</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="254"/>
+        <source>+18 Spell Damage/Healing
++1% Spell Hit</source>
+        <translation>+18 法术伤害/治疗效果
++1% 法术命中</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="256"/>
+        <source>+24 Ranged Attack Power
+10 Stamina, +1% Hit</source>
+        <translation>+24 远程攻击强度
++10耐力，+1% 命中率</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="258"/>
+        <source>+3 Agility</source>
+        <translation>+3 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="260"/>
+        <source>+30 Attack Power</source>
+        <translation>+30 攻击强度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="262"/>
+        <source>+18 Spell Damage/Healing</source>
+        <translation>+18 法术伤害/治疗效果</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="264"/>
+        <source>+1% Crit and
++26 Attack Power</source>
+        <translation>+1% 爆击几率和
++26 攻击强度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="266"/>
+        <source>+3 Attributes</source>
+        <translation>+3 所有属性</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="268"/>
+        <source>+4 Attributes</source>
+        <translation>+4 所有属性</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="270"/>
+        <source>Speed Increase</source>
+        <translation>略微提升移动速度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="272"/>
+        <source>+5 Agility</source>
+        <translation>+5 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="276"/>
+        <source>+5 Spirit</source>
+        <translation>+5 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="278"/>
+        <source>+2% Crit</source>
+        <translation>+2% 爆击几率</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="280"/>
+        <source>+100 AP
+vs Undead</source>
+        <translation>+100 对亡灵的攻击强度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="282"/>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="294"/>
+        <source>+8 Damage</source>
+        <translation>+8 伤害</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="284"/>
+        <source>+8 mp5</source>
+        <translation>+8 5秒回蓝</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="286"/>
+        <source>+12mp5/+25 Heal</source>
+        <translation>+12 5秒回蓝和+25治疗效果</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="288"/>
+        <source>+36 SP
++1% Spell Crit</source>
+        <translation>+36 法术伤害和 1% 法术爆击几率</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="290"/>
+        <source>15% R3 Shadow Bolt</source>
+        <translation>15%几率施放暗影箭III</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="292"/>
+        <source>+6 Damage</source>
+        <translation>+6 伤害</translation>
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="41"/>
@@ -8575,6 +9069,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>需要等级 %1</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.h" line="155"/>
         <location filename="GUI/Models/AvailableItemStatFilterModel.cpp" line="61"/>
         <source>Agility</source>
         <translation>敏捷</translation>
@@ -8691,7 +9186,6 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     </message>
     <message>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="174"/>
-        <location filename="Test/TestSpell.cpp" line="814"/>
         <source>Axe</source>
         <translation>斧</translation>
     </message>

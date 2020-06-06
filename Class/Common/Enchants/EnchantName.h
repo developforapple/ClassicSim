@@ -72,109 +72,109 @@ public:
         switch (enchant) {
         case EnchantName::NoEnchant:
             check(false, "Requested enchant name for EnchantName::NoEnchant");
-            return "no enchant";
+            return QObject::tr("no enchant");
         case EnchantName::Crusader:
-            return "Crusader";
+            return QObject::tr("Crusader");
         case EnchantName::FieryWeapon:
-            return "Fiery Weapon";
+            return QObject::tr("Fiery Weapon");
         case EnchantName::WindfuryTotem:
-            return "Windfury Totem";
+            return QObject::tr("Windfury Totem");
         case EnchantName::InstantPoison:
-            return "Instant Poison";
+            return QObject::tr("Instant Poison");
         case EnchantName::SuperiorStriking:
-            return "Superior Striking";
+            return QObject::tr("Superior Striking");
         case EnchantName::EnchantWeaponAgility:
-            return "Agility";
+            return QObject::tr("Agility", "Enchant Weapon Agility");
         case EnchantName::EnchantWeaponStrength:
-            return "Strength";
+            return QObject::tr("Strength", "Enchant Weapon Strength");
         case EnchantName::EnchantWeaponSpellPower:
-            return "Spell Power";
+            return QObject::tr("Spell Power");
         case EnchantName::EnchantBracerGreaterIntellect:
-            return "Greater Intellect";
+            return QObject::tr("Greater Intellect");
         case EnchantName::EnchantBracerManaRegeneration:
-            return "Mana Regeneration";
+            return QObject::tr("Mana Regeneration");
         case EnchantName::EnchantBracerMinorAgility:
-            return "Minor Agility";
+            return QObject::tr("Minor Agility");
         case EnchantName::EnchantBracerGreaterStrength:
-            return "Greater Strength";
+            return QObject::tr("Greater Strength");
         case EnchantName::EnchantBracerSuperiorStrength:
-            return "Superior Strength";
+            return QObject::tr("Superior Strength");
         case EnchantName::EnchantGlovesSuperiorAgility:
-            return "Superior Agility";
+            return QObject::tr("Superior Agility");
         case EnchantName::EnchantGlovesGreaterAgility:
-            return "Greater Agility";
+            return QObject::tr("Greater Agility");
         case EnchantName::EnchantGlovesGreaterStrength:
-            return "Greater Strength";
+            return QObject::tr("Greater Strength");
         case EnchantName::EnchantGlovesMinorHaste:
-            return "Minor Haste";
+            return QObject::tr("Minor Haste");
         case EnchantName::EnchantGlovesFirePower:
-            return "Fire Power";
+            return QObject::tr("Fire Power", "Enchant Gloves Fire Power");
         case EnchantName::EnchantGlovesFrostPower:
-            return "Frost Power";
+            return QObject::tr("Frost Power", "Enchant Gloves Frost Power");
         case EnchantName::IronCounterweight:
-            return "Iron Counterweight";
+            return QObject::tr("Iron Counterweight");
         case EnchantName::Enchant2HWeaponAgility:
-            return "2H Weapon Agility";
+            return QObject::tr("2H Weapon Agility");
         case EnchantName::Enchant2HWeaponSuperiorImpact:
-            return "2H Weapon Superior Impact";
+            return QObject::tr("2H Weapon Superior Impact");
         case EnchantName::Biznicks247x128Accurascope:
-            return "Biznicks 247x128 Accurascope";
+            return QObject::tr("Biznicks 247x128 Accurascope");
         case EnchantName::SniperScope:
-            return "Sniper Scope";
+            return QObject::tr("Sniper Scope");
         case EnchantName::ArcanumOfFocus:
-            return "Arcanum of Focus";
+            return QObject::tr("Arcanum of Focus");
         case EnchantName::ArcanumOfRapidity:
-            return "Arcanum of Rapidity";
+            return QObject::tr("Arcanum of Rapidity");
         case EnchantName::LesserArcanumOfVoracityAgility:
         case EnchantName::LesserArcanumOfVoracityIntellect:
         case EnchantName::LesserArcanumOfVoracitySpirit:
         case EnchantName::LesserArcanumOfVoracityStamina:
         case EnchantName::LesserArcanumOfVoracityStrength:
-            return "Lesser Arcanum of Voracity";
+            return QObject::tr("Lesser Arcanum of Voracity");
         case EnchantName::DeathsEmbrace:
-            return "Death's Embrace";
+            return QObject::tr("Death's Embrace");
         case EnchantName::FalconsCall:
-            return "Falcon's Call";
+            return QObject::tr("Falcon's Call");
         case EnchantName::PresenceOfSight:
-            return "Presence of Sight";
+            return QObject::tr("Presence of Sight");
         case EnchantName::EnchantCloakLesserAgility:
-            return "Lesser Agility";
+            return QObject::tr("Lesser Agility");
         case EnchantName::ZandalarSignetOfMight:
-            return "Zandalar Signet of Might";
+            return QObject::tr("Zandalar Signet of Might");
         case EnchantName::ZandalarSignetOfMojo:
-            return "Zandalar Signet of Mojo";
+            return QObject::tr("Zandalar Signet of Mojo");
         case EnchantName::MightOfTheScourge:
-            return "Might of the Scourge";
+            return QObject::tr("Might of the Scourge");
         case EnchantName::EnchantChestStats:
-            return "Stats";
+            return QObject::tr("Stats", "Enchant Chest Stats");
         case EnchantName::EnchantChestGreaterStats:
-            return "Greater Stats";
+            return QObject::tr("Greater Stats");
         case EnchantName::EnchantBootsMinorSpeed:
-            return "Minor Speed";
+            return QObject::tr("Minor Speed");
         case EnchantName::EnchantBootsAgility:
-            return "Agility";
+            return QObject::tr("Agility");
         case EnchantName::EnchantBootsGreaterAgility:
-            return "Greater Agility";
+            return QObject::tr("Greater Agility");
         case EnchantName::EnchantBootsSpirit:
-            return "Spirit";
+            return QObject::tr("Spirit", "Enchant Boots Spirit");
         case EnchantName::ElementalSharpeningStone:
-            return "Elemental Sharpening Stone";
+            return QObject::tr("Elemental Sharpening Stone");
         case EnchantName::ConsecratedSharpeningStone:
-            return "Consecrated Sharpening Stone";
+            return QObject::tr("Consecrated Sharpening Stone");
         case EnchantName::DenseSharpeningStone:
-            return "Dense Sharpening Stone";
+            return QObject::tr("Dense Sharpening Stone");
         case EnchantName::LesserManaOil:
-            return "Lesser Mana Oil";
+            return QObject::tr("Lesser Mana Oil");
         case EnchantName::BrilliantManaOil:
-            return "Brilliant Mana Oil";
+            return QObject::tr("Brilliant Mana Oil");
         case EnchantName::BrilliantWizardOil:
-            return "Brilliant Wizard Oil";
+            return QObject::tr("Brilliant Wizard Oil");
         case EnchantName::ShadowOil:
-            return "Shadow Oil";
+            return QObject::tr("Shadow Oil");
         case EnchantName::SolidWeightstone:
-            return "Solid Weightstone";
+            return QObject::tr("Solid Weightstone");
         case EnchantName::DenseWeightstone:
-            return "Dense Weightstone";
+            return QObject::tr("Dense Weightstone");
         }
 
         check(false, "EnchantName::get_name reached end of switch");
@@ -185,113 +185,113 @@ public:
         switch (enchant) {
         case EnchantName::NoEnchant:
             check(false, "Requested tooltip effect for EnchantName::NoEnchant");
-            return "no enchant";
+            return QObject::tr("no enchant");
         case EnchantName::Crusader:
-            return "Crusader";
+            return QObject::tr("Crusader");
         case EnchantName::FieryWeapon:
-            return "Fiery Weapon";
+            return QObject::tr("Fiery Weapon");
         case EnchantName::WindfuryTotem:
-            return "Windfury Totem";
+            return QObject::tr("Windfury Totem");
         case EnchantName::InstantPoison:
-            return "Instant Poison";
+            return QObject::tr("Instant Poison");
         case EnchantName::SuperiorStriking:
-            return "+5 Damage";
+            return QObject::tr("+5 Damage");
         case EnchantName::EnchantWeaponAgility:
-            return "+15 Agility";
+            return QObject::tr("+15 Agility");
         case EnchantName::EnchantWeaponStrength:
-            return "+15 Strength";
+            return QObject::tr("+15 Strength");
         case EnchantName::EnchantWeaponSpellPower:
-            return "+30 Spell Damage/Healing";
+            return QObject::tr("+30 Spell Damage/Healing");
         case EnchantName::EnchantBracerGreaterIntellect:
-            return "+7 Intellect";
+            return QObject::tr("+7 Intellect");
         case EnchantName::EnchantBracerManaRegeneration:
-            return "+4 mp5";
+            return QObject::tr("+4 mp5");
         case EnchantName::EnchantBracerMinorAgility:
-            return "+1 Agility";
+            return QObject::tr("+1 Agility");
         case EnchantName::EnchantBracerGreaterStrength:
-            return "+7 Strength";
+            return QObject::tr("+7 Strength");
         case EnchantName::EnchantBracerSuperiorStrength:
-            return "+9 Strength";
+            return QObject::tr("+9 Strength");
         case EnchantName::EnchantGlovesSuperiorAgility:
-            return "+15 Agility";
+            return QObject::tr("+15 Agility");
         case EnchantName::EnchantGlovesGreaterAgility:
-            return "+7 Agility";
+            return QObject::tr("+7 Agility");
         case EnchantName::EnchantGlovesGreaterStrength:
-            return "+7 Strength";
+            return QObject::tr("+7 Strength");
         case EnchantName::EnchantGlovesMinorHaste:
-            return "+1% Attack Speed";
+            return QObject::tr("+1% Attack Speed");
         case EnchantName::EnchantGlovesFirePower:
-            return "+20 Fire Damage";
+            return QObject::tr("+20 Fire Damage");
         case EnchantName::EnchantGlovesFrostPower:
-            return "+20 Frost Damage";
+            return QObject::tr("+20 Frost Damage");
         case EnchantName::IronCounterweight:
-            return "+3% Attack Speed";
+            return QObject::tr("+3% Attack Speed");
         case EnchantName::Enchant2HWeaponAgility:
-            return "+25 Agility";
+            return QObject::tr("+25 Agility");
         case EnchantName::Enchant2HWeaponSuperiorImpact:
-            return "+9 Damage";
+            return QObject::tr("+9 Damage");
         case EnchantName::Biznicks247x128Accurascope:
-            return "+3% Ranged Hit";
+            return QObject::tr("+3% Ranged Hit");
         case EnchantName::SniperScope:
-            return "+7 Damage";
+            return QObject::tr("+7 Damage");
         case EnchantName::ArcanumOfFocus:
-            return "+8 Spell Damage/Healing";
+            return QObject::tr("+8 Spell Damage/Healing");
         case EnchantName::ArcanumOfRapidity:
-            return "+1% Haste";
+            return QObject::tr("+1% Haste");
         case EnchantName::LesserArcanumOfVoracityAgility:
-            return "+8 Agility";
+            return QObject::tr("+8 Agility");
         case EnchantName::LesserArcanumOfVoracityIntellect:
-            return "+8 Intellect";
+            return QObject::tr("+8 Intellect");
         case EnchantName::LesserArcanumOfVoracitySpirit:
-            return "+8 Spirit";
+            return QObject::tr("+8 Spirit");
         case EnchantName::LesserArcanumOfVoracityStamina:
-            return "+8 Stamina";
+            return QObject::tr("+8 Stamina");
         case EnchantName::LesserArcanumOfVoracityStrength:
-            return "+8 Strength";
+            return QObject::tr("+8 Strength");
         case EnchantName::DeathsEmbrace:
-            return "+28 Attack and\n1% Dodge";
+            return QObject::tr("+28 Attack and\n1% Dodge");
         case EnchantName::PresenceOfSight:
-            return "+18 Spell Damage/Healing\n+1% Spell Hit";
+            return QObject::tr("+18 Spell Damage/Healing\n+1% Spell Hit");
         case EnchantName::FalconsCall:
-            return "+24 Ranged Attack Power\n10 Stamina, +1% Hit";
+            return QObject::tr("+24 Ranged Attack Power\n10 Stamina, +1% Hit");
         case EnchantName::EnchantCloakLesserAgility:
-            return "+3 Agility";
+            return QObject::tr("+3 Agility");
         case EnchantName::ZandalarSignetOfMight:
-            return "+30 Attack Power";
+            return QObject::tr("+30 Attack Power");
         case EnchantName::ZandalarSignetOfMojo:
-            return "+18 Spell Damage/Healing";
+            return QObject::tr("+18 Spell Damage/Healing");
         case EnchantName::MightOfTheScourge:
-            return "+1% Crit and\n+26 Attack Power";
+            return QObject::tr("+1% Crit and\n+26 Attack Power");
         case EnchantName::EnchantChestStats:
-            return "+3 Attributes";
+            return QObject::tr("+3 Attributes");
         case EnchantName::EnchantChestGreaterStats:
-            return "+4 Attributes";
+            return QObject::tr("+4 Attributes");
         case EnchantName::EnchantBootsMinorSpeed:
-            return "Speed Increase";
+            return QObject::tr("Speed Increase");
         case EnchantName::EnchantBootsAgility:
-            return "+5 Agility";
+            return QObject::tr("+5 Agility");
         case EnchantName::EnchantBootsGreaterAgility:
-            return "+7 Agility";
+            return QObject::tr("+7 Agility");
         case EnchantName::EnchantBootsSpirit:
-            return "+5 Spirit";
+            return QObject::tr("+5 Spirit");
         case EnchantName::ElementalSharpeningStone:
-            return "+2% Crit";
+            return QObject::tr("+2% Crit");
         case EnchantName::ConsecratedSharpeningStone:
-            return "+100 AP\nvs Undead";
+            return QObject::tr("+100 AP\nvs Undead");
         case EnchantName::DenseSharpeningStone:
-            return "+8 Damage";
+            return QObject::tr("+8 Damage");
         case EnchantName::LesserManaOil:
-            return "+8 mp5";
+            return QObject::tr("+8 mp5");
         case EnchantName::BrilliantManaOil:
-            return "+12mp5/+25 Heal";
+            return QObject::tr("+12mp5/+25 Heal");
         case EnchantName::BrilliantWizardOil:
-            return "+36 SP\n+1% Spell Crit";
+            return QObject::tr("+36 SP\n+1% Spell Crit");
         case EnchantName::ShadowOil:
-            return "15% R3 Shadow Bolt";
+            return QObject::tr("15% R3 Shadow Bolt");
         case EnchantName::SolidWeightstone:
-            return "+6 Damage";
+            return QObject::tr("+6 Damage");
         case EnchantName::DenseWeightstone:
-            return "+8 Damage";
+            return QObject::tr("+8 Damage");
         }
 
         check(false, "EnchantName::get_effect reached end of switch");
