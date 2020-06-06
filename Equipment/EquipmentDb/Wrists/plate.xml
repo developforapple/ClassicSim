@@ -27,7 +27,7 @@
 	</wrist>
 
 	<wrist id="16959" phase="2">
-		<info name="Bracelets of Wrath" type="PLATE" slot="WRIST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="YES" icon="Inv_bracer_19.png"/>
+		<info name="Bracelets of Wrath" name_zh="愤怒护腕" type="PLATE" slot="WRIST" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="YES" icon="Inv_bracer_19.png"/>
 		<class_restriction class="WARRIOR"/>
 		<stats>
 			<stat type="ARMOR" value="375"/>
