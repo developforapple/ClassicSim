@@ -1,81 +1,82 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Warrior" name="Protection" attack_mode="melee">
+<rotation class="Warrior" name="Protection" name_zh="防战" attack_mode="melee">
     <description>
-    Rotation that works for both Shield Slam prot and Fury Prot.
+        <en>Rotation that works for both Shield Slam prot and Fury Prot.</en>
+        <zh>深防战或狂暴坦输出循环</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Bloodrage"/>
-        <spell name="Battle Shout"/>
-        <spell name="Defensive Stance"/>
+        <spell name="Bloodrage" name_zh="血性狂暴"/>
+        <spell name="Battle Shout" name_zh="战斗怒吼"/>
+        <spell name="Defensive Stance" name_zh="防御姿态"/>
     </precombat_actions>
 
-    <cast_if name="Berserker Rage">
+    <cast_if name="Berserker Rage" name_zh="狂暴之怒">
         resource "Rage" less 50
     </cast_if>
 
-    <cast_if name="Battle Shout">
+    <cast_if name="Battle Shout" name_zh="战斗怒吼">
         buff_duration "Battle Shout" less 3
         and buff_duration "Battle Shout" less 45
     </cast_if>
 
     <!-- General heroic strike usage -->
-    <cast_if name="Heroic Strike">
+    <cast_if name="Heroic Strike" name_zh="英勇打击">
         resource "Rage" greater 50
     </cast_if>
 
-    <cast_if name="Manual Crowd Pummeler"/>
+    <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器"/>
 
-    <cast_if name="Kiss of the Spider">
+    <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Jom Gabbar">
+    <cast_if name="Jom Gabbar" name_zh="沙虫之毒">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Badge of the Swarmguard">
+    <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Slayer's Crest">
+    <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Earthstrike">
+    <cast_if name="Earthstrike" name_zh="大地之击">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Zandalarian Hero Medallion">
+    <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Diamond Flask">
+    <cast_if name="Diamond Flask" name_zh="钻石水瓶">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Cloudkeeper Legplates">
+    <cast_if name="Cloudkeeper Legplates" name_zh="踏云腿甲">
         buff_duration "Death Wish" is true
     </cast_if>
 
-    <cast_if name="Death Wish">
+    <cast_if name="Death Wish" name_zh="死亡之愿">
         variable "time_remaining_encounter" less 33
         or variable "time_remaining_encounter" greater 210
     </cast_if>
 
-    <cast_if name="Blood Fury">
+    <cast_if name="Blood Fury" name_zh="血性狂暴（种族特长）">
         resource "Rage" less 50
     </cast_if>
 
-    <cast_if name="Berserking">
+    <cast_if name="Berserking" name_zh="狂暴">
         resource "Rage" less 50
     </cast_if>
 
-    <cast_if name="Bloodthirst" />
+    <cast_if name="Bloodthirst" name_zh="嗜血"/>
 
-    <cast_if name="Shield Slam"/>
+    <cast_if name="Shield Slam" name_zh="盾牌猛击"/>
 
-    <cast_if name="Revenge"/>
+    <cast_if name="Revenge" name_zh="复仇"/>
 
-    <cast_if name="Sunder Armor"/>
+    <cast_if name="Sunder Armor" name_zh="破甲攻击"/>
 </rotation>

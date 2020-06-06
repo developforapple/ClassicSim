@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Shaman" name="Elemental" attack_mode="magic">
+<rotation class="Shaman" name="Elemental" name_zh="元素萨" attack_mode="magic">
     <description>
-    Elemental rotation.
+        <en>Elemental rotation.</en>
+        <zh>元素萨输出循环</zh>
     </description>
 
-    <cast_if name="Talisman of Ephemeral Power"/>
-    <cast_if name="Zandalarian Hero Charm"/>
-    <cast_if name="The Restrained Essence of Sapphiron"/>
-    <cast_if name="Eye of Moam"/>
-    <cast_if name="Draconic Infused Emblem"/>
-    <cast_if name="Mar'li's Eye"/>
-    <cast_if name="Burst of Knowledge"/>
+    <cast_if name="Talisman of Ephemeral Power" name_zh="短暂能量护符"/>
+    <cast_if name="Zandalarian Hero Charm" name_zh="赞达拉英雄护符"/>
+    <cast_if name="The Restrained Essence of Sapphiron" name_zh="萨菲隆的精华"/>
+    <cast_if name="Eye of Moam" name_zh="莫阿姆之眼"/>
+    <cast_if name="Draconic Infused Emblem" name_zh="龙人能量徽章"/>
+    <cast_if name="Mar'li's Eye" name_zh="玛尔里之眼"/>
+    <cast_if name="Burst of Knowledge" name_zh="博学坠饰"/>
 
-    <cast_if name="Berserking">
+    <cast_if name="Berserking" name_zh="狂暴">
         resource "Mana" greater 400
     </cast_if>
 
-    <cast_if name="Lightning Bolt"/>
+    <cast_if name="Lightning Bolt" name_zh="闪电箭"/>
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
+    <cast_if name="Mana Potion" name_zh="法力药水"/>
+    <cast_if name="Demonic Rune" name_zh="恶魔符文"/>
+    <cast_if name="Night Dragon's Breath" name_zh="夜龙之息"/>
 </rotation>

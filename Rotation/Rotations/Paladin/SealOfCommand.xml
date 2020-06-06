@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Paladin" name="Seal of Command" attack_mode="melee">
+<rotation class="Paladin" name="Seal of Command" name_zh="命令圣印" attack_mode="melee">
     <description>
-    A rotation using Seal of Command as the main seal.
+        <en>A rotation using Seal of Command as the main seal.</en>
+        <zh>命令圣印作为主圣印的输出循环</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Sanctity Aura"/>
-        <spell name="Seal of the Crusader"/>
+        <spell name="Sanctity Aura" name_zh="圣洁光环"/>
+        <spell name="Seal of the Crusader" name_zh="十字军圣印"/>
     </precombat_actions>
 
-    <cast_if name="Judgement">
+    <cast_if name="Judgement" name_zh="审判">
         buff_duration "Judgement of the Crusader" less 3
         and buff_duration "Seal of the Crusader" greater 0
     </cast_if>
 
-    <cast_if name="Judgement">
+    <cast_if name="Judgement" name_zh="审判">
         buff_duration "Seal of Command" greater 0
         and resource "Mana" greater 200
     </cast_if>
 
-    <cast_if name="Seal of Command">
+    <cast_if name="Seal of Command" name_zh="命令圣印">
         buff_duration "Judgement of the Crusader" greater 3
         and buff_duration "Seal of Command" less 3
     </cast_if>
 
-    <cast_if name="Seal of the Crusader">
+    <cast_if name="Seal of the Crusader" name_zh="十字军圣印">
         buff_duration "Judgement of the Crusader" less 3
     </cast_if>
 
-    <cast_if name="Consecration">
+    <cast_if name="Consecration" name_zh="奉献">
         buff_duration "Vengeance" greater 0
     </cast_if>
 
-    <cast_if name="Consecration" rank="1"/>
+    <cast_if name="Consecration" rank="1" name_zh="奉献"/>
 
-    <cast_if name="Manual Crowd Pummeler"/>
-    <cast_if name="Scrolls of Blinding Light"/>
-    <cast_if name="Kiss of the Spider"/>
-    <cast_if name="Jom Gabbar"/>
-    <cast_if name="Badge of the Swarmguard"/>
-    <cast_if name="Slayer's Crest"/>
-    <cast_if name="Earthstrike"/>
-    <cast_if name="Zandalarian Hero Medallion"/>
-    <cast_if name="Sanctified Orb"/>
-    <cast_if name="Cloudkeeper Legplates"/>
+    <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器"/>
+    <cast_if name="Scrolls of Blinding Light" name_zh="盲目光芒卷轴"/>
+    <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻"/>
+    <cast_if name="Jom Gabbar" name_zh="沙虫之毒"/>
+    <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章"/>
+    <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章"/>
+    <cast_if name="Earthstrike" name_zh="大地之击"/>
+    <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章"/>
+    <cast_if name="Sanctified Orb" name_zh="神圣宝珠"/>
+    <cast_if name="Cloudkeeper Legplates" name_zh="踏云腿甲"/>
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
+    <cast_if name="Mana Potion" name_zh="法力药水"/>
+    <cast_if name="Demonic Rune" name_zh="恶魔符文"/>
+    <cast_if name="Night Dragon's Breath" name_zh="夜龙之息"/>
 </rotation>

@@ -1,36 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Shaman" name="Stormstrike" attack_mode="melee">
+<rotation class="Shaman" name="Stormstrike" name_zh="增强萨" attack_mode="melee">
     <description>
-    A rotation using Stormstrike.
+        <en>A rotation using Stormstrike.</en>
+        <zh>增强萨输出循环</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Windfury Weapon"/>
+        <spell name="Windfury Weapon" name_zh="风怒武器"/>
     </precombat_actions>
     
-    <cast_if name="Berserking"/>
-    <cast_if name="Blood Fury"/>
+    <cast_if name="Berserking" name_zh="狂暴"/>
+    <cast_if name="Blood Fury" name_zh="血性狂暴（种族特长）"/>
 
-    <cast_if name="Stormstrike"/>
+    <cast_if name="Stormstrike" name_zh="风暴打击"/>
 
-    <cast_if name="Lightning Bolt" rank="1">
+    <cast_if name="Lightning Bolt" rank="1" name_zh="闪电箭">
         variable "time_since_swing" less 0.3
     </cast_if>
 
-    <cast_if name="Windfury Weapon">
+    <cast_if name="Windfury Weapon" name_zh="风怒武器">
         buff_duration "Windfury Weapon" less 1
     </cast_if>
 
-    <cast_if name="Manual Crowd Pummeler"/>
-    <cast_if name="Kiss of the Spider"/>
-    <cast_if name="Jom Gabbar"/>
-    <cast_if name="Badge of the Swarmguard"/>
-    <cast_if name="Slayer's Crest"/>
-    <cast_if name="Earthstrike"/>
-    <cast_if name="Zandalarian Hero Medallion"/>
-    <cast_if name="Diamond Flask"/>
+    <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器"/>
+    <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻"/>
+    <cast_if name="Jom Gabbar" name_zh="沙虫之毒"/>
+    <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章"/>
+    <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章"/>
+    <cast_if name="Earthstrike" name_zh="大地之击"/>
+    <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章"/>
+    <cast_if name="Diamond Flask" name_zh="钻石水瓶"/>
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
+    <cast_if name="Mana Potion" name_zh="法力药水"/>
+    <cast_if name="Demonic Rune" name_zh="恶魔符文"/>
+    <cast_if name="Night Dragon's Breath" name_zh="夜龙之息"/>
 </rotation>

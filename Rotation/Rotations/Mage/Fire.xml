@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Mage" name="Fire" attack_mode="magic">
+<rotation class="Mage" name="Fire" name_zh="火法" attack_mode="magic">
     <description>
-    Fireball spam and Scorch bot.
+        <en>Fireball spam and Scorch bot.</en>
+        <zh>Fireball spam and Scorch bot.</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Mage Armor"/>
+        <spell name="Mage Armor" name_zh="魔甲术"/>
     </precombat_actions>
 
-    <cast_if name="Talisman of Ephemeral Power"/>
-    <cast_if name="Zandalarian Hero Charm"/>
-    <cast_if name="The Restrained Essence of Sapphiron"/>
-    <cast_if name="Mind Quickening Gem"/>
-    <cast_if name="Eye of Moam"/>
-    <cast_if name="Draconic Infused Emblem"/>
-    <cast_if name="Mar'li's Eye"/>
-    <cast_if name="Burst of Knowledge"/>
-    <cast_if name="Robe of the Archmage"/>
+    <cast_if name="Talisman of Ephemeral Power" name_zh="短暂能量护符"/>
+    <cast_if name="Zandalarian Hero Charm" name_zh="赞达拉英雄护符"/>
+    <cast_if name="The Restrained Essence of Sapphiron" name_zh="萨菲隆的精华"/>
+    <cast_if name="Mind Quickening Gem" name_zh="思维加速宝石"/>
+    <cast_if name="Eye of Moam" name_zh="莫阿姆之眼"/>
+    <cast_if name="Draconic Infused Emblem" name_zh="龙人能量徽章"/>
+    <cast_if name="Mar'li's Eye" name_zh="玛尔里之眼"/>
+    <cast_if name="Burst of Knowledge" name_zh="博学坠饰"/>
+    <cast_if name="Robe of the Archmage" name_zh="大法师之袍"/>
 
-    <cast_if name="Scorch">
+    <cast_if name="Scorch" name_zh="灼烧">
         buff_stacks "Fire Vulnerability" less 5
         or buff_duration "Fire Vulnerability" less 5
     </cast_if>
 
-    <cast_if name="Arcane Power">
+    <cast_if name="Arcane Power" name_zh="奥术强化">
         buff_stacks "Fire Vulnerability" eq 5
         and resource "Mana" greater 400
     </cast_if>
 
-    <cast_if name="Berserking">
+    <cast_if name="Berserking" name_zh="狂暴">
         buff_stacks "Fire Vulnerability" eq 5
         and resource "Mana" greater 400
     </cast_if>
 
-    <cast_if name="Combustion">
+    <cast_if name="Combustion" name_zh="燃烧">
         buff_stacks "Fire Vulnerability" eq 5
         and resource "Mana" greater 400
     </cast_if>
 
-    <cast_if name="Evocation">
+    <cast_if name="Evocation" name_zh="唤醒">
         resource "Mana" less 400
     </cast_if>
 
-    <cast_if name="Fireball">
+    <cast_if name="Fireball" name_zh="火球术">
         buff_stacks "Fire Vulnerability" eq 5
     </cast_if>
 
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
+    <cast_if name="Mana Potion" name_zh="法力药水"/>
+    <cast_if name="Demonic Rune" name_zh="恶魔符文"/>
+    <cast_if name="Night Dragon's Breath" name_zh="夜龙之息"/>
 </rotation>

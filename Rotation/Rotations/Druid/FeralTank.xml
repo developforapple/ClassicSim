@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Druid" name="Feral Tank Maul" attack_mode="melee">
+<rotation class="Druid" name="Feral Tank Maul" name_zh="熊德输出" attack_mode="melee">
     <description>
-    A rotation using Maul only.
+        <en>A rotation using Maul only.</en>
+        <zh>输出循环：只使用槌击</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Bear Form"/>
+        <spell name="Bear Form" name_zh="熊形态"/>
     </precombat_actions>
 
-    <cast_if name="Manual Crowd Pummeler"/>
-    <cast_if name="Kiss of the Spider"/>
-    <cast_if name="Jom Gabbar"/>
-    <cast_if name="Badge of the Swarmguard"/>
-    <cast_if name="Slayer's Crest"/>
-    <cast_if name="Earthstrike"/>
-    <cast_if name="Zandalarian Hero Medallion"/>
+    <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器" />
+    <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻" />
+    <cast_if name="Jom Gabbar" name_zh="沙虫之毒" />
+    <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章" />
+    <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章" />
+    <cast_if name="Earthstrike" name_zh="大地之击" />
+    <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章" />
 	
-	<cast_if name="Bear Form"/>
+	<cast_if name="Bear Form" name_zh="熊形态"/>
 	
-	<cast_if name="Enrage"/>
+	<cast_if name="Enrage" name_zh="狂怒"/>
 	
-    <cast_if name="Maul"/>
+    <cast_if name="Maul" name_zh="槌击"/>
 	
-	<cast_if name="Swipe">
+	<cast_if name="Swipe" name_zh="挥击">
 		resource "Rage" greater 40
     </cast_if>
 </rotation>

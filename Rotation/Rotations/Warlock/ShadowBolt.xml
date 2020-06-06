@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Warlock" name="Shadow Bolt" attack_mode="magic">
+<rotation class="Warlock" name="Shadow Bolt" name_zh="暗影箭" attack_mode="magic">
     <description>
-    Shadow Bolt spam.
+        <en>Shadow Bolt spam.</en>
+        <zh>Shadow Bolt spam.</zh>
     </description>
 
-    <cast_if name="Talisman of Ephemeral Power"/>
-    <cast_if name="Zandalarian Hero Charm"/>
-    <cast_if name="The Restrained Essence of Sapphiron"/>
-    <cast_if name="Mind Quickening Gem"/>
-    <cast_if name="Eye of Moam"/>
-    <cast_if name="Draconic Infused Emblem"/>
-    <cast_if name="Mar'li's Eye"/>
-    <cast_if name="Burst of Knowledge"/>
-    <cast_if name="Robe of the Archmage"/>
+    <cast_if name="Talisman of Ephemeral Power" name_zh="短暂能量护符"/>
+    <cast_if name="Zandalarian Hero Charm" name_zh="赞达拉英雄护符"/>
+    <cast_if name="The Restrained Essence of Sapphiron" name_zh="萨菲隆的精华"/>
+    <cast_if name="Mind Quickening Gem" name_zh="思维加速宝石"/>
+    <cast_if name="Eye of Moam" name_zh="莫阿姆之眼"/>
+    <cast_if name="Draconic Infused Emblem" name_zh="龙人能量徽章"/>
+    <cast_if name="Mar'li's Eye" name_zh="玛尔里之眼"/>
+    <cast_if name="Burst of Knowledge" name_zh="博学坠饰"/>
+    <cast_if name="Robe of the Archmage" name_zh="大法师之袍"/>
 
-    <cast_if name="Arcane Power"/>
+    <cast_if name="Arcane Power" name_zh="奥术强化"/>
 
-    <cast_if name="Berserking">
+    <cast_if name="Berserking" name_zh="狂暴">
         resource "Mana" greater 400
     </cast_if>
 
-    <cast_if name="Shadow Bolt"/>
+    <cast_if name="Shadow Bolt" name_zh="暗影箭"/>
 
-    <cast_if name="Life Tap">
+    <cast_if name="Life Tap" name_zh="生命分流">
         resource "Mana" less 400
     </cast_if>
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
+    <cast_if name="Mana Potion" name_zh="法力药水"/>
+    <cast_if name="Demonic Rune" name_zh="恶魔符文"/>
+    <cast_if name="Night Dragon's Breath" name_zh="夜龙之息"/>
 </rotation>

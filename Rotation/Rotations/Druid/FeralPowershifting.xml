@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Druid" name="Feral Powershift 5CP Ferocious Bite" attack_mode="melee">
+<rotation class="Druid" name="Feral Powershift 5CP Ferocious Bite" name_zh="猫德变身回能量5星凶猛撕咬输出" attack_mode="melee">
     <description>
-    A rotation using powershifting and Ferocious Bite at 5CP.
+        <en>A rotation using powershifting and Ferocious Bite at 5CP.</en>
+        <zh>输出循环：猫德通过变身换取能量回复，达到5星后释放凶猛撕咬。</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Cat Form"/>
+        <spell name="Cat Form" name_zh="猎豹形态" />
     </precombat_actions>
 
-    <cast_if name="Manual Crowd Pummeler"/>
-    <cast_if name="Kiss of the Spider"/>
-    <cast_if name="Jom Gabbar"/>
-    <cast_if name="Badge of the Swarmguard"/>
-    <cast_if name="Slayer's Crest"/>
-    <cast_if name="Earthstrike"/>
-    <cast_if name="Zandalarian Hero Medallion"/>
-    <cast_if name="Diamond Flask"/>
+    <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器" />
+    <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻" />
+    <cast_if name="Jom Gabbar" name_zh="沙虫之毒" />
+    <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章" />
+    <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章" />
+    <cast_if name="Earthstrike" name_zh="大地之击" />
+    <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章" />
+    <cast_if name="Diamond Flask" name_zh="钻石水瓶" />
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
+    <cast_if name="Mana Potion" name_zh="法力药水" />
+    <cast_if name="Demonic Rune" name_zh="恶魔符文" />
+    <cast_if name="Night Dragon's Breath" name_zh="夜龙之息" />
 
-    <cast_if name="Cat Form"/>
+    <cast_if name="Cat Form" name_zh="猎豹形态" />
 
-    <cast_if name="Tiger's Fury">
+    <cast_if name="Tiger's Fury" name_zh="猛虎之怒" >
         resource "Energy" eq 100
     </cast_if>
 
-    <cast_if name="Ferocious Bite">
+    <cast_if name="Ferocious Bite" name_zh="凶猛撕咬" >
         variable "combo_points" eq 5
     </cast_if>
 
-    <cast_if name="Shred"/>
+    <cast_if name="Shred"/ name_zh="撕碎" >
 
-    <cast_if name="Caster Form">
+    <cast_if name="Caster Form" name_zh="人形态" >
         resource "Energy" leq 47
         and resource "Mana" geq 400
 		and variable "time_remaining_gcd" leq 0
