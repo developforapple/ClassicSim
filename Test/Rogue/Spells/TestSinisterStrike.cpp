@@ -9,7 +9,7 @@
 #include "SpellRankGroup.h"
 #include "Talent.h"
 
-TestSinisterStrike::TestSinisterStrike(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Sinister Strike") {}
+TestSinisterStrike::TestSinisterStrike(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Sinister Strike")) {}
 
 void TestSinisterStrike::test_all() {
     run_mandatory_tests();
@@ -64,11 +64,11 @@ void TestSinisterStrike::test_all() {
 }
 
 SinisterStrike* TestSinisterStrike::sinister_strike() const {
-    return static_cast<SinisterStrike*>(rogue->get_spells()->get_spell_rank_group_by_name("Sinister Strike")->get_max_available_spell_rank());
+    return static_cast<SinisterStrike*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Sinister Strike"))->get_max_available_spell_rank());
 }
 
 void TestSinisterStrike::test_name_correct() {
-    assert(sinister_strike()->get_name() == "Sinister Strike");
+    assert(sinister_strike()->get_name() == QObject::tr("Sinister Strike"));
 }
 
 void TestSinisterStrike::test_spell_cooldown() {
@@ -241,7 +241,7 @@ void TestSinisterStrike::test_crit_dmg_5_of_5_lethality() {
 
 void TestSinisterStrike::test_resource_cost_1_of_2_imp_ss() {
     given_1h_sword_equipped_in_mainhand(pchar);
-    given_combat_talent_rank("Improved Sinister Strike", 1);
+    given_combat_talent_rank(QObject::tr("Improved Sinister Strike"), 1);
     given_a_guaranteed_melee_ability_hit();
 
     given_rogue_has_energy(42);
@@ -257,7 +257,7 @@ void TestSinisterStrike::test_resource_cost_1_of_2_imp_ss() {
 
 void TestSinisterStrike::test_resource_cost_2_of_2_imp_ss() {
     given_1h_sword_equipped_in_mainhand(pchar);
-    given_combat_talent_rank("Improved Sinister Strike", 2);
+    given_combat_talent_rank(QObject::tr("Improved Sinister Strike"), 2);
     given_a_guaranteed_melee_ability_hit();
 
     given_rogue_has_energy(40);

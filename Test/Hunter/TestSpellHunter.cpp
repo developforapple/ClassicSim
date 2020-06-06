@@ -39,7 +39,7 @@ void TestSpellHunter::tear_down() {
 }
 
 MultiShot* TestSpellHunter::multi_shot() const {
-    return static_cast<MultiShot*>(hunter->get_spells()->get_spell_rank_group_by_name("Multi-Shot")->get_max_available_spell_rank());
+    return static_cast<MultiShot*>(hunter->get_spells()->get_spell_rank_group_by_name(QObject::tr("Multi-Shot"))->get_max_available_spell_rank());
 }
 
 void TestSpellHunter::given_hunter_has_mana(const unsigned mana) {
@@ -88,6 +88,6 @@ void TestSpellHunter::given_survival_talent_rank(const QString& talent_name, con
 
 void TestSpellHunter::given_mortal_shots_rank(const unsigned num) {
     auto tree = Marksmanship(hunter);
-    given_talent_rank(tree, "Lethal Shots", 5);
-    given_talent_rank(tree, "Mortal Shots", num);
+    given_talent_rank(tree, QObject::tr("Lethal Shots"), 5);
+    given_talent_rank(tree, QObject::tr("Mortal Shots"), num);
 }

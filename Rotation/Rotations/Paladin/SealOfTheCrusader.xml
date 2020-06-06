@@ -11,11 +11,13 @@
     </precombat_actions>
 
     <cast_if name="Judgement" name_zh="审判">
-        buff_duration "Judgement of the Crusader" less 3
+        <en>buff_duration "Judgement of the Crusader" less 3</en>
+        <zh>buff_duration "十字军审判" less 3</zh>
     </cast_if>
 
     <cast_if name="Seal of the Crusader" name_zh="十字军圣印">
-        buff_duration "Seal of the Crusader" less 2
+        <en>buff_duration "Seal of the Crusader" less 2</en>
+        <zh>buff_duration "十字军圣印" less 2</zh>
     </cast_if>
 
     <cast_if name="Consecration" name_zh="奉献"/>

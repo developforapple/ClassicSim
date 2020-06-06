@@ -9,7 +9,7 @@
 #include "DruidSpells.h"
 #include "Maul.h"
 
-TestMaul::TestMaul(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Maul") {}
+TestMaul::TestMaul(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Maul")) {}
 
 void TestMaul::test_all() {
     run_mandatory_tests();
@@ -48,7 +48,7 @@ void TestMaul::test_all() {
 }
 
 void TestMaul::test_name_correct() {
-    assert(maul()->get_name() == "Maul");
+    assert(maul()->get_name() == QObject::tr("Maul"));
 }
 
 void TestMaul::test_spell_cooldown() {
@@ -92,7 +92,7 @@ void TestMaul::test_is_ready_conditions() {
 }
 
 void TestMaul::test_resource_cost_1_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 1);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 1);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -103,7 +103,7 @@ void TestMaul::test_resource_cost_1_of_5_ferocity() {
 }
 
 void TestMaul::test_resource_cost_2_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 2);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 2);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -114,7 +114,7 @@ void TestMaul::test_resource_cost_2_of_5_ferocity() {
 }
 
 void TestMaul::test_resource_cost_3_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 3);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 3);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -125,7 +125,7 @@ void TestMaul::test_resource_cost_3_of_5_ferocity() {
 }
 
 void TestMaul::test_resource_cost_4_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 4);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 4);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -136,7 +136,7 @@ void TestMaul::test_resource_cost_4_of_5_ferocity() {
 }
 
 void TestMaul::test_resource_cost_5_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 5);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 5);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -147,7 +147,7 @@ void TestMaul::test_resource_cost_5_of_5_ferocity() {
 }
 
 void TestMaul::test_hit_dmg_1_of_2_savage_fury() {
-    given_feral_talent_rank("Savage Fury", 1);
+    given_feral_talent_rank(QObject::tr("Savage Fury"), 1);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     given_druid_in_bear_form();
@@ -163,7 +163,7 @@ void TestMaul::test_hit_dmg_1_of_2_savage_fury() {
 }
 
 void TestMaul::test_hit_dmg_2_of_2_savage_fury() {
-    given_feral_talent_rank("Savage Fury", 2);
+    given_feral_talent_rank(QObject::tr("Savage Fury"), 2);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     given_druid_in_bear_form();

@@ -5,7 +5,7 @@
 #include "Bloodthirst.h"
 #include "Event.h"
 
-TestBloodthirst::TestBloodthirst(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Bloodthirst") {}
+TestBloodthirst::TestBloodthirst(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Bloodthirst")) {}
 
 void TestBloodthirst::test_all() {
     run_mandatory_tests();
@@ -36,7 +36,7 @@ Bloodthirst* TestBloodthirst::bloodthirst() const {
 }
 
 void TestBloodthirst::test_name_correct() {
-    assert(bloodthirst()->get_name() == "Bloodthirst");
+    assert(bloodthirst()->get_name() == QObject::tr("Bloodthirst"));
 }
 
 void TestBloodthirst::test_spell_cooldown() {

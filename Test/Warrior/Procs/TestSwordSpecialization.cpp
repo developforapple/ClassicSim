@@ -12,7 +12,7 @@
 #include "WarriorSpells.h"
 #include "Weapon.h"
 
-TestSwordSpecialization::TestSwordSpecialization(EquipmentDb* equipment_db) : TestProcWarrior(equipment_db, "Sword Specalization") {}
+TestSwordSpecialization::TestSwordSpecialization(EquipmentDb* equipment_db) : TestProcWarrior(equipment_db, QObject::tr("Sword Specalization")) {}
 
 void TestSwordSpecialization::test_all() {
     set_up();
@@ -65,35 +65,35 @@ void TestSwordSpecialization::test_all() {
 }
 
 void TestSwordSpecialization::test_name_correct() {
-    assert(spells->get_sword_spec()->get_name() == "Sword Specialization");
+    assert(spells->get_sword_spec()->get_name() == QObject::tr("Sword Specialization"));
 }
 
 void TestSwordSpecialization::test_proc_range_for_1_of_5_sword_spec() {
-    given_talent_rank(Arms(warrior), "Sword Specialization", 1);
+    given_talent_rank(Arms(warrior), QObject::tr("Sword Specialization"), 1);
 
     then_proc_range_is(sword_spec(), 100);
 }
 
 void TestSwordSpecialization::test_proc_range_for_2_of_5_sword_spec() {
-    given_talent_rank(Arms(warrior), "Sword Specialization", 2);
+    given_talent_rank(Arms(warrior), QObject::tr("Sword Specialization"), 2);
 
     then_proc_range_is(sword_spec(), 200);
 }
 
 void TestSwordSpecialization::test_proc_range_for_3_of_5_sword_spec() {
-    given_talent_rank(Arms(warrior), "Sword Specialization", 3);
+    given_talent_rank(Arms(warrior), QObject::tr("Sword Specialization"), 3);
 
     then_proc_range_is(sword_spec(), 300);
 }
 
 void TestSwordSpecialization::test_proc_range_for_4_of_5_sword_spec() {
-    given_talent_rank(Arms(warrior), "Sword Specialization", 4);
+    given_talent_rank(Arms(warrior), QObject::tr("Sword Specialization"), 4);
 
     then_proc_range_is(sword_spec(), 400);
 }
 
 void TestSwordSpecialization::test_proc_range_for_5_of_5_sword_spec() {
-    given_talent_rank(Arms(warrior), "Sword Specialization", 5);
+    given_talent_rank(Arms(warrior), QObject::tr("Sword Specialization"), 5);
 
     then_proc_range_is(sword_spec(), 500);
 }

@@ -24,50 +24,50 @@ void TestAffliction::tear_down() {
 }
 
 void TestAffliction::test_spending_talent_points() {
-    assert(increment("Suppression", 5));
-    assert(increment("Improved Corruption", 5));
-    assert(increment("Improved Curse of Weakness", 3));
-    assert(increment("Improved Drain Soul", 2));
-    assert(increment("Improved Drain Life", 5));
+    assert(increment(QObject::tr("Suppression"), 5));
+    assert(increment(QObject::tr("Improved Corruption"), 5));
+    assert(increment(QObject::tr("Improved Curse of Weakness"), 3));
+    assert(increment(QObject::tr("Improved Drain Soul"), 2));
+    assert(increment(QObject::tr("Improved Drain Life"), 5));
 
     // Assert cannot spend points into Curse of Exhaustion if 1/1 Amplify Curse is missing
     assert(tree_has_points(20));
 
-    assert(!increment("Curse of Exhaustion"));
-    assert(increment("Amplify Curse"));
-    assert(increment("Curse of Exhaustion"));
+    assert(!increment(QObject::tr("Curse of Exhaustion")));
+    assert(increment(QObject::tr("Amplify Curse")));
+    assert(increment(QObject::tr("Curse of Exhaustion")));
 
     // Assert cannot remove points from Amplify Curse once points are spent in Curse of Exhaustion
-    assert(!decrement("Amplify Curse"));
-    assert(decrement("Curse of Exhaustion"));
-    assert(decrement("Amplify Curse"));
+    assert(!decrement(QObject::tr("Amplify Curse")));
+    assert(decrement(QObject::tr("Curse of Exhaustion")));
+    assert(decrement(QObject::tr("Amplify Curse")));
     assert(tree_has_points(20));
 
     // Assert cannot spend points into Improved Curse of Exhaustion if 1/1 Curse of Exhaustion is missing
-    assert(!increment("Improved Curse of Exhaustion"));
-    assert(increment("Amplify Curse"));
-    assert(!increment("Improved Curse of Exhaustion"));
-    assert(increment("Curse of Exhaustion"));
-    assert(increment("Improved Curse of Exhaustion"));
+    assert(!increment(QObject::tr("Improved Curse of Exhaustion")));
+    assert(increment(QObject::tr("Amplify Curse")));
+    assert(!increment(QObject::tr("Improved Curse of Exhaustion")));
+    assert(increment(QObject::tr("Curse of Exhaustion")));
+    assert(increment(QObject::tr("Improved Curse of Exhaustion")));
 
     // Assert cannot remove points from Curse of Exhaustion or Amplify Curse once points are spent in Improved Curse of Exhaustion
-    assert(!decrement("Curse of Exhaustion"));
-    assert(!decrement("Amplify Curse"));
-    assert(decrement("Improved Curse of Exhaustion"));
-    assert(decrement("Curse of Exhaustion"));
-    assert(decrement("Amplify Curse"));
+    assert(!decrement(QObject::tr("Curse of Exhaustion")));
+    assert(!decrement(QObject::tr("Amplify Curse")));
+    assert(decrement(QObject::tr("Improved Curse of Exhaustion")));
+    assert(decrement(QObject::tr("Curse of Exhaustion")));
+    assert(decrement(QObject::tr("Amplify Curse")));
 
     // Assert cannot increment Shadow Mastery without Siphon Life
-    assert(increment("Fel Concentration", 5));
+    assert(increment(QObject::tr("Fel Concentration"), 5));
     assert(tree_has_points(25));
 
-    assert(!increment("Shadow Mastery"));
-    assert(increment("Siphon Life"));
-    assert(increment("Shadow Mastery"));
+    assert(!increment(QObject::tr("Shadow Mastery")));
+    assert(increment(QObject::tr("Siphon Life")));
+    assert(increment(QObject::tr("Shadow Mastery")));
 
-    assert(!decrement("Siphon Life"));
-    assert(decrement("Shadow Mastery"));
-    assert(decrement("Siphon Life"));
+    assert(!decrement(QObject::tr("Siphon Life")));
+    assert(decrement(QObject::tr("Shadow Mastery")));
+    assert(decrement(QObject::tr("Siphon Life")));
 }
 
 void TestAffliction::test_clearing_tree_after_filling() {
@@ -95,21 +95,21 @@ void TestAffliction::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestAffliction::spec_affliction() {
-    assert(increment("Suppression", 5));
-    assert(increment("Improved Corruption", 5));
-    assert(increment("Improved Curse of Weakness", 3));
-    assert(increment("Improved Drain Soul", 2));
-    assert(increment("Improved Life Tap", 2));
-    assert(increment("Improved Drain Life", 5));
-    assert(increment("Improved Curse of Agony", 3));
-    assert(increment("Fel Concentration", 5));
-    assert(increment("Amplify Curse", 1));
-    assert(increment("Grim Reach", 2));
-    assert(increment("Nightfall", 2));
-    assert(increment("Improved Drain Mana", 2));
-    assert(increment("Siphon Life", 1));
-    assert(increment("Curse of Exhaustion", 1));
-    assert(increment("Improved Curse of Exhaustion", 4));
-    assert(increment("Shadow Mastery", 5));
-    assert(increment("Dark Pact", 1));
+    assert(increment(QObject::tr("Suppression"), 5));
+    assert(increment(QObject::tr("Improved Corruption"), 5));
+    assert(increment(QObject::tr("Improved Curse of Weakness"), 3));
+    assert(increment(QObject::tr("Improved Drain Soul"), 2));
+    assert(increment(QObject::tr("Improved Life Tap"), 2));
+    assert(increment(QObject::tr("Improved Drain Life"), 5));
+    assert(increment(QObject::tr("Improved Curse of Agony"), 3));
+    assert(increment(QObject::tr("Fel Concentration"), 5));
+    assert(increment(QObject::tr("Amplify Curse"), 1));
+    assert(increment(QObject::tr("Grim Reach"), 2));
+    assert(increment(QObject::tr("Nightfall"), 2));
+    assert(increment(QObject::tr("Improved Drain Mana"), 2));
+    assert(increment(QObject::tr("Siphon Life"), 1));
+    assert(increment(QObject::tr("Curse of Exhaustion"), 1));
+    assert(increment(QObject::tr("Improved Curse of Exhaustion"), 4));
+    assert(increment(QObject::tr("Shadow Mastery"), 5));
+    assert(increment(QObject::tr("Dark Pact"), 1));
 }

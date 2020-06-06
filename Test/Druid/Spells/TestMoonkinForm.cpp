@@ -9,7 +9,7 @@
 #include "MoonkinForm.h"
 #include "RaidControl.h"
 
-TestMoonkinForm::TestMoonkinForm(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Moonkin Form") {}
+TestMoonkinForm::TestMoonkinForm(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Moonkin Form")) {}
 
 void TestMoonkinForm::test_all() {
     run_mandatory_tests();
@@ -24,7 +24,7 @@ void TestMoonkinForm::test_all() {
 }
 
 void TestMoonkinForm::test_name_correct() {
-    assert(moonkin_form()->get_name() == "Moonkin Form");
+    assert(moonkin_form()->get_name() == QObject::tr("Moonkin Form"));
 }
 
 void TestMoonkinForm::test_spell_cooldown() {
@@ -32,7 +32,7 @@ void TestMoonkinForm::test_spell_cooldown() {
 }
 
 void TestMoonkinForm::test_whether_spell_causes_global_cooldown() {
-    given_balance_talent_rank("Moonkin Form", 1);
+    given_balance_talent_rank(QObject::tr("Moonkin Form"), 1);
     assert(druid->action_ready());
 
     when_moonkin_form_is_performed();
@@ -43,12 +43,12 @@ void TestMoonkinForm::test_whether_spell_causes_global_cooldown() {
 void TestMoonkinForm::test_how_spell_observes_global_cooldown() {}
 
 void TestMoonkinForm::test_is_ready_conditions() {
-    given_balance_talent_rank("Moonkin Form", 1);
+    given_balance_talent_rank(QObject::tr("Moonkin Form"), 1);
     assert(moonkin_form()->get_spell_status() == SpellStatus::Available);
 }
 
 void TestMoonkinForm::test_resource_cost() {
-    given_balance_talent_rank("Moonkin Form", 1);
+    given_balance_talent_rank(QObject::tr("Moonkin Form"), 1);
     given_druid_has_mana(101);
 
     when_moonkin_form_is_performed();
@@ -58,7 +58,7 @@ void TestMoonkinForm::test_resource_cost() {
 
 void TestMoonkinForm::test_gives_spell_crit_to_party_members() {
     Druid* druid_2 = new Druid(race, equipment_db, sim_settings, raid_control, 0, 1);
-    given_balance_talent_rank("Moonkin Form", 1);
+    given_balance_talent_rank(QObject::tr("Moonkin Form"), 1);
     raid_control->prepare_set_of_combat_iterations();
 
     const unsigned self_spell_crit_before = pchar->get_stats()->get_spell_crit_chance(MagicSchool::Nature);
@@ -80,7 +80,7 @@ void TestMoonkinForm::test_gives_spell_crit_to_party_members() {
 }
 
 void TestMoonkinForm::test_resource_cost_with_3_of_3_natural_shapeshifter() {
-    given_balance_talent_rank("Natural Shapeshifter", 3);
+    given_balance_talent_rank(QObject::tr("Natural Shapeshifter"), 3);
     given_druid_has_mana(71);
 
     when_moonkin_form_is_performed();

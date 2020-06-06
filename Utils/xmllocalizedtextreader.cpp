@@ -9,13 +9,18 @@ QString localized_attribute_name(QString attribute_name, QString lang)
     return attribute_name + "_" + lang;
 }
 
-QString read_localized_element_text(QXmlStreamReader& reader, QString lang)
+QString read_localized_element_text(QXmlStreamReader& reader, QString lang, bool full)
 {
     QString defaultText = "";
     QString localizedText = nullptr;
     while (reader.readNextStartElement()) {
         if (reader.name() == "en" || reader.name() == lang) {
-            QString text = reader.readElementText().simplified();
+            QString text;
+            if (full) {
+                text = reader.readElementText();
+            } else {
+                text = reader.readElementText().simplified();
+            }
             if (text != nullptr && text.length()) {
                 if (reader.name() == "en") {
                     defaultText = text;
@@ -23,13 +28,22 @@ QString read_localized_element_text(QXmlStreamReader& reader, QString lang)
                     localizedText = text;
                 }
             }
+        } else {
+            reader.skipCurrentElement();
         }
     }
     if (localizedText == nullptr || localizedText.length() == 0) {
-        qDebug() << QString("localized element text not found, Line: %1,Column: %2").arg(reader.lineNumber()).arg(reader.columnNumber());
+        if (lang != "en") {
+            qDebug() << QString("localized element text not found, Line: %1,Column: %2").arg(reader.lineNumber()).arg(reader.columnNumber());
+        }
         localizedText = defaultText;
     }
     return  localizedText;
+}
+
+QString read_localized_element_full_text(QXmlStreamReader& reader, QString lang)
+{
+    return read_localized_element_text(reader, lang, true);
 }
 
 QString read_localized_attribute_text(QXmlStreamReader& reader, QString attribute_name, QString lang)

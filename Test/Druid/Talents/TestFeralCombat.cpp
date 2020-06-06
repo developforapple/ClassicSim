@@ -50,20 +50,20 @@ void TestFeralCombat::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestFeralCombat::spec_feral_combat() {
-    assert(increment("Ferocity", 5));
-    assert(increment("Feral Aggression", 5));
-    assert(increment("Feral Instinct", 5));
-    assert(increment("Brutal Impact", 2));
-    assert(increment("Thick Hide", 5));
-    assert(increment("Feline Swiftness", 2));
-    assert(increment("Feral Charge", 1));
-    assert(increment("Sharpened Claws", 3));
-    assert(increment("Improved Shred", 2));
-    assert(increment("Predatory Strikes", 3));
-    assert(increment("Blood Frenzy", 2));
-    assert(increment("Primal Fury", 2));
-    assert(increment("Savage Fury", 2));
-    assert(increment("Faerie Fire (Feral)", 1));
-    assert(increment("Heart of the Wild", 5));
-    assert(increment("Leader of the Pack", 1));
+    assert(increment(QObject::tr("Ferocity"), 5));
+    assert(increment(QObject::tr("Feral Aggression"), 5));
+    assert(increment(QObject::tr("Feral Instinct"), 5));
+    assert(increment(QObject::tr("Brutal Impact"), 2));
+    assert(increment(QObject::tr("Thick Hide"), 5));
+    assert(increment(QObject::tr("Feline Swiftness"), 2));
+    assert(increment(QObject::tr("Feral Charge"), 1));
+    assert(increment(QObject::tr("Sharpened Claws"), 3));
+    assert(increment(QObject::tr("Improved Shred"), 2));
+    assert(increment(QObject::tr("Predatory Strikes"), 3));
+    assert(increment(QObject::tr("Blood Frenzy"), 2));
+    assert(increment(QObject::tr("Primal Fury"), 2));
+    assert(increment(QObject::tr("Savage Fury"), 2));
+    assert(increment(QObject::tr("Faerie Fire (Feral)"), 1));
+    assert(increment(QObject::tr("Heart of the Wild"), 5));
+    assert(increment(QObject::tr("Leader of the Pack"), 1));
 }

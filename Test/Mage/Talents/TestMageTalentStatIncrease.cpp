@@ -47,7 +47,7 @@ void TestMageTalentStatIncrease::test_all() {
 
 void TestMageTalentStatIncrease::test_fire_power() {
     auto tree = Fire(mage);
-    Talent* talent = tree.get_talent_from_name("Fire Power");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Fire Power"));
 
     assert(almost_equal(1.0, pchar->get_stats()->get_magic_school_damage_mod(MagicSchool::Fire)));
 
@@ -84,7 +84,7 @@ void TestMageTalentStatIncrease::test_fire_power() {
 
 void TestMageTalentStatIncrease::test_arcane_subtlety() {
     auto tree = Arcane(mage);
-    Talent* talent = tree.get_talent_from_name("Arcane Subtlety");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Arcane Subtlety"));
 
     unsigned initial_target_res_arcane = pchar->get_stats()->get_target_resistance(MagicSchool::Arcane);
     unsigned initial_target_res_fire = pchar->get_stats()->get_target_resistance(MagicSchool::Fire);
@@ -113,7 +113,7 @@ void TestMageTalentStatIncrease::test_arcane_subtlety() {
 
 void TestMageTalentStatIncrease::test_arcane_focus() {
     auto tree = Arcane(mage);
-    Talent* talent = tree.get_talent_from_name("Arcane Focus");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Arcane Focus"));
 
     unsigned initial_hit_arcane = pchar->get_stats()->get_spell_hit_chance(MagicSchool::Arcane);
     unsigned initial_hit_fire = pchar->get_stats()->get_spell_hit_chance(MagicSchool::Fire);
@@ -172,9 +172,9 @@ void TestMageTalentStatIncrease::test_arcane_focus() {
 
 void TestMageTalentStatIncrease::test_arcane_mind() {
     auto tree = Arcane(mage);
-    Talent* prereq = tree.get_talent_from_name("Arcane Resilience");
+    Talent* prereq = tree.get_talent_from_name(QObject::tr("Arcane Resilience"));
     assert(prereq->increment_rank());
-    Talent* talent = tree.get_talent_from_name("Arcane Mind");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Arcane Mind"));
     const unsigned max_mana_before = static_cast<Mana*>(pchar->get_resource())->get_max_resource();
 
     assert(talent->increment_rank());
@@ -210,8 +210,8 @@ void TestMageTalentStatIncrease::test_arcane_mind() {
 
 void TestMageTalentStatIncrease::test_arcane_instability() {
     auto tree = Arcane(mage);
-    assert(tree.get_talent_from_name("Presence of Mind")->increment_rank());
-    Talent* talent = tree.get_talent_from_name("Arcane Instability");
+    assert(tree.get_talent_from_name(QObject::tr("Presence of Mind"))->increment_rank());
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Arcane Instability"));
 
     const unsigned spell_crit_before_arcane = pchar->get_stats()->get_spell_crit_chance(MagicSchool::Arcane);
     const unsigned spell_crit_before_fire = pchar->get_stats()->get_spell_crit_chance(MagicSchool::Fire);
@@ -314,7 +314,7 @@ void TestMageTalentStatIncrease::test_arcane_instability() {
 
 void TestMageTalentStatIncrease::test_elemental_precision() {
     auto tree = Frost(mage);
-    Talent* talent = tree.get_talent_from_name("Elemental Precision");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Elemental Precision"));
 
     unsigned initial_hit_arcane = pchar->get_stats()->get_spell_hit_chance(MagicSchool::Arcane);
     unsigned initial_hit_fire = pchar->get_stats()->get_spell_hit_chance(MagicSchool::Fire);
@@ -353,7 +353,7 @@ void TestMageTalentStatIncrease::test_elemental_precision() {
 
 void TestMageTalentStatIncrease::test_piercing_ice() {
     auto tree = Frost(mage);
-    Talent* talent = tree.get_talent_from_name("Piercing Ice");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Piercing Ice"));
 
     assert(almost_equal(1.0, pchar->get_stats()->get_magic_school_damage_mod(MagicSchool::Frost)));
 

@@ -195,7 +195,7 @@ void ItemFileReader::modifies_element_reader(QXmlStreamReader& reader, QVector<Q
         return;
     }
 
-    spell_modifications.append(reader.attributes().value("name").toString());
+    spell_modifications.append(read_localized_attribute_text(reader, "name", L_LANG));
     reader.skipCurrentElement();
 }
 

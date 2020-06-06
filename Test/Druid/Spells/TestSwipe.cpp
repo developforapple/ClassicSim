@@ -8,7 +8,7 @@
 #include "DruidSpells.h"
 #include "Swipe.h"
 
-TestSwipe::TestSwipe(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Swipe") {}
+TestSwipe::TestSwipe(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Swipe")) {}
 
 void TestSwipe::test_all() {
     run_mandatory_tests();
@@ -59,7 +59,7 @@ void TestSwipe::test_all() {
 }
 
 void TestSwipe::test_name_correct() {
-    assert(swipe()->get_name() == "Swipe");
+    assert(swipe()->get_name() == QObject::tr("Swipe"));
 }
 
 void TestSwipe::test_spell_cooldown() {
@@ -104,7 +104,7 @@ void TestSwipe::test_is_ready_conditions() {
 }
 
 void TestSwipe::test_resource_cost_1_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 1);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 1);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -116,7 +116,7 @@ void TestSwipe::test_resource_cost_1_of_5_ferocity() {
 }
 
 void TestSwipe::test_resource_cost_2_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 2);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 2);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -128,7 +128,7 @@ void TestSwipe::test_resource_cost_2_of_5_ferocity() {
 }
 
 void TestSwipe::test_resource_cost_3_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 3);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 3);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -140,7 +140,7 @@ void TestSwipe::test_resource_cost_3_of_5_ferocity() {
 }
 
 void TestSwipe::test_resource_cost_4_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 4);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 4);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -152,7 +152,7 @@ void TestSwipe::test_resource_cost_4_of_5_ferocity() {
 }
 
 void TestSwipe::test_resource_cost_5_of_5_ferocity() {
-    given_feral_talent_rank("Ferocity", 5);
+    given_feral_talent_rank(QObject::tr("Ferocity"), 5);
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
     given_druid_has_rage(100);
@@ -246,7 +246,7 @@ void TestSwipe::test_swipe_crit_with_0_of_2_primal_fury_awards_0_rage() {
 }
 
 void TestSwipe::test_swipe_hit_with_2_of_2_primal_fury_awards_0_rage() {
-    given_feral_talent_ranks({{"Sharpened Claws", 3}, {"Primal Fury", 2}});
+    given_feral_talent_ranks({{QObject::tr("Sharpened Claws"), 3}, {QObject::tr("Primal Fury"), 2}});
     pchar->prepare_set_of_combat_iterations();
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_hit();
@@ -259,7 +259,7 @@ void TestSwipe::test_swipe_hit_with_2_of_2_primal_fury_awards_0_rage() {
 }
 
 void TestSwipe::test_swipe_crit_with_2_of_2_primal_fury_awards_5_rage() {
-    given_feral_talent_ranks({{"Sharpened Claws", 3}, {"Primal Fury", 2}});
+    given_feral_talent_ranks({{QObject::tr("Sharpened Claws"), 3}, {QObject::tr("Primal Fury"), 2}});
     pchar->prepare_set_of_combat_iterations();
     given_druid_in_bear_form();
     given_a_guaranteed_melee_ability_crit();

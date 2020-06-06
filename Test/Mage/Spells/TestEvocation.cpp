@@ -9,7 +9,7 @@
 #include "Mage.h"
 #include "Mana.h"
 
-TestEvocation::TestEvocation(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, "Evocation") {}
+TestEvocation::TestEvocation(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, QObject::tr("Evocation")) {}
 
 void TestEvocation::test_all() {
     run_mandatory_tests();
@@ -24,7 +24,7 @@ void TestEvocation::test_all() {
 }
 
 void TestEvocation::test_name_correct() {
-    assert(evocation()->get_name() == "Evocation");
+    assert(evocation()->get_name() == QObject::tr("Evocation"));
 }
 
 void TestEvocation::test_spell_cooldown() {
@@ -59,9 +59,9 @@ void TestEvocation::test_mana_regen_increase() {
 void TestEvocation::test_2p_t3_set_bonus_cooldown_decrease() {
     const double cooldown_before = evocation()->get_base_cooldown();
 
-    given_bracers_equipped(22503, "Frostfire Bindings");
+    given_bracers_equipped(22503, QObject::tr("Frostfire Bindings"));
     assert(almost_equal(cooldown_before, evocation()->get_base_cooldown()));
-    given_head_equipped(22498, "Frostfire Circlet");
+    given_head_equipped(22498, QObject::tr("Frostfire Circlet"));
     assert(almost_equal(cooldown_before - 60.0, evocation()->get_base_cooldown()));
 
     given_bracers_cleared();

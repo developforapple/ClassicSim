@@ -172,7 +172,7 @@ void TestConditionVariableBuiltin::test_combo_points_greater() {
 
 void TestConditionVariableBuiltin::test_auto_shot_timer_less() {
     hunter->get_equipment()->set_ranged(17069);
-    assert(hunter->get_equipment()->get_ranged()->name == "Striker's Mark");
+    assert(hunter->get_equipment()->get_ranged()->name == QObject::tr("Striker's Mark"));
     AutoShot* auto_shot = hunter->get_spells()->get_auto_shot();
     auto_shot->prepare_set_of_combat_iterations();
 
@@ -210,7 +210,7 @@ void TestConditionVariableBuiltin::test_auto_shot_timer_less() {
 
 void TestConditionVariableBuiltin::test_auto_shot_timer_greater() {
     hunter->get_equipment()->set_ranged(17069);
-    assert(hunter->get_equipment()->get_ranged()->name == "Striker's Mark");
+    assert(hunter->get_equipment()->get_ranged()->name == QObject::tr("Striker's Mark"));
     AutoShot* auto_shot = hunter->get_spells()->get_auto_shot();
     auto_shot->prepare_set_of_combat_iterations();
 
@@ -248,7 +248,7 @@ void TestConditionVariableBuiltin::test_auto_shot_timer_greater() {
 
 void TestConditionVariableBuiltin::test_swing_timer_less() {
     warrior->get_equipment()->set_mainhand(19364);
-    assert(warrior->get_equipment()->get_mainhand()->name == "Ashkandi, Greatsword of the Brotherhood");
+    assert(warrior->get_equipment()->get_mainhand()->name == QObject::tr("Ashkandi, Greatsword of the Brotherhood"));
     MainhandAttack* mh_attack = warrior->get_spells()->get_mh_attack();
     mh_attack->prepare_set_of_combat_iterations();
 
@@ -286,7 +286,7 @@ void TestConditionVariableBuiltin::test_swing_timer_less() {
 
 void TestConditionVariableBuiltin::test_swing_timer_greater() {
     warrior->get_equipment()->set_mainhand(19364);
-    assert(warrior->get_equipment()->get_mainhand()->name == "Ashkandi, Greatsword of the Brotherhood");
+    assert(warrior->get_equipment()->get_mainhand()->name == QObject::tr("Ashkandi, Greatsword of the Brotherhood"));
     MainhandAttack* mh_attack = warrior->get_spells()->get_mh_attack();
     mh_attack->prepare_set_of_combat_iterations();
 

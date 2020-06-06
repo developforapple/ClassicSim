@@ -131,7 +131,7 @@
 			<stat type="STRENGTH" value="17"/>
 			<stat type="STAMINA" value="17"/>
 		</stats>
-		<modifies name="Hamstring"/>
+		<modifies name="Hamstring" name_zh="断筋"/>
 		<special_equip_effect>
 			<en>Equip: Hamstring Rage cost reduced by 3.</en>
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
@@ -149,7 +149,7 @@
 			<stat type="STRENGTH" value="17"/>
 			<stat type="STAMINA" value="17"/>
 		</stats>
-		<modifies name="Hamstring"/>
+		<modifies name="Hamstring"  name_zh="断筋"/>
 		<special_equip_effect>
 			<en>Equip: Hamstring Rage cost reduced by 3.</en>
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
@@ -168,7 +168,7 @@
 			<stat type="STRENGTH" value="12"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Judgement of the Crusader"/>
+		<modifies name="Judgement of the Crusader" name_zh="十字军审判"/>
 		<special_equip_effect>
 			<en>Equip: Increases the Holy damage bonus of your Judgement of the Crusader by 20.</en>
 			<zh>装备：使你的十字军审判所提供的神圣伤害加成提高20点。</zh>
@@ -188,7 +188,7 @@
 			<stat type="INTELLECT" value="16"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Judgement of the Crusader"/>
+		<modifies name="Judgement of the Crusader"  name_zh="十字军审判"/>
 		<special_equip_effect>
 			<en>Equip: Increases the Holy damage bonus of your Judgement of the Crusader by 20.</en>
 			<zh>装备：使你的十字军审判所提供的神圣伤害加成提高20点。</zh>
@@ -207,7 +207,7 @@
 			<stat type="STAMINA" value="23"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Hamstring"/>
+		<modifies name="Hamstring"  name_zh="断筋"/>
 		<special_equip_effect>
 			<en>Equip: Hamstring Rage cost reduced by 3.</en>
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
@@ -226,7 +226,7 @@
 			<stat type="STAMINA" value="23"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Hamstring"/>
+		<modifies name="Hamstring"  name_zh="断筋"/>
 		<special_equip_effect>
 			<en>Equip: Hamstring Rage cost reduced by 3.</en>
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>

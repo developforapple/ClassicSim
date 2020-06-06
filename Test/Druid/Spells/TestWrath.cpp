@@ -10,7 +10,7 @@
 #include "Event.h"
 #include "Wrath.h"
 
-TestWrath::TestWrath(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Wrath") {}
+TestWrath::TestWrath(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Wrath")) {}
 
 void TestWrath::test_all() {
     run_mandatory_tests();
@@ -77,7 +77,7 @@ void TestWrath::test_all() {
 }
 
 void TestWrath::test_name_correct() {
-    assert(wrath()->get_name() == "Wrath");
+    assert(wrath()->get_name() == QObject::tr("Wrath"));
 }
 
 void TestWrath::test_spell_cooldown() {
@@ -134,7 +134,7 @@ void TestWrath::test_crit_dmg() {
 }
 
 void TestWrath::test_crit_dmg_5_of_5_vengeance() {
-    given_balance_talent_ranks({{"Improved Moonfire", 5}, {"Vengeance", 5}});
+    given_balance_talent_ranks({{QObject::tr("Improved Moonfire"), 5}, {QObject::tr("Vengeance"), 5}});
     given_a_guaranteed_magic_crit(MagicSchool::Nature);
     given_1000_spell_power();
     given_no_previous_damage_dealt();
@@ -148,7 +148,7 @@ void TestWrath::test_crit_dmg_5_of_5_vengeance() {
 }
 
 void TestWrath::test_hit_damage_1_of_5_moonfury() {
-    given_balance_talent_ranks({{"Nature's Grace", 1}, {"Moonfury", 1}});
+    given_balance_talent_ranks({{QObject::tr("Nature's Grace"), 1}, {QObject::tr("Moonfury"), 1}});
     given_a_guaranteed_magic_hit(MagicSchool::Nature);
     given_1000_spell_power();
     given_no_previous_damage_dealt();
@@ -162,7 +162,7 @@ void TestWrath::test_hit_damage_1_of_5_moonfury() {
 }
 
 void TestWrath::test_hit_damage_5_of_5_moonfury() {
-    given_balance_talent_ranks({{"Nature's Grace", 1}, {"Moonfury", 5}});
+    given_balance_talent_ranks({{QObject::tr("Nature's Grace"), 1}, {QObject::tr("Moonfury"), 5}});
     given_a_guaranteed_magic_hit(MagicSchool::Nature);
     given_1000_spell_power();
     given_no_previous_damage_dealt();
@@ -176,7 +176,7 @@ void TestWrath::test_hit_damage_5_of_5_moonfury() {
 }
 
 void TestWrath::test_cast_time_1_of_5_improved_wrath() {
-    given_balance_talent_rank("Improved Wrath", 1);
+    given_balance_talent_rank(QObject::tr("Improved Wrath"), 1);
 
     when_wrath_is_performed();
 
@@ -185,7 +185,7 @@ void TestWrath::test_cast_time_1_of_5_improved_wrath() {
 }
 
 void TestWrath::test_cast_time_2_of_5_improved_wrath() {
-    given_balance_talent_rank("Improved Wrath", 2);
+    given_balance_talent_rank(QObject::tr("Improved Wrath"), 2);
 
     when_wrath_is_performed();
 
@@ -194,7 +194,7 @@ void TestWrath::test_cast_time_2_of_5_improved_wrath() {
 }
 
 void TestWrath::test_cast_time_3_of_5_improved_wrath() {
-    given_balance_talent_rank("Improved Wrath", 3);
+    given_balance_talent_rank(QObject::tr("Improved Wrath"), 3);
 
     when_wrath_is_performed();
 
@@ -203,7 +203,7 @@ void TestWrath::test_cast_time_3_of_5_improved_wrath() {
 }
 
 void TestWrath::test_cast_time_4_of_5_improved_wrath() {
-    given_balance_talent_rank("Improved Wrath", 4);
+    given_balance_talent_rank(QObject::tr("Improved Wrath"), 4);
 
     when_wrath_is_performed();
 
@@ -212,7 +212,7 @@ void TestWrath::test_cast_time_4_of_5_improved_wrath() {
 }
 
 void TestWrath::test_cast_time_5_of_5_improved_wrath() {
-    given_balance_talent_rank("Improved Wrath", 5);
+    given_balance_talent_rank(QObject::tr("Improved Wrath"), 5);
 
     when_wrath_is_performed();
 
@@ -231,7 +231,7 @@ void TestWrath::test_casting_speed_increases_reduces_casting_time() {
 }
 
 void TestWrath::test_resource_cost_3_of_3_moonglow() {
-    given_balance_talent_rank("Moonglow", 3);
+    given_balance_talent_rank(QObject::tr("Moonglow"), 3);
     given_druid_has_mana(static_cast<unsigned>(std::round(180 * 0.91) + 1));
 
     when_wrath_is_performed();
@@ -242,8 +242,8 @@ void TestWrath::test_resource_cost_3_of_3_moonglow() {
 
 void TestWrath::test_natures_grace_reduces_casting_time() {
     given_a_guaranteed_magic_hit(MagicSchool::Nature);
-    given_balance_talent_rank("Improved Wrath", 5);
-    given_balance_talent_rank("Nature's Grace", 1);
+    given_balance_talent_rank(QObject::tr("Improved Wrath"), 5);
+    given_balance_talent_rank(QObject::tr("Nature's Grace"), 1);
     pchar->prepare_set_of_combat_iterations();
     static_cast<DruidSpells*>(druid->get_spells())->get_natures_grace()->apply_buff();
 
@@ -255,7 +255,7 @@ void TestWrath::test_natures_grace_reduces_casting_time() {
 
 void TestWrath::test_natures_grace_activated_on_spell_crit_if_enabled() {
     given_a_guaranteed_magic_crit(MagicSchool::Nature);
-    given_balance_talent_rank("Nature's Grace", 1);
+    given_balance_talent_rank(QObject::tr("Nature's Grace"), 1);
     pchar->prepare_set_of_combat_iterations();
     assert(!static_cast<DruidSpells*>(druid->get_spells())->get_natures_grace()->is_active());
 

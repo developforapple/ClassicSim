@@ -139,7 +139,11 @@ void RotationFileReader::rotation_file_handler(QXmlStreamReader& reader, Rotatio
 }
 
 bool RotationFileReader::rotation_executor_handler(QXmlStreamReader& reader, RotationExecutor* executor) {
-    QStringList expressions = reader.readElementText().trimmed().split('\n', QString::SkipEmptyParts);
+    //QStringList expressions = reader.readElementText().trimmed().split('\n', QString::SkipEmptyParts);
+    QString a = read_localized_element_full_text(reader, L_LANG);
+    QString b = a.trimmed();
+    QStringList expressions = b.split('\n', QString::SkipEmptyParts);
+    //QStringList expressions = read_localized_element_text(reader, L_LANG).trimmed().split('\n', QString::SkipEmptyParts);
 
     for (auto& str : expressions)
         str = str.trimmed();

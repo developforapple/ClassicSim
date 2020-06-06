@@ -50,21 +50,21 @@ void TestRestorationDruid::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestRestorationDruid::spec_restoration() {
-    assert(increment("Improved Mark of the Wild", 5));
-    assert(increment("Furor", 5));
-    assert(increment("Improved Healing Touch", 5));
-    assert(increment("Nature's Focus", 5));
-    assert(increment("Improved Enrage", 2));
-    assert(increment("Reflection", 3));
-    assert(increment("Insect Swarm", 1));
-    assert(increment("Subtlety", 5));
-    assert(increment("Tranquil Spirit", 5));
-    assert(increment("Improved Rejuvenation", 3));
-    assert(increment("Nature's Swiftness", 1));
-    assert(increment("Gift of Nature", 5));
-    assert(increment("Improved Tranquility", 2));
-    assert(increment("Improved Regrowth", 4));
+    assert(increment(QObject::tr("Improved Mark of the Wild"), 5));
+    assert(increment(QObject::tr("Furor"), 5));
+    assert(increment(QObject::tr("Improved Healing Touch"), 5));
+    assert(increment(QObject::tr("Nature's Focus"), 5));
+    assert(increment(QObject::tr("Improved Enrage"), 2));
+    assert(increment(QObject::tr("Reflection"), 3));
+    assert(increment(QObject::tr("Insect Swarm"), 1));
+    assert(increment(QObject::tr("Subtlety", "Druid talent"), 5));
+    assert(increment(QObject::tr("Tranquil Spirit"), 5));
+    assert(increment(QObject::tr("Improved Rejuvenation"), 3));
+    assert(increment(QObject::tr("Nature's Swiftness"), 1));
+    assert(increment(QObject::tr("Gift of Nature"), 5));
+    assert(increment(QObject::tr("Improved Tranquility"), 2));
+    assert(increment(QObject::tr("Improved Regrowth"), 4));
 
-    assert(decrement("Improved Regrowth", 1));
-    assert(increment("Swiftmend", 1));
+    assert(decrement(QObject::tr("Improved Regrowth"), 1));
+    assert(increment(QObject::tr("Swiftmend"), 1));
 }

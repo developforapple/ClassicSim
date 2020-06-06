@@ -9,7 +9,7 @@
 #include "FerociousBite.h"
 #include "Shred.h"
 
-TestFerociousBite::TestFerociousBite(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Ferocious Bite") {}
+TestFerociousBite::TestFerociousBite(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Ferocious Bite")) {}
 
 void TestFerociousBite::test_all() {
     run_mandatory_tests();
@@ -36,7 +36,7 @@ void TestFerociousBite::test_all() {
 }
 
 void TestFerociousBite::test_name_correct() {
-    assert(ferocious_bite()->get_name() == "Ferocious Bite");
+    assert(ferocious_bite()->get_name() == QObject::tr("Ferocious Bite"));
 }
 
 void TestFerociousBite::test_spell_cooldown() {
@@ -133,7 +133,7 @@ void TestFerociousBite::test_ferocious_bite_spends_combo_points() {
 }
 
 void TestFerociousBite::test_hit_dmg_feral_aggression_5_of_5() {
-    given_feral_talent_rank("Feral Aggression", 5);
+    given_feral_talent_rank(QObject::tr("Feral Aggression"), 5);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     given_druid_in_cat_form();
@@ -150,7 +150,7 @@ void TestFerociousBite::test_hit_dmg_feral_aggression_5_of_5() {
 }
 
 void TestFerociousBite::test_crit_dmg_feral_aggression_5_of_5() {
-    given_feral_talent_rank("Feral Aggression", 5);
+    given_feral_talent_rank(QObject::tr("Feral Aggression"), 5);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     given_druid_in_cat_form();

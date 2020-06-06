@@ -13,7 +13,7 @@
 #include "Orc.h"
 #include "Target.h"
 
-TestExecute::TestExecute(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Execute") {}
+TestExecute::TestExecute(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Execute")) {}
 
 void TestExecute::test_all() {
     run_mandatory_tests();
@@ -112,7 +112,7 @@ Execute* TestExecute::execute() const {
 }
 
 void TestExecute::test_name_correct() {
-    assert(execute()->get_name() == "Execute");
+    assert(execute()->get_name() == QObject::tr("Execute"));
 }
 
 void TestExecute::test_spell_cooldown() {
@@ -221,7 +221,7 @@ void TestExecute::test_2_of_2_improved_execute_reduces_rage_cost() {
 
 void TestExecute::test_removing_points_in_improved_execute_increases_rage_cost() {
     const auto fury = Fury(warrior);
-    Talent* improved_execute = fury.get_talent_from_name("Improved Execute");
+    Talent* improved_execute = fury.get_talent_from_name(QObject::tr("Improved Execute"));
     given_target_in_execute_range();
     assert(execute_available_with_rage(15));
     assert(!execute_available_with_rage(14));
@@ -519,14 +519,14 @@ void TestExecute::given_0_of_2_improved_execute() {
 }
 
 void TestExecute::given_1_of_2_improved_execute() {
-    given_fury_talent_with_rank("Improved Execute", 1);
+    given_fury_talent_with_rank(QObject::tr("Improved Execute"), 1);
 
     assert(execute_available_with_rage(13));
     assert(!execute_available_with_rage(12));
 }
 
 void TestExecute::given_2_of_2_improved_execute() {
-    given_fury_talent_with_rank("Improved Execute", 2);
+    given_fury_talent_with_rank(QObject::tr("Improved Execute"), 2);
 
     assert(execute_available_with_rage(10));
     assert(!execute_available_with_rage(9));

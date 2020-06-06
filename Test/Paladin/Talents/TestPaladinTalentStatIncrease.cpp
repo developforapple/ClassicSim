@@ -42,7 +42,7 @@ void TestPaladinTalentStatIncrease::test_all() {
 
 void TestPaladinTalentStatIncrease::test_conviction() {
     auto ret = Retribution(paladin);
-    Talent* talent = ret.get_talent_from_name("Conviction");
+    Talent* talent = ret.get_talent_from_name(QObject::tr("Conviction"));
 
     unsigned melee_crit_initial = pchar->get_stats()->get_mh_crit_chance();
     unsigned ranged_crit_initial = pchar->get_stats()->get_ranged_crit_chance();
@@ -90,7 +90,7 @@ void TestPaladinTalentStatIncrease::test_conviction() {
 
 void TestPaladinTalentStatIncrease::test_two_handed_weapon_specialization() {
     auto ret = Retribution(paladin);
-    Talent* talent = ret.get_talent_from_name("Two-Handed Weapon Specialization");
+    Talent* talent = ret.get_talent_from_name(QObject::tr("Two-Handed Weapon Specialization"));
     given_a_twohand_weapon_with_100_min_max_dmg();
 
     assert(almost_equal(1.0, paladin->get_stats()->get_total_physical_damage_mod()));
@@ -122,7 +122,7 @@ void TestPaladinTalentStatIncrease::test_two_handed_weapon_specialization() {
 
 void TestPaladinTalentStatIncrease::test_precision() {
     auto prot = ProtectionPaladin(paladin);
-    Talent* talent = prot.get_talent_from_name("Precision");
+    Talent* talent = prot.get_talent_from_name(QObject::tr("Precision"));
 
     unsigned melee_hit_initial = pchar->get_stats()->get_melee_hit_chance();
     unsigned ranged_hit_initial = pchar->get_stats()->get_ranged_hit_chance();
@@ -154,7 +154,7 @@ void TestPaladinTalentStatIncrease::test_precision() {
 
 void TestPaladinTalentStatIncrease::test_one_handed_weapon_specialization() {
     auto prot = ProtectionPaladin(paladin);
-    Talent* talent = prot.get_talent_from_name("One-Handed Weapon Specialization");
+    Talent* talent = prot.get_talent_from_name(QObject::tr("One-Handed Weapon Specialization"));
     given_1h_mace_equipped_in_mainhand(paladin);
 
     assert(almost_equal(1.0, paladin->get_stats()->get_total_physical_damage_mod()));
@@ -198,7 +198,7 @@ void TestPaladinTalentStatIncrease::test_one_handed_weapon_specialization() {
 
 void TestPaladinTalentStatIncrease::test_divine_strength() {
     auto holy = HolyPaladin(paladin);
-    Talent* talent = holy.get_talent_from_name("Divine Strength");
+    Talent* talent = holy.get_talent_from_name(QObject::tr("Divine Strength"));
     given_character_has_strength(100);
 
     assert(talent->increment_rank());
@@ -234,7 +234,7 @@ void TestPaladinTalentStatIncrease::test_divine_strength() {
 
 void TestPaladinTalentStatIncrease::test_divine_intellect() {
     auto holy = HolyPaladin(paladin);
-    Talent* talent = holy.get_talent_from_name("Divine Intellect");
+    Talent* talent = holy.get_talent_from_name(QObject::tr("Divine Intellect"));
     given_character_has_intellect(100);
 
     assert(talent->increment_rank());

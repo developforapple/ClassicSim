@@ -7,7 +7,7 @@
 #include "Event.h"
 #include "Overpower.h"
 
-TestOverpower::TestOverpower(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Overpower") {}
+TestOverpower::TestOverpower(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Overpower")) {}
 
 void TestOverpower::test_all() {
     run_mandatory_tests();
@@ -46,7 +46,7 @@ Overpower* TestOverpower::overpower() const {
 }
 
 void TestOverpower::test_name_correct() {
-    assert(overpower()->get_name() == "Overpower");
+    assert(overpower()->get_name() == QObject::tr("Overpower"));
 }
 
 void TestOverpower::test_spell_cooldown() {

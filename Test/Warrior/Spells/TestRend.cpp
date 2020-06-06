@@ -17,7 +17,7 @@
 #include "Talent.h"
 #include "Whirlwind.h"
 
-TestRend::TestRend(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Rend") {}
+TestRend::TestRend(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Rend")) {}
 
 void TestRend::test_all() {
     run_mandatory_tests();
@@ -48,7 +48,7 @@ Rend* TestRend::rend() const {
 }
 
 void TestRend::test_name_correct() {
-    assert(rend()->get_name() == "Rend");
+    assert(rend()->get_name() == QObject::tr("Rend"));
 }
 
 void TestRend::test_spell_cooldown() {
@@ -203,19 +203,19 @@ void TestRend::test_dodge_applies_overpower_buff() {
 void TestRend::given_0_of_3_improved_rend() {}
 
 void TestRend::given_1_of_3_improved_rend() {
-    given_arms_talent_with_rank("Improved Rend", 1);
+    given_arms_talent_with_rank(QObject::tr("Improved Rend"), 1);
 }
 
 void TestRend::given_2_of_3_improved_rend() {
-    given_arms_talent_with_rank("Improved Rend", 2);
+    given_arms_talent_with_rank(QObject::tr("Improved Rend"), 2);
 }
 
 void TestRend::given_3_of_3_improved_rend() {
-    given_arms_talent_with_rank("Improved Rend", 3);
+    given_arms_talent_with_rank(QObject::tr("Improved Rend"), 3);
 }
 
 void TestRend::given_no_previous_rend_damage_dealt() {
-    assert(pchar->get_statistics()->get_total_damage_for_spell("Rend") == 0);
+    assert(pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Rend")) == 0);
 }
 
 void TestRend::when_rend_is_performed() {
@@ -246,9 +246,9 @@ void TestRend::then_rend_damage_dealt_is(const int damage_dealt) {
         delete event;
     }
 
-    if (pchar->get_statistics()->get_total_damage_for_spell("Rend") != damage_dealt)
-        qDebug() << "Rend: expected" << damage_dealt << "got" << pchar->get_statistics()->get_total_damage_for_spell("Rend");
-    assert(pchar->get_statistics()->get_total_damage_for_spell("Rend") == damage_dealt);
+    if (pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Rend")) != damage_dealt)
+        qDebug() << "Rend: expected" << damage_dealt << "got" << pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Rend"));
+    assert(pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Rend")) == damage_dealt);
 }
 
 void TestRend::then_damage_is_dealt_over_21_seconds() {

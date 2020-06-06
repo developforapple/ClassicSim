@@ -132,7 +132,7 @@ void TestFlurryWarrior::test_all() {
 }
 
 void TestFlurryWarrior::test_name_correct() {
-    assert(spells->get_flurry()->name == "Flurry");
+    assert(spells->get_flurry()->name == QObject::tr("Flurry"));
 }
 
 void TestFlurryWarrior::test_has_15_second_duration() {
@@ -391,7 +391,7 @@ void TestFlurryWarrior::test_critical_heroic_strike_applies_flurry() {
     given_flurry_enabled();
     given_flurry_is_not_active();
 
-    static_cast<HeroicStrike*>(warrior->get_spells()->get_spell_rank_group_by_name("Heroic Strike")->get_max_available_spell_rank())
+    static_cast<HeroicStrike*>(warrior->get_spells()->get_spell_rank_group_by_name(QObject::tr("Heroic Strike"))->get_max_available_spell_rank())
         ->calculate_damage();
 
     then_flurry_is_active();
@@ -463,7 +463,7 @@ void TestFlurryWarrior::test_regular_hit_heroic_strike_does_not_apply_flurry() {
     given_flurry_enabled();
     given_flurry_is_not_active();
 
-    static_cast<HeroicStrike*>(warrior->get_spells()->get_spell_rank_group_by_name("Heroic Strike")->get_max_available_spell_rank())
+    static_cast<HeroicStrike*>(warrior->get_spells()->get_spell_rank_group_by_name(QObject::tr("Heroic Strike"))->get_max_available_spell_rank())
         ->calculate_damage();
 
     then_flurry_is_not_active();
@@ -517,40 +517,40 @@ void TestFlurryWarrior::when_flurry_is_removed() {
 
 void TestFlurryWarrior::given_1_of_5_flurry() {
     const auto fury = Fury(warrior);
-    given_talent_rank(fury, "Enrage", 5);
-    given_talent_rank(fury, "Flurry", 1);
+    given_talent_rank(fury, QObject::tr("Enrage"), 5);
+    given_talent_rank(fury, QObject::tr("Flurry"), 1);
 
     warrior->prepare_set_of_combat_iterations();
 }
 
 void TestFlurryWarrior::given_2_of_5_flurry() {
     const auto fury = Fury(warrior);
-    given_talent_rank(fury, "Enrage", 5);
-    given_talent_rank(fury, "Flurry", 2);
+    given_talent_rank(fury, QObject::tr("Enrage"), 5);
+    given_talent_rank(fury, QObject::tr("Flurry"), 2);
 
     warrior->prepare_set_of_combat_iterations();
 }
 
 void TestFlurryWarrior::given_3_of_5_flurry() {
     const auto fury = Fury(warrior);
-    given_talent_rank(fury, "Enrage", 5);
-    given_talent_rank(fury, "Flurry", 3);
+    given_talent_rank(fury, QObject::tr("Enrage"), 5);
+    given_talent_rank(fury, QObject::tr("Flurry"), 3);
 
     warrior->prepare_set_of_combat_iterations();
 }
 
 void TestFlurryWarrior::given_4_of_5_flurry() {
     const auto fury = Fury(warrior);
-    given_talent_rank(fury, "Enrage", 5);
-    given_talent_rank(fury, "Flurry", 4);
+    given_talent_rank(fury, QObject::tr("Enrage"), 5);
+    given_talent_rank(fury, QObject::tr("Flurry"), 4);
 
     warrior->prepare_set_of_combat_iterations();
 }
 
 void TestFlurryWarrior::given_5_of_5_flurry() {
     const auto fury = Fury(warrior);
-    given_talent_rank(fury, "Enrage", 5);
-    given_talent_rank(fury, "Flurry", 5);
+    given_talent_rank(fury, QObject::tr("Enrage"), 5);
+    given_talent_rank(fury, QObject::tr("Flurry"), 5);
 
     warrior->prepare_set_of_combat_iterations();
 }

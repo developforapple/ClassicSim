@@ -2,6 +2,13 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="zh_CN" sourcelanguage="en">
 <context>
+    <name></name>
+    <message>
+        <source>Demonic Rune</source>
+        <translation type="vanished">恶魔符文</translation>
+    </message>
+</context>
+<context>
     <name>AttackModeChoice</name>
     <message>
         <location filename="QML/AttackModeChoice.qml" line="31"/>
@@ -358,6 +365,15 @@
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="20"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="120"/>
         <location filename="Spells/ExternalBuff.cpp" line="406"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="84"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="48"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="53"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="78"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="80"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="82"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="103"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="120"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="148"/>
         <source>Improved Battle Shout</source>
         <translation>强化战斗怒吼</translation>
     </message>
@@ -366,6 +382,13 @@
         <location filename="Class/Warrior/Spells/BattleShout.cpp" line="107"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="13"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="91"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="38"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="41"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="44"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="59"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="62"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="65"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="117"/>
         <source>Booming Voice</source>
         <translation>震耳嗓音</translation>
     </message>
@@ -754,48 +777,75 @@
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="14"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="31"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="38"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="41"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="44"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="49"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="113"/>
         <source>Improved Concussive Shot</source>
         <translation>强化震荡射击</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="17"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="103"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="53"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="55"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="57"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="59"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="61"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="65"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="67"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="69"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="71"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="73"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="116"/>
+        <location filename="Test/Hunter/TestSpellHunter.cpp" line="91"/>
         <source>Lethal Shots</source>
         <translation>夺命射击</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="19"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="42"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="118"/>
         <source>Improved Arcane Shot</source>
         <translation>强化奥术射击</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="20"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="44"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="119"/>
         <source>Hawk Eye</source>
         <translation>鹰眼</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="21"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="51"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="120"/>
         <source>Improved Serpent Sting</source>
         <translation>强化毒蛇钉刺</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="23"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="57"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="122"/>
         <source>Scatter Shot</source>
         <translation>驱散射击</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="25"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="61"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="124"/>
         <source>Improved Scorpid Sting</source>
         <translation>强化毒蝎钉刺</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="26"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="140"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="209"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="171"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="181"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="76"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="125"/>
         <source>Ranged Weapon Specialization</source>
         <translation>远程武器专精</translation>
     </message>
@@ -803,6 +853,12 @@
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="27"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="148"/>
         <location filename="Spells/ExternalBuff.cpp" line="514"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="146"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="79"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="81"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="83"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="85"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="126"/>
         <source>Trueshot Aura</source>
         <translation>强击光环</translation>
     </message>
@@ -890,6 +946,9 @@
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="101"/>
         <location filename="Class/Warlock/WarlockSpells.cpp" line="15"/>
         <location filename="Spells/ExternalBuff.cpp" line="517"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="291"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="27"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="97"/>
         <source>Improved Shadow Bolt</source>
         <translation>强化暗影箭</translation>
     </message>
@@ -915,7 +974,7 @@
         <location filename="Class/Mage/MageSpells.cpp" line="83"/>
         <location filename="Spells/ExternalBuff.cpp" line="523"/>
         <source>Fire Vulnerability</source>
-        <translation>痛苦诅咒</translation>
+        <translation>火焰弱点</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="524"/>
@@ -1457,12 +1516,17 @@
     <message>
         <location filename="Character/Race/Racials/Berserking.cpp" line="9"/>
         <location filename="Character/Race/Racials/BerserkingBuff.cpp" line="8"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="65"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="141"/>
         <source>Berserking</source>
         <translation>狂暴</translation>
     </message>
     <message>
         <location filename="Character/Race/Racials/BloodFury.cpp" line="9"/>
         <location filename="Character/Race/Racials/BloodFuryBuff.cpp" line="8"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="64"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="77"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="141"/>
         <location filename="Test/TestBloodFury.cpp" line="8"/>
         <location filename="Test/TestBloodFury.cpp" line="23"/>
         <location filename="Test/TestBloodFury.cpp" line="27"/>
@@ -1471,6 +1535,7 @@
     </message>
     <message>
         <location filename="Class/Common/Buffs/DevilsaurEye.cpp" line="6"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="140"/>
         <source>Devilsaur Eye</source>
         <translation>魔暴龙眼</translation>
     </message>
@@ -1480,6 +1545,10 @@
     </message>
     <message>
         <location filename="Class/Common/Buffs/FelstrikerBuff.cpp" line="7"/>
+        <location filename="Test/General/Procs/TestFelstrikerProc.cpp" line="13"/>
+        <location filename="Test/General/Procs/TestFelstrikerProc.cpp" line="39"/>
+        <location filename="Test/General/Procs/TestFelstrikerProc.cpp" line="43"/>
+        <location filename="Test/General/Procs/TestFelstrikerProc.cpp" line="61"/>
         <source>Felstriker</source>
         <translation>恶魔之击</translation>
     </message>
@@ -1491,6 +1560,9 @@
     </message>
     <message>
         <location filename="Class/Common/Buffs/JomGabbar.cpp" line="10"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="55"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="138"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="162"/>
         <source>Jom Gabbar</source>
         <translation>沙虫之毒</translation>
     </message>
@@ -1499,11 +1571,13 @@
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="21"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="68"/>
         <location filename="Equipment/Item/Item.cpp" line="499"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="108"/>
         <source>Nightfall</source>
         <translation>夜幕</translation>
     </message>
     <message>
         <location filename="Class/Common/Buffs/SanctifiedOrb.cpp" line="6"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="167"/>
         <source>Sanctified Orb</source>
         <translation>神圣宝珠</translation>
     </message>
@@ -1519,6 +1593,9 @@
     </message>
     <message>
         <location filename="Class/Common/Spells/DemonicRune.cpp" line="10"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="145"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="170"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="177"/>
         <source>Demonic Rune</source>
         <translation>恶魔符文</translation>
     </message>
@@ -1526,21 +1603,33 @@
         <location filename="Class/Common/Spells/EssenceOfTheRed.cpp" line="6"/>
         <location filename="Rulesets/RulesetControl.cpp" line="47"/>
         <location filename="Rulesets/RulesetControl.cpp" line="55"/>
+        <location filename="Test/General/Spells/TestEssenceOfTheRed.cpp" line="20"/>
+        <location filename="Test/General/Spells/TestEssenceOfTheRed.cpp" line="42"/>
+        <location filename="Test/General/Spells/TestEssenceOfTheRed.cpp" line="113"/>
+        <location filename="Test/General/Spells/TestEssenceOfTheRed.cpp" line="114"/>
         <source>Essence of the Red</source>
         <translation>红龙精华</translation>
     </message>
     <message>
         <location filename="Class/Common/Spells/MainhandAttack.cpp" line="14"/>
+        <location filename="Test/Paladin/Spells/TestMainhandAttackPaladin.cpp" line="55"/>
+        <location filename="Test/Warrior/Spells/TestMainhandAttackWarrior.cpp" line="60"/>
         <source>Mainhand Attack</source>
         <translation>主手攻击</translation>
     </message>
     <message>
         <location filename="Class/Common/Spells/ManaPotion.cpp" line="10"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="144"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="169"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="177"/>
         <source>Mana Potion</source>
         <translation>法力药水</translation>
     </message>
     <message>
         <location filename="Class/Common/Spells/NightDragonsBreath.cpp" line="10"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="145"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="171"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="177"/>
         <source>Night Dragon&apos;s Breath</source>
         <translation>夜龙之息</translation>
     </message>
@@ -1548,6 +1637,7 @@
         <location filename="Class/Common/Spells/OffhandAttack.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="123"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="131"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="102"/>
         <source>Offhand Attack</source>
         <translation>副手攻击</translation>
     </message>
@@ -1557,6 +1647,7 @@
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="123"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="16"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="87"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="73"/>
         <source>Bear Form</source>
         <translation>熊形态</translation>
     </message>
@@ -1571,6 +1662,11 @@
         <location filename="Class/Druid/Spells/CatForm.cpp" line="16"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="11"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="122"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="170"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="183"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="249"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="262"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="60"/>
         <source>Sharpened Claws</source>
         <translation>锋利兽爪</translation>
     </message>
@@ -1583,6 +1679,7 @@
         <location filename="Class/Druid/Buffs/CatFormBuff.cpp" line="110"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="12"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="138"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="62"/>
         <source>Predatory Strikes</source>
         <translation>猛兽攻击</translation>
     </message>
@@ -1595,8 +1692,9 @@
         <location filename="Class/Druid/Buffs/CatFormBuff.cpp" line="120"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="155"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="67"/>
         <source>Heart of the Wild</source>
-        <translation>Heart of the Wild</translation>
+        <translation>野性之心</translation>
     </message>
     <message>
         <location filename="Class/Druid/Buffs/BearFormBuff.cpp" line="16"/>
@@ -1611,6 +1709,7 @@
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="164"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="322"/>
         <location filename="Test/Druid/Spells/TestCatForm.cpp" line="207"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="68"/>
         <source>Leader of the Pack</source>
         <translation>兽群领袖</translation>
     </message>
@@ -1625,6 +1724,7 @@
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="237"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="255"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="273"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="55"/>
         <source>Feral Instinct</source>
         <translation>野性本能</translation>
     </message>
@@ -1634,6 +1734,7 @@
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="124"/>
         <location filename="Test/Druid/Spells/TestCatForm.cpp" line="16"/>
         <location filename="Test/Druid/Spells/TestCatForm.cpp" line="67"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="69"/>
         <source>Cat Form</source>
         <translation>猎豹形态</translation>
     </message>
@@ -1645,6 +1746,15 @@
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="26"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="125"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="210"/>
+        <location filename="Class/Druid/TalentTrees/Balance.cpp" line="214"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="12"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="27"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="35"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="46"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="51"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="61"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="70"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="65"/>
         <source>Moonkin Form</source>
         <translation>枭兽形态</translation>
     </message>
@@ -1653,6 +1763,18 @@
         <location filename="Class/Druid/Buffs/NaturesGrace.cpp" line="8"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="23"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="174"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="149"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="162"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="185"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="151"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="165"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="245"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="259"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="151"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="165"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="246"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="258"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="65"/>
         <source>Nature&apos;s Grace</source>
         <translation>自然之赐</translation>
     </message>
@@ -1672,6 +1794,9 @@
         <location filename="Class/Druid/Spells/Maul.cpp" line="14"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="87"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="106"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="12"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="51"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="85"/>
         <source>Maul</source>
         <translation>槌击</translation>
     </message>
@@ -1680,6 +1805,9 @@
         <location filename="Class/Druid/Procs/BloodFrenzy.cpp" line="14"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="12"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="147"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="170"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="183"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="63"/>
         <source>Blood Frenzy</source>
         <translation>血之狂暴</translation>
     </message>
@@ -1694,6 +1822,7 @@
         <location filename="Class/Druid/Procs/ClearcastingDruid.cpp" line="22"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="19"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="141"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="61"/>
         <source>Omen of Clarity</source>
         <translation>清晰预兆</translation>
     </message>
@@ -1704,6 +1833,7 @@
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="102"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="352"/>
         <location filename="Test/Druid/Spells/TestCatForm.cpp" line="239"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="54"/>
         <source>Furor</source>
         <translation>激怒</translation>
     </message>
@@ -1712,6 +1842,9 @@
         <location filename="Class/Druid/Procs/PrimalFury.cpp" line="14"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="12"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="94"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="249"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="262"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="64"/>
         <source>Primal Fury</source>
         <translation>原始狂怒</translation>
     </message>
@@ -1727,6 +1860,8 @@
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="120"/>
         <location filename="Test/Druid/Spells/TestBearForm.cpp" line="117"/>
         <location filename="Test/Druid/Spells/TestCatForm.cpp" line="109"/>
+        <location filename="Test/Druid/Spells/TestMoonkinForm.cpp" line="83"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="59"/>
         <source>Natural Shapeshifter</source>
         <translation>自然变形</translation>
     </message>
@@ -1744,6 +1879,22 @@
         <location filename="Class/Druid/Spells/Enrage.cpp" line="12"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="21"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="57"/>
+        <location filename="Test/Druid/Spells/TestEnrage.cpp" line="13"/>
+        <location filename="Test/Druid/Spells/TestEnrage.cpp" line="32"/>
+        <location filename="Test/Druid/Spells/TestEnrage.cpp" line="36"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="520"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="528"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="536"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="544"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="552"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="262"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="49"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="54"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="87"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="89"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="91"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="121"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="150"/>
         <source>Enrage</source>
         <translation>狂怒</translation>
     </message>
@@ -1753,11 +1904,16 @@
         <location filename="Class/Druid/Spells/Enrage.cpp" line="56"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="15"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="43"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="57"/>
         <source>Improved Enrage</source>
         <translation>强化狂怒</translation>
     </message>
     <message>
         <location filename="Class/Druid/Spells/FerociousBite.cpp" line="14"/>
+        <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="116"/>
+        <location filename="Test/Druid/Spells/TestFerociousBite.cpp" line="12"/>
+        <location filename="Test/Druid/Spells/TestFerociousBite.cpp" line="39"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="89"/>
         <source>Ferocious Bite</source>
         <translation>凶猛撕咬</translation>
     </message>
@@ -1765,6 +1921,9 @@
         <location filename="Class/Druid/Spells/FerociousBite.cpp" line="23"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="10"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="113"/>
+        <location filename="Test/Druid/Spells/TestFerociousBite.cpp" line="136"/>
+        <location filename="Test/Druid/Spells/TestFerociousBite.cpp" line="153"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="54"/>
         <source>Feral Aggression</source>
         <translation>野性侵略</translation>
     </message>
@@ -1779,6 +1938,32 @@
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="103"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="25"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="111"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="95"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="106"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="117"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="128"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="139"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="107"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="119"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="131"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="143"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="155"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="53"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="58"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="60"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="62"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="64"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="66"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="72"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="74"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="76"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="78"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="80"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="83"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="87"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="101"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="142"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="220"/>
         <source>Ferocity</source>
         <translation>凶暴</translation>
     </message>
@@ -1791,6 +1976,9 @@
         <location filename="Class/Druid/Spells/Swipe.cpp" line="129"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="85"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="150"/>
+        <location filename="Test/Druid/Spells/TestMaul.cpp" line="166"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="65"/>
         <source>Savage Fury</source>
         <translation>野蛮暴怒</translation>
     </message>
@@ -1799,6 +1987,10 @@
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="114"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="156"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="188"/>
+        <location filename="Class/Druid/TalentTrees/Balance.cpp" line="201"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="13"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="60"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="57"/>
         <source>Moonfire</source>
         <translation>月火术</translation>
     </message>
@@ -1807,6 +1999,10 @@
         <location filename="Class/Druid/Spells/Moonfire.cpp" line="218"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="15"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="111"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="114"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="137"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="137"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="57"/>
         <source>Improved Moonfire</source>
         <translation>强化月火术</translation>
     </message>
@@ -1823,6 +2019,14 @@
         <location filename="Class/Paladin/Buffs/Vengeance.cpp" line="9"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="28"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="157"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="114"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="137"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="137"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="63"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="363"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="36"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="38"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="80"/>
         <source>Vengeance</source>
         <translation>复仇</translation>
     </message>
@@ -1835,6 +2039,10 @@
         <location filename="Class/Druid/Spells/Wrath.cpp" line="145"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="24"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="183"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="175"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="234"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="234"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="66"/>
         <source>Moonglow</source>
         <translation>月光</translation>
     </message>
@@ -1847,12 +2055,23 @@
         <location filename="Class/Druid/Spells/Wrath.cpp" line="148"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="25"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="196"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="149"/>
+        <location filename="Test/Druid/Spells/TestMoonfire.cpp" line="162"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="151"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="165"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="151"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="165"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="67"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="69"/>
         <source>Moonfury</source>
         <translation>月怒</translation>
     </message>
     <message>
         <location filename="Class/Druid/Spells/Shred.cpp" line="15"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="132"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="11"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="50"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="77"/>
         <source>Shred</source>
         <translation>撕碎</translation>
     </message>
@@ -1861,13 +2080,21 @@
         <location filename="Class/Druid/Spells/Shred.cpp" line="122"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="12"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="130"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="94"/>
+        <location filename="Test/Druid/Spells/TestShred.cpp" line="106"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="61"/>
         <source>Improved Shred</source>
         <translation>强化撕碎</translation>
     </message>
     <message>
         <location filename="Class/Druid/Spells/Starfire.cpp" line="17"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="155"/>
+        <location filename="Class/Druid/TalentTrees/Balance.cpp" line="167"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="187"/>
+        <location filename="Class/Druid/TalentTrees/Balance.cpp" line="200"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="13"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="80"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="61"/>
         <source>Starfire</source>
         <translation>星火术</translation>
     </message>
@@ -1876,6 +2103,13 @@
         <location filename="Class/Druid/Spells/Starfire.cpp" line="144"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="22"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="164"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="179"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="188"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="197"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="206"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="215"/>
+        <location filename="Test/Druid/Spells/TestStarfire.cpp" line="246"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="64"/>
         <source>Improved Starfire</source>
         <translation>强化星火术</translation>
     </message>
@@ -1883,6 +2117,9 @@
         <location filename="Class/Druid/Spells/Swipe.cpp" line="15"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="87"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="106"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="11"/>
+        <location filename="Test/Druid/Spells/TestSwipe.cpp" line="62"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="81"/>
         <source>Swipe</source>
         <translation>挥击</translation>
     </message>
@@ -1891,6 +2128,10 @@
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="93"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="157"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="189"/>
+        <location filename="Class/Druid/TalentTrees/Balance.cpp" line="202"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="13"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="80"/>
+        <location filename="Test/Druid/TestSpellDruid.cpp" line="53"/>
         <source>Wrath</source>
         <translation>愤怒</translation>
     </message>
@@ -1899,6 +2140,13 @@
         <location filename="Class/Druid/Spells/Wrath.cpp" line="139"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="11"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="91"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="179"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="188"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="197"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="206"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="215"/>
+        <location filename="Test/Druid/Spells/TestWrath.cpp" line="245"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="53"/>
         <source>Improved Wrath</source>
         <translation>强化愤怒</translation>
     </message>
@@ -1910,36 +2158,42 @@
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="12"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="30"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="54"/>
         <source>Nature&apos;s Grasp</source>
         <translation>自然之握</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="105"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="55"/>
         <source>Improved Nature&apos;s Grasp</source>
         <translation>强化自然之握</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="14"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="40"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="56"/>
         <source>Improved Entangling Roots</source>
         <translation>强化纠缠根须</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="16"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="132"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="58"/>
         <source>Natural Weapons</source>
         <translation>武器平衡</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="18"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="50"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="60"/>
         <source>Improved Thorns</source>
         <translation>强化荆棘术</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="20"/>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="52"/>
+        <location filename="Test/Druid/Talents/TestBalance.cpp" line="62"/>
         <source>Nature&apos;s Reach</source>
         <translation>自然延伸</translation>
     </message>
@@ -2035,6 +2289,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="10"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="22"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="56"/>
         <source>Brutal Impact</source>
         <translation>野蛮冲撞</translation>
     </message>
@@ -2043,24 +2298,29 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="24"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="19"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="43"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="57"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="136"/>
         <source>Thick Hide</source>
         <translation>厚皮</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="11"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="32"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="58"/>
         <source>Feline Swiftness</source>
         <translation>豹之迅捷</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="11"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="35"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="59"/>
         <source>Feral Charge</source>
         <translation>野性冲锋</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="50"/>
+        <location filename="Test/Druid/Talents/TestFeralCombat.cpp" line="66"/>
         <source>Faerie Fire (Feral)</source>
         <translation>精灵之火（野性）</translation>
     </message>
@@ -2153,49 +2413,61 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="11"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="29"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="53"/>
         <source>Improved Mark of the Wild</source>
         <translation>强化野性印记</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="13"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="37"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="55"/>
         <source>Improved Healing Touch</source>
         <translation>强化治疗之触</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="14"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="39"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="56"/>
         <source>Nature&apos;s Focus</source>
         <translation>自然集中</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="16"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="110"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="58"/>
         <source>Reflection</source>
         <translation>反射</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="17"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="49"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="59"/>
         <source>Insect Swarm</source>
         <translation>虫群</translation>
     </message>
     <message>
+        <source>Subtlety</source>
+        <translation type="vanished">敏锐</translation>
+    </message>
+    <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="18"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="52"/>
-        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="12"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="60"/>
         <source>Subtlety</source>
-        <translation>敏锐</translation>
+        <comment>Druid talent</comment>
+        <translation>微妙</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="19"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="59"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="61"/>
         <source>Tranquil Spirit</source>
         <translation>宁静之魂</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="20"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="61"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="62"/>
         <source>Improved Rejuvenation</source>
         <translation>强化回春术</translation>
     </message>
@@ -2204,30 +2476,37 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="67"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="53"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="63"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="80"/>
         <source>Nature&apos;s Swiftness</source>
         <translation>自然迅捷</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="22"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="69"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="64"/>
         <source>Gift of Nature</source>
         <translation>自然赐福</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="23"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="71"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="65"/>
         <source>Improved Tranquility</source>
         <translation>强化宁静</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="24"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="77"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="66"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="68"/>
         <source>Improved Regrowth</source>
         <translation>强化愈合</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="25"/>
         <location filename="Class/Druid/TalentTrees/RestorationDruid.cpp" line="83"/>
+        <location filename="Test/Druid/Talents/TestRestorationDruid.cpp" line="69"/>
         <source>Swiftmend</source>
         <translation>迅捷治愈</translation>
     </message>
@@ -2324,6 +2603,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/HunterSpells.cpp" line="32"/>
         <location filename="Class/Hunter/Spells/HuntersMark.cpp" line="10"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="97"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="143"/>
         <source>Hunter&apos;s Mark</source>
         <translation>猎人印记</translation>
     </message>
@@ -2333,6 +2613,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Procs/ImprovedAspectOfTheHawkProc.cpp" line="15"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="15"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="94"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="38"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="41"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="44"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="132"/>
         <source>Improved Aspect of the Hawk</source>
         <translation>强化雄鹰守护</translation>
     </message>
@@ -2343,6 +2627,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Equipment/SetBonusControl.cpp" line="156"/>
         <location filename="Equipment/SetBonusControl.cpp" line="332"/>
         <location filename="Equipment/SetBonusControl.cpp" line="338"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="137"/>
         <source>Rapid Fire</source>
         <translation>急速射击</translation>
     </message>
@@ -2378,6 +2663,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Equipment/SetBonusControl.cpp" line="171"/>
         <location filename="Equipment/SetBonusControl.cpp" line="348"/>
         <location filename="Equipment/SetBonusControl.cpp" line="353"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="14"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="113"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="117"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="566"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="117"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="142"/>
         <source>Aimed Shot</source>
         <translation>瞄准射击</translation>
     </message>
@@ -2399,6 +2690,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Equipment/SetBonusControl.cpp" line="311"/>
         <location filename="Equipment/SetBonusControl.cpp" line="350"/>
         <location filename="Equipment/SetBonusControl.cpp" line="354"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="8"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="107"/>
+        <location filename="Test/Hunter/TestSpellHunter.cpp" line="42"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="143"/>
         <source>Multi-Shot</source>
         <translation>多重射击</translation>
     </message>
@@ -2423,6 +2718,26 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="81"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="15"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="83"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="469"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="486"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="503"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="520"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="537"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="427"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="442"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="457"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="472"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="487"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="27"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="29"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="31"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="32"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="33"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="37"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="39"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="40"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="43"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="114"/>
         <source>Efficiency</source>
         <translation>效率</translation>
     </message>
@@ -2435,6 +2750,18 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="83"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="22"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="120"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="52"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="54"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="56"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="58"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="60"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="62"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="66"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="68"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="70"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="72"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="121"/>
+        <location filename="Test/Hunter/TestSpellHunter.cpp" line="92"/>
         <source>Mortal Shots</source>
         <translation>致死射击</translation>
     </message>
@@ -2443,6 +2770,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/AspectOfTheHawk.cpp" line="9"/>
         <location filename="Equipment/SetBonusControl.cpp" line="137"/>
         <location filename="Equipment/SetBonusControl.cpp" line="319"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="144"/>
         <source>Aspect of the Hawk</source>
         <translation>雄鹰守护</translation>
     </message>
@@ -2451,6 +2779,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/AutoShot.cpp" line="89"/>
         <location filename="Equipment/SetBonusControl.cpp" line="167"/>
         <location filename="Equipment/SetBonusControl.cpp" line="349"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="8"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="92"/>
         <source>Auto Shot</source>
         <translation>自动射击</translation>
     </message>
@@ -2460,6 +2790,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/HuntersMark.cpp" line="43"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="16"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="94"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="36"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="45"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="115"/>
         <source>Improved Hunter&apos;s Mark</source>
         <translation>强化猎人印记</translation>
     </message>
@@ -2469,6 +2802,14 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="85"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="24"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="131"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="196"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="211"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="226"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="142"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="80"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="82"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="84"/>
+        <location filename="Test/Hunter/Talents/TestMarksmanship.cpp" line="123"/>
         <source>Barrage</source>
         <translation>弹幕</translation>
     </message>
@@ -2498,66 +2839,102 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="16"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="33"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="27"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="29"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="31"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="32"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="33"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="37"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="39"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="40"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="43"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="98"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="133"/>
         <source>Endurance Training</source>
         <translation>耐久训练</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="17"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="39"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="134"/>
         <source>Improved Eyes of the Beast</source>
         <translation>强化野兽之眼</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="18"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="41"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="36"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="45"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="99"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="135"/>
         <source>Improved Aspect of the Monkey</source>
         <translation>强化灵猴守护</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="20"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="45"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="54"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="137"/>
         <source>Improved Revive Pet</source>
         <translation>强化复活宠物</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="21"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="51"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="49"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="138"/>
         <source>Pathfinding</source>
         <translation>寻路</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="22"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="55"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="50"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="139"/>
         <source>Bestial Swiftness</source>
         <translation>野兽迅捷</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="23"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="103"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="48"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="100"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="140"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="162"/>
         <source>Unleashed Fury</source>
         <translation>狂怒释放</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="24"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="61"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="51"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="102"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="141"/>
         <source>Improved Mend Pet</source>
         <translation>强化治疗宠物</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="26"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="67"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="52"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="95"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="143"/>
         <source>Spirit Bond</source>
         <translation>灵魂联结</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="27"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="70"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="92"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="144"/>
         <source>Intimidation</source>
         <translation>胁迫</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="28"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="119"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="53"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="145"/>
         <source>Bestial Discipline</source>
         <translation>野兽戒律</translation>
     </message>
@@ -2565,6 +2942,22 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Procs/FrenzyProc.cpp" line="15"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="29"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="127"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="57"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="59"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="61"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="63"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="65"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="67"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="69"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="73"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="75"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="77"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="79"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="81"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="82"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="88"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="104"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="146"/>
         <source>Frenzy</source>
         <translation>狂乱</translation>
     </message>
@@ -2574,6 +2967,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="30"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="136"/>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="140"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="91"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="93"/>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="147"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="142"/>
         <source>Bestial Wrath</source>
         <translation>狂野怒火</translation>
     </message>
@@ -2665,12 +3062,36 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="80"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="336"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="356"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="376"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="201"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="217"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="233"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="332"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="349"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="366"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="38"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="41"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="44"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="59"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="98"/>
         <source>Monster Slaying</source>
         <translation>怪物杀手</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="97"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="396"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="416"/>
+        <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="436"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="249"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="265"/>
+        <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="281"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="383"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="400"/>
+        <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="417"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="97"/>
         <source>Humanoid Slaying</source>
         <translation>人型生物杀手</translation>
     </message>
@@ -2683,72 +3104,130 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="51"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="24"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="43"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="27"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="29"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="31"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="32"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="33"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="37"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="39"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="40"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="43"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="99"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="29"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="71"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="37"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="46"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="53"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="133"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="143"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="28"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="30"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="32"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="33"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="34"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="38"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="40"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="41"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="44"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="76"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="80"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="81"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="84"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="133"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="139"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="173"/>
         <source>Deflection</source>
         <translation>偏斜</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="10"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="22"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="100"/>
         <source>Entrapment</source>
         <translation>诱捕</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="26"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="36"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="45"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="101"/>
         <source>Savage Strikes</source>
         <translation>野蛮打击</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="29"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="48"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="102"/>
         <source>Improved Wing Clip</source>
         <translation>强化摔绊</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="34"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="103"/>
         <source>Clever Traps</source>
         <translation>灵巧陷阱</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="11"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="38"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="49"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="104"/>
         <source>Survivalist</source>
         <translation>生存专家</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="40"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="55"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="105"/>
         <source>Deterrence</source>
         <translation>威慑</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="45"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="51"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="106"/>
         <source>Trap Mastery</source>
         <translation>陷阱掌握</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="111"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="80"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="50"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="107"/>
         <source>Surefooted</source>
         <translation>稳固</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="12"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="48"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="108"/>
         <source>Improved Feign Death</source>
         <translation>强化假死</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="120"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="111"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="64"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="66"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="68"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="109"/>
         <source>Killer Instinct</source>
         <translation>杀戮本能</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="54"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="54"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="56"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="110"/>
         <source>Counterattack</source>
         <translation>反击</translation>
     </message>
@@ -2757,12 +3236,33 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="129"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="24"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="46"/>
+        <location filename="Test/Hunter/Talents/TestHunterTalentStatIncrease.cpp" line="44"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="60"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="111"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="28"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="30"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="32"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="33"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="34"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="38"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="40"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="41"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="44"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="47"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="91"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="94"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="141"/>
         <source>Lightning Reflexes</source>
         <translation>闪电反射</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="13"/>
         <location filename="Class/Hunter/TalentTrees/Survival.cpp" line="65"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="63"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="65"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="67"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="69"/>
+        <location filename="Test/Hunter/Talents/TestSurvival.cpp" line="112"/>
         <source>Wyvern Sting</source>
         <translation>翼龙钉刺</translation>
     </message>
@@ -2860,6 +3360,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="134"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="137"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="51"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="55"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="60"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="104"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="100"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="104"/>
         <source>Arcane Power</source>
         <translation>奥术强化</translation>
     </message>
@@ -2872,9 +3378,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="13"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="20"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="129"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="85"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="106"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="131"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="86"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="107"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="132"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="10"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="85"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="55"/>
         <source>Frostbolt</source>
         <translation>寒冰箭</translation>
     </message>
@@ -2893,6 +3402,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Scorch.cpp" line="18"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="117"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="128"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="10"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="73"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="51"/>
         <source>Scorch</source>
         <translation>灼烧</translation>
     </message>
@@ -2902,6 +3414,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="99"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="127"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="138"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="10"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="81"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="47"/>
         <source>Fireball</source>
         <translation>火球术</translation>
     </message>
@@ -2909,6 +3424,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="18"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="17"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="47"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="37"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="41"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="43"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="93"/>
         <source>Pyroblast</source>
         <translation>炎爆术</translation>
     </message>
@@ -2916,6 +3435,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="19"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="23"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="64"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="36"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="38"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="42"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="99"/>
         <source>Blast Wave</source>
         <translation>冲击波</translation>
     </message>
@@ -2937,6 +3460,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Mage/Buffs/ArcanePowerBuff.cpp" line="23"/>
         <location filename="Class/Mage/Spells/ArcaneMissiles.cpp" line="14"/>
+        <location filename="Test/Mage/Spells/TestArcaneMissiles.cpp" line="8"/>
+        <location filename="Test/Mage/Spells/TestArcaneMissiles.cpp" line="27"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="59"/>
         <source>Arcane Missiles</source>
         <translation>奥术飞弹</translation>
     </message>
@@ -2947,6 +3473,11 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="25"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="152"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="156"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="51"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="53"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="55"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="57"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="101"/>
         <source>Combustion</source>
         <translation>燃烧</translation>
     </message>
@@ -2971,6 +3502,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Evocation.cpp" line="10"/>
         <location filename="Equipment/SetBonusControl.cpp" line="195"/>
         <location filename="Equipment/SetBonusControl.cpp" line="377"/>
+        <location filename="Test/Mage/Spells/TestEvocation.cpp" line="12"/>
+        <location filename="Test/Mage/Spells/TestEvocation.cpp" line="27"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="63"/>
         <source>Evocation</source>
         <translation>唤醒</translation>
     </message>
@@ -2986,12 +3520,22 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="12"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="106"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="108"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="252"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="272"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="286"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="200"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="220"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="29"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="88"/>
         <source>Ignite</source>
         <translation>点燃</translation>
     </message>
     <message>
         <location filename="Class/Mage/Buffs/MageArmorBuff.cpp" line="9"/>
         <location filename="Class/Mage/Spells/MageArmor.cpp" line="8"/>
+        <location filename="Test/Mage/Spells/TestMageArmor.cpp" line="13"/>
+        <location filename="Test/Mage/Spells/TestMageArmor.cpp" line="24"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="67"/>
         <source>Mage Armor</source>
         <translation>魔甲术</translation>
     </message>
@@ -3000,8 +3544,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/MageSpells.cpp" line="36"/>
         <location filename="Class/Mage/Procs/WintersChillProc.cpp" line="9"/>
         <location filename="Class/Mage/Procs/WintersChillProc.cpp" line="16"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="137"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="138"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="50"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="99"/>
         <source>Winter&apos;s Chill</source>
         <translation>深冬之寒</translation>
     </message>
@@ -3020,6 +3566,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Procs/ClearcastingMage.cpp" line="16"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="99"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="30"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="94"/>
         <source>Arcane Concentration</source>
         <translation>奥术专注</translation>
     </message>
@@ -3031,6 +3579,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Scorch.cpp" line="174"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="19"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="90"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="258"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="270"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="95"/>
         <source>Improved Scorch</source>
         <translation>强化灼烧</translation>
     </message>
@@ -3040,6 +3591,13 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Fireball.cpp" line="233"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="10"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="97"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="138"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="147"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="156"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="165"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="174"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="27"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="86"/>
         <source>Improved Fireball</source>
         <translation>强化火球术</translation>
     </message>
@@ -3048,6 +3606,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Scorch.cpp" line="30"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="18"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="50"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="94"/>
         <source>Burning Soul</source>
         <translation>燃烧之魂</translation>
     </message>
@@ -3063,6 +3622,16 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Scorch.cpp" line="176"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="21"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="123"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="184"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="197"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="210"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="188"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="201"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="214"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="132"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="145"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="158"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="97"/>
         <source>Master of Elements</source>
         <translation>元素大师</translation>
     </message>
@@ -3075,6 +3644,11 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Scorch.cpp" line="178"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="22"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="136"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="52"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="54"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="56"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="58"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="98"/>
         <source>Critical Mass</source>
         <translation>火焰重击</translation>
     </message>
@@ -3087,8 +3661,15 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="30"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="204"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="215"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="10"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="83"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="84"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="142"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="151"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="160"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="169"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="178"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="28"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="85"/>
         <source>Improved Frostbolt</source>
         <translation>强化寒冰箭</translation>
     </message>
@@ -3096,8 +3677,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="31"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="206"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="217"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="103"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="104"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="256"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="271"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="30"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="87"/>
         <source>Ice Shards</source>
         <translation>寒冰碎片</translation>
     </message>
@@ -3105,8 +3690,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="32"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="208"/>
         <location filename="Class/Mage/Spells/Frostbolt.cpp" line="219"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="128"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="129"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="95"/>
         <source>Frost Channeling</source>
         <translation>冰霜导能</translation>
     </message>
@@ -3124,6 +3710,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Scorch.cpp" line="29"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="15"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="114"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="46"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="91"/>
         <source>Incinerate</source>
         <translation>烧尽</translation>
     </message>
@@ -3140,84 +3728,125 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="82"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="47"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="89"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="87"/>
         <source>Arcane Subtlety</source>
         <translation>奥术精妙</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="90"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="27"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="90"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="116"/>
         <source>Arcane Focus</source>
         <translation>奥术集中</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="17"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="28"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="91"/>
         <source>Improved Arcane Missiles</source>
         <translation>强化奥术飞弹</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="10"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="25"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="92"/>
         <source>Wand Specialization</source>
         <translation>魔杖专精</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="28"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="29"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="93"/>
         <source>Magic Absorption</source>
         <translation>Magic Absorption</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="34"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="48"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="95"/>
         <source>Magic Attunement</source>
         <translation>魔法协调</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="11"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="37"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="96"/>
         <source>Improved Arcane Explosion</source>
         <translation>强化魔爆术</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="40"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="36"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="40"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="42"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="45"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="97"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="175"/>
         <source>Arcane Resilience</source>
         <translation>奥术充沛</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="46"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="98"/>
         <source>Improved Mana Shield</source>
         <translation>强化法力护盾</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="49"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="99"/>
         <source>Improved Counterspell</source>
         <translation>强化法术反制</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="12"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="108"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="100"/>
         <source>Arcane Meditation</source>
         <translation>奥术冥想</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="56"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="54"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="57"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="101"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="213"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="98"/>
         <source>Presence of Mind</source>
         <translation>气定神闲</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="117"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="35"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="37"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="41"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="46"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="102"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="177"/>
         <source>Arcane Mind</source>
         <translation>奥术心智</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="13"/>
         <location filename="Class/Mage/TalentTrees/Arcane.cpp" line="125"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="52"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="56"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="59"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="61"/>
+        <location filename="Test/Mage/Talents/TestArcane.cpp" line="103"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="214"/>
+        <location filename="Test/Mage/TestSpellMage.cpp" line="99"/>
         <source>Arcane Instability</source>
         <translation>奥术增效</translation>
     </message>
@@ -3305,36 +3934,52 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="11"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="29"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="28"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="87"/>
         <source>Impact</source>
         <translation>冲击</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="13"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="35"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="30"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="89"/>
         <source>Flame Throwing</source>
         <translation>烈焰投掷</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="14"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="37"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="31"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="90"/>
         <source>Improved Fire Blast</source>
         <translation>强化火焰冲击</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="16"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="45"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="47"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="92"/>
         <source>Improved Flamestrike</source>
         <translation>强化烈焰风暴</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="20"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="57"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="96"/>
         <source>Improved Fire Ward</source>
         <translation>强化防护火焰结界</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="24"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="144"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="224"/>
+        <location filename="Test/Mage/Spells/TestFireball.cpp" line="238"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="172"/>
+        <location filename="Test/Mage/Spells/TestScorch.cpp" line="186"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="48"/>
+        <location filename="Test/Mage/Talents/TestFire.cpp" line="100"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="50"/>
         <source>Fire Power</source>
         <translation>火焰强化</translation>
     </message>
@@ -3420,172 +4065,209 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>激活之后，你每一次施放火焰系伤害性法术，你的该类法术的爆击几率都会提高10%。这个效果会一直持续到你使用火焰系法术造成了3次爆击。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="8"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="9"/>
         <source>Frost</source>
         <translation>冰霜</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="10"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="18"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="19"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="27"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="84"/>
         <source>Frost Warding</source>
         <translation>冰霜障壁</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="10"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="91"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="92"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="29"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="86"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="317"/>
         <source>Elemental Precision</source>
         <translation>元素精准</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="28"/>
-        <location filename="Test/Test.cpp" line="135"/>
-        <location filename="Test/Test.cpp" line="159"/>
         <source>Frostbite</source>
-        <translation>霜寒刺骨</translation>
+        <translation type="vanished">霜寒刺骨</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="11"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="30"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="31"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="36"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="38"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="42"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="44"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="47"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="89"/>
         <source>Improved Frost Nova</source>
         <translation>强化冰霜新星</translation>
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="32"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="29"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="88"/>
+        <source>Frostbite</source>
+        <comment>Mage Frost Talent 2ML</comment>
+        <translation>霜寒刺骨</translation>
+    </message>
+    <message>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="33"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="90"/>
         <source>Permafrost</source>
         <translation>极寒冰霜</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="112"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="113"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="228"/>
+        <location filename="Test/Mage/Spells/TestFrostbolt.cpp" line="242"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="91"/>
+        <location filename="Test/Mage/Talents/TestMageTalentStatIncrease.cpp" line="356"/>
         <source>Piercing Ice</source>
         <translation>刺骨寒冰</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="12"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="39"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="40"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="92"/>
         <source>Cold Snap</source>
         <translation>急速冷却</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="122"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="123"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="93"/>
         <source>Improved Blizzard</source>
         <translation>强化暴风雪</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="13"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="47"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="48"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="94"/>
         <source>Arctic Reach</source>
         <translation>极寒延伸</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="50"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="51"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="35"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="37"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="39"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="43"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="48"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="96"/>
         <source>Shatter</source>
         <translation>碎冰</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="56"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="57"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="54"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="56"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="97"/>
         <source>Ice Block</source>
         <translation>寒冰屏障</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="14"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="60"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="61"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="49"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="98"/>
         <source>Improved Cone of Cold</source>
         <translation>强化冰锥术</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="15"/>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="70"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="16"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="71"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="53"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="55"/>
+        <location filename="Test/Mage/Talents/TestFrost.cpp" line="100"/>
         <source>Ice Barrier</source>
         <translation>寒冰护体</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="19"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="20"/>
         <source>Increases the armor and resistances given by your Frost Armor and Ice Armor spells by %1%. In addition, gives your Frost Ward a %2% chance to reflect Frost spells and effects while active.</source>
         <translation>使你的霜甲术和冰甲术所提供的护甲值和抗性提高%1%。另外，你的防护冰霜结界有%2%的几率将冰霜系法术和魔法效果反射给施法者。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="29"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="30"/>
         <source>Gives your Chill effects a %1% chance to freeze the target for 5 sec.</source>
         <translation>使你的寒冷效果有%1%的几率将目标冰冻5秒。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="31"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="32"/>
         <source>Reduces the cooldown of your Frost Nova spell by %1 sec.</source>
         <translation>使你的冰霜新星的冷却时间减少%1秒。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="33"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="34"/>
         <source>Increases the duration of your Chill effects by %1 sec and reduces the target&apos;s speed by an additional %2%.</source>
         <translation>使你的冰冷效果的持续时间延长%1秒，并使目标身上的减速效果提高%2%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="40"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="41"/>
         <source>When activated, this spell finishes the cooldown on all of your Frost spells.</source>
         <translation>激活之后，使你的所有冰霜法术的冷却时间结束。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="48"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="49"/>
         <source>Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by %1%.</source>
         <translation>使你的冰霜新星和冰锥术的有效半径以及寒冰箭和暴风雪的射程提高%1%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="51"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="52"/>
         <source>Increases the critical strike chance of all your spells against frozen targets by %1%.</source>
         <translation>使你的所有法术在击中被冰冻的敌人时造成爆击的几率提高%1%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="57"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="58"/>
         <source>You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move or cast spells.</source>
         <translation>你被一道寒冰屏障所笼罩，在10秒内不会受到任何物理和法术伤害，但是在这期间你也无法攻击、移动或施法。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="61"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="62"/>
         <source>Increases the damage dealt by your Cone of Cold spell by %1%.</source>
         <translation>使你的冰锥术所造成的伤害提高%1%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="71"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="72"/>
         <source>Instantly shields you, absorbing 438 damage. Lasts 1 min. While the shield holds, spells will not be interrupted.</source>
         <translation>立即为目标加上魔法护盾，可吸收438点伤害，持续1分钟。只要护盾存在，受保护者的施法就不会被打断。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="84"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="85"/>
         <source>Reduces the casting time of your Frostbolt spell by %1 sec.</source>
         <translation>使你的寒冰箭的施法时间减少%1秒。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="92"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="93"/>
         <source>Reduces the chance that the opponent can resist your Frost and Fire spells by %1%.</source>
         <translation>使你的目标抵抗你的火焰和冰霜系法术的几率降低%1%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="104"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="105"/>
         <source>Increases the critical strike damage bonus of your Frost spells by %1%.</source>
         <translation>使你的冰霜法术爆击所造成的伤害提高%1%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="113"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="114"/>
         <source>Increases the damage done by your Frost spells by %1%.</source>
         <translation>使你的冰霜法术所造成的伤害提高%1%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="120"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="121"/>
         <source>Adds a chill effect to your Blizzard spell. This effect lowers the target&apos;s movement speed by %1%. Lasts 1.50 sec.</source>
         <translation>为你的暴风雪法术增加冰冷效果，使目标的移动速度降低%1%,持续1.5秒。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="129"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="130"/>
         <source>Reduces the mana cost of your Frost spells by %1% and reduces the threat caused by your Frost spells by %2%.</source>
         <translation>使你的所有冰霜法术所消耗的法力值减少%1%，冰霜系法术所造成的威胁值降低%2%。</translation>
     </message>
     <message>
-        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="138"/>
+        <location filename="Class/Mage/TalentTrees/Frost.cpp" line="139"/>
         <source>Gives your Frost damage spells a %1% chance to apply the Winter&apos;s Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec. Stacks up to 5 times.</source>
         <translation>你的冰霜系伤害法术有%1%的几率附加深冬之寒效果，令冰霜系法术对目标造成爆击的几率提高2%，效果持续15秒，可叠加最多5次。</translation>
     </message>
@@ -3600,6 +4282,13 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="16"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="106"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="109"/>
+        <location filename="Test/Paladin/Spells/TestConsecration.cpp" line="16"/>
+        <location filename="Test/Paladin/Spells/TestConsecration.cpp" line="31"/>
+        <location filename="Test/Paladin/Spells/TestConsecration.cpp" line="35"/>
+        <location filename="Test/Paladin/Spells/TestConsecration.cpp" line="134"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="50"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="123"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="158"/>
         <source>Consecration</source>
         <translation>奉献</translation>
     </message>
@@ -3608,6 +4297,11 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/Spells/Judgement.cpp" line="12"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="89"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="98"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="19"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="94"/>
+        <location filename="Test/Paladin/TestSpellPaladin.cpp" line="48"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="156"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="177"/>
         <source>Judgement</source>
         <translation>审判</translation>
     </message>
@@ -3619,6 +4313,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="27"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="149"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="151"/>
+        <location filename="Test/Paladin/Spells/TestConsecration.cpp" line="110"/>
+        <location filename="Test/Paladin/Spells/TestConsecration.cpp" line="113"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="355"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="356"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="33"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="79"/>
         <source>Sanctity Aura</source>
         <translation>圣洁光环</translation>
     </message>
@@ -3643,6 +4343,23 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/Spells/SealOfTheCrusader.cpp" line="19"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="16"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="84"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="145"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="160"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="175"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="190"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="205"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="101"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="116"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="131"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="146"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="161"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="185"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="199"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="213"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="227"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="241"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="28"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="68"/>
         <source>Benediction</source>
         <translation>祈福</translation>
     </message>
@@ -3652,6 +4369,9 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/Spells/Judgement.cpp" line="43"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="17"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="96"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="220"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="225"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="69"/>
         <source>Improved Judgement</source>
         <translation>强化审判</translation>
     </message>
@@ -3664,6 +4384,18 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="22"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="87"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="128"/>
+        <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="133"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="14"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="53"/>
+        <location filename="Test/Paladin/Spells/TestSealOfCommand.cpp" line="57"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="397"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="415"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="433"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="451"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="469"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="74"/>
+        <location filename="Test/Paladin/TestSpellPaladin.cpp" line="57"/>
+        <location filename="Test/Paladin/TestSpellPaladin.cpp" line="120"/>
         <source>Seal of Command</source>
         <translation>命令圣印</translation>
     </message>
@@ -3672,6 +4404,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/Spells/SealOfTheCrusader.cpp" line="11"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="88"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="105"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="11"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="114"/>
+        <location filename="Test/Paladin/TestSpellPaladin.cpp" line="61"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="153"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="157"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="177"/>
         <source>Seal of the Crusader</source>
         <translation>十字军圣印</translation>
     </message>
@@ -3683,78 +4421,137 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="11"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="91"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="38"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="41"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="44"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="118"/>
+        <location filename="Test/Paladin/Talents/TestPaladinTalentStatIncrease.cpp" line="201"/>
         <source>Divine Strength</source>
         <translation>神圣之力</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="12"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="98"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="27"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="29"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="31"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="32"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="33"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="37"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="39"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="40"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="43"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="84"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="119"/>
+        <location filename="Test/Paladin/Talents/TestPaladinTalentStatIncrease.cpp" line="237"/>
         <source>Divine Intellect</source>
         <translation>神圣智慧</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="13"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="33"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="36"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="45"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="85"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="120"/>
         <source>Spiritual Focus</source>
         <translation>精神集中</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="14"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="36"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="121"/>
         <source>Improved Seal of Righteousness</source>
         <translation>强化正义圣印</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="15"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="41"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="49"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="122"/>
         <source>Healing Light</source>
         <translation>治疗之光</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="17"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="44"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="48"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="86"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="87"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="124"/>
         <source>Improved Lay on Hands</source>
         <translation>强化圣疗术</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="18"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="48"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="51"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="125"/>
         <source>Unyielding Faith</source>
         <translation>不灭信仰</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="19"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="54"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="56"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="58"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="60"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="62"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="64"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="69"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="71"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="74"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="126"/>
         <source>Illumination</source>
         <translation>启发</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="20"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="58"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="52"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="88"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="127"/>
         <source>Improved Blessing of Wisdom</source>
         <translation>强化智慧祝福</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="21"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="64"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="55"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="57"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="59"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="61"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="63"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="65"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="70"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="79"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="89"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="128"/>
         <source>Divine Favor</source>
         <translation>神恩术</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="22"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="67"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="129"/>
         <source>Lasting Judgement</source>
         <translation>持久审判</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="23"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="73"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="75"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="90"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="130"/>
         <source>Holy Power</source>
         <translation>神圣强化</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="24"/>
         <location filename="Class/Paladin/TalentTrees/HolyPaladin.cpp" line="78"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="78"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="80"/>
+        <location filename="Test/Paladin/Talents/TestHolyPaladin.cpp" line="131"/>
         <source>Holy Shock</source>
         <translation>神圣震击</translation>
     </message>
@@ -3837,12 +4634,30 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="10"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="27"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="37"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="40"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="43"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="48"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="81"/>
         <source>Improved Devotion Aura</source>
         <translation>强化虔诚光环</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="11"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="30"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="26"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="28"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="30"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="31"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="32"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="36"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="38"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="39"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="42"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="49"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="51"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="53"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="82"/>
         <source>Redoubt</source>
         <translation>盾牌壁垒</translation>
     </message>
@@ -3851,12 +4666,30 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="97"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="27"/>
         <location filename="Class/Rogue/TalentTrees/Combat/Precision.cpp" line="6"/>
+        <location filename="Test/Paladin/Talents/TestPaladinTalentStatIncrease.cpp" line="125"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="35"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="44"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="83"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="58"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="60"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="62"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="64"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="66"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="70"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="72"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="74"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="76"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="78"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="144"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="178"/>
         <source>Precision</source>
         <translation>精确</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="13"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="36"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="45"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="84"/>
         <source>Guardian&apos;s Favor</source>
         <translation>守护者的宠爱</translation>
     </message>
@@ -3867,18 +4700,24 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="53"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="14"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="41"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="85"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="54"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="98"/>
+        <location filename="Test/Warrior/Talents/TestDefiance.cpp" line="22"/>
         <source>Toughness</source>
         <translation>坚韧</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="15"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="45"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="86"/>
         <source>Blessing of Kings</source>
         <translation>王者祝福</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="16"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="49"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="87"/>
         <source>Improved Righteous Fury</source>
         <translation>强化正义之怒</translation>
     </message>
@@ -3889,6 +4728,11 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="24"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="11"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="31"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="50"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="52"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="88"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="28"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="89"/>
         <source>Shield Specialization</source>
         <translation>盾牌专精</translation>
     </message>
@@ -3899,30 +4743,38 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="49"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="12"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="34"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="89"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="29"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="96"/>
+        <location filename="Test/Warrior/Talents/TestDefiance.cpp" line="21"/>
         <source>Anticipation</source>
         <translation>预知</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="19"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="59"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="90"/>
         <source>Improved Hammer of Justice</source>
         <translation>强化制裁之锤</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="20"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="62"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="91"/>
         <source>Improved Concentration Aura</source>
         <translation>强化专注光环</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="21"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="68"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="92"/>
         <source>Blessing of Sanctuary</source>
         <translation>庇护祝福</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="22"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="73"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="93"/>
         <source>Reckoning</source>
         <translation>清算</translation>
     </message>
@@ -3931,12 +4783,15 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="105"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="25"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="82"/>
+        <location filename="Test/Paladin/Talents/TestPaladinTalentStatIncrease.cpp" line="157"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="94"/>
         <source>One-Handed Weapon Specialization</source>
         <translation>单手武器专精</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="24"/>
         <location filename="Class/Paladin/TalentTrees/ProtectionPaladin.cpp" line="83"/>
+        <location filename="Test/Paladin/Talents/TestProtectionPaladin.cpp" line="95"/>
         <source>Holy Shield</source>
         <translation>神圣之盾</translation>
     </message>
@@ -4026,6 +4881,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="15"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="33"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="27"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="67"/>
         <source>Improved Blessing of Might</source>
         <translation>强化力量祝福</translation>
     </message>
@@ -4034,36 +4891,55 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/Buffs/SealOfTheCrusaderBuff.cpp" line="14"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="18"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="110"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="266"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="277"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="288"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="263"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="272"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="281"/>
+        <location filename="Test/Paladin/Spells/TestSealOfTheCrusader.cpp" line="302"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="70"/>
         <source>Improved Seal of the Crusader</source>
         <translation>强化十字军圣印</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="20"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="45"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="72"/>
         <source>Vindication</source>
         <translation>辩护</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="21"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="119"/>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="362"/>
+        <location filename="Test/Paladin/Talents/TestPaladinTalentStatIncrease.cpp" line="45"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="30"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="37"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="39"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="73"/>
         <source>Conviction</source>
         <translation>定罪</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="23"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="48"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="75"/>
         <source>Pursuit of Justice</source>
         <translation>正义追击</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="24"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="55"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="76"/>
         <source>Eye for an Eye</source>
         <translation>以眼还眼</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="25"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="59"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="31"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="77"/>
         <source>Improved Retribution Aura</source>
         <translation>强化惩罚光环</translation>
     </message>
@@ -4072,12 +4948,28 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="139"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="32"/>
         <location filename="Class/Warrior/TalentTrees/Arms/TwoHandedWeaponSpecialization.cpp" line="8"/>
+        <location filename="Test/Paladin/Talents/TestPaladinTalentStatIncrease.cpp" line="93"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="32"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="78"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="106"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="108"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="109"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="112"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="115"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="117"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="119"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="121"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="145"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="150"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="179"/>
+        <location filename="Test/Warrior/Talents/TestTwoHandedWeaponSpecialization.cpp" line="51"/>
         <source>Two-Handed Weapon Specialization</source>
         <translation>双手武器专精</translation>
     </message>
     <message>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="29"/>
         <location filename="Class/Paladin/TalentTrees/Retribution.cpp" line="73"/>
+        <location filename="Test/Paladin/Talents/TestRetribution.cpp" line="81"/>
         <source>Repentance</source>
         <translation>忏悔</translation>
     </message>
@@ -4179,6 +5071,14 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="40"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="165"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="166"/>
+        <location filename="Test/Rogue/Spells/TestAdrenalineRush.cpp" line="16"/>
+        <location filename="Test/Rogue/Spells/TestAdrenalineRush.cpp" line="35"/>
+        <location filename="Test/Rogue/Spells/TestAdrenalineRush.cpp" line="39"/>
+        <location filename="Test/Rogue/Spells/TestAdrenalineRush.cpp" line="162"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="130"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="136"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="151"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="186"/>
         <source>Adrenaline Rush</source>
         <translation>冲动</translation>
     </message>
@@ -4189,6 +5089,15 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="35"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="133"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="134"/>
+        <location filename="Test/Rogue/Spells/TestBladeFlurry.cpp" line="16"/>
+        <location filename="Test/Rogue/Spells/TestBladeFlurry.cpp" line="35"/>
+        <location filename="Test/Rogue/Spells/TestBladeFlurry.cpp" line="39"/>
+        <location filename="Test/Rogue/Spells/TestBladeFlurry.cpp" line="146"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="85"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="124"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="149"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="153"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="183"/>
         <source>Blade Flurry</source>
         <translation>剑刃乱舞</translation>
     </message>
@@ -4203,6 +5112,9 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="113"/>
         <location filename="Equipment/SetBonusControl.cpp" line="215"/>
+        <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="11"/>
+        <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="58"/>
+        <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="62"/>
         <source>Slice and Dice</source>
         <translation>切割</translation>
     </message>
@@ -4212,6 +5124,13 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="103"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="31"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="146"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="80"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="87"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="120"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="122"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="125"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="130"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="155"/>
         <source>Vile Poisons</source>
         <translation>恶性毒药</translation>
     </message>
@@ -4221,6 +5140,13 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="101"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="32"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="156"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="121"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="123"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="126"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="129"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="138"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="154"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="188"/>
         <source>Improved Poisons</source>
         <translation>强化毒药</translation>
     </message>
@@ -4238,6 +5164,11 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/RelentlessStrikes.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="28"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="123"/>
+        <location filename="Test/Rogue/Procs/TestRelentlessStrikes.cpp" line="12"/>
+        <location filename="Test/Rogue/Procs/TestRelentlessStrikes.cpp" line="33"/>
+        <location filename="Test/Rogue/Procs/TestRelentlessStrikes.cpp" line="66"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="152"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="186"/>
         <source>Relentless Strikes</source>
         <translation>无情打击</translation>
     </message>
@@ -4246,6 +5177,10 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/Ruthlessness.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="25"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="102"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="52"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="89"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="149"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="183"/>
         <source>Ruthlessness</source>
         <translation>无情</translation>
     </message>
@@ -4254,6 +5189,17 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/SealFate.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="35"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="166"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="12"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="49"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="86"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="93"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="100"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="107"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="114"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="132"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="134"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="157"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="190"/>
         <source>Seal Fate</source>
         <translation>封印命运</translation>
     </message>
@@ -4264,6 +5210,10 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="95"/>
         <location filename="Equipment/SetBonusControl.cpp" line="90"/>
         <location filename="Equipment/SetBonusControl.cpp" line="278"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="10"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="81"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="85"/>
+        <location filename="Test/Rogue/TestSpellRogue.cpp" line="44"/>
         <source>Backstab</source>
         <translation>背刺</translation>
     </message>
@@ -4273,6 +5223,11 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Backstab.cpp" line="86"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="25"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="112"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="52"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="82"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="90"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="142"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="177"/>
         <source>Improved Backstab</source>
         <translation>强化背刺</translation>
     </message>
@@ -4288,6 +5243,24 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="95"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="30"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="134"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="56"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="58"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="60"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="62"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="64"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="68"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="70"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="72"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="74"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="76"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="88"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="112"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="114"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="116"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="139"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="153"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="187"/>
+        <location filename="Test/Rogue/TestSpellRogue.cpp" line="114"/>
         <source>Lethality</source>
         <translation>致命偷袭</translation>
     </message>
@@ -4297,6 +5270,13 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Backstab.cpp" line="90"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="94"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="297"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="312"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="327"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="342"/>
+        <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="363"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="28"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="84"/>
         <source>Opportunity</source>
         <translation>伺机而动</translation>
     </message>
@@ -4328,6 +5308,9 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="154"/>
         <location filename="Equipment/SetBonusControl.cpp" line="84"/>
         <location filename="Equipment/SetBonusControl.cpp" line="272"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="12"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="123"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="127"/>
         <source>Eviscerate</source>
         <translation>剔骨</translation>
     </message>
@@ -4340,6 +5323,16 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="93"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="39"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="153"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="485"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="501"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="517"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="533"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="549"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="565"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="582"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="600"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="128"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="185"/>
         <source>Aggression</source>
         <translation>侵略</translation>
     </message>
@@ -4349,6 +5342,23 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="120"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="22"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="92"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="389"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="405"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="421"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="437"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="453"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="469"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="583"/>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="601"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="39"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="42"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="45"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="50"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="81"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="93"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="96"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="99"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="147"/>
         <source>Improved Eviscerate</source>
         <translation>强化剔骨</translation>
     </message>
@@ -4370,6 +5380,15 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="107"/>
         <location filename="Equipment/SetBonusControl.cpp" line="91"/>
         <location filename="Equipment/SetBonusControl.cpp" line="279"/>
+        <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="13"/>
+        <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="60"/>
+        <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="64"/>
+        <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="265"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="39"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="41"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="43"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="45"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="97"/>
         <source>Hemorrhage</source>
         <translation>出血</translation>
     </message>
@@ -4380,6 +5399,40 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warrior/Spells/OffhandAttackWarrior.cpp" line="18"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="22"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="130"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="57"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="59"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="61"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="63"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="65"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="69"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="71"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="73"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="75"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="77"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="81"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="88"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="112"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="114"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="117"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="131"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="147"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="181"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="175"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="191"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="207"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="223"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="239"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="270"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="286"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="302"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="318"/>
+        <location filename="Test/Warrior/Spells/TestOffhandAttackWarrior.cpp" line="334"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="94"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="108"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="109"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="110"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="111"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="149"/>
         <source>Dual Wield Specialization</source>
         <translation>双武器专精</translation>
     </message>
@@ -4390,6 +5443,9 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="155"/>
         <location filename="Equipment/SetBonusControl.cpp" line="92"/>
         <location filename="Equipment/SetBonusControl.cpp" line="280"/>
+        <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="12"/>
+        <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="67"/>
+        <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="71"/>
         <source>Sinister Strike</source>
         <translation>邪恶攻击</translation>
     </message>
@@ -4399,6 +5455,14 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="91"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="23"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="102"/>
+        <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="244"/>
+        <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="260"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="51"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="95"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="96"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="99"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="134"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="175"/>
         <source>Improved Sinister Strike</source>
         <translation>强化邪恶攻击</translation>
     </message>
@@ -4406,6 +5470,14 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="22"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="27"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="112"/>
+        <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="250"/>
+        <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="266"/>
+        <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="282"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="102"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="104"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="108"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="151"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="185"/>
         <source>Improved Slice And Dice</source>
         <translation>强化切割</translation>
     </message>
@@ -4431,30 +5503,81 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="23"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="39"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="51"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="94"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="95"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="98"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="141"/>
         <source>Remorseless Attacks</source>
         <translation>冷酷攻击</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="24"/>
         <location filename="Class/Rogue/TalentTrees/Assassination/Malice.cpp" line="6"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="28"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="30"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="32"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="33"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="34"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="38"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="40"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="41"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="44"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="47"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="57"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="59"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="61"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="63"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="65"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="69"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="71"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="73"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="75"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="77"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="90"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="148"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="182"/>
+        <location filename="Test/Rogue/TestSpellRogue.cpp" line="113"/>
         <source>Malice</source>
         <translation>恶意</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="26"/>
         <location filename="Class/Rogue/TalentTrees/Assassination/Murder.cpp" line="7"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="37"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="46"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="53"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="103"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="105"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="107"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="140"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="150"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="184"/>
         <source>Murder</source>
         <translation>密谋</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="29"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="53"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="111"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="113"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="117"/>
         <source>Improved Expose Armor</source>
         <translation>强化破甲</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="33"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="66"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="85"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="92"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="99"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="106"/>
+        <location filename="Test/Rogue/Procs/TestSealFate.cpp" line="113"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="84"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="133"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="156"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="160"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="189"/>
         <source>Cold Blood</source>
         <translation>冷血</translation>
     </message>
@@ -4467,6 +5590,9 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="36"/>
         <location filename="Class/Rogue/TalentTrees/Assassination/Vigor.cpp" line="7"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="137"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="143"/>
+        <location filename="Test/Rogue/Talents/TestAssassination.cpp" line="158"/>
         <source>Vigor</source>
         <translation>精力</translation>
     </message>
@@ -4553,24 +5679,44 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="22"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="43"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="39"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="42"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="45"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="50"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="97"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="100"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="140"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="176"/>
         <source>Improved Gouge</source>
         <translation>强化凿击</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="28"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="174"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="145"/>
         <source>Endurance</source>
         <translation>耐久</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="29"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="57"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="103"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="105"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="109"/>
         <source>Riposte</source>
         <translation>还击</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="30"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="62"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="54"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="89"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="104"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="106"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="108"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="132"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="146"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="179"/>
         <source>Improved Sprint</source>
         <translation>强化疾跑</translation>
     </message>
@@ -4584,6 +5730,12 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="32"/>
         <location filename="Class/Rogue/TalentTrees/Combat/DaggerSpecialization.cpp" line="8"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="113"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="115"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="118"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="122"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="148"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="180"/>
         <source>Dagger Specialization</source>
         <translation>匕首专精</translation>
     </message>
@@ -4602,6 +5754,14 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warrior/Procs/SwordSpecialization.cpp" line="21"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="37"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="152"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="182"/>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="68"/>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="72"/>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="78"/>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="84"/>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="90"/>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="96"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="181"/>
         <source>Sword Specialization</source>
         <translation>剑类武器专精</translation>
     </message>
@@ -4614,6 +5774,10 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="38"/>
         <location filename="Class/Rogue/TalentTrees/Combat/WeaponExpertise.cpp" line="8"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="123"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="125"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="150"/>
+        <location filename="Test/Rogue/Talents/TestCombat.cpp" line="184"/>
         <source>Weapon Expertise</source>
         <translation>武器专家</translation>
     </message>
@@ -4715,92 +5879,132 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <translation>使你的剑、拳套和匕首的武器技能提高%1点。</translation>
     </message>
     <message>
+        <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="12"/>
+        <source>Subtlety</source>
+        <comment>Rogue</comment>
+        <translation>敏锐</translation>
+    </message>
+    <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="21"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="83"/>
         <source>Master of Deception</source>
         <translation>欺诈高手</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="27"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="29"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="85"/>
         <source>Sleight of Hand</source>
         <translation>狡诈</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="32"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="30"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="86"/>
         <source>Elusiveness</source>
         <translation>飘忽不定</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="14"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="34"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="31"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="87"/>
         <source>Camouflage</source>
         <translation>伪装</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="41"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="32"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="88"/>
         <source>Initiative</source>
         <translation>先发制人</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="44"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="33"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="89"/>
         <source>Ghostly Strike</source>
         <translation>鬼魅攻击</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="47"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="34"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="90"/>
         <source>Improved Ambush</source>
         <translation>强化伏击</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="51"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="35"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="47"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="91"/>
         <source>Setup</source>
         <translation>调整</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="55"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="36"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="92"/>
         <source>Improved Sap</source>
         <translation>强化闷棍</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety/SerratedBlades.cpp" line="7"/>
+        <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="264"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="40"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="42"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="44"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="61"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="93"/>
         <source>Serrated Blades</source>
         <translation>锯齿利刃</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="62"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="94"/>
         <source>Heightened Senses</source>
         <translation>察觉</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="65"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="53"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="60"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="95"/>
         <source>Preparation</source>
         <translation>伺机待发</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="68"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="96"/>
         <source>Dirty Deeds</source>
         <translation>卑鄙</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="17"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety/Deadliness.cpp" line="6"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="48"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="98"/>
         <source>Deadliness</source>
         <translation>极致</translation>
     </message>
     <message>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="17"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="77"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="52"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="54"/>
+        <location filename="Test/Rogue/Talents/TestSubtlety.cpp" line="99"/>
         <source>Premeditation</source>
         <translation>预谋</translation>
     </message>
@@ -4904,6 +6108,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Buffs/ElementalDevastation.cpp" line="8"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="123"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="30"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="100"/>
         <source>Elemental Devastation</source>
         <translation>元素浩劫</translation>
     </message>
@@ -4915,6 +6121,13 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="18"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="126"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="127"/>
+        <location filename="Test/Shaman/Spells/TestStormstrike.cpp" line="10"/>
+        <location filename="Test/Shaman/Spells/TestStormstrike.cpp" line="29"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="57"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="59"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="103"/>
+        <location filename="Test/Shaman/TestSpellShaman.cpp" line="48"/>
+        <location filename="Test/Shaman/TestSpellShaman.cpp" line="98"/>
         <source>Stormstrike</source>
         <translation>风暴打击</translation>
     </message>
@@ -4922,6 +6135,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Procs/ClearcastingShaman.cpp" line="16"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="94"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="95"/>
+        <location filename="Test/Shaman/TestSpellShaman.cpp" line="103"/>
         <source>Elemental Focus</source>
         <translation>元素集中</translation>
     </message>
@@ -4935,14 +6150,23 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Spells/WindfuryWeapon.cpp" line="20"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="17"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="106"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="58"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="60"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="100"/>
+        <location filename="Test/Shaman/TestSpellShaman.cpp" line="97"/>
         <source>Elemental Weapons</source>
         <translation>元素武器</translation>
     </message>
     <message>
         <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="15"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="79"/>
+        <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="88"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="107"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="134"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="95"/>
+        <location filename="Test/Shaman/Spells/TestLightningBolt.cpp" line="10"/>
+        <location filename="Test/Shaman/Spells/TestLightningBolt.cpp" line="29"/>
+        <location filename="Test/Shaman/TestSpellShaman.cpp" line="52"/>
         <source>Lightning Bolt</source>
         <translation>闪电箭</translation>
     </message>
@@ -4952,6 +6176,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="180"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="92"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="31"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="78"/>
         <source>Tidal Mastery</source>
         <translation>潮汐掌握</translation>
     </message>
@@ -4961,6 +6187,15 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="182"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="106"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="39"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="41"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="43"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="45"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="47"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="51"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="53"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="54"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="97"/>
         <source>Call of Thunder</source>
         <translation>雷霆召唤</translation>
     </message>
@@ -4970,6 +6205,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="184"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="85"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="28"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="91"/>
         <source>Concussion</source>
         <translation>震荡</translation>
     </message>
@@ -4979,6 +6216,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="186"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="76"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="27"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="90"/>
         <source>Convection</source>
         <translation>传导</translation>
     </message>
@@ -4988,6 +6227,14 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Shaman/Spells/LightningBolt.cpp" line="188"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="131"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="38"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="40"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="42"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="44"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="46"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="48"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="52"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="103"/>
         <source>Lightning Mastery</source>
         <translation>闪电掌握</translation>
     </message>
@@ -5012,54 +6259,71 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="23"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="92"/>
         <source>Earth&apos;s Grasp</source>
         <translation>大地之握</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="26"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="93"/>
         <source>Elemental Warding</source>
         <translation>元素防护</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="30"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="94"/>
         <source>Call of Flame</source>
         <translation>烈焰召唤</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="35"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="29"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="96"/>
         <source>Reverberation</source>
         <translation>回响</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="41"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="33"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="98"/>
         <source>Improved Fire Totems</source>
         <translation>强化火焰图腾</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="116"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="31"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="99"/>
         <source>Eye of the Storm</source>
         <translation>风暴之眼</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="49"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="32"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="101"/>
         <source>Storm Reach</source>
         <translation>风暴来临</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="52"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="60"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="62"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="102"/>
         <source>Elemental Fury</source>
         <translation>元素之怒</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/Elemental.cpp" line="62"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="59"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="61"/>
+        <location filename="Test/Shaman/Talents/TestElemental.cpp" line="104"/>
         <source>Elemental Mastery</source>
         <translation>元素掌握</translation>
     </message>
@@ -5146,42 +6410,58 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="21"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="27"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="88"/>
         <source>Ancestral Knowledge</source>
         <translation>先祖知识</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="29"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="90"/>
         <source>Guardian Totems</source>
         <translation>守护图腾</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="83"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="35"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="37"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="39"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="41"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="43"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="47"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="49"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="50"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="91"/>
         <source>Thundering Strikes</source>
         <translation>雷鸣猛击</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="34"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="92"/>
         <source>Improved Ghost Wolf</source>
         <translation>强化幽魂之狼</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="36"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="93"/>
         <source>Improved Lightning Shield</source>
         <translation>强化闪电之盾</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="42"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="94"/>
         <source>Enhancing Totems</source>
         <translation>强化图腾</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="46"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="95"/>
         <source>Two-Handed Axes and Maces</source>
         <translation>双手斧和锤</translation>
     </message>
@@ -5192,24 +6472,46 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warrior/Buffs/Flurry.cpp" line="7"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="28"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="182"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="34"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="36"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="38"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="40"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="42"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="44"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="48"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="53"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="97"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="135"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="521"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="529"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="537"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="545"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="553"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="263"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="95"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="122"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="151"/>
         <source>Flurry</source>
         <translation>乱舞</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="16"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="58"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="99"/>
         <source>Improved Weapon Totems</source>
         <translation>强化武器图腾</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="17"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="62"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="101"/>
         <source>Parry</source>
         <translation>招架</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="18"/>
         <location filename="Class/Shaman/TalentTrees/Enhancement.cpp" line="113"/>
+        <location filename="Test/Shaman/Talents/TestEnhancement.cpp" line="102"/>
         <source>Weapon Mastery</source>
         <translation>武器掌握</translation>
     </message>
@@ -5292,78 +6594,100 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="17"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="27"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="68"/>
         <source>Improved Healing Wave</source>
         <translation>强化治疗波</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="21"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="28"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="69"/>
         <source>Tidal Focus</source>
         <translation>潮汐集中</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="25"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="70"/>
         <source>Improved Reincarnation</source>
         <translation>强化复生</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="11"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="77"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="71"/>
         <source>Ancestral Healing</source>
         <translation>先祖治疗</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="29"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="29"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="72"/>
         <source>Totemic Focus</source>
         <translation>图腾集中</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="83"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="73"/>
         <source>Nature&apos;s Guidance</source>
         <translation>自然指引</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="34"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="30"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="74"/>
         <source>Healing Focus</source>
         <translation>治疗专注</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="12"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="37"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="75"/>
         <source>Totemic Mastery</source>
         <translation>图腾掌握</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="40"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="76"/>
         <source>Healing Grace</source>
         <translation>治疗之赐</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="46"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="38"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="40"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="77"/>
         <source>Restorative Totems</source>
         <translation>恢复图腾</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="13"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="104"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="79"/>
         <source>Healing Way</source>
         <translation>治疗之道</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="60"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="32"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="81"/>
         <source>Purification</source>
         <translation>净化</translation>
     </message>
     <message>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="14"/>
         <location filename="Class/Shaman/TalentTrees/RestorationShaman.cpp" line="64"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="37"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="39"/>
+        <location filename="Test/Shaman/Talents/TestRestorationShaman.cpp" line="82"/>
         <source>Mana Tide Totem</source>
         <translation>法力之潮图腾</translation>
     </message>
@@ -5444,6 +6768,10 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Warlock/Spells/LifeTap.cpp" line="18"/>
+        <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="110"/>
+        <location filename="Test/Warlock/Spells/TestLifeTap.cpp" line="11"/>
+        <location filename="Test/Warlock/Spells/TestLifeTap.cpp" line="30"/>
+        <location filename="Test/Warlock/TestSpellWarlock.cpp" line="39"/>
         <source>Life Tap</source>
         <translation>生命分流</translation>
     </message>
@@ -5452,6 +6780,9 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/LifeTap.cpp" line="97"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="15"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="107"/>
+        <location filename="Test/Warlock/Spells/TestLifeTap.cpp" line="71"/>
+        <location filename="Test/Warlock/Spells/TestLifeTap.cpp" line="83"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="102"/>
         <source>Improved Life Tap</source>
         <translation>强化生命分流</translation>
     </message>
@@ -5462,10 +6793,14 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     </message>
     <message>
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="18"/>
+        <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="104"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="112"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="121"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="130"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="139"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="11"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="90"/>
+        <location filename="Test/Warlock/TestSpellWarlock.cpp" line="43"/>
         <source>Shadow Bolt</source>
         <translation>暗影箭</translation>
     </message>
@@ -5475,6 +6810,13 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="193"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="110"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="192"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="202"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="212"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="222"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="232"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="28"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="98"/>
         <source>Cataclysm</source>
         <translation>灾变</translation>
     </message>
@@ -5484,6 +6826,13 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="196"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="15"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="118"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="147"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="156"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="165"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="174"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="183"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="29"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="99"/>
         <source>Bane</source>
         <translation>灾祸</translation>
     </message>
@@ -5493,6 +6842,12 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="199"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="19"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="127"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="50"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="52"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="56"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="58"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="103"/>
+        <location filename="Test/Warlock/TestSpellWarlock.cpp" line="50"/>
         <source>Devastation</source>
         <translation>破坏</translation>
     </message>
@@ -5502,6 +6857,12 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="202"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="26"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="136"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="49"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="51"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="53"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="57"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="110"/>
+        <location filename="Test/Warlock/TestSpellWarlock.cpp" line="51"/>
         <source>Ruin</source>
         <translation>毁灭</translation>
     </message>
@@ -5513,90 +6874,133 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="11"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="31"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="27"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="98"/>
         <source>Suppression</source>
         <translation>镇压</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="12"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="33"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="28"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="99"/>
         <source>Improved Corruption</source>
         <translation>强化腐蚀术</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="13"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="39"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="29"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="100"/>
         <source>Improved Curse of Weakness</source>
         <translation>强化虚弱诅咒</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="41"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="30"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="101"/>
         <source>Improved Drain Soul</source>
         <translation>强化吸取灵魂</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="16"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="45"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="31"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="103"/>
         <source>Improved Drain Life</source>
         <translation>强化吸取生命</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="17"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="51"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="104"/>
         <source>Improved Curse of Agony</source>
         <translation>强化痛苦诅咒</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="18"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="54"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="61"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="105"/>
         <source>Fel Concentration</source>
         <translation>恶魔专注</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="19"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="59"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="37"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="41"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="43"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="48"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="55"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="58"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="106"/>
         <source>Amplify Curse</source>
         <translation>诅咒增幅</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="20"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="66"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="107"/>
         <source>Grim Reach</source>
         <translation>无情延伸</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="22"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="72"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="109"/>
         <source>Improved Drain Mana</source>
         <translation>强化吸取法力</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="23"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="78"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="65"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="68"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="70"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="110"/>
         <source>Siphon Life</source>
         <translation>生命虹吸</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="24"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="80"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="36"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="38"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="42"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="50"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="54"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="57"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="111"/>
         <source>Curse of Exhaustion</source>
         <translation>疲劳诅咒</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="25"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="84"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="47"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="49"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="51"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="56"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="112"/>
         <source>Improved Curse of Exhaustion</source>
         <translation>强化疲劳诅咒</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="26"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="116"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="64"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="66"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="69"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="113"/>
         <source>Shadow Mastery</source>
         <translation>暗影掌握</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="27"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="92"/>
+        <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="114"/>
         <source>Dark Pact</source>
         <translation>黑暗契约</translation>
     </message>
@@ -5693,102 +7097,149 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="19"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="27"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="95"/>
         <source>Improved Healthstone</source>
         <translation>强化治疗石</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="21"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="28"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="96"/>
         <source>Improved Imp</source>
         <translation>强化小鬼</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="24"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="29"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="97"/>
         <source>Demonic Embrace</source>
         <translation>恶魔之拥</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="11"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="31"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="30"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="98"/>
         <source>Improved Health Funnel</source>
         <translation>强化生命通道</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="34"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="99"/>
         <source>Improved Voidwalker</source>
         <translation>强化虚空行者</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="37"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="31"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="100"/>
         <source>Fel Intellect</source>
         <translation>恶魔智力</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="43"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="32"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="101"/>
         <source>Improved Succubus</source>
         <translation>强化魅魔</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="12"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="47"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="62"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="65"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="67"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="102"/>
         <source>Fel Domination</source>
         <translation>恶魔支配</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="51"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="33"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="103"/>
         <source>Fel Stamina</source>
         <translation>恶魔耐力</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="59"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="61"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="63"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="66"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="104"/>
         <source>Master Summoner</source>
         <translation>召唤大师</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="62"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="50"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="52"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="56"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="58"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="105"/>
         <source>Unholy Power</source>
         <translation>邪恶强化</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="13"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="69"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="34"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="106"/>
         <source>Improved Enslave Demon</source>
         <translation>强化奴役恶魔</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="107"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="263"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="277"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="39"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="43"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="45"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="107"/>
         <source>Demonic Sacrifice</source>
         <translation>恶魔牺牲</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="72"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="108"/>
         <source>Improved Firestone</source>
         <translation>强化火焰石</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="79"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="49"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="51"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="53"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="57"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="109"/>
         <source>Master Demonologist</source>
         <translation>恶魔学识大师</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="87"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="38"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="40"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="44"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="110"/>
         <source>Soul Link</source>
         <translation>灵魂链接</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="15"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="91"/>
+        <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="111"/>
         <source>Improved Spellstone</source>
         <translation>强化法术石</translation>
     </message>
@@ -5918,66 +7369,96 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="16"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="37"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="30"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="100"/>
         <source>Aftermath</source>
         <translation>清算</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="17"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="42"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="101"/>
         <source>Improved Firebolt</source>
         <translation>强化火焰箭</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="18"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="45"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="102"/>
         <source>Improved Lash of Pain</source>
         <translation>强化剧痛鞭笞</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="20"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="50"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="104"/>
         <source>Shadowburn</source>
         <translation>暗影灼烧</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="21"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="60"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="62"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="64"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="67"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="69"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="105"/>
         <source>Intensity</source>
         <translation>强烈</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="22"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="63"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="106"/>
         <source>Destructive Reach</source>
         <translation>毁灭延伸</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="23"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="65"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="31"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="107"/>
         <source>Improved Searing Pain</source>
         <translation>强化灼热之痛</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="24"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="70"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="61"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="63"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="65"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="68"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="108"/>
         <source>Pyroclasm</source>
         <translation>火焰冲撞</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="25"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="73"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="37"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="39"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="43"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="45"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="109"/>
         <source>Improved Immolate</source>
         <translation>强化献祭</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="27"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="145"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="32"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="111"/>
         <source>Emberstorm</source>
         <translation>琥珀风暴</translation>
     </message>
     <message>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="28"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="84"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="36"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="38"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="40"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="44"/>
+        <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="112"/>
         <source>Conflagrate</source>
         <translation>燃烧</translation>
     </message>
@@ -6062,18 +7543,35 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="92"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="121"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="72"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="51"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="76"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="106"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="118"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="11"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="26"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="30"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="98"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="107"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="124"/>
+        <location filename="Test/Warrior/Spells/TestBattleShout.cpp" line="130"/>
         <source>Battle Shout</source>
         <translation>战斗怒吼</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Buffs/BattleStanceBuff.cpp" line="6"/>
         <location filename="Class/Warrior/Spells/BattleStance.cpp" line="7"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="71"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="78"/>
         <source>Battle Stance</source>
         <translation>战斗姿态</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Buffs/BerserkerStanceBuff.cpp" line="7"/>
         <location filename="Class/Warrior/Spells/BerserkerStance.cpp" line="7"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="72"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="78"/>
+        <location filename="Test/Warrior/Spells/TestBerserkerStance.cpp" line="9"/>
+        <location filename="Test/Warrior/Spells/TestBerserkerStance.cpp" line="60"/>
         <source>Berserker Stance</source>
         <translation>狂暴姿态</translation>
     </message>
@@ -6084,25 +7582,39 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="25"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="162"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="163"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="62"/>
+        <location filename="Test/Warrior/Spells/TestDeathWish.cpp" line="11"/>
+        <location filename="Test/Warrior/Spells/TestDeathWish.cpp" line="26"/>
+        <location filename="Test/Warrior/Spells/TestDeathWish.cpp" line="113"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="50"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="100"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="123"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="153"/>
         <source>Death Wish</source>
         <translation>死亡之愿</translation>
     </message>
     <message>
-        <location filename="Class/Warrior/Buffs/DefensiveStanceBuff.cpp" line="9"/>
+        <location filename="Class/Warrior/Buffs/DefensiveStanceBuff.cpp" line="10"/>
         <location filename="Class/Warrior/Spells/DefensiveStance.cpp" line="7"/>
         <source>Defensive Stance</source>
         <translation>防御姿态</translation>
     </message>
     <message>
-        <location filename="Class/Warrior/Buffs/DefensiveStanceBuff.cpp" line="11"/>
+        <location filename="Class/Warrior/Buffs/DefensiveStanceBuff.cpp" line="12"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="18"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="131"/>
+        <location filename="Test/Warrior/Talents/TestDefiance.cpp" line="16"/>
+        <location filename="Test/Warrior/Talents/TestDefiance.cpp" line="89"/>
         <source>Defiance</source>
         <translation>挑衅</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Buffs/RecklessnessBuff.cpp" line="6"/>
         <location filename="Class/Warrior/Spells/Recklessness.cpp" line="9"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="63"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="76"/>
+        <location filename="Test/Warrior/Spells/TestRecklessness.cpp" line="12"/>
+        <location filename="Test/Warrior/Spells/TestRecklessness.cpp" line="79"/>
         <source>Recklessness</source>
         <translation>鲁莽</translation>
     </message>
@@ -6111,6 +7623,22 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Procs/UnbridledWrath.cpp" line="16"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="16"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="110"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="13"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="50"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="84"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="88"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="92"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="96"/>
+        <location filename="Test/Warrior/Procs/TestUnbridledWrath.cpp" line="100"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="36"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="47"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="55"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="69"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="70"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="73"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="104"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="119"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="147"/>
         <source>Unbridled Wrath</source>
         <translation>怒不可遏</translation>
     </message>
@@ -6120,12 +7648,19 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="30"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="134"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="135"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="97"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="99"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="103"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="143"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="176"/>
         <source>Anger Management</source>
         <translation>愤怒掌控</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Spells/BerserkerRage.cpp" line="9"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="173"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="50"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="76"/>
         <source>Berserker Rage</source>
         <translation>狂暴之怒</translation>
     </message>
@@ -6138,6 +7673,8 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     </message>
     <message>
         <location filename="Class/Warrior/Spells/Bloodrage.cpp" line="11"/>
+        <location filename="Test/Warrior/Spells/TestBloodrage.cpp" line="10"/>
+        <location filename="Test/Warrior/Spells/TestBloodrage.cpp" line="29"/>
         <source>Bloodrage</source>
         <translation>血性狂暴</translation>
     </message>
@@ -6155,6 +7692,13 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="194"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="195"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="53"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="67"/>
+        <location filename="Test/Warrior/Spells/TestBloodthirst.cpp" line="8"/>
+        <location filename="Test/Warrior/Spells/TestBloodthirst.cpp" line="39"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="97"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="113"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="124"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="154"/>
         <source>Bloodthirst</source>
         <translation>嗜血</translation>
     </message>
@@ -6165,12 +7709,37 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="31"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="145"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="146"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="20"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="96"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="345"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="353"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="361"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="367"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="398"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="399"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="400"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="417"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="51"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="53"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="55"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="59"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="61"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="63"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="68"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="74"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="131"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="142"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="177"/>
         <source>Deep Wounds</source>
         <translation>重伤</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Spells/Execute.cpp" line="14"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="141"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="66"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="77"/>
+        <location filename="Test/Warrior/Spells/TestExecute.cpp" line="16"/>
+        <location filename="Test/Warrior/Spells/TestExecute.cpp" line="115"/>
         <source>Execute</source>
         <translation>斩杀</translation>
     </message>
@@ -6178,11 +7747,21 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/Execute.cpp" line="15"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="23"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="140"/>
+        <location filename="Test/Warrior/Spells/TestExecute.cpp" line="224"/>
+        <location filename="Test/Warrior/Spells/TestExecute.cpp" line="522"/>
+        <location filename="Test/Warrior/Spells/TestExecute.cpp" line="529"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="86"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="88"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="92"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="96"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="152"/>
         <source>Improved Execute</source>
         <translation>强化斩杀</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Spells/Hamstring.cpp" line="12"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="70"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="78"/>
         <source>Hamstring</source>
         <translation>断筋</translation>
     </message>
@@ -6190,6 +7769,13 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/HeroicStrike.cpp" line="14"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="104"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="271"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="52"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="76"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="394"/>
+        <location filename="Test/Warrior/Buffs/TestFlurryWarrior.cpp" line="466"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="14"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="65"/>
+        <location filename="Test/Warrior/TestSpellWarrior.cpp" line="54"/>
         <source>Heroic Strike</source>
         <translation>英勇打击</translation>
     </message>
@@ -6197,6 +7783,13 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/HeroicStrike.cpp" line="22"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="23"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="103"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="136"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="249"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="253"/>
+        <location filename="Test/Warrior/Spells/TestHeroicStrike.cpp" line="257"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="79"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="82"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="85"/>
         <source>Improved Heroic Strike</source>
         <translation>强化英勇打击</translation>
     </message>
@@ -6207,6 +7800,15 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="165"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="166"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="60"/>
+        <location filename="Test/Warrior/Spells/TestMortalStrike.cpp" line="8"/>
+        <location filename="Test/Warrior/Spells/TestMortalStrike.cpp" line="39"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="116"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="118"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="120"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="123"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="135"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="148"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="182"/>
         <source>Mortal Strike</source>
         <translation>致死打击</translation>
     </message>
@@ -6215,6 +7817,10 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="124"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="61"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="130"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="69"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="77"/>
+        <location filename="Test/Warrior/Spells/TestOverpower.cpp" line="10"/>
+        <location filename="Test/Warrior/Spells/TestOverpower.cpp" line="49"/>
         <source>Overpower</source>
         <translation>压制</translation>
     </message>
@@ -6222,6 +7828,11 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/Overpower.cpp" line="12"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="29"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="123"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="66"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="98"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="100"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="102"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="175"/>
         <source>Improved Overpower</source>
         <translation>强化压制</translation>
     </message>
@@ -6229,6 +7840,12 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/Rend.cpp" line="13"/>
         <location filename="Class/Warrior/Spells/Rend.cpp" line="16"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="114"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="20"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="51"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="218"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="249"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="250"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="251"/>
         <source>Rend</source>
         <translation>撕裂</translation>
     </message>
@@ -6236,12 +7853,31 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/Rend.cpp" line="21"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="25"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="113"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="344"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="352"/>
+        <location filename="Test/Warrior/Spells/TestDeepWounds.cpp" line="360"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="206"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="210"/>
+        <location filename="Test/Warrior/Spells/TestRend.cpp" line="214"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="39"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="42"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="45"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="52"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="54"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="56"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="60"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="62"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="64"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="140"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="172"/>
         <source>Improved Rend</source>
         <translation>强化撕裂</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Spells/Revenge.cpp" line="16"/>
         <location filename="Class/Warrior/WarriorSpells.cpp" line="64"/>
+        <location filename="Test/Warrior/Spells/TestRevenge.cpp" line="14"/>
+        <location filename="Test/Warrior/Spells/TestRevenge.cpp" line="49"/>
         <source>Revenge</source>
         <translation>复仇</translation>
     </message>
@@ -6258,6 +7894,8 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Class/Warrior/Spells/Slam.cpp" line="15"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="151"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="14"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="73"/>
         <source>Slam</source>
         <translation>猛击</translation>
     </message>
@@ -6265,11 +7903,22 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Class/Warrior/Spells/Slam.cpp" line="23"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="24"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="150"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="82"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="214"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="220"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="226"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="232"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="238"/>
+        <location filename="Test/Warrior/Spells/TestSlam.cpp" line="244"/>
         <source>Improved Slam</source>
         <translation>强化猛击</translation>
     </message>
     <message>
         <location filename="Class/Warrior/Spells/Whirlwind.cpp" line="11"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="68"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="77"/>
+        <location filename="Test/Warrior/Spells/TestWhirlwind.cpp" line="11"/>
+        <location filename="Test/Warrior/Spells/TestWhirlwind.cpp" line="42"/>
         <source>Whirlwind</source>
         <translation>旋风斩</translation>
     </message>
@@ -6281,12 +7930,24 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="26"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="49"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="88"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="90"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="94"/>
         <source>Improved Charge</source>
         <translation>强化冲锋</translation>
     </message>
     <message>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="27"/>
         <location filename="Class/Warrior/TalentTrees/Arms/TacticalMastery.cpp" line="6"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="37"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="48"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="75"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="89"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="91"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="93"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="132"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="141"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="174"/>
         <source>Tactical Mastery</source>
         <translation>战术掌握</translation>
     </message>
@@ -6299,18 +7960,32 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="33"/>
         <location filename="Class/Warrior/TalentTrees/Arms/Impale.cpp" line="6"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="67"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="73"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="107"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="111"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="130"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="144"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="178"/>
         <source>Impale</source>
         <translation>穿刺</translation>
     </message>
     <message>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="34"/>
         <location filename="Class/Warrior/TalentTrees/Arms/AxeSpecialization.cpp" line="8"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="114"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="129"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="146"/>
         <source>Axe Specialization</source>
         <translation>斧专精</translation>
     </message>
     <message>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="35"/>
         <location filename="Class/Warrior/TalentTrees/Arms.cpp" line="68"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="70"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="126"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="147"/>
+        <location filename="Test/Warrior/Talents/TestArms.cpp" line="180"/>
         <source>Sweeping Strikes</source>
         <translation>横扫攻击</translation>
     </message>
@@ -6414,18 +8089,40 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="14"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="98"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="27"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="29"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="31"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="32"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="33"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="37"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="39"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="40"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="43"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="56"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="60"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="61"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="64"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="105"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="118"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="146"/>
         <source>Cruelty</source>
         <translation>残忍</translation>
     </message>
     <message>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="15"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="39"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="68"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="71"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="74"/>
         <source>Improved Demoralizing Shout</source>
         <translation>强化挫志怒吼</translation>
     </message>
     <message>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="17"/>
         <location filename="Class/Warrior/TalentTrees/Fury.cpp" line="44"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="77"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="79"/>
+        <location filename="Test/Warrior/Talents/TestFury.cpp" line="83"/>
         <source>Improved Cleave</source>
         <translation>强化顺劈斩</translation>
     </message>
@@ -6994,6 +8691,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     </message>
     <message>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="174"/>
+        <location filename="Test/TestSpell.cpp" line="814"/>
         <source>Axe</source>
         <translation>斧</translation>
     </message>
@@ -7143,24 +8841,20 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>%1 层数 %2 %3</translation>
     </message>
     <message>
-        <location filename="Rotation/Conditions/ConditionResource.cpp" line="37"/>
         <source>Energy</source>
-        <translation>能量</translation>
+        <translation type="vanished">能量</translation>
     </message>
     <message>
-        <location filename="Rotation/Conditions/ConditionResource.cpp" line="39"/>
         <source>Focus</source>
-        <translation>集中值</translation>
+        <translation type="vanished">集中值</translation>
     </message>
     <message>
-        <location filename="Rotation/Conditions/ConditionResource.cpp" line="41"/>
         <source>Mana</source>
-        <translation>法力</translation>
+        <translation type="vanished">法力</translation>
     </message>
     <message>
-        <location filename="Rotation/Conditions/ConditionResource.cpp" line="43"/>
         <source>Rage</source>
-        <translation>怒气</translation>
+        <translation type="vanished">怒气</translation>
     </message>
     <message>
         <location filename="Rotation/Conditions/ConditionSpell.cpp" line="28"/>
@@ -7293,19 +8987,268 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>需要%1点%2天赋点数</translation>
     </message>
     <message>
-        <location filename="Test/Test.cpp" line="112"/>
         <source>Ironfoe</source>
-        <translation>Ironfoe</translation>
+        <translation type="vanished">Ironfoe</translation>
     </message>
     <message>
+        <location filename="Test/AttackTables/TestAttackTables.cpp" line="59"/>
+        <location filename="Test/Test.cpp" line="135"/>
+        <location filename="Test/Test.cpp" line="159"/>
+        <source>Frostbite</source>
+        <comment>Weapon</comment>
+        <translation>寒霜之咬</translation>
+    </message>
+    <message>
+        <location filename="Test/AttackTables/TestAttackTables.cpp" line="60"/>
         <location filename="Test/Test.cpp" line="113"/>
         <source>Vis&apos;kag the Bloodletter</source>
-        <translation>Vis&apos;kag the Bloodletter</translation>
+        <comment>Weapon</comment>
+        <translation>放血者维斯卡格</translation>
+    </message>
+    <message>
+        <source>Vis&apos;kag the Bloodletter</source>
+        <translation type="vanished">Vis&apos;kag the Bloodletter</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestConditionVariableBuiltin.cpp" line="175"/>
+        <location filename="Test/Rotation/TestConditionVariableBuiltin.cpp" line="213"/>
+        <source>Striker&apos;s Mark</source>
+        <translation>速射强弓</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestConditionVariableBuiltin.cpp" line="251"/>
+        <location filename="Test/Rotation/TestConditionVariableBuiltin.cpp" line="289"/>
+        <location filename="Test/TestSpell.cpp" line="926"/>
+        <source>Ashkandi, Greatsword of the Brotherhood</source>
+        <translation>阿什坎迪，兄弟会之剑</translation>
+    </message>
+    <message>
+        <source>Frostbite</source>
+        <comment>Weapon Frostbite</comment>
+        <translation type="vanished">寒霜之咬</translation>
+    </message>
+    <message>
+        <location filename="Test/Test.cpp" line="112"/>
+        <source>Ironfoe</source>
+        <comment>Weapon</comment>
+        <translation>反对者</translation>
     </message>
     <message>
         <location filename="Test/Test.cpp" line="168"/>
         <source>Striker&apos;s Mark</source>
-        <translation>Striker&apos;s Mark</translation>
+        <comment>Weapon</comment>
+        <translation>速射强弓</translation>
+    </message>
+    <message>
+        <location filename="Test/Hunter/Talents/TestBeastMastery.cpp" line="103"/>
+        <source>Bestial Discpline</source>
+        <translation>野兽戒律</translation>
+    </message>
+    <message>
+        <location filename="Test/Hunter/TestHunter.cpp" line="65"/>
+        <source>Ashjre&apos;thul, Crossbow of Smiting</source>
+        <translation>埃瑟利苏尔，惩戒之弩</translation>
+    </message>
+    <message>
+        <location filename="Test/Hunter/TestHunter.cpp" line="69"/>
+        <source>Ancient Sinew Wrapped Lamina</source>
+        <translation>龙筋箭袋</translation>
+    </message>
+    <message>
+        <location filename="Test/Hunter/TestHunter.cpp" line="88"/>
+        <source>Gnoll Skin Bandolier</source>
+        <translation>豺狼人皮弹药包</translation>
+    </message>
+    <message>
+        <location filename="Test/Mage/Spells/TestEvocation.cpp" line="62"/>
+        <location filename="Test/Mage/TestMage.cpp" line="54"/>
+        <source>Frostfire Bindings</source>
+        <translation>霜火腕轮</translation>
+    </message>
+    <message>
+        <location filename="Test/Mage/Spells/TestEvocation.cpp" line="64"/>
+        <source>Frostfire Circlet</source>
+        <translation>霜火头饰</translation>
+    </message>
+    <message>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="299"/>
+        <source>Knight-Lieutenant&apos;s Lamellar Gauntlets</source>
+        <translation>骑士中尉的板层甲护手</translation>
+    </message>
+    <message>
+        <location filename="Test/Paladin/Spells/TestJudgement.cpp" line="311"/>
+        <source>Marshal&apos;s Lamellar Gloves</source>
+        <translation>统帅的板层甲手套</translation>
+    </message>
+    <message>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="615"/>
+        <source>Deathdealer&apos;s Vest</source>
+        <translation>死亡执行者的胸甲</translation>
+    </message>
+    <message>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="619"/>
+        <source>Deathdealer&apos;s Boots</source>
+        <translation>死亡执行者的长靴</translation>
+    </message>
+    <message>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="623"/>
+        <source>Deathdealer&apos;s Helm</source>
+        <translation>死亡执行者的头盔</translation>
+    </message>
+    <message>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="627"/>
+        <source>Deathdealer&apos;s Spaulders</source>
+        <translation>死亡执行者的护肩</translation>
+    </message>
+    <message>
+        <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="631"/>
+        <source>Deathdealer&apos;s Leggings</source>
+        <translation>死亡执行者的护腿</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="48"/>
+        <source>DW Fury High Rage</source>
+        <translation>双持狂暴战（打压制前不泄怒）</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="53"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="159"/>
+        <source>Manual Crowd Pummeler</source>
+        <translation>手动惩戒器</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="54"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="137"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="161"/>
+        <source>Kiss of the Spider</source>
+        <translation>蜘蛛之吻</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="56"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="138"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="163"/>
+        <source>Badge of the Swarmguard</source>
+        <translation>虫群卫士徽章</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="57"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="139"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="164"/>
+        <source>Slayer&apos;s Crest</source>
+        <translation>屠龙者的纹章</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="58"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="139"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="165"/>
+        <source>Earthstrike</source>
+        <translation>大地之击</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="59"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="140"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="166"/>
+        <source>Zandalarian Hero Medallion</source>
+        <translation>赞达拉英雄勋章</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="60"/>
+        <source>Diamond Flask</source>
+        <translation>钻石水瓶</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="61"/>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="168"/>
+        <source>Cloudkeeper Legplates</source>
+        <translation>踏云腿甲</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="134"/>
+        <source>Aimed/Multi-Shot</source>
+        <translation>瞄准/多重射击</translation>
+    </message>
+    <message>
+        <location filename="Test/Rotation/TestRotationFileReader.cpp" line="160"/>
+        <source>Scrolls of Blinding Light</source>
+        <translation>盲目光芒卷轴</translation>
+    </message>
+    <message>
+        <source>Mana Potion)</source>
+        <translation type="vanished">法力药水</translation>
+    </message>
+    <message>
+        <location filename="Test/Warrior/Procs/TestSwordSpecialization.cpp" line="15"/>
+        <source>Sword Specalization</source>
+        <translation>剑类武器专精</translation>
+    </message>
+    <message>
+        <location filename="Test/Warrior/Talents/TestTwoHandedWeaponSpecialization.cpp" line="15"/>
+        <source>Two-hand Specialization</source>
+        <translation>双手武器专精</translation>
+    </message>
+    <message>
+        <location filename="Test/Warrior/TestWarrior.cpp" line="89"/>
+        <source>Chromatically Tempered Sword</source>
+        <translation>多彩之剑</translation>
+    </message>
+    <message>
+        <location filename="Test/Warrior/TestWarrior.cpp" line="91"/>
+        <source>Assassination Blade</source>
+        <translation>刺杀之刃</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="844"/>
+        <location filename="Test/TestSpell.cpp" line="879"/>
+        <source>Zulian Hacker</source>
+        <translation>祖利安利斧</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="850"/>
+        <location filename="Test/TestSpell.cpp" line="885"/>
+        <source>Anubisath Warhammer</source>
+        <translation>阿努比萨斯战锤</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="856"/>
+        <location filename="Test/TestSpell.cpp" line="891"/>
+        <source>Skullforge Reaver</source>
+        <translation>铁骨剑</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="862"/>
+        <source>Claw of the Black Drake</source>
+        <translation>黑龙之爪</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="868"/>
+        <location filename="Test/TestSpell.cpp" line="903"/>
+        <source>Heartseeker</source>
+        <translation>觅心者</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="897"/>
+        <source>Arlokk&apos;s Grasp</source>
+        <translation>娅尔罗之握</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="914"/>
+        <source>Arcanite Reaper</source>
+        <translation>奥金斧</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="920"/>
+        <source>Earthshaker</source>
+        <translation>震地者</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="932"/>
+        <source>Barb of the Sand Reaver</source>
+        <translation>沙漠掠夺者之刺</translation>
+    </message>
+    <message>
+        <location filename="Test/TestSpell.cpp" line="938"/>
+        <source>Resurgence Rod</source>
+        <translation>苏醒之杖</translation>
     </message>
 </context>
 <context>
@@ -7473,6 +9416,589 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="QML/TalentCalculator.qml" line="106"/>
         <source>Points left: &lt;b&gt;</source>
         <translation>剩余点数：&lt;b&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>Test</name>
+    <message>
+        <source>Ironfoe</source>
+        <translation type="vanished">反对者</translation>
+    </message>
+    <message>
+        <source>Vis&apos;kag the Bloodletter</source>
+        <translation type="vanished">放血者维斯卡格</translation>
+    </message>
+    <message>
+        <source>Frostbite</source>
+        <translation type="vanished">寒霜之咬</translation>
+    </message>
+    <message>
+        <source>Striker&apos;s Mark</source>
+        <translation type="vanished">速射强弓</translation>
+    </message>
+</context>
+<context>
+    <name>TestAttackTables</name>
+    <message>
+        <source>Frostbite</source>
+        <translation type="vanished">寒霜之咬</translation>
+    </message>
+    <message>
+        <source>Vis&apos;kag the Bloodletter</source>
+        <translation type="vanished">放血者维斯卡格</translation>
+    </message>
+</context>
+<context>
+    <name>TestBalance</name>
+    <message>
+        <source>Improved Wrath</source>
+        <translation type="vanished">强化愤怒</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Grasp</source>
+        <translation type="vanished">自然之握</translation>
+    </message>
+    <message>
+        <source>Improved Nature&apos;s Grasp</source>
+        <translation type="vanished">强化自然之握</translation>
+    </message>
+    <message>
+        <source>Improved Entangling Roots</source>
+        <translation type="vanished">强化纠缠根须</translation>
+    </message>
+    <message>
+        <source>Improved Moonfire</source>
+        <translation type="vanished">强化月火术</translation>
+    </message>
+    <message>
+        <source>Natural Weapons</source>
+        <translation type="vanished">武器平衡</translation>
+    </message>
+    <message>
+        <source>Natural Shapeshifter</source>
+        <translation type="vanished">自然变形</translation>
+    </message>
+    <message>
+        <source>Improved Thorns</source>
+        <translation type="vanished">强化荆棘术</translation>
+    </message>
+    <message>
+        <source>Omen of Clarity</source>
+        <translation type="vanished">清晰预兆</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Reach</source>
+        <translation type="vanished">自然延伸</translation>
+    </message>
+    <message>
+        <source>Vengeance</source>
+        <translation type="vanished">复仇</translation>
+    </message>
+    <message>
+        <source>Improved Starfire</source>
+        <translation type="vanished">强化星火术</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Grace</source>
+        <translation type="vanished">自然之赐</translation>
+    </message>
+    <message>
+        <source>Moonglow</source>
+        <translation type="vanished">月光</translation>
+    </message>
+    <message>
+        <source>Moonfury</source>
+        <translation type="vanished">月怒</translation>
+    </message>
+    <message>
+        <source>Moonkin Form</source>
+        <translation type="vanished">枭兽形态</translation>
+    </message>
+</context>
+<context>
+    <name>TestBearForm</name>
+    <message>
+        <source>Bear Form</source>
+        <translation type="vanished">熊形态</translation>
+    </message>
+    <message>
+        <source>Natural Shapeshifter</source>
+        <translation type="vanished">自然变形</translation>
+    </message>
+    <message>
+        <source>Feral Instinct</source>
+        <translation type="vanished">野性本能</translation>
+    </message>
+    <message>
+        <source>Leader of the Pack</source>
+        <translation type="vanished">兽群领袖</translation>
+    </message>
+    <message>
+        <source>Furor</source>
+        <translation type="vanished">激怒</translation>
+    </message>
+</context>
+<context>
+    <name>TestBloodFury</name>
+    <message>
+        <source>Blood Fury</source>
+        <translation type="vanished">血性狂暴（种族特长）</translation>
+    </message>
+</context>
+<context>
+    <name>TestCatForm</name>
+    <message>
+        <source>Cat Form</source>
+        <translation type="vanished">猎豹形态</translation>
+    </message>
+    <message>
+        <source>Natural Shapeshifter</source>
+        <translation type="vanished">自然变形</translation>
+    </message>
+    <message>
+        <source>Leader of the Pack</source>
+        <translation type="vanished">兽群领袖</translation>
+    </message>
+    <message>
+        <source>Furor</source>
+        <translation type="vanished">激怒</translation>
+    </message>
+</context>
+<context>
+    <name>TestCharacterStats</name>
+    <message>
+        <source>Humanoid</source>
+        <translation type="vanished">人型生物</translation>
+    </message>
+    <message>
+        <source>Dragonkin</source>
+        <translation type="vanished">龙类</translation>
+    </message>
+    <message>
+        <source>Undead</source>
+        <translation type="vanished">亡灵</translation>
+    </message>
+</context>
+<context>
+    <name>TestEnrage</name>
+    <message>
+        <source>Enrage</source>
+        <translation type="vanished">狂怒</translation>
+    </message>
+</context>
+<context>
+    <name>TestEssenceOfTheRed</name>
+    <message>
+        <source>Essence of the Red</source>
+        <translation type="vanished">红龙精华</translation>
+    </message>
+</context>
+<context>
+    <name>TestFelstrikerProc</name>
+    <message>
+        <source>Felstriker</source>
+        <translation type="vanished">恶魔之击</translation>
+    </message>
+</context>
+<context>
+    <name>TestFeralCombat</name>
+    <message>
+        <source>Ferocity</source>
+        <translation type="vanished">凶暴</translation>
+    </message>
+    <message>
+        <source>Feral Aggression</source>
+        <translation type="vanished">野性侵略</translation>
+    </message>
+    <message>
+        <source>Feral Instinct</source>
+        <translation type="vanished">野性本能</translation>
+    </message>
+    <message>
+        <source>Brutal Impact</source>
+        <translation type="vanished">野蛮冲撞</translation>
+    </message>
+    <message>
+        <source>Thick Hide</source>
+        <translation type="vanished">厚皮</translation>
+    </message>
+    <message>
+        <source>Feline Swiftness</source>
+        <translation type="vanished">豹之迅捷</translation>
+    </message>
+    <message>
+        <source>Feral Charge</source>
+        <translation type="vanished">野性冲锋</translation>
+    </message>
+    <message>
+        <source>Sharpened Claws</source>
+        <translation type="vanished">锋利兽爪</translation>
+    </message>
+    <message>
+        <source>Improved Shred</source>
+        <translation type="vanished">强化撕碎</translation>
+    </message>
+    <message>
+        <source>Predatory Strikes</source>
+        <translation type="vanished">猛兽攻击</translation>
+    </message>
+    <message>
+        <source>Blood Frenzy</source>
+        <translation type="vanished">血之狂暴</translation>
+    </message>
+    <message>
+        <source>Primal Fury</source>
+        <translation type="vanished">原始狂怒</translation>
+    </message>
+    <message>
+        <source>Savage Fury</source>
+        <translation type="vanished">野蛮暴怒</translation>
+    </message>
+    <message>
+        <source>Faerie Fire (Feral)</source>
+        <translation type="vanished">精灵之火（野性）</translation>
+    </message>
+    <message>
+        <source>Heart of the Wild</source>
+        <translation type="vanished">野性之心</translation>
+    </message>
+    <message>
+        <source>Leader of the Pack</source>
+        <translation type="vanished">兽群领袖</translation>
+    </message>
+</context>
+<context>
+    <name>TestFerociousBite</name>
+    <message>
+        <source>Ferocious Bite</source>
+        <translation type="vanished">凶猛撕咬</translation>
+    </message>
+    <message>
+        <source>Feral Aggression</source>
+        <translation type="vanished">野性侵略</translation>
+    </message>
+</context>
+<context>
+    <name>TestMaul</name>
+    <message>
+        <source>Maul</source>
+        <translation type="vanished">槌击</translation>
+    </message>
+    <message>
+        <source>Ferocity</source>
+        <translation type="vanished">凶暴</translation>
+    </message>
+    <message>
+        <source>Savage Fury</source>
+        <translation type="vanished">野蛮暴怒</translation>
+    </message>
+</context>
+<context>
+    <name>TestMoonfire</name>
+    <message>
+        <source>Moonfire</source>
+        <translation type="vanished">月火术</translation>
+    </message>
+    <message>
+        <source>Improved Moonfire</source>
+        <translation type="vanished">强化月火术</translation>
+    </message>
+    <message>
+        <source>Vengeance</source>
+        <translation type="vanished">复仇</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Grace</source>
+        <translation type="vanished">自然之赐</translation>
+    </message>
+    <message>
+        <source>Moonfury</source>
+        <translation type="vanished">月怒</translation>
+    </message>
+    <message>
+        <source>Moonglow</source>
+        <translation type="vanished">月光</translation>
+    </message>
+</context>
+<context>
+    <name>TestMoonkinForm</name>
+    <message>
+        <source>Moonkin Form</source>
+        <translation type="vanished">枭兽形态</translation>
+    </message>
+    <message>
+        <source>Natural Shapeshifter</source>
+        <translation type="vanished">自然变形</translation>
+    </message>
+</context>
+<context>
+    <name>TestRestorationDruid</name>
+    <message>
+        <source>Improved Mark of the Wild</source>
+        <translation type="vanished">强化野性印记</translation>
+    </message>
+    <message>
+        <source>Furor</source>
+        <translation type="vanished">激怒</translation>
+    </message>
+    <message>
+        <source>Improved Healing Touch</source>
+        <translation type="vanished">强化治疗之触</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Focus</source>
+        <translation type="vanished">自然集中</translation>
+    </message>
+    <message>
+        <source>Improved Enrage</source>
+        <translation type="vanished">强化狂怒</translation>
+    </message>
+    <message>
+        <source>Reflection</source>
+        <translation type="vanished">反射</translation>
+    </message>
+    <message>
+        <source>Insect Swarm</source>
+        <translation type="vanished">虫群</translation>
+    </message>
+    <message>
+        <source>Subtlety</source>
+        <comment>Druid talent</comment>
+        <translation type="vanished">微妙</translation>
+    </message>
+    <message>
+        <source>Subtlety</source>
+        <translation type="vanished">敏锐</translation>
+    </message>
+    <message>
+        <source>Tranquil Spirit</source>
+        <translation type="vanished">宁静之魂</translation>
+    </message>
+    <message>
+        <source>Improved Rejuvenation</source>
+        <translation type="vanished">强化回春术</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Swiftness</source>
+        <translation type="vanished">自然迅捷</translation>
+    </message>
+    <message>
+        <source>Gift of Nature</source>
+        <translation type="vanished">自然赐福</translation>
+    </message>
+    <message>
+        <source>Improved Tranquility</source>
+        <translation type="vanished">强化宁静</translation>
+    </message>
+    <message>
+        <source>Improved Regrowth</source>
+        <translation type="vanished">强化愈合</translation>
+    </message>
+    <message>
+        <source>Swiftmend</source>
+        <translation type="vanished">迅捷治愈</translation>
+    </message>
+</context>
+<context>
+    <name>TestShred</name>
+    <message>
+        <source>Shred</source>
+        <translation type="vanished">撕碎</translation>
+    </message>
+    <message>
+        <source>Improved Shred</source>
+        <translation type="vanished">强化撕碎</translation>
+    </message>
+    <message>
+        <source>Sharpened Claws</source>
+        <translation type="vanished">锋利兽爪</translation>
+    </message>
+    <message>
+        <source>Blood Frenzy</source>
+        <translation type="vanished">血之狂暴</translation>
+    </message>
+</context>
+<context>
+    <name>TestSpell</name>
+    <message>
+        <source>Axe</source>
+        <translation type="vanished">斧</translation>
+    </message>
+    <message>
+        <source>Zulian Hacker</source>
+        <translation type="vanished">祖利安利斧</translation>
+    </message>
+    <message>
+        <source>Anubisath Warhammer</source>
+        <translation type="vanished">阿努比萨斯战锤</translation>
+    </message>
+    <message>
+        <source>Skullforge Reaver</source>
+        <translation type="vanished">铁骨剑</translation>
+    </message>
+    <message>
+        <source>Claw of the Black Drake</source>
+        <translation type="vanished">黑龙之爪</translation>
+    </message>
+    <message>
+        <source>Heartseeker</source>
+        <translation type="vanished">觅心者</translation>
+    </message>
+    <message>
+        <source>Arlokk&apos;s Grasp</source>
+        <translation type="vanished">娅尔罗之握</translation>
+    </message>
+    <message>
+        <source>Arcanite Reaper</source>
+        <translation type="vanished">奥金斧</translation>
+    </message>
+    <message>
+        <source>Earthshaker</source>
+        <translation type="vanished">震地者</translation>
+    </message>
+    <message>
+        <source>Ashkandi, Greatsword of the Brotherhood</source>
+        <translation type="vanished">阿什坎迪，兄弟会之剑</translation>
+    </message>
+    <message>
+        <source>Barb of the Sand Reaver</source>
+        <translation type="vanished">沙漠掠夺者之刺</translation>
+    </message>
+    <message>
+        <source>Resurgence Rod</source>
+        <translation type="vanished">苏醒之杖</translation>
+    </message>
+    <message>
+        <source>Beast</source>
+        <translation type="vanished">野兽</translation>
+    </message>
+    <message>
+        <source>Humanoid</source>
+        <translation type="vanished">人型生物</translation>
+    </message>
+</context>
+<context>
+    <name>TestSpellDruid</name>
+    <message>
+        <source>Wrath</source>
+        <translation type="vanished">愤怒</translation>
+    </message>
+    <message>
+        <source>Moonfire</source>
+        <translation type="vanished">月火术</translation>
+    </message>
+    <message>
+        <source>Starfire</source>
+        <translation type="vanished">星火术</translation>
+    </message>
+    <message>
+        <source>Moonkin Form</source>
+        <translation type="vanished">枭兽形态</translation>
+    </message>
+    <message>
+        <source>Cat Form</source>
+        <translation type="vanished">猎豹形态</translation>
+    </message>
+    <message>
+        <source>Bear Form</source>
+        <translation type="vanished">熊形态</translation>
+    </message>
+    <message>
+        <source>Shred</source>
+        <translation type="vanished">撕碎</translation>
+    </message>
+    <message>
+        <source>Swipe</source>
+        <translation type="vanished">挥击</translation>
+    </message>
+    <message>
+        <source>Maul</source>
+        <translation type="vanished">槌击</translation>
+    </message>
+    <message>
+        <source>Ferocious Bite</source>
+        <translation type="vanished">凶猛撕咬</translation>
+    </message>
+</context>
+<context>
+    <name>TestStarfire</name>
+    <message>
+        <source>Starfire</source>
+        <translation type="vanished">星火术</translation>
+    </message>
+    <message>
+        <source>Improved Moonfire</source>
+        <translation type="vanished">强化月火术</translation>
+    </message>
+    <message>
+        <source>Vengeance</source>
+        <translation type="vanished">复仇</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Grace</source>
+        <translation type="vanished">自然之赐</translation>
+    </message>
+    <message>
+        <source>Moonfury</source>
+        <translation type="vanished">月怒</translation>
+    </message>
+    <message>
+        <source>Improved Starfire</source>
+        <translation type="vanished">强化星火术</translation>
+    </message>
+    <message>
+        <source>Moonglow</source>
+        <translation type="vanished">月光</translation>
+    </message>
+</context>
+<context>
+    <name>TestSwipe</name>
+    <message>
+        <source>Swipe</source>
+        <translation type="vanished">挥击</translation>
+    </message>
+    <message>
+        <source>Ferocity</source>
+        <translation type="vanished">凶暴</translation>
+    </message>
+    <message>
+        <source>Sharpened Claws</source>
+        <translation type="vanished">锋利兽爪</translation>
+    </message>
+    <message>
+        <source>Primal Fury</source>
+        <translation type="vanished">原始狂怒</translation>
+    </message>
+</context>
+<context>
+    <name>TestWrath</name>
+    <message>
+        <source>Wrath</source>
+        <translation type="vanished">愤怒</translation>
+    </message>
+    <message>
+        <source>Improved Moonfire</source>
+        <translation type="vanished">强化月火术</translation>
+    </message>
+    <message>
+        <source>Vengeance</source>
+        <translation type="vanished">复仇</translation>
+    </message>
+    <message>
+        <source>Nature&apos;s Grace</source>
+        <translation type="vanished">自然之赐</translation>
+    </message>
+    <message>
+        <source>Moonfury</source>
+        <translation type="vanished">月怒</translation>
+    </message>
+    <message>
+        <source>Improved Wrath</source>
+        <translation type="vanished">强化愤怒</translation>
+    </message>
+    <message>
+        <source>Moonglow</source>
+        <translation type="vanished">月光</translation>
     </message>
 </context>
 <context>

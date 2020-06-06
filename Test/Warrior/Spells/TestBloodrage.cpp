@@ -7,7 +7,7 @@
 #include "Event.h"
 #include "Queue.h"
 
-TestBloodrage::TestBloodrage(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Bloodrage") {}
+TestBloodrage::TestBloodrage(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Bloodrage")) {}
 
 void TestBloodrage::test_all() {
     run_mandatory_tests();
@@ -26,7 +26,7 @@ Bloodrage* TestBloodrage::bloodrage() const {
 }
 
 void TestBloodrage::test_name_correct() {
-    assert(bloodrage()->get_name() == "Bloodrage");
+    assert(bloodrage()->get_name() == QObject::tr("Bloodrage"));
 }
 
 void TestBloodrage::test_spell_cooldown() {

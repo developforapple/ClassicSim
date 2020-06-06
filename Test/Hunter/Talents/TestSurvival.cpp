@@ -24,49 +24,49 @@ void TestSurvival::tear_down() {
 }
 
 void TestSurvival::test_spending_talent_points() {
-    assert(!decrement("Deflection"));
+    assert(!decrement(QObject::tr("Deflection")));
 
-    assert(increment("Deflection", 5));
+    assert(increment(QObject::tr("Deflection"), 5));
     // 5 points
-    assert(!increment("Deflection"));
-    assert(decrement("Deflection"));
-    assert(increment("Deflection"));
+    assert(!increment(QObject::tr("Deflection")));
+    assert(decrement(QObject::tr("Deflection")));
+    assert(increment(QObject::tr("Deflection")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Savage Strikes"));
-    assert(!decrement("Deflection"));
-    assert(increment("Monster Slaying"));
-    assert(decrement("Deflection"));
-    assert(!decrement("Deflection"));
-    assert(!decrement("Monster Slaying"));
+    assert(increment(QObject::tr("Savage Strikes")));
+    assert(!decrement(QObject::tr("Deflection")));
+    assert(increment(QObject::tr("Monster Slaying")));
+    assert(decrement(QObject::tr("Deflection")));
+    assert(!decrement(QObject::tr("Deflection")));
+    assert(!decrement(QObject::tr("Monster Slaying")));
 
-    assert(increment("Deflection"));
-    assert(decrement("Monster Slaying"));
-    assert(decrement("Savage Strikes"));
+    assert(increment(QObject::tr("Deflection")));
+    assert(decrement(QObject::tr("Monster Slaying")));
+    assert(decrement(QObject::tr("Savage Strikes")));
 
     // Make Counterattack available via raw points
-    assert(increment("Improved Wing Clip", 5));
-    assert(increment("Survivalist", 5));
-    assert(increment("Surefooted", 3));
-    assert(increment("Trap Mastery", 2));
+    assert(increment(QObject::tr("Improved Wing Clip"), 5));
+    assert(increment(QObject::tr("Survivalist"), 5));
+    assert(increment(QObject::tr("Surefooted"), 3));
+    assert(increment(QObject::tr("Trap Mastery"), 2));
 
     // Assert cannot spend points into Counterattack if 1/1 Deterrence is missing
-    assert(!increment("Counterattack"));
-    assert(increment("Deterrence"));
-    assert(increment("Counterattack"));
+    assert(!increment(QObject::tr("Counterattack")));
+    assert(increment(QObject::tr("Deterrence")));
+    assert(increment(QObject::tr("Counterattack")));
 
     // Make Wyvern Sting available via raw points
-    assert(increment("Monster Slaying", 3));
-    assert(increment("Lightning Reflexes", 5));
+    assert(increment(QObject::tr("Monster Slaying"), 3));
+    assert(increment(QObject::tr("Lightning Reflexes"), 5));
 
     // Assert cannot spend points into Wyvern Sting if 3/3 Killer Instinct is missing
-    assert(!increment("Wyvern Sting"));
-    assert(increment("Killer Instinct"));
-    assert(!increment("Wyvern Sting"));
-    assert(increment("Killer Instinct"));
-    assert(!increment("Wyvern Sting"));
-    assert(increment("Killer Instinct"));
-    assert(increment("Wyvern Sting"));
+    assert(!increment(QObject::tr("Wyvern Sting")));
+    assert(increment(QObject::tr("Killer Instinct")));
+    assert(!increment(QObject::tr("Wyvern Sting")));
+    assert(increment(QObject::tr("Killer Instinct")));
+    assert(!increment(QObject::tr("Wyvern Sting")));
+    assert(increment(QObject::tr("Killer Instinct")));
+    assert(increment(QObject::tr("Wyvern Sting")));
 }
 
 void TestSurvival::test_clearing_tree_after_filling() {
@@ -94,20 +94,20 @@ void TestSurvival::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestSurvival::spec_survival() {
-    assert(increment("Humanoid Slaying", 3));
-    assert(increment("Monster Slaying", 3));
-    assert(increment("Deflection", 5));
-    assert(increment("Entrapment", 5));
-    assert(increment("Savage Strikes", 2));
-    assert(increment("Improved Wing Clip", 5));
-    assert(increment("Clever Traps", 2));
-    assert(increment("Survivalist", 5));
-    assert(increment("Deterrence", 1));
-    assert(increment("Trap Mastery", 2));
-    assert(increment("Surefooted", 3));
-    assert(increment("Improved Feign Death", 2));
-    assert(increment("Killer Instinct", 3));
-    assert(increment("Counterattack", 1));
-    assert(increment("Lightning Reflexes", 5));
-    assert(increment("Wyvern Sting", 1));
+    assert(increment(QObject::tr("Humanoid Slaying"), 3));
+    assert(increment(QObject::tr("Monster Slaying"), 3));
+    assert(increment(QObject::tr("Deflection"), 5));
+    assert(increment(QObject::tr("Entrapment"), 5));
+    assert(increment(QObject::tr("Savage Strikes"), 2));
+    assert(increment(QObject::tr("Improved Wing Clip"), 5));
+    assert(increment(QObject::tr("Clever Traps"), 2));
+    assert(increment(QObject::tr("Survivalist"), 5));
+    assert(increment(QObject::tr("Deterrence"), 1));
+    assert(increment(QObject::tr("Trap Mastery"), 2));
+    assert(increment(QObject::tr("Surefooted"), 3));
+    assert(increment(QObject::tr("Improved Feign Death"), 2));
+    assert(increment(QObject::tr("Killer Instinct"), 3));
+    assert(increment(QObject::tr("Counterattack"), 1));
+    assert(increment(QObject::tr("Lightning Reflexes"), 5));
+    assert(increment(QObject::tr("Wyvern Sting"), 1));
 }

@@ -41,7 +41,7 @@ void TestSpellRogue::given_rogue_is_on_gcd() {
     if (pchar->get_equipment()->get_mainhand() == nullptr)
         given_a_mainhand_weapon_with_100_min_max_dmg();
 
-    given_rogue_is_on_gcd(rogue->get_spells()->get_spell_rank_group_by_name("Backstab")->get_max_available_spell_rank());
+    given_rogue_is_on_gcd(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Backstab"))->get_max_available_spell_rank());
 }
 
 void TestSpellRogue::given_rogue_is_on_gcd(Spell* spell) {
@@ -110,6 +110,6 @@ void TestSpellRogue::given_subtlety_talent_rank(const QString& talent_name, cons
 void TestSpellRogue::given_lethality_talent_rank(const unsigned num) {
     auto assa = Assassination(rogue);
 
-    given_talent_rank(assa, "Malice", 5);
-    given_talent_rank(assa, "Lethality", num);
+    given_talent_rank(assa, QObject::tr("Malice"), 5);
+    given_talent_rank(assa, QObject::tr("Lethality"), num);
 }

@@ -7,7 +7,7 @@
 #include "Event.h"
 #include "SpellRankGroup.h"
 
-TestBackstab::TestBackstab(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Backstab") {}
+TestBackstab::TestBackstab(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Backstab")) {}
 
 void TestBackstab::test_all() {
     run_mandatory_tests();
@@ -78,11 +78,11 @@ void TestBackstab::test_all() {
 }
 
 Backstab* TestBackstab::backstab() const {
-    return static_cast<Backstab*>(rogue->get_spells()->get_spell_rank_group_by_name("Backstab")->get_max_available_spell_rank());
+    return static_cast<Backstab*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Backstab"))->get_max_available_spell_rank());
 }
 
 void TestBackstab::test_name_correct() {
-    assert(backstab()->get_name() == "Backstab");
+    assert(backstab()->get_name() == QObject::tr("Backstab"));
 }
 
 void TestBackstab::test_spell_cooldown() {
@@ -294,7 +294,7 @@ void TestBackstab::test_crit_dmg_5_of_5_lethality() {
 }
 
 void TestBackstab::test_hit_dmg_1_of_5_opportunity() {
-    given_subtlety_talent_rank("Opportunity", 1);
+    given_subtlety_talent_rank(QObject::tr("Opportunity"), 1);
     given_target_has_0_armor();
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
@@ -309,7 +309,7 @@ void TestBackstab::test_hit_dmg_1_of_5_opportunity() {
 }
 
 void TestBackstab::test_hit_dmg_5_of_5_opportunity() {
-    given_subtlety_talent_rank("Opportunity", 5);
+    given_subtlety_talent_rank(QObject::tr("Opportunity"), 5);
     given_target_has_0_armor();
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
@@ -324,7 +324,7 @@ void TestBackstab::test_hit_dmg_5_of_5_opportunity() {
 }
 
 void TestBackstab::test_crit_dmg_1_of_5_opportunity() {
-    given_subtlety_talent_rank("Opportunity", 1);
+    given_subtlety_talent_rank(QObject::tr("Opportunity"), 1);
     given_target_has_0_armor();
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
@@ -339,7 +339,7 @@ void TestBackstab::test_crit_dmg_1_of_5_opportunity() {
 }
 
 void TestBackstab::test_crit_dmg_5_of_5_opportunity() {
-    given_subtlety_talent_rank("Opportunity", 5);
+    given_subtlety_talent_rank(QObject::tr("Opportunity"), 5);
     given_target_has_0_armor();
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
@@ -360,7 +360,7 @@ void TestBackstab::test_hit_dmg_both_5_of_5_lethality_and_opportunity() {
 
 void TestBackstab::test_crit_dmg_both_5_of_5_lethality_and_opportunity() {
     given_lethality_talent_rank(5);
-    given_subtlety_talent_rank("Opportunity", 5);
+    given_subtlety_talent_rank(QObject::tr("Opportunity"), 5);
     given_target_has_0_armor();
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();

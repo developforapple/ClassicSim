@@ -10,7 +10,7 @@
 #include "Event.h"
 #include "Moonfire.h"
 
-TestMoonfire::TestMoonfire(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Moonfire") {}
+TestMoonfire::TestMoonfire(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Moonfire")) {}
 
 void TestMoonfire::test_all() {
     run_mandatory_tests();
@@ -57,7 +57,7 @@ void TestMoonfire::test_all() {
 }
 
 void TestMoonfire::test_name_correct() {
-    assert(moonfire()->get_name() == "Moonfire");
+    assert(moonfire()->get_name() == QObject::tr("Moonfire"));
 }
 
 void TestMoonfire::test_spell_cooldown() {
@@ -111,7 +111,7 @@ void TestMoonfire::test_crit_dmg() {
 }
 
 void TestMoonfire::test_crit_dmg_5_of_5_vengeance_and_5_of_imp_moonfire() {
-    given_balance_talent_ranks({{"Improved Moonfire", 5}, {"Vengeance", 5}});
+    given_balance_talent_ranks({{QObject::tr("Improved Moonfire"), 5}, {QObject::tr("Vengeance"), 5}});
     given_a_guaranteed_magic_crit(MagicSchool::Arcane);
     given_1000_spell_power();
     given_no_previous_damage_dealt();
@@ -146,7 +146,7 @@ void TestMoonfire::test_duration_dmg_after_crit() {
 }
 
 void TestMoonfire::test_hit_damage_1_of_5_moonfury() {
-    given_balance_talent_ranks({{"Nature's Grace", 1}, {"Moonfury", 1}});
+    given_balance_talent_ranks({{QObject::tr("Nature's Grace"), 1}, {QObject::tr("Moonfury"), 1}});
     given_a_guaranteed_magic_hit(MagicSchool::Arcane);
     given_1000_spell_power();
     given_no_previous_damage_dealt();
@@ -159,7 +159,7 @@ void TestMoonfire::test_hit_damage_1_of_5_moonfury() {
 }
 
 void TestMoonfire::test_hit_damage_5_of_5_moonfury() {
-    given_balance_talent_ranks({{"Nature's Grace", 1}, {"Moonfury", 5}});
+    given_balance_talent_ranks({{QObject::tr("Nature's Grace"), 1}, {QObject::tr("Moonfury"), 5}});
     given_a_guaranteed_magic_hit(MagicSchool::Arcane);
     given_1000_spell_power();
     given_no_previous_damage_dealt();
@@ -172,7 +172,7 @@ void TestMoonfire::test_hit_damage_5_of_5_moonfury() {
 }
 
 void TestMoonfire::test_resource_cost_3_of_3_moonglow() {
-    given_balance_talent_rank("Moonglow", 3);
+    given_balance_talent_rank(QObject::tr("Moonglow"), 3);
     given_druid_has_mana(static_cast<unsigned>(std::round(375 * 0.91) + 1));
 
     when_moonfire_is_performed();
@@ -182,7 +182,7 @@ void TestMoonfire::test_resource_cost_3_of_3_moonglow() {
 
 void TestMoonfire::test_natures_grace_activated_on_spell_crit_if_enabled() {
     given_a_guaranteed_magic_crit(MagicSchool::Arcane);
-    given_balance_talent_rank("Nature's Grace", 1);
+    given_balance_talent_rank(QObject::tr("Nature's Grace"), 1);
     pchar->prepare_set_of_combat_iterations();
     assert(!static_cast<DruidSpells*>(druid->get_spells())->get_natures_grace()->is_active());
 

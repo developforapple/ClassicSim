@@ -11,7 +11,7 @@
 #include "Revenge.h"
 #include "Talent.h"
 
-TestRevenge::TestRevenge(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Revenge") {}
+TestRevenge::TestRevenge(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Revenge")) {}
 
 void TestRevenge::test_all() {
     run_mandatory_tests();
@@ -46,7 +46,7 @@ Revenge* TestRevenge::revenge() const {
 }
 
 void TestRevenge::test_name_correct() {
-    assert(revenge()->get_name() == "Revenge");
+    assert(revenge()->get_name() == QObject::tr("Revenge"));
 }
 
 void TestRevenge::test_spell_cooldown() {

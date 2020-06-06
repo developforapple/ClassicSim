@@ -33,18 +33,17 @@
 #include "Test.h"
 #include "ThreatBreakdownModel.h"
 #include "WeaponModel.h"
+#include <Utils/i18n.h>
 
 int main(int argc, char* argv[]) {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
-    Test test;
-    test.test_all();
-
     QApplication app(argc, argv);
 
-    QTranslator* myTranslator=new QTranslator;
-    myTranslator->load("Chinese.qm");
-    app.installTranslator(myTranslator);
+    I18N::get_instance().init(app);
+
+    Test test;
+    test.test_all();
 
     auto gui_control = new GUIControl();
 

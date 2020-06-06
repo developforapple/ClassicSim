@@ -7,9 +7,9 @@
 		<source>
 		Drops from Isalien in Dire Maul.
 		</source>
-		<modifies name="Seal of Command"/>
-		<modifies name="Seal of the Crusader"/>
-		<modifies name="Seal of Righteousness"/>
+		<modifies name="Seal of Command"  name_zh="命令圣印"/>
+		<modifies name="Seal of the Crusader"  name_zh="十字军圣印"/>
+		<modifies name="Seal of Righteousness"  name_zh="正义圣印"/>
 		<special_equip_effect>
 			<en>Equip: Reduces the mana cost of your Seal spells by 20.</en>
 			<zh>装备：使你的圣印法术所消耗的法力值降低20点。</zh>
@@ -23,8 +23,8 @@
 		<source>
 		World drop.
 		</source>
-		<modifies name="Seal of the Crusader"/>
-		<modifies name="Judgement of the Crusader"/>
+		<modifies name="Seal of the Crusader" name_zh="十字军圣印"/>
+		<modifies name="Judgement of the Crusader" name_zh="十字军审判"/>
 		<special_equip_effect>
 			<en>Equip: Increases the melee attack power bonus of your Seal of the Crusader by 48 and the Holy damage increase of your Judgement of the Crusader by 33.</en>
 			<zh>装备：使你的十字军圣印的近战攻击强度加成提高48点，十字军审判的神圣伤害加成提高33点。</zh>
@@ -38,7 +38,7 @@
 		<source>
 		World drop.
 		</source>
-		<modifies name="Moonfire"/>
+		<modifies name="Moonfire" name_zh="月火术"/>
 		<special_equip_effect>
 			<en>Equip: Increases the damage of your Moonfire spell by up to 17% (HAS NO EFFECT CURRENTLY).</en>
 			<zh>装备：使你的月火术所造成的伤害提高最多17%。</zh>
@@ -52,8 +52,8 @@
 		<source>
 		World drop.
 		</source>
-		<modifies name="Lightning Bolt"/>
-		<modifies name="Chain Lightning"/>
+		<modifies name="Lightning Bolt" name_zh="闪电箭"/>
+		<modifies name="Chain Lightning" name_zh="闪电链"/>
 		<special_equip_effect>
 			<en>Equip: Increases damage done by Chain Lightning and Lightning Bolt by up to 33.</en>
 			<zh>装备：使闪电链和闪电箭所造成的伤害提高最多33点。</zh>

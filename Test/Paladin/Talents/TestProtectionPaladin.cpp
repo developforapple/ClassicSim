@@ -23,34 +23,34 @@ void TestProtectionPaladin::tear_down() {
 }
 
 void TestProtectionPaladin::test_spending_talent_points() {
-    assert(!decrement("Redoubt"));
+    assert(!decrement(QObject::tr("Redoubt")));
 
-    assert(increment("Redoubt", 5));
+    assert(increment(QObject::tr("Redoubt"), 5));
     // 5 points
-    assert(!increment("Redoubt"));
-    assert(decrement("Redoubt"));
-    assert(increment("Redoubt"));
+    assert(!increment(QObject::tr("Redoubt")));
+    assert(decrement(QObject::tr("Redoubt")));
+    assert(increment(QObject::tr("Redoubt")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Precision"));
-    assert(!decrement("Redoubt"));
-    assert(increment("Improved Devotion Aura"));
-    assert(decrement("Redoubt"));
-    assert(!decrement("Redoubt"));
-    assert(!decrement("Improved Devotion Aura"));
+    assert(increment(QObject::tr("Precision")));
+    assert(!decrement(QObject::tr("Redoubt")));
+    assert(increment(QObject::tr("Improved Devotion Aura")));
+    assert(decrement(QObject::tr("Redoubt")));
+    assert(!decrement(QObject::tr("Redoubt")));
+    assert(!decrement(QObject::tr("Improved Devotion Aura")));
 
-    assert(increment("Redoubt"));
-    assert(decrement("Improved Devotion Aura"));
-    assert(increment("Precision", 2));
-    assert(increment("Guardian's Favor", 2));
+    assert(increment(QObject::tr("Redoubt")));
+    assert(decrement(QObject::tr("Improved Devotion Aura")));
+    assert(increment(QObject::tr("Precision"), 2));
+    assert(increment(QObject::tr("Guardian's Favor"), 2));
 
     // Assert cannot spend points into Shield Specialization if Redoubt is missing.
-    assert(increment("Improved Devotion Aura"));
-    assert(decrement("Redoubt"));
-    assert(!increment("Shield Specialization"));
-    assert(increment("Redoubt"));
-    assert(increment("Shield Specialization"));
-    assert(!decrement("Redoubt"));
+    assert(increment(QObject::tr("Improved Devotion Aura")));
+    assert(decrement(QObject::tr("Redoubt")));
+    assert(!increment(QObject::tr("Shield Specialization")));
+    assert(increment(QObject::tr("Redoubt")));
+    assert(increment(QObject::tr("Shield Specialization")));
+    assert(!decrement(QObject::tr("Redoubt")));
 }
 
 void TestProtectionPaladin::test_clearing_tree_after_filling() {
@@ -78,19 +78,19 @@ void TestProtectionPaladin::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestProtectionPaladin::spec_protection() {
-    assert(increment("Improved Devotion Aura", 5));
-    assert(increment("Redoubt", 5));
-    assert(increment("Precision", 3));
-    assert(increment("Guardian's Favor", 2));
-    assert(increment("Toughness", 5));
-    assert(increment("Blessing of Kings", 1));
-    assert(increment("Improved Righteous Fury", 3));
-    assert(increment("Shield Specialization", 3));
-    assert(increment("Anticipation", 5));
-    assert(increment("Improved Hammer of Justice", 3));
-    assert(increment("Improved Concentration Aura", 3));
-    assert(increment("Blessing of Sanctuary", 1));
-    assert(increment("Reckoning", 5));
-    assert(increment("One-Handed Weapon Specialization", 5));
-    assert(increment("Holy Shield", 1));
+    assert(increment(QObject::tr("Improved Devotion Aura"), 5));
+    assert(increment(QObject::tr("Redoubt"), 5));
+    assert(increment(QObject::tr("Precision"), 3));
+    assert(increment(QObject::tr("Guardian's Favor"), 2));
+    assert(increment(QObject::tr("Toughness"), 5));
+    assert(increment(QObject::tr("Blessing of Kings"), 1));
+    assert(increment(QObject::tr("Improved Righteous Fury"), 3));
+    assert(increment(QObject::tr("Shield Specialization"), 3));
+    assert(increment(QObject::tr("Anticipation"), 5));
+    assert(increment(QObject::tr("Improved Hammer of Justice"), 3));
+    assert(increment(QObject::tr("Improved Concentration Aura"), 3));
+    assert(increment(QObject::tr("Blessing of Sanctuary"), 1));
+    assert(increment(QObject::tr("Reckoning"), 5));
+    assert(increment(QObject::tr("One-Handed Weapon Specialization"), 5));
+    assert(increment(QObject::tr("Holy Shield"), 1));
 }

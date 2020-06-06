@@ -76,7 +76,7 @@ void Elemental::add_convection(QMap<QString, Talent*>& talent_tier) {
     Talent* talent = get_new_talent(shaman, QObject::tr("Convection"), "1ML", "Assets/spell/Spell_nature_wispsplode.png", 5,
                                     QObject::tr("Reduces the mana cost of your Shock, Lightning Bolt, and Chain Lightning spells by %1%."),
                                     QVector<QPair<unsigned, unsigned>> {{2, 2}},
-                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Lightning Bolt")});
+                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Lightning Bolt"))});
 
     add_talent_to_tier(talent_tier, talent);
 }
@@ -85,7 +85,7 @@ void Elemental::add_concussion(QMap<QString, Talent*>& talent_tier) {
     Talent* talent = get_new_talent(shaman, QObject::tr("Concussion"), "1MR", "Assets/spell/Spell_fire_fireball.png", 5,
                                     QObject::tr("Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by %1%."),
                                     QVector<QPair<unsigned, unsigned>> {{1, 1}},
-                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Lightning Bolt")});
+                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Lightning Bolt"))});
 
     add_talent_to_tier(talent_tier, talent);
 }

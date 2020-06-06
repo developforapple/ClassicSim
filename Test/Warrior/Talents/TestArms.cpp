@@ -25,129 +25,129 @@ void TestArms::tear_down() {
 }
 
 void TestArms::test_spending_talent_points() {
-    assert(!decrement("Deflection"));
+    assert(!decrement(QObject::tr("Deflection")));
 
-    assert(increment("Deflection", 5));
+    assert(increment(QObject::tr("Deflection"), 5));
     // 5 points
-    assert(!increment("Deflection"));
-    assert(decrement("Deflection"));
-    assert(increment("Deflection"));
+    assert(!increment(QObject::tr("Deflection")));
+    assert(decrement(QObject::tr("Deflection")));
+    assert(increment(QObject::tr("Deflection")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Tactical Mastery"));
-    assert(!decrement("Deflection"));
-    assert(increment("Improved Rend"));
-    assert(decrement("Deflection"));
-    assert(!decrement("Deflection"));
-    assert(!decrement("Improved Rend"));
+    assert(increment(QObject::tr("Tactical Mastery")));
+    assert(!decrement(QObject::tr("Deflection")));
+    assert(increment(QObject::tr("Improved Rend")));
+    assert(decrement(QObject::tr("Deflection")));
+    assert(!decrement(QObject::tr("Deflection")));
+    assert(!decrement(QObject::tr("Improved Rend")));
 
-    assert(increment("Deflection"));
-    assert(decrement("Improved Rend"));
+    assert(increment(QObject::tr("Deflection")));
+    assert(decrement(QObject::tr("Improved Rend")));
     // 5 Deflection 1 Imp TC.
 
-    assert(increment("Tactical Mastery", 4));
+    assert(increment(QObject::tr("Tactical Mastery"), 4));
 
     // Assert cannot spend points into Deep Wounds if 3/3 Imp Rend is missing
-    assert(!increment("Deep Wounds"));
-    assert(increment("Improved Rend"));
-    assert(!increment("Deep Wounds"));
-    assert(increment("Improved Rend"));
-    assert(!increment("Deep Wounds"));
-    assert(increment("Improved Rend"));
+    assert(!increment(QObject::tr("Deep Wounds")));
+    assert(increment(QObject::tr("Improved Rend")));
+    assert(!increment(QObject::tr("Deep Wounds")));
+    assert(increment(QObject::tr("Improved Rend")));
+    assert(!increment(QObject::tr("Deep Wounds")));
+    assert(increment(QObject::tr("Improved Rend")));
 
     // Assert cannot remove points from Improved Rend once points are spent in Deep Wounds
-    assert(increment("Deep Wounds"));
-    assert(!decrement("Improved Rend"));
-    assert(increment("Deep Wounds"));
-    assert(!decrement("Improved Rend"));
-    assert(increment("Deep Wounds"));
-    assert(!decrement("Improved Rend"));
+    assert(increment(QObject::tr("Deep Wounds")));
+    assert(!decrement(QObject::tr("Improved Rend")));
+    assert(increment(QObject::tr("Deep Wounds")));
+    assert(!decrement(QObject::tr("Improved Rend")));
+    assert(increment(QObject::tr("Deep Wounds")));
+    assert(!decrement(QObject::tr("Improved Rend")));
 
-    assert(increment("Improved Overpower", 2));
-    assert(increment("Impale", 2));
-    assert(!decrement("Deep Wounds"));
+    assert(increment(QObject::tr("Improved Overpower"), 2));
+    assert(increment(QObject::tr("Impale"), 2));
+    assert(!decrement(QObject::tr("Deep Wounds")));
 
-    assert(increment("Sweeping Strikes"));
+    assert(increment(QObject::tr("Sweeping Strikes")));
 
     // Cannot decrement lower tiers
-    assert(!decrement("Impale"));
-    assert(!decrement("Deep Wounds"));
-    assert(!decrement("Tactical Mastery"));
-    assert(!decrement("Deflection"));
+    assert(!decrement(QObject::tr("Impale")));
+    assert(!decrement(QObject::tr("Deep Wounds")));
+    assert(!decrement(QObject::tr("Tactical Mastery")));
+    assert(!decrement(QObject::tr("Deflection")));
 
     // Try shifting points in T1
-    assert(increment("Improved Heroic Strike"));
-    assert(decrement("Deflection"));
-    assert(!decrement("Deflection"));
-    assert(!decrement("Improved Heroic Strike"));
+    assert(increment(QObject::tr("Improved Heroic Strike")));
+    assert(decrement(QObject::tr("Deflection")));
+    assert(!decrement(QObject::tr("Deflection")));
+    assert(!decrement(QObject::tr("Improved Heroic Strike")));
 
-    assert(increment("Deflection"));
-    assert(decrement("Improved Heroic Strike"));
+    assert(increment(QObject::tr("Deflection")));
+    assert(decrement(QObject::tr("Improved Heroic Strike")));
 
     // Try shifting points in T2
-    assert(increment("Improved Charge"));
-    assert(decrement("Tactical Mastery"));
-    assert(!decrement("Improved Charge"));
-    assert(!decrement("Tactical Mastery"));
+    assert(increment(QObject::tr("Improved Charge")));
+    assert(decrement(QObject::tr("Tactical Mastery")));
+    assert(!decrement(QObject::tr("Improved Charge")));
+    assert(!decrement(QObject::tr("Tactical Mastery")));
 
-    assert(increment("Tactical Mastery"));
-    assert(decrement("Improved Charge"));
+    assert(increment(QObject::tr("Tactical Mastery")));
+    assert(decrement(QObject::tr("Improved Charge")));
 
     // Try shifting points in T3
-    assert(increment("Anger Management"));
-    assert(decrement("Improved Overpower"));
-    assert(!decrement("Anger Management"));
-    assert(!decrement("Improved Overpower"));
+    assert(increment(QObject::tr("Anger Management")));
+    assert(decrement(QObject::tr("Improved Overpower")));
+    assert(!decrement(QObject::tr("Anger Management")));
+    assert(!decrement(QObject::tr("Improved Overpower")));
 
-    assert(increment("Improved Overpower"));
-    assert(decrement("Anger Management"));
+    assert(increment(QObject::tr("Improved Overpower")));
+    assert(decrement(QObject::tr("Anger Management")));
 
     // Try shifting points in T4
-    assert(increment("Two-Handed Weapon Specialization"));
-    assert(decrement("Impale"));
-    assert(!decrement("Two-Handed Weapon Specialization"));
-    assert(!decrement("Two-Handed Weapon Specialization"));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization")));
+    assert(decrement(QObject::tr("Impale")));
+    assert(!decrement(QObject::tr("Two-Handed Weapon Specialization")));
+    assert(!decrement(QObject::tr("Two-Handed Weapon Specialization")));
 
-    assert(increment("Impale"));
-    assert(decrement("Two-Handed Weapon Specialization"));
+    assert(increment(QObject::tr("Impale")));
+    assert(decrement(QObject::tr("Two-Handed Weapon Specialization")));
 
-    assert(increment("Axe Specialization", 5));
-    assert(increment("Two-Handed Weapon Specialization"));
-    assert(!increment("Mortal Strike"));
-    assert(increment("Two-Handed Weapon Specialization"));
-    assert(!increment("Mortal Strike"));
-    assert(increment("Two-Handed Weapon Specialization"));
-    assert(!increment("Mortal Strike"));
-    assert(increment("Two-Handed Weapon Specialization"));
+    assert(increment(QObject::tr("Axe Specialization"), 5));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization")));
+    assert(!increment(QObject::tr("Mortal Strike")));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization")));
+    assert(!increment(QObject::tr("Mortal Strike")));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization")));
+    assert(!increment(QObject::tr("Mortal Strike")));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization")));
     assert(tree_has_points(30));
-    assert(increment("Mortal Strike"));
+    assert(increment(QObject::tr("Mortal Strike")));
 
     // Assert cannot remove parent (Sweeping Strikes) when child (MS) is active although points allow
-    assert(!decrement("Sweeping Strikes"));
+    assert(!decrement(QObject::tr("Sweeping Strikes")));
 
     // Assert lower tiers cannot be decremented
-    assert(!decrement("Axe Specialization"));
-    assert(!decrement("Impale"));
-    assert(!decrement("Deep Wounds"));
-    assert(!decrement("Tactical Mastery"));
-    assert(!decrement("Deflection"));
+    assert(!decrement(QObject::tr("Axe Specialization")));
+    assert(!decrement(QObject::tr("Impale")));
+    assert(!decrement(QObject::tr("Deep Wounds")));
+    assert(!decrement(QObject::tr("Tactical Mastery")));
+    assert(!decrement(QObject::tr("Deflection")));
 
-    assert(decrement("Mortal Strike"));
+    assert(decrement(QObject::tr("Mortal Strike")));
 }
 
 void TestArms::test_clearing_tree_after_filling() {
-    assert(increment("Deflection", 5));
-    assert(increment("Improved Rend", 3));
-    assert(increment("Tactical Mastery", 5));
-    assert(increment("Deep Wounds", 3));
-    assert(increment("Anger Management"));
-    assert(increment("Impale", 2));
-    assert(increment("Two-Handed Weapon Specialization", 5));
-    assert(increment("Axe Specialization", 5));
-    assert(increment("Sweeping Strikes"));
-    assert(increment("Mortal Strike"));
+    assert(increment(QObject::tr("Deflection"), 5));
+    assert(increment(QObject::tr("Improved Rend"), 3));
+    assert(increment(QObject::tr("Tactical Mastery"), 5));
+    assert(increment(QObject::tr("Deep Wounds"), 3));
+    assert(increment(QObject::tr("Anger Management")));
+    assert(increment(QObject::tr("Impale"), 2));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization"), 5));
+    assert(increment(QObject::tr("Axe Specialization"), 5));
+    assert(increment(QObject::tr("Sweeping Strikes")));
+    assert(increment(QObject::tr("Mortal Strike")));
 
-    assert(!decrement("Two-Handed Weapon Specialization"));
+    assert(!decrement(QObject::tr("Two-Handed Weapon Specialization")));
 
     clear_tree();
 }
@@ -169,15 +169,15 @@ void TestArms::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestArms::spec_ms() {
-    assert(increment("Improved Rend", 3));
-    assert(increment("Deflection", 3));
-    assert(increment("Tactical Mastery", 5));
-    assert(increment("Improved Overpower", 2));
-    assert(increment("Anger Management", 1));
-    assert(increment("Deep Wounds", 3));
-    assert(increment("Impale", 2));
-    assert(increment("Two-Handed Weapon Specialization", 5));
-    assert(increment("Sweeping Strikes", 1));
-    assert(increment("Sword Specialization", 5));
-    assert(increment("Mortal Strike", 1));
+    assert(increment(QObject::tr("Improved Rend"), 3));
+    assert(increment(QObject::tr("Deflection"), 3));
+    assert(increment(QObject::tr("Tactical Mastery"), 5));
+    assert(increment(QObject::tr("Improved Overpower"), 2));
+    assert(increment(QObject::tr("Anger Management"), 1));
+    assert(increment(QObject::tr("Deep Wounds"), 3));
+    assert(increment(QObject::tr("Impale"), 2));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization"), 5));
+    assert(increment(QObject::tr("Sweeping Strikes"), 1));
+    assert(increment(QObject::tr("Sword Specialization"), 5));
+    assert(increment(QObject::tr("Mortal Strike"), 1));
 }

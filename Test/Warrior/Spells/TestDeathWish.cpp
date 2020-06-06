@@ -8,7 +8,7 @@
 #include "Event.h"
 #include "Talent.h"
 
-TestDeathWish::TestDeathWish(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Death Wish") {}
+TestDeathWish::TestDeathWish(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Death Wish")) {}
 
 void TestDeathWish::test_all() {
     run_mandatory_tests(false);
@@ -23,7 +23,7 @@ DeathWish* TestDeathWish::death_wish() const {
 }
 
 void TestDeathWish::test_name_correct() {
-    assert(death_wish()->get_name() == "Death Wish");
+    assert(death_wish()->get_name() == QObject::tr("Death Wish"));
 }
 
 void TestDeathWish::test_spell_cooldown() {
@@ -110,7 +110,7 @@ void TestDeathWish::test_dmg_mod_reduced_after_buff_expires() {
 }
 
 void TestDeathWish::given_death_wish_is_enabled() {
-    given_fury_talent_with_rank("Death Wish", 1);
+    given_fury_talent_with_rank(QObject::tr("Death Wish"), 1);
 
     assert(death_wish()->is_enabled());
     pchar->prepare_set_of_combat_iterations();

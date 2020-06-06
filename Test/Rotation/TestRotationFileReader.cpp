@@ -45,37 +45,37 @@ TestRotationFileReader::~TestRotationFileReader() {
 void TestRotationFileReader::test_values_after_initialization() {}
 
 void TestRotationFileReader::test_warrior_dw_fury() {
-    Rotation* rotation = get_rotation("DW Fury High Rage");
+    Rotation* rotation = get_rotation(QObject::tr("DW Fury High Rage"));
 
-    QVector<QString> expected_all_executor_names = {"Berserker Rage",
-                                                    "Battle Shout",
-                                                    "Heroic Strike",
-                                                    "Manual Crowd Pummeler",
-                                                    "Kiss of the Spider",
-                                                    "Jom Gabbar",
-                                                    "Badge of the Swarmguard",
-                                                    "Slayer's Crest",
-                                                    "Earthstrike",
-                                                    "Zandalarian Hero Medallion",
-                                                    "Diamond Flask",
-                                                    "Cloudkeeper Legplates",
-                                                    "Death Wish",
-                                                    "Recklessness",
-                                                    "Blood Fury",
-                                                    "Berserking",
-                                                    "Execute",
-                                                    "Bloodthirst",
-                                                    "Whirlwind",
-                                                    "Overpower",
-                                                    "Hamstring",
-                                                    "Battle Stance",
-                                                    "Berserker Stance"};
+    QVector<QString> expected_all_executor_names = {QObject::tr("Berserker Rage"),
+                                                    QObject::tr("Battle Shout"),
+                                                    QObject::tr("Heroic Strike"),
+                                                    QObject::tr("Manual Crowd Pummeler"),
+                                                    QObject::tr("Kiss of the Spider"),
+                                                    QObject::tr("Jom Gabbar"),
+                                                    QObject::tr("Badge of the Swarmguard"),
+                                                    QObject::tr("Slayer's Crest"),
+                                                    QObject::tr("Earthstrike"),
+                                                    QObject::tr("Zandalarian Hero Medallion"),
+                                                    QObject::tr("Diamond Flask"),
+                                                    QObject::tr("Cloudkeeper Legplates"),
+                                                    QObject::tr("Death Wish"),
+                                                    QObject::tr("Recklessness"),
+                                                    QObject::tr("Blood Fury"),
+                                                    QObject::tr("Berserking"),
+                                                    QObject::tr("Execute"),
+                                                    QObject::tr("Bloodthirst"),
+                                                    QObject::tr("Whirlwind"),
+                                                    QObject::tr("Overpower"),
+                                                    QObject::tr("Hamstring"),
+                                                    QObject::tr("Battle Stance"),
+                                                    QObject::tr("Berserker Stance")};
     assert(rotation->all_executors.size() == expected_all_executor_names.size());
     verify_executor_names(rotation, rotation->all_executors, expected_all_executor_names);
 
-    QVector<QString> expected_active_executor_names = {"Berserker Rage", "Battle Shout",  "Heroic Strike",   "Recklessness",
-                                                       "Blood Fury",     "Execute",       "Whirlwind",       "Overpower",
-                                                       "Hamstring",      "Battle Stance", "Berserker Stance"};
+    QVector<QString> expected_active_executor_names = {QObject::tr("Berserker Rage"), QObject::tr("Battle Shout"),  QObject::tr("Heroic Strike"),   QObject::tr("Recklessness"),
+                                                       QObject::tr("Blood Fury"),     QObject::tr("Execute"),       QObject::tr("Whirlwind"),       QObject::tr("Overpower"),
+                                                       QObject::tr("Hamstring"),      QObject::tr("Battle Stance"), QObject::tr("Berserker Stance")};
     rotation->link_spells(warrior);
     verify_executor_names(rotation, rotation->active_executors, expected_active_executor_names);
 
@@ -103,7 +103,7 @@ void TestRotationFileReader::test_warrior_dw_fury() {
     assert(condition_groups[0].size() == 1);
     // buff "Battle Shout" less 3
     buff_condition = static_cast<ConditionBuffDuration*>(condition_groups[0][0]);
-    verify_buff_condition(buff_condition, "Battle Shout", 3.0, Comparator::Less);
+    verify_buff_condition(buff_condition, QObject::tr("Battle Shout"), 3.0, Comparator::Less);
 
     // Condition group 1
     assert(condition_groups[1].size() == 3);
@@ -115,7 +115,7 @@ void TestRotationFileReader::test_warrior_dw_fury() {
     verify_builtin_condition(builtin_condition, BuiltinVariables::TimeRemainingExecute, 0.0, Comparator::Greater);
     // buff "Battle Shout" less 45
     buff_condition = static_cast<ConditionBuffDuration*>(condition_groups[1][2]);
-    verify_buff_condition(buff_condition, "Battle Shout", 45.0, Comparator::Less);
+    verify_buff_condition(buff_condition, QObject::tr("Battle Shout"), 45.0, Comparator::Less);
 
     //
     // Heroic Strike
@@ -131,18 +131,18 @@ void TestRotationFileReader::test_warrior_dw_fury() {
 }
 
 void TestRotationFileReader::test_hunter_aimed_shot_multi_shot() {
-    Rotation* rotation = get_rotation("Aimed/Multi-Shot");
+    Rotation* rotation = get_rotation(QObject::tr("Aimed/Multi-Shot"));
 
     QVector<QString> expected_executor_names = {
-        "Rapid Fire",         "Kiss of the Spider",
-        "Jom Gabbar",         "Badge of the Swarmguard",
-        "Slayer's Crest",     "Earthstrike",
-        "Devilsaur Eye",      "Zandalarian Hero Medallion",
-        "Blood Fury",         "Berserking",
-        "Bestial Wrath",      "Aimed Shot",
-        "Multi-Shot",         "Hunter's Mark",
-        "Aspect of the Hawk", "Mana Potion",
-        "Demonic Rune",       "Night Dragon's Breath",
+        QObject::tr("Rapid Fire"),         QObject::tr("Kiss of the Spider"),
+        QObject::tr("Jom Gabbar"),         QObject::tr("Badge of the Swarmguard"),
+        QObject::tr("Slayer's Crest"),     QObject::tr("Earthstrike"),
+        QObject::tr("Devilsaur Eye"),      QObject::tr("Zandalarian Hero Medallion"),
+        QObject::tr("Blood Fury"),         QObject::tr("Berserking"),
+        QObject::tr("Bestial Wrath"),      QObject::tr("Aimed Shot"),
+        QObject::tr("Multi-Shot"),         QObject::tr("Hunter's Mark"),
+        QObject::tr("Aspect of the Hawk"), QObject::tr("Mana Potion"),
+        QObject::tr("Demonic Rune"),       QObject::tr("Night Dragon's Breath"),
     };
     assert(rotation->all_executors.size() == expected_executor_names.size());
 
@@ -150,31 +150,31 @@ void TestRotationFileReader::test_hunter_aimed_shot_multi_shot() {
 }
 
 void TestRotationFileReader::test_paladin_seal_of_the_crusader() {
-    Rotation* rotation = get_rotation("Seal of the Crusader");
+    Rotation* rotation = get_rotation(QObject::tr("Seal of the Crusader"));
 
     QVector<QString> expected_executor_names = {
-        "Judgement",
-        "Seal of the Crusader",
-        "Consecration",
-        "Manual Crowd Pummeler",
-        "Scrolls of Blinding Light",
-        "Kiss of the Spider",
-        "Jom Gabbar",
-        "Badge of the Swarmguard",
-        "Slayer's Crest",
-        "Earthstrike",
-        "Zandalarian Hero Medallion",
-        "Sanctified Orb",
-        "Cloudkeeper Legplates",
-        "Mana Potion",
-        "Demonic Rune",
-        "Night Dragon's Breath",
+        QObject::tr("Judgement"),
+        QObject::tr("Seal of the Crusader"),
+        QObject::tr("Consecration"),
+        QObject::tr("Manual Crowd Pummeler"),
+        QObject::tr("Scrolls of Blinding Light"),
+        QObject::tr("Kiss of the Spider"),
+        QObject::tr("Jom Gabbar"),
+        QObject::tr("Badge of the Swarmguard"),
+        QObject::tr("Slayer's Crest"),
+        QObject::tr("Earthstrike"),
+        QObject::tr("Zandalarian Hero Medallion"),
+        QObject::tr("Sanctified Orb"),
+        QObject::tr("Cloudkeeper Legplates"),
+        QObject::tr("Mana Potion"),
+        QObject::tr("Demonic Rune"),
+        QObject::tr("Night Dragon's Breath"),
     };
     assert(rotation->all_executors.size() == expected_executor_names.size());
     verify_executor_names(rotation, rotation->all_executors, expected_executor_names);
 
     QVector<QString> expected_active_executor_names = {
-        "Judgement", "Seal of the Crusader", "Mana Potion", "Demonic Rune", "Night Dragon's Breath",
+        QObject::tr("Judgement"), QObject::tr("Seal of the Crusader"), QObject::tr("Mana Potion"), QObject::tr("Demonic Rune"), QObject::tr("Night Dragon's Breath"),
     };
     rotation->link_spells(paladin);
     verify_executor_names(rotation, rotation->active_executors, expected_active_executor_names);

@@ -13,7 +13,7 @@
 #include "SanctityAura.h"
 #include "Talent.h"
 
-TestConsecration::TestConsecration(EquipmentDb* equipment_db) : TestSpellPaladin(equipment_db, "Consecration") {}
+TestConsecration::TestConsecration(EquipmentDb* equipment_db) : TestSpellPaladin(equipment_db, QObject::tr("Consecration")) {}
 
 void TestConsecration::test_all() {
     run_mandatory_tests(false);
@@ -28,11 +28,11 @@ void TestConsecration::test_all() {
 }
 
 Consecration* TestConsecration::consecration() const {
-    return static_cast<Consecration*>(get_max_rank_spell_by_name("Consecration"));
+    return static_cast<Consecration*>(get_max_rank_spell_by_name(QObject::tr("Consecration")));
 }
 
 void TestConsecration::test_name_correct() {
-    assert(consecration()->get_name() == "Consecration");
+    assert(consecration()->get_name() == QObject::tr("Consecration"));
 }
 
 void TestConsecration::test_spell_cooldown() {
@@ -107,10 +107,10 @@ void TestConsecration::test_damage_sanctity_aura() {
     given_event_is_ignored(EventType::PlayerAction);
     given_character_has_spell_damage(100, MagicSchool::Holy);
     given_a_guaranteed_magic_hit(MagicSchool::Holy);
-    given_retribution_talent_rank("Sanctity Aura", 1);
+    given_retribution_talent_rank(QObject::tr("Sanctity Aura"), 1);
     given_consecration_is_enabled();
 
-    get_max_rank_spell_by_name("Sanctity Aura")->perform();
+    get_max_rank_spell_by_name(QObject::tr("Sanctity Aura"))->perform();
     given_engine_priority_pushed_forward(1.5);
 
     when_consecration_is_performed();
@@ -131,7 +131,7 @@ void TestConsecration::test_damage_sanctity_aura() {
 }
 
 void TestConsecration::given_consecration_is_enabled() {
-    given_holy_talent_rank("Consecration", 1);
+    given_holy_talent_rank(QObject::tr("Consecration"), 1);
     assert(consecration()->is_enabled());
     paladin->prepare_set_of_combat_iterations();
 }

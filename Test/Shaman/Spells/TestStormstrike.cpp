@@ -7,7 +7,7 @@
 #include "Shaman.h"
 #include "Stormstrike.h"
 
-TestStormstrike::TestStormstrike(EquipmentDb* equipment_db) : TestSpellShaman(equipment_db, "Stormstrike") {}
+TestStormstrike::TestStormstrike(EquipmentDb* equipment_db) : TestSpellShaman(equipment_db, QObject::tr("Stormstrike")) {}
 
 void TestStormstrike::test_all() {
     run_mandatory_tests(false);
@@ -26,7 +26,7 @@ void TestStormstrike::test_all() {
 }
 
 void TestStormstrike::test_name_correct() {
-    assert(stormstrike()->get_name() == "Stormstrike");
+    assert(stormstrike()->get_name() == QObject::tr("Stormstrike"));
 }
 
 void TestStormstrike::test_spell_cooldown() {

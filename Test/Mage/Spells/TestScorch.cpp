@@ -7,7 +7,7 @@
 #include "Mage.h"
 #include "Scorch.h"
 
-TestScorch::TestScorch(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, "Scorch") {}
+TestScorch::TestScorch(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, QObject::tr("Scorch")) {}
 
 void TestScorch::test_all() {
     run_mandatory_tests();
@@ -70,7 +70,7 @@ void TestScorch::test_all() {
 }
 
 void TestScorch::test_name_correct() {
-    assert(scorch()->get_name() == "Scorch");
+    assert(scorch()->get_name() == QObject::tr("Scorch"));
 }
 
 void TestScorch::test_spell_cooldown() {
@@ -129,7 +129,7 @@ void TestScorch::test_crit_dmg() {
 
 void TestScorch::test_mana_return_1_of_3_master_of_elements() {
     given_a_guaranteed_magic_crit(MagicSchool::Fire);
-    given_fire_talent_rank("Master of Elements", 1);
+    given_fire_talent_rank(QObject::tr("Master of Elements"), 1);
     given_mage_has_mana(1000);
 
     when_scorch_is_performed();
@@ -142,7 +142,7 @@ void TestScorch::test_mana_return_1_of_3_master_of_elements() {
 
 void TestScorch::test_mana_return_2_of_3_master_of_elements() {
     given_a_guaranteed_magic_crit(MagicSchool::Fire);
-    given_fire_talent_rank("Master of Elements", 2);
+    given_fire_talent_rank(QObject::tr("Master of Elements"), 2);
     given_mage_has_mana(1000);
 
     when_scorch_is_performed();
@@ -155,7 +155,7 @@ void TestScorch::test_mana_return_2_of_3_master_of_elements() {
 
 void TestScorch::test_mana_return_3_of_3_master_of_elements() {
     given_a_guaranteed_magic_crit(MagicSchool::Fire);
-    given_fire_talent_rank("Master of Elements", 3);
+    given_fire_talent_rank(QObject::tr("Master of Elements"), 3);
     given_mage_has_mana(1000);
 
     when_scorch_is_performed();
@@ -169,7 +169,7 @@ void TestScorch::test_mana_return_3_of_3_master_of_elements() {
 void TestScorch::test_hit_dmg_1_of_5_fire_power() {
     given_a_guaranteed_magic_hit(MagicSchool::Fire);
     given_1000_spell_power();
-    given_fire_talent_rank("Fire Power", 1);
+    given_fire_talent_rank(QObject::tr("Fire Power"), 1);
     given_no_previous_damage_dealt();
 
     when_scorch_is_performed();
@@ -183,7 +183,7 @@ void TestScorch::test_hit_dmg_1_of_5_fire_power() {
 void TestScorch::test_hit_dmg_5_of_5_fire_power() {
     given_a_guaranteed_magic_hit(MagicSchool::Fire);
     given_1000_spell_power();
-    given_fire_talent_rank("Fire Power", 5);
+    given_fire_talent_rank(QObject::tr("Fire Power"), 5);
     given_no_previous_damage_dealt();
 
     when_scorch_is_performed();
@@ -197,7 +197,7 @@ void TestScorch::test_hit_dmg_5_of_5_fire_power() {
 void TestScorch::test_1_of_5_ignite() {
     given_a_guaranteed_magic_crit(MagicSchool::Fire);
     given_1000_spell_power();
-    given_fire_talent_rank("Ignite", 1);
+    given_fire_talent_rank(QObject::tr("Ignite"), 1);
     given_no_previous_damage_dealt();
 
     when_scorch_is_performed();
@@ -217,7 +217,7 @@ void TestScorch::test_1_of_5_ignite() {
 void TestScorch::test_5_of_5_ignite() {
     given_a_guaranteed_magic_crit(MagicSchool::Fire);
     given_1000_spell_power();
-    given_fire_talent_rank("Ignite", 5);
+    given_fire_talent_rank(QObject::tr("Ignite"), 5);
     given_no_previous_damage_dealt();
 
     when_scorch_is_performed();
@@ -255,7 +255,7 @@ void TestScorch::test_0_of_3_imp_scorch_does_not_apply_debuff_on_crit() {
 }
 
 void TestScorch::test_3_of_3_imp_scorch_applies_debuff_on_hit() {
-    given_fire_talent_rank("Improved Scorch", 3);
+    given_fire_talent_rank(QObject::tr("Improved Scorch"), 3);
     given_a_guaranteed_magic_hit(MagicSchool::Fire);
     pchar->prepare_set_of_combat_iterations();
     assert(almost_equal(1.0, pchar->get_target()->get_magic_school_damage_mod(MagicSchool::Fire, ConsumeCharge::No)));
@@ -267,7 +267,7 @@ void TestScorch::test_3_of_3_imp_scorch_applies_debuff_on_hit() {
 }
 
 void TestScorch::test_3_of_3_imp_scorch_applies_debuff_on_crit() {
-    given_fire_talent_rank("Improved Scorch", 3);
+    given_fire_talent_rank(QObject::tr("Improved Scorch"), 3);
     given_a_guaranteed_magic_crit(MagicSchool::Fire);
     pchar->prepare_set_of_combat_iterations();
     assert(almost_equal(1.0, pchar->get_target()->get_magic_school_damage_mod(MagicSchool::Fire, ConsumeCharge::No)));

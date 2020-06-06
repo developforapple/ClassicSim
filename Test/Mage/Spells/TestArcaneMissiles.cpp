@@ -5,7 +5,7 @@
 #include "ArcaneMissiles.h"
 #include "Mage.h"
 
-TestArcaneMissiles::TestArcaneMissiles(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, "Arcane Missiles") {}
+TestArcaneMissiles::TestArcaneMissiles(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, QObject::tr("Arcane Missiles")) {}
 
 void TestArcaneMissiles::test_all() {
     run_mandatory_tests();
@@ -24,7 +24,7 @@ void TestArcaneMissiles::test_all() {
 }
 
 void TestArcaneMissiles::test_name_correct() {
-    assert(arcane_missiles()->get_name() == "Arcane Missiles");
+    assert(arcane_missiles()->get_name() == QObject::tr("Arcane Missiles"));
 }
 
 void TestArcaneMissiles::test_spell_cooldown() {

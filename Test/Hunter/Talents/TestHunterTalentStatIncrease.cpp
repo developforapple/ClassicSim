@@ -41,7 +41,7 @@ void TestHunterTalentStatIncrease::test_all() {
 
 void TestHunterTalentStatIncrease::test_lightning_reflexes() {
     auto tree = Survival(hunter);
-    Talent* talent = tree.get_talent_from_name("Lightning Reflexes");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Lightning Reflexes"));
     given_character_has_agility(100);
 
     assert(talent->increment_rank());
@@ -77,7 +77,7 @@ void TestHunterTalentStatIncrease::test_lightning_reflexes() {
 
 void TestHunterTalentStatIncrease::test_surefooted() {
     auto tree = Survival(hunter);
-    Talent* talent = tree.get_talent_from_name("Surefooted");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Surefooted"));
     unsigned melee_hit_initial = pchar->get_stats()->get_melee_hit_chance();
     unsigned ranged_hit_initial = pchar->get_stats()->get_ranged_hit_chance();
 
@@ -108,7 +108,7 @@ void TestHunterTalentStatIncrease::test_surefooted() {
 
 void TestHunterTalentStatIncrease::test_killer_instinct() {
     auto tree = Survival(hunter);
-    Talent* talent = tree.get_talent_from_name("Killer Instinct");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Killer Instinct"));
     unsigned melee_crit_initial = pchar->get_stats()->get_mh_crit_chance();
     unsigned ranged_crit_initial = pchar->get_stats()->get_ranged_crit_chance();
 
@@ -139,11 +139,11 @@ void TestHunterTalentStatIncrease::test_killer_instinct() {
 
 void TestHunterTalentStatIncrease::test_trueshot_aura() {
     auto tree = Marksmanship(hunter);
-    Talent* prereq = tree.get_talent_from_name("Barrage");
+    Talent* prereq = tree.get_talent_from_name(QObject::tr("Barrage"));
     assert(prereq->increment_rank());
     assert(prereq->increment_rank());
     assert(prereq->increment_rank());
-    Talent* talent = tree.get_talent_from_name("Trueshot Aura");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Trueshot Aura"));
 
     unsigned melee_ap_initial = pchar->get_stats()->get_melee_ap();
     unsigned ranged_ap_initial = pchar->get_stats()->get_ranged_ap();
@@ -159,7 +159,7 @@ void TestHunterTalentStatIncrease::test_trueshot_aura() {
 
 void TestHunterTalentStatIncrease::test_unleashed_fury() {
     auto tree = BeastMastery(hunter);
-    Talent* talent = tree.get_talent_from_name("Unleashed Fury");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Unleashed Fury"));
     Pet* pet = hunter->get_pet();
 
     assert(almost_equal(1.05, pet->get_damage_modifier()));
@@ -217,7 +217,7 @@ void TestHunterTalentStatIncrease::test_unleashed_fury() {
 
 void TestHunterTalentStatIncrease::test_ferocity() {
     auto tree = BeastMastery(hunter);
-    Talent* talent = tree.get_talent_from_name("Ferocity");
+    Talent* talent = tree.get_talent_from_name(QObject::tr("Ferocity"));
     Pet* pet = hunter->get_pet();
 
     assert(pet->get_crit_chance() == 500);

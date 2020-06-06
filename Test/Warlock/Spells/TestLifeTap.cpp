@@ -8,7 +8,7 @@
 #include "LifeTap.h"
 #include "Warlock.h"
 
-TestLifeTap::TestLifeTap(EquipmentDb* equipment_db_) : TestSpellWarlock(equipment_db_, "Life Tap") {}
+TestLifeTap::TestLifeTap(EquipmentDb* equipment_db_) : TestSpellWarlock(equipment_db_, QObject::tr("Life Tap")) {}
 
 void TestLifeTap::test_all() {
     run_mandatory_tests();
@@ -27,7 +27,7 @@ void TestLifeTap::test_all() {
 }
 
 void TestLifeTap::test_name_correct() {
-    assert(life_tap()->get_name() == "Life Tap");
+    assert(life_tap()->get_name() == QObject::tr("Life Tap"));
 }
 
 void TestLifeTap::test_spell_cooldown() {
@@ -68,7 +68,7 @@ void TestLifeTap::test_life_tap_scaling_with_spell_power() {
 }
 
 void TestLifeTap::test_1_of_2_improved_life_tap() {
-    given_affliction_talent_rank("Improved Life Tap", 1);
+    given_affliction_talent_rank(QObject::tr("Improved Life Tap"), 1);
     given_1000_spell_power();
     given_warlock_has_mana(0);
 
@@ -80,7 +80,7 @@ void TestLifeTap::test_1_of_2_improved_life_tap() {
 }
 
 void TestLifeTap::test_2_of_2_improved_life_tap() {
-    given_affliction_talent_rank("Improved Life Tap", 2);
+    given_affliction_talent_rank(QObject::tr("Improved Life Tap"), 2);
     given_1000_spell_power();
     given_warlock_has_mana(0);
 

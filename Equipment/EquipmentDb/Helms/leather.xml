@@ -20,7 +20,7 @@
 			<stat type="ARMOR" value="109"/>
 			<stat type="SPIRIT" value="10"/>
 		</stats>
-		<modifies name="Cat Form"/>
+		<modifies name="Cat Form" name_zh="猎豹形态"/>
 		<special_equip_effect>
 			<en>Equip: When shapeshifting into Cat form the Druid gains 20 energy, when shapeshifting into Bear form the Druid gains 5 rage.</en>
 			<zh>装备：变形成为猎豹形态之后，德鲁伊可以获得20点能量值；变形成为熊形态之后，德鲁伊可以获得5点怒气值。</zh>

@@ -164,7 +164,7 @@ void Balance::add_improved_starfire(QMap<QString, Talent*>& talent_tier) {
     Talent* talent = get_new_talent(druid, QObject::tr("Improved Starfire"), "4MR", "Assets/spell/Spell_arcane_starfire.png", 5,
                                     QObject::tr("Reduces the cast time of Starfire by 0.%1 sec and has a %2% chance to stun the target for 3 sec."),
                                     QVector<QPair<unsigned, unsigned>> {{1, 1}, {3, 3}},
-                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Starfire")});
+                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Starfire"))});
 
     add_talent_to_tier(talent_tier, talent);
 }
@@ -197,9 +197,9 @@ void Balance::add_moonfury(QMap<QString, Talent*>& talent_tier) {
                                     QObject::tr("Increases the damage done by your Starfire, Moonfire and Wrath spells by %1%."),
                                     QVector<QPair<unsigned, unsigned>> {{2, 2}},
                                     QVector<SpellRankGroup*> {
-                                        spells->get_spell_rank_group_by_name("Starfire"),
-                                        spells->get_spell_rank_group_by_name("Moonfire"),
-                                        spells->get_spell_rank_group_by_name("Wrath"),
+                                        spells->get_spell_rank_group_by_name(QObject::tr("Starfire")),
+                                        spells->get_spell_rank_group_by_name(QObject::tr("Moonfire")),
+                                        spells->get_spell_rank_group_by_name(QObject::tr("Wrath")),
                                     });
 
     add_talent_to_tier(talent_tier, talent);
@@ -211,7 +211,7 @@ void Balance::add_moonkin_form(QMap<QString, Talent*>& talent_tier) {
                          QObject::tr("Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and "
                          "all party members within 30 yards have their spell critical chance increased by 3%. The Moonkin can only cast Balance "
                          "spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."),
-                         QVector<QPair<unsigned, unsigned>>(), QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Moonkin Form")});
+                         QVector<QPair<unsigned, unsigned>>(), QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Moonkin Form"))});
 
     add_talent_to_tier(talent_tier, talent);
 }

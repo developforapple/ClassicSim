@@ -8,7 +8,7 @@
 #include "DruidSpells.h"
 #include "Shred.h"
 
-TestShred::TestShred(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Shred") {}
+TestShred::TestShred(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Shred")) {}
 
 void TestShred::test_all() {
     run_mandatory_tests();
@@ -47,7 +47,7 @@ void TestShred::test_all() {
 }
 
 void TestShred::test_name_correct() {
-    assert(shred()->get_name() == "Shred");
+    assert(shred()->get_name() == QObject::tr("Shred"));
 }
 
 void TestShred::test_spell_cooldown() {
@@ -91,7 +91,7 @@ void TestShred::test_is_ready_conditions() {
 }
 
 void TestShred::test_resource_cost_1_of_2_improved_shred() {
-    given_feral_talent_rank("Improved Shred", 1);
+    given_feral_talent_rank(QObject::tr("Improved Shred"), 1);
     given_druid_in_cat_form();
     given_a_guaranteed_melee_ability_hit();
     assert(druid->get_resource_level(ResourceType::Energy) == 100);
@@ -103,7 +103,7 @@ void TestShred::test_resource_cost_1_of_2_improved_shred() {
 }
 
 void TestShred::test_resource_cost_2_of_2_improved_shred() {
-    given_feral_talent_rank("Improved Shred", 2);
+    given_feral_talent_rank(QObject::tr("Improved Shred"), 2);
     given_druid_in_cat_form();
     given_a_guaranteed_melee_ability_hit();
     assert(druid->get_resource_level(ResourceType::Energy) == 100);
@@ -167,7 +167,7 @@ void TestShred::test_shred_crit_with_0_of_2_blood_frenzy_awards_1_combo_point() 
 }
 
 void TestShred::test_shred_hit_with_2_of_2_blood_frenzy_awards_1_combo_point() {
-    given_feral_talent_ranks({{"Sharpened Claws", 3}, {"Blood Frenzy", 2}});
+    given_feral_talent_ranks({{QObject::tr("Sharpened Claws"), 3}, {QObject::tr("Blood Frenzy"), 2}});
     pchar->prepare_set_of_combat_iterations();
     given_druid_in_cat_form();
     given_a_guaranteed_melee_ability_hit();
@@ -180,7 +180,7 @@ void TestShred::test_shred_hit_with_2_of_2_blood_frenzy_awards_1_combo_point() {
 }
 
 void TestShred::test_shred_crit_with_2_of_2_blood_frenzy_awards_2_combo_points() {
-    given_feral_talent_ranks({{"Sharpened Claws", 3}, {"Blood Frenzy", 2}});
+    given_feral_talent_ranks({{QObject::tr("Sharpened Claws"), 3}, {QObject::tr("Blood Frenzy"), 2}});
     pchar->prepare_set_of_combat_iterations();
     given_druid_in_cat_form();
     given_a_guaranteed_melee_ability_crit();

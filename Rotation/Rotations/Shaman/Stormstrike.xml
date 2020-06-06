@@ -15,11 +15,12 @@
     <cast_if name="Stormstrike" name_zh="风暴打击"/>
 
     <cast_if name="Lightning Bolt" rank="1" name_zh="闪电箭">
-        variable "time_since_swing" less 0.3
+        <en>variable "time_since_swing" less 0.3</en>
     </cast_if>
 
     <cast_if name="Windfury Weapon" name_zh="风怒武器">
-        buff_duration "Windfury Weapon" less 1
+        <en>buff_duration "Windfury Weapon" less 1</en>
+        <zh>buff_duration "风怒武器n" less 1</zh>
     </cast_if>
 
     <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器"/>

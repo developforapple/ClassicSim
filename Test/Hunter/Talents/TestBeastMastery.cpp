@@ -24,84 +24,84 @@ void TestBeastMastery::tear_down() {
 }
 
 void TestBeastMastery::test_spending_talent_points() {
-    assert(!decrement("Endurance Training"));
+    assert(!decrement(QObject::tr("Endurance Training")));
 
-    assert(increment("Endurance Training", 5));
+    assert(increment(QObject::tr("Endurance Training"), 5));
     // 5 points
-    assert(!increment("Endurance Training"));
-    assert(decrement("Endurance Training"));
-    assert(increment("Endurance Training"));
+    assert(!increment(QObject::tr("Endurance Training")));
+    assert(decrement(QObject::tr("Endurance Training")));
+    assert(increment(QObject::tr("Endurance Training")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Improved Aspect of the Monkey"));
-    assert(!decrement("Endurance Training"));
-    assert(increment("Improved Aspect of the Hawk"));
-    assert(decrement("Endurance Training"));
-    assert(!decrement("Endurance Training"));
-    assert(!decrement("Improved Aspect of the Hawk"));
+    assert(increment(QObject::tr("Improved Aspect of the Monkey")));
+    assert(!decrement(QObject::tr("Endurance Training")));
+    assert(increment(QObject::tr("Improved Aspect of the Hawk")));
+    assert(decrement(QObject::tr("Endurance Training")));
+    assert(!decrement(QObject::tr("Endurance Training")));
+    assert(!decrement(QObject::tr("Improved Aspect of the Hawk")));
 
-    assert(increment("Endurance Training"));
-    assert(decrement("Improved Aspect of the Hawk"));
-    assert(increment("Improved Aspect of the Monkey", 4));
+    assert(increment(QObject::tr("Endurance Training")));
+    assert(decrement(QObject::tr("Improved Aspect of the Hawk")));
+    assert(increment(QObject::tr("Improved Aspect of the Monkey"), 4));
 
     // Assert cannot spend points into Frenzy if 5/5 Ferocity is missing
-    assert(increment("Unleashed Fury", 5));
-    assert(increment("Pathfinding", 2));
-    assert(increment("Bestial Swiftness", 1));
-    assert(increment("Improved Mend Pet", 2));
-    assert(increment("Spirit Bond", 2));
-    assert(increment("Bestial Discipline", 2));
-    assert(increment("Improved Revive Pet"));
+    assert(increment(QObject::tr("Unleashed Fury"), 5));
+    assert(increment(QObject::tr("Pathfinding"), 2));
+    assert(increment(QObject::tr("Bestial Swiftness"), 1));
+    assert(increment(QObject::tr("Improved Mend Pet"), 2));
+    assert(increment(QObject::tr("Spirit Bond"), 2));
+    assert(increment(QObject::tr("Bestial Discipline"), 2));
+    assert(increment(QObject::tr("Improved Revive Pet")));
     assert(tree_has_points(25));
 
-    assert(!increment("Frenzy"));
-    assert(increment("Ferocity"));
-    assert(!increment("Frenzy"));
-    assert(increment("Ferocity"));
-    assert(!increment("Frenzy"));
-    assert(increment("Ferocity"));
-    assert(!increment("Frenzy"));
-    assert(increment("Ferocity"));
-    assert(!increment("Frenzy"));
-    assert(increment("Ferocity"));
-    assert(increment("Frenzy"));
+    assert(!increment(QObject::tr("Frenzy")));
+    assert(increment(QObject::tr("Ferocity")));
+    assert(!increment(QObject::tr("Frenzy")));
+    assert(increment(QObject::tr("Ferocity")));
+    assert(!increment(QObject::tr("Frenzy")));
+    assert(increment(QObject::tr("Ferocity")));
+    assert(!increment(QObject::tr("Frenzy")));
+    assert(increment(QObject::tr("Ferocity")));
+    assert(!increment(QObject::tr("Frenzy")));
+    assert(increment(QObject::tr("Ferocity")));
+    assert(increment(QObject::tr("Frenzy")));
     assert(tree_has_points(31));
-    assert(increment("Frenzy", 4));
+    assert(increment(QObject::tr("Frenzy"), 4));
 
     // Assert cannot remove points from Ferocity once points are spent in Frenzy
-    assert(!decrement("Ferocity"));
-    assert(decrement("Frenzy"));
-    assert(!decrement("Ferocity"));
-    assert(decrement("Frenzy"));
-    assert(!decrement("Ferocity"));
-    assert(decrement("Frenzy"));
-    assert(!decrement("Ferocity"));
-    assert(decrement("Frenzy"));
-    assert(!decrement("Ferocity"));
-    assert(decrement("Frenzy"));
-    assert(!decrement("Frenzy"));
-    assert(decrement("Ferocity"));
+    assert(!decrement(QObject::tr("Ferocity")));
+    assert(decrement(QObject::tr("Frenzy")));
+    assert(!decrement(QObject::tr("Ferocity")));
+    assert(decrement(QObject::tr("Frenzy")));
+    assert(!decrement(QObject::tr("Ferocity")));
+    assert(decrement(QObject::tr("Frenzy")));
+    assert(!decrement(QObject::tr("Ferocity")));
+    assert(decrement(QObject::tr("Frenzy")));
+    assert(!decrement(QObject::tr("Ferocity")));
+    assert(decrement(QObject::tr("Frenzy")));
+    assert(!decrement(QObject::tr("Frenzy")));
+    assert(decrement(QObject::tr("Ferocity")));
     assert(tree_has_points(29));
 
     // Assert cannot increment Bestial Wrath without Intimidation
-    assert(increment("Ferocity"));
-    assert(increment("Frenzy"));
+    assert(increment(QObject::tr("Ferocity")));
+    assert(increment(QObject::tr("Frenzy")));
     assert(tree_has_points(31));
 
-    assert(!increment("Bestial Wrath"));
-    assert(increment("Intimidation"));
-    assert(increment("Bestial Wrath"));
+    assert(!increment(QObject::tr("Bestial Wrath")));
+    assert(increment(QObject::tr("Intimidation")));
+    assert(increment(QObject::tr("Bestial Wrath")));
 
-    assert(decrement("Spirit Bond", 2));
+    assert(decrement(QObject::tr("Spirit Bond"), 2));
     assert(tree_has_points(31));
     // Assert cannot decrement lower tiers
-    assert(!decrement("Endurance Training"));
-    assert(!decrement("Improved Aspect of the Monkey"));
-    assert(!decrement("Unleashed Fury"));
-    assert(!decrement("Ferocity"));
-    assert(!decrement("Improved Mend Pet"));
-    assert(!decrement("Bestial Discpline"));
-    assert(!decrement("Frenzy"));
+    assert(!decrement(QObject::tr("Endurance Training")));
+    assert(!decrement(QObject::tr("Improved Aspect of the Monkey")));
+    assert(!decrement(QObject::tr("Unleashed Fury")));
+    assert(!decrement(QObject::tr("Ferocity")));
+    assert(!decrement(QObject::tr("Improved Mend Pet")));
+    assert(!decrement(QObject::tr("Bestial Discpline")));
+    assert(!decrement(QObject::tr("Frenzy")));
 }
 
 void TestBeastMastery::test_clearing_tree_after_filling() {
@@ -129,20 +129,20 @@ void TestBeastMastery::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestBeastMastery::spec_beast_mastery() {
-    assert(increment("Improved Aspect of the Hawk", 5));
-    assert(increment("Endurance Training", 5));
-    assert(increment("Improved Eyes of the Beast", 2));
-    assert(increment("Improved Aspect of the Monkey", 5));
-    assert(increment("Thick Hide", 3));
-    assert(increment("Improved Revive Pet", 2));
-    assert(increment("Pathfinding", 2));
-    assert(increment("Bestial Swiftness", 1));
-    assert(increment("Unleashed Fury", 5));
-    assert(increment("Improved Mend Pet", 2));
-    assert(increment("Ferocity", 5));
-    assert(increment("Spirit Bond", 2));
-    assert(increment("Intimidation", 1));
-    assert(increment("Bestial Discipline", 2));
-    assert(increment("Frenzy", 5));
-    assert(increment("Bestial Wrath", 1));
+    assert(increment(QObject::tr("Improved Aspect of the Hawk"), 5));
+    assert(increment(QObject::tr("Endurance Training"), 5));
+    assert(increment(QObject::tr("Improved Eyes of the Beast"), 2));
+    assert(increment(QObject::tr("Improved Aspect of the Monkey"), 5));
+    assert(increment(QObject::tr("Thick Hide"), 3));
+    assert(increment(QObject::tr("Improved Revive Pet"), 2));
+    assert(increment(QObject::tr("Pathfinding"), 2));
+    assert(increment(QObject::tr("Bestial Swiftness"), 1));
+    assert(increment(QObject::tr("Unleashed Fury"), 5));
+    assert(increment(QObject::tr("Improved Mend Pet"), 2));
+    assert(increment(QObject::tr("Ferocity"), 5));
+    assert(increment(QObject::tr("Spirit Bond"), 2));
+    assert(increment(QObject::tr("Intimidation"), 1));
+    assert(increment(QObject::tr("Bestial Discipline"), 2));
+    assert(increment(QObject::tr("Frenzy"), 5));
+    assert(increment(QObject::tr("Bestial Wrath"), 1));
 }

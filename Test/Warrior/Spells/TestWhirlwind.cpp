@@ -8,7 +8,7 @@
 #include "WarriorSpells.h"
 #include "Whirlwind.h"
 
-TestWhirlwind::TestWhirlwind(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Whirlwind") {}
+TestWhirlwind::TestWhirlwind(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Whirlwind")) {}
 
 void TestWhirlwind::test_all() {
     run_mandatory_tests();
@@ -39,7 +39,7 @@ Whirlwind* TestWhirlwind::whirlwind() const {
 }
 
 void TestWhirlwind::test_name_correct() {
-    assert(whirlwind()->get_name() == "Whirlwind");
+    assert(whirlwind()->get_name() == QObject::tr("Whirlwind"));
 }
 
 void TestWhirlwind::test_spell_cooldown() {

@@ -20,31 +20,40 @@
     <cast_if name="Robe of the Archmage" name_zh="大法师之袍"/>
 
     <cast_if name="Scorch" name_zh="灼烧">
-        buff_stacks "Fire Vulnerability" less 5
-        or buff_duration "Fire Vulnerability" less 5
+        <en>buff_stacks "Fire Vulnerability" less 5
+            or buff_duration "Fire Vulnerability" less 5</en>
+        <zh>buff_stacks "火焰弱点" less 5
+            or buff_duration "火焰弱点" less 5</zh>
     </cast_if>
 
     <cast_if name="Arcane Power" name_zh="奥术强化">
-        buff_stacks "Fire Vulnerability" eq 5
-        and resource "Mana" greater 400
+        <en>buff_stacks "Fire Vulnerability" eq 5
+            and resource "Mana" greater 400</en>
+        <zh>buff_stacks "火焰弱点" eq 5
+            and resource "Mana" greater 400</zh>
     </cast_if>
 
     <cast_if name="Berserking" name_zh="狂暴">
-        buff_stacks "Fire Vulnerability" eq 5
-        and resource "Mana" greater 400
+        <en>buff_stacks "Fire Vulnerability" eq 5
+            and resource "Mana" greater 400</en>
+        <zh>buff_stacks "火焰弱点" eq 5
+            and resource "Mana" greater 400</zh>
     </cast_if>
 
     <cast_if name="Combustion" name_zh="燃烧">
-        buff_stacks "Fire Vulnerability" eq 5
-        and resource "Mana" greater 400
+        <en>buff_stacks "Fire Vulnerability" eq 5
+            and resource "Mana" greater 400</en>
+        <zh>buff_stacks "火焰弱点" eq 5
+            and resource "Mana" greater 400</zh>
     </cast_if>
 
     <cast_if name="Evocation" name_zh="唤醒">
-        resource "Mana" less 400
+        <en>resource "Mana" less 400</en>
     </cast_if>
 
     <cast_if name="Fireball" name_zh="火球术">
-        buff_stacks "Fire Vulnerability" eq 5
+        <en>buff_stacks "Fire Vulnerability" eq 5</en>
+        <zh>buff_stacks "火焰弱点" eq 5</zh>
     </cast_if>
 
 

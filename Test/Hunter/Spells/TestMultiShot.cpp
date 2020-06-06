@@ -5,7 +5,7 @@
 #include "Equipment.h"
 #include "MultiShot.h"
 
-TestMultiShot::TestMultiShot(EquipmentDb* equipment_db) : TestSpellHunter(equipment_db, "Multi-Shot") {}
+TestMultiShot::TestMultiShot(EquipmentDb* equipment_db) : TestSpellHunter(equipment_db, QObject::tr("Multi-Shot")) {}
 
 void TestMultiShot::test_all() {
     run_mandatory_tests();
@@ -104,7 +104,7 @@ void TestMultiShot::test_all() {
 }
 
 void TestMultiShot::test_name_correct() {
-    assert(multi_shot()->get_name() == "Multi-Shot");
+    assert(multi_shot()->get_name() == QObject::tr("Multi-Shot"));
 }
 
 void TestMultiShot::test_spell_cooldown() {
@@ -178,7 +178,7 @@ void TestMultiShot::test_hit_dmg_5_of_5_ranged_weapon_specialization() {
     given_a_guaranteed_ranged_white_hit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_marksmanship_talent_rank("Ranged Weapon Specialization", 5);
+    given_marksmanship_talent_rank(QObject::tr("Ranged Weapon Specialization"), 5);
 
     when_multi_shot_is_performed();
 
@@ -193,7 +193,7 @@ void TestMultiShot::test_hit_dmg_1_of_3_barrage() {
     given_a_guaranteed_ranged_white_hit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_marksmanship_talent_rank("Barrage", 1);
+    given_marksmanship_talent_rank(QObject::tr("Barrage"), 1);
 
     when_multi_shot_is_performed();
 
@@ -208,7 +208,7 @@ void TestMultiShot::test_hit_dmg_2_of_3_barrage() {
     given_a_guaranteed_ranged_white_hit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_marksmanship_talent_rank("Barrage", 2);
+    given_marksmanship_talent_rank(QObject::tr("Barrage"), 2);
 
     when_multi_shot_is_performed();
 
@@ -223,7 +223,7 @@ void TestMultiShot::test_hit_dmg_3_of_3_barrage() {
     given_a_guaranteed_ranged_white_hit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_marksmanship_talent_rank("Barrage", 3);
+    given_marksmanship_talent_rank(QObject::tr("Barrage"), 3);
 
     when_multi_shot_is_performed();
 
@@ -329,7 +329,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_1_of_3_monster_slaying() {
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Monster Slaying", 1);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 1);
 
     when_multi_shot_is_performed();
 
@@ -346,7 +346,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_2_of_3_monster_slaying() {
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Monster Slaying", 2);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 2);
 
     when_multi_shot_is_performed();
 
@@ -363,7 +363,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_3_of_3_monster_slaying() {
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Monster Slaying", 3);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 3);
 
     when_multi_shot_is_performed();
 
@@ -380,7 +380,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_1_of_3_humanoid_slaying() 
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Humanoid Slaying", 1);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 1);
 
     when_multi_shot_is_performed();
 
@@ -397,7 +397,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_2_of_3_humanoid_slaying() 
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Humanoid Slaying", 2);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 2);
 
     when_multi_shot_is_performed();
 
@@ -414,7 +414,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_3_of_3_humanoid_slaying() 
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Humanoid Slaying", 3);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 3);
 
     when_multi_shot_is_performed();
 
@@ -424,7 +424,7 @@ void TestMultiShot::test_crit_dmg_5_of_5_mortal_shots_3_of_3_humanoid_slaying() 
 }
 
 void TestMultiShot::test_mana_cost_1_of_5_efficiency() {
-    given_marksmanship_talent_rank("Efficiency", 1);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 1);
     given_hunter_has_mana(225);
     assert(multi_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -439,7 +439,7 @@ void TestMultiShot::test_mana_cost_1_of_5_efficiency() {
 }
 
 void TestMultiShot::test_mana_cost_2_of_5_efficiency() {
-    given_marksmanship_talent_rank("Efficiency", 2);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 2);
     given_hunter_has_mana(221);
     assert(multi_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -454,7 +454,7 @@ void TestMultiShot::test_mana_cost_2_of_5_efficiency() {
 }
 
 void TestMultiShot::test_mana_cost_3_of_5_efficiency() {
-    given_marksmanship_talent_rank("Efficiency", 3);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 3);
     given_hunter_has_mana(216);
     assert(multi_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -469,7 +469,7 @@ void TestMultiShot::test_mana_cost_3_of_5_efficiency() {
 }
 
 void TestMultiShot::test_mana_cost_4_of_5_efficiency() {
-    given_marksmanship_talent_rank("Efficiency", 4);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 4);
     given_hunter_has_mana(212);
     assert(multi_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -484,7 +484,7 @@ void TestMultiShot::test_mana_cost_4_of_5_efficiency() {
 }
 
 void TestMultiShot::test_mana_cost_5_of_5_efficiency() {
-    given_marksmanship_talent_rank("Efficiency", 5);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 5);
     given_hunter_has_mana(207);
     assert(multi_shot()->get_spell_status() == SpellStatus::Available);
 

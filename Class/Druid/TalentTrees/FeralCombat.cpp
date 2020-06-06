@@ -113,7 +113,7 @@ void FeralCombat::add_feral_aggression(QMap<QString, Talent*>& talent_tier) {
         = get_new_talent(druid, QObject::tr("Feral Aggression"), "1MR", "Assets/ability/Ability_druid_demoralizingroar2.png", 5,
                          QObject::tr("Increases the Attack Power reduction of your Demoralizing Roar by %1% and the damage caused by your Ferocious Bite by %2%."),
                          QVector<QPair<unsigned, unsigned>> {{8, 8}, {3, 3}},
-                         QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Ferocious Bite")});
+                         QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Ferocious Bite"))});
 
     add_talent_to_tier(talent_tier, talent);
 }

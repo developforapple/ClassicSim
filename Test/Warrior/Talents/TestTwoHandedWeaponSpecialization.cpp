@@ -12,7 +12,7 @@
 #include "Weapon.h"
 
 TestTwoHandedWeaponSpecialization::TestTwoHandedWeaponSpecialization(EquipmentDb* equipment_db) :
-    TestSpell(equipment_db, "Two-hand Specialization"), warrior(nullptr), talent(nullptr) {}
+    TestSpell(equipment_db, QObject::tr("Two-hand Specialization")), warrior(nullptr), talent(nullptr) {}
 
 void TestTwoHandedWeaponSpecialization::set_up() {
     race = new Orc();
@@ -48,7 +48,7 @@ void TestTwoHandedWeaponSpecialization::test_all() {
 }
 
 void TestTwoHandedWeaponSpecialization::test_basic_properties() {
-    assert(talent->get_name() == "Two-Handed Weapon Specialization");
+    assert(talent->get_name() == QObject::tr("Two-Handed Weapon Specialization"));
 }
 
 void TestTwoHandedWeaponSpecialization::test_damage_modified_when_using_2handers() {

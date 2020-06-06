@@ -24,6 +24,6 @@
     <cast_if name="Maul" name_zh="槌击"/>
 	
 	<cast_if name="Swipe" name_zh="挥击">
-		resource "Rage" greater 40
+		<en>resource "Rage" greater 40</en>
     </cast_if>
 </rotation>

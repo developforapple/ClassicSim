@@ -149,7 +149,7 @@
 			<stat type="STAMINA" value="16"/>
 			<stat type="AGILITY" value="18"/>
 		</stats>
-		<modifies name="Multi-Shot"/>
+		<modifies name="Multi-Shot" name_zh="多重射击"/>
 		<special_equip_effect>
 			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
@@ -167,7 +167,7 @@
 			<stat type="STAMINA" value="16"/>
 			<stat type="AGILITY" value="18"/>
 		</stats>
-		<modifies name="Multi-Shot"/>
+		<modifies name="Multi-Shot"  name_zh="多重射击"/>
 		<special_equip_effect>
 			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
@@ -187,7 +187,7 @@
 			<stat type="INTELLECT" value="4"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Multi-Shot"/>
+		<modifies name="Multi-Shot"  name_zh="多重射击"/>
 		<special_equip_effect>
 			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
@@ -207,7 +207,7 @@
 			<stat type="INTELLECT" value="4"/>
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Multi-Shot"/>
+		<modifies name="Multi-Shot"  name_zh="多重射击"/>
 		<special_equip_effect>
 			<en>Equip: Increases the damage done by your Multi-Shot by 4%.</en>
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>

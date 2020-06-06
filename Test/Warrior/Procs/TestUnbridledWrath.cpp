@@ -10,7 +10,7 @@
 #include "Warrior.h"
 #include "WarriorSpells.h"
 
-TestUnbridledWrath::TestUnbridledWrath(EquipmentDb* equipment_db) : TestProcWarrior(equipment_db, "Unbridled Wrath") {}
+TestUnbridledWrath::TestUnbridledWrath(EquipmentDb* equipment_db) : TestProcWarrior(equipment_db, QObject::tr("Unbridled Wrath")) {}
 
 void TestUnbridledWrath::test_all() {
     set_up();
@@ -47,7 +47,7 @@ UnbridledWrath* TestUnbridledWrath::unbridled_wrath() {
 }
 
 void TestUnbridledWrath::test_name_correct() {
-    assert(spells->get_unbridled_wrath()->get_name() == "Unbridled Wrath");
+    assert(spells->get_unbridled_wrath()->get_name() == QObject::tr("Unbridled Wrath"));
 }
 
 void TestUnbridledWrath::test_proc_range_for_1_of_5_unbridled_wrath() {
@@ -81,23 +81,23 @@ void TestUnbridledWrath::test_proc_range_for_5_of_5_unbridled_wrath() {
 }
 
 void TestUnbridledWrath::given_1_of_5_unbridled_wrath() {
-    given_talent_rank(Fury(warrior), "Unbridled Wrath", 1);
+    given_talent_rank(Fury(warrior), QObject::tr("Unbridled Wrath"), 1);
 }
 
 void TestUnbridledWrath::given_2_of_5_unbridled_wrath() {
-    given_talent_rank(Fury(warrior), "Unbridled Wrath", 2);
+    given_talent_rank(Fury(warrior), QObject::tr("Unbridled Wrath"), 2);
 }
 
 void TestUnbridledWrath::given_3_of_5_unbridled_wrath() {
-    given_talent_rank(Fury(warrior), "Unbridled Wrath", 3);
+    given_talent_rank(Fury(warrior), QObject::tr("Unbridled Wrath"), 3);
 }
 
 void TestUnbridledWrath::given_4_of_5_unbridled_wrath() {
-    given_talent_rank(Fury(warrior), "Unbridled Wrath", 4);
+    given_talent_rank(Fury(warrior), QObject::tr("Unbridled Wrath"), 4);
 }
 
 void TestUnbridledWrath::given_5_of_5_unbridled_wrath() {
-    given_talent_rank(Fury(warrior), "Unbridled Wrath", 5);
+    given_talent_rank(Fury(warrior), QObject::tr("Unbridled Wrath"), 5);
 }
 
 void TestUnbridledWrath::test_proc_sources_are_valid() {

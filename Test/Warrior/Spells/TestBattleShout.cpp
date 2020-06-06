@@ -8,7 +8,7 @@
 #include "SpellRankGroup.h"
 #include "Warrior.h"
 
-TestBattleShout::TestBattleShout(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Battle Shout") {}
+TestBattleShout::TestBattleShout(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Battle Shout")) {}
 
 void TestBattleShout::test_all() {
     run_mandatory_tests();
@@ -23,11 +23,11 @@ void TestBattleShout::test_all() {
 }
 
 BattleShout* TestBattleShout::battle_shout() const {
-    return static_cast<BattleShout*>(get_max_rank_spell_by_name("Battle Shout"));
+    return static_cast<BattleShout*>(get_max_rank_spell_by_name(QObject::tr("Battle Shout")));
 }
 
 void TestBattleShout::test_name_correct() {
-    assert(battle_shout()->get_name() == "Battle Shout");
+    assert(battle_shout()->get_name() == QObject::tr("Battle Shout"));
 }
 
 void TestBattleShout::test_spell_cooldown() {
@@ -81,7 +81,7 @@ void TestBattleShout::when_battle_shout_is_performed() {
 }
 
 void TestBattleShout::given_improved_battle_shout_rank(Warrior* warrior, const unsigned num) {
-    given_talent_rank(Fury(warrior), "Improved Battle Shout", num);
+    given_talent_rank(Fury(warrior), QObject::tr("Improved Battle Shout"), num);
 }
 
 void TestBattleShout::test_battle_shout_in_party() {
@@ -95,7 +95,7 @@ void TestBattleShout::test_battle_shout_in_party() {
     const unsigned warr_2_melee_ap_before = warr_2->get_stats()->get_melee_ap();
 
     warr_1->gain_rage(10);
-    warr_1->get_spells()->get_spell_rank_group_by_name("Battle Shout")->get_max_available_spell_rank()->perform();
+    warr_1->get_spells()->get_spell_rank_group_by_name(QObject::tr("Battle Shout"))->get_max_available_spell_rank()->perform();
 
     // [melee_ap] = base_ap * improved_battle_shout
     // [290] = 232 * 1.25
@@ -104,7 +104,7 @@ void TestBattleShout::test_battle_shout_in_party() {
 
     // Assert does not stack.
     warr_2->gain_rage(10);
-    warr_2->get_spells()->get_spell_rank_group_by_name("Battle Shout")->get_max_available_spell_rank()->perform();
+    warr_2->get_spells()->get_spell_rank_group_by_name(QObject::tr("Battle Shout"))->get_max_available_spell_rank()->perform();
 
     assert(warr_1->get_stats()->get_melee_ap() == warr_1_melee_ap_before + 290);
     assert(warr_2->get_stats()->get_melee_ap() == warr_2_melee_ap_before + 290);
@@ -121,13 +121,13 @@ void TestBattleShout::test_battle_shout_in_separate_parties() {
     const unsigned warr_2_melee_ap_before = warr_2->get_stats()->get_melee_ap();
 
     warr_1->gain_rage(10);
-    warr_1->get_spells()->get_spell_rank_group_by_name("Battle Shout")->get_max_available_spell_rank()->perform();
+    warr_1->get_spells()->get_spell_rank_group_by_name(QObject::tr("Battle Shout"))->get_max_available_spell_rank()->perform();
 
     assert(warr_1->get_stats()->get_melee_ap() == warr_1_melee_ap_before + 232);
     assert(warr_2->get_stats()->get_melee_ap() == warr_2_melee_ap_before);
 
     warr_2->gain_rage(10);
-    warr_2->get_spells()->get_spell_rank_group_by_name("Battle Shout")->get_max_available_spell_rank()->perform();
+    warr_2->get_spells()->get_spell_rank_group_by_name(QObject::tr("Battle Shout"))->get_max_available_spell_rank()->perform();
 
     assert(warr_1->get_stats()->get_melee_ap() == warr_1_melee_ap_before + 232);
     assert(warr_2->get_stats()->get_melee_ap() == warr_2_melee_ap_before + 232);

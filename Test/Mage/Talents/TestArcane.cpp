@@ -24,41 +24,41 @@ void TestArcane::tear_down() {
 }
 
 void TestArcane::test_spending_talent_points() {
-    assert(increment("Arcane Focus", 5));
-    assert(increment("Improved Arcane Missiles", 5));
-    assert(increment("Magic Absorption", 5));
-    assert(increment("Arcane Concentration", 5));
+    assert(increment(QObject::tr("Arcane Focus"), 5));
+    assert(increment(QObject::tr("Improved Arcane Missiles"), 5));
+    assert(increment(QObject::tr("Magic Absorption"), 5));
+    assert(increment(QObject::tr("Arcane Concentration"), 5));
 
     // Assert cannot spend points into Arcane Mind if 1/1 Arcane Resilience is missing
     assert(tree_has_points(20));
 
-    assert(!increment("Arcane Mind"));
-    assert(increment("Arcane Resilience"));
-    assert(increment("Arcane Mind"));
+    assert(!increment(QObject::tr("Arcane Mind")));
+    assert(increment(QObject::tr("Arcane Resilience")));
+    assert(increment(QObject::tr("Arcane Mind")));
 
     // Assert cannot remove points from Arcane Resilience once points are spent in Arcane Mind
-    assert(!decrement("Arcane Resilience"));
-    assert(decrement("Arcane Mind"));
-    assert(decrement("Arcane Resilience"));
+    assert(!decrement(QObject::tr("Arcane Resilience")));
+    assert(decrement(QObject::tr("Arcane Mind")));
+    assert(decrement(QObject::tr("Arcane Resilience")));
 
     // Assert cannot increment Arcane Power without Arcane Mind
-    assert(increment("Arcane Resilience"));
-    assert(increment("Arcane Mind", 5));
-    assert(increment("Arcane Subtlety", 2));
-    assert(increment("Magic Attunement", 2));
+    assert(increment(QObject::tr("Arcane Resilience")));
+    assert(increment(QObject::tr("Arcane Mind"), 5));
+    assert(increment(QObject::tr("Arcane Subtlety"), 2));
+    assert(increment(QObject::tr("Magic Attunement"), 2));
     assert(tree_has_points(30));
 
-    assert(!increment("Arcane Power"));
-    assert(!increment("Arcane Instability"));
+    assert(!increment(QObject::tr("Arcane Power")));
+    assert(!increment(QObject::tr("Arcane Instability")));
 
-    assert(increment("Presence of Mind"));
-    assert(!increment("Arcane Power"));
-    assert(increment("Arcane Instability"));
-    assert(!decrement("Presence of Mind"));
+    assert(increment(QObject::tr("Presence of Mind")));
+    assert(!increment(QObject::tr("Arcane Power")));
+    assert(increment(QObject::tr("Arcane Instability")));
+    assert(!decrement(QObject::tr("Presence of Mind")));
 
-    assert(increment("Arcane Instability", 2));
-    assert(increment("Arcane Power"));
-    assert(!decrement("Arcane Instability"));
+    assert(increment(QObject::tr("Arcane Instability"), 2));
+    assert(increment(QObject::tr("Arcane Power")));
+    assert(!decrement(QObject::tr("Arcane Instability")));
 }
 
 void TestArcane::test_clearing_tree_after_filling() {
@@ -86,20 +86,20 @@ void TestArcane::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestArcane::spec_arcane() {
-    assert(increment("Arcane Subtlety", 2));
-    assert(increment("Arcane Focus", 5));
-    assert(increment("Improved Arcane Missiles", 5));
-    assert(increment("Wand Specialization", 2));
-    assert(increment("Magic Absorption", 5));
-    assert(increment("Arcane Concentration", 5));
-    assert(increment("Magic Attunement", 2));
-    assert(increment("Improved Arcane Explosion", 3));
-    assert(increment("Arcane Resilience", 1));
-    assert(increment("Improved Mana Shield", 2));
-    assert(increment("Improved Counterspell", 2));
-    assert(increment("Arcane Meditation", 3));
-    assert(increment("Presence of Mind", 1));
-    assert(increment("Arcane Mind", 5));
-    assert(increment("Arcane Instability", 3));
-    assert(increment("Arcane Power", 1));
+    assert(increment(QObject::tr("Arcane Subtlety"), 2));
+    assert(increment(QObject::tr("Arcane Focus"), 5));
+    assert(increment(QObject::tr("Improved Arcane Missiles"), 5));
+    assert(increment(QObject::tr("Wand Specialization"), 2));
+    assert(increment(QObject::tr("Magic Absorption"), 5));
+    assert(increment(QObject::tr("Arcane Concentration"), 5));
+    assert(increment(QObject::tr("Magic Attunement"), 2));
+    assert(increment(QObject::tr("Improved Arcane Explosion"), 3));
+    assert(increment(QObject::tr("Arcane Resilience"), 1));
+    assert(increment(QObject::tr("Improved Mana Shield"), 2));
+    assert(increment(QObject::tr("Improved Counterspell"), 2));
+    assert(increment(QObject::tr("Arcane Meditation"), 3));
+    assert(increment(QObject::tr("Presence of Mind"), 1));
+    assert(increment(QObject::tr("Arcane Mind"), 5));
+    assert(increment(QObject::tr("Arcane Instability"), 3));
+    assert(increment(QObject::tr("Arcane Power"), 1));
 }

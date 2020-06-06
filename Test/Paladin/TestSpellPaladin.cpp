@@ -45,7 +45,7 @@ void TestSpellPaladin::tear_down() {
 void TestSpellPaladin::run_class_specific_tests() {}
 
 Judgement* TestSpellPaladin::judgement() const {
-    return static_cast<Judgement*>(get_max_rank_spell_by_name("Judgement"));
+    return static_cast<Judgement*>(get_max_rank_spell_by_name(QObject::tr("Judgement")));
 }
 
 MainhandAttackPaladin* TestSpellPaladin::mh_attack() const {
@@ -54,11 +54,11 @@ MainhandAttackPaladin* TestSpellPaladin::mh_attack() const {
 }
 
 SealOfCommand* TestSpellPaladin::seal_of_command() const {
-    return static_cast<SealOfCommand*>(get_max_rank_spell_by_name("Seal of Command"));
+    return static_cast<SealOfCommand*>(get_max_rank_spell_by_name(QObject::tr("Seal of Command")));
 }
 
 SealOfTheCrusader* TestSpellPaladin::seal_of_the_crusader() const {
-    return static_cast<SealOfTheCrusader*>(get_max_rank_spell_by_name("Seal of the Crusader"));
+    return static_cast<SealOfTheCrusader*>(get_max_rank_spell_by_name(QObject::tr("Seal of the Crusader")));
 }
 
 void TestSpellPaladin::given_paladin_is_on_gcd() {
@@ -117,7 +117,7 @@ void TestSpellPaladin::given_retribution_talent_rank(const QString& talent_name,
 }
 
 void TestSpellPaladin::given_seal_of_command_is_enabled() {
-    given_retribution_talent_rank("Seal of Command", 1);
+    given_retribution_talent_rank(QObject::tr("Seal of Command"), 1);
 
     assert(seal_of_command()->is_enabled());
     paladin->prepare_set_of_combat_iterations();

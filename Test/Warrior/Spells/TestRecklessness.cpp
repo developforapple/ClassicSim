@@ -9,7 +9,7 @@
 #include "Recklessness.h"
 #include "Whirlwind.h"
 
-TestRecklessness::TestRecklessness(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Recklessness") {}
+TestRecklessness::TestRecklessness(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Recklessness")) {}
 
 void TestRecklessness::test_all() {
     run_mandatory_tests();
@@ -76,7 +76,7 @@ Recklessness* TestRecklessness::recklessness() const {
 }
 
 void TestRecklessness::test_name_correct() {
-    assert(recklessness()->get_name() == "Recklessness");
+    assert(recklessness()->get_name() == QObject::tr("Recklessness"));
 }
 
 void TestRecklessness::test_spell_cooldown() {

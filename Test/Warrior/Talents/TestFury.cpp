@@ -24,104 +24,104 @@ void TestFury::tear_down() {
 }
 
 void TestFury::test_spending_talent_points() {
-    assert(!decrement("Cruelty"));
+    assert(!decrement(QObject::tr("Cruelty")));
 
-    assert(increment("Cruelty", 5));
+    assert(increment(QObject::tr("Cruelty"), 5));
     // 5 points
-    assert(!increment("Cruelty"));
-    assert(decrement("Cruelty"));
-    assert(increment("Cruelty"));
+    assert(!increment(QObject::tr("Cruelty")));
+    assert(decrement(QObject::tr("Cruelty")));
+    assert(increment(QObject::tr("Cruelty")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Unbridled Wrath"));
-    assert(!decrement("Cruelty"));
-    assert(increment("Booming Voice"));
-    assert(decrement("Cruelty"));
-    assert(!decrement("Cruelty"));
-    assert(!decrement("Booming Voice"));
+    assert(increment(QObject::tr("Unbridled Wrath")));
+    assert(!decrement(QObject::tr("Cruelty")));
+    assert(increment(QObject::tr("Booming Voice")));
+    assert(decrement(QObject::tr("Cruelty")));
+    assert(!decrement(QObject::tr("Cruelty")));
+    assert(!decrement(QObject::tr("Booming Voice")));
 
-    assert(increment("Cruelty"));
-    assert(decrement("Booming Voice"));
+    assert(increment(QObject::tr("Cruelty")));
+    assert(decrement(QObject::tr("Booming Voice")));
     // 5 Cruelty 1 UW.
 
-    assert(increment("Unbridled Wrath", 4));
-    assert(increment("Improved Battle Shout", 5));
-    assert(increment("Enrage", 5));
-    assert(increment("Death Wish"));
+    assert(increment(QObject::tr("Unbridled Wrath"), 4));
+    assert(increment(QObject::tr("Improved Battle Shout"), 5));
+    assert(increment(QObject::tr("Enrage"), 5));
+    assert(increment(QObject::tr("Death Wish")));
 
     // Cannot decrement lower tiers
-    assert(!decrement("Improved Battle Shout"));
-    assert(!decrement("Enrage"));
-    assert(!decrement("Unbridled Wrath"));
-    assert(!decrement("Cruelty"));
+    assert(!decrement(QObject::tr("Improved Battle Shout")));
+    assert(!decrement(QObject::tr("Enrage")));
+    assert(!decrement(QObject::tr("Unbridled Wrath")));
+    assert(!decrement(QObject::tr("Cruelty")));
 
     // Try shifting points in T1
-    assert(increment("Booming Voice"));
-    assert(decrement("Cruelty"));
-    assert(!decrement("Cruelty"));
-    assert(!decrement("Booming Voice"));
+    assert(increment(QObject::tr("Booming Voice")));
+    assert(decrement(QObject::tr("Cruelty")));
+    assert(!decrement(QObject::tr("Cruelty")));
+    assert(!decrement(QObject::tr("Booming Voice")));
 
-    assert(increment("Cruelty"));
-    assert(decrement("Booming Voice"));
+    assert(increment(QObject::tr("Cruelty")));
+    assert(decrement(QObject::tr("Booming Voice")));
 
     // Try shifting points in T2
-    assert(increment("Improved Demoralizing Shout"));
-    assert(decrement("Unbridled Wrath"));
-    assert(!decrement("Unbridled Wrath"));
-    assert(!decrement("Improved Demoralizing Shout"));
+    assert(increment(QObject::tr("Improved Demoralizing Shout")));
+    assert(decrement(QObject::tr("Unbridled Wrath")));
+    assert(!decrement(QObject::tr("Unbridled Wrath")));
+    assert(!decrement(QObject::tr("Improved Demoralizing Shout")));
 
-    assert(increment("Unbridled Wrath"));
-    assert(decrement("Improved Demoralizing Shout"));
+    assert(increment(QObject::tr("Unbridled Wrath")));
+    assert(decrement(QObject::tr("Improved Demoralizing Shout")));
 
     // Try shifting points in T3
-    assert(increment("Improved Cleave"));
-    assert(decrement("Improved Battle Shout"));
-    assert(!decrement("Improved Cleave"));
-    assert(!decrement("Improved Battle Shout"));
+    assert(increment(QObject::tr("Improved Cleave")));
+    assert(decrement(QObject::tr("Improved Battle Shout")));
+    assert(!decrement(QObject::tr("Improved Cleave")));
+    assert(!decrement(QObject::tr("Improved Battle Shout")));
 
-    assert(increment("Improved Battle Shout"));
-    assert(decrement("Improved Cleave"));
+    assert(increment(QObject::tr("Improved Battle Shout")));
+    assert(decrement(QObject::tr("Improved Cleave")));
 
     // Try shifting points in T4
-    assert(increment("Improved Execute"));
-    assert(decrement("Enrage"));
-    assert(!decrement("Improved Execute"));
-    assert(!decrement("Enrage"));
+    assert(increment(QObject::tr("Improved Execute")));
+    assert(decrement(QObject::tr("Enrage")));
+    assert(!decrement(QObject::tr("Improved Execute")));
+    assert(!decrement(QObject::tr("Enrage")));
 
-    assert(increment("Enrage"));
-    assert(decrement("Improved Execute"));
+    assert(increment(QObject::tr("Enrage")));
+    assert(decrement(QObject::tr("Improved Execute")));
 
-    assert(increment("Dual Wield Specialization", 5));
-    assert(increment("Flurry", 5));
-    assert(increment("Improved Execute", 2));
-    assert(increment("Bloodthirst"));
+    assert(increment(QObject::tr("Dual Wield Specialization"), 5));
+    assert(increment(QObject::tr("Flurry"), 5));
+    assert(increment(QObject::tr("Improved Execute"), 2));
+    assert(increment(QObject::tr("Bloodthirst")));
 
     // Assert cannot remove parent (Death Wish) when child (BT) is active although points allow (34 spent)
-    assert(!decrement("Death Wish"));
+    assert(!decrement(QObject::tr("Death Wish")));
 
     // Assert lower tiers with only 5 points per tier cannot be decremented
-    assert(!decrement("Improved Battle Shout"));
-    assert(!decrement("Unbridled Wrath"));
-    assert(!decrement("Cruelty"));
+    assert(!decrement(QObject::tr("Improved Battle Shout")));
+    assert(!decrement(QObject::tr("Unbridled Wrath")));
+    assert(!decrement(QObject::tr("Cruelty")));
 
     // Assert can decrement tier 4 to 31 (including BT) but not any lower
-    assert(decrement("Dual Wield Specialization"));
-    assert(decrement("Dual Wield Specialization"));
-    assert(decrement("Dual Wield Specialization"));
-    assert(!decrement("Dual Wield Specialization"));
+    assert(decrement(QObject::tr("Dual Wield Specialization")));
+    assert(decrement(QObject::tr("Dual Wield Specialization")));
+    assert(decrement(QObject::tr("Dual Wield Specialization")));
+    assert(!decrement(QObject::tr("Dual Wield Specialization")));
 
-    assert(decrement("Bloodthirst"));
+    assert(decrement(QObject::tr("Bloodthirst")));
 }
 
 void TestFury::test_clearing_tree_after_filling() {
-    assert(increment("Booming Voice", 5));
-    assert(increment("Cruelty", 5));
-    assert(increment("Unbridled Wrath", 5));
-    assert(increment("Improved Battle Shout", 5));
-    assert(increment("Enrage", 5));
-    assert(increment("Flurry", 5));
-    assert(increment("Death Wish"));
-    assert(increment("Bloodthirst"));
+    assert(increment(QObject::tr("Booming Voice"), 5));
+    assert(increment(QObject::tr("Cruelty"), 5));
+    assert(increment(QObject::tr("Unbridled Wrath"), 5));
+    assert(increment(QObject::tr("Improved Battle Shout"), 5));
+    assert(increment(QObject::tr("Enrage"), 5));
+    assert(increment(QObject::tr("Flurry"), 5));
+    assert(increment(QObject::tr("Death Wish")));
+    assert(increment(QObject::tr("Bloodthirst")));
 
     clear_tree();
 }
@@ -143,13 +143,13 @@ void TestFury::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestFury::spec_dw_fury() {
-    assert(increment("Cruelty", 5));
-    assert(increment("Unbridled Wrath", 5));
-    assert(increment("Improved Battle Shout", 5));
-    assert(increment("Dual Wield Specialization", 5));
-    assert(increment("Enrage", 5));
-    assert(increment("Flurry", 5));
-    assert(increment("Improved Execute", 2));
-    assert(increment("Death Wish"));
-    assert(increment("Bloodthirst"));
+    assert(increment(QObject::tr("Cruelty"), 5));
+    assert(increment(QObject::tr("Unbridled Wrath"), 5));
+    assert(increment(QObject::tr("Improved Battle Shout"), 5));
+    assert(increment(QObject::tr("Dual Wield Specialization"), 5));
+    assert(increment(QObject::tr("Enrage"), 5));
+    assert(increment(QObject::tr("Flurry"), 5));
+    assert(increment(QObject::tr("Improved Execute"), 2));
+    assert(increment(QObject::tr("Death Wish")));
+    assert(increment(QObject::tr("Bloodthirst")));
 }

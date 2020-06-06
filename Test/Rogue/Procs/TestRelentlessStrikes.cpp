@@ -9,7 +9,7 @@
 #include "Rogue.h"
 #include "Talent.h"
 
-TestRelentlessStrikes::TestRelentlessStrikes(EquipmentDb* equipment_db) : TestProcRogue(equipment_db, "Relentless Strikes") {}
+TestRelentlessStrikes::TestRelentlessStrikes(EquipmentDb* equipment_db) : TestProcRogue(equipment_db, QObject::tr("Relentless Strikes")) {}
 
 void TestRelentlessStrikes::test_all() {
     set_up();
@@ -30,7 +30,7 @@ RelentlessStrikes* TestRelentlessStrikes::relentless_strikes() const {
 }
 
 void TestRelentlessStrikes::test_name_correct() {
-    assert(relentless_strikes()->get_name() == "Relentless Strikes");
+    assert(relentless_strikes()->get_name() == QObject::tr("Relentless Strikes"));
 }
 
 void TestRelentlessStrikes::test_proc_range() {
@@ -63,7 +63,7 @@ void TestRelentlessStrikes::test_proc_range() {
 }
 
 void TestRelentlessStrikes::given_1_of_1_relentless_strikes() {
-    given_talent_rank(Assassination(rogue), "Relentless Strikes", 1);
+    given_talent_rank(Assassination(rogue), QObject::tr("Relentless Strikes"), 1);
 }
 
 void TestRelentlessStrikes::test_proc_sources_are_valid() {

@@ -51,7 +51,7 @@ void TestSpellWarrior::run_class_specific_tests() {
 }
 
 HeroicStrike* TestSpellWarrior::heroic_strike() const {
-    return static_cast<HeroicStrike*>(spells->get_spell_rank_group_by_name("Heroic Strike")->get_max_available_spell_rank());
+    return static_cast<HeroicStrike*>(spells->get_spell_rank_group_by_name(QObject::tr("Heroic Strike"))->get_max_available_spell_rank());
 }
 
 void TestSpellWarrior::given_0_of_2_impale() {

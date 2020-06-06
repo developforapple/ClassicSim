@@ -13,7 +13,7 @@
 #include "RaidControl.h"
 #include "Weapon.h"
 
-TestBearForm::TestBearForm(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Bear Form") {}
+TestBearForm::TestBearForm(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Bear Form")) {}
 
 void TestBearForm::test_all() {
     run_mandatory_tests();
@@ -84,7 +84,7 @@ void TestBearForm::test_all() {
 }
 
 void TestBearForm::test_name_correct() {
-    assert(bear_form()->get_name() == "Bear Form");
+    assert(bear_form()->get_name() == QObject::tr("Bear Form"));
 }
 
 void TestBearForm::test_spell_cooldown() {
@@ -114,7 +114,7 @@ void TestBearForm::test_resource_cost() {
 }
 
 void TestBearForm::test_resource_cost_with_3_of_3_natural_shapeshifter() {
-    given_balance_talent_rank("Natural Shapeshifter", 3);
+    given_balance_talent_rank(QObject::tr("Natural Shapeshifter"), 3);
     given_druid_has_mana(71);
 
     when_bear_form_is_performed();
@@ -198,7 +198,7 @@ void TestBearForm::test_hit_dmg_0_of_5_feral_instinct() {
 }
 
 void TestBearForm::test_hit_dmg_1_of_5_feral_instinct() {
-    given_feral_talent_rank("Feral Instinct", 1);
+    given_feral_talent_rank(QObject::tr("Feral Instinct"), 1);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     when_bear_form_is_performed();
@@ -216,7 +216,7 @@ void TestBearForm::test_hit_dmg_1_of_5_feral_instinct() {
 }
 
 void TestBearForm::test_hit_dmg_2_of_5_feral_instinct() {
-    given_feral_talent_rank("Feral Instinct", 2);
+    given_feral_talent_rank(QObject::tr("Feral Instinct"), 2);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     when_bear_form_is_performed();
@@ -234,7 +234,7 @@ void TestBearForm::test_hit_dmg_2_of_5_feral_instinct() {
 }
 
 void TestBearForm::test_hit_dmg_3_of_5_feral_instinct() {
-    given_feral_talent_rank("Feral Instinct", 3);
+    given_feral_talent_rank(QObject::tr("Feral Instinct"), 3);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     when_bear_form_is_performed();
@@ -252,7 +252,7 @@ void TestBearForm::test_hit_dmg_3_of_5_feral_instinct() {
 }
 
 void TestBearForm::test_hit_dmg_4_of_5_feral_instinct() {
-    given_feral_talent_rank("Feral Instinct", 4);
+    given_feral_talent_rank(QObject::tr("Feral Instinct"), 4);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     when_bear_form_is_performed();
@@ -270,7 +270,7 @@ void TestBearForm::test_hit_dmg_4_of_5_feral_instinct() {
 }
 
 void TestBearForm::test_hit_dmg_5_of_5_feral_instinct() {
-    given_feral_talent_rank("Feral Instinct", 5);
+    given_feral_talent_rank(QObject::tr("Feral Instinct"), 5);
     given_target_has_0_armor();
     given_in_melee_attack_mode();
     when_bear_form_is_performed();
@@ -319,7 +319,7 @@ void TestBearForm::test_glancing_dmg() {
 
 void TestBearForm::test_leader_of_the_pack_gives_crit_to_party_members() {
     Druid* druid_2 = new Druid(race, equipment_db, sim_settings, raid_control, 0, 1);
-    given_feral_talent_rank("Leader of the Pack", 1);
+    given_feral_talent_rank(QObject::tr("Leader of the Pack"), 1);
 
     const unsigned self_melee_crit_before = pchar->get_stats()->get_mh_crit_chance();
     const unsigned druid_2_melee_crit_before = druid_2->get_stats()->get_mh_crit_chance();
@@ -349,7 +349,7 @@ void TestBearForm::test_0_of_5_furor_gives_0_rage_on_entering_bear_form() {
 }
 
 void TestBearForm::test_5_of_5_furor_gives_10_rage_on_entering_bear_form() {
-    given_restoration_talent_rank("Furor", 5);
+    given_restoration_talent_rank(QObject::tr("Furor"), 5);
     given_druid_has_energy(0);
     pchar->prepare_set_of_combat_iterations();
 

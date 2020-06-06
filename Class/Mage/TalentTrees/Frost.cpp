@@ -4,11 +4,12 @@
 #include "MageSpells.h"
 #include "Talent.h"
 #include "TalentStatIncrease.h"
+#include <Utils/i18n.h>
 
 Frost::Frost(Mage* mage) : TalentTree(QObject::tr("Frost"), "Assets/mage/mage_frost.jpg"), mage(mage), spells(static_cast<MageSpells*>(mage->get_spells())) {
     talent_names_to_locations = {
         {QObject::tr("Frost Warding"), "1LL"},     {QObject::tr("Improved Frostbolt"), "1ML"}, {QObject::tr("Elemental Precision"), "1MR"},
-        {QObject::tr("Ice Shards"), "2LL"},        {QObject::tr("Frostbite"), "2ML"},          {QObject::tr("Improved Frost Nova"), "2MR"},
+        {QObject::tr("Ice Shards"), "2LL"},        {QObject::tr("Frostbite", "Mage Frost Talent 2ML"), "2ML"},          {QObject::tr("Improved Frost Nova"), "2MR"},
         {QObject::tr("Permafrost"), "2RR"},        {QObject::tr("Piercing Ice"), "3LL"},       {QObject::tr("Cold Snap"), "3ML"},
         {QObject::tr("Improved Blizzard"), "3RR"}, {QObject::tr("Arctic Reach"), "4LL"},       {QObject::tr("Frost Channeling"), "4ML"},
         {QObject::tr("Shatter"), "4MR"},           {QObject::tr("Ice Block"), "5ML"},          {QObject::tr("Improved Cone of Cold"), "5MR"},
@@ -25,7 +26,7 @@ Frost::Frost(Mage* mage) : TalentTree(QObject::tr("Frost"), "Assets/mage/mage_fr
 
     QMap<QString, Talent*>
         tier2 {{"2ML",
-                new Talent(mage, this, QObject::tr("Frostbite"), "2ML", "Assets/spell/Spell_frost_frostarmor.png", 3,
+                new Talent(mage, this, QObject::tr("Frostbite", "Mage Frost Talent 2ML"), "2ML", "Assets/spell/Spell_frost_frostarmor.png", 3,
                            QObject::tr("Gives your Chill effects a %1% chance to freeze the target for 5 sec."), QVector<QPair<unsigned, unsigned>> {{5, 5}})},
                {"2MR", new Talent(mage, this, QObject::tr("Improved Frost Nova"), "2MR", "Assets/spell/Spell_frost_freezingbreath.png", 2,
                                   QObject::tr("Reduces the cooldown of your Frost Nova spell by %1 sec."), QVector<QPair<unsigned, unsigned>> {{2, 2}})},

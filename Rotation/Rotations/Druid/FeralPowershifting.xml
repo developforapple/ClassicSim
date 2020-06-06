@@ -25,18 +25,18 @@
     <cast_if name="Cat Form" name_zh="猎豹形态" />
 
     <cast_if name="Tiger's Fury" name_zh="猛虎之怒" >
-        resource "Energy" eq 100
+        <en>resource "Energy" eq 100</en>
     </cast_if>
 
     <cast_if name="Ferocious Bite" name_zh="凶猛撕咬" >
-        variable "combo_points" eq 5
+        <en>variable "combo_points" eq 5</en>
     </cast_if>
 
     <cast_if name="Shred"/ name_zh="撕碎" >
 
     <cast_if name="Caster Form" name_zh="人形态" >
-        resource "Energy" leq 47
+        <en>resource "Energy" leq 47
         and resource "Mana" geq 400
-		and variable "time_remaining_gcd" leq 0
+		and variable "time_remaining_gcd" leq 0</en>
     </cast_if>
 </rotation>

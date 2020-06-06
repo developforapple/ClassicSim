@@ -140,7 +140,7 @@
 			<stat type="SPELL_DAMAGE" value="40"/>
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
-		<modifies name="Robe of the Archmage"/>
+		<modifies name="Robe of the Archmage" name_zh="大法师之袍"/>
 		<special_equip_effect>
 			<en>Use: Restores 375 to 626 mana. (cooldown 5 min)</en>
 			<zh>使用：恢复375到626点法力值。 (5分钟冷却)</zh>

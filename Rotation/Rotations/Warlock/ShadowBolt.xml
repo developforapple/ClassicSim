@@ -18,13 +18,13 @@
     <cast_if name="Arcane Power" name_zh="奥术强化"/>
 
     <cast_if name="Berserking" name_zh="狂暴">
-        resource "Mana" greater 400
+        <en>resource "Mana" greater 400</en>
     </cast_if>
 
     <cast_if name="Shadow Bolt" name_zh="暗影箭"/>
 
     <cast_if name="Life Tap" name_zh="生命分流">
-        resource "Mana" less 400
+        <en>resource "Mana" less 400</en>
     </cast_if>
 
     <cast_if name="Mana Potion" name_zh="法力药水"/>

@@ -8,7 +8,7 @@
 #include "ShadowBolt.h"
 #include "Warlock.h"
 
-TestShadowBolt::TestShadowBolt(EquipmentDb* equipment_db_) : TestSpellWarlock(equipment_db_, "Shadow Bolt") {}
+TestShadowBolt::TestShadowBolt(EquipmentDb* equipment_db_) : TestSpellWarlock(equipment_db_, QObject::tr("Shadow Bolt")) {}
 
 void TestShadowBolt::test_all() {
     run_mandatory_tests();
@@ -87,7 +87,7 @@ void TestShadowBolt::test_all() {
 }
 
 void TestShadowBolt::test_name_correct() {
-    assert(shadow_bolt()->get_name() == "Shadow Bolt");
+    assert(shadow_bolt()->get_name() == QObject::tr("Shadow Bolt"));
 }
 
 void TestShadowBolt::test_spell_cooldown() {
@@ -144,7 +144,7 @@ void TestShadowBolt::test_crit_dmg() {
 }
 
 void TestShadowBolt::test_cast_time_1_of_5_bane() {
-    given_destruction_talent_rank("Bane", 1);
+    given_destruction_talent_rank(QObject::tr("Bane"), 1);
 
     when_shadow_bolt_is_performed();
 
@@ -153,7 +153,7 @@ void TestShadowBolt::test_cast_time_1_of_5_bane() {
 }
 
 void TestShadowBolt::test_cast_time_2_of_5_bane() {
-    given_destruction_talent_rank("Bane", 2);
+    given_destruction_talent_rank(QObject::tr("Bane"), 2);
 
     when_shadow_bolt_is_performed();
 
@@ -162,7 +162,7 @@ void TestShadowBolt::test_cast_time_2_of_5_bane() {
 }
 
 void TestShadowBolt::test_cast_time_3_of_5_bane() {
-    given_destruction_talent_rank("Bane", 3);
+    given_destruction_talent_rank(QObject::tr("Bane"), 3);
 
     when_shadow_bolt_is_performed();
 
@@ -171,7 +171,7 @@ void TestShadowBolt::test_cast_time_3_of_5_bane() {
 }
 
 void TestShadowBolt::test_cast_time_4_of_5_bane() {
-    given_destruction_talent_rank("Bane", 4);
+    given_destruction_talent_rank(QObject::tr("Bane"), 4);
 
     when_shadow_bolt_is_performed();
 
@@ -180,7 +180,7 @@ void TestShadowBolt::test_cast_time_4_of_5_bane() {
 }
 
 void TestShadowBolt::test_cast_time_5_of_5_bane() {
-    given_destruction_talent_rank("Bane", 5);
+    given_destruction_talent_rank(QObject::tr("Bane"), 5);
 
     when_shadow_bolt_is_performed();
 
@@ -189,7 +189,7 @@ void TestShadowBolt::test_cast_time_5_of_5_bane() {
 }
 
 void TestShadowBolt::test_resource_cost_1_of_5_cataclysm() {
-    given_destruction_talent_rank("Cataclysm", 1);
+    given_destruction_talent_rank(QObject::tr("Cataclysm"), 1);
     given_warlock_has_mana(377);
 
     when_shadow_bolt_is_performed();
@@ -199,7 +199,7 @@ void TestShadowBolt::test_resource_cost_1_of_5_cataclysm() {
 }
 
 void TestShadowBolt::test_resource_cost_2_of_5_cataclysm() {
-    given_destruction_talent_rank("Cataclysm", 2);
+    given_destruction_talent_rank(QObject::tr("Cataclysm"), 2);
     given_warlock_has_mana(373);
 
     when_shadow_bolt_is_performed();
@@ -209,7 +209,7 @@ void TestShadowBolt::test_resource_cost_2_of_5_cataclysm() {
 }
 
 void TestShadowBolt::test_resource_cost_3_of_5_cataclysm() {
-    given_destruction_talent_rank("Cataclysm", 3);
+    given_destruction_talent_rank(QObject::tr("Cataclysm"), 3);
     given_warlock_has_mana(370);
 
     when_shadow_bolt_is_performed();
@@ -219,7 +219,7 @@ void TestShadowBolt::test_resource_cost_3_of_5_cataclysm() {
 }
 
 void TestShadowBolt::test_resource_cost_4_of_5_cataclysm() {
-    given_destruction_talent_rank("Cataclysm", 4);
+    given_destruction_talent_rank(QObject::tr("Cataclysm"), 4);
     given_warlock_has_mana(366);
 
     when_shadow_bolt_is_performed();
@@ -229,7 +229,7 @@ void TestShadowBolt::test_resource_cost_4_of_5_cataclysm() {
 }
 
 void TestShadowBolt::test_resource_cost_5_of_5_cataclysm() {
-    given_destruction_talent_rank("Cataclysm", 5);
+    given_destruction_talent_rank(QObject::tr("Cataclysm"), 5);
     given_warlock_has_mana(362);
 
     when_shadow_bolt_is_performed();
@@ -260,7 +260,7 @@ void TestShadowBolt::test_crit_dmg_ruin() {
 void TestShadowBolt::test_hit_dmg_demonic_sacrifice() {
     given_a_guaranteed_magic_hit(MagicSchool::Shadow);
     given_1000_spell_power();
-    given_demonology_talent_rank("Demonic Sacrifice", 1);
+    given_demonology_talent_rank(QObject::tr("Demonic Sacrifice"), 1);
     given_no_previous_damage_dealt();
 
     when_shadow_bolt_is_performed();
@@ -274,7 +274,7 @@ void TestShadowBolt::test_hit_dmg_demonic_sacrifice() {
 void TestShadowBolt::test_crit_dmg_demonic_sacrifice() {
     given_a_guaranteed_magic_crit(MagicSchool::Shadow);
     given_1000_spell_power();
-    given_demonology_talent_rank("Demonic Sacrifice", 1);
+    given_demonology_talent_rank(QObject::tr("Demonic Sacrifice"), 1);
     given_no_previous_damage_dealt();
 
     when_shadow_bolt_is_performed();
@@ -288,7 +288,7 @@ void TestShadowBolt::test_crit_dmg_demonic_sacrifice() {
 void TestShadowBolt::test_crits_applies_improved_shadow_bolt_debuff_if_talented() {
     given_a_guaranteed_magic_crit(MagicSchool::Shadow);
     given_1000_spell_power();
-    given_destruction_talent_rank("Improved Shadow Bolt", 5);
+    given_destruction_talent_rank(QObject::tr("Improved Shadow Bolt"), 5);
     given_no_previous_damage_dealt();
 
     when_shadow_bolt_is_performed();

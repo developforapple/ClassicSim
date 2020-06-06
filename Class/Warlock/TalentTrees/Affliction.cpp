@@ -107,7 +107,7 @@ void Affliction::add_improved_life_tap(QMap<QString, Talent*>& talent_tier) {
     Talent* talent = get_new_talent(warlock, QObject::tr("Improved Life Tap"), "2MR", "Assets/spell/Spell_shadow_burningspirit.png", 2,
                                     QObject::tr("Increases the amount of Mana awarded by your Life Tap spell by %1%."),
                                     QVector<QPair<unsigned, unsigned>> {{10, 10}},
-                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Life Tap")});
+                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Life Tap"))});
 
     add_talent_to_tier(talent_tier, talent);
 }

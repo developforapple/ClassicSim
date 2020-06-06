@@ -14,7 +14,7 @@
     <cast_if name="Burst of Knowledge" name_zh="博学坠饰"/>
 
     <cast_if name="Berserking" name_zh="狂暴">
-        resource "Mana" greater 400
+        <en>resource "Mana" greater 400</en>
     </cast_if>
 
     <cast_if name="Lightning Bolt" name_zh="闪电箭"/>

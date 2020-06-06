@@ -13,7 +13,7 @@
 #include "RaidControl.h"
 #include "Weapon.h"
 
-TestCatForm::TestCatForm(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Cat Form") {}
+TestCatForm::TestCatForm(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Cat Form")) {}
 
 void TestCatForm::test_all() {
     run_mandatory_tests();
@@ -64,7 +64,7 @@ void TestCatForm::test_all() {
 }
 
 void TestCatForm::test_name_correct() {
-    assert(cat_form()->get_name() == "Cat Form");
+    assert(cat_form()->get_name() == QObject::tr("Cat Form"));
 }
 
 void TestCatForm::test_spell_cooldown() {
@@ -106,7 +106,7 @@ void TestCatForm::test_resource_cost() {
 }
 
 void TestCatForm::test_resource_cost_with_3_of_3_natural_shapeshifter() {
-    given_balance_talent_rank("Natural Shapeshifter", 3);
+    given_balance_talent_rank(QObject::tr("Natural Shapeshifter"), 3);
     given_druid_has_mana(71);
 
     when_cat_form_is_performed();
@@ -204,7 +204,7 @@ void TestCatForm::test_glancing_dmg() {
 
 void TestCatForm::test_leader_of_the_pack_gives_crit_to_party_members() {
     Druid* druid_2 = new Druid(race, equipment_db, sim_settings, raid_control, 0, 1);
-    given_feral_talent_rank("Leader of the Pack", 1);
+    given_feral_talent_rank(QObject::tr("Leader of the Pack"), 1);
     pchar->prepare_set_of_combat_iterations();
     raid_control->prepare_set_of_combat_iterations();
 
@@ -236,7 +236,7 @@ void TestCatForm::test_0_of_5_furor_gives_0_energy_on_entering_cat_form() {
 }
 
 void TestCatForm::test_5_of_5_furor_gives_40_energy_on_entering_cat_form() {
-    given_restoration_talent_rank("Furor", 5);
+    given_restoration_talent_rank(QObject::tr("Furor"), 5);
     pchar->prepare_set_of_combat_iterations();
     given_druid_has_energy(0);
 

@@ -10,7 +10,7 @@
 #include "Subtlety.h"
 #include "Talent.h"
 
-TestHemorrhage::TestHemorrhage(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Hemorrhage") {}
+TestHemorrhage::TestHemorrhage(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Hemorrhage")) {}
 
 void TestHemorrhage::test_all() {
     run_mandatory_tests();
@@ -57,11 +57,11 @@ void TestHemorrhage::test_all() {
 }
 
 Hemorrhage* TestHemorrhage::hemo() const {
-    return static_cast<Hemorrhage*>(rogue->get_spells()->get_spell_rank_group_by_name("Hemorrhage")->get_max_available_spell_rank());
+    return static_cast<Hemorrhage*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Hemorrhage"))->get_max_available_spell_rank());
 }
 
 void TestHemorrhage::test_name_correct() {
-    assert(hemo()->get_name() == "Hemorrhage");
+    assert(hemo()->get_name() == QObject::tr("Hemorrhage"));
 }
 
 void TestHemorrhage::test_spell_cooldown() {
@@ -261,6 +261,6 @@ void TestHemorrhage::when_hemorrhage_is_performed() {
 void TestHemorrhage::given_hemorrhage_is_enabled() {
     auto sub = Subtlety(rogue);
 
-    given_talent_rank(sub, "Serrated Blades", 3);
-    given_talent_rank(sub, "Hemorrhage", 1);
+    given_talent_rank(sub, QObject::tr("Serrated Blades"), 3);
+    given_talent_rank(sub, QObject::tr("Hemorrhage"), 1);
 }

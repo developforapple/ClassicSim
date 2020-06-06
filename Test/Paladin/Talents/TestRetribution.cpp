@@ -24,19 +24,19 @@ void TestRetribution::tear_down() {
 
 void TestRetribution::test_spending_talent_points() {
     // Assert cannot spend points into Vengeance if 5/5 Conviction missing
-    assert(increment("Improved Blessing of Might", 5));
-    assert(increment("Benediction", 5));
-    assert(increment("Deflection", 5));
-    assert(increment("Conviction", 4));
-    assert(increment("Improved Retribution Aura", 2));
-    assert(increment("Two-Handed Weapon Specialization", 3));
-    assert(increment("Sanctity Aura"));
+    assert(increment(QObject::tr("Improved Blessing of Might"), 5));
+    assert(increment(QObject::tr("Benediction"), 5));
+    assert(increment(QObject::tr("Deflection"), 5));
+    assert(increment(QObject::tr("Conviction"), 4));
+    assert(increment(QObject::tr("Improved Retribution Aura"), 2));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization"), 3));
+    assert(increment(QObject::tr("Sanctity Aura")));
 
     assert(tree_has_points(25));
-    assert(!increment("Vengeance"));
-    assert(increment("Conviction"));
-    assert(increment("Vengeance"));
-    assert(!decrement("Conviction"));
+    assert(!increment(QObject::tr("Vengeance")));
+    assert(increment(QObject::tr("Conviction")));
+    assert(increment(QObject::tr("Vengeance")));
+    assert(!decrement(QObject::tr("Conviction")));
 }
 
 void TestRetribution::test_clearing_tree_after_filling() {
@@ -64,19 +64,19 @@ void TestRetribution::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestRetribution::spec_retribution() {
-    assert(increment("Improved Blessing of Might", 5));
-    assert(increment("Benediction", 5));
-    assert(increment("Improved Judgement", 2));
-    assert(increment("Improved Seal of the Crusader", 3));
-    assert(increment("Deflection", 5));
-    assert(increment("Vindication", 3));
-    assert(increment("Conviction", 5));
-    assert(increment("Seal of Command", 1));
-    assert(increment("Pursuit of Justice", 2));
-    assert(increment("Eye for an Eye", 2));
-    assert(increment("Improved Retribution Aura", 2));
-    assert(increment("Two-Handed Weapon Specialization", 3));
-    assert(increment("Sanctity Aura", 1));
-    assert(increment("Vengeance", 5));
-    assert(increment("Repentance", 1));
+    assert(increment(QObject::tr("Improved Blessing of Might"), 5));
+    assert(increment(QObject::tr("Benediction"), 5));
+    assert(increment(QObject::tr("Improved Judgement"), 2));
+    assert(increment(QObject::tr("Improved Seal of the Crusader"), 3));
+    assert(increment(QObject::tr("Deflection"), 5));
+    assert(increment(QObject::tr("Vindication"), 3));
+    assert(increment(QObject::tr("Conviction"), 5));
+    assert(increment(QObject::tr("Seal of Command"), 1));
+    assert(increment(QObject::tr("Pursuit of Justice"), 2));
+    assert(increment(QObject::tr("Eye for an Eye"), 2));
+    assert(increment(QObject::tr("Improved Retribution Aura"), 2));
+    assert(increment(QObject::tr("Two-Handed Weapon Specialization"), 3));
+    assert(increment(QObject::tr("Sanctity Aura"), 1));
+    assert(increment(QObject::tr("Vengeance"), 5));
+    assert(increment(QObject::tr("Repentance"), 1));
 }

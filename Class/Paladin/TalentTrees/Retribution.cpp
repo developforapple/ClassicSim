@@ -130,7 +130,7 @@ void Retribution::add_seal_of_command(QMap<QString, Talent*>& talent_tier) {
                                     "can be active on the Paladin at any one time. Lasts 30 sec.\n\nUnleashing this Seal's energy will judge an "
                                     "enemy, instantly causing 46.5 to 55.5 Holy damage, 93 to 102 if the target is stunned or incapacitated."),
                                     QVector<QPair<unsigned, unsigned>>(),
-                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Seal of Command")});
+                                    QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Seal of Command"))});
 
     add_talent_to_tier(talent_tier, talent);
 }

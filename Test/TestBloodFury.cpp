@@ -5,7 +5,7 @@
 #include "BloodFury.h"
 #include "CharacterStats.h"
 
-TestBloodFury::TestBloodFury(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Blood Fury") {}
+TestBloodFury::TestBloodFury(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Blood Fury")) {}
 
 void TestBloodFury::test_all() {
     run_mandatory_tests();
@@ -20,11 +20,11 @@ void TestBloodFury::test_all() {
 }
 
 BloodFury* TestBloodFury::blood_fury() const {
-    return static_cast<BloodFury*>(get_max_rank_spell_by_name("Blood Fury"));
+    return static_cast<BloodFury*>(get_max_rank_spell_by_name(QObject::tr("Blood Fury")));
 }
 
 void TestBloodFury::test_name_correct() {
-    assert(blood_fury()->get_name() == "Blood Fury");
+    assert(blood_fury()->get_name() == QObject::tr("Blood Fury"));
 }
 
 void TestBloodFury::test_spell_cooldown() {

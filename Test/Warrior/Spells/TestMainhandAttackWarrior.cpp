@@ -57,7 +57,7 @@ MainhandAttackWarrior* TestMainhandAttackWarrior::mh_attack() const {
 }
 
 void TestMainhandAttackWarrior::test_name_correct() {
-    assert(mh_attack()->get_name() == "Mainhand Attack");
+    assert(mh_attack()->get_name() == QObject::tr("Mainhand Attack"));
 }
 
 void TestMainhandAttackWarrior::test_spell_cooldown() {

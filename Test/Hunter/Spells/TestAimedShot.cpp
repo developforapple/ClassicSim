@@ -11,7 +11,7 @@
 #include "SpellRankGroup.h"
 #include "Talent.h"
 
-TestAimedShot::TestAimedShot(EquipmentDb* equipment_db) : TestSpellHunter(equipment_db, "Aimed Shot") {}
+TestAimedShot::TestAimedShot(EquipmentDb* equipment_db) : TestSpellHunter(equipment_db, QObject::tr("Aimed Shot")) {}
 
 void TestAimedShot::test_all() {
     run_mandatory_tests();
@@ -110,11 +110,11 @@ void TestAimedShot::test_all() {
 }
 
 AimedShot* TestAimedShot::aimed_shot() const {
-    return static_cast<AimedShot*>(hunter->get_spells()->get_spell_rank_group_by_name("Aimed Shot")->get_max_available_spell_rank());
+    return static_cast<AimedShot*>(hunter->get_spells()->get_spell_rank_group_by_name(QObject::tr("Aimed Shot"))->get_max_available_spell_rank());
 }
 
 void TestAimedShot::test_name_correct() {
-    assert(aimed_shot()->get_name() == "Aimed Shot");
+    assert(aimed_shot()->get_name() == QObject::tr("Aimed Shot"));
 }
 
 void TestAimedShot::test_spell_cooldown() {
@@ -206,7 +206,7 @@ void TestAimedShot::test_hit_dmg_5_of_5_ranged_weapon_specialization() {
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
-    given_marksmanship_talent_rank("Ranged Weapon Specialization", 5);
+    given_marksmanship_talent_rank(QObject::tr("Ranged Weapon Specialization"), 5);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -333,7 +333,7 @@ void TestAimedShot::test_crit_dmg_5_of_5_mortal_shots_1_of_3_monster_slaying() {
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Monster Slaying", 1);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 1);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -353,7 +353,7 @@ void TestAimedShot::test_crit_dmg_5_of_5_mortal_shots_2_of_3_monster_slaying() {
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Monster Slaying", 2);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 2);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -373,7 +373,7 @@ void TestAimedShot::test_crit_dmg_5_of_5_mortal_shots_3_of_3_monster_slaying() {
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Monster Slaying", 3);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 3);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -393,7 +393,7 @@ void TestAimedShot::test_crit_dmg_5_of_5_mortal_shots_1_of_3_humanoid_slaying() 
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Humanoid Slaying", 1);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 1);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -413,7 +413,7 @@ void TestAimedShot::test_crit_dmg_5_of_5_mortal_shots_2_of_3_humanoid_slaying() 
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Humanoid Slaying", 2);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 2);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -433,7 +433,7 @@ void TestAimedShot::test_crit_dmg_5_of_5_mortal_shots_3_of_3_humanoid_slaying() 
     given_no_previous_damage_dealt();
     given_aimed_shot_is_enabled();
     given_mortal_shots_rank(5);
-    given_survival_talent_rank("Humanoid Slaying", 3);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 3);
 
     when_aimed_shot_is_performed();
     then_next_event_is(EventType::PlayerAction, "1.500");
@@ -466,7 +466,7 @@ void TestAimedShot::test_aimed_shot_cast_in_progress_blocks_other_spells() {
 
 void TestAimedShot::test_mana_cost_1_of_5_efficiency() {
     given_aimed_shot_is_enabled();
-    given_marksmanship_talent_rank("Efficiency", 1);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 1);
     given_hunter_has_mana(304);
     assert(aimed_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -483,7 +483,7 @@ void TestAimedShot::test_mana_cost_1_of_5_efficiency() {
 
 void TestAimedShot::test_mana_cost_2_of_5_efficiency() {
     given_aimed_shot_is_enabled();
-    given_marksmanship_talent_rank("Efficiency", 2);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 2);
     given_hunter_has_mana(298);
     assert(aimed_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -500,7 +500,7 @@ void TestAimedShot::test_mana_cost_2_of_5_efficiency() {
 
 void TestAimedShot::test_mana_cost_3_of_5_efficiency() {
     given_aimed_shot_is_enabled();
-    given_marksmanship_talent_rank("Efficiency", 3);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 3);
     given_hunter_has_mana(291);
     assert(aimed_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -517,7 +517,7 @@ void TestAimedShot::test_mana_cost_3_of_5_efficiency() {
 
 void TestAimedShot::test_mana_cost_4_of_5_efficiency() {
     given_aimed_shot_is_enabled();
-    given_marksmanship_talent_rank("Efficiency", 4);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 4);
     given_hunter_has_mana(285);
     assert(aimed_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -534,7 +534,7 @@ void TestAimedShot::test_mana_cost_4_of_5_efficiency() {
 
 void TestAimedShot::test_mana_cost_5_of_5_efficiency() {
     given_aimed_shot_is_enabled();
-    given_marksmanship_talent_rank("Efficiency", 5);
+    given_marksmanship_talent_rank(QObject::tr("Efficiency"), 5);
     given_hunter_has_mana(279);
     assert(aimed_shot()->get_spell_status() == SpellStatus::Available);
 
@@ -563,7 +563,7 @@ void TestAimedShot::test_aimed_shot_cast_time_not_reduced_by_ranged_attack_speed
 }
 
 void TestAimedShot::given_aimed_shot_is_enabled() {
-    given_marksmanship_talent_rank("Aimed Shot", 1);
+    given_marksmanship_talent_rank(QObject::tr("Aimed Shot"), 1);
 
     assert(aimed_shot()->is_enabled());
 }

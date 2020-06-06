@@ -13,7 +13,7 @@
 #include "Talent.h"
 #include "WarriorSpells.h"
 
-TestBladeFlurry::TestBladeFlurry(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Blade Flurry") {}
+TestBladeFlurry::TestBladeFlurry(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Blade Flurry")) {}
 
 void TestBladeFlurry::test_all() {
     run_mandatory_tests(false);
@@ -32,11 +32,11 @@ void TestBladeFlurry::test_all() {
 }
 
 BladeFlurry* TestBladeFlurry::blade_flurry() const {
-    return static_cast<BladeFlurry*>(rogue->get_spells()->get_spell_rank_group_by_name("Blade Flurry")->get_max_available_spell_rank());
+    return static_cast<BladeFlurry*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Blade Flurry"))->get_max_available_spell_rank());
 }
 
 void TestBladeFlurry::test_name_correct() {
-    assert(blade_flurry()->get_name() == "Blade Flurry");
+    assert(blade_flurry()->get_name() == QObject::tr("Blade Flurry"));
 }
 
 void TestBladeFlurry::test_spell_cooldown() {
@@ -143,6 +143,6 @@ void TestBladeFlurry::when_blade_flurry_is_performed() {
 }
 
 void TestBladeFlurry::given_1_of_1_blade_flurry() {
-    given_combat_talent_rank("Blade Flurry", 1);
+    given_combat_talent_rank(QObject::tr("Blade Flurry"), 1);
     rogue->prepare_set_of_combat_iterations();
 }

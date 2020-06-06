@@ -5,7 +5,7 @@
 #include "Event.h"
 #include "MortalStrike.h"
 
-TestMortalStrike::TestMortalStrike(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Mortal Strike") {}
+TestMortalStrike::TestMortalStrike(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Mortal Strike")) {}
 
 void TestMortalStrike::test_all() {
     run_mandatory_tests();
@@ -36,7 +36,7 @@ MortalStrike* TestMortalStrike::mortal_strike() const {
 }
 
 void TestMortalStrike::test_name_correct() {
-    assert(mortal_strike()->get_name() == "Mortal Strike");
+    assert(mortal_strike()->get_name() == QObject::tr("Mortal Strike"));
 }
 
 void TestMortalStrike::test_spell_cooldown() {

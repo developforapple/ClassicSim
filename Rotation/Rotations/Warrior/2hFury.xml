@@ -12,100 +12,118 @@
     </precombat_actions>
 
     <cast_if name="Berserker Rage" name_zh="狂暴之怒">
-        resource "Rage" less 50
+        <en>resource "Rage" less 50</en>
     </cast_if>
 
     <cast_if name="Battle Shout" name_zh="战斗怒吼">
-        buff_duration "Battle Shout" less 3
-        or variable "time_remaining_execute" less 10
-        and variable "time_remaining_execute" greater 0
-        and buff_duration "Battle Shout" less 45
+        <en>buff_duration "Battle Shout" less 3
+            or variable "time_remaining_execute" less 10
+            and variable "time_remaining_execute" greater 0
+            and buff_duration "Battle Shout" less 45</en>
+        <zh>buff_duration "战斗怒吼" less 3
+            or variable "time_remaining_execute" less 10
+            and variable "time_remaining_execute" greater 0
+            and buff_duration "战斗怒吼" less 45</zh>
     </cast_if>
 
     <!-- General heroic strike usage -->
     <cast_if name="Heroic Strike" name_zh="英勇打击">
-        variable "time_remaining_execute" greater 3
-        and resource "Rage" greater 80
+        <en>variable "time_remaining_execute" greater 3
+            and resource "Rage" greater 80</en>
     </cast_if>
 
     <cast_if name="Manual Crowd Pummeler" name_zh="手动惩戒器"/>
 
     <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Jom Gabbar" name_zh="沙虫之毒">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Earthstrike" name_zh="大地之击">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Diamond Flask" name_zh="钻石水瓶">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Cloudkeeper Legplates" name_zh="踏云腿甲">
-        buff_duration "Death Wish" is true
+        <en>buff_duration "Death Wish" is true</en>
+        <zh>buff_duration "死亡之愿" is true</zh>
     </cast_if>
 
     <cast_if name="Death Wish" name_zh="死亡之愿">
-        variable "time_remaining_encounter" less 33
-        or variable "time_remaining_execute" less 3
-        or variable "time_remaining_execute" greater 180
+        <en>variable "time_remaining_encounter" less 33
+            or variable "time_remaining_execute" less 3
+            or variable "time_remaining_execute" greater 180</en>
     </cast_if>
 
     <cast_if name="Recklessness" name_zh="鲁莽">
-        variable "time_remaining_execute" less 0
-        or variable "time_remaining_encounter" less 20
+        <en>variable "time_remaining_execute" less 0
+            or variable "time_remaining_encounter" less 20</en>
     </cast_if>
 
     <cast_if name="Blood Fury" name_zh="血性狂暴（种族特长）">
-        variable "time_remaining_execute" less 0
-        and resource "Rage" less 50
-        or variable "time_remaining_execute" greater 120
+        <en>variable "time_remaining_execute" less 0
+            and resource "Rage" less 50
+            or variable "time_remaining_execute" greater 120</en>
     </cast_if>
 
     <cast_if name="Berserking" name_zh="狂暴">
-        variable "time_remaining_execute" less 0
-        and resource "Rage" less 50
-        or variable "time_remaining_execute" greater 180
+        <en>variable "time_remaining_execute" less 0
+            and resource "Rage" less 50
+            or variable "time_remaining_execute" greater 180</en>
     </cast_if>
 
     <!-- Always cast Execute if available, unless melee AP is > 2000 and BT soon off cd. -->
     <cast_if name="Execute" name_zh="斩杀">
-        variable "melee_ap" leq 2000
-        or spell "Bloodthirst" greater 1.0
+        <en>variable "melee_ap" leq 2000
+            or spell "Bloodthirst" greater 1.0</en>
+        <zh>variable "melee_ap" leq 2000
+            or spell "嗜血" greater 1.0</zh>
     </cast_if>
 
     <!-- Always cast Bloodthirst if above 2k AP, or not in Execute range -->
     <cast_if name="Bloodthirst" name_zh="嗜血">
-        variable "time_remaining_execute" greater 0
-        or variable "melee_ap" greater 2000
+        <en>variable "time_remaining_execute" greater 0
+            or variable "melee_ap" greater 2000</en>
     </cast_if>
 
     <!-- Whirlwind only if Bloodthirst on cooldown and not in Execute phase. -->
     <cast_if name="Whirlwind" name_zh="旋风斩">
-        spell "Bloodthirst" greater 1.5
-        and variable "time_remaining_execute" greater 0
+        <en>spell "Bloodthirst" greater 1.5
+            and variable "time_remaining_execute" greater 0</en>
+        <zh>spell "嗜血" greater 1.5
+            and variable "time_remaining_execute" greater 0</zh>
     </cast_if>
 
     <cast_if name="Hamstring" name_zh="断筋">
-        spell "Bloodthirst" greater 1.5
-        and variable "time_remaining_execute" greater 0
+        <en>spell "Bloodthirst" greater 1.5
+            and variable "time_remaining_execute" greater 0</en>
+        <zh>spell "嗜血" greater 1.5
+            and variable "time_remaining_execute" greater 0</zh>
     </cast_if>
 
     <!-- Always cast Overpower if available. The implied condition checks that player is in correct stance, Overpower is active, etc. -->
@@ -113,13 +131,18 @@
 
     <!-- Switch to Battle Stance -->
     <cast_if name="Battle Stance" name_zh="战斗姿态">
-        variable "time_remaining_execute" greater 5
-        and buff_duration "Overpower" greater 2
-        and spell "Bloodthirst" greater 3
+        <en>variable "time_remaining_execute" greater 5
+            and buff_duration "Overpower" greater 2
+            and spell "Bloodthirst" greater 3</en>
+        <zh>variable "time_remaining_execute" greater 5
+            and buff_duration "压制" greater 2
+            and spell "嗜血" greater 3</zh>
     </cast_if>
 
     <cast_if name="Berserker Stance" name_zh="狂暴姿态">
-        variable "time_remaining_execute" less 0
-        or buff_duration "Overpower" is false
+        <en>variable "time_remaining_execute" less 0
+            or buff_duration "Overpower" is false</en>
+        <zh>variable "time_remaining_execute" less 0
+            or buff_duration "压制" is false</zh>
     </cast_if>
 </rotation>

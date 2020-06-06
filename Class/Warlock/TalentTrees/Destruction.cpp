@@ -101,7 +101,7 @@ void Destruction::add_improved_shadow_bolt(QMap<QString, Talent*>& talent_tier) 
         = get_new_talent(warlock, QObject::tr("Improved Shadow Bolt"), "1ML", "Assets/spell/Spell_shadow_shadowbolt.png", 5,
                          QObject::tr("Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by %1% until 4 non-periodic damage sources "
                          "are applied.  Effect lasts a maximum of 12 sec."),
-                         QVector<QPair<unsigned, unsigned>> {{4, 4}}, QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name("Shadow Bolt")});
+                         QVector<QPair<unsigned, unsigned>> {{4, 4}}, QVector<SpellRankGroup*> {spells->get_spell_rank_group_by_name(QObject::tr("Shadow Bolt"))});
 
     add_talent_to_tier(talent_tier, talent);
 }

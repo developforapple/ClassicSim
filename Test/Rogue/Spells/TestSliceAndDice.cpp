@@ -8,7 +8,7 @@
 #include "SliceAndDice.h"
 #include "SpellRankGroup.h"
 
-TestSliceAndDice::TestSliceAndDice(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Slice and Dice") {}
+TestSliceAndDice::TestSliceAndDice(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Slice and Dice")) {}
 
 void TestSliceAndDice::test_all() {
     run_mandatory_tests();
@@ -55,11 +55,11 @@ void TestSliceAndDice::test_all() {
 }
 
 SliceAndDice* TestSliceAndDice::slice_and_dice() const {
-    return static_cast<SliceAndDice*>(rogue->get_spells()->get_spell_rank_group_by_name("Slice and Dice")->get_max_available_spell_rank());
+    return static_cast<SliceAndDice*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Slice and Dice"))->get_max_available_spell_rank());
 }
 
 void TestSliceAndDice::test_name_correct() {
-    assert(slice_and_dice()->get_name() == "Slice and Dice");
+    assert(slice_and_dice()->get_name() == QObject::tr("Slice and Dice"));
 }
 
 void TestSliceAndDice::test_spell_cooldown() {
@@ -247,7 +247,7 @@ void TestSliceAndDice::test_duration_and_attack_speed_with_5_combo_points() {
 
 void TestSliceAndDice::test_duration_and_attack_speed_with_5_combo_points_and_1_of_3_imp_snd() {
     given_event_is_ignored(EventType::PlayerAction);
-    given_assassination_talent_rank("Improved Slice And Dice", 1);
+    given_assassination_talent_rank(QObject::tr("Improved Slice And Dice"), 1);
     given_a_mainhand_weapon_with_2_speed();
     given_rogue_has_combo_points(5);
     rogue->get_spells()->start_attack();
@@ -263,7 +263,7 @@ void TestSliceAndDice::test_duration_and_attack_speed_with_5_combo_points_and_1_
 
 void TestSliceAndDice::test_duration_and_attack_speed_with_5_combo_points_and_2_of_3_imp_snd() {
     given_event_is_ignored(EventType::PlayerAction);
-    given_assassination_talent_rank("Improved Slice And Dice", 2);
+    given_assassination_talent_rank(QObject::tr("Improved Slice And Dice"), 2);
     given_a_mainhand_weapon_with_2_speed();
     given_rogue_has_combo_points(5);
     rogue->get_spells()->start_attack();
@@ -279,7 +279,7 @@ void TestSliceAndDice::test_duration_and_attack_speed_with_5_combo_points_and_2_
 
 void TestSliceAndDice::test_duration_and_attack_speed_with_5_combo_points_and_3_of_3_imp_snd() {
     given_event_is_ignored(EventType::PlayerAction);
-    given_assassination_talent_rank("Improved Slice And Dice", 3);
+    given_assassination_talent_rank(QObject::tr("Improved Slice And Dice"), 3);
     given_a_mainhand_weapon_with_2_speed();
     given_rogue_has_combo_points(5);
     rogue->get_spells()->start_attack();

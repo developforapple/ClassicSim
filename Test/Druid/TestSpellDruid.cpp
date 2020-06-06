@@ -50,43 +50,43 @@ void TestSpellDruid::tear_down() {
 void TestSpellDruid::run_class_specific_tests() {}
 
 Wrath* TestSpellDruid::wrath() const {
-    return static_cast<Wrath*>(get_max_rank_spell_by_name("Wrath"));
+    return static_cast<Wrath*>(get_max_rank_spell_by_name(QObject::tr("Wrath")));
 }
 
 Moonfire* TestSpellDruid::moonfire() const {
-    return static_cast<Moonfire*>(get_max_rank_spell_by_name("Moonfire"));
+    return static_cast<Moonfire*>(get_max_rank_spell_by_name(QObject::tr("Moonfire")));
 }
 
 Starfire* TestSpellDruid::starfire() const {
-    return static_cast<Starfire*>(get_max_rank_spell_by_name("Starfire"));
+    return static_cast<Starfire*>(get_max_rank_spell_by_name(QObject::tr("Starfire")));
 }
 
 MoonkinForm* TestSpellDruid::moonkin_form() const {
-    return static_cast<MoonkinForm*>(get_max_rank_spell_by_name("Moonkin Form"));
+    return static_cast<MoonkinForm*>(get_max_rank_spell_by_name(QObject::tr("Moonkin Form")));
 }
 
 CatForm* TestSpellDruid::cat_form() const {
-    return static_cast<CatForm*>(get_max_rank_spell_by_name("Cat Form"));
+    return static_cast<CatForm*>(get_max_rank_spell_by_name(QObject::tr("Cat Form")));
 }
 
 BearForm* TestSpellDruid::bear_form() const {
-    return static_cast<BearForm*>(get_max_rank_spell_by_name("Bear Form"));
+    return static_cast<BearForm*>(get_max_rank_spell_by_name(QObject::tr("Bear Form")));
 }
 
 Shred* TestSpellDruid::shred() const {
-    return static_cast<Shred*>(get_max_rank_spell_by_name("Shred"));
+    return static_cast<Shred*>(get_max_rank_spell_by_name(QObject::tr("Shred")));
 }
 
 Swipe* TestSpellDruid::swipe() const {
-    return static_cast<Swipe*>(get_max_rank_spell_by_name("Swipe"));
+    return static_cast<Swipe*>(get_max_rank_spell_by_name(QObject::tr("Swipe")));
 }
 
 Maul* TestSpellDruid::maul() const {
-    return static_cast<Maul*>(get_max_rank_spell_by_name("Maul"));
+    return static_cast<Maul*>(get_max_rank_spell_by_name(QObject::tr("Maul")));
 }
 
 FerociousBite* TestSpellDruid::ferocious_bite() const {
-    return static_cast<FerociousBite*>(get_max_rank_spell_by_name("Ferocious Bite"));
+    return static_cast<FerociousBite*>(get_max_rank_spell_by_name(QObject::tr("Ferocious Bite")));
 }
 
 void TestSpellDruid::given_balance_talent_rank(const QString& talent_name, const unsigned num) {

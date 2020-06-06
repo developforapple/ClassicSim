@@ -9,7 +9,7 @@
 #include "SpellRankGroup.h"
 #include "Talent.h"
 
-TestEviscerate::TestEviscerate(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Eviscerate") {}
+TestEviscerate::TestEviscerate(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Eviscerate")) {}
 
 void TestEviscerate::test_all() {
     run_mandatory_tests();
@@ -120,11 +120,11 @@ void TestEviscerate::test_all() {
 }
 
 Eviscerate* TestEviscerate::eviscerate() const {
-    return static_cast<Eviscerate*>(rogue->get_spells()->get_spell_rank_group_by_name("Eviscerate")->get_max_available_spell_rank());
+    return static_cast<Eviscerate*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Eviscerate"))->get_max_available_spell_rank());
 }
 
 void TestEviscerate::test_name_correct() {
-    assert(eviscerate()->get_name() == "Eviscerate");
+    assert(eviscerate()->get_name() == QObject::tr("Eviscerate"));
 }
 
 void TestEviscerate::test_spell_cooldown() {
@@ -386,7 +386,7 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_1_of_3_imp_evisc() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_assassination_talent_rank("Improved Eviscerate", 1);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 1);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -402,7 +402,7 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_1_of_3_imp_evisc() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_assassination_talent_rank("Improved Eviscerate", 1);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 1);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -418,7 +418,7 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_2_of_3_imp_evisc() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_assassination_talent_rank("Improved Eviscerate", 2);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 2);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -434,7 +434,7 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_2_of_3_imp_evisc() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_assassination_talent_rank("Improved Eviscerate", 2);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 2);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -450,7 +450,7 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_3_of_3_imp_evisc() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_assassination_talent_rank("Improved Eviscerate", 3);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 3);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -466,7 +466,7 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_3_of_3_imp_evisc() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_assassination_talent_rank("Improved Eviscerate", 3);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 3);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -482,7 +482,7 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_1_of_3_aggression() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 1);
+    given_combat_talent_rank(QObject::tr("Aggression"), 1);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -498,7 +498,7 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_1_of_3_aggression() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 1);
+    given_combat_talent_rank(QObject::tr("Aggression"), 1);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -514,7 +514,7 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_2_of_3_aggression() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 2);
+    given_combat_talent_rank(QObject::tr("Aggression"), 2);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -530,7 +530,7 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_2_of_3_aggression() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 2);
+    given_combat_talent_rank(QObject::tr("Aggression"), 2);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -546,7 +546,7 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_3_of_3_aggression() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 3);
+    given_combat_talent_rank(QObject::tr("Aggression"), 3);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -562,7 +562,7 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_3_of_3_aggression() {
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 3);
+    given_combat_talent_rank(QObject::tr("Aggression"), 3);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -579,8 +579,8 @@ void TestEviscerate::test_hit_dmg_5_combo_points_with_3_of_3_imp_evisc_and_3_of_
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_hit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 3);
-    given_assassination_talent_rank("Improved Eviscerate", 3);
+    given_combat_talent_rank(QObject::tr("Aggression"), 3);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 3);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -597,8 +597,8 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_3_of_3_imp_evisc_and_3_of
     given_a_mainhand_dagger_with_100_min_max_dmg();
     given_a_guaranteed_melee_ability_crit();
     given_1000_melee_ap();
-    given_combat_talent_rank("Aggression", 3);
-    given_assassination_talent_rank("Improved Eviscerate", 3);
+    given_combat_talent_rank(QObject::tr("Aggression"), 3);
+    given_assassination_talent_rank(QObject::tr("Improved Eviscerate"), 3);
     given_no_previous_damage_dealt();
     given_rogue_has_combo_points(5);
 
@@ -612,23 +612,23 @@ void TestEviscerate::test_crit_dmg_5_combo_points_with_3_of_3_imp_evisc_and_3_of
 void TestEviscerate::given_5_pc_deathdealer() {
     pchar->get_equipment()->set_chest(21364);
     assert(pchar->get_equipment()->get_chest() != nullptr);
-    assert(pchar->get_equipment()->get_chest()->name == "Deathdealer's Vest");
+    assert(pchar->get_equipment()->get_chest()->name == QObject::tr("Deathdealer's Vest"));
 
     pchar->get_equipment()->set_boots(21359);
     assert(pchar->get_equipment()->get_boots() != nullptr);
-    assert(pchar->get_equipment()->get_boots()->name == "Deathdealer's Boots");
+    assert(pchar->get_equipment()->get_boots()->name == QObject::tr("Deathdealer's Boots"));
 
     pchar->get_equipment()->set_head(21360);
     assert(pchar->get_equipment()->get_head() != nullptr);
-    assert(pchar->get_equipment()->get_head()->name == "Deathdealer's Helm");
+    assert(pchar->get_equipment()->get_head()->name == QObject::tr("Deathdealer's Helm"));
 
     pchar->get_equipment()->set_shoulders(21361);
     assert(pchar->get_equipment()->get_shoulders() != nullptr);
-    assert(pchar->get_equipment()->get_shoulders()->name == "Deathdealer's Spaulders");
+    assert(pchar->get_equipment()->get_shoulders()->name == QObject::tr("Deathdealer's Spaulders"));
 
     pchar->get_equipment()->set_legs(21362);
     assert(pchar->get_equipment()->get_legs() != nullptr);
-    assert(pchar->get_equipment()->get_legs()->name == "Deathdealer's Leggings");
+    assert(pchar->get_equipment()->get_legs()->name == QObject::tr("Deathdealer's Leggings"));
 }
 
 void TestEviscerate::when_eviscerate_is_performed() {

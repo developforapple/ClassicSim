@@ -286,12 +286,12 @@ void TestCharacterStats::test_crit_dmg_mod_affected_by_creature_type() {
     assert(almost_equal(cstats->get_ranged_ability_crit_dmg_mod(), 2.0));
 
     cstats->increase_crit_dmg_vs_type(Target::CreatureType::Dragonkin, 1);
-    pchar->get_target()->set_creature_type("Humanoid");
+    pchar->get_target()->set_creature_type(QObject::tr("Humanoid"));
     assert(almost_equal(cstats->get_melee_ability_crit_dmg_mod(), 2.0));
     assert(almost_equal(cstats->get_spell_crit_dmg_mod(), 1.5));
     assert(almost_equal(cstats->get_ranged_ability_crit_dmg_mod(), 2.0));
 
-    pchar->get_target()->set_creature_type("Dragonkin");
+    pchar->get_target()->set_creature_type(QObject::tr("Dragonkin"));
     assert(almost_equal(cstats->get_melee_ability_crit_dmg_mod(), 2.01));
     assert(almost_equal(cstats->get_spell_crit_dmg_mod(), 1.51));
     assert(almost_equal(cstats->get_ranged_ability_crit_dmg_mod(), 2.01));
@@ -396,7 +396,7 @@ void TestCharacterStats::test_spell_damage_includes_relevant_sources() {
 }
 
 void TestCharacterStats::test_magic_damage_includes_target_mods() {
-    pchar->get_target()->set_creature_type("Undead");
+    pchar->get_target()->set_creature_type(QObject::tr("Undead"));
     assert(pchar->get_target()->get_creature_type() == Target::CreatureType::Undead);
     assert(almost_equal(cstats->get_magic_school_damage_mod(MagicSchool::Holy), 1.0));
 

@@ -52,7 +52,7 @@ void TestMainhandAttackPaladin::test_all() {
 }
 
 void TestMainhandAttackPaladin::test_name_correct() {
-    assert(mh_attack()->get_name() == "Mainhand Attack");
+    assert(mh_attack()->get_name() == QObject::tr("Mainhand Attack"));
 }
 
 void TestMainhandAttackPaladin::test_spell_cooldown() {

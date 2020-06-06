@@ -1,52 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Paladin" name="Seal of Command" name_zh="å‘½ä»¤åœ£å°" attack_mode="melee">
+<rotation class="Paladin" name="Seal of Command" name_zh="ÃüÁîÊ¥Ó¡" attack_mode="melee">
     <description>
         <en>A rotation using Seal of Command as the main seal.</en>
-        <zh>å‘½ä»¤åœ£å°ä½œä¸ºä¸»åœ£å°çš„è¾“å‡ºå¾ªç¯</zh>
+        <zh>ÃüÁîÊ¥Ó¡×÷ÎªÖ÷Ê¥Ó¡µÄÊä³öÑ­»·</zh>
     </description>
 
     <precombat_actions>
-        <spell name="Sanctity Aura" name_zh="åœ£æ´å…‰ç¯"/>
-        <spell name="Seal of the Crusader" name_zh="åå­—å†›åœ£å°"/>
+        <spell name="Sanctity Aura" name_zh="Ê¥½à¹â»·"/>
+        <spell name="Seal of the Crusader" name_zh="Ê®×Ö¾üÊ¥Ó¡"/>
     </precombat_actions>
 
-    <cast_if name="Judgement" name_zh="å®¡åˆ¤">
-        buff_duration "Judgement of the Crusader" less 3
-        and buff_duration "Seal of the Crusader" greater 0
+    <cast_if name="Judgement" name_zh="ÉóÅĞ">
+        <en>buff_duration "Judgement of the Crusader" less 3
+            and buff_duration "Seal of the Crusader" greater 0</en>
+        <zh>buff_duration "Ê®×Ö¾üÉóÅĞ" less 3
+            and buff_duration "Ê®×Ö¾üÊ¥Ó¡" greater 0</zh>
     </cast_if>
 
-    <cast_if name="Judgement" name_zh="å®¡åˆ¤">
-        buff_duration "Seal of Command" greater 0
-        and resource "Mana" greater 200
+    <cast_if name="Judgement" name_zh="ÉóÅĞ">
+        <en>buff_duration "Seal of Command" greater 0
+            and resource "Mana" greater 200</en>
+        <zh>buff_duration "ÃüÁîÊ¥Ó¡" greater 0
+            and resource "Mana" greater 200</zh>
     </cast_if>
 
-    <cast_if name="Seal of Command" name_zh="å‘½ä»¤åœ£å°">
-        buff_duration "Judgement of the Crusader" greater 3
-        and buff_duration "Seal of Command" less 3
+    <cast_if name="Seal of Command" name_zh="ÃüÁîÊ¥Ó¡">
+        <en>buff_duration "Judgement of the Crusader" greater 3
+            and buff_duration "Seal of Command" less 3</en>
+        <zh>buff_duration "Ê®×Ö¾üÉóÅĞ" greater 3
+            and buff_duration "ÃüÁîÊ¥Ó¡" less 3</zh>
     </cast_if>
 
-    <cast_if name="Seal of the Crusader" name_zh="åå­—å†›åœ£å°">
-        buff_duration "Judgement of the Crusader" less 3
+    <cast_if name="Seal of the Crusader" name_zh="Ê®×Ö¾üÊ¥Ó¡">
+        <en>buff_duration "Judgement of the Crusader" less 3</en>
+        <zh>buff_duration "Ê®×Ö¾üÉóÅĞ" less 3</zh>
     </cast_if>
 
-    <cast_if name="Consecration" name_zh="å¥‰çŒ®">
-        buff_duration "Vengeance" greater 0
+    <cast_if name="Consecration" name_zh="·îÏ×">
+        <en>buff_duration "Vengeance" greater 0</en>
+        <zh>buff_duration "¸´³ğ" greater 0</zh>
     </cast_if>
 
-    <cast_if name="Consecration" rank="1" name_zh="å¥‰çŒ®"/>
+    <cast_if name="Consecration" rank="1" name_zh="·îÏ×"/>
 
-    <cast_if name="Manual Crowd Pummeler" name_zh="æ‰‹åŠ¨æƒ©æˆ’å™¨"/>
-    <cast_if name="Scrolls of Blinding Light" name_zh="ç›²ç›®å…‰èŠ’å·è½´"/>
-    <cast_if name="Kiss of the Spider" name_zh="èœ˜è››ä¹‹å»"/>
-    <cast_if name="Jom Gabbar" name_zh="æ²™è™«ä¹‹æ¯’"/>
-    <cast_if name="Badge of the Swarmguard" name_zh="è™«ç¾¤å«å£«å¾½ç« "/>
-    <cast_if name="Slayer's Crest" name_zh="å± é¾™è€…çš„çº¹ç« "/>
-    <cast_if name="Earthstrike" name_zh="å¤§åœ°ä¹‹å‡»"/>
-    <cast_if name="Zandalarian Hero Medallion" name_zh="èµè¾¾æ‹‰è‹±é›„å‹‹ç« "/>
-    <cast_if name="Sanctified Orb" name_zh="ç¥åœ£å®ç "/>
-    <cast_if name="Cloudkeeper Legplates" name_zh="è¸äº‘è…¿ç”²"/>
+    <cast_if name="Manual Crowd Pummeler" name_zh="ÊÖ¶¯³Í½äÆ÷"/>
+    <cast_if name="Scrolls of Blinding Light" name_zh="Ã¤Ä¿¹âÃ¢¾íÖá"/>
+    <cast_if name="Kiss of the Spider" name_zh="Ö©ÖëÖ®ÎÇ"/>
+    <cast_if name="Jom Gabbar" name_zh="É³³æÖ®¶¾"/>
+    <cast_if name="Badge of the Swarmguard" name_zh="³æÈºÎÀÊ¿»ÕÕÂ"/>
+    <cast_if name="Slayer's Crest" name_zh="ÍÀÁúÕßµÄÎÆÕÂ"/>
+    <cast_if name="Earthstrike" name_zh="´óµØÖ®»÷"/>
+    <cast_if name="Zandalarian Hero Medallion" name_zh="ÔŞ´ïÀ­Ó¢ĞÛÑ«ÕÂ"/>
+    <cast_if name="Sanctified Orb" name_zh="ÉñÊ¥±¦Öé"/>
+    <cast_if name="Cloudkeeper Legplates" name_zh="Ì¤ÔÆÍÈ¼×"/>
 
-    <cast_if name="Mana Potion" name_zh="æ³•åŠ›è¯æ°´"/>
-    <cast_if name="Demonic Rune" name_zh="æ¶é­”ç¬¦æ–‡"/>
-    <cast_if name="Night Dragon's Breath" name_zh="å¤œé¾™ä¹‹æ¯"/>
+    <cast_if name="Mana Potion" name_zh="·¨Á¦Ò©Ë®"/>
+    <cast_if name="Demonic Rune" name_zh="¶ñÄ§·ûÎÄ"/>
+    <cast_if name="Night Dragon's Breath" name_zh="Ò¹ÁúÖ®Ï¢"/>
 </rotation>

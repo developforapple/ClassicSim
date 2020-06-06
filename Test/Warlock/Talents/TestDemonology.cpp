@@ -24,47 +24,47 @@ void TestDemonology::tear_down() {
 }
 
 void TestDemonology::test_spending_talent_points() {
-    assert(increment("Improved Healthstone", 2));
-    assert(increment("Improved Imp", 3));
-    assert(increment("Demonic Embrace", 5));
-    assert(increment("Improved Health Funnel", 2));
-    assert(increment("Fel Intellect", 5));
-    assert(increment("Improved Succubus", 3));
-    assert(increment("Fel Stamina", 5));
-    assert(increment("Improved Enslave Demon", 5));
+    assert(increment(QObject::tr("Improved Healthstone"), 2));
+    assert(increment(QObject::tr("Improved Imp"), 3));
+    assert(increment(QObject::tr("Demonic Embrace"), 5));
+    assert(increment(QObject::tr("Improved Health Funnel"), 2));
+    assert(increment(QObject::tr("Fel Intellect"), 5));
+    assert(increment(QObject::tr("Improved Succubus"), 3));
+    assert(increment(QObject::tr("Fel Stamina"), 5));
+    assert(increment(QObject::tr("Improved Enslave Demon"), 5));
     assert(tree_has_points(30));
 
     // Assert cannot spend points into Soul Link if 1/1 Demonic Sacrifice is missing
-    assert(!increment("Soul Link"));
-    assert(increment("Demonic Sacrifice"));
-    assert(increment("Soul Link"));
+    assert(!increment(QObject::tr("Soul Link")));
+    assert(increment(QObject::tr("Demonic Sacrifice")));
+    assert(increment(QObject::tr("Soul Link")));
 
     // Assert cannot remove points from Demonic Sacrifice once points are spent in Soul Link
-    assert(!decrement("Demonic Sacrifice"));
-    assert(decrement("Soul Link"));
-    assert(decrement("Demonic Sacrifice"));
+    assert(!decrement(QObject::tr("Demonic Sacrifice")));
+    assert(decrement(QObject::tr("Soul Link")));
+    assert(decrement(QObject::tr("Demonic Sacrifice")));
     assert(tree_has_points(30));
 
     // Assert cannot spend points into Master Demonologist if 5/5 Unholy Power is missing
-    assert(!increment("Master Demonologist"));
-    assert(increment("Unholy Power", 4));
-    assert(!increment("Master Demonologist"));
-    assert(increment("Unholy Power"));
-    assert(increment("Master Demonologist"));
+    assert(!increment(QObject::tr("Master Demonologist")));
+    assert(increment(QObject::tr("Unholy Power"), 4));
+    assert(!increment(QObject::tr("Master Demonologist")));
+    assert(increment(QObject::tr("Unholy Power")));
+    assert(increment(QObject::tr("Master Demonologist")));
 
     // Assert cannot remove points from Unholy Power once points are spent in Master Demonologist
-    assert(!decrement("Unholy Power"));
-    assert(decrement("Master Demonologist"));
-    assert(decrement("Unholy Power"));
+    assert(!decrement(QObject::tr("Unholy Power")));
+    assert(decrement(QObject::tr("Master Demonologist")));
+    assert(decrement(QObject::tr("Unholy Power")));
 
     // Assert cannot increment Master Summoner without Fel Domination
-    assert(!increment("Master Summoner"));
-    assert(increment("Fel Domination"));
-    assert(increment("Master Summoner"));
+    assert(!increment(QObject::tr("Master Summoner")));
+    assert(increment(QObject::tr("Fel Domination")));
+    assert(increment(QObject::tr("Master Summoner")));
 
-    assert(!decrement("Fel Domination"));
-    assert(decrement("Master Summoner"));
-    assert(decrement("Fel Domination"));
+    assert(!decrement(QObject::tr("Fel Domination")));
+    assert(decrement(QObject::tr("Master Summoner")));
+    assert(decrement(QObject::tr("Fel Domination")));
 }
 
 void TestDemonology::test_clearing_tree_after_filling() {
@@ -92,21 +92,21 @@ void TestDemonology::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestDemonology::spec_demonology() {
-    assert(increment("Improved Healthstone", 2));
-    assert(increment("Improved Imp", 3));
-    assert(increment("Demonic Embrace", 5));
-    assert(increment("Improved Health Funnel", 2));
-    assert(increment("Improved Voidwalker", 3));
-    assert(increment("Fel Intellect", 5));
-    assert(increment("Improved Succubus", 3));
-    assert(increment("Fel Domination", 1));
-    assert(increment("Fel Stamina", 5));
-    assert(increment("Master Summoner", 2));
-    assert(increment("Unholy Power", 5));
-    assert(increment("Improved Enslave Demon", 5));
-    assert(increment("Demonic Sacrifice", 1));
-    assert(increment("Improved Firestone", 2));
-    assert(increment("Master Demonologist", 5));
-    assert(increment("Soul Link", 1));
-    assert(increment("Improved Spellstone", 1));
+    assert(increment(QObject::tr("Improved Healthstone"), 2));
+    assert(increment(QObject::tr("Improved Imp"), 3));
+    assert(increment(QObject::tr("Demonic Embrace"), 5));
+    assert(increment(QObject::tr("Improved Health Funnel"), 2));
+    assert(increment(QObject::tr("Improved Voidwalker"), 3));
+    assert(increment(QObject::tr("Fel Intellect"), 5));
+    assert(increment(QObject::tr("Improved Succubus"), 3));
+    assert(increment(QObject::tr("Fel Domination"), 1));
+    assert(increment(QObject::tr("Fel Stamina"), 5));
+    assert(increment(QObject::tr("Master Summoner"), 2));
+    assert(increment(QObject::tr("Unholy Power"), 5));
+    assert(increment(QObject::tr("Improved Enslave Demon"), 5));
+    assert(increment(QObject::tr("Demonic Sacrifice"), 1));
+    assert(increment(QObject::tr("Improved Firestone"), 2));
+    assert(increment(QObject::tr("Master Demonologist"), 5));
+    assert(increment(QObject::tr("Soul Link"), 1));
+    assert(increment(QObject::tr("Improved Spellstone"), 1));
 }

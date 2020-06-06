@@ -7,7 +7,7 @@
 #include "LightningBolt.h"
 #include "Shaman.h"
 
-TestLightningBolt::TestLightningBolt(EquipmentDb* equipment_db) : TestSpellShaman(equipment_db, "Lightning Bolt") {}
+TestLightningBolt::TestLightningBolt(EquipmentDb* equipment_db) : TestSpellShaman(equipment_db, QObject::tr("Lightning Bolt")) {}
 
 void TestLightningBolt::test_all() {
     run_mandatory_tests();
@@ -26,7 +26,7 @@ void TestLightningBolt::test_all() {
 }
 
 void TestLightningBolt::test_name_correct() {
-    assert(lightning_bolt()->get_name() == "Lightning Bolt");
+    assert(lightning_bolt()->get_name() == QObject::tr("Lightning Bolt"));
 }
 
 void TestLightningBolt::test_spell_cooldown() {

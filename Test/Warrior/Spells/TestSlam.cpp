@@ -11,7 +11,7 @@
 #include "Slam.h"
 #include "Talent.h"
 
-TestSlam::TestSlam(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Slam") {}
+TestSlam::TestSlam(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Slam")) {}
 
 void TestSlam::test_all() {
     run_mandatory_tests();
@@ -70,7 +70,7 @@ Slam* TestSlam::slam() const {
 }
 
 void TestSlam::test_name_correct() {
-    assert(slam()->get_name() == "Slam");
+    assert(slam()->get_name() == QObject::tr("Slam"));
 }
 
 void TestSlam::test_spell_cooldown() {
@@ -79,7 +79,7 @@ void TestSlam::test_spell_cooldown() {
 }
 
 void TestSlam::test_whether_spell_causes_global_cooldown() {
-    given_fury_talent_with_rank("Improved Slam", 1);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 1);
 
     slam()->perform();
 
@@ -211,37 +211,37 @@ void TestSlam::test_cast_time_with_0_of_5_improved_slam() {
 }
 
 void TestSlam::test_cast_time_with_1_of_5_improved_slam() {
-    given_fury_talent_with_rank("Improved Slam", 1);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 1);
 
     assert(almost_equal(slam()->get_cast_time(), 1.4));
 }
 
 void TestSlam::test_cast_time_with_2_of_5_improved_slam() {
-    given_fury_talent_with_rank("Improved Slam", 2);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 2);
 
     assert(almost_equal(slam()->get_cast_time(), 1.3));
 }
 
 void TestSlam::test_cast_time_with_3_of_5_improved_slam() {
-    given_fury_talent_with_rank("Improved Slam", 3);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 3);
 
     assert(almost_equal(slam()->get_cast_time(), 1.2));
 }
 
 void TestSlam::test_cast_time_with_4_of_5_improved_slam() {
-    given_fury_talent_with_rank("Improved Slam", 4);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 4);
 
     assert(almost_equal(slam()->get_cast_time(), 1.1));
 }
 
 void TestSlam::test_cast_time_with_5_of_5_improved_slam() {
-    given_fury_talent_with_rank("Improved Slam", 5);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 5);
 
     assert(almost_equal(slam()->get_cast_time(), 1.0));
 }
 
 void TestSlam::test_auto_attacks_cancelled_during_slam_cast() {
-    given_fury_talent_with_rank("Improved Slam", 2);
+    given_fury_talent_with_rank(QObject::tr("Improved Slam"), 2);
     given_a_mainhand_weapon_with_2_speed();
     given_an_offhand_weapon_with_3_speed();
     given_a_guaranteed_white_hit();

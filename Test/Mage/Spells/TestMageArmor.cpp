@@ -10,7 +10,7 @@
 #include "Mage.h"
 #include "Mana.h"
 
-TestMageArmor::TestMageArmor(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, "Mage Armor") {}
+TestMageArmor::TestMageArmor(EquipmentDb* equipment_db) : TestSpellMage(equipment_db, QObject::tr("Mage Armor")) {}
 
 void TestMageArmor::test_all() {
     run_mandatory_tests();
@@ -21,7 +21,7 @@ void TestMageArmor::test_all() {
 }
 
 void TestMageArmor::test_name_correct() {
-    assert(mage_armor()->get_name() == "Mage Armor");
+    assert(mage_armor()->get_name() == QObject::tr("Mage Armor"));
 }
 
 void TestMageArmor::test_spell_cooldown() {

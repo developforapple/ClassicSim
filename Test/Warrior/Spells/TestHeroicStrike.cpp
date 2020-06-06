@@ -11,7 +11,7 @@
 #include "Talent.h"
 #include "WarriorSpells.h"
 
-TestHeroicStrike::TestHeroicStrike(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Heroic Strike") {}
+TestHeroicStrike::TestHeroicStrike(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Heroic Strike")) {}
 
 void TestHeroicStrike::test_all() {
     run_mandatory_tests();
@@ -62,7 +62,7 @@ void TestHeroicStrike::test_all() {
 }
 
 void TestHeroicStrike::test_name_correct() {
-    assert(heroic_strike()->get_name() == "Heroic Strike");
+    assert(heroic_strike()->get_name() == QObject::tr("Heroic Strike"));
 }
 
 void TestHeroicStrike::test_spell_cooldown() {
@@ -133,7 +133,7 @@ void TestHeroicStrike::test_3_of_3_improved_hs_reduces_rage_cost() {
 
 void TestHeroicStrike::test_removing_points_in_improved_hs_increases_rage_cost() {
     const auto arms = Arms(warrior);
-    Talent* improved_heroic_strike = arms.get_talent_from_name("Improved Heroic Strike");
+    Talent* improved_heroic_strike = arms.get_talent_from_name(QObject::tr("Improved Heroic Strike"));
 
     assert(improved_heroic_strike->increment_rank());
     assert(improved_heroic_strike->increment_rank());
@@ -246,21 +246,21 @@ void TestHeroicStrike::test_flurry_charges_not_consumed() {
 }
 
 void TestHeroicStrike::given_1_of_3_improved_hs() {
-    given_arms_talent_with_rank("Improved Heroic Strike", 1);
+    given_arms_talent_with_rank(QObject::tr("Improved Heroic Strike"), 1);
 }
 
 void TestHeroicStrike::given_2_of_3_improved_hs() {
-    given_arms_talent_with_rank("Improved Heroic Strike", 2);
+    given_arms_talent_with_rank(QObject::tr("Improved Heroic Strike"), 2);
 }
 
 void TestHeroicStrike::given_3_of_3_improved_hs() {
-    given_arms_talent_with_rank("Improved Heroic Strike", 3);
+    given_arms_talent_with_rank(QObject::tr("Improved Heroic Strike"), 3);
 }
 
 void TestHeroicStrike::given_5_of_5_flurry() {
     const auto fury = Fury(warrior);
-    given_talent_rank(fury, "Enrage", 5);
-    given_talent_rank(fury, "Flurry", 5);
+    given_talent_rank(fury, QObject::tr("Enrage"), 5);
+    given_talent_rank(fury, QObject::tr("Flurry"), 5);
 
     warrior->prepare_set_of_combat_iterations();
 }

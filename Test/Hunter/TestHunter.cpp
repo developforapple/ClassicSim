@@ -62,11 +62,11 @@ void TestHunter::test_quiver_attack_speed_bonus_application() {
 
     hunter->get_equipment()->set_ranged(19361);
     Weapon* wpn = hunter->get_equipment()->get_ranged();
-    assert(wpn->name == "Ashjre'thul, Crossbow of Smiting");
+    assert(wpn->name == QObject::tr("Ashjre'thul, Crossbow of Smiting"));
     assert(almost_equal(3.4, hunter->get_stats()->get_ranged_wpn_speed()));
 
     hunter->get_equipment()->set_quiver(18714);
-    assert(hunter->get_equipment()->get_quiver()->name == "Ancient Sinew Wrapped Lamina");
+    assert(hunter->get_equipment()->get_quiver()->name == QObject::tr("Ancient Sinew Wrapped Lamina"));
     assert(almost_equal(2.95652, hunter->get_stats()->get_ranged_wpn_speed()));
 
     hunter->get_equipment()->clear_quiver();
@@ -85,7 +85,7 @@ void TestHunter::test_quiver_attack_speed_bonus_application() {
     // Check xbow removed when ammo pouch is placed
     assert(hunter->get_equipment()->get_ranged() != nullptr);
     hunter->get_equipment()->set_quiver(19320);
-    assert(hunter->get_equipment()->get_quiver()->name == "Gnoll Skin Bandolier");
+    assert(hunter->get_equipment()->get_quiver()->name == QObject::tr("Gnoll Skin Bandolier"));
     assert(hunter->get_equipment()->get_ranged() == nullptr);
 
     // Check ammo pouch removed when xbow is placed

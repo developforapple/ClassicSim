@@ -17,7 +17,7 @@
 #include "Talent.h"
 #include "Whirlwind.h"
 
-TestDeepWounds::TestDeepWounds(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Deep Wounds") {}
+TestDeepWounds::TestDeepWounds(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Deep Wounds")) {}
 
 void TestDeepWounds::test_all() {
     const bool prepare_combat_iterations = false;
@@ -93,7 +93,7 @@ DeepWounds* TestDeepWounds::deep_wounds() const {
 }
 
 void TestDeepWounds::test_name_correct() {
-    assert(deep_wounds()->get_name() == "Deep Wounds");
+    assert(deep_wounds()->get_name() == QObject::tr("Deep Wounds"));
 }
 
 void TestDeepWounds::test_spell_cooldown() {
@@ -341,30 +341,30 @@ void TestDeepWounds::given_deep_wounds_enabled() {
 
 void TestDeepWounds::given_1_of_3_deep_wounds() {
     const auto arms = Arms(warrior);
-    given_talent_rank(arms, "Improved Rend", 3);
-    given_talent_rank(arms, "Deep Wounds", 1);
+    given_talent_rank(arms, QObject::tr("Improved Rend"), 3);
+    given_talent_rank(arms, QObject::tr("Deep Wounds"), 1);
 
     pchar->prepare_set_of_combat_iterations();
 }
 
 void TestDeepWounds::given_2_of_3_deep_wounds() {
     const auto arms = Arms(warrior);
-    given_talent_rank(arms, "Improved Rend", 3);
-    given_talent_rank(arms, "Deep Wounds", 2);
+    given_talent_rank(arms, QObject::tr("Improved Rend"), 3);
+    given_talent_rank(arms, QObject::tr("Deep Wounds"), 2);
 
     pchar->prepare_set_of_combat_iterations();
 }
 
 void TestDeepWounds::given_3_of_3_deep_wounds() {
     const auto arms = Arms(warrior);
-    given_talent_rank(arms, "Improved Rend", 3);
-    given_talent_rank(arms, "Deep Wounds", 3);
+    given_talent_rank(arms, QObject::tr("Improved Rend"), 3);
+    given_talent_rank(arms, QObject::tr("Deep Wounds"), 3);
 
     pchar->prepare_set_of_combat_iterations();
 }
 
 void TestDeepWounds::given_no_previous_deep_wounds_damage_dealt() {
-    assert(pchar->get_statistics()->get_total_damage_for_spell("Deep Wounds") == 0);
+    assert(pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Deep Wounds")) == 0);
 }
 
 void TestDeepWounds::when_mh_attack_is_performed() {
@@ -395,9 +395,9 @@ void TestDeepWounds::then_deep_wounds_damage_dealt_is(const int damage_dealt) {
         delete event;
     }
 
-    if (pchar->get_statistics()->get_total_damage_for_spell("Deep Wounds") != damage_dealt)
-        qDebug() << "Deep Wounds: expected" << damage_dealt << "got" << pchar->get_statistics()->get_total_damage_for_spell("Deep Wounds");
-    assert(pchar->get_statistics()->get_total_damage_for_spell("Deep Wounds") == damage_dealt);
+    if (pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Deep Wounds")) != damage_dealt)
+        qDebug() << "Deep Wounds: expected" << damage_dealt << "got" << pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Deep Wounds"));
+    assert(pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Deep Wounds")) == damage_dealt);
 }
 
 void TestDeepWounds::then_deep_wounds_is_applied() {
@@ -414,7 +414,7 @@ void TestDeepWounds::then_deep_wounds_is_applied() {
         delete event;
     }
 
-    assert(pchar->get_statistics()->get_total_damage_for_spell("Deep Wounds") > 0);
+    assert(pchar->get_statistics()->get_total_damage_for_spell(QObject::tr("Deep Wounds")) > 0);
 }
 
 void TestDeepWounds::then_deep_wounds_is_not_applied() {

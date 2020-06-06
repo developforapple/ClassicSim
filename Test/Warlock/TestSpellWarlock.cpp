@@ -36,19 +36,19 @@ void TestSpellWarlock::tear_down() {
 }
 
 LifeTap* TestSpellWarlock::life_tap() const {
-    return static_cast<LifeTap*>(get_max_rank_spell_by_name("Life Tap"));
+    return static_cast<LifeTap*>(get_max_rank_spell_by_name(QObject::tr("Life Tap")));
 }
 
 ShadowBolt* TestSpellWarlock::shadow_bolt() const {
-    return static_cast<ShadowBolt*>(get_max_rank_spell_by_name("Shadow Bolt"));
+    return static_cast<ShadowBolt*>(get_max_rank_spell_by_name(QObject::tr("Shadow Bolt")));
 }
 
 void TestSpellWarlock::run_class_specific_tests() {}
 
 void TestSpellWarlock::given_ruin_enabled() {
     auto tree = Destruction(warlock);
-    given_talent_rank(tree, "Devastation", 5);
-    given_talent_rank(tree, "Ruin", 1);
+    given_talent_rank(tree, QObject::tr("Devastation"), 5);
+    given_talent_rank(tree, QObject::tr("Ruin"), 1);
 }
 
 void TestSpellWarlock::given_affliction_talent_rank(const QString& talent_name, const unsigned num) {

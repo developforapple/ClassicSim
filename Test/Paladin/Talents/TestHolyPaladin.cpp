@@ -24,70 +24,70 @@ void TestHolyPaladin::tear_down() {
 }
 
 void TestHolyPaladin::test_spending_talent_points() {
-    assert(!decrement("Divine Intellect"));
+    assert(!decrement(QObject::tr("Divine Intellect")));
 
-    assert(increment("Divine Intellect", 5));
+    assert(increment(QObject::tr("Divine Intellect"), 5));
     // 5 points
-    assert(!increment("Divine Intellect"));
-    assert(decrement("Divine Intellect"));
-    assert(increment("Divine Intellect"));
+    assert(!increment(QObject::tr("Divine Intellect")));
+    assert(decrement(QObject::tr("Divine Intellect")));
+    assert(increment(QObject::tr("Divine Intellect")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Spiritual Focus"));
-    assert(!decrement("Divine Intellect"));
-    assert(increment("Divine Strength"));
-    assert(decrement("Divine Intellect"));
-    assert(!decrement("Divine Intellect"));
-    assert(!decrement("Divine Strength"));
+    assert(increment(QObject::tr("Spiritual Focus")));
+    assert(!decrement(QObject::tr("Divine Intellect")));
+    assert(increment(QObject::tr("Divine Strength")));
+    assert(decrement(QObject::tr("Divine Intellect")));
+    assert(!decrement(QObject::tr("Divine Intellect")));
+    assert(!decrement(QObject::tr("Divine Strength")));
 
-    assert(increment("Divine Intellect"));
-    assert(decrement("Divine Strength"));
-    assert(increment("Spiritual Focus", 4));
+    assert(increment(QObject::tr("Divine Intellect")));
+    assert(decrement(QObject::tr("Divine Strength")));
+    assert(increment(QObject::tr("Spiritual Focus"), 4));
 
     // Assert cannot spend points into Divine Favor if 5/5 Illumination is missing
-    assert(increment("Improved Lay on Hands", 2));
-    assert(increment("Healing Light", 3));
-    assert(increment("Consecration", 1));
-    assert(increment("Unyielding Faith", 2));
-    assert(increment("Improved Blessing of Wisdom", 2));
+    assert(increment(QObject::tr("Improved Lay on Hands"), 2));
+    assert(increment(QObject::tr("Healing Light"), 3));
+    assert(increment(QObject::tr("Consecration"), 1));
+    assert(increment(QObject::tr("Unyielding Faith"), 2));
+    assert(increment(QObject::tr("Improved Blessing of Wisdom"), 2));
     assert(tree_has_points(20));
 
-    assert(!increment("Divine Favor"));
-    assert(increment("Illumination"));
-    assert(!increment("Divine Favor"));
-    assert(increment("Illumination"));
-    assert(!increment("Divine Favor"));
-    assert(increment("Illumination"));
-    assert(!increment("Divine Favor"));
-    assert(increment("Illumination"));
-    assert(!increment("Divine Favor"));
-    assert(increment("Illumination"));
-    assert(increment("Divine Favor"));
+    assert(!increment(QObject::tr("Divine Favor")));
+    assert(increment(QObject::tr("Illumination")));
+    assert(!increment(QObject::tr("Divine Favor")));
+    assert(increment(QObject::tr("Illumination")));
+    assert(!increment(QObject::tr("Divine Favor")));
+    assert(increment(QObject::tr("Illumination")));
+    assert(!increment(QObject::tr("Divine Favor")));
+    assert(increment(QObject::tr("Illumination")));
+    assert(!increment(QObject::tr("Divine Favor")));
+    assert(increment(QObject::tr("Illumination")));
+    assert(increment(QObject::tr("Divine Favor")));
     assert(tree_has_points(26));
 
     // Assert cannot remove points from Illumination once points are spent in Holy Power
-    assert(!decrement("Illumination"));
-    assert(decrement("Divine Favor"));
-    assert(decrement("Illumination"));
+    assert(!decrement(QObject::tr("Illumination")));
+    assert(decrement(QObject::tr("Divine Favor")));
+    assert(decrement(QObject::tr("Illumination")));
 
     // Assert cannot increment Holy Shock without Divine Favor
-    assert(increment("Illumination"));
-    assert(increment("Holy Power", 5));
+    assert(increment(QObject::tr("Illumination")));
+    assert(increment(QObject::tr("Holy Power"), 5));
     assert(tree_has_points(30));
 
-    assert(!increment("Holy Shock"));
-    assert(increment("Divine Favor"));
-    assert(increment("Holy Shock"));
+    assert(!increment(QObject::tr("Holy Shock")));
+    assert(increment(QObject::tr("Divine Favor")));
+    assert(increment(QObject::tr("Holy Shock")));
 
     assert(tree_has_points(32));
     // Assert cannot decrement lower tiers
-    assert(!decrement("Divine Intellect"));
-    assert(!decrement("Spiritual Focus"));
-    assert(decrement("Improved Lay on Hands"));
-    assert(!decrement("Improved Lay on Hands"));
-    assert(!decrement("Improved Blessing of Wisdom"));
-    assert(!decrement("Divine Favor"));
-    assert(!decrement("Holy Power"));
+    assert(!decrement(QObject::tr("Divine Intellect")));
+    assert(!decrement(QObject::tr("Spiritual Focus")));
+    assert(decrement(QObject::tr("Improved Lay on Hands")));
+    assert(!decrement(QObject::tr("Improved Lay on Hands")));
+    assert(!decrement(QObject::tr("Improved Blessing of Wisdom")));
+    assert(!decrement(QObject::tr("Divine Favor")));
+    assert(!decrement(QObject::tr("Holy Power")));
 }
 
 void TestHolyPaladin::test_clearing_tree_after_filling() {
@@ -115,18 +115,18 @@ void TestHolyPaladin::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestHolyPaladin::spec_holy() {
-    assert(increment("Divine Strength", 5));
-    assert(increment("Divine Intellect", 5));
-    assert(increment("Spiritual Focus", 5));
-    assert(increment("Improved Seal of Righteousness", 5));
-    assert(increment("Healing Light", 3));
-    assert(increment("Consecration", 1));
-    assert(increment("Improved Lay on Hands", 2));
-    assert(increment("Unyielding Faith", 2));
-    assert(increment("Illumination", 5));
-    assert(increment("Improved Blessing of Wisdom", 2));
-    assert(increment("Divine Favor", 1));
-    assert(increment("Lasting Judgement", 3));
-    assert(increment("Holy Power", 5));
-    assert(increment("Holy Shock", 1));
+    assert(increment(QObject::tr("Divine Strength"), 5));
+    assert(increment(QObject::tr("Divine Intellect"), 5));
+    assert(increment(QObject::tr("Spiritual Focus"), 5));
+    assert(increment(QObject::tr("Improved Seal of Righteousness"), 5));
+    assert(increment(QObject::tr("Healing Light"), 3));
+    assert(increment(QObject::tr("Consecration"), 1));
+    assert(increment(QObject::tr("Improved Lay on Hands"), 2));
+    assert(increment(QObject::tr("Unyielding Faith"), 2));
+    assert(increment(QObject::tr("Illumination"), 5));
+    assert(increment(QObject::tr("Improved Blessing of Wisdom"), 2));
+    assert(increment(QObject::tr("Divine Favor"), 1));
+    assert(increment(QObject::tr("Lasting Judgement"), 3));
+    assert(increment(QObject::tr("Holy Power"), 5));
+    assert(increment(QObject::tr("Holy Shock"), 1));
 }

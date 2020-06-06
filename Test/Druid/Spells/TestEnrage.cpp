@@ -10,7 +10,7 @@
 #include "Event.h"
 #include "Queue.h"
 
-TestEnrage::TestEnrage(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, "Enrage") {}
+TestEnrage::TestEnrage(EquipmentDb* equipment_db) : TestSpellDruid(equipment_db, QObject::tr("Enrage")) {}
 
 void TestEnrage::test_all() {
     run_mandatory_tests();
@@ -29,11 +29,11 @@ void TestEnrage::test_all() {
 }
 
 Enrage* TestEnrage::enrage() const {
-    return static_cast<Enrage*>(get_max_rank_spell_by_name("Enrage"));
+    return static_cast<Enrage*>(get_max_rank_spell_by_name(QObject::tr("Enrage")));
 }
 
 void TestEnrage::test_name_correct() {
-    assert(enrage()->get_name() == "Enrage");
+    assert(enrage()->get_name() == QObject::tr("Enrage"));
 }
 
 void TestEnrage::test_spell_cooldown() {

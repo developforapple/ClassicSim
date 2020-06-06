@@ -44,27 +44,27 @@ void TestSpellMage::tear_down() {
 }
 
 Fireball* TestSpellMage::fireball() const {
-    return static_cast<Fireball*>(get_max_rank_spell_by_name("Fireball"));
+    return static_cast<Fireball*>(get_max_rank_spell_by_name(QObject::tr("Fireball")));
 }
 
 Scorch* TestSpellMage::scorch() const {
-    return static_cast<Scorch*>(get_max_rank_spell_by_name("Scorch"));
+    return static_cast<Scorch*>(get_max_rank_spell_by_name(QObject::tr("Scorch")));
 }
 
 Frostbolt* TestSpellMage::frostbolt() const {
-    return static_cast<Frostbolt*>(get_max_rank_spell_by_name("Frostbolt"));
+    return static_cast<Frostbolt*>(get_max_rank_spell_by_name(QObject::tr("Frostbolt")));
 }
 
 ArcaneMissiles* TestSpellMage::arcane_missiles() const {
-    return static_cast<ArcaneMissiles*>(get_max_rank_spell_by_name("Arcane Missiles"));
+    return static_cast<ArcaneMissiles*>(get_max_rank_spell_by_name(QObject::tr("Arcane Missiles")));
 }
 
 Evocation* TestSpellMage::evocation() const {
-    return static_cast<Evocation*>(get_max_rank_spell_by_name("Evocation"));
+    return static_cast<Evocation*>(get_max_rank_spell_by_name(QObject::tr("Evocation")));
 }
 
 MageArmor* TestSpellMage::mage_armor() const {
-    return static_cast<MageArmor*>(get_max_rank_spell_by_name("Mage Armor"));
+    return static_cast<MageArmor*>(get_max_rank_spell_by_name(QObject::tr("Mage Armor")));
 }
 
 void TestSpellMage::run_class_specific_tests() {}
@@ -95,13 +95,13 @@ void TestSpellMage::given_mage_is_on_gcd(Spell* spell) {
 
 void TestSpellMage::given_arcane_power_is_active() {
     auto tree = Arcane(mage);
-    given_talent_rank(tree, "Presence of Mind", 1);
-    given_talent_rank(tree, "Arcane Instability", 3);
-    given_talent_rank(tree, "Arcane Power", 1);
+    given_talent_rank(tree, QObject::tr("Presence of Mind"), 1);
+    given_talent_rank(tree, QObject::tr("Arcane Instability"), 3);
+    given_talent_rank(tree, QObject::tr("Arcane Power"), 1);
 
     mage->prepare_set_of_combat_iterations();
 
-    get_max_rank_spell_by_name("Arcane Power")->perform();
+    get_max_rank_spell_by_name(QObject::tr("Arcane Power"))->perform();
 
     const double arcane_instability = 1.03;
     const double arcane_power = 1.3;

@@ -5,7 +5,7 @@
 #include "AutoShot.h"
 #include "Equipment.h"
 
-TestAutoShot::TestAutoShot(EquipmentDb* equipment_db) : TestSpellHunter(equipment_db, "Auto Shot") {}
+TestAutoShot::TestAutoShot(EquipmentDb* equipment_db) : TestSpellHunter(equipment_db, QObject::tr("Auto Shot")) {}
 
 void TestAutoShot::test_all() {
     run_mandatory_tests();
@@ -89,7 +89,7 @@ AutoShot* TestAutoShot::auto_shot() const {
 }
 
 void TestAutoShot::test_name_correct() {
-    assert(auto_shot()->get_name() == "Auto Shot");
+    assert(auto_shot()->get_name() == QObject::tr("Auto Shot"));
 }
 
 void TestAutoShot::test_spell_cooldown() {
@@ -168,7 +168,7 @@ void TestAutoShot::test_hit_dmg_5_of_5_ranged_weapon_specialization() {
     given_a_guaranteed_ranged_white_hit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_marksmanship_talent_rank("Ranged Weapon Specialization", 5);
+    given_marksmanship_talent_rank(QObject::tr("Ranged Weapon Specialization"), 5);
 
     when_auto_shot_is_performed();
 
@@ -198,7 +198,7 @@ void TestAutoShot::test_crit_dmg_1_of_3_monster_slaying() {
     given_a_guaranteed_ranged_white_crit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_survival_talent_rank("Monster Slaying", 1);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 1);
 
     when_auto_shot_is_performed();
 
@@ -214,7 +214,7 @@ void TestAutoShot::test_crit_dmg_2_of_3_monster_slaying() {
     given_a_guaranteed_ranged_white_crit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_survival_talent_rank("Monster Slaying", 2);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 2);
 
     when_auto_shot_is_performed();
 
@@ -230,7 +230,7 @@ void TestAutoShot::test_crit_dmg_3_of_3_monster_slaying() {
     given_a_guaranteed_ranged_white_crit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_survival_talent_rank("Monster Slaying", 3);
+    given_survival_talent_rank(QObject::tr("Monster Slaying"), 3);
 
     when_auto_shot_is_performed();
 
@@ -246,7 +246,7 @@ void TestAutoShot::test_crit_dmg_1_of_3_humanoid_slaying() {
     given_a_guaranteed_ranged_white_crit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_survival_talent_rank("Humanoid Slaying", 1);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 1);
 
     when_auto_shot_is_performed();
 
@@ -262,7 +262,7 @@ void TestAutoShot::test_crit_dmg_2_of_3_humanoid_slaying() {
     given_a_guaranteed_ranged_white_crit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_survival_talent_rank("Humanoid Slaying", 2);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 2);
 
     when_auto_shot_is_performed();
 
@@ -278,7 +278,7 @@ void TestAutoShot::test_crit_dmg_3_of_3_humanoid_slaying() {
     given_a_guaranteed_ranged_white_crit();
     given_1000_ranged_ap();
     given_no_previous_damage_dealt();
-    given_survival_talent_rank("Humanoid Slaying", 3);
+    given_survival_talent_rank(QObject::tr("Humanoid Slaying"), 3);
 
     when_auto_shot_is_performed();
 

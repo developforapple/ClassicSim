@@ -17,7 +17,7 @@
 #include "SpellRankGroup.h"
 #include "Warrior.h"
 
-TestEssenceOfTheRed::TestEssenceOfTheRed(EquipmentDb* _equipment_db) : TestSpell(_equipment_db, "Essence of the Red") {}
+TestEssenceOfTheRed::TestEssenceOfTheRed(EquipmentDb* _equipment_db) : TestSpell(_equipment_db, QObject::tr("Essence of the Red")) {}
 
 void TestEssenceOfTheRed::test_all() {
     qDebug() << spell_under_test;
@@ -39,7 +39,7 @@ void TestEssenceOfTheRed::test_all() {
 }
 
 void TestEssenceOfTheRed::test_name_correct() {
-    assert(essence_of_the_red()->get_name() == "Essence of the Red");
+    assert(essence_of_the_red()->get_name() == QObject::tr("Essence of the Red"));
 }
 
 void TestEssenceOfTheRed::test_hunter_gains_mana_after_combat_start() {
@@ -110,8 +110,8 @@ void TestEssenceOfTheRed::test_warrior_gains_rage_after_combat_start() {
 }
 
 EssenceOfTheRed* TestEssenceOfTheRed::essence_of_the_red() const {
-    assert(pchar->get_spells()->get_spell_rank_group_by_name("Essence of the Red") != nullptr);
-    return static_cast<EssenceOfTheRed*>(pchar->get_spells()->get_spell_rank_group_by_name("Essence of the Red")->get_max_available_spell_rank());
+    assert(pchar->get_spells()->get_spell_rank_group_by_name(QObject::tr("Essence of the Red")) != nullptr);
+    return static_cast<EssenceOfTheRed*>(pchar->get_spells()->get_spell_rank_group_by_name(QObject::tr("Essence of the Red"))->get_max_available_spell_rank());
 }
 
 void TestEssenceOfTheRed::set_up_general() {

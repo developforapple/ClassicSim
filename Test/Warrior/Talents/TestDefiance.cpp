@@ -13,13 +13,13 @@
 #include "TestTalentTree.h"
 #include "WarriorSpells.h"
 
-TestDefiance::TestDefiance(EquipmentDb* equipment_db) : TestBuffWarrior(equipment_db, "Defiance") {}
+TestDefiance::TestDefiance(EquipmentDb* equipment_db) : TestBuffWarrior(equipment_db, QObject::tr("Defiance")) {}
 
 void TestDefiance::set_up() {
     TestBuffWarrior::set_up();
 
-    increment("Anticipation", 5);
-    increment("Toughness", 5);
+    increment(QObject::tr("Anticipation"), 5);
+    increment(QObject::tr("Toughness"), 5);
 }
 
 void TestDefiance::test_all() {
@@ -86,5 +86,5 @@ bool TestDefiance::increment(QString name, int num_times) {
 }
 
 bool TestDefiance::increment_defiance(int num_times) {
-    return increment("Defiance", num_times);
+    return increment(QObject::tr("Defiance"), num_times);
 }

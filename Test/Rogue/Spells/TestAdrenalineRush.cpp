@@ -13,7 +13,7 @@
 #include "Talent.h"
 #include "WarriorSpells.h"
 
-TestAdrenalineRush::TestAdrenalineRush(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, "Adrenaline Rush") {}
+TestAdrenalineRush::TestAdrenalineRush(EquipmentDb* equipment_db) : TestSpellRogue(equipment_db, QObject::tr("Adrenaline Rush")) {}
 
 void TestAdrenalineRush::test_all() {
     run_mandatory_tests(false);
@@ -32,11 +32,11 @@ void TestAdrenalineRush::test_all() {
 }
 
 AdrenalineRush* TestAdrenalineRush::adrenaline_rush() const {
-    return static_cast<AdrenalineRush*>(rogue->get_spells()->get_spell_rank_group_by_name("Adrenaline Rush")->get_max_available_spell_rank());
+    return static_cast<AdrenalineRush*>(rogue->get_spells()->get_spell_rank_group_by_name(QObject::tr("Adrenaline Rush"))->get_max_available_spell_rank());
 }
 
 void TestAdrenalineRush::test_name_correct() {
-    assert(adrenaline_rush()->get_name() == "Adrenaline Rush");
+    assert(adrenaline_rush()->get_name() == QObject::tr("Adrenaline Rush"));
 }
 
 void TestAdrenalineRush::test_spell_cooldown() {
@@ -159,7 +159,7 @@ void TestAdrenalineRush::when_adrenaline_rush_is_performed() {
 }
 
 void TestAdrenalineRush::given_1_of_1_adrenaline_rush() {
-    given_combat_talent_rank("Adrenaline Rush", 1);
+    given_combat_talent_rank(QObject::tr("Adrenaline Rush"), 1);
 
     rogue->prepare_set_of_combat_iterations();
 }

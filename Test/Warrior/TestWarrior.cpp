@@ -86,9 +86,9 @@ void TestWarrior::test_values_after_initialization() {
 
     // Test applying 2x Shadow Oil.
     warr->get_equipment()->set_mainhand(19352);
-    assert(warr->get_equipment()->get_mainhand()->name == "Chromatically Tempered Sword");
+    assert(warr->get_equipment()->get_mainhand()->name == QObject::tr("Chromatically Tempered Sword"));
     warr->get_equipment()->set_offhand(13036);
-    assert(warr->get_equipment()->get_offhand()->name == "Assassination Blade");
+    assert(warr->get_equipment()->get_offhand()->name == QObject::tr("Assassination Blade"));
 
     warr->get_equipment()->get_mainhand()->apply_temporary_enchant(EnchantName::ShadowOil, warr, EnchantSlot::MAINHAND);
     warr->get_equipment()->get_offhand()->apply_temporary_enchant(EnchantName::ShadowOil, warr, EnchantSlot::OFFHAND);

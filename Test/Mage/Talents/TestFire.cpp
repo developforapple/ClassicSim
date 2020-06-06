@@ -24,38 +24,38 @@ void TestFire::tear_down() {
 }
 
 void TestFire::test_spending_talent_points() {
-    assert(increment("Improved Fireball", 5));
-    assert(increment("Impact", 5));
-    assert(increment("Ignite", 5));
-    assert(increment("Flame Throwing", 2));
-    assert(increment("Improved Fire Blast", 3));
+    assert(increment(QObject::tr("Improved Fireball"), 5));
+    assert(increment(QObject::tr("Impact"), 5));
+    assert(increment(QObject::tr("Ignite"), 5));
+    assert(increment(QObject::tr("Flame Throwing"), 2));
+    assert(increment(QObject::tr("Improved Fire Blast"), 3));
 
     // Assert cannot spend points into Blast Wave if 1/1 Pyroblast is missing
     assert(tree_has_points(20));
 
-    assert(!increment("Blast Wave"));
-    assert(increment("Pyroblast"));
-    assert(increment("Blast Wave"));
+    assert(!increment(QObject::tr("Blast Wave")));
+    assert(increment(QObject::tr("Pyroblast")));
+    assert(increment(QObject::tr("Blast Wave")));
 
     // Assert cannot remove points from Pyroblast once points are spent in Blast Wave
-    assert(!decrement("Pyroblast"));
-    assert(decrement("Blast Wave"));
-    assert(decrement("Pyroblast"));
+    assert(!decrement(QObject::tr("Pyroblast")));
+    assert(decrement(QObject::tr("Blast Wave")));
+    assert(decrement(QObject::tr("Pyroblast")));
 
     // Assert cannot increment Combustion without Blast Wave
-    assert(increment("Incinerate", 2));
-    assert(increment("Improved Flamestrike", 3));
-    assert(increment("Fire Power", 5));
+    assert(increment(QObject::tr("Incinerate"), 2));
+    assert(increment(QObject::tr("Improved Flamestrike"), 3));
+    assert(increment(QObject::tr("Fire Power"), 5));
     assert(tree_has_points(30));
 
-    assert(!increment("Combustion"));
-    assert(increment("Critical Mass"));
-    assert(!increment("Combustion"));
-    assert(increment("Critical Mass"));
-    assert(!increment("Combustion"));
-    assert(increment("Critical Mass"));
-    assert(increment("Combustion"));
-    assert(!decrement("Critical Mass"));
+    assert(!increment(QObject::tr("Combustion")));
+    assert(increment(QObject::tr("Critical Mass")));
+    assert(!increment(QObject::tr("Combustion")));
+    assert(increment(QObject::tr("Critical Mass")));
+    assert(!increment(QObject::tr("Combustion")));
+    assert(increment(QObject::tr("Critical Mass")));
+    assert(increment(QObject::tr("Combustion")));
+    assert(!decrement(QObject::tr("Critical Mass")));
 }
 
 void TestFire::test_clearing_tree_after_filling() {
@@ -83,20 +83,20 @@ void TestFire::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestFire::spec_fire() {
-    assert(increment("Improved Fireball", 5));
-    assert(increment("Impact", 5));
-    assert(increment("Ignite", 5));
-    assert(increment("Flame Throwing", 2));
-    assert(increment("Improved Fire Blast", 3));
-    assert(increment("Incinerate", 2));
-    assert(increment("Improved Flamestrike", 3));
-    assert(increment("Pyroblast", 1));
-    assert(increment("Burning Soul", 2));
-    assert(increment("Improved Scorch", 3));
-    assert(increment("Improved Fire Ward", 2));
-    assert(increment("Master of Elements", 3));
-    assert(increment("Critical Mass", 3));
-    assert(increment("Blast Wave", 1));
-    assert(increment("Fire Power", 5));
-    assert(increment("Combustion", 1));
+    assert(increment(QObject::tr("Improved Fireball"), 5));
+    assert(increment(QObject::tr("Impact"), 5));
+    assert(increment(QObject::tr("Ignite"), 5));
+    assert(increment(QObject::tr("Flame Throwing"), 2));
+    assert(increment(QObject::tr("Improved Fire Blast"), 3));
+    assert(increment(QObject::tr("Incinerate"), 2));
+    assert(increment(QObject::tr("Improved Flamestrike"), 3));
+    assert(increment(QObject::tr("Pyroblast"), 1));
+    assert(increment(QObject::tr("Burning Soul"), 2));
+    assert(increment(QObject::tr("Improved Scorch"), 3));
+    assert(increment(QObject::tr("Improved Fire Ward"), 2));
+    assert(increment(QObject::tr("Master of Elements"), 3));
+    assert(increment(QObject::tr("Critical Mass"), 3));
+    assert(increment(QObject::tr("Blast Wave"), 1));
+    assert(increment(QObject::tr("Fire Power"), 5));
+    assert(increment(QObject::tr("Combustion"), 1));
 }

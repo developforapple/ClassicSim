@@ -6,7 +6,7 @@
 #include "CharacterStats.h"
 #include "Event.h"
 
-TestBerserkerStance::TestBerserkerStance(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, "Berserker Stance") {}
+TestBerserkerStance::TestBerserkerStance(EquipmentDb* equipment_db) : TestSpellWarrior(equipment_db, QObject::tr("Berserker Stance")) {}
 
 void TestBerserkerStance::test_all() {
     run_mandatory_tests();
@@ -57,7 +57,7 @@ BerserkerStance* TestBerserkerStance::berserker_stance() const {
 }
 
 void TestBerserkerStance::test_name_correct() {
-    assert(berserker_stance()->get_name() == "Berserker Stance");
+    assert(berserker_stance()->get_name() == QObject::tr("Berserker Stance"));
 }
 
 void TestBerserkerStance::test_spell_cooldown() {

@@ -10,7 +10,7 @@
 #include "Warrior.h"
 #include "Weapon.h"
 
-TestFelstrikerProc::TestFelstrikerProc(EquipmentDb* equipment_db) : TestProc(equipment_db, "Felstriker") {}
+TestFelstrikerProc::TestFelstrikerProc(EquipmentDb* equipment_db) : TestProc(equipment_db, QObject::tr("Felstriker")) {}
 
 void TestFelstrikerProc::test_all() {
     set_up();
@@ -36,11 +36,11 @@ void TestFelstrikerProc::test_crit_applied_and_removed() {
 
     assert(mh_wpn_skill != oh_wpn_skill);
 
-    auto buff = static_cast<FelstrikerBuff*>(pchar->get_enabled_buffs()->use_shared_buff("Felstriker"));
+    auto buff = static_cast<FelstrikerBuff*>(pchar->get_enabled_buffs()->use_shared_buff(QObject::tr("Felstriker")));
     buff->prepare_set_of_combat_iterations();
 
     assert(buff != nullptr);
-    assert(buff->name == "Felstriker");
+    assert(buff->name == QObject::tr("Felstriker"));
 
     const unsigned crit_before_buff = pchar->get_stats()->get_mh_crit_chance();
     const unsigned hit_before_buff = pchar->get_stats()->get_melee_hit_chance();
@@ -58,5 +58,5 @@ void TestFelstrikerProc::test_crit_applied_and_removed() {
 
 void TestFelstrikerProc::given_felstriker_equipped_in_mainhand() {
     pchar->get_equipment()->set_mainhand(12590);
-    assert(pchar->get_equipment()->get_mainhand()->name == "Felstriker");
+    assert(pchar->get_equipment()->get_mainhand()->name == QObject::tr("Felstriker"));
 }

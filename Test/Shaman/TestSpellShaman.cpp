@@ -45,11 +45,11 @@ MainhandAttack* TestSpellShaman::mh_attack() const {
 }
 
 Stormstrike* TestSpellShaman::stormstrike() const {
-    return static_cast<Stormstrike*>(get_max_rank_spell_by_name("Stormstrike"));
+    return static_cast<Stormstrike*>(get_max_rank_spell_by_name(QObject::tr("Stormstrike")));
 }
 
 LightningBolt* TestSpellShaman::lightning_bolt() const {
-    return static_cast<LightningBolt*>(get_max_rank_spell_by_name("Lightning Bolt"));
+    return static_cast<LightningBolt*>(get_max_rank_spell_by_name(QObject::tr("Lightning Bolt")));
 }
 
 void TestSpellShaman::run_class_specific_tests() {}
@@ -94,13 +94,13 @@ void TestSpellShaman::given_shaman_has_mana(const unsigned mana) {
 
 void TestSpellShaman::given_stormstrike_enabled() {
     auto enhancement = Enhancement(shaman);
-    given_talent_rank(enhancement, "Elemental Weapons", 3);
-    given_talent_rank(enhancement, "Stormstrike", 1);
+    given_talent_rank(enhancement, QObject::tr("Elemental Weapons"), 3);
+    given_talent_rank(enhancement, QObject::tr("Stormstrike"), 1);
     pchar->prepare_set_of_combat_iterations();
 }
 
 void TestSpellShaman::given_clearcasting_enabled() {
-    given_talent_rank(Elemental(shaman), "Elemental Focus", 1);
+    given_talent_rank(Elemental(shaman), QObject::tr("Elemental Focus"), 1);
     pchar->prepare_set_of_combat_iterations();
 }
 

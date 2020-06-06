@@ -9,7 +9,7 @@
 #include "Talent.h"
 
 Subtlety::Subtlety(Rogue* pchar) :
-    TalentTree(QObject::tr("Subtlety"), "Assets/rogue/rogue_subtlety.jpg"), rogue(pchar), spells(static_cast<RogueSpells*>(pchar->get_spells())) {
+    TalentTree(QObject::tr("Subtlety", "Rogue"), "Assets/rogue/rogue_subtlety.jpg"), rogue(pchar), spells(static_cast<RogueSpells*>(pchar->get_spells())) {
     talent_names_to_locations = {
         {QObject::tr("Master of Deception"), "1ML"}, {QObject::tr("Opportunity"), "1MR"},       {QObject::tr("Sleight of Hand"), "2LL"}, {QObject::tr("Elusiveness"), "2ML"}, {QObject::tr("Camouflage"), "2MR"},
         {QObject::tr("Initiative"), "3LL"},          {QObject::tr("Ghostly Strike"), "3ML"},    {QObject::tr("Improved Ambush"), "3MR"}, {QObject::tr("Setup"), "4LL"},       {QObject::tr("Improved Sap"), "4ML"},

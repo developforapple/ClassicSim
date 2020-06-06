@@ -16,7 +16,7 @@
 #include "Talent.h"
 #include "Vengeance.h"
 
-TestJudgement::TestJudgement(EquipmentDb* equipment_db) : TestSpellPaladin(equipment_db, "Judgement") {}
+TestJudgement::TestJudgement(EquipmentDb* equipment_db) : TestSpellPaladin(equipment_db, QObject::tr("Judgement")) {}
 
 void TestJudgement::test_all() {
     run_mandatory_tests();
@@ -91,7 +91,7 @@ void TestJudgement::test_all() {
 }
 
 void TestJudgement::test_name_correct() {
-    assert(judgement()->get_name() == "Judgement");
+    assert(judgement()->get_name() == QObject::tr("Judgement"));
 }
 
 void TestJudgement::test_spell_cooldown() {
@@ -142,7 +142,7 @@ void TestJudgement::test_whether_spell_causes_global_cooldown() {
 }
 
 void TestJudgement::test_resource_cost_1_of_5_benediction() {
-    given_retribution_talent_rank("Benediction", 1);
+    given_retribution_talent_rank(QObject::tr("Benediction"), 1);
     when_seal_of_the_crusader_is_performed();
 
     given_paladin_has_mana(83);
@@ -157,7 +157,7 @@ void TestJudgement::test_resource_cost_1_of_5_benediction() {
 }
 
 void TestJudgement::test_resource_cost_2_of_5_benediction() {
-    given_retribution_talent_rank("Benediction", 2);
+    given_retribution_talent_rank(QObject::tr("Benediction"), 2);
     when_seal_of_the_crusader_is_performed();
 
     given_paladin_has_mana(80);
@@ -172,7 +172,7 @@ void TestJudgement::test_resource_cost_2_of_5_benediction() {
 }
 
 void TestJudgement::test_resource_cost_3_of_5_benediction() {
-    given_retribution_talent_rank("Benediction", 3);
+    given_retribution_talent_rank(QObject::tr("Benediction"), 3);
     when_seal_of_the_crusader_is_performed();
 
     given_paladin_has_mana(77);
@@ -187,7 +187,7 @@ void TestJudgement::test_resource_cost_3_of_5_benediction() {
 }
 
 void TestJudgement::test_resource_cost_4_of_5_benediction() {
-    given_retribution_talent_rank("Benediction", 4);
+    given_retribution_talent_rank(QObject::tr("Benediction"), 4);
     when_seal_of_the_crusader_is_performed();
 
     given_paladin_has_mana(75);
@@ -202,7 +202,7 @@ void TestJudgement::test_resource_cost_4_of_5_benediction() {
 }
 
 void TestJudgement::test_resource_cost_5_of_5_benediction() {
-    given_retribution_talent_rank("Benediction", 5);
+    given_retribution_talent_rank(QObject::tr("Benediction"), 5);
     when_seal_of_the_crusader_is_performed();
 
     given_paladin_has_mana(72);
@@ -217,12 +217,12 @@ void TestJudgement::test_resource_cost_5_of_5_benediction() {
 }
 
 void TestJudgement::test_cooldown_1_of_2_improved_judgement() {
-    given_retribution_talent_rank("Improved Judgement", 1);
+    given_retribution_talent_rank(QObject::tr("Improved Judgement"), 1);
     assert(almost_equal(judgement()->get_base_cooldown(), 9.0));
 }
 
 void TestJudgement::test_cooldown_2_of_2_improved_judgement() {
-    given_retribution_talent_rank("Improved Judgement", 2);
+    given_retribution_talent_rank(QObject::tr("Improved Judgement"), 2);
     assert(almost_equal(judgement()->get_base_cooldown(), 8.0));
 }
 
@@ -263,7 +263,7 @@ void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_0_of_3_improve
 
 void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_1_of_3_improved_sotc() {
     given_a_guaranteed_ranged_white_hit();
-    given_retribution_talent_rank("Improved Seal of the Crusader", 1);
+    given_retribution_talent_rank(QObject::tr("Improved Seal of the Crusader"), 1);
     when_seal_of_the_crusader_is_performed();
 
     assert(paladin->get_stats()->get_spell_damage(MagicSchool::Holy) == 0);
@@ -274,7 +274,7 @@ void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_1_of_3_improve
 
 void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_2_of_3_improved_sotc() {
     given_a_guaranteed_ranged_white_hit();
-    given_retribution_talent_rank("Improved Seal of the Crusader", 2);
+    given_retribution_talent_rank(QObject::tr("Improved Seal of the Crusader"), 2);
     when_seal_of_the_crusader_is_performed();
 
     assert(paladin->get_stats()->get_spell_damage(MagicSchool::Holy) == 0);
@@ -285,7 +285,7 @@ void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_2_of_3_improve
 
 void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_3_of_3_improved_sotc() {
     given_a_guaranteed_ranged_white_hit();
-    given_retribution_talent_rank("Improved Seal of the Crusader", 3);
+    given_retribution_talent_rank(QObject::tr("Improved Seal of the Crusader"), 3);
     when_seal_of_the_crusader_is_performed();
 
     assert(paladin->get_stats()->get_spell_damage(MagicSchool::Holy) == 0);
@@ -296,7 +296,7 @@ void TestJudgement::test_judgement_of_the_crusader_holy_dmg_bonus_3_of_3_improve
 
 void TestJudgement::test_judgement_of_the_crusader_r10_pvp_glove_bonus_increases_holy_damage_bonus() {
     given_gloves_equipped(23274);
-    assert(pchar->get_stats()->get_equipment()->get_gloves()->name == "Knight-Lieutenant's Lamellar Gauntlets");
+    assert(pchar->get_stats()->get_equipment()->get_gloves()->name == QObject::tr("Knight-Lieutenant's Lamellar Gauntlets"));
     given_a_guaranteed_ranged_white_hit();
     when_seal_of_the_crusader_is_performed();
 
@@ -308,7 +308,7 @@ void TestJudgement::test_judgement_of_the_crusader_r10_pvp_glove_bonus_increases
 
 void TestJudgement::test_judgement_of_the_crusader_r13_pvp_glove_bonus_increases_holy_damage_bonus() {
     given_gloves_equipped(16471);
-    assert(pchar->get_stats()->get_equipment()->get_gloves()->name == "Marshal's Lamellar Gloves");
+    assert(pchar->get_stats()->get_equipment()->get_gloves()->name == QObject::tr("Marshal's Lamellar Gloves"));
     given_a_guaranteed_ranged_white_hit();
     when_seal_of_the_crusader_is_performed();
 
@@ -352,14 +352,14 @@ void TestJudgement::when_judgement_is_performed() {
 }
 
 void TestJudgement::given_sanctity_aura_is_active() {
-    given_retribution_talent_rank("Sanctity Aura", 1);
-    get_max_rank_spell_by_name("Sanctity Aura")->perform();
+    given_retribution_talent_rank(QObject::tr("Sanctity Aura"), 1);
+    get_max_rank_spell_by_name(QObject::tr("Sanctity Aura"))->perform();
     given_engine_priority_pushed_forward(1.5);
 }
 
 void TestJudgement::given_vengeance_is_active(const unsigned num) {
     auto ret = Retribution(paladin);
-    given_talent_rank(ret, "Conviction", 5);
-    given_talent_rank(ret, "Vengeance", num);
+    given_talent_rank(ret, QObject::tr("Conviction"), 5);
+    given_talent_rank(ret, QObject::tr("Vengeance"), num);
     paladin->get_vengeance()->apply_buff();
 }

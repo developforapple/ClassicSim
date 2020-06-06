@@ -24,65 +24,65 @@ void TestMarksmanship::tear_down() {
 }
 
 void TestMarksmanship::test_spending_talent_points() {
-    assert(!decrement("Efficiency"));
+    assert(!decrement(QObject::tr("Efficiency")));
 
-    assert(increment("Efficiency", 5));
+    assert(increment(QObject::tr("Efficiency"), 5));
     // 5 points
-    assert(!increment("Efficiency"));
-    assert(decrement("Efficiency"));
-    assert(increment("Efficiency"));
+    assert(!increment(QObject::tr("Efficiency")));
+    assert(decrement(QObject::tr("Efficiency")));
+    assert(increment(QObject::tr("Efficiency")));
 
     // Spend point in T2 and check that T1 cannot be decremented below a total of 5 points.
-    assert(increment("Improved Hunter's Mark"));
-    assert(!decrement("Efficiency"));
-    assert(increment("Improved Concussive Shot"));
-    assert(decrement("Efficiency"));
-    assert(!decrement("Efficiency"));
-    assert(!decrement("Improved Concussive Shot"));
+    assert(increment(QObject::tr("Improved Hunter's Mark")));
+    assert(!decrement(QObject::tr("Efficiency")));
+    assert(increment(QObject::tr("Improved Concussive Shot")));
+    assert(decrement(QObject::tr("Efficiency")));
+    assert(!decrement(QObject::tr("Efficiency")));
+    assert(!decrement(QObject::tr("Improved Concussive Shot")));
 
-    assert(increment("Efficiency"));
-    assert(decrement("Improved Concussive Shot"));
-    assert(increment("Improved Hunter's Mark", 4));
+    assert(increment(QObject::tr("Efficiency")));
+    assert(decrement(QObject::tr("Improved Concussive Shot")));
+    assert(increment(QObject::tr("Improved Hunter's Mark"), 4));
 
     // Make Mortal Shots available on raw points without fulfilling prerequisite Lethal Shots
     assert(tree_has_points(10));
-    assert(increment("Improved Concussive Shot", 5));
+    assert(increment(QObject::tr("Improved Concussive Shot"), 5));
 
     // Assert cannot spend points into Mortal Shots if 5/5 Lethal Shots is missing
-    assert(!increment("Mortal Shots"));
-    assert(increment("Lethal Shots"));
-    assert(!increment("Mortal Shots"));
-    assert(increment("Lethal Shots"));
-    assert(!increment("Mortal Shots"));
-    assert(increment("Lethal Shots"));
-    assert(!increment("Mortal Shots"));
-    assert(increment("Lethal Shots"));
-    assert(!increment("Mortal Shots"));
-    assert(increment("Lethal Shots"));
-    assert(increment("Mortal Shots"));
+    assert(!increment(QObject::tr("Mortal Shots")));
+    assert(increment(QObject::tr("Lethal Shots")));
+    assert(!increment(QObject::tr("Mortal Shots")));
+    assert(increment(QObject::tr("Lethal Shots")));
+    assert(!increment(QObject::tr("Mortal Shots")));
+    assert(increment(QObject::tr("Lethal Shots")));
+    assert(!increment(QObject::tr("Mortal Shots")));
+    assert(increment(QObject::tr("Lethal Shots")));
+    assert(!increment(QObject::tr("Mortal Shots")));
+    assert(increment(QObject::tr("Lethal Shots")));
+    assert(increment(QObject::tr("Mortal Shots")));
 
     // Assert cannot remove points from Lethal Shots once points are spent in Mortal Shots
-    assert(!decrement("Lethal Shots"));
-    assert(increment("Mortal Shots"));
-    assert(!decrement("Lethal Shots"));
-    assert(increment("Mortal Shots"));
-    assert(!decrement("Lethal Shots"));
-    assert(increment("Mortal Shots"));
-    assert(!decrement("Lethal Shots"));
-    assert(increment("Mortal Shots"));
-    assert(!decrement("Lethal Shots"));
+    assert(!decrement(QObject::tr("Lethal Shots")));
+    assert(increment(QObject::tr("Mortal Shots")));
+    assert(!decrement(QObject::tr("Lethal Shots")));
+    assert(increment(QObject::tr("Mortal Shots")));
+    assert(!decrement(QObject::tr("Lethal Shots")));
+    assert(increment(QObject::tr("Mortal Shots")));
+    assert(!decrement(QObject::tr("Lethal Shots")));
+    assert(increment(QObject::tr("Mortal Shots")));
+    assert(!decrement(QObject::tr("Lethal Shots")));
 
     // Make Trueshot Aura available on raw points without fulfilling preprequisite Barrage
-    assert(increment("Ranged Weapon Specialization", 5));
+    assert(increment(QObject::tr("Ranged Weapon Specialization"), 5));
 
     // Assert cannot spend points into Trueshot Aura if 3/3 Barrage is missing
-    assert(!increment("Trueshot Aura"));
-    assert(increment("Barrage"));
-    assert(!increment("Trueshot Aura"));
-    assert(increment("Barrage"));
-    assert(!increment("Trueshot Aura"));
-    assert(increment("Barrage"));
-    assert(increment("Trueshot Aura"));
+    assert(!increment(QObject::tr("Trueshot Aura")));
+    assert(increment(QObject::tr("Barrage")));
+    assert(!increment(QObject::tr("Trueshot Aura")));
+    assert(increment(QObject::tr("Barrage")));
+    assert(!increment(QObject::tr("Trueshot Aura")));
+    assert(increment(QObject::tr("Barrage")));
+    assert(increment(QObject::tr("Trueshot Aura")));
 }
 
 void TestMarksmanship::test_clearing_tree_after_filling() {
@@ -110,18 +110,18 @@ void TestMarksmanship::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestMarksmanship::spec_marksmanship() {
-    assert(increment("Improved Concussive Shot", 5));
-    assert(increment("Efficiency", 5));
-    assert(increment("Improved Hunter's Mark", 5));
-    assert(increment("Lethal Shots", 5));
-    assert(increment("Aimed Shot"));
-    assert(increment("Improved Arcane Shot", 5));
-    assert(increment("Hawk Eye", 3));
-    assert(increment("Improved Serpent Sting", 5));
-    assert(increment("Mortal Shots", 5));
-    assert(increment("Scatter Shot"));
-    assert(increment("Barrage", 3));
-    assert(increment("Improved Scorpid Sting", 3));
-    assert(increment("Ranged Weapon Specialization", 4));
-    assert(increment("Trueshot Aura"));
+    assert(increment(QObject::tr("Improved Concussive Shot"), 5));
+    assert(increment(QObject::tr("Efficiency"), 5));
+    assert(increment(QObject::tr("Improved Hunter's Mark"), 5));
+    assert(increment(QObject::tr("Lethal Shots"), 5));
+    assert(increment(QObject::tr("Aimed Shot")));
+    assert(increment(QObject::tr("Improved Arcane Shot"), 5));
+    assert(increment(QObject::tr("Hawk Eye"), 3));
+    assert(increment(QObject::tr("Improved Serpent Sting"), 5));
+    assert(increment(QObject::tr("Mortal Shots"), 5));
+    assert(increment(QObject::tr("Scatter Shot")));
+    assert(increment(QObject::tr("Barrage"), 3));
+    assert(increment(QObject::tr("Improved Scorpid Sting"), 3));
+    assert(increment(QObject::tr("Ranged Weapon Specialization"), 4));
+    assert(increment(QObject::tr("Trueshot Aura")));
 }

@@ -9,7 +9,7 @@
 #include "SealFate.h"
 #include "Talent.h"
 
-TestSealFate::TestSealFate(EquipmentDb* equipment_db) : TestProcRogue(equipment_db, "Seal Fate") {}
+TestSealFate::TestSealFate(EquipmentDb* equipment_db) : TestProcRogue(equipment_db, QObject::tr("Seal Fate")) {}
 
 void TestSealFate::test_all() {
     set_up();
@@ -46,7 +46,7 @@ SealFate* TestSealFate::seal_fate() const {
 }
 
 void TestSealFate::test_name_correct() {
-    assert(seal_fate()->get_name() == "Seal Fate");
+    assert(seal_fate()->get_name() == QObject::tr("Seal Fate"));
 }
 
 void TestSealFate::test_proc_range_1_of_5_seal_fate() {
@@ -82,36 +82,36 @@ void TestSealFate::test_proc_range_5_of_5_seal_fate() {
 void TestSealFate::given_1_of_5_seal_fate() {
     auto assa = Assassination(rogue);
 
-    given_talent_rank(assa, "Cold Blood", 1);
-    given_talent_rank(assa, "Seal Fate", 1);
+    given_talent_rank(assa, QObject::tr("Cold Blood"), 1);
+    given_talent_rank(assa, QObject::tr("Seal Fate"), 1);
 }
 
 void TestSealFate::given_2_of_5_seal_fate() {
     auto assa = Assassination(rogue);
 
-    given_talent_rank(assa, "Cold Blood", 1);
-    given_talent_rank(assa, "Seal Fate", 2);
+    given_talent_rank(assa, QObject::tr("Cold Blood"), 1);
+    given_talent_rank(assa, QObject::tr("Seal Fate"), 2);
 }
 
 void TestSealFate::given_3_of_5_seal_fate() {
     auto assa = Assassination(rogue);
 
-    given_talent_rank(assa, "Cold Blood", 1);
-    given_talent_rank(assa, "Seal Fate", 3);
+    given_talent_rank(assa, QObject::tr("Cold Blood"), 1);
+    given_talent_rank(assa, QObject::tr("Seal Fate"), 3);
 }
 
 void TestSealFate::given_4_of_5_seal_fate() {
     auto assa = Assassination(rogue);
 
-    given_talent_rank(assa, "Cold Blood", 1);
-    given_talent_rank(assa, "Seal Fate", 4);
+    given_talent_rank(assa, QObject::tr("Cold Blood"), 1);
+    given_talent_rank(assa, QObject::tr("Seal Fate"), 4);
 }
 
 void TestSealFate::given_5_of_5_seal_fate() {
     auto assa = Assassination(rogue);
 
-    given_talent_rank(assa, "Cold Blood", 1);
-    given_talent_rank(assa, "Seal Fate", 5);
+    given_talent_rank(assa, QObject::tr("Cold Blood"), 1);
+    given_talent_rank(assa, QObject::tr("Seal Fate"), 5);
 }
 
 void TestSealFate::test_proc_sources_are_valid() {

@@ -50,22 +50,22 @@ void TestBalance::test_refilling_tree_after_switching_talent_setup() {
 }
 
 void TestBalance::spec_balance() {
-    assert(increment("Improved Wrath", 5));
-    assert(increment("Nature's Grasp", 1));
-    assert(increment("Improved Nature's Grasp", 4));
-    assert(increment("Improved Entangling Roots", 3));
-    assert(increment("Improved Moonfire", 5));
-    assert(increment("Natural Weapons", 5));
-    assert(increment("Natural Shapeshifter", 3));
-    assert(increment("Improved Thorns", 3));
-    assert(increment("Omen of Clarity", 1));
-    assert(increment("Nature's Reach", 2));
-    assert(increment("Vengeance", 5));
-    assert(increment("Improved Starfire", 5));
-    assert(increment("Nature's Grace", 1));
-    assert(increment("Moonglow", 3));
-    assert(increment("Moonfury", 5));
+    assert(increment(QObject::tr("Improved Wrath"), 5));
+    assert(increment(QObject::tr("Nature's Grasp"), 1));
+    assert(increment(QObject::tr("Improved Nature's Grasp"), 4));
+    assert(increment(QObject::tr("Improved Entangling Roots"), 3));
+    assert(increment(QObject::tr("Improved Moonfire"), 5));
+    assert(increment(QObject::tr("Natural Weapons"), 5));
+    assert(increment(QObject::tr("Natural Shapeshifter"), 3));
+    assert(increment(QObject::tr("Improved Thorns"), 3));
+    assert(increment(QObject::tr("Omen of Clarity"), 1));
+    assert(increment(QObject::tr("Nature's Reach"), 2));
+    assert(increment(QObject::tr("Vengeance"), 5));
+    assert(increment(QObject::tr("Improved Starfire"), 5));
+    assert(increment(QObject::tr("Nature's Grace"), 1));
+    assert(increment(QObject::tr("Moonglow"), 3));
+    assert(increment(QObject::tr("Moonfury"), 5));
 
-    assert(decrement("Moonfury", 1));
-    assert(increment("Moonkin Form", 1));
+    assert(decrement(QObject::tr("Moonfury"), 1));
+    assert(increment(QObject::tr("Moonkin Form"), 1));
 }
