@@ -23,7 +23,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15282001" phase="1">
-		<info name="Dragon Finger of Frozen Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
+		<info name="Dragon Finger of Frozen Wrath" name_zh="冰霜惩戒之龙指" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
 		<dmg_range min="52" max="97" speed="1.4"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_FROST" value="11"/>
@@ -34,7 +34,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15282002" phase="1">
-		<info name="Dragon Finger of Shadow Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
+		<info name="Dragon Finger of Shadow Wrath" name_zh="暗影惩戒之龙指" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
 		<dmg_range min="52" max="97" speed="1.4"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_SHADOW" value="11"/>
@@ -45,7 +45,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15282003" phase="1">
-		<info name="Dragon Finger of Fiery Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
+		<info name="Dragon Finger of Fiery Wrath" name_zh="火焰惩戒之龙指" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
 		<dmg_range min="52" max="97" speed="1.4"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_FIRE" value="11"/>
@@ -56,7 +56,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15282004" phase="1">
-		<info name="Dragon Finger of Holy Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
+		<info name="Dragon Finger of Holy Wrath" name_zh="神圣惩戒之龙指" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
 		<dmg_range min="52" max="97" speed="1.4"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_HOLY" value="11"/>
@@ -67,7 +67,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15282005" phase="1">
-		<info name="Dragon Finger of Arcane Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
+		<info name="Dragon Finger of Arcane Wrath" name_zh="奥术惩戒之龙指" type="WAND" slot="RANGED" unique="no" req_lvl="55" item_lvl="60" quality="UNCOMMON" boe="yes" icon="Inv_wand_06.png"/>
 		<dmg_range min="52" max="97" speed="1.4"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_ARCANE" value="11"/>
@@ -78,7 +78,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15283001" phase="1">
-		<info name="Lunar Wand of Frozen Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
+		<info name="Lunar Wand of Frozen Wrath" name_zh="冰霜惩戒之月亮魔杖" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
 		<dmg_range min="67" max="126" speed="1.7"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_FROST" value="13"/>
@@ -89,7 +89,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15283002" phase="1">
-		<info name="Lunar Wand of Shadow Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
+		<info name="Lunar Wand of Shadow Wrath" name_zh="暗影惩戒之月亮魔杖" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
 		<dmg_range min="67" max="126" speed="1.7"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_SHADOW" value="13"/>
@@ -100,7 +100,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15283003" phase="1">
-		<info name="Lunar Wand of Fiery Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
+		<info name="Lunar Wand of Fiery Wrath" name_zh="火焰惩戒之月亮魔杖" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
 		<dmg_range min="67" max="126" speed="1.7"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_FIRE" value="13"/>
@@ -111,7 +111,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15283004" phase="1">
-		<info name="Lunar Wand of Holy Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
+		<info name="Lunar Wand of Holy Wrath" name_zh="神圣惩戒之月亮魔杖" type="WAND" slot="RANGED" unique="no" req_lvl="59" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
 		<dmg_range min="67" max="126" speed="1.7"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_HOLY" value="13"/>
@@ -122,7 +122,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="15283005" phase="1">
-		<info name="Lunar Wand of Arcane Wrath" name_zh="" type="WAND" slot="RANGED" unique="no" req_lvl="54" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
+		<info name="Lunar Wand of Arcane Wrath" name_zh="奥术惩戒之月亮魔杖" type="WAND" slot="RANGED" unique="no" req_lvl="54" item_lvl="64" quality="UNCOMMON" boe="yes" icon="Inv_staff_06.png"/>
 		<dmg_range min="67" max="126" speed="1.7"/>
 		<stats>
 			<stat type="SPELL_DAMAGE_ARCANE" value="13"/>

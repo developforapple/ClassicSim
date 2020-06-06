@@ -81,11 +81,11 @@
 			<stat type="FIRE_RESISTANCE" value="16"/>
 		</stats>
 		<source>
-			<en>Crafted by leatherworkers.</en>
-			<zh>装备：保护你不被暗影烈焰完全吞噬。</zh>
+			Crafted by leatherworkers.
 		</source>
 		<special_equip_effect>
-			Equip: Protects the wearer from being fully engulfed by Shadow Flame.
+			<en>Equip: Protects the wearer from being fully engulfed by Shadow Flame.</en>
+			<zh>装备：保护你不被暗影烈焰完全吞噬。</zh>
 		</special_equip_effect>
 	</item>
 
@@ -510,7 +510,7 @@
 	</item>
 
 	<item id="23405" phase="6">
-		<info name="Shroud of Dominion" name_zh="" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_03.png"/>
+		<info name="Shroud of Dominion" name_zh="支配披风" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="90" quality="EPIC" boe="no" icon="Inv_misc_cape_naxxramas_03.png"/>
 		<stats>
 			<stat type="ARMOR" value="68"/>
 			<stat type="STAMINA" value="11"/>

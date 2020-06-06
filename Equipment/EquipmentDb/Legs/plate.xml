@@ -158,7 +158,7 @@
     </item>
 
     <item id="23273" phase="2">
-        <info name="Knight-Captain's Lamellar Leggings" name_zh="" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
+        <info name="Knight-Captain's Lamellar Leggings" name_zh="骑士队长的板层甲护腿" type="PLATE" slot="LEGS" unique="yes" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_pants_06.png"/>
         <class_restriction class="PALADIN"/>
         <stats>
             <stat type="ARMOR" value="618"/>
@@ -247,7 +247,7 @@
     </item>
 
     <item id="19855" phase="4">
-        <info name="Bloodsoaked Legplates" name_zh="" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_pants_plate_21.png"/>
+        <info name="Bloodsoaked Legplates" name_zh="浸血腿甲" type="PLATE" slot="LEGS" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_pants_plate_21.png"/>
         <stats>
             <stat type="ARMOR" value="674"/>
             <stat type="STRENGTH" value="36"/>

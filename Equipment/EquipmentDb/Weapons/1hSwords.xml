@@ -335,7 +335,7 @@
 	</melee_weapon>
 
 	<melee_weapon id="12854" phase="2">
-		<info name="Grand Marshal's Longsword" name_zh="" type="SWORD" slot="1H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_sword_11.png"/>
+		<info name="Grand Marshal's Longsword" name_zh="大元帅的长剑" type="SWORD" slot="1H" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" faction="ALLIANCE" boe="no" icon="Inv_sword_11.png"/>
 		<dmg_range min="138" max="207" speed="2.9"/>
 		<stats>
 			<stat type="ATTACK_POWER" value="28"/>

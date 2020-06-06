@@ -24,7 +24,7 @@
 	</item>
 
 	<item id="10504001" phase="1">
-		<info name="Green Lens of Arcane Wrath" name_zh="" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
+		<info name="Green Lens of Arcane Wrath" name_zh="奥术惩戒之绿色透镜" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="10"/>
@@ -36,7 +36,7 @@
 	</item>
 
 	<item id="10504002" phase="1">
-		<info name="Green Lens of Fiery Wrath" name_zh="" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
+		<info name="Green Lens of Fiery Wrath" name_zh="火焰惩戒之绿色透镜" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="10"/>
@@ -48,7 +48,7 @@
 	</item>
 
 	<item id="10504003" phase="1">
-		<info name="Green Lens of Frozen Wrath" name_zh="" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
+		<info name="Green Lens of Frozen Wrath" name_zh="冰霜惩戒之绿色透镜" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="10"/>
@@ -60,7 +60,7 @@
 	</item>
 
 	<item id="10504004" phase="1">
-		<info name="Green Lens of Holy Wrath" name_zh="" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
+		<info name="Green Lens of Holy Wrath" name_zh="神圣惩戒之绿色透镜" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="10"/>
@@ -72,7 +72,7 @@
 	</item>
 
 	<item id="10504005" phase="1">
-		<info name="Green Lens of Nature Wrath" name_zh="" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
+		<info name="Green Lens of Nature Wrath" name_zh="自然惩戒之绿色透镜" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="10"/>
@@ -84,7 +84,7 @@
 	</item>
 
 	<item id="10504006" phase="1">
-		<info name="Green Lens of Shadow Wrath" name_zh="" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
+		<info name="Green Lens of Shadow Wrath" name_zh="暗影之绿色透镜" type="CLOTH" slot="HEAD" unique="no" req_lvl="40" item_lvl="49" quality="RARE" boe="yes" icon="Inv_helmet_44.png"/>
 		<stats>
 			<stat type="ARMOR" value="57"/>
 			<stat type="STAMINA" value="10"/>
