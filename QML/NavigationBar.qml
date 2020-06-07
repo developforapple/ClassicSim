@@ -3,7 +3,7 @@ import QtQuick 2.0
 Rectangle {
     id: rightNavBar
 
-    property int choiceHeight: 70
+    property int choiceHeight: 56
     property string fontFamily: root.fontText
     property int fontSize: 16
 
@@ -15,7 +15,7 @@ Rectangle {
     signal statisticsClicked();
     signal raidSetupClicked()
 
-    width: 150
+    width: 128
     z: 10
 
     state: "TALENTS"

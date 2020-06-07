@@ -7,14 +7,14 @@ Rectangle {
 
     Row {
         anchors.fill: parent
-        anchors.margins: 20
+        anchors.margins: 12
 
         GridView {
             interactive: false
             height: parent.height
             width: parent.width * 0.75
 
-            cellWidth: 430
+            cellWidth: 285
             cellHeight: 30
 
             model: buffModel
@@ -38,7 +38,7 @@ Rectangle {
             width: parent.width * 0.25
 
             cellWidth: 280
-            cellHeight: 50
+            cellHeight: 40
 
             model: debuffModel
             delegate: BuffBox {
@@ -50,7 +50,7 @@ Rectangle {
                 selectedColor: "#8c5c15"
                 selectedHighlightColor: "#ff6600"
                 width: 270
-                height: 45
+                height: 40
 
                 onToggleSingleBuff: settings.toggleSingleDebuff(name)
                 onSelectRangeOfBuffs: settings.selectRangeOfDebuffs(name)

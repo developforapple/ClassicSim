@@ -14,7 +14,7 @@ RectangleBorders {
     signal toggleSingleBuff()
 
     height: 30
-    width: 420
+    width: 270
 
     rectColor: buffActive === true ? selectedColor : root.darkDarkGray
     rectColorHighlighted: buffActive === true ? selectedHighlightColor : root.darkGray

@@ -12,9 +12,8 @@ Rectangle {
     property string enchantLayoutDirection: "DOWN"
 
     state: "MAINHAND"
-
-    height: 46
-    width: 46
+    height: 46.0 / 448.0 * parent.height
+    width: height
 
     radius: 5
     color: "transparent"
@@ -61,6 +60,8 @@ Rectangle {
         temporaryEnchant: true
 
         anchors.top: enchant.bottom
+        anchors.topMargin: 2
+        anchors.left: enchant.left
 
         visible: (slotString === "MAINHAND" || slotString === "OFFHAND") && equipment.hasItemEquipped(slot)
     }

@@ -3,7 +3,7 @@ import QtQuick.Controls 2.2
 
 RectangleBorders {
     height: parent.height
-    width: 800
+    width: parent.width - 35
 
     Text {
         id: rotationName

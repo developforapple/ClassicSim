@@ -56,6 +56,12 @@ Rectangle {
             anchors.bottom = parent.bottom
             anchors.bottomMargin = 3
         }
+        else if (orientation === "UP") {
+            anchors.left = parent.left
+            anchors.leftMargin = 8
+            anchors.bottom = parent.top
+            anchors.bottomMargin = 28
+        }
 
         icon.setIconAnchors()
     }

@@ -278,6 +278,22 @@
     </message>
 </context>
 <context>
+    <name>ItemEntry</name>
+    <message>
+        <location filename="QML/ItemEntry.qml" line="76"/>
+        <source> &lt;Random enchantment&gt;</source>
+        <translation> &lt;随机附魔&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>ItemEntryWeapon</name>
+    <message>
+        <location filename="QML/ItemEntryWeapon.qml" line="96"/>
+        <source> &lt;Random enchantment&gt;</source>
+        <translation> &lt;随机附魔&gt;</translation>
+    </message>
+</context>
+<context>
     <name>NavigationBar</name>
     <message>
         <location filename="QML/NavigationBar.qml" line="41"/>
@@ -405,7 +421,7 @@
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="410"/>
         <source>+10% Spell crit, +5% melee/ranged crit, +140 attack power</source>
-        <translation>使法术的爆击几率提高10%，近战和远程攻击的爆击几率提高5%，攻击强度提高140点</translation>
+        <translation>+10% 法术爆击，+5%近战和远程攻击爆击，+140攻击强度</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="412"/>
@@ -425,7 +441,7 @@
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="416"/>
         <source>+5% Crit, +15 all attributes</source>
-        <translation>打出爆击的几率提高5%，所有属性提高15点</translation>
+        <translation>+5%爆击，+15点所有属性</translation>
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="43"/>
@@ -1561,7 +1577,7 @@ vs Undead</source>
         <location filename="Spells/ExternalBuff.cpp" line="530"/>
         <source>10% Fire/Frost damage,
 -75 Fire/Frost resistances</source>
-        <translation>10% 火焰和冰霜系攻击伤害，火焰和冰霜抗性降低75点</translation>
+        <translation>10% 火焰和冰霜伤害，-75点火焰和冰霜抗性</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="532"/>
@@ -1572,7 +1588,7 @@ vs Undead</source>
         <location filename="Spells/ExternalBuff.cpp" line="533"/>
         <source>10% Arcane/Shadow damage,
 -75 Arcane/Shadow resistances</source>
-        <translation>10% 暗影和奥术系攻击伤害，暗影和奥术抗性降低75点</translation>
+        <translation>10% 暗影和奥术伤害，-75点暗影和奥术抗性</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="535"/>
@@ -1604,7 +1620,7 @@ vs Undead</source>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="542"/>
         <source>+300 hitpoints, 15% melee haste, +10 mp5</source>
-        <translation>+300 生命值，15% 近战攻击速度， +10 mp5</translation>
+        <translation>+300点生命值，15%近战攻击速度，+10 mp5</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="544"/>
@@ -9337,62 +9353,62 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="8"/>
         <source>(1) Molten Core, Onyxia, Maraudon</source>
-        <translation>（1）熔火之心，奥妮克希亚的巢穴，玛拉顿</translation>
+        <translation>P1，MC，Onyxia</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="10"/>
         <source>(2) Dire Maul, Azuregos, Kazzak, Honor rewards</source>
-        <translation>（2）厄运之槌，艾索雷葛斯，卡扎克，荣誉奖励</translation>
+        <translation>P2，厄运之槌，艾索雷葛斯，卡扎克，荣誉奖励</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="12"/>
         <source>(3) Blackwing Lair, Darkmoon Faire, AV/WSG</source>
-        <translation>（3）黑翼之巢，暗月马戏团，奥特兰克山谷/战歌峡谷</translation>
+        <translation>P3，黑翼之巢，暗月马戏团，奥山/战歌</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="14"/>
         <source>(4) Zul&apos;Gurub, Green Dragons, Arathi Basin</source>
-        <translation>（4）祖尔格拉布，绿龙，阿拉希盆地</translation>
+        <translation>P4，ZUG，绿龙，阿拉希</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="16"/>
         <source>(5) Ahn&apos;Qiraj, improved dungeon loot</source>
-        <translation>（5）安其拉，强化的地下城掉落</translation>
+        <translation>P5，安其拉，强化的副本掉落</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="18"/>
         <source>(6) Naxxramas</source>
-        <translation>（6）纳克萨玛斯</translation>
+        <translation>P6，NAXX</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="27"/>
         <source>(1) MC/Ony</source>
-        <translation>（1）熔火之心/奥妮克希亚的巢穴</translation>
+        <translation>P1 MC</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="29"/>
         <source>(2) DM</source>
-        <translation>（2）厄运之槌</translation>
+        <translation>P2 厄运之槌</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="31"/>
         <source>(3) BWL</source>
-        <translation>（3）黑翼之巢</translation>
+        <translation>P3 BWL</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="33"/>
         <source>(4) ZG/AB</source>
-        <translation>（4）祖尔格拉布/阿拉希盆地</translation>
+        <translation>P4 ZUG</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="35"/>
         <source>(5) AQ</source>
-        <translation>（5）安其拉</translation>
+        <translation>P5 安其拉</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="37"/>
         <source>(6) Naxx</source>
-        <translation>（6）纳克萨玛斯</translation>
+        <translation>P6 NAXX</translation>
     </message>
     <message>
         <location filename="Rotation/Conditions/ConditionBuffDuration.cpp" line="29"/>
@@ -10573,67 +10589,67 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>ClassicSim中文</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="167"/>
+        <location filename="QML/main.qml" line="169"/>
         <source>Beast</source>
         <translation>野兽</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="168"/>
+        <location filename="QML/main.qml" line="170"/>
         <source>Demon</source>
         <translation>恶魔</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="169"/>
+        <location filename="QML/main.qml" line="171"/>
         <source>Dragonkin</source>
         <translation>龙类</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="170"/>
+        <location filename="QML/main.qml" line="172"/>
         <source>Elemental</source>
         <translation>元素</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="171"/>
+        <location filename="QML/main.qml" line="173"/>
         <source>Giant</source>
         <translation>巨人</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="172"/>
+        <location filename="QML/main.qml" line="174"/>
         <source>Humanoid</source>
         <translation>人型生物</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="173"/>
+        <location filename="QML/main.qml" line="175"/>
         <source>Mechanical</source>
         <translation>机械</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="174"/>
+        <location filename="QML/main.qml" line="176"/>
         <source>Undead</source>
         <translation>亡灵</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="193"/>
+        <location filename="QML/main.qml" line="196"/>
         <source>Standard</source>
         <translation>标准BOSS</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="194"/>
+        <location filename="QML/main.qml" line="197"/>
         <source>Vaelastrasz</source>
-        <translation>堕落的瓦拉斯塔兹</translation>
+        <translation>BWL：堕落的瓦拉斯塔兹</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="195"/>
+        <location filename="QML/main.qml" line="198"/>
         <source>Loatheb</source>
-        <translation>洛欧塞布</translation>
+        <translation>NAXX：洛欧塞布</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="501"/>
+        <location filename="QML/main.qml" line="504"/>
         <source>Run Full Sim</source>
         <translation>运行</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="529"/>
+        <location filename="QML/main.qml" line="532"/>
         <source>All art assets ©Blizzard Entertainment (2019).</source>
         <translation>版权所有 ©Blizzard Entertainment (2019).</translation>
     </message>

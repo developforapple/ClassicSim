@@ -1,7 +1,7 @@
 import QtQuick 2.0
 
 RectangleBorders {
-    width: 1025
+    width: parent.width
     height: 45
 
     signal entryClicked(int mouseX, int mouseY);
@@ -56,6 +56,24 @@ RectangleBorders {
         height: parent.height
         x: 3
 
+        Text {
+            id: textLvl
+            text: entryItemlvl
+
+            width: parent.width * 0.05
+            height: parent.height
+
+            color: root.qualityColor(entryQuality)
+
+            font {
+                family: root.fontText
+                pointSize: 10
+            }
+
+            verticalAlignment: Text.AlignVCenter
+            horizontalAlignment: Text.AlignHCenter
+        }
+
         Image {
             id: icon
 
@@ -75,9 +93,9 @@ RectangleBorders {
 
         Text {
             id: textName
-            text: entryRandomAffix ? entryName + " <Random enchantment>" : entryName
+            text: entryRandomAffix ? entryName + qsTr(" <Random enchantment>") : entryName
 
-            width: 300
+            width: parent.width * 0.4 - 45
             height: parent.height
 
             color: root.qualityColor(entryQuality)
@@ -96,7 +114,7 @@ RectangleBorders {
             id: textDps
             text: entryDps
 
-            width: 50
+            width: parent.width * 0.05
             height: parent.height
 
             font {
@@ -114,7 +132,7 @@ RectangleBorders {
             id: textSpeed
             text: entrySpeed
 
-            width: 50
+            width: parent.width * 0.05
             height: parent.height
 
             font {
@@ -132,7 +150,7 @@ RectangleBorders {
             id: textPhase
             text: entryPhase
 
-            width: 100
+            width: parent.width * 0.15
             height: parent.height
 
             font {
@@ -150,7 +168,7 @@ RectangleBorders {
             id: textType
             text: entryType
 
-            width: 80
+            width: parent.width * 0.1
             height: parent.height
 
             font {
@@ -168,7 +186,7 @@ RectangleBorders {
             id: textSource
             text: entrySource
 
-            width: 400
+            width: parent.width * 0.2
             height: parent.height
             wrapMode: Text.WordWrap
 

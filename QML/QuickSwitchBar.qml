@@ -8,7 +8,7 @@ Rectangle {
         height: parent.height
 
         Column {
-            width: 150
+            width: 80
             height: parent.height
 
             state: "TALENT1"
@@ -36,7 +36,7 @@ Rectangle {
         }
 
         Column {
-            width: 150
+            width: 80
             height: parent.height
 
             state: "EQUIPMENT1"
@@ -64,7 +64,7 @@ Rectangle {
         }
 
         Column {
-            width: 150
+            width: 80
             height: parent.height
 
             state: "BUFFS1"

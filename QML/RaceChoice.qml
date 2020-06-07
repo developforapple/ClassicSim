@@ -5,7 +5,7 @@ Rectangle {
     width: raceChoiceHeight * 4 + 10
     height: raceChoiceHeight + 2
 
-    property int raceChoiceHeight: 55
+    property int raceChoiceHeight: 48
 
     property url baseUrl: "Assets/races/Ui-charactercreate-races_"
     property string urlGender: "-female.png"

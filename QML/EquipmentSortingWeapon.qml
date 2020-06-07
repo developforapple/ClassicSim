@@ -18,7 +18,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 45
+            width: parent.width * 0.05
 
             onRectangleClicked: weaponModel.selectSort(WeaponSort.ByIlvl)
             onRectangleRightClicked: weaponModel.selectSort(WeaponSort.ByIlvl)
@@ -34,7 +34,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 300
+            width: parent.width * 0.4
 
             onRectangleClicked: weaponModel.selectSort(WeaponSort.ByName)
             onRectangleRightClicked: weaponModel.selectSort(WeaponSort.ByName)
@@ -50,7 +50,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 50
+            width: parent.width * 0.05
 
             onRectangleClicked: weaponModel.selectSort(WeaponSort.ByDps)
             onRectangleRightClicked: weaponModel.selectSort(WeaponSort.ByDps)
@@ -66,7 +66,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 50
+            width: parent.width * 0.05
 
             onRectangleClicked: weaponModel.selectSort(WeaponSort.BySpeed)
             onRectangleRightClicked: weaponModel.selectSort(WeaponSort.BySpeed)
@@ -82,7 +82,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 100
+            width: parent.width * 0.15
 
             onRectangleClicked: weaponModel.selectSort(WeaponSort.ByPhase)
             onRectangleRightClicked: weaponModel.selectSort(WeaponSort.ByPhase)
@@ -98,7 +98,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 80
+            width: parent.width * 0.1
 
             onRectangleClicked: weaponModel.selectSort(WeaponSort.ByItemType)
             onRectangleRightClicked: weaponModel.selectSort(WeaponSort.ByItemType)
@@ -114,7 +114,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 397
+            width: parent.width * 0.2
 
             rectColor: root.darkDarkGray
 

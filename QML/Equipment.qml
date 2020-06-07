@@ -5,6 +5,7 @@ Rectangle {
     id: eqRect
     height: parent.height
     width: parent.width
+    property double currentScale: height / 448.0
 
     color: root.darkDarkGray
     property bool displayRangedWeapon: settings.className === "Warrior" ||
@@ -40,6 +41,7 @@ Rectangle {
 
         Rectangle {
             id: modelViewRect
+            width: parent.width - filterRect.width
             anchors {
                 left: filterRect.right
                 leftMargin: 10
@@ -275,8 +277,8 @@ Rectangle {
 
     RectangleBorders {
         id: equipmentSlots
-        width: 500
         height: parent.height
+        width: 426.0 * currentScale + 16.0 * 2.0
 
         rectColor: root.darkDarkGray
 
@@ -286,28 +288,23 @@ Rectangle {
 
             source: "Assets/char_slots.png"
 
-            height: 448
-            width: 426
+            height: parent.height
+            width: 426.0 * currentScale
 
             CharacterStats {
-                x: parent.width - width - 70
-                y: parent.height - height - 65
+                x: parent.width - width - 135
+                y: parent.height - height - 100
             }
 
-            property int spacing: 5
-            property int leftOffset: 12
+            property double spacing: 5.0 * currentScale
+            property double leftOffset: 12.0 * currentScale
 
             EquipmentSlotBox {
                 id: headSlot
 
-                anchors {
-                    left: parent.left
-                    leftMargin: parent.leftOffset
-                    top: parent.top
-                    topMargin: 7
-                }
-
                 enchantOrientation: "RIGHT"
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 0)
                 z: 5
 
                 state: eqRect.state
@@ -335,11 +332,8 @@ Rectangle {
             EquipmentSlotBox {
                 id: neckSlot
 
-                anchors {
-                    left: headSlot.left
-                    top: headSlot.bottom
-                    topMargin: parent.spacing
-                }
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 1)
 
                 state: eqRect.state
                 slotString: "NECK"
@@ -368,11 +362,8 @@ Rectangle {
                 enchantOrientation: "RIGHT"
                 z: 3
 
-                anchors {
-                    left: neckSlot.left
-                    top: neckSlot.bottom
-                    topMargin: parent.spacing
-                }
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 2)
 
                 state: eqRect.state
                 slotString: "SHOULDERS"
@@ -401,11 +392,8 @@ Rectangle {
                 enchantOrientation: "RIGHT"
                 z: 2
 
-                anchors {
-                    left: shoulderSlot.left
-                    top: shoulderSlot.bottom
-                    topMargin: parent.spacing
-                }
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 3)
 
                 state: eqRect.state
                 slotString: "BACK"
@@ -432,12 +420,8 @@ Rectangle {
                 id: chestSlot
                 enchantOrientation: "RIGHT"
                 z: 1
-
-                anchors {
-                    left: backSlot.left
-                    top: backSlot.bottom
-                    topMargin: parent.spacing
-                }
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 4)
 
                 state: eqRect.state
                 slotString: "CHEST"
@@ -463,36 +447,23 @@ Rectangle {
 
             EquipmentSlotBox {
                 id: shirtSlot
-
-                anchors {
-                    left: chestSlot.left
-                    top: chestSlot.bottom
-                    topMargin: parent.spacing
-                }
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 5)
             }
 
             EquipmentSlotBox {
                 id: tabardSlot
-
-                anchors {
-                    left: shirtSlot.left
-                    top: shirtSlot.bottom
-                    topMargin: parent.spacing
-                }
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 6)
             }
 
             EquipmentSlotBox {
                 id: wristSlot
-
-                anchors {
-                    left: tabardSlot.left
-                    top: tabardSlot.bottom
-                    topMargin: parent.spacing
-                }
-
                 enchantOrientation: "RIGHT"
                 enchantLayoutDirection: "UP"
                 z: 5
+                x: parent.leftOffset
+                y: currentScale * (7 + 51 * 7)
 
                 state: eqRect.state
                 slotString: "WRIST"
@@ -518,11 +489,11 @@ Rectangle {
 
             EquipmentSlotBox {
                 id: ammoSlot
-                height: 34
-                width: 34
+                height: 34.0 * currentScale
+                width: height
 
-                x: 255
-                y: 398
+                x: 255.0 * currentScale
+                y: 398.0 * currentScale
                 state: eqRect.state
                 slotString: "PROJECTILE"
                 iconSource: equipment.projectileIcon
@@ -545,13 +516,13 @@ Rectangle {
             }
 
             Column {
-                width: 46
+                width: 46.0 * currentScale
                 height: parent.height
 
-                x: 367
-                y: 7
+                x: 367.0 * currentScale
+                y: 7.0 * currentScale
 
-                spacing: 5
+                spacing: 5.0 * currentScale
 
                 EquipmentSlotBox {
                     id: gloveSlot
@@ -751,19 +722,21 @@ Rectangle {
             }
 
             Row {
-                height: 46
-                width: 46*3 + 12
+                height: 46.0 * currentScale
+                width: (46.0 * 3 + 12.0) * currentScale
 
-                x: 85
-                y: 393
+                x: 85.0 * currentScale
+                y: 393.0 * currentScale
 
-                spacing: 6
+                spacing: 6.0 * currentScale
 
                 EquipmentSlotBox {
                     id: mainhandSlot
-                    enchantOrientation: "BELOW"
+                    enchantOrientation: "UP"
                     enchantLayoutDirection: "UP"
                     z: 3
+                    height: parent.height
+                    width: height
 
                     state: eqRect.state
                     slotString: "MAINHAND"
@@ -787,9 +760,11 @@ Rectangle {
 
                 EquipmentSlotBox {
                     id: offhandSlot
-                    enchantOrientation: "BELOW"
+                    enchantOrientation: "UP"
                     enchantLayoutDirection: "UP"
                     z: 2
+                    height: parent.height
+                    width: height
 
                     state: eqRect.state
                     slotString: "OFFHAND"
@@ -813,9 +788,11 @@ Rectangle {
 
                 EquipmentSlotBox {
                     id: rangedSlot
-                    enchantOrientation: "BELOW"
+                    enchantOrientation: "UP"
                     enchantLayoutDirection: "UP"
                     z: 1
+                    height: parent.height
+                    width: height
 
                     state: eqRect.state
                     slotString: eqRect.displayRangedWeapon ? "RANGED" : "RELIC"
@@ -842,8 +819,8 @@ Rectangle {
             EquipmentSlotBox {
                 id: quiverSlot
 
-                x: 302
-                y: 393
+                x: 302 * currentScale
+                y: 393 * currentScale
                 state: eqRect.state
                 slotString: "QUIVER"
                 iconSource: equipment.quiverIcon
@@ -856,6 +833,8 @@ Rectangle {
                 EquipmentTooltip {
                     id: quiverTooltip
                     slotString: parent.slotString
+                    height: parent.height
+                    width: height
 
                     anchors {
                         bottom: parent.top

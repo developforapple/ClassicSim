@@ -2,8 +2,8 @@ import QtQuick 2.0
 
 Rectangle {
     color: root.darkGray
-    height: width / 3 * 1.77 + 75
-    width: 700
+    height: parent.height//width / 3 * 1.77 + 75
+    width: (height - 75) / 1.77 * 3 //700
 
     Column {
         anchors.fill: parent
@@ -143,7 +143,7 @@ Rectangle {
         }
 
         Row {
-            height: 50
+            height: 32
             width : parent.width
 
             Rectangle {

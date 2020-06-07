@@ -5,7 +5,7 @@ Rectangle {
     width: classChoiceHeight * 4 + 10
     height: classChoiceHeight * 2 + 2
 
-    property int classChoiceHeight: 55
+    property int classChoiceHeight: 48
 
     property url baseUrl: "Assets/classes/Ui-charactercreate-classes_"
     property url urlDruid: baseUrl + "druid.png"

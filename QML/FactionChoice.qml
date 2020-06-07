@@ -4,8 +4,8 @@ import Faction 1.0
 Rectangle {
     color: "transparent"
 
-    property int buttonWidth: 145
-    property int buttonHeight: 55
+    property int buttonWidth: 138
+    property int buttonHeight: 48
 
     height: buttonHeight * 2
     width: buttonWidth
@@ -19,8 +19,8 @@ Rectangle {
 
             Image {
                 id: allianceImage
-                height: 30
-                width: 30
+                height: 28
+                width: 28
                 source: "Assets/Alliance_64.png"
 
                 anchors {
@@ -59,8 +59,8 @@ Rectangle {
 
             Image {
                 id: hordeImage
-                height: 30
-                width: 30
+                height: 28
+                width: 28
                 source: "Assets/Horde_64.png"
 
                 anchors {

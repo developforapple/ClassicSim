@@ -18,7 +18,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 45
+            width: parent.width * 0.05
 
             onRectangleClicked: itemModel.selectSort(ItemSort.ByIlvl)
             onRectangleRightClicked: itemModel.selectSort(ItemSort.ByIlvl)
@@ -34,7 +34,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 300
+            width: parent.width * 0.4
 
             onRectangleClicked: itemModel.selectSort(ItemSort.ByName)
             onRectangleRightClicked: itemModel.selectSort(ItemSort.ByName)
@@ -50,7 +50,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 100
+            width: parent.width * 0.2
 
             onRectangleClicked: itemModel.selectSort(ItemSort.ByPhase)
             onRectangleRightClicked: itemModel.selectSort(ItemSort.ByPhase)
@@ -66,7 +66,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 90
+            width: parent.width * 0.1
 
             onRectangleClicked: itemModel.selectSort(ItemSort.ByItemType)
             onRectangleRightClicked: itemModel.selectSort(ItemSort.ByItemType)
@@ -82,7 +82,7 @@ RectangleBorders {
         RectangleBorders {
             anchors.bottom: parent.bottom
             height: sortBoxHeight
-            width: 402
+            width: parent.width * 0.25
 
             rectColor: root.darkDarkGray
 

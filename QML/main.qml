@@ -140,6 +140,7 @@ Window {
         }
 
         width: 200
+        height: 32
         model: [
             settings.getDescriptionForPhase(ContentPhase.MoltenCore),
             settings.getDescriptionForPhase(ContentPhase.DireMaul),
@@ -163,6 +164,7 @@ Window {
         }
 
         width: 200
+        height: 32
         model: [
             qsTr("Beast"),
             qsTr("Demon"),
@@ -189,6 +191,7 @@ Window {
         }
 
         width: 200
+        height: 32
         model: [
             qsTr("Standard"),
             qsTr("Vaelastrasz"),
@@ -210,10 +213,10 @@ Window {
         anchors {
             right: parent.right
             top: parent.top
+            bottom: mainView.top
         }
 
         width: 220
-        height: 120
 
         rectColor: darkDarkGray
 
@@ -262,7 +265,7 @@ Window {
             id: percentualDifference
             anchors {
                 bottom: parent.bottom
-                bottomMargin: - 10
+                bottomMargin: 15
             }
 
             width: parent.width
@@ -324,7 +327,7 @@ Window {
 
         anchors {
             right: rightNavBar.left
-            top: continuousDpsUpdateRect.bottom
+            top: factionChoice.bottom
             left: parent.left
             bottom: quickSwitchBar.top
         }
@@ -475,7 +478,7 @@ Window {
             bottom: parent.bottom
         }
 
-        height: 125
+        height: 85
     }
 
     GradientButton {

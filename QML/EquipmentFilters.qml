@@ -1,7 +1,7 @@
 import QtQuick 2.0
 
 RectangleBorders {
-    width: 150
+    width: 120
     height: parent.height
     signal toggleStatFilterSelection();
 
