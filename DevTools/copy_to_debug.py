@@ -11,6 +11,7 @@ def main():
     copy_rotations()
     copy_items()
     copy_random_affixes()
+    copy_qm_files()
     create_saves()
 
 
@@ -67,6 +68,13 @@ def copy_random_affixes():
     source = REPO_ROOT / "Equipment" / "EquipmentDb"
     shutil.copy2(src=str(source / "random_affixes.xml"),
                  dst=str(DEBUG_DIR / "random_affixes.xml"))
+
+def copy_qm_files():
+    tr_dir = DEBUG_DIR / "translations"
+    if not (tr_dir).exists():
+        os.mkdir((tr_dir))
+    shutil.copy2(src=str(REPO_ROOT / "zh.qm"),
+                 dst=str(tr_dir / "zh.qm"))
 
 
 def create_saves():
