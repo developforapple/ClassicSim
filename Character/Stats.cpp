@@ -100,10 +100,10 @@ void Stats::add(const QString& key, const QString& value) {
         this->equip_effects_tooltip.append(QObject::tr("Equip: Increased Daggers +%1.").arg(value));
     } else if (key == "MACE_SKILL") {
         this->increase_mace_skill(value.toUInt());
-        this->equip_effects_tooltip.append(QObject::tr("Equip: Increased Swords +%1.").arg(value));
+        this->equip_effects_tooltip.append(QObject::tr("Equip: Increased Maces +%1.").arg(value));
     } else if (key == "SWORD_SKILL") {
         this->increase_sword_skill(value.toUInt());
-        this->equip_effects_tooltip.append(QObject::tr("Equip: Increased Sword +%1.").arg(value));
+        this->equip_effects_tooltip.append(QObject::tr("Equip: Increased Swords +%1.").arg(value));
     } else if (key == "TWOHAND_AXE_SKILL") {
         this->increase_twohand_axe_skill(value.toUInt());
         this->equip_effects_tooltip.append(QObject::tr("Equip: Increased Two-handed Axes +%1.").arg(value));

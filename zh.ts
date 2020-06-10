@@ -280,7 +280,7 @@
 <context>
     <name>ItemEntry</name>
     <message>
-        <location filename="QML/ItemEntry.qml" line="76"/>
+        <location filename="QML/ItemEntry.qml" line="95"/>
         <source> &lt;Random enchantment&gt;</source>
         <translation> &lt;随机附魔&gt;</translation>
     </message>
@@ -414,9 +414,51 @@
         <translation>+232 攻击强度</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="16"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="93"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="122"/>
         <location filename="Spells/ExternalBuff.cpp" line="409"/>
         <source>Rallying Cry of the Dragonslayer</source>
         <translation>屠龙者的咆哮</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="20"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="98"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="128"/>
+        <location filename="Spells/ExternalBuff.cpp" line="463"/>
+        <source>Curse of Recklessness</source>
+        <oldsource>Curse of Recklessnessm</oldsource>
+        <translation>鲁莽诅咒</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="27"/>
+        <source>Warrior DW Fury Pre-Raid</source>
+        <translation>5人本级别双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="38"/>
+        <source>Warrior DW Fury BWL</source>
+        <translation>BWL级双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="49"/>
+        <source>Warrior DW Fury AQ</source>
+        <translation>安其拉级双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="60"/>
+        <source>Warrior DW Fury Naxx</source>
+        <translation>Naxx级双持狂暴战</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="71"/>
+        <source>Hunter 8/8 T2</source>
+        <translation>8T2猎人</translation>
+    </message>
+    <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="108"/>
+        <source>Fire Mage T3</source>
+        <translation>T3火法</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="410"/>
@@ -424,6 +466,8 @@
         <translation>+10% 法术爆击，+5%近战和远程攻击爆击，+140攻击强度</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="95"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="124"/>
         <location filename="Spells/ExternalBuff.cpp" line="412"/>
         <source>Spirit of Zandalar</source>
         <translation>赞达拉之魂</translation>
@@ -434,6 +478,9 @@
         <translation>移动速度提高10%，所有属性提高15%</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="17"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="94"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="123"/>
         <location filename="Spells/ExternalBuff.cpp" line="415"/>
         <source>Songflower Serenade</source>
         <translation>风歌夜曲</translation>
@@ -445,6 +492,8 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="43"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="11"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="86"/>
         <location filename="Spells/ExternalBuff.cpp" line="418"/>
         <source>Elixir of the Mongoose</source>
         <translation>猫鼬药剂</translation>
@@ -456,6 +505,8 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="40"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="10"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="84"/>
         <location filename="Spells/ExternalBuff.cpp" line="421"/>
         <source>Elixir of Brute Force</source>
         <translation>蛮力药剂</translation>
@@ -467,6 +518,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="40"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="85"/>
         <location filename="Spells/ExternalBuff.cpp" line="424"/>
         <source>Elixir of Giants</source>
         <translation>巨人药剂</translation>
@@ -479,6 +531,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="41"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="87"/>
         <location filename="Spells/ExternalBuff.cpp" line="427"/>
         <source>Winterfall Firewater</source>
         <translation>冬泉火酒</translation>
@@ -490,6 +543,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="40"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="13"/>
         <location filename="Spells/ExternalBuff.cpp" line="430"/>
         <source>Juju Power</source>
         <translation>魂能之力</translation>
@@ -500,6 +554,9 @@
         <translation>+30 力量</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="8"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="81"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="116"/>
         <location filename="Spells/ExternalBuff.cpp" line="433"/>
         <source>Mark of the Wild</source>
         <translation>野性印记</translation>
@@ -510,6 +567,8 @@
         <translation>+16 所有属性，+384 护甲，+27 所有抗性</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="14"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="88"/>
         <location filename="Spells/ExternalBuff.cpp" line="436"/>
         <source>Scroll of Strength IV</source>
         <translation>力量卷轴 IV</translation>
@@ -537,6 +596,8 @@
         <translation>土狼兴奋剂</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="79"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="114"/>
         <location filename="Spells/ExternalBuff.cpp" line="445"/>
         <source>Greater Blessing of Kings</source>
         <translation>强效王者祝福</translation>
@@ -547,6 +608,7 @@
         <translation>所有属性提高10%</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="78"/>
         <location filename="Spells/ExternalBuff.cpp" line="448"/>
         <source>Greater Blessing of Might</source>
         <translation>强效力量祝福</translation>
@@ -557,6 +619,8 @@
         <translation>近战攻击强度提高185点</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="80"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="115"/>
         <location filename="Spells/ExternalBuff.cpp" line="451"/>
         <source>Greater Blessing of Wisdom</source>
         <translation>强效智慧祝福</translation>
@@ -567,6 +631,7 @@
         <translation>每5秒回复33点法力值。</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="7"/>
         <location filename="Spells/ExternalBuff.cpp" line="454"/>
         <source>Strength of Earth Totem</source>
         <translation>大地之力图腾</translation>
@@ -587,6 +652,9 @@
         <translation>每2秒恢复10点法力值。</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="22"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="100"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="130"/>
         <location filename="Spells/ExternalBuff.cpp" line="460"/>
         <source>Annihilator Proc</source>
         <translation>歼灭者特效</translation>
@@ -595,11 +663,6 @@
         <location filename="Spells/ExternalBuff.cpp" line="461"/>
         <source>Reduces target armor by 600.</source>
         <translation>目标护甲值降低600点。</translation>
-    </message>
-    <message>
-        <location filename="Spells/ExternalBuff.cpp" line="463"/>
-        <source>Curse of Recklessness</source>
-        <translation>鲁莽诅咒</translation>
     </message>
     <message>
         <location filename="Spells/ExternalBuff.cpp" line="464"/>
@@ -617,6 +680,9 @@
         <translation>+25 智力</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="21"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="99"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="129"/>
         <location filename="Spells/ExternalBuff.cpp" line="469"/>
         <source>Faerie Fire</source>
         <translation>精灵之火</translation>
@@ -629,6 +695,9 @@
     <message>
         <location filename="Class/Warrior/Spells/SunderArmor.cpp" line="15"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="125"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="19"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="97"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="127"/>
         <location filename="Spells/ExternalBuff.cpp" line="472"/>
         <source>Sunder Armor</source>
         <translation>破甲攻击</translation>
@@ -670,6 +739,8 @@
         <translation>+10 智力</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="83"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="118"/>
         <location filename="Spells/ExternalBuff.cpp" line="481"/>
         <source>Mageblood Potion</source>
         <translation>魔血药剂</translation>
@@ -692,6 +763,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="38"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="120"/>
         <location filename="Spells/ExternalBuff.cpp" line="487"/>
         <source>Flask of Supreme Power</source>
         <translation>超级能量合剂</translation>
@@ -702,6 +774,7 @@
         <translation>+150 法术伤害</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="92"/>
         <location filename="Spells/ExternalBuff.cpp" line="490"/>
         <source>Fengus&apos; Ferocity</source>
         <translation>芬古斯的狂暴</translation>
@@ -712,6 +785,8 @@
         <translation>近战攻击强度提高200点</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="15"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="90"/>
         <location filename="Spells/ExternalBuff.cpp" line="493"/>
         <source>Battle Squawk</source>
         <translation>作战鸣叫</translation>
@@ -722,6 +797,7 @@
         <translation>近战攻击速度提高5%</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="119"/>
         <location filename="Spells/ExternalBuff.cpp" line="496"/>
         <source>Greater Arcane Elixir</source>
         <translation>强效奥法药剂</translation>
@@ -733,6 +809,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="42"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="89"/>
         <location filename="Spells/ExternalBuff.cpp" line="499"/>
         <source>Ground Scorpok Assay</source>
         <translation>厚甲蝎药粉</translation>
@@ -1310,6 +1387,7 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="41"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="12"/>
         <location filename="Spells/ExternalBuff.cpp" line="502"/>
         <source>Juju Might</source>
         <translation>魂能之击</translation>
@@ -1320,6 +1398,8 @@ vs Undead</source>
         <translation>+40 攻击强度</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="91"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="121"/>
         <location filename="Spells/ExternalBuff.cpp" line="505"/>
         <source>Slip&apos;kik&apos;s Savvy</source>
         <translation>斯里基克的机智</translation>
@@ -1330,6 +1410,7 @@ vs Undead</source>
         <translation>3% 法术爆击几率</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="125"/>
         <location filename="Spells/ExternalBuff.cpp" line="508"/>
         <source>Sayge&apos;s Dark Fortune of Damage</source>
         <translation>塞格的黑暗塔罗牌：伤害</translation>
@@ -1341,6 +1422,8 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="39"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="82"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="117"/>
         <location filename="Spells/ExternalBuff.cpp" line="511"/>
         <source>Nightfin Soup</source>
         <translation>夜鳞鱼汤</translation>
@@ -1526,6 +1609,9 @@ vs Undead</source>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="13"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="101"/>
         <location filename="Class/Warlock/WarlockSpells.cpp" line="15"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="23"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="101"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="131"/>
         <location filename="Spells/ExternalBuff.cpp" line="517"/>
         <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="291"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="27"/>
@@ -1541,6 +1627,7 @@ vs Undead</source>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="39"/>
         <location filename="Class/Common/Spells/DragonbreathChili.cpp" line="14"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="9"/>
         <location filename="Spells/ExternalBuff.cpp" line="520"/>
         <source>Dragonbreath Chili</source>
         <translation>龙息红椒</translation>
@@ -1553,6 +1640,8 @@ vs Undead</source>
     <message>
         <location filename="Class/Mage/Buffs/FireVulnerability.cpp" line="7"/>
         <location filename="Class/Mage/MageSpells.cpp" line="83"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="24"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="102"/>
         <location filename="Spells/ExternalBuff.cpp" line="523"/>
         <source>Fire Vulnerability</source>
         <translation>火焰弱点</translation>
@@ -1739,15 +1828,9 @@ vs Undead</source>
         <translation>装备：匕首技能提高%1点。</translation>
     </message>
     <message>
-        <location filename="Character/Stats.cpp" line="103"/>
+        <location filename="Character/Stats.cpp" line="106"/>
         <location filename="Equipment/Item/Item.cpp" line="669"/>
         <source>Equip: Increased Swords +%1.</source>
-        <translatorcomment>Is &quot;MACE&quot;, not &quot;Swords&quot;.</translatorcomment>
-        <translation>装备：锤类武器技能提高%1点。</translation>
-    </message>
-    <message>
-        <location filename="Character/Stats.cpp" line="106"/>
-        <source>Equip: Increased Sword +%1.</source>
         <translation>装备：剑类武器技能提高%1点。</translation>
     </message>
     <message>
@@ -2032,6 +2115,7 @@ vs Undead</source>
         <translation type="vanished">巨魔</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="25"/>
         <location filename="Target/Target.cpp" line="16"/>
         <location filename="Target/Target.cpp" line="24"/>
         <location filename="Test/TestSpell.cpp" line="960"/>
@@ -4509,6 +4593,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="8"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="133"/>
         <source>Fire</source>
         <translation>火焰</translation>
     </message>
@@ -8934,6 +9019,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>毁灭者的黑暗之握</translation>
     </message>
     <message>
+        <location filename="Character/Stats.cpp" line="103"/>
         <location filename="Equipment/Item/Item.cpp" line="666"/>
         <source>Equip: Increased Maces +%1.</source>
         <translation>装备：锤类武器技能提高%1点。</translation>
@@ -9686,6 +9772,10 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>死亡执行者的护腿</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="34"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="45"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="56"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="67"/>
         <location filename="Test/Rotation/TestRotationFileReader.cpp" line="48"/>
         <source>DW Fury High Rage</source>
         <translation>双持狂暴战（打压制前不泄怒）</translation>
@@ -9743,6 +9833,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>踏云腿甲</translation>
     </message>
     <message>
+        <location filename="GUI/TemplateCharacters.cpp" line="104"/>
         <location filename="Test/Rotation/TestRotationFileReader.cpp" line="134"/>
         <source>Aimed/Multi-Shot</source>
         <translation>瞄准/多重射击</translation>
