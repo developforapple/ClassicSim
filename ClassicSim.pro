@@ -1,5 +1,5 @@
 QT += quick charts
-#CONFIG += c++11 console
+CONFIG += c++17 console
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -118,6 +118,7 @@ SOURCES += main.cpp \
     Event/Event.cpp \
     Engine/Engine.cpp \
     Event/Events/EncounterEnd.cpp \
+    Event/Events/IncomingDamageEvent.cpp \
     Event/Events/EncounterStart.cpp \
     Event/Events/SpellCallback.cpp \
     GUI/Models/DamageMetersModel.cpp \
@@ -645,6 +646,7 @@ HEADERS += \
     Event/Event.h \
     Engine/Engine.h \
     Event/Events/EncounterEnd.h \
+    Event/Events/IncomingDamageEvent.h \
     Event/Events/EncounterStart.h \
     Character/Character.h \
     Character/Race/Race.h \
