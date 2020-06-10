@@ -1,8 +1,7 @@
 #include "i18n.h"
 #include <QTranslator>
 #include <QApplication>
-#include <Winnls.h>
-#pragma comment(lib,"Kernel32.lib")
+#include <winnls.h>
 
 I18N::I18N() {
     LANGID lid = GetSystemDefaultLangID();
@@ -29,7 +28,7 @@ void I18N::init(QApplication& app) {
 
     QString filename = "";
     if (lang == "zh") {
-        filename = "zh.qm";
+        filename = "translations/zh.qm";
     }
 
     if (filename.length() > 0) {
