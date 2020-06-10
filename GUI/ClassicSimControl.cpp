@@ -262,7 +262,7 @@ void ClassicSimControl::set_character(Character* pchar) {
 
     selectDisplayStat(get_attack_mode_as_string());
 
-    raid_setup[0][0] = QVariantMap {{"text", "You"}, {"color", current_char->class_color}, {"selected", true}};
+    raid_setup[0][0] = QVariantMap {{"text", QObject::tr("You")}, {"color", current_char->class_color}, {"selected", true}};
 
     emit raceChanged();
     emit statsChanged();
@@ -1514,7 +1514,7 @@ QString ClassicSimControl::get_initial_upper_case_rest_lower_case(const QString&
 }
 
 QString ClassicSimControl::get_sim_progress_string() const {
-    return sim_in_progress ? "Running..." : "Click me!";
+    return sim_in_progress ? QObject::tr("Running...") : QObject::tr("Click me!");
 }
 
 QString ClassicSimControl::getStartWindow() const {

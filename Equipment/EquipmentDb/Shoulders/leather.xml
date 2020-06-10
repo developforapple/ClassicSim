@@ -238,7 +238,7 @@
 	</item>
 	
 	<item id="20689" phase="4">
-		<info name="Abyssal Leather Shoulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_shoulder_08.png"/>
+		<info name="Abyssal Leather Shoulders" name_zh="深渊皮甲护肩" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_shoulder_08.png"/>
 		<stats>
 			<stat type="ARMOR" value="141"/>
 			<stat type="HIT_CHANCE" value="0.01"/>

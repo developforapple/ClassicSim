@@ -9125,119 +9125,119 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>切割</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="262"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="265"/>
         <source>You</source>
         <translation>你</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1694"/>
+        <location filename="GUI/GUIControl.cpp" line="92"/>
         <source>%1 - %2 Damage</source>
         <translation>%1 - %2伤害</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1695"/>
+        <location filename="GUI/GUIControl.cpp" line="93"/>
         <source>(%1 damage per second)</source>
         <translation>（每秒伤害%1）</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1696"/>
+        <location filename="GUI/GUIControl.cpp" line="94"/>
         <source>Speed </source>
         <translation>速度 </translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1703"/>
+        <location filename="GUI/GUIControl.cpp" line="101"/>
         <source>Adds %1 damage per second</source>
         <translation>每秒伤害提高%1</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1733"/>
+        <location filename="GUI/GUIControl.cpp" line="131"/>
         <source>Classes: </source>
         <translation>职业： </translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1735"/>
+        <location filename="GUI/GUIControl.cpp" line="133"/>
         <source>, </source>
         <translation>， </translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1775"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1517"/>
         <source>Running...</source>
         <translation>正在运行...</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1775"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1517"/>
         <source>Click me!</source>
         <translation>点我！</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1983"/>
+        <location filename="GUI/GUIControl.cpp" line="26"/>
         <source>Binds when equipped</source>
         <translation>装备后绑定</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1983"/>
+        <location filename="GUI/GUIControl.cpp" line="26"/>
         <source>Binds when picked up</source>
         <translation>拾取后绑定</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1984"/>
+        <location filename="GUI/GUIControl.cpp" line="27"/>
         <source>Unique</source>
         <translation>唯一</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1992"/>
+        <location filename="GUI/GUIControl.cpp" line="35"/>
         <source>One-hand</source>
         <translation>单手</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1994"/>
+        <location filename="GUI/GUIControl.cpp" line="37"/>
         <source>Main Hand</source>
         <translation>主手</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1997"/>
-        <location filename="GUI/ClassicSimControl.cpp" line="1999"/>
+        <location filename="GUI/GUIControl.cpp" line="40"/>
+        <location filename="GUI/GUIControl.cpp" line="42"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="180"/>
         <source>Offhand</source>
         <translation>副手</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2001"/>
+        <location filename="GUI/GUIControl.cpp" line="44"/>
         <source>Two-hand</source>
         <translation>双手</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2005"/>
+        <location filename="GUI/GUIControl.cpp" line="48"/>
         <source>Ranged</source>
         <translation>远程</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2009"/>
+        <location filename="GUI/GUIControl.cpp" line="52"/>
         <source>Finger</source>
         <translation>手指</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2011"/>
+        <location filename="GUI/GUIControl.cpp" line="54"/>
         <source>Hands</source>
         <translation>手</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2013"/>
+        <location filename="GUI/GUIControl.cpp" line="56"/>
         <source>Waist</source>
         <translation>腰部</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2015"/>
+        <location filename="GUI/GUIControl.cpp" line="58"/>
         <source>Feet</source>
         <translation>脚</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2017"/>
+        <location filename="GUI/GUIControl.cpp" line="60"/>
         <source>Shoulder</source>
         <translation>手腕</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="2024"/>
+        <location filename="GUI/GUIControl.cpp" line="67"/>
         <source>Requires level %1</source>
         <translation>需要等级 %1</translation>
     </message>
@@ -10740,7 +10740,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>运行</translation>
     </message>
     <message>
-        <location filename="QML/main.qml" line="532"/>
+        <location filename="QML/main.qml" line="570"/>
         <source>All art assets ©Blizzard Entertainment (2019).</source>
         <translation>版权所有 ©Blizzard Entertainment (2019).</translation>
     </message>
