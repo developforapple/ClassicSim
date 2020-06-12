@@ -84,6 +84,7 @@
 #include "Warrior.h"
 #include "Weapon.h"
 #include "WeaponModel.h"
+#include "Utils/i18n.h"
 
 ClassicSimControl::ClassicSimControl(QObject* parent) :
     QObject(parent),
@@ -1543,7 +1544,7 @@ void ClassicSimControl::update_progress(double percent) {
 }
 
 Character* ClassicSimControl::load_character(const QString& class_name) {
-    QFile file(QString("Saves/%1-setup.xml").arg(class_name));
+    QFile file(QString("Saves/%1-setup-%2.xml").arg(class_name).arg(L_LANG));
 
     Character* pchar = get_new_character(class_name);
 
@@ -1616,7 +1617,7 @@ void ClassicSimControl::save_user_setup(Character* pchar) {
     if (pchar == nullptr)
         pchar = current_char;
 
-    QFile file(QString("Saves/%1-setup.xml").arg(pchar->class_name));
+    QFile file(QString("Saves/%1-setup-%2.xml").arg(pchar->class_name).arg(L_LANG));
     file.remove();
 
     if (file.open(QIODevice::ReadWrite)) {
@@ -1640,7 +1641,7 @@ void ClassicSimControl::save_user_setup(Character* pchar) {
 }
 
 void ClassicSimControl::save_configuration() {
-    QFile file("Saves/GUI-setup.xml");
+    QFile file(QString("Saves/GUI-setup-%1.xml").arg(L_LANG));
     file.remove();
 
     if (file.open(QIODevice::ReadWrite)) {
@@ -1672,7 +1673,7 @@ void ClassicSimControl::save_configuration() {
 
 void ClassicSimControl::load_configuration() {
     // Leave this old filename for backwards compatibility
-    QFile file("Saves/GUI-setup.xml");
+    QFile file(QString("Saves/GUI-setup-%1.xml").arg(L_LANG));
 
     if (file.open(QIODevice::ReadOnly)) {
         QXmlStreamReader reader(&file);
