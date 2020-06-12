@@ -2915,7 +2915,7 @@ vs Undead</source>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="152"/>
         <source>Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by %1%.</source>
-        <translation>使你的星火术、月火术和愤怒的致命一击伤害提高%1%。</translation>
+        <translation>使你的星火术、月火术和愤怒的爆击伤害提高%1%。</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/Balance.cpp" line="165"/>
@@ -2942,7 +2942,7 @@ vs Undead</source>
         <source>Transforms the Druid into Moonkin Form.  While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical chance increased by 3%. The Moonkin can only cast Balance spells while shapeshifted.
 
 The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.</source>
-        <translation>德鲁伊进入枭兽形态，在这种形态下，护甲值提高360%，半径30码范围内的所有队友的法术致命一击率提高360%。枭兽形态下只能施放平衡系的法术。
+        <translation>德鲁伊进入枭兽形态，在这种形态下，护甲值提高360%，半径30码范围内的所有队友的法术爆击率提高360%。枭兽形态下只能施放平衡系的法术。
 
 变身可以解除施法者身上的所有变形和移动限制效果。</translation>
     </message>
@@ -3027,7 +3027,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="95"/>
         <source>Gives you a %1% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.</source>
-        <translation>使你在熊形态和巨熊形态下对目标造成致命一击后，有%1%的几率获得5点怒气值。</translation>
+        <translation>使你在熊形态和巨熊形态下对目标造成爆击后，有%1%的几率获得5点怒气值。</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="104"/>
@@ -3042,7 +3042,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="123"/>
         <source>Increases your critical strike chance while in Bear, Dire Bear or Cat Form by %1%.</source>
-        <translation>使你在猎豹、熊或巨熊形态下的致命一击几率提高%1%。</translation>
+        <translation>使你在猎豹、熊或巨熊形态下的爆击几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Class/Druid/TalentTrees/FeralCombat.cpp" line="131"/>
@@ -3712,7 +3712,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="128"/>
         <source>Gives your pet a %1% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.</source>
-        <translation>使你的宠物有%1%的几率在对敌人造成致命一击后获得攻击速度提高30%的效果，持续8秒。</translation>
+        <translation>使你的宠物有%1%的几率在对敌人造成爆击后获得攻击速度提高30%的效果，持续8秒。</translation>
     </message>
     <message>
         <location filename="Class/Hunter/TalentTrees/BeastMastery.cpp" line="137"/>

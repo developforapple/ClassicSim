@@ -42,8 +42,8 @@ int main(int argc, char* argv[]) {
 
     I18N::get_instance().init(app);
 
-    //Test test;
-    //test.test_all();
+    Test test;
+    test.test_all();
 
     auto gui_control = new GUIControl();
 
