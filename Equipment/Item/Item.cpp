@@ -3,6 +3,7 @@
 #include <cmath>
 #include <utility>
 
+#include <QObject>
 #include <QDebug>
 
 #include "ArmorPenetrationBuff.h"
@@ -938,6 +939,69 @@ int Item::get_type_int(const QString& type_string) {
         return QuiverTypes::AMMO_POUCH;
 
     return -1;
+}
+
+QString Item::get_tooltip_type_string(const QString &type_string) {
+    if (type_string == "AXE")
+        return QObject::tr("Axe", "Weapon Type");
+    if (type_string == "DAGGER")
+        return QObject::tr("Dagger", "Weapon type");
+    if (type_string == "FIST")
+        return QObject::tr("Fist", "Weapon type");
+    if (type_string == "MACE")
+        return QObject::tr("Mace", "Weapon type");
+    if (type_string == "POLEARM")
+        return QObject::tr("Polearm", "Weapon type");
+    if (type_string == "STAFF")
+        return QObject::tr("Staff", "Weapon type");
+    if (type_string == "SWORD")
+        return QObject::tr("Sword", "Weapon type");
+    if (type_string == "BOW")
+        return QObject::tr("Bow", "Weapon type");
+    if (type_string == "CROSSBOW")
+        return QObject::tr("Crossbow", "Weapon type");
+    if (type_string == "GUN")
+        return QObject::tr("Gun", "Weapon type");
+    if (type_string == "THROWN")
+        return QObject::tr("Thrown", "Weapon type");
+    if (type_string == "WAND")
+        return QObject::tr("Wand", "Weapon type");
+    if (type_string == "IDOL")
+        return QObject::tr("Idol", "Weapon type");
+    if (type_string == "LIBRAM")
+        return QObject::tr("Libram", "Weapon type");
+    if (type_string == "TOTEM")
+        return QObject::tr("Totem", "Weapon type");
+    if (type_string == "SHIELD")
+        return QObject::tr("Shield", "Weapon type");
+    if (type_string == "CASTER_OFFHAND")
+        return QObject::tr("Offhand", "Weapon type");
+    if (type_string == "TWOHAND_AXE")
+        return QObject::tr("2h Axe", "Weapon type");
+    if (type_string == "TWOHAND_MACE")
+        return QObject::tr("2h Mace", "Weapon type");
+    if (type_string == "TWOHAND_SWORD")
+        return QObject::tr("Sword", "Weapon type");
+    if (type_string == "CLOTH")
+        return QObject::tr("Cloth", "Item type");
+    if (type_string == "LEATHER")
+        return QObject::tr("Leather", "Item type");
+    if (type_string == "MAIL")
+        return QObject::tr("Mail", "Item type");
+    if (type_string == "PLATE")
+        return QObject::tr("Plate", "Item type");
+    if (type_string == "QUIVER")
+        return QObject::tr("Quiver", "Item type");
+    if (type_string == "AMMO_POUCH")
+        return QObject::tr("Ammo Pouch", "Item type");
+    if (type_string == "RING")
+        return QObject::tr("Ring", "Item type");
+    if (type_string == "TRINKET")
+        return QObject::tr("Trinket", "Item type");
+    if (type_string == "AMULET")
+        return QObject::tr("Amulet", "Item type");
+
+    return "Unknown";
 }
 
 void Item::unsupported_stat(const QString& stat) {

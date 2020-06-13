@@ -1,5 +1,6 @@
 #include "ItemTypeFilterModel.h"
 
+#include <QObject>
 #include <QDebug>
 
 #include "Character.h"
@@ -171,55 +172,55 @@ void ItemTypeFilterModel::add_weapon_item_type_filters() {
     for (int available_type : available_types) {
         switch (available_type) {
         case WeaponTypes::AXE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::AXE, QObject::tr("Axe")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::AXE, QObject::tr("Axe", "Weapon type")));
             break;
         case WeaponTypes::BOW:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::BOW, QObject::tr("Bow")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::BOW, QObject::tr("Bow", "Weapon type")));
             break;
         case WeaponTypes::CASTER_OFFHAND:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CASTER_OFFHAND, QObject::tr("Offhand")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CASTER_OFFHAND, QObject::tr("Offhand", "Weapon type")));
             break;
         case WeaponTypes::CROSSBOW:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CROSSBOW, QObject::tr("Crossbow")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::CROSSBOW, QObject::tr("Crossbow", "Weapon type")));
             break;
         case WeaponTypes::DAGGER:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::DAGGER, QObject::tr("Dagger")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::DAGGER, QObject::tr("Dagger", "Weapon type")));
             break;
         case WeaponTypes::FIST:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::FIST, QObject::tr("Fist")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::FIST, QObject::tr("Fist", "Weapon type")));
             break;
         case WeaponTypes::GUN:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::GUN, QObject::tr("Gun")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::GUN, QObject::tr("Gun", "Weapon type")));
             break;
         case WeaponTypes::MACE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::MACE, QObject::tr("Mace")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::MACE, QObject::tr("Mace", "Weapon type")));
             break;
         case WeaponTypes::POLEARM:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::POLEARM, QObject::tr("Polearm")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::POLEARM, QObject::tr("Polearm", "Weapon type")));
             break;
         case WeaponTypes::SHIELD:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SHIELD,QObject::tr("Shield")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SHIELD,QObject::tr("Shield", "Weapon type")));
             break;
         case WeaponTypes::STAFF:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::STAFF, QObject::tr("Staff")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::STAFF, QObject::tr("Staff", "Weapon type")));
             break;
         case WeaponTypes::SWORD:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SWORD, QObject::tr("Sword")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::SWORD, QObject::tr("Sword", "Weapon type")));
             break;
         case WeaponTypes::THROWN:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::THROWN, QObject::tr("Thrown")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::THROWN, QObject::tr("Thrown", "Weapon type")));
             break;
         case WeaponTypes::TWOHAND_AXE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_AXE, QObject::tr("Two-hand Axe")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_AXE, QObject::tr("Two-hand Axe", "Weapon type")));
             break;
         case WeaponTypes::TWOHAND_MACE:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_MACE, QObject::tr("Two-hand Mace")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_MACE, QObject::tr("Two-hand Mace", "Weapon type")));
             break;
         case WeaponTypes::TWOHAND_SWORD:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_SWORD, QObject::tr("Two-hand Sword")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::TWOHAND_SWORD, QObject::tr("Two-hand Sword", "Weapon type")));
             break;
         case WeaponTypes::WAND:
-            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::WAND, QObject::tr("Wand")));
+            item_type_filters[equipment_slot].append(ItemTypeFilter(WeaponTypes::WAND, QObject::tr("Wand", "Weapon type")));
             break;
         }
     }

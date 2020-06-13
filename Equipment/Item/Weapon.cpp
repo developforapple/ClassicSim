@@ -240,45 +240,45 @@ bool Weapon::is_2hand() const {
 QString Weapon::get_weapon_type_string() const {
     switch (weapon_type) {
     case WeaponTypes::AXE:
-        return "Axe";
+        return QObject::tr("Axe", "Weapon type");
     case WeaponTypes::TWOHAND_AXE:
-        return "2h Axe";
+        return QObject::tr("2h Axe", "Weapon type");
     case WeaponTypes::DAGGER:
-        return "Dagger";
+        return QObject::tr("Dagger", "Weapon type");
     case WeaponTypes::FIST:
-        return "Fist";
+        return QObject::tr("Fist", "Weapon type");
     case WeaponTypes::MACE:
-        return "Mace";
+        return QObject::tr("Mace", "Weapon type");
     case WeaponTypes::TWOHAND_MACE:
-        return "2h Mace";
+        return QObject::tr("2h Mace", "Weapon type");
     case WeaponTypes::POLEARM:
-        return "Polearm";
+        return QObject::tr("Polearm", "Weapon type");
     case WeaponTypes::STAFF:
-        return "Staff";
+        return QObject::tr("Staff", "Weapon type");
     case WeaponTypes::SWORD:
-        return "Sword";
+        return QObject::tr("Sword", "Weapon type");
     case WeaponTypes::TWOHAND_SWORD:
-        return "2h Sword";
+        return QObject::tr("2h Sword", "Weapon type");
     case WeaponTypes::BOW:
-        return "Bow";
+        return QObject::tr("Bow", "Weapon type");
     case WeaponTypes::CROSSBOW:
-        return "Crossbow";
+        return QObject::tr("Crossbow", "Weapon type");
     case WeaponTypes::GUN:
-        return "Gun";
+        return QObject::tr("Gun", "Weapon type");
     case WeaponTypes::THROWN:
-        return "Thrown";
+        return QObject::tr("Thrown", "Weapon type");
     case WeaponTypes::WAND:
-        return "Wand";
+        return QObject::tr("Wand", "Weapon type");
     case WeaponTypes::IDOL:
-        return "Idol";
+        return QObject::tr("Idol", "Weapon type");
     case WeaponTypes::LIBRAM:
-        return "Libram";
+        return QObject::tr("Libram", "Weapon type");
     case WeaponTypes::TOTEM:
-        return "Totem";
+        return QObject::tr("Totem", "Weapon type");
     case WeaponTypes::SHIELD:
-        return "Shield";
+        return QObject::tr("Shield", "Weapon type");
     case WeaponTypes::CASTER_OFFHAND:
-        return "Offhand";
+        return QObject::tr("Offhand", "Weapon type");
     default:
         return "Unknown";
     }

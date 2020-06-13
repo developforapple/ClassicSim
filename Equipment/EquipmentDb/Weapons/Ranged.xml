@@ -67,7 +67,7 @@
 		</proc>
 		<special_equip_effect>
         	<en>Equip: Chance to strike your ranged target with a Shadowbolt for 13 to 20 Shadow damage.</en>
-        	<zh>Equip: Chance to strike your ranged target with a Shadowbolt for 13 to 20 Shadow damage.</zh>
+        	<zh>装备：有一定几率对你的远程攻击目标造成13到20点暗影伤害</zh>
 		</special_equip_effect>
 		<source>
 			<en>World drop.</en>

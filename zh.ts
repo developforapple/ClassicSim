@@ -1733,271 +1733,271 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="48"/>
-        <location filename="Equipment/Item/Item.cpp" line="614"/>
+        <location filename="Equipment/Item/Item.cpp" line="615"/>
         <source>+%1 Strength</source>
         <translation>+%1 力量</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="51"/>
-        <location filename="Equipment/Item/Item.cpp" line="617"/>
+        <location filename="Equipment/Item/Item.cpp" line="618"/>
         <source>+%1 Agility</source>
         <translation>+%1 敏捷</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="54"/>
-        <location filename="Equipment/Item/Item.cpp" line="620"/>
+        <location filename="Equipment/Item/Item.cpp" line="621"/>
         <source>+%1 Stamina</source>
         <translation>+%1 耐力</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="57"/>
-        <location filename="Equipment/Item/Item.cpp" line="623"/>
+        <location filename="Equipment/Item/Item.cpp" line="624"/>
         <source>+%1 Intellect</source>
         <translation>+%1 智力</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="60"/>
-        <location filename="Equipment/Item/Item.cpp" line="626"/>
+        <location filename="Equipment/Item/Item.cpp" line="627"/>
         <source>+%1 Spirit</source>
         <translation>+%1 精神</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="66"/>
-        <location filename="Equipment/Item/Item.cpp" line="631"/>
+        <location filename="Equipment/Item/Item.cpp" line="632"/>
         <source>Equip: Improves your chance to get a critical strike by %1%.</source>
         <translation>装备：使你造成爆击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="72"/>
-        <location filename="Equipment/Item/Item.cpp" line="636"/>
+        <location filename="Equipment/Item/Item.cpp" line="637"/>
         <source>Equip: Improves your chance to hit by %1%.</source>
         <translation>装备：使你击中目标的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="76"/>
-        <location filename="Equipment/Item/Item.cpp" line="639"/>
+        <location filename="Equipment/Item/Item.cpp" line="640"/>
         <source>Equip: +%1 Attack Power.</source>
         <translation>装备：+%1 攻击强度。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="79"/>
-        <location filename="Equipment/Item/Item.cpp" line="642"/>
+        <location filename="Equipment/Item/Item.cpp" line="643"/>
         <source>Equip: +%1 Ranged Attack Power.</source>
         <translation>装备：+%1 远程攻击强度。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="82"/>
-        <location filename="Equipment/Item/Item.cpp" line="645"/>
+        <location filename="Equipment/Item/Item.cpp" line="646"/>
         <source>Equip: +%1 Attack Power when fighting Beasts.</source>
         <translation>装备：对野兽的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="85"/>
-        <location filename="Equipment/Item/Item.cpp" line="648"/>
+        <location filename="Equipment/Item/Item.cpp" line="649"/>
         <source>Equip: +%1 Attack Power when fighting Demons.</source>
         <translation>装备：对恶魔的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="88"/>
-        <location filename="Equipment/Item/Item.cpp" line="651"/>
+        <location filename="Equipment/Item/Item.cpp" line="652"/>
         <source>Equip: +%1 Attack Power when fighting Dragonkin.</source>
         <translation>装备：对龙类的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="91"/>
-        <location filename="Equipment/Item/Item.cpp" line="654"/>
+        <location filename="Equipment/Item/Item.cpp" line="655"/>
         <source>Equip: +%1 Attack Power when fighting Undead.</source>
         <translation>装备：对亡灵的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="94"/>
-        <location filename="Equipment/Item/Item.cpp" line="657"/>
+        <location filename="Equipment/Item/Item.cpp" line="658"/>
         <source>Equip: +%1 Weapon Damage.</source>
         <translation>装备：+%1 武器伤害。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="97"/>
-        <location filename="Equipment/Item/Item.cpp" line="660"/>
+        <location filename="Equipment/Item/Item.cpp" line="661"/>
         <source>Equip: Increased Axes +%1.</source>
         <translation>装备：斧类武器技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="100"/>
-        <location filename="Equipment/Item/Item.cpp" line="663"/>
+        <location filename="Equipment/Item/Item.cpp" line="664"/>
         <source>Equip: Increased Daggers +%1.</source>
         <translation>装备：匕首技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="106"/>
-        <location filename="Equipment/Item/Item.cpp" line="669"/>
+        <location filename="Equipment/Item/Item.cpp" line="670"/>
         <source>Equip: Increased Swords +%1.</source>
         <translation>装备：剑类武器技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="109"/>
-        <location filename="Equipment/Item/Item.cpp" line="672"/>
+        <location filename="Equipment/Item/Item.cpp" line="673"/>
         <source>Equip: Increased Two-handed Axes +%1.</source>
         <translation>装备：双手斧技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="112"/>
-        <location filename="Equipment/Item/Item.cpp" line="675"/>
+        <location filename="Equipment/Item/Item.cpp" line="676"/>
         <source>Equip: Increased Two-handed Maces +%1.</source>
         <translation>装备：双手锤技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="115"/>
-        <location filename="Equipment/Item/Item.cpp" line="678"/>
+        <location filename="Equipment/Item/Item.cpp" line="679"/>
         <source>Equip: Increased Two-handed Swords +%1.</source>
         <translation>装备：双手剑技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="118"/>
-        <location filename="Equipment/Item/Item.cpp" line="681"/>
+        <location filename="Equipment/Item/Item.cpp" line="682"/>
         <source>Equip: Increased Bows +%1.</source>
         <translation>装备：弓箭技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="121"/>
-        <location filename="Equipment/Item/Item.cpp" line="684"/>
+        <location filename="Equipment/Item/Item.cpp" line="685"/>
         <source>Equip: Increased Crossbows +%1.</source>
         <translation>装备：弩技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="124"/>
-        <location filename="Equipment/Item/Item.cpp" line="687"/>
+        <location filename="Equipment/Item/Item.cpp" line="688"/>
         <source>Equip: Increased Guns +%1.</source>
         <translation>装备：枪械技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="127"/>
-        <location filename="Equipment/Item/Item.cpp" line="690"/>
+        <location filename="Equipment/Item/Item.cpp" line="691"/>
         <source>Equip: Restores %1 mana per 5 sec.</source>
         <translation>装备：每5秒回复%1点法力值。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="130"/>
-        <location filename="Equipment/Item/Item.cpp" line="693"/>
+        <location filename="Equipment/Item/Item.cpp" line="694"/>
         <source>Equip: Restores %1 health per 5 sec.</source>
         <translation>装备：每5秒回复%1点生命值。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="133"/>
-        <location filename="Equipment/Item/Item.cpp" line="696"/>
+        <location filename="Equipment/Item/Item.cpp" line="697"/>
         <source>Equip: Increases damage and healing done by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果所造成的伤害和治疗效果，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="136"/>
-        <location filename="Equipment/Item/Item.cpp" line="699"/>
+        <location filename="Equipment/Item/Item.cpp" line="700"/>
         <source>Equip: Increases damage done by Arcane spells and effects by up to %1.</source>
         <translation>装备：提高奥术法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="139"/>
-        <location filename="Equipment/Item/Item.cpp" line="702"/>
+        <location filename="Equipment/Item/Item.cpp" line="703"/>
         <source>Equip: Increases damage done by Fire spells and effects by up to %1.</source>
         <translation>装备：提高火焰法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="142"/>
-        <location filename="Equipment/Item/Item.cpp" line="705"/>
+        <location filename="Equipment/Item/Item.cpp" line="706"/>
         <source>Equip: Increases damage done by Frost spells and effects by up to %1.</source>
         <translation>装备：提高冰霜法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="145"/>
-        <location filename="Equipment/Item/Item.cpp" line="708"/>
+        <location filename="Equipment/Item/Item.cpp" line="709"/>
         <source>Equip: Increases damage done by Holy spells and effects by up to %1.</source>
         <translation>装备：提高神圣法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="148"/>
-        <location filename="Equipment/Item/Item.cpp" line="711"/>
+        <location filename="Equipment/Item/Item.cpp" line="712"/>
         <source>Equip: Increases damage done by Nature spells and effects by up to %1.</source>
         <translation>装备：提高自然法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="151"/>
-        <location filename="Equipment/Item/Item.cpp" line="714"/>
+        <location filename="Equipment/Item/Item.cpp" line="715"/>
         <source>Equip: Increases damage done by Shadow spells and effects by up to %1.</source>
         <translation>装备：提高暗影法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="154"/>
-        <location filename="Equipment/Item/Item.cpp" line="717"/>
+        <location filename="Equipment/Item/Item.cpp" line="718"/>
         <source>Equip: Increases damage done to Beasts by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对野兽所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="157"/>
-        <location filename="Equipment/Item/Item.cpp" line="720"/>
+        <location filename="Equipment/Item/Item.cpp" line="721"/>
         <source>Equip: Increases damage done to Demons by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对恶魔所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="160"/>
-        <location filename="Equipment/Item/Item.cpp" line="723"/>
+        <location filename="Equipment/Item/Item.cpp" line="724"/>
         <source>Equip: Increases damage done to Dragonkin by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对龙类生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="164"/>
-        <location filename="Equipment/Item/Item.cpp" line="727"/>
+        <location filename="Equipment/Item/Item.cpp" line="728"/>
         <source>Equip: Increases damage done to Elementals by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对元素生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="167"/>
-        <location filename="Equipment/Item/Item.cpp" line="730"/>
+        <location filename="Equipment/Item/Item.cpp" line="731"/>
         <source>Equip: Increases damage done to Giants by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对巨人所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="170"/>
-        <location filename="Equipment/Item/Item.cpp" line="733"/>
+        <location filename="Equipment/Item/Item.cpp" line="734"/>
         <source>Equip: Increases damage done to Humanoids by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对人型生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="174"/>
-        <location filename="Equipment/Item/Item.cpp" line="737"/>
+        <location filename="Equipment/Item/Item.cpp" line="738"/>
         <source>Equip: Increases damage done to Mechanicals by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对机械生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="177"/>
-        <location filename="Equipment/Item/Item.cpp" line="740"/>
+        <location filename="Equipment/Item/Item.cpp" line="741"/>
         <source>Equip: Increases damage done to Undead by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对亡灵所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="182"/>
-        <location filename="Equipment/Item/Item.cpp" line="744"/>
+        <location filename="Equipment/Item/Item.cpp" line="745"/>
         <source>Equip: Improves your chance to get a critical strike with spells by %1%.</source>
         <translation>装备：使你的法术造成爆击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="187"/>
-        <location filename="Equipment/Item/Item.cpp" line="748"/>
+        <location filename="Equipment/Item/Item.cpp" line="749"/>
         <source>Equip: Improves your chance to hit with spells by %1%.</source>
         <translation>装备：使你的法术击中敌人的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="195"/>
-        <location filename="Equipment/Item/Item.cpp" line="752"/>
+        <location filename="Equipment/Item/Item.cpp" line="753"/>
         <source>Equip: Decreases the magical resistances of your spell targets by %1.</source>
         <translation>装备：使你的法术目标的魔法抗性降低%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="198"/>
-        <location filename="Equipment/Item/Item.cpp" line="755"/>
+        <location filename="Equipment/Item/Item.cpp" line="756"/>
         <source>%1 Armor</source>
         <translation>%1 护甲</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="201"/>
-        <location filename="Equipment/Item/Item.cpp" line="758"/>
+        <location filename="Equipment/Item/Item.cpp" line="759"/>
         <source>Equip: Increased Defense +%1.</source>
         <translation>装备：防御技能提高%1点。</translation>
     </message>
@@ -2008,61 +2008,61 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="207"/>
-        <location filename="Equipment/Item/Item.cpp" line="769"/>
+        <location filename="Equipment/Item/Item.cpp" line="770"/>
         <source>Equip: Increases your chance to dodge an attack by %1%.</source>
         <translation>装备：使你躲闪攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="210"/>
-        <location filename="Equipment/Item/Item.cpp" line="773"/>
+        <location filename="Equipment/Item/Item.cpp" line="774"/>
         <source>Equip: Increases your chance to parry an attack by %1%.</source>
         <translation>装备：使你招架攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="218"/>
-        <location filename="Equipment/Item/Item.cpp" line="776"/>
+        <location filename="Equipment/Item/Item.cpp" line="777"/>
         <source>+%1 All Resistances.</source>
         <translation>+%1 所有抗性。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="221"/>
-        <location filename="Equipment/Item/Item.cpp" line="779"/>
+        <location filename="Equipment/Item/Item.cpp" line="780"/>
         <source>+%1 Arcane Resistance</source>
         <translation>+%1 奥术抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="224"/>
-        <location filename="Equipment/Item/Item.cpp" line="782"/>
+        <location filename="Equipment/Item/Item.cpp" line="783"/>
         <source>+%1 Fire Resistance</source>
         <translation>+%1 火焰抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="227"/>
-        <location filename="Equipment/Item/Item.cpp" line="785"/>
+        <location filename="Equipment/Item/Item.cpp" line="786"/>
         <source>+%1 Frost Resistance</source>
         <translation>+%1 冰霜抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="230"/>
-        <location filename="Equipment/Item/Item.cpp" line="788"/>
+        <location filename="Equipment/Item/Item.cpp" line="789"/>
         <source>+%1 Holy Resistance</source>
         <translation>+%1 神圣抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="233"/>
-        <location filename="Equipment/Item/Item.cpp" line="791"/>
+        <location filename="Equipment/Item/Item.cpp" line="792"/>
         <source>+%1 Nature Resistance</source>
         <translation>+%1 自然抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="236"/>
-        <location filename="Equipment/Item/Item.cpp" line="794"/>
+        <location filename="Equipment/Item/Item.cpp" line="795"/>
         <source>+%1 Shadow Resistance</source>
         <translation>+%1 暗影抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="239"/>
-        <location filename="Equipment/Item/Item.cpp" line="797"/>
+        <location filename="Equipment/Item/Item.cpp" line="798"/>
         <source>Equip: Increases ranged attack speed by %1%.</source>
         <translation>装备：远程攻击速度提高%1%。</translation>
     </message>
@@ -2235,7 +2235,7 @@ vs Undead</source>
         <location filename="Class/Common/Buffs/Nightfall.cpp" line="6"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="21"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="68"/>
-        <location filename="Equipment/Item/Item.cpp" line="499"/>
+        <location filename="Equipment/Item/Item.cpp" line="500"/>
         <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="108"/>
         <source>Nightfall</source>
         <translation>夜幕</translation>
@@ -9014,23 +9014,23 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>Heroic Strike Queued</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="495"/>
+        <location filename="Equipment/Item/Item.cpp" line="496"/>
         <source>Black Grasp of the Destroyer</source>
         <translation>毁灭者的黑暗之握</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="103"/>
-        <location filename="Equipment/Item/Item.cpp" line="666"/>
+        <location filename="Equipment/Item/Item.cpp" line="667"/>
         <source>Equip: Increased Maces +%1.</source>
         <translation>装备：锤类武器技能提高%1点。</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="761"/>
+        <location filename="Equipment/Item/Item.cpp" line="762"/>
         <source>Equip: Increases the block value of your shield by %1.</source>
         <translation>装备：使你的盾牌的格挡值提高%1点。</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="765"/>
+        <location filename="Equipment/Item/Item.cpp" line="766"/>
         <source>Equip: Increases your chance to block attacks with a shield by %1%.</source>
         <translation>装备：使你用盾牌格挡攻击的几率提高%1%。</translation>
     </message>
@@ -9125,47 +9125,47 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>切割</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="265"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="266"/>
         <source>You</source>
         <translation>你</translation>
     </message>
     <message>
-        <location filename="GUI/GUIControl.cpp" line="92"/>
+        <location filename="GUI/GUIControl.cpp" line="93"/>
         <source>%1 - %2 Damage</source>
         <translation>%1 - %2伤害</translation>
     </message>
     <message>
-        <location filename="GUI/GUIControl.cpp" line="93"/>
+        <location filename="GUI/GUIControl.cpp" line="94"/>
         <source>(%1 damage per second)</source>
         <translation>（每秒伤害%1）</translation>
     </message>
     <message>
-        <location filename="GUI/GUIControl.cpp" line="94"/>
+        <location filename="GUI/GUIControl.cpp" line="95"/>
         <source>Speed </source>
         <translation>速度 </translation>
     </message>
     <message>
-        <location filename="GUI/GUIControl.cpp" line="101"/>
+        <location filename="GUI/GUIControl.cpp" line="102"/>
         <source>Adds %1 damage per second</source>
         <translation>每秒伤害提高%1</translation>
     </message>
     <message>
-        <location filename="GUI/GUIControl.cpp" line="131"/>
+        <location filename="GUI/GUIControl.cpp" line="132"/>
         <source>Classes: </source>
         <translation>职业： </translation>
     </message>
     <message>
-        <location filename="GUI/GUIControl.cpp" line="133"/>
+        <location filename="GUI/GUIControl.cpp" line="134"/>
         <source>, </source>
         <translation>， </translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1517"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1518"/>
         <source>Running...</source>
         <translation>正在运行...</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1517"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1518"/>
         <source>Click me!</source>
         <translation>点我！</translation>
     </message>
@@ -9197,7 +9197,6 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="GUI/GUIControl.cpp" line="40"/>
         <location filename="GUI/GUIControl.cpp" line="42"/>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="180"/>
         <source>Offhand</source>
         <translation>副手</translation>
     </message>
@@ -9337,109 +9336,111 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>+5回法力值</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="141"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="142"/>
         <source>Plate</source>
         <translation>板甲</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="144"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="145"/>
         <source>Mail</source>
         <translation>锁甲</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="147"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="148"/>
         <source>Leather</source>
         <translation>皮甲</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="150"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="151"/>
         <source>Cloth</source>
         <translation>布甲</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="174"/>
-        <source>Axe</source>
-        <translation>斧</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="177"/>
-        <source>Bow</source>
-        <translation>弓</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="183"/>
-        <source>Crossbow</source>
-        <translation>弩</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="186"/>
-        <source>Dagger</source>
-        <translation>匕首</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="189"/>
-        <source>Fist</source>
-        <translation>拳套</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="192"/>
-        <source>Gun</source>
-        <translation>枪械</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="195"/>
-        <source>Mace</source>
-        <translation>锤</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="198"/>
-        <source>Polearm</source>
-        <translation>长柄武器</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="201"/>
-        <source>Shield</source>
-        <translation>盾牌</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="204"/>
-        <source>Staff</source>
-        <translation>法杖</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="207"/>
-        <source>Sword</source>
-        <translation>剑</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="210"/>
-        <source>Thrown</source>
-        <translation>投掷武器</translation>
-    </message>
-    <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="213"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="214"/>
         <source>Two-hand Axe</source>
+        <comment>Weapon type</comment>
         <translation>双手斧</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="216"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="217"/>
         <source>Two-hand Mace</source>
+        <comment>Weapon type</comment>
         <translation>双手锤</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="219"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="220"/>
         <source>Two-hand Sword</source>
+        <comment>Weapon type</comment>
         <translation>双手剑</translation>
     </message>
     <message>
-        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="222"/>
+        <source>Axe</source>
+        <translation type="vanished">斧</translation>
+    </message>
+    <message>
+        <source>Bow</source>
+        <translation type="vanished">弓</translation>
+    </message>
+    <message>
+        <source>Crossbow</source>
+        <translation type="vanished">弩</translation>
+    </message>
+    <message>
+        <source>Dagger</source>
+        <translation type="vanished">匕首</translation>
+    </message>
+    <message>
+        <source>Fist</source>
+        <translation type="vanished">拳套</translation>
+    </message>
+    <message>
+        <source>Gun</source>
+        <translation type="vanished">枪械</translation>
+    </message>
+    <message>
+        <source>Mace</source>
+        <translation type="vanished">锤</translation>
+    </message>
+    <message>
+        <source>Polearm</source>
+        <translation type="vanished">长柄武器</translation>
+    </message>
+    <message>
+        <source>Shield</source>
+        <translation type="vanished">盾牌</translation>
+    </message>
+    <message>
+        <source>Staff</source>
+        <translation type="vanished">法杖</translation>
+    </message>
+    <message>
+        <source>Sword</source>
+        <translation type="vanished">剑</translation>
+    </message>
+    <message>
+        <source>Thrown</source>
+        <translation type="vanished">投掷武器</translation>
+    </message>
+    <message>
+        <source>Two-hand Axe</source>
+        <translation type="vanished">双手斧</translation>
+    </message>
+    <message>
+        <source>Two-hand Mace</source>
+        <translation type="vanished">双手锤</translation>
+    </message>
+    <message>
+        <source>Two-hand Sword</source>
+        <translation type="vanished">双手剑</translation>
+    </message>
+    <message>
         <source>Wand</source>
-        <translation>魔杖</translation>
+        <translation type="vanished">魔杖</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="8"/>
         <source>(1) Molten Core, Onyxia, Maraudon</source>
-        <translation>P1，MC，Onyxia</translation>
+        <translation>P1，MC，奥妮克希亚</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="10"/>
@@ -9469,32 +9470,32 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="27"/>
         <source>(1) MC/Ony</source>
-        <translation>P1 MC</translation>
+        <translation>P1</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="29"/>
         <source>(2) DM</source>
-        <translation>P2 厄运之槌</translation>
+        <translation>P2</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="31"/>
         <source>(3) BWL</source>
-        <translation>P3 BWL</translation>
+        <translation>P3</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="33"/>
         <source>(4) ZG/AB</source>
-        <translation>P4 ZUG</translation>
+        <translation>P4</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="35"/>
         <source>(5) AQ</source>
-        <translation>P5 安其拉</translation>
+        <translation>P5</translation>
     </message>
     <message>
         <location filename="Phases/ContentPhase.cpp" line="37"/>
         <source>(6) Naxx</source>
-        <translation>P6 NAXX</translation>
+        <translation>P6</translation>
     </message>
     <message>
         <location filename="Rotation/Conditions/ConditionBuffDuration.cpp" line="29"/>
@@ -9920,6 +9921,220 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <location filename="Test/TestSpell.cpp" line="938"/>
         <source>Resurgence Rod</source>
         <translation>苏醒之杖</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Weapon.cpp" line="243"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="175"/>
+        <location filename="Test/TestSpell.cpp" line="814"/>
+        <source>Axe</source>
+        <comment>Weapon type</comment>
+        <translation>斧</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="980"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="245"/>
+        <source>2h Axe</source>
+        <comment>Weapon type</comment>
+        <translation>双手斧</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="948"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="247"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="187"/>
+        <source>Dagger</source>
+        <comment>Weapon type</comment>
+        <translation>匕首</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="946"/>
+        <source>Axe</source>
+        <comment>Weapon Type</comment>
+        <translation>斧</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="950"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="249"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="190"/>
+        <source>Fist</source>
+        <comment>Weapon type</comment>
+        <translation>拳套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="952"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="251"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="196"/>
+        <source>Mace</source>
+        <comment>Weapon type</comment>
+        <translation>锤</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="982"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="253"/>
+        <source>2h Mace</source>
+        <comment>Weapon type</comment>
+        <translation>双手锤</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="954"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="255"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="199"/>
+        <source>Polearm</source>
+        <comment>Weapon type</comment>
+        <translation>长柄武器</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="956"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="257"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="205"/>
+        <source>Staff</source>
+        <comment>Weapon type</comment>
+        <translation>法杖</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="958"/>
+        <location filename="Equipment/Item/Item.cpp" line="984"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="259"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="208"/>
+        <source>Sword</source>
+        <comment>Weapon type</comment>
+        <translation>剑</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Weapon.cpp" line="261"/>
+        <source>2h Sword</source>
+        <comment>Weapon type</comment>
+        <translation>双手剑</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="960"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="263"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="178"/>
+        <source>Bow</source>
+        <comment>Weapon type</comment>
+        <translation>弓</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="962"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="265"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="184"/>
+        <source>Crossbow</source>
+        <comment>Weapon type</comment>
+        <translation>弩</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="964"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="267"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="193"/>
+        <source>Gun</source>
+        <comment>Weapon type</comment>
+        <translation>枪械</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="966"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="269"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="211"/>
+        <source>Thrown</source>
+        <comment>Weapon type</comment>
+        <translation>投掷武器</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="968"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="271"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="223"/>
+        <source>Wand</source>
+        <comment>Weapon type</comment>
+        <translation>魔杖</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="970"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="273"/>
+        <source>Idol</source>
+        <comment>Weapon type</comment>
+        <translation>神像</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="972"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="275"/>
+        <source>Libram</source>
+        <comment>Weapon type</comment>
+        <translation>圣契</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="974"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="277"/>
+        <source>Totem</source>
+        <comment>Weapon type</comment>
+        <translation>图腾</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="976"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="279"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="202"/>
+        <source>Shield</source>
+        <comment>Weapon type</comment>
+        <translation>盾牌</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="978"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="281"/>
+        <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="181"/>
+        <source>Offhand</source>
+        <comment>Weapon type</comment>
+        <translation>副手</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="986"/>
+        <source>Cloth</source>
+        <comment>Item type</comment>
+        <translation>布甲</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="988"/>
+        <source>Leather</source>
+        <comment>Item type</comment>
+        <translation>皮甲</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="990"/>
+        <source>Mail</source>
+        <comment>Item type</comment>
+        <translation>锁甲</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="992"/>
+        <source>Plate</source>
+        <comment>Item type</comment>
+        <translation>板甲</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="994"/>
+        <source>Quiver</source>
+        <comment>Item type</comment>
+        <translation>箭袋</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="996"/>
+        <source>Ammo Pouch</source>
+        <comment>Item type</comment>
+        <translation>弹药袋</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="998"/>
+        <source>Ring</source>
+        <comment>Item type</comment>
+        <translation>戒指</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="1000"/>
+        <source>Trinket</source>
+        <comment>Item type</comment>
+        <translation>饰品</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="1002"/>
+        <source>Amulet</source>
+        <comment>Item type</comment>
+        <translation>项链</translation>
     </message>
 </context>
 <context>

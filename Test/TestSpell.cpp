@@ -811,7 +811,7 @@ void TestSpell::given_an_offhand_axe() {
     create_axe();
 
     pchar->get_equipment()->set_offhand(TestUtils::TestAxe);
-    assert(int(pchar->get_equipment()->get_offhand()->get_weapon_type_string() == "Axe"));
+    assert(int(pchar->get_equipment()->get_offhand()->get_weapon_type_string() == QObject::tr("Axe", "Weapon type")));
 }
 
 void TestSpell::given_1000_melee_ap() {

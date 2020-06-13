@@ -52,6 +52,7 @@ public:
     QString get_base_stat_tooltip() const;
     QString get_equip_effect_tooltip() const;
     QString get_weapon_side_name(const int eq_slot, const QString& display_name) const;
+    QString get_tooltip_type_string(const QString& type_string);
 
     const Stats* get_stats() const;
     void set_stat(const QString& key, const QString& value);
