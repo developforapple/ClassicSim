@@ -301,7 +301,7 @@
 		</stats>
 		<source>
 			<en>Reputation reward. Requires Revered with Zandalar Tribe.</en>
-			<zh>赞达拉任务奖励<</zh>
+			<zh>赞达拉任务奖励</zh>
 		</source>
 	</item>
 
@@ -316,7 +316,7 @@
 		</stats>
 		<source>
 			<en>Reputation reward. Requires Revered with Zandalar Tribe.</en>
-			<zh>赞达拉任务奖励<</zh>
+			<zh>赞达拉任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Reduces the cooldown of Counterspell by 2 sec.</en>

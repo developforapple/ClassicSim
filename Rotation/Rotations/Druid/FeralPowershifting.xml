@@ -32,7 +32,7 @@
         <en>variable "combo_points" eq 5</en>
     </cast_if>
 
-    <cast_if name="Shred"/ name_zh="撕碎" >
+    <cast_if name="Shred" name_zh="撕碎" />
 
     <cast_if name="Caster Form" name_zh="人形态" >
         <en>resource "Energy" leq 47
