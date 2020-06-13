@@ -7,7 +7,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Quest reward. Requires Bael'Gar in Blackrock Depths.
+			<en>Quest reward. Requires Bael'Gar in Blackrock Depths.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -19,7 +20,8 @@
 			<stat type="ATTACK_POWER" value="24"/>
 		</stats>
 		<source>
-			Drops from Pyroguard Emberseer in Upper Blackrock Spire.
+			<en>Drops from Pyroguard Emberseer in Upper Blackrock Spire.</en>
+			<zh>黑石塔上层烈焰卫士艾博希尔</zh>
 		</source>
 	</item>
 
@@ -31,7 +33,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Drops from Grand Crusader Dathrohan in Stratholme Living.
+			<en>Drops from Grand Crusader Dathrohan in Stratholme Living.</en>
+			<zh>斯坦索姆大十字军战士达索汉</zh>
 		</source>
 	</item>
 
@@ -43,7 +46,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Drops from Cannon Master Willey in Stratholme Living.
+			<en>Drops from Cannon Master Willey in Stratholme Living.</en>
+			<zh>斯坦索姆炮手威利</zh>
 		</source>
 	</item>
 
@@ -59,7 +63,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Sulfuron Harbinger in Molten Core.
+			<en>Drops from Sulfuron Harbinger in Molten Core.</en>
+			<zh>熔火之心萨弗隆先驱者</zh>
 		</source>
 	</item>
 
@@ -73,8 +78,9 @@
             <stat type="FIRE_RESISTANCE" value="10"/>
         </stats>
         <source>
-            Drops from Magister Kalendris in Dire Maul.
-        </source>
+			<en>Drops from Magister Kalendris in Dire Maul.</en>
+			<zh>厄运之槌西卡雷迪斯镇长</zh>
+		</source>
     </item>
 
 	<item id="16832" phase="3">
@@ -89,7 +95,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -101,10 +108,12 @@
 			<stat type="ATTACK_POWER" value="48"/>
 		</stats>
 		<source>
-			Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Chromaggus in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 		<flavour_text>
-			"The hides of several different dragon flights appear to be stitched together, comprising the top of the shoulders."
+			<en>"The hides of several different dragon flights appear to be stitched together, comprising the top of the shoulders."</en>
+			<zh>"这套护肩似乎是由多种龙类的皮缝合在一起而制成的。它散发着腐烂的气息。"</zh>
 		</flavour_text>
 	</item>
 
@@ -119,7 +128,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drop available from multiple bosses in Zul'Gurub (ZG).
+			<en>Quest reward. Requires boss drop available from multiple bosses in Zul'Gurub (ZG).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -133,7 +143,8 @@
 			<stat type="ATTACK_POWER" value="18"/>
 		</stats>
 		<source>
-			Drops from Taerar (dragon world boss in Duskwood).
+			<en>Drops from Taerar (dragon world boss in Duskwood).</en>
+			<zh>世界BOSS泰拉尔</zh>
 		</source>
 	</item>
 
@@ -146,7 +157,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			Drops from Moam in Temple of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Temple of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟莫阿姆</zh>
 		</source>
 	</item>
 
@@ -159,7 +171,8 @@
 			<stat type="STAMINA" value="14"/>
 		</stats>
 		<source>
-			Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉顽强的范克瑞斯</zh>
 		</source>
 	</item>
 
@@ -174,7 +187,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Viscidus / Princess Huhuran in Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Viscidus / Princess Huhuran in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -190,7 +204,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 	
@@ -203,7 +218,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Crafted by Leatherworkers.
+			<en>Crafted by Leatherworkers.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 	
@@ -218,7 +234,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-		Sold by Arathi Basin vendor Rutherford Twing.
+			<en>Sold by Arathi Basin vendor Rutherford Twing.</en>
+			<zh>污染者崇拜</zh>
 		</source>
 	</item>
 	
@@ -233,7 +250,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-		Sold by Arathi Basin vendors.
+			<en>Sold by Arathi Basin vendors.</en>
+			<zh>阿拉索联军崇拜</zh>
 		</source>
 	</item>
 	
@@ -247,7 +265,8 @@
             <affix id="2158"/>
         </random_affixes>
 		<source>
-		Drops from High Marshal Whirlaxis, a summonable raid boss in Silithus.
+			<en>Drops from High Marshal Whirlaxis, a summonable raid boss in Silithus.</en>
+			<zh>希利苏斯风石大元帅维拉希斯</zh>
 		</source>
 	</item>
 </items>

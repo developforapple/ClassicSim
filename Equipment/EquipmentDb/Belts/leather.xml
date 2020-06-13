@@ -9,7 +9,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-		Drops from Eviscerator in Blackrock Depths.
+			<en>Drops from Eviscerator in Blackrock Depths.</en>
+			<zh>黑石深渊剜眼者</zh>
 		</source>
 	</item>
 
@@ -23,7 +24,8 @@
 			<stat type="STRENGTH" value="9"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Upper and Lower Blackrock Spire (UBRS/LBRS).
+			<en>Drops from trash mobs in Upper and Lower Blackrock Spire (UBRS/LBRS).</en>
+			<zh>黑石塔小怪</zh>
 		</source>
 	</item>
 
@@ -35,7 +37,8 @@
 			<stat type="STRENGTH" value="14"/>
 		</stats>
 		<source>
-		Drops from Quartermaster Zigris in Lower Blackrock Spire (LBRS).
+			<en>Drops from Quartermaster Zigris in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层军需官兹格雷斯</zh>
 		</source>
 	</item>
 
@@ -47,7 +50,8 @@
 			<stat type="ATTACK_POWER" value="40"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长房BOSS</zh>
 		</source>
 	</item>
 
@@ -61,7 +65,8 @@
 			<stat type="FROST_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-		Drops from Ras Frostwhisper in Scholomance.
+			<en>Drops from Ras Frostwhisper in Scholomance.</en>
+			<zh>通灵学院莱斯·霜语</zh>
 		</source>
 	</item>
 	
@@ -77,7 +82,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Molten Core.
+			<en>Drops from trash mobs in Molten Core.</en>
+			<zh>熔火之心小怪</zh>
 		</source>
 	</item>
 
@@ -89,7 +95,8 @@
 			<stat type="DAGGER_SKILL" value="5"/>
 		</stats>
 		<source>
-		Drops from Captain Kromcrush in Dire Maul.
+			<en>Drops from Captain Kromcrush in Dire Maul.</en>
+			<zh>厄运之槌北克罗卡斯</zh>
 		</source>
 	</item>
 
@@ -103,7 +110,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from World Boss Kazzak in Blasted Lands.
+			<en>Drops from World Boss Kazzak in Blasted Lands.</en>
+			<zh>世界BOSS卡扎克</zh>
 		</source>
 	</item>
 
@@ -116,10 +124,12 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Ebonroc/Flamegor/Firemaw in Blackwing Lair.
+			<en>Drops from Ebonroc/Flamegor/Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢费尔默、弗莱格尔、埃博诺克</zh>
 		</source>
 		<flavour_text>
-		"The flesh from different dragon flights has been sewn together to make this belt."
+			<en>"The flesh from different dragon flights has been sewn together to make this belt."</en>
+			<zh>"这根腰带似乎是由多种龙类的皮缝合在一起而制成的。"</zh>
 		</flavour_text>
 	</item>
 
@@ -135,7 +145,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</item>
 
@@ -149,7 +160,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires killing multiple bosses in Zul'Gurub.
+			<en>Quest reward. Requires killing multiple bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布任务奖励</zh>
 		</source>
 	</item>
 
@@ -163,7 +175,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</item>
 
@@ -178,7 +191,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的护腰</zh>
 		</source>
 	</item>
 	
@@ -191,7 +205,8 @@
 			<stat type="FIRE_RESISTANCE" value="12"/>
 		</stats>
 		<source>
-		Crafted by Leatherworkers with Thorium Brotherhood reputation. Requires Molten Core materials.
+			<en>Crafted by Leatherworkers with Thorium Brotherhood reputation. Requires Molten Core materials.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 	
@@ -205,7 +220,8 @@
 			<stat type="PARRY_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Battleguard Sartura (AQ40).
+			<en>Drops from Battleguard Sartura (AQ40).</en>
+			<zh>安其拉沙尔图拉</zh>
 		</source>
 	</item>
 	
@@ -220,7 +236,8 @@
 			<stat type="ATTACK_POWER" value="34"/>
 		</stats>
 		<source>
-		Sold by Arathi Basin vendor Rutherford Twing.
+			<en>Sold by Arathi Basin vendor Rutherford Twing.</en>
+			<zh>污染者尊敬</zh>
 		</source>
 	</item>
 	
@@ -235,7 +252,10 @@
 			<stat type="ATTACK_POWER" value="34"/>
 		</stats>
 		<source>
-		Sold by Arathi Basin vendors.
+			<en>Sold by Arathi Basin vendors.</en>
+			<zh>阿拉索联军尊敬</zh>
 		</source>
 	</item>
+	
+	<!-- 暗影豹皮腰带 -->
 </items>

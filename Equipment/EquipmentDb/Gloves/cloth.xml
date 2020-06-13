@@ -9,7 +9,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Drops from Doctor Theolen Krastinov in Scholomance.
+			<en>Drops from Doctor Theolen Krastinov in Scholomance.</en>
+			<zh>通灵学院瑟尔林·卡斯迪诺夫教授</zh>
 		</source>
 	</item>
 
@@ -22,7 +23,8 @@
 			<stat type="SPELL_DAMAGE" value="26"/>
 		</stats>
 		<source>
-		Drops from Quartermaster Zigris in Lower Blackrock Spire (LBRS).
+			<en>Drops from Quartermaster Zigris in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层军需官兹格雷斯</zh>
 		</source>
 	</item>
 
@@ -37,7 +39,8 @@
 			<stat type="ARCANE_RESISTANCE" value="15"/>
 		</stats>
 		<source>
-		Drops from Jandice Barov in Scholomance.
+			<en>Drops from Jandice Barov in Scholomance.</en>
+			<zh>通灵学院詹迪斯·巴罗夫</zh>
 		</source>
 	</item>
 
@@ -53,7 +56,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Mooncloth, Enchanted Leather, and gems.
+			<en>Crafted by Tailorers. Requires Mooncloth, Enchanted Leather, and gems.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -69,7 +73,8 @@
 			<stat type="FIRE_RESISTANCE" value="25"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires materials from Molten Core.
+			<en>Crafted by Tailorers. Requires materials from Molten Core.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -86,7 +91,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Drops from Shazzrah in Molten Core.
+			<en>Drops from Shazzrah in Molten Core.</en>
+			<zh>熔火之心沙斯拉尔</zh>
 		</source>
 	</item>
 
@@ -100,7 +106,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="17"/>
 		</stats>
 		<source>
-		Drops from Ras Frostwhisper in Scholomance.
+			<en>Drops from Ras Frostwhisper in Scholomance.</en>
+			<zh>通灵学院莱斯·霜语</zh>
 		</source>
 	</item>
 
@@ -113,7 +120,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Mooncloth and Golden Pearls.
+			<en>Crafted by Tailorers. Requires Mooncloth and Golden Pearls.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -125,7 +133,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="33"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Felcloth, Demonic Runes, and Essences of Undeath.
+			<en>Crafted by Tailorers. Requires Felcloth, Demonic Runes, and Essences of Undeath.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -143,7 +152,8 @@
 			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
-		May be purchased upon reaching Blood Guard (rank 7). Horde only.
+			<en>May be purchased upon reaching Blood Guard (rank 7). Horde only.</en>
+			<zh>部落荣誉奖励，需要血卫士军阶</zh>
 		</source>
 	</item>
 
@@ -161,7 +171,8 @@
 			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
-		May be purchased upon reaching Knight-Lieutenant (rank 7). Alliance only.
+			<en>May be purchased upon reaching Knight-Lieutenant (rank 7). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -180,7 +191,8 @@
 			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
-		May be purchased upon reaching General (rank 12). Horde only.
+			<en>May be purchased upon reaching General (rank 12). Horde only.</en>
+			<zh>部落荣誉奖励，需要将军军阶</zh>
 		</source>
 	</item>
 
@@ -199,7 +211,8 @@
 			<zh>装备：使你的法力护盾吸收的伤害总量提高285点。</zh>
 		</special_equip_effect>
 		<source>
-		May be purchased upon reaching Marshal (rank 12). Alliance only.
+			<en>May be purchased upon reaching Marshal (rank 12). Alliance only.</en>
+			<zh>联盟荣誉奖励。需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -212,7 +225,8 @@
 			<stat type="STAMINA" value="12"/>
 		</stats>
 		<source>
-		Drops from Razorgore the Untamed in Blackwing Lair.
+			<en>Drops from Razorgore the Untamed in Blackwing Lair.</en>
+			<zh>黑翼之巢狂野的拉佐格尔</zh>
 		</source>
 	</item>
 
@@ -225,7 +239,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="43"/>
 		</stats>
 		<source>
-		Drops from Ebonroc in Blackwing Lair.
+			<en>Drops from Ebonroc in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克</zh>
 		</source>
 	</item>
 
@@ -242,7 +257,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		Drops from Ebonroc, Flamegor, Firemaw in Blackwing Lair.
+			<en>Drops from Ebonroc, Flamegor, Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克、弗莱格尔、费尔默</zh>
 		</source>
 	</item>
 
@@ -259,7 +275,8 @@
 			<stat type="SPELL_DAMAGE" value="15"/>
 		</stats>
 		<source>
-		Drops from Ebonroc, Flamegor, Firemaw in Blackwing Lair.
+			<en>Drops from Ebonroc, Flamegor, Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克、弗莱格尔、费尔默</zh>
 		</source>
 	</item>
 
@@ -274,7 +291,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Jin'do the Hexxer in Zul'Gurub.
+			<en>Drops from Jin'do the Hexxer in Zul'Gurub.</en>
+			<zh>祖尔格拉布妖术师金度</zh>
 		</source>
 	</item>
 
@@ -288,7 +306,8 @@
 			<stat type="SPELL_DAMAGE" value="27"/>
 		</stats>
 		<source>
-		Drops from dragon world bosses (Emeriss, Taerar, Lethon, Ysondre).
+			<en>Drops from dragon world bosses (Emeriss, Taerar, Lethon, Ysondre).</en>
+			<zh>绿龙世界BOSS</zh>
 		</source>
 	</item>
 
@@ -304,7 +323,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires Magister's Gloves.
+			<en>Quest reward. Requires Magister's Gloves.</en>
+			<zh>T0.5任务奖励</zh>
 		</source>
 	</item>
 
@@ -320,7 +340,8 @@
 			<stat type="SPELL_DAMAGE" value="27"/>
 		</stats>
 		<source>
-		Quest reward. Involves a quest chain that partly requires a raid.
+			<en>Quest reward. Involves a quest chain that partly requires a raid.</en>
+			<zh>希利苏斯任务奖励</zh>
 		</source>
 	</item>
 
@@ -332,7 +353,8 @@
 			<stat type="INTELLECT" value="16"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉小怪</zh>
 		</source>
 	</item>
 
@@ -346,7 +368,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</item>
 
@@ -359,7 +382,8 @@
 			<stat type="SPELL_DAMAGE_UNDEAD" value="35"/>
 		</stats>
 		<source>
-		Drops from elites spawned during the Scourge Invasion event.
+			<en>Drops from elites spawned during the Scourge Invasion event.</en>
+			<zh>天灾入侵事件</zh>
 		</source>
 	</item>
 
@@ -372,7 +396,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="20"/>
 		</stats>
 		<source>
-		Drops from Revanchion in Dire Maul during Scourge Invasion event.
+			<en>Drops from Revanchion in Dire Maul during Scourge Invasion event.</en>
+			<zh>天灾入侵事件厄运之槌雷瓦克安</zh>
 		</source>
 	</item>
 
@@ -385,7 +410,8 @@
 			<stat type="SPELL_DAMAGE" value="15"/>
 		</stats>
 		<source>
-		Crafted by Argent Dawn NPC. Requires expensive materials to craft.
+			<en>Crafted by Argent Dawn NPC. Requires expensive materials to craft.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -400,7 +426,8 @@
 			<stat type="SPELL_DAMAGE" value="36"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

@@ -11,7 +11,8 @@
 			<stat type="STAMINA" value="6"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Blackrock Spire.
+			<en>Drops from trash mobs in Blackrock Spire.</en>
+			<zh>黑石塔小怪</zh>
 		</source>
 	</item>
 
@@ -28,7 +29,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Molten Core.
+			<en>Drops from trash mobs in Molten Core.</en>
+			<zh>熔火之心小怪</zh>
 		</source>
 	</item>
 
@@ -42,7 +44,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Tendris Warpwood in Dire Maul.
+			<en>Drops from Tendris Warpwood in Dire Maul.</en>
+			<zh>厄运之槌西特迪斯·扭木</zh>
 		</source>
 	</item>
 
@@ -59,7 +62,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</item>
 
@@ -74,11 +78,12 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 		<flavour_text>
-		"The metal is warm to the touch. The links connecting the belt together appear to be fashioned
-		out of Elementium."
+			<en>"The metal is warm to the touch. The links connecting the belt together appear to be fashioned out of Elementium."</en>
+			<zh>"金属摸上去热乎乎的，连接腰带的材料似乎是源质。"</zh>
 		</flavour_text>
 	</item>
 
@@ -93,7 +98,8 @@
 			<stat type="ATTACK_POWER" value="34"/>
 		</stats>
 		<source>
-		Requires Honored with The Defilers (Arathi Basin).
+			<en>Requires Honored with The Defilers (Arathi Basin).</en>
+			<zh>污染者尊敬</zh>
 		</source>
 	</item>
 
@@ -107,7 +113,8 @@
 			<stat type="ATTACK_POWER" value="34"/>
 		</stats>
 		<source>
-		Requires Honored with The League of Arathor (Arathi Basin).
+			<en>Requires Honored with The League of Arathor (Arathi Basin).</en>
+			<zh>阿拉索联军尊敬</zh>
 		</source>
 	</item>
 
@@ -123,7 +130,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drop from Zul'Gurub and Honored with Zandalar Tribe.
+			<en>Quest reward. Requires boss drop from Zul'Gurub and Honored with Zandalar Tribe.</en>
+			<zh>任务奖励，需要原始哈卡莱披肩和赞达拉部族尊敬</zh>
 		</source>
 	</item>
 
@@ -138,7 +146,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟无疤者奥斯里安</zh>
 		</source>
 	</item>
 
@@ -152,7 +161,8 @@
 			<stat type="STRENGTH" value="12"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长房间BOSS</zh>
 		</source>
 	</item>
 
@@ -165,7 +175,8 @@
 			<stat type="INTELLECT" value="10"/>
 		</stats>
 		<source>
-		Quest reward. Requires Beaststalker's Belt and Beaststalker's Gloves.
+			<en>Quest reward. Requires Beaststalker's Belt and Beaststalker's Gloves.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -181,7 +192,8 @@
 			<stat type="CROSSBOW_SKILL" value="2"/>
 		</stats>
 		<source>
-		Drops from Emperor Dagran Thaurissian in Blackrock Depths.
+			<en>Drops from Emperor Dagran Thaurissian in Blackrock Depths.</en>
+			<zh>黑石深渊达格兰·索瑞森大帝</zh>
 		</source>
 	</item>
 
@@ -194,7 +206,8 @@
 			<stat type="ALL_RESISTANCE" value="5"/>
 		</stats>
 		<source>
-		Crafted by Blacksmiths (300 skill). Pattern requires Honored with Cenarion Circle.
+			<en>Crafted by Blacksmiths (300 skill). Pattern requires Honored with Cenarion Circle.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</item>
 
@@ -206,7 +219,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Urok Doomhowl in Lower Blackrock Spire.
+			<en>Drops from Urok Doomhowl in Lower Blackrock Spire.</en>
+			<zh>黑石塔下层乌洛克</zh>
 		</source>
 	</item>
 
@@ -223,7 +237,8 @@
 			<stat type="MANA_PER_5" value="3"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的束带</zh>
 		</source>
 	</item>
 </items>

@@ -8,7 +8,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="13"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Naga Scales.
+			<en>Crafted by Tailorers. Requires Naga Scales.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -20,7 +21,8 @@
 			<stat type="SPIRIT" value="5"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -32,7 +34,8 @@
 			<stat type="INTELLECT" value="9"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -44,7 +47,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="17"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -55,7 +59,8 @@
 			<stat type="INTELLECT" value="15"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -67,7 +72,8 @@
 			<stat type="SPIRIT" value="10"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -80,7 +86,8 @@
 			<stat type="NATURE_RESISTANCE" value="4"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -92,7 +99,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="14"/>
 		</stats>
 		<source>
-		Drops from Galgann Firehammer in Uldaman.
+			<en>Drops from Galgann Firehammer in Uldaman.</en>
+			<zh>奥达曼加加恩·火锤</zh>
 		</source>
 	</item>
 
@@ -104,7 +112,8 @@
 			<stat type="STAMINA" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -118,7 +127,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Drops from High Interrogator Gerstahn in Blackrock Depths.
+			<en>Drops from High Interrogator Gerstahn in Blackrock Depths.</en>
+			<zh>黑石深渊审讯官格斯塔恩</zh>
 		</source>
 	</item>
 
@@ -133,7 +143,8 @@
 			<stat type="SPIRIT" value="3"/>
 		</stats>
 		<source>
-		Quest reward. Trivial quest.
+			<en>Quest reward. Trivial quest.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -145,7 +156,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -158,7 +170,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="29"/>
 		</stats>
 		<source>
-		Drops from Warder Stilgiss in Blackrock Depths.
+			<en>Drops from Warder Stilgiss in Blackrock Depths.</en>
+			<zh>黑石深渊典狱官斯迪尔基斯</zh>
 		</source>
 	</item>
 
@@ -173,7 +186,8 @@
 			<stat type="INTELLECT" value="15"/>
 		</stats>
 		<source>
-		Quest reward. Requires Blackrock Depths.
+			<en>Quest reward. Requires Blackrock Depths.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -187,7 +201,8 @@
 			<stat type="STAMINA" value="12"/>
 		</stats>
 		<source>
-		Quest reward. Elite quest in Winterspring.
+			<en>Quest reward. Elite quest in Winterspring.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -199,7 +214,8 @@
 			<stat type="INTELLECT" value="18"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -211,7 +227,8 @@
 			<stat type="SPIRIT" value="10"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -223,7 +240,8 @@
 			<stat type="INTELLECT" value="22"/>
 		</stats>
 		<source>
-		Drops from Ramstein the Gorger in Stratholme Undead.
+			<en>Drops from Ramstein the Gorger in Stratholme Undead.</en>
+			<zh>斯坦索姆吞咽者拉姆斯登</zh>
 		</source>
 	</item>
 
@@ -236,7 +254,8 @@
 			<stat type="STAMINA" value="6"/>
 		</stats>
 		<source>
-		Drops from Ras Frostwhisper in Scholomance.
+			<en>Drops from Ras Frostwhisper in Scholomance.</en>
+			<zh>通灵学院莱斯·霜语</zh>
 		</source>
 	</item>
 
@@ -249,7 +268,8 @@
 			<stat type="SPIRIT" value="9"/>
 		</stats>
 		<source>
-		Drops from Jandice Barov in Scholomance.
+			<en>Drops from Jandice Barov in Scholomance.</en>
+			<zh>通灵学院詹迪斯·巴罗夫</zh>
 		</source>
 	</item>
 
@@ -262,7 +282,8 @@
 			<stat type="STAMINA" value="4"/>
 		</stats>
 		<source>
-		Drops from Solakar Flamewreath in Upper Blackrock Spire (UBRS).
+			<en>Drops from Solakar Flamewreath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层索拉卡·火冠</zh>
 		</source>
 	</item>
 
@@ -276,7 +297,8 @@
 			<stat type="SPELL_DAMAGE" value="8"/>
 		</stats>
 		<source>
-		Drops from Crystal Fang in Lower Blackrock Spire (LBRS).
+			<en>Drops from Crystal Fang in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层水晶之牙</zh>
 		</source>
 	</item>
 
@@ -289,7 +311,8 @@
 			<stat type="SPIRIT" value="9"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长室BOSS</zh>
 		</source>
 	</item>
 
@@ -302,7 +325,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Mooncloth.
+			<en>Crafted by Tailorers. Requires Mooncloth.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -314,7 +338,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="26"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Felcloth and Demonic Runes.
+			<en>Crafted by Tailorers. Requires Felcloth and Demonic Runes.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -327,7 +352,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="13"/>
 		</stats>
 		<source>
-		Drops from Rattlegore in Scholomance.
+			<en>Drops from Rattlegore in Scholomance.</en>
+			<zh>通灵学院血骨傀儡</zh>
 		</source>
 	</item>
 
@@ -344,7 +370,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Drops from Baron Geddon in Molten Core.
+			<en>Drops from Baron Geddon in Molten Core.</en>
+			<zh>熔火之心迦顿男爵</zh>
 		</source>
 	</item>
 
@@ -356,7 +383,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长室BOSS</zh>
 		</source>
 	</item>
 
@@ -368,7 +396,8 @@
 			<stat type="MANA_PER_5" value="8"/>
 		</stats>
 		<source>
-		Drops from Lord Hel'nurath in Dire Maul.
+			<en>Drops from Lord Hel'nurath in Dire Maul.</en>
+			<zh>厄运之槌西赫尔努拉斯</zh>
 		</source>
 	</item>
 
@@ -381,7 +410,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Balnazzar in Stratholme Living.
+			<en>Drops from Balnazzar in Stratholme Living.</en>
+			<zh>斯坦索姆巴纳扎尔</zh>
 		</source>
 	</item>
 
@@ -397,7 +427,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Lieutenant Commander (rank 10). Alliance only.
+			<en>May be purchased upon reaching Lieutenant Commander (rank 10). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要少校军阶</zh>
 		</source>
 	</item>
 
@@ -413,7 +444,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Champion (rank 10). Horde only.
+			<en>May be purchased upon reaching Champion (rank 10). Horde only.</en>
+			<zh>部落荣誉奖励，需要勇士军阶</zh>
 		</source>
 	</item>
 
@@ -429,7 +461,8 @@
 			<stat type="SPELL_PENETRATION" value="10"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Field Marshal (rank 13). Alliance only.
+			<en>May be purchased upon reaching Field Marshal (rank 13). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要元帅军阶</zh>
 		</source>
 	</item>
 
@@ -445,7 +478,8 @@
 			<stat type="SPELL_PENETRATION" value="10"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Warlord (rank 13). Horde only.
+			<en>May be purchased upon reaching Warlord (rank 13). Horde only.</en>
+			<zh>部落荣誉奖励，需要督军军阶</zh>
 		</source>
 	</item>
 
@@ -457,7 +491,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-		Drops from High Inquisitor Fairbanks in Scarlet Monastery (SM).
+			<en>Drops from High Inquisitor Fairbanks in Scarlet Monastery (SM).</en>
+			<zh>血色修道院大检察官法尔班克斯</zh>
 		</source>
 	</item>
 
@@ -469,7 +504,8 @@
 			<stat type="MANA_PER_5" value="6"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Mooncloth and Essences (Living and Earth).
+			<en>Crafted by Tailorers. Requires Mooncloth and Essences (Living and Earth).</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -482,7 +518,8 @@
 			<stat type="SHADOW_RESISTANCE" value="5"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Mooncloth and Guardian Stones.
+			<en>Crafted by Tailorers. Requires Mooncloth and Guardian Stones.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -495,7 +532,8 @@
 			<stat type="SPELL_DAMAGE" value="34"/>
 		</stats>
 		<source>
-		Drops from Razorgore the Untamed in Blackwing Lair.
+			<en>Drops from Razorgore the Untamed in Blackwing Lair.</en>
+			<zh>黑翼之巢狂野的拉佐格尔</zh>
 		</source>
 	</item>
 
@@ -512,7 +550,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-		Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -529,7 +568,8 @@
 			<stat type="SPELL_DAMAGE" value="23"/>
 		</stats>
 		<source>
-		Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -544,7 +584,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Zul'Gurub and Honored with Zandalar Tribe.
+			<en>Quest reward. Requires boss drops from Zul'Gurub and Honored with Zandalar Tribe.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -561,7 +602,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Requires Exalted with The League of Arathor (Arathi Basin).
+			<en>Requires Exalted with The League of Arathor (Arathi Basin).</en>
+			<zh>阿拉索联军崇拜</zh>
 		</source>
 	</item>
 
@@ -578,7 +620,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Requires Exalted with The Defilers (Arathi Basin).
+			<en>Requires Exalted with The Defilers (Arathi Basin).</en>
+			<zh>污染者崇拜</zh>
 		</source>
 	</item>
 
@@ -593,7 +636,8 @@
 			<stat type="INTELLECT" value="11"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长室BOSS</zh>
 		</source>
 	</item>
 
@@ -606,7 +650,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<source>
-		Drops from Baron Rivendare in Stratholme Undead.
+			<en>Drops from Baron Rivendare in Stratholme Undead.</en>
+			<zh>斯坦索姆瑞文戴尔男爵</zh>
 		</source>
 	</item>
 
@@ -621,7 +666,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-		Quest reward. Requires Magister's Boots, Magister's Leggings, Magister's Mantle.
+			<en>Quest reward. Requires Magister's Boots, Magister's Leggings, Magister's Mantle.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -635,7 +681,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Baron Kazum, a summonable raid boss in Silithus.
+			<en>Drops from Baron Kazum, a summonable raid boss in Silithus.</en>
+			<zh>希利苏斯风石卡苏姆男爵</zh>
 		</source>
 	</item>
 
@@ -649,7 +696,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-		Drops from Moam in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟莫阿姆</zh>
 		</source>
 	</item>
 
@@ -662,7 +710,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="33"/>
 		</stats>
 		<source>
-		Drops from Princess Yauj in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Princess Yauj in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉亚尔基公主</zh>
 		</source>
 	</item>
 
@@ -679,7 +728,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -692,7 +742,8 @@
 			<stat type="SPELL_DAMAGE" value="7"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Living Essences.
+			<en>Crafted by Tailorers. Requires Living Essences.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -706,7 +757,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Gluth in Naxxramas.
+			<en>Drops from Gluth in Naxxramas.</en>
+			<zh>纳克萨玛斯格拉斯</zh>
 		</source>
 	</item>
 
@@ -719,7 +771,8 @@
 			<stat type="SPELL_DAMAGE" value="16"/>
 		</stats>
 		<source>
-		Drops from Grobbulus in Naxxramas.
+			<en>Drops from Grobbulus in Naxxramas.</en>
+			<zh>纳克萨玛斯格罗布鲁斯</zh>
 		</source>
 	</item>
 
@@ -734,7 +787,8 @@
 			<stat type="SPELL_DAMAGE" value="36"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

@@ -10,7 +10,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-        Drops from The Beast in Upper Blackrock Spire.
+			<en>Drops from The Beast in Upper Blackrock Spire.</en>
+			<zh>黑石塔上层比斯巨兽</zh>
 		</source>
 	</wrist>
 
@@ -23,7 +24,8 @@
 			<stat type="STRENGTH" value="4"/>
 		</stats>
 		<source>
-        World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</wrist>
 
@@ -35,7 +37,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-        Scholomance trash drop.
+			<en>Scholomance trash drop.</en>
+			<zh>通灵学院小怪</zh>
 		</source>
 	</wrist>
 
@@ -48,7 +51,8 @@
 			<stat type="STAMINA" value="15"/>
 		</stats>
 		<source>
-        Drops from trash mobs in Molten Core.
+			<en>Drops from trash mobs in Molten Core.</en>
+			<zh>熔火之心小怪</zh>
 		</source>
 	</wrist>
 
@@ -60,7 +64,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-        Drops from several bosses in Molten Core.
+			<en>Drops from several bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</wrist>
 
@@ -73,7 +78,8 @@
 			<stat type="ATTACK_POWER" value="24"/>
 		</stats>
 		<source>
-        Drops from Prince Tortheldrin in Dire Maul.
+			<en>Drops from Prince Tortheldrin in Dire Maul.</en>
+			<zh>厄运之槌西托塞德林王子</zh>
 		</source>
 	</wrist>
 
@@ -86,7 +92,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-        Sold by Warsong Gulch vendors (Illiyana Moonblaze for Alliance, Kelm Hargunth for Horde).
+			<en>Sold by Warsong Gulch vendors (Illiyana Moonblaze for Alliance, Kelm Hargunth for Horde).</en>
+			<zh>战歌峡谷声望崇拜</zh>
 		</source>
 	</wrist>
 
@@ -100,7 +107,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-        Drops from Razorgore the Untamed in Blackwing Lair.
+			<en>Drops from Razorgore the Untamed in Blackwing Lair.</en>
+			<zh>黑翼之巢狂野的拉佐格尔</zh>
 		</source>
 	</wrist>
 
@@ -113,7 +121,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-        Crafted by Leatherworkers (300 skill). Pattern requires Friendly with Zandalar Tribe.
+			<en>Crafted by Leatherworkers (300 skill). Pattern requires Friendly with Zandalar Tribe.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</wrist>
 
@@ -130,7 +139,8 @@
 			<stat type="ATTACK_POWER" value="32"/>
 		</stats>
 		<source>
-        Drops from dragon world bosses (Emeriss, Taerar, Lethon, Ysondre).
+			<en>Drops from dragon world bosses (Emeriss, Taerar, Lethon, Ysondre).</en>
+			<zh>绿龙世界BOSS</zh>
 		</source>
 	</wrist>
 
@@ -143,7 +153,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-        Drops from Buru the Gorger in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Buru the Gorger in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟吞咽者布鲁</zh>
 		</source>
 	</wrist>
 
@@ -157,7 +168,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-        Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉双子皇帝</zh>
 		</source>
 	</wrist>
 
@@ -171,7 +183,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-        Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</wrist>
 </items>

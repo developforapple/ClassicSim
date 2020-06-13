@@ -11,7 +11,8 @@
 			<stat type="STAMINA" value="12"/>
 		</stats>
 		<source>
-		Quest reward. Trivial quest (e.g. no dungeons required).
+			<en>Quest reward. Trivial quest (e.g. no dungeons required).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -26,7 +27,8 @@
 			<stat type="AGILITY" value="20"/>
 		</stats>
 		<source>
-		Quest reward. Elite quest in Winterspring.
+			<en>Quest reward. Elite quest in Winterspring.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -39,7 +41,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from the Seven Dwarves in Blackrock Depths (BRD).
+			<en>Drops from the Seven Dwarves in Blackrock Depths (BRD).</en>
+			<zh>黑石深渊多普雷尔</zh>
 		</source>
 	</item>
 
@@ -52,7 +55,8 @@
 			<stat type="ATTACK_POWER" value="56"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Scholomance.
+			<en>Drops from trash mobs in Scholomance.</en>
+			<zh>通灵学院小怪</zh>
 		</source>
 	</item>
 
@@ -67,7 +71,8 @@
 			<stat type="STRENGTH" value="5"/>
 		</stats>
 		<source>
-		Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 	</item>
 
@@ -80,7 +85,8 @@
 			<stat type="ATTACK_POWER" value="50"/>
 		</stats>
 		<source>
-		Crafted by Leatherworkers. Pattern sold by Plugger Spazzring in Blackrock Depths.
+			<en>Crafted by Leatherworkers. Pattern sold by Plugger Spazzring in Blackrock Depths.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 
@@ -94,7 +100,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Gorosh the Dervish in the Arena in Blackrock Depths (BRD).
+			<en>Drops from Gorosh the Dervish in the Arena in Blackrock Depths (BRD).</en>
+			<zh>黑石深渊竞技场修行者高罗什</zh>
 		</source>
 	</item>
 
@@ -110,7 +117,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Golemagg the Incinerator in Molten Core.
+			<en>Drops from Golemagg the Incinerator in Molten Core.</en>
+			<zh>熔火之心焚化者古雷曼格</zh>
 		</source>
 	</item>
 
@@ -125,7 +133,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Tribute chest in Dire Maul.
+			<en>Drops from Tribute chest in Dire Maul.</en>
+			<zh>厄运之槌北戈多克贡品</zh>
 		</source>
 	</item>
 
@@ -140,7 +149,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Knight-Captain (rank 8).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Knight-Captain (rank 8).</en>
+			<zh>联盟荣誉奖励，需要骑士队长军阶</zh>
 		</source>
 	</item>
 
@@ -155,7 +165,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Legionnaire (rank 8).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Legionnaire (rank 8).</en>
+			<zh>部落荣誉奖励，需要军团士兵军阶</zh>
 		</source>
 	</item>
 
@@ -170,7 +181,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).</en>
+			<zh>联盟荣誉奖励，需要元帅军阶</zh>
 		</source>
 	</item>
 
@@ -185,7 +197,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Warlord (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Warlord (rank 13).</en>
+			<zh>部落荣誉奖励，需要督军军阶</zh>
 		</source>
 	</item>
 
@@ -203,7 +216,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -216,7 +230,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Crafted by Blacksmiths (300 skill). Pattern requires Revered with Zandalar Tribe.
+			<en>Crafted by Blacksmiths (300 skill). Pattern requires Revered with Zandalar Tribe.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</item>
 
@@ -230,7 +245,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from High Priest Venoxis in Zul'Gurub.
+			<en>Drops from High Priest Venoxis in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司温诺希斯</zh>
 		</source>
 	</item>
 
@@ -242,7 +258,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Crafted by Blacksmiths (300 skill). Requires drops/ores from Ruins of Ahn'Qiraj (AQ20).
+			<en>Crafted by Blacksmiths (300 skill). Requires drops/ores from Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>锻造制造</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Spell Damage received is reduced by 10.</en>
@@ -263,7 +280,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要上古之神的甲壳</zh>
 		</source>
 	</item>
 
@@ -276,7 +294,8 @@
 			<stat type="AGILITY" value="12"/>
 		</stats>
 		<source>
-		Drops from General Angerforge in Blackrock Depths (BRD).
+			<en>Drops from General Angerforge in Blackrock Depths (BRD).</en>
+			<zh>黑石深渊安格弗将军</zh>
 		</source>
 	</item>
 
@@ -291,7 +310,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长房BOSS</zh>
 		</source>
 	</item>
 
@@ -309,7 +329,8 @@
 			<zh>装备：使你的宠物的护甲值提高10%。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>T0.5任务奖励</zh>
 		</source>
 	</item>
 
@@ -326,7 +347,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要被玷污的外套</zh>
 		</source>
 	</item>
 </items>

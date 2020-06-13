@@ -8,7 +8,8 @@
 			<stat type="ATTACK_POWER" value="62"/>
 		</stats>
 		<source>
-		Crafted by Blacksmiths.
+			<en>Crafted by Blacksmiths.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</melee_weapon>
 
@@ -21,7 +22,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-		Drops from Emperor Dagran Thaurissian in Blackrock Depths.
+			<en>Drops from Emperor Dagran Thaurissian in Blackrock Depths.</en>
+			<zh>黑石深渊达格兰·索瑞森大帝</zh>
 		</source>
 	</melee_weapon>
 
@@ -36,7 +38,8 @@
 			<zh>装备：在杀死一个敌人并获得经验值之后获得150点法力值或者20点怒气值。此效果每10秒钟内最多出现一次。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Ragnaros in Molten Core.
+			<en>Drops from Ragnaros in Molten Core.</en>
+			<zh>熔火之心拉格纳罗斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -49,7 +52,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -62,7 +66,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching High Warlord (rank 14). Horde only.
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -77,7 +82,8 @@
 			<zh>击中时可能：使目标受到法术攻击时承受的伤害提高15%。</zh>
 		</special_equip_effect>
 		<source>
-		Crafted by Blacksmiths (300 skill). Requires materials from Molten Core.
+			<en>Crafted by Blacksmiths (300 skill). Requires materials from Molten Core.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</melee_weapon>
 
@@ -96,7 +102,8 @@
 			<zh>击中时可能：使目标遭到重创，对其造成240点伤害。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.
+			<en>Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克、弗莱格尔、费尔默</zh>
 		</source>
 	</melee_weapon>
 
@@ -109,7 +116,8 @@
 			<stat type="PARRY_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Blackwing Lair.
+			<en>Drops from trash mobs in Blackwing Lair.</en>
+			<zh>黑翼之巢小怪</zh>
 		</source>
 	</melee_weapon>
 
@@ -128,7 +136,8 @@
 			<zh>击中时可能：从目标身上偷取141到164点生命值。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉小怪</zh>
 		</source>
 	</melee_weapon>
 
@@ -145,7 +154,8 @@
 			<zh>击中时可能：使目标疑惑，在周围盲目地游荡，持续最多3秒。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from C'Thun in Temple of Ahn'Qiraj.
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj.</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</melee_weapon>
 
@@ -158,7 +168,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Patchwerk in Naxxramas.
+			<en>Drops from Patchwerk in Naxxramas.</en>
+			<zh>纳克萨玛斯帕奇维克</zh>
 		</source>
 	</melee_weapon>
 	
@@ -169,7 +180,8 @@
 			<stat type="TWOHAND_AXE_SKILL" value="10"/>
 		</stats>
 		<source>
-		Crafted by Blacksmiths.
+			<en>Crafted by Blacksmiths.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</melee_weapon>
 </weapons>

@@ -8,7 +8,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Drops from Phalanx in Blackrock Depths (BRD).
+			<en>Drops from Phalanx in Blackrock Depths (BRD).</en>
+			<zh>黑石深渊法拉克斯</zh>
 		</source>
 	</item>
 
@@ -20,7 +21,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-			Quest reward. Trivial quest mostly involving travelling.
+			<en>Quest reward. Trivial quest mostly involving travelling.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -37,7 +39,8 @@
 			<zh>装备：免疫缴械。</zh>
 		</special_equip_effect>
 		<source>
-			Blacksmith crafted.
+			<en>Blacksmith crafted.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</item>
 
@@ -52,7 +55,8 @@
 			<zh>装备：免疫缴械。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Magistrate Barthilas in Stratholme.
+			<en>Drops from Magistrate Barthilas in Stratholme.</en>
+			<zh>斯坦索姆巴瑟拉斯镇长</zh>
 		</source>
 	</item>
 
@@ -64,7 +68,8 @@
 			<stat type="STAMINA" value="5"/>
 		</stats>
 		<source>
-			Quest reward. Requires Golem Lord Argelmach in Blackrock Depths.
+			<en>Quest reward. Requires Golem Lord Argelmach in Blackrock Depths.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -76,7 +81,8 @@
 			<stat type="STAMINA" value="6"/>
 		</stats>
 		<source>
-			World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -90,7 +96,8 @@
 			<stat type="AGILITY" value="3"/>
 		</stats>
 		<source>
-			Drops from Ramstein the Gorger in Stratholme Undead.
+			<en>Drops from Ramstein the Gorger in Stratholme Undead.</en>
+			<zh>斯坦索姆吞咽者拉姆斯登</zh>
 		</source>
 	</item>
 
@@ -106,7 +113,8 @@
 			<stat type="DEFENSE" value="5"/>
 		</stats>
 		<source>
-			Drops from Lucifron in Molten Core.
+			<en>Drops from Lucifron in Molten Core.</en>
+			<zh>熔火之心鲁西弗隆</zh>
 		</source>
 	</item>
 
@@ -119,7 +127,8 @@
 			<stat type="ATTACK_POWER" value="54"/>
 		</stats>
 		<source>
-			Drops from several bosses in Molten Core.
+			<en>Drops from several bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</item>
 
@@ -137,7 +146,8 @@
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -155,7 +165,8 @@
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Blood Guard (rank 7).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Blood Guard (rank 7).</en>
+			<zh>部落荣誉奖励，需要血卫士军阶</zh>
 		</source>
 	</item>
 
@@ -174,7 +185,8 @@
 			<zh>装备：使你的十字军审判所提供的神圣伤害加成提高20点。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -194,7 +206,8 @@
 			<zh>装备：使你的十字军审判所提供的神圣伤害加成提高20点。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -213,7 +226,8 @@
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -232,7 +246,8 @@
 			<zh>装备：断筋技能所消耗的怒气值降低3点。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires General (rank 12).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires General (rank 12).</en>
+			<zh>部落荣誉奖励，需要将军军阶</zh>
 		</source>
 	</item>
 
@@ -245,7 +260,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from several bosses in Zul'Gurub.
+			<en>Drops from several bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布多个BOSS</zh>
 		</source>
 	</item>
 	
@@ -260,7 +276,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Viscidus in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Viscidus in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉维希度斯</zh>
 		</source>
 	</item>
 
@@ -274,7 +291,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</item>
 </items>

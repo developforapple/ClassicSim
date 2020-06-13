@@ -8,7 +8,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -23,7 +24,8 @@
 			<zh>击中时可能：对目标造成324到541点伤害。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).
+			<en>Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层大酋长雷德·黑手</zh>
 		</source>
 	</melee_weapon>
 
@@ -42,7 +44,8 @@
 			<zh>使用：将暗影之击转化为雷霆之击。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Sulfuron Harbinger in Molten Core.
+			<en>Drops from Sulfuron Harbinger in Molten Core.</en>
+			<zh>熔火之心萨弗隆先驱者</zh>
 		</source>
 	</melee_weapon>
 
@@ -61,7 +64,8 @@
 			<zh>使用：将雷霆之击转化为暗影之击。</zh>
 		</special_equip_effect>
 		<source>
-		Transformed from Shadowstrike, which drops from Sulfuron Harbinger in Molten Core.
+			<en>Transformed from Shadowstrike, which drops from Sulfuron Harbinger in Molten Core.</en>
+			<zh>暗影之击转换而来</zh>
 		</source>
 	</melee_weapon>
 
@@ -73,7 +77,8 @@
 			<stat type="ATTACK_POWER" value="54"/>
 		</stats>
 		<source>
-		Drops from Magistrate Barthilas in Stratholme Undead.
+			<en>Drops from Magistrate Barthilas in Stratholme Undead.</en>
+			<zh>斯坦索姆巴瑟拉斯镇长</zh>
 		</source>
 	</melee_weapon>
 
@@ -86,7 +91,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -99,7 +105,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching High Warlord (rank 14). Horde only.
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -113,7 +120,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Crafted by Blacksmiths (300 skill). Requires Molten Core materials.
+			<en>Crafted by Blacksmiths (300 skill). Requires Molten Core materials.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</melee_weapon>
 
@@ -129,7 +137,8 @@
 			<stat type="STAMINA" value="20"/>
 		</stats>
 		<source>
-		Quest reward. Requires winning Alterac Valley.
+			<en>Quest reward. Requires winning Alterac Valley.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -140,7 +149,8 @@
 			<stat type="ATTACK_POWER_DEMON" value="117"/>
 		</stats>
 		<source>
-		Drops from Renataki (Edge of Madness) in Zul'Gurub.
+			<en>Drops from Renataki (Edge of Madness) in Zul'Gurub.</en>
+			<zh>祖尔格拉布雷纳塔基</zh>
 		</source>
 	</melee_weapon>
 
@@ -153,7 +163,8 @@
 			<stat type="ATTACK_POWER_BEAST" value="60"/>
 		</stats>
 		<source>
-		Drops from Gahz'ranka in Zul'Gurub.
+			<en>Drops from Gahz'ranka in Zul'Gurub.</en>
+			<zh>祖尔格拉布加兹兰卡</zh>
 		</source>
 	</melee_weapon>
 
@@ -168,7 +179,8 @@
 			<zh>装备：有一定几率在近战攻击命中目标后使其瘫痪，造成452到677点伤害。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Bloodlord Mandokir in Zul'Gurub.
+			<en>Drops from Bloodlord Mandokir in Zul'Gurub.</en>
+			<zh>祖尔格拉布血领主曼多基尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -179,7 +191,8 @@
 			<stat type="AGILITY" value="35"/>
 		</stats>
 		<source>
-		Drops from Isalien in Dire Maul.
+			<en>Drops from Isalien in Dire Maul.</en>
+			<zh>厄运之槌伊萨利恩</zh>
 		</source>
 	</melee_weapon>
 
@@ -191,7 +204,8 @@
 			<stat type="AGILITY" value="12"/>
 		</stats>
 		<source>
-		Drops from Hoary Templar, a summonable elite in Silithus.
+			<en>Drops from Hoary Templar, a summonable elite in Silithus.</en>
+			<zh>希利苏斯风石苍白圣殿骑士</zh>
 		</source>
 	</melee_weapon>
 
@@ -203,7 +217,8 @@
 			<stat type="STAMINA" value="31"/>
 		</stats>
 		<source>
-		Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉顽强的范克瑞斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -218,7 +233,8 @@
 			<stat type="GUN_SKILL" value="4"/>
 		</stats>
 		<source>
-		Drops from Loatheb in Naxxramas.
+			<en>Drops from Loatheb in Naxxramas.</en>
+			<zh>纳克萨玛斯洛欧塞布</zh>
 		</source>
 	</melee_weapon>
 </weapons>

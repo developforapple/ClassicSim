@@ -8,8 +8,9 @@
             <stat type="STAMINA" value="5"/>
         </stats>
         <source>
-			Drops from Maleki the Pallid in Stratholme Undead.
-        </source>
+			<en>Drops from Maleki the Pallid in Stratholme Undead.</en>
+			<zh>斯坦索姆苍白的玛勒基</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="871" phase="1">
@@ -23,8 +24,9 @@
             <zh>击中时可能：使你的下次攻击获得1次额外的攻击机会。</zh>
         </special_equip_effect>
         <source>
-			World drop.
-        </source>
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="10837" phase="1">
@@ -35,8 +37,9 @@
             <stat type="HIT_CHANCE" value="0.01"/>
         </stats>
         <source>
-			Drops from Shade of Eranikus in Sunken Temple.
-        </source>
+			<en>Drops from Shade of Eranikus in Sunken Temple.</en>
+			<zh>伊兰尼库斯的阴影</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="811" phase="1">
@@ -50,8 +53,9 @@
             <zh>击中时可能：冲击目标，对其造成90到127点自然伤害。</zh>
         </special_equip_effect>
         <source>
-			World drop.
-        </source>
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="13286" phase="1">
@@ -65,8 +69,9 @@
             <zh>击中时可能：使目标的护甲降低200点，可叠加3次。</zh>
         </special_equip_effect>
         <source>
-			Drops from Spirestone Butcher in Lower Blackrock Spire (LBRS).
-        </source>
+			<en>Drops from Spirestone Butcher in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层尖石屠夫</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="12621" phase="1">
@@ -80,8 +85,9 @@
             <zh>击中时可能：每5秒钟吸取目标10点生命值，并将其转移给施法者，持续25秒。</zh>
         </special_equip_effect>
         <source>
-			Drops from Bannok Grimaxe in Lower Blackrock Spire (LBRS).
-        </source>
+			<en>Drops from Bannok Grimaxe in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层班诺克·巨斧</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="17016" phase="1">
@@ -92,8 +98,9 @@
             <stat type="FIRE_RESISTANCE" value="6"/>
         </stats>
         <source>
-			Crafted by Blacksmiths with Thorium Brotherhood reputation. Requires Molten Core materials.
-        </source>
+			<en>Crafted by Blacksmiths with Thorium Brotherhood reputation. Requires Molten Core materials.</en>
+			<zh>锻造制造</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="17068" phase="1">
@@ -107,8 +114,9 @@
             <zh>击中时可能：向目标射出一支暗影箭，对其造成110到141点暗影伤害。</zh>
         </special_equip_effect>
         <source>
-			Drops from Onyxia in Onyxia's Lair.
-        </source>
+			<en>Drops from Onyxia in Onyxia's Lair.</en>
+			<zh>奥妮克希亚</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18498" phase="2">
@@ -119,8 +127,9 @@
             <stat type="STAMINA" value="12"/>
         </stats>
         <source>
-			Drops from Guard Slip'kik and Guard Mol'dar in Dire Maul North.
-        </source>
+			<en>Drops from Guard Slip'kik and Guard Mol'dar in Dire Maul North.</en>
+			<zh>厄运之槌北卫兵摩尔达、卫兵斯里基克</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18828" phase="2">
@@ -132,8 +141,9 @@
             <stat type="STAMINA" value="7"/>
         </stats>
         <source>
-			May be purchased upon reaching High Warlord (rank 14). Horde only.
-        </source>
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18827" phase="2">
@@ -145,8 +155,9 @@
             <stat type="STAMINA" value="7"/>
         </stats>
         <source>
-			May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
-        </source>
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19103" phase="3">
@@ -156,8 +167,9 @@
             <stat type="STRENGTH" value="15"/>
         </stats>
         <source>
-			Purchased for 2400 honor points. Horde only.
-        </source>
+			<en>Purchased for 2400 honor points. Horde only.</en>
+			<zh>霜狼氏族崇敬</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19362" phase="3">
@@ -169,8 +181,9 @@
             <stat type="STAMINA" value="7"/>
         </stats>
         <source>
-			Drops from trash in Blackwing Lair.
-        </source>
+			<en>Drops from trash in Blackwing Lair.</en>
+			<zh>黑翼之巢小怪</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19363" phase="3">
@@ -181,8 +194,9 @@
             <stat type="STAMINA" value="13"/>
         </stats>
         <source>
-			Drops from Nefarian in Blackwing Lair.
-        </source>
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19921" phase="4">
@@ -204,8 +218,9 @@
             <affix id="860"/>
         </random_affixes>
         <source>
-			Random drop from trash in Zul'Gurub.
-        </source>
+			<en>Random drop from trash in Zul'Gurub.</en>
+			<zh>祖尔格拉布小怪</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19852" phase="4">
@@ -219,8 +234,9 @@
             <zh>击中时可能：从敌人身上吸取48到55点生命值。</zh>
         </special_equip_effect>
         <source>
-			Drops from Hakkar the Soulflayer in Zul'Gurub.
-        </source>
+			<en>Drops from Hakkar the Soulflayer in Zul'Gurub.</en>
+			<zh>祖尔格拉布哈卡</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="21392" phase="5">
@@ -234,8 +250,9 @@
             <stat type="DEFENSE" value="4"/>
         </stats>
         <source>
-			Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Exalted with Cenarion Hold.
-        </source>
+			<en>Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Exalted with Cenarion Hold.</en>
+			<zh>任务奖励</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="21401" phase="5">
@@ -248,8 +265,9 @@
             <stat type="MANA_PER_5" value="3"/>
         </stats>
         <source>
-			Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Exalted with Cenarion Hold.
-        </source>
+			<en>Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Exalted with Cenarion Hold.</en>
+			<zh>任务奖励</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="21242" phase="5">
@@ -262,10 +280,12 @@
             <stat type="INTELLECT" value="10"/>
         </stats>
         <source>
-			Reward from quest outside of Ruins of Ahn'Qiraj. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
-        </source>
+			<en>Reward from quest outside of Ruins of Ahn'Qiraj. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉其拉帝王武器任务奖励</zh>
+		</source>
         <flavour_text>
-			The weapon is infused and reinforced with Elementium.
+			<en>The weapon is infused and reinforced with Elementium.</en>
+            <zh>"这件武器经过了源质的强化。"</zh>
         </flavour_text>
     </melee_weapon>
 
@@ -277,7 +297,8 @@
             <stat type="CRIT_CHANCE" value="0.01"/>
         </stats>
         <source>
-			Drops from Noth the Plaguebringer in Naxxramas.
-        </source>
+			<en>Drops from Noth the Plaguebringer in Naxxramas.</en>
+			<zh>纳克萨玛斯瘟疫使者诺斯</zh>
+		</source>
     </melee_weapon>
 </weapons>

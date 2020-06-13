@@ -9,7 +9,8 @@
 			<stat type="STAMINA" value="6"/>
 		</stats>
 		<source>
-		Drops from caster trash mobs in Stratholme and Scholomance.
+			<en>Drops from caster trash mobs in Stratholme and Scholomance.</en>
+			<zh>通灵学院/斯坦索姆人形小怪掉落</zh>
 		</source>
 	</item>
 
@@ -22,7 +23,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-		Drops from Solakar Flamewreath in Upper Blackrock Spire (UBRS).
+			<en>Drops from Solakar Flamewreath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层索拉卡·火冠</zh>
 		</source>
 	</item>
 
@@ -36,7 +38,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<source>
-		Drops from Ok'thor the Breaker in Blackrock Depths.
+			<en>Drops from Ok'thor the Breaker in Blackrock Depths.</en>
+			<zh>黑石深渊竞技场破坏者奥科索尔</zh>
 		</source>
 	</item>
 
@@ -49,7 +52,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Kirtonos the Herald in Scholomance.
+			<en>Drops from Kirtonos the Herald in Scholomance.</en>
+			<zh>通灵学院传令官基尔图诺斯</zh>
 		</source>
 	</item>
 
@@ -65,7 +69,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Molten Core.
+			<en>Drops from trash mobs in Molten Core.</en>
+			<zh>熔火之心小怪</zh>
 		</source>
 	</item>
 
@@ -79,7 +84,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		Drops from Nerub'enkan in Stratholme Undead.
+			<en>Drops from Nerub'enkan in Stratholme Undead.</en>
+			<zh>斯坦索姆奈鲁布恩坎</zh>
 		</source>
 	</item>
 
@@ -92,7 +98,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires expensive materials to craft.
+			<en>Crafted by Tailorers. Requires expensive materials to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -105,7 +112,8 @@
 			<stat type="HEALTH_PER_5" value="6"/>
 		</stats>
 		<source>
-		Drops from Majordomo Executus in Molten Core.
+			<en>Drops from Majordomo Executus in Molten Core.</en>
+			<zh>熔火之心管理者埃克索图斯</zh>
 		</source>
 	</item>
 
@@ -119,7 +127,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心加尔等多个BOSS</zh>
 		</source>
 	</item>
 
@@ -133,7 +142,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Sold by Frostwolf Clan vendors. Requires Honored with Frostwolf Clan.
+			<en>Sold by Frostwolf Clan vendors. Requires Honored with Frostwolf Clan.</en>
+			<zh>霜狼氏族尊敬</zh>
 		</source>
 	</item>
 
@@ -147,7 +157,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Sold by Stormpike Guard vendors. Requires Honored with Stormpike Guard.
+			<en>Sold by Stormpike Guard vendors. Requires Honored with Stormpike Guard.</en>
+			<zh>雷矛卫队尊敬</zh>
 		</source>
 	</item>
 
@@ -161,7 +172,8 @@
 			<stat type="MANA_PER_5" value="5"/>
 		</stats>
 		<source>
-		Drops from Firemaw in Blackwing Lair.
+			<en>Drops from Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢费尔默</zh>
 		</source>
 	</item>
 
@@ -177,7 +189,8 @@
 			<stat type="SPELL_DAMAGE" value="23"/>
 		</stats>
 		<source>
-		Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</item>
 
@@ -194,7 +207,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</item>
 
@@ -208,7 +222,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Chromaggus in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -221,7 +236,8 @@
 			<stat type="MANA_PER_5" value="3"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Dark Runes and Felcloth.
+			<en>Crafted by Tailorers. Requires Dark Runes and Felcloth.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -238,7 +254,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Requires Honored with The Defilers (Arathi Basin).
+			<en>Requires Honored with The Defilers (Arathi Basin).</en>
+			<zh>污染者尊敬</zh>
 		</source>
 	</item>
 
@@ -255,7 +272,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Requires Honored with The League of Arathor (Arathi Basin).
+			<en>Requires Honored with The League of Arathor (Arathi Basin).</en>
+			<zh>阿拉索联军尊敬</zh>
 		</source>
 	</item>
 
@@ -268,7 +286,8 @@
 			<stat type="SPELL_DAMAGE" value="29"/>
 		</stats>
 		<source>
-		Drops from High Priest(ess) bosses in Zul'Gurub.
+			<en>Drops from High Priest(ess) bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司BOSS</zh>
 		</source>
 	</item>
 
@@ -281,7 +300,8 @@
 			<stat type="MANA_PER_5" value="7"/>
 		</stats>
 		<source>
-		Quest reward. Requires killing multiple bosses in Zul'Gurub.
+			<en>Quest reward. Requires killing multiple bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布任务奖励</zh>
 		</source>
 	</item>
 
@@ -295,7 +315,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Drops from Lethon (world boss in The Hinterlands).
+			<en>Drops from Lethon (world boss in The Hinterlands).</en>
+			<zh>世界BOSS莱索恩</zh>
 		</source>
 	</item>
 
@@ -310,7 +331,8 @@
 			<stat type="INTELLECT" value="11"/>
 		</stats>
 		<source>
-		Drops from Mor Grayhoof in Lower Blackrock Spire (LBRS) during Tier 0.5 quest line.
+			<en>Drops from Mor Grayhoof in Lower Blackrock Spire (LBRS) during Tier 0.5 quest line.</en>
+			<zh>黑石塔下层莫尔·灰蹄T0.5任务线</zh>
 		</source>
 	</item>
 
@@ -323,7 +345,8 @@
 			<stat type="SPELL_DAMAGE" value="13"/>
 		</stats>
 		<source>
-		Drops from The Duke of Cynders, a summonable raid boss in Silithus.
+			<en>Drops from The Duke of Cynders, a summonable raid boss in Silithus.</en>
+			<zh>希利苏斯风石灰烬公爵</zh>
 		</source>
 	</item>
 
@@ -338,7 +361,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Quest reward. Requires Magister's Belt.
+			<en>Quest reward. Requires Magister's Belt.</en>
+			<zh>任务奖励，需要博学者腰带</zh>
 		</source>
 	</item>
 
@@ -352,7 +376,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<source>
-		Quest reward. Requires Dreadmist Belt.
+			<en>Quest reward. Requires Dreadmist Belt.</en>
+			<zh>任务奖励，需要鬼雾腰带</zh>
 		</source>
 	</item>
 
@@ -366,7 +391,8 @@
 			<stat type="SPELL_DAMAGE" value="41"/>
 		</stats>
 		<source>
-		Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</item>
 
@@ -379,7 +405,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="20"/>
 		</stats>
 		<source>
-		Drops from Balzaphon during Scourge Invasion event.
+			<en>Drops from Balzaphon during Scourge Invasion event.</en>
+			<zh>天灾入侵事件巴尔萨冯</zh>
 		</source>
 	</item>
 
@@ -395,7 +422,11 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的腰带</zh>
 		</source>
 	</item>
+
+	<!-- 恶魔之心腰带 -->
+	<!-- 瘟疫之心腰带 -->
 </items>

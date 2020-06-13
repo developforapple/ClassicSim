@@ -4,7 +4,8 @@
 		<info name="Accurate Slugs" name_zh="精准弹丸" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="40" item_lvl="45" quality="COMMON" boe="yes" icon="Inv_ammo_bullet_01.png"/>
 		<dps value="13.0"/>
 		<source>
-			Sold by many vendors (Gunsmiths, General Goods vendors, and more).
+			<en>Sold by many vendors (Gunsmiths, General Goods vendors, and more).</en>
+			<zh>商人</zh>
 		</source>
 	</projectile>
 
@@ -12,7 +13,8 @@
 		<info name="Jagged Arrow" name_zh="锯齿箭" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="40" item_lvl="45" quality="COMMON" boe="yes" icon="Inv_weapon_shortblade_25.png"/>
 		<dps value="13.0"/>
 		<source>
-			Sold by many vendors (Bow Merchants, General Goods vendors, Bowyers, and more).
+			<en>Sold by many vendors (Bow Merchants, General Goods vendors, Bowyers, and more).</en>
+			<zh>商人</zh>
 		</source>
 	</projectile>
 
@@ -20,7 +22,8 @@
 		<info name="Mithril Gyro-Shot" name_zh="秘银螺旋弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="44" item_lvl="49" quality="UNCOMMON" boe="yes" icon="Inv_ammo_bullet_01.png"/>
 		<dps value="15.0"/>
 		<source>
-			Crafted by Engineers (245).
+			<en>Crafted by Engineers (245).</en>
+			<zh>工程学制造</zh>
 		</source>
 	</projectile>
 
@@ -28,7 +31,8 @@
 		<info name="Rockshard Pellets" name_zh="石片弹丸" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="47" item_lvl="52" quality="RARE" boe="no" icon="Inv_ammo_bullet_02.png"/>
 		<dps value="18.0"/>
 		<source>
-			Drops from Lord Roccor in Blackrock Depths.
+			<en>Drops from Lord Roccor in Blackrock Depths.</en>
+			<zh>黑石深渊洛考尔</zh>
 		</source>
 	</projectile>
 
@@ -36,7 +40,8 @@
 		<info name="Ice Threaded Arrow" name_zh="冰线箭矢" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="51" item_lvl="54" quality="UNCOMMON" boe="no" icon="Spell_frost_iceshard.png"/>
 		<dps value="16.5"/>
 		<source>
-			Sold by Alterac Valley faction vendors inside and outside of battleground.
+			<en>Sold by Alterac Valley faction vendors inside and outside of battleground.</en>
+			<zh>奥山声望尊敬</zh>
 		</source>
 	</projectile>
 
@@ -44,7 +49,8 @@
 		<info name="Ice Threaded Bullet" name_zh="冰线枪弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="51" item_lvl="54" quality="UNCOMMON" boe="no" icon="Spell_frost_frostblast.png"/>
 		<dps value="16.5"/>
 		<source>
-			Sold by Alterac Valley faction vendors inside and outside of battleground.
+			<en>Sold by Alterac Valley faction vendors inside and outside of battleground.</en>
+			<zh>奥山声望尊敬</zh>
 		</source>
 	</projectile>
 
@@ -52,7 +58,8 @@
 		<info name="Thorium Headed Arrow" name_zh="瑟银之箭" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="52" item_lvl="57" quality="UNCOMMON" boe="yes" icon="Inv_ammo_arrow_02.png"/>
 		<dps value="17.5"/>
 		<source>
-			Quest reward. Requires Thorium Shells x200, which are crafted by Engineers.
+			<en>Quest reward. Requires Thorium Shells x200, which are crafted by Engineers.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</projectile>
 
@@ -60,7 +67,8 @@
 		<info name="Thorium Shells" name_zh="瑟银弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="52" item_lvl="57" quality="UNCOMMON" boe="yes" icon="Inv_ammo_bullet_03.png"/>
 		<dps value="17.5"/>
 		<source>
-			Crafted by Engineers (285).
+			<en>Crafted by Engineers (285).</en>
+			<zh>工程学制造</zh>
 		</source>
 	</projectile>
 
@@ -68,7 +76,8 @@
 		<info name="Doomshot" name_zh="末日之击" type="ARROW" slot="PROJECTILE" unique="no" req_lvl="54" item_lvl="59" quality="RARE" boe="no" icon="Ability_hunter_criticalshot.png"/>
 		<dps value="20.0"/>
 		<source>
-			Drops from Shadow Hunter Vosh'gajin in Lower Blackrock Spire (LBRS).
+			<en>Drops from Shadow Hunter Vosh'gajin in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层暗影猎手沃什加斯</zh>
 		</source>
 	</projectile>
 
@@ -76,7 +85,8 @@
 		<info name="Miniature Cannon Balls" name_zh="迷你炮弹" type="BULLET" slot="PROJECTILE" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="no" icon="Inv_ammo_bullet_02.png"/>
 		<dps value="20.5"/>
 		<source>
-			Drops from Cannon Master Willey in Stratholme Living.
+			<en>Drops from Cannon Master Willey in Stratholme Living.</en>
+			<zh>斯坦索姆炮手威利</zh>
 		</source>
 	</projectile>
 </projectiles>

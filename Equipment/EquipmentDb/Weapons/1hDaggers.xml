@@ -8,7 +8,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-			Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</melee_weapon>
 
@@ -20,7 +21,8 @@
 			<stat type="STRENGTH" value="4"/>
 		</stats>
 		<source>
-			Crafted by Blacksmiths with 300 Weaponsmithing. Plans relatively low drop-rate from boss in Stratholme living.
+			<en>Crafted by Blacksmiths with 300 Weaponsmithing. Plans relatively low drop-rate from boss in Stratholme living.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</melee_weapon>
 
@@ -33,7 +35,8 @@
 			<zh>击中时可能：每2秒对目标造成$m1点自然伤害，并使其攻击间隔延长10%，持续10秒。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from War Master Voone in Lower Blackrock Spire (LBRS).
+			<en>Drops from War Master Voone in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层指挥官沃恩</zh>
 		</source>
 	</melee_weapon>
 
@@ -46,7 +49,8 @@
 			<zh>击中时可能：使目标的施法速度、近战和远程攻击的攻击间隔延长10%，持续10秒。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Crystal Fang in Lower Blackrock Spire (LBRS).
+			<en>Drops from Crystal Fang in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层水晶之牙</zh>
 		</source>
 	</melee_weapon>
 
@@ -58,7 +62,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -70,7 +75,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-			Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</melee_weapon>
 
@@ -85,7 +91,8 @@
 			<zh>击中时可能：冲击目标，对其造成75到106点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
-			World drop. BoE in 1.9.0, BoP in patches before that.
+			<en>World drop. BoE in 1.9.0, BoP in patches before that.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -100,7 +107,8 @@
 			<zh>击中时可能：下3秒的所有攻击都一定命中，并且一定是致命一击。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).
+			<en>Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层大酋长雷德·黑手</zh>
 		</source>
 	</melee_weapon>
 
@@ -113,7 +121,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-			Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</melee_weapon>
 
@@ -128,7 +137,8 @@
 			<zh>击中时可能：向敌人发射一支暗影箭，对其造成75点暗影伤害，并使所有属性降低25点，持续30秒。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Garr in Molten Core.
+			<en>Drops from Garr in Molten Core.</en>
+			<zh>熔火之心加尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -141,7 +151,8 @@
 			<stat type="ATTACK_POWER" value="20"/>
 		</stats>
 		<source>
-			Drops from Majordomo Executus in Molten Core.
+			<en>Drops from Majordomo Executus in Molten Core.</en>
+			<zh>熔火之心管理者埃克索图斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -156,7 +167,8 @@
 			<zh>击中时可能：对目标造成40到57点火焰伤害。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Ragnaros in Molten Core.
+			<en>Drops from Ragnaros in Molten Core.</en>
+			<zh>熔火之心拉格纳罗斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -168,7 +180,8 @@
 			<spell name="PHYSICAL_ATTACK" min="200" max="300" instant="yes" rate="0.01" internal_cd="0" spell_dmg_coefficient="0.0" proc_weapon_side="true"/>
 		</proc>
 		<source>
-			Purchased from Alterac Valley faction upon reaching Exalted.
+			<en>Purchased from Alterac Valley faction upon reaching Exalted.</en>
+			<zh>奥山声望崇拜</zh>
 		</source>
 		<special_equip_effect>
 			<en>Chance on hit: Wounds the target for 200 to 300 damage and lowers Intellect of target by 25 for 30 sec.</en>
@@ -186,7 +199,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-			Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -200,7 +214,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Requires The Defilers - Exalted
+			<en>Requires The Defilers - Exalted</en>
+			<zh>污染者崇拜</zh>
 		</source>
 	</melee_weapon>
 
@@ -214,7 +229,8 @@
 			<stat type="SPELL_DAMAGE" value="40"/>
 		</stats>
 		<source>
-			Drops from Azuregos (world boss).
+			<en>Drops from Azuregos (world boss).</en>
+			<zh>世界BOSS艾索雷葛斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -228,7 +244,8 @@
 			<stat type="MANA_PER_5" value="6"/>
 		</stats>
 		<source>
-			Drops from High Priest Venoxis in Zul'Gurub.
+			<en>Drops from High Priest Venoxis in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司温诺希斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -240,7 +257,8 @@
 			<stat type="ATTACK_POWER" value="28"/>
 		</stats>
 		<source>
-			Drops from Hakkar in Zul'Gurub.
+			<en>Drops from Hakkar in Zul'Gurub.</en>
+			<zh>祖尔格拉布哈卡</zh>
 		</source>
 	</melee_weapon>
 
@@ -252,7 +270,8 @@
 			<stat type="SPELL_DAMAGE" value="19"/>
 		</stats>
 		<source>
-			Drops from quest reward bag that requires turning in quest items from Silithus elites.
+			<en>Drops from quest reward bag that requires turning in quest items from Silithus elites.</en>
+			<zh>希利苏斯任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -269,7 +288,8 @@
 			<stat type="SPELL_DAMAGE" value="13"/>
 		</stats>
 		<source>
-			Quest reward. Requires killing entry bosses in both AQ20 and ZG.
+			<en>Quest reward. Requires killing entry bosses in both AQ20 and ZG.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -283,7 +303,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Ruins of Ahn'Qiraj (AQ20) and Exalted with Cenarion Hold.
+			<en>Quest reward. Requires boss drops from Ruins of Ahn'Qiraj (AQ20) and Exalted with Cenarion Hold.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -296,7 +317,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from trash mobs in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟小怪</zh>
 		</source>
 	</melee_weapon>
 
@@ -310,10 +332,12 @@
 			<stat type="ATTACK_POWER" value="18"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 		<flavour_text>
-			"The weapon is infused and reinforced with Elementium."
+			<en>The weapon is infused and reinforced with Elementium.</en>
+            <zh>"这件武器经过了源质的强化。"</zh>
 		</flavour_text>
 	</melee_weapon>
 
@@ -326,7 +350,8 @@
 			<stat type="SPELL_DAMAGE" value="19"/>
 		</stats>
 		<source>
-			Reputation reward. Attainable from Argent Dawn at each level of friendliness, among other rewards.
+			<en>Reputation reward. Attainable from Argent Dawn at each level of friendliness, among other rewards.</en>
+			<zh>银色黎明声望奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -339,7 +364,8 @@
 			<stat type="SPELL_DAMAGE" value="85"/>
 		</stats>
 		<source>
-			Drops from Grobbulus in Naxxramas.
+			<en>Drops from Grobbulus in Naxxramas.</en>
+			<zh>纳克萨玛斯格罗布鲁斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -352,7 +378,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Maexxna in Naxxramas.
+			<en>Drops from Maexxna in Naxxramas.</en>
+			<zh>纳克萨玛斯迈克斯纳</zh>
 		</source>
 	</melee_weapon>
 
@@ -366,7 +393,8 @@
 			<stat type="AGILITY" value="8"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Naxxramas.
+			<en>Drops from trash mobs in Naxxramas.</en>
+			<zh>纳克萨玛斯小怪</zh>
 		</source>
 	</melee_weapon>
 
@@ -379,7 +407,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</melee_weapon>
 
@@ -392,7 +421,8 @@
 			<stat type="AGILITY" value="16"/>
 		</stats>
 		<source>
-			Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</melee_weapon>
 
@@ -403,7 +433,8 @@
 			<stat type="DAGGER_SKILL" value="6"/>
 		</stats>
 		<source>
-			Drops from Prince Tortheldrin in Dire Maul West.
+			<en>Drops from Prince Tortheldrin in Dire Maul West.</en>
+			<zh>厄运之槌西托塞德林王子</zh>
 		</source>
 	</melee_weapon>
 	
@@ -414,7 +445,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-			Drops from Baron Rovendare in UD Strat.
+			<en>Drops from Baron Rovendare in UD Strat.</en>
+			<zh>斯坦索姆瑞文戴尔男爵</zh>
 		</source>
 	</melee_weapon>
 

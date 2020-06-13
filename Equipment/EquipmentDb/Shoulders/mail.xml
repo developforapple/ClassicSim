@@ -10,7 +10,8 @@
 			<stat type="SPIRIT" value="4"/>
 		</stats>
 		<source>
-			Drops from Overlord Wyrmthalak in Lower Blackrock Spire (LBRS).
+			<en>Drops from Overlord Wyrmthalak in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层维姆萨拉克</zh>
 		</source>
 	</item>
 
@@ -23,7 +24,8 @@
 			<stat type="ATTACK_POWER" value="40"/>
 		</stats>
 		<source>
-			Crafted by Leatherworkers. Pattern drops in Blackrock Depths.
+			<en>Crafted by Leatherworkers. Pattern drops in Blackrock Depths.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 
@@ -40,7 +42,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Sulfuron Harbinger in Molten Core.
+			<en>Drops from Sulfuron Harbinger in Molten Core.</en>
+			<zh>熔火之心萨弗隆先驱者</zh>
 		</source>
 	</item>
 
@@ -54,7 +57,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Lieutenant Commander (rank 10).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Lieutenant Commander (rank 10).</en>
+			<zh>联盟荣誉奖励，需要少校军阶</zh>
 		</source>
 	</item>
 
@@ -68,7 +72,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Champion (rank 10).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Champion (rank 10).</en>
+			<zh>部落荣誉奖励，需要勇士军阶</zh>
 		</source>
 	</item>
 	
@@ -83,7 +88,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).</en>
+			<zh>联盟荣誉奖励，需要元帅军阶</zh>
 		</source>
 	</item>
 
@@ -98,7 +104,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Warlord (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Warlord (rank 13).</en>
+			<zh>部落荣誉奖励，需要督军军阶</zh>
 		</source>
 	</item>
 
@@ -115,7 +122,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -129,7 +137,8 @@
 			<stat type="MANA_PER_5" value="9"/>
 		</stats>
 		<source>
-			Drops from Broodlord Lashlayer in Blackwing Lair.
+			<en>Drops from Broodlord Lashlayer in Blackwing Lair.</en>
+			<zh>黑翼之巢勒什雷尔</zh>
 		</source>
 	</item>
 
@@ -141,7 +150,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Crafted by Blacksmiths (300 skill). Pattern requires Honored with Zandalar Tribe.
+			<en>Crafted by Blacksmiths (300 skill). Pattern requires Honored with Zandalar Tribe.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</item>
 
@@ -155,7 +165,8 @@
 			<stat type="INTELLECT" value="17"/>
 		</stats>
 		<source>
-			Requires Exalted with The League of Arathor (Arathi Basin).
+			<en>Requires Exalted with The League of Arathor (Arathi Basin).</en>
+			<zh>阿拉索联军崇拜</zh>
 		</source>
 	</item>
 
@@ -170,7 +181,8 @@
 			<stat type="INTELLECT" value="17"/>
 		</stats>
 		<source>
-			Requires Exalted with The Defilers (Arathi Basin).
+			<en>Requires Exalted with The Defilers (Arathi Basin).</en>
+			<zh>污染者崇拜</zh>
 		</source>
 	</item>
 
@@ -185,7 +197,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drop from Zul'Gurub and Revered with Zandalar Tribe.
+			<en>Quest reward. Requires boss drop from Zul'Gurub and Revered with Zandalar Tribe.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -197,7 +210,8 @@
 			<stat type="STAMINA" value="22"/>
 		</stats>
 		<source>
-			Drops from The Prophet Skeram in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from The Prophet Skeram in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉预言者斯克拉姆</zh>
 		</source>
 	</item>
 
@@ -213,7 +227,8 @@
 			<stat type="SPELL_DAMAGE" value="6"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -226,7 +241,8 @@
 			<stat type="INTELLECT" value="10"/>
 		</stats>
 		<source>
-			Quest reward. Requires Beaststalker's Boots, Beaststalker's Pants, and Beaststalker's Mantle.
+			<en>Quest reward. Requires Beaststalker's Boots, Beaststalker's Pants, and Beaststalker's Mantle.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -241,7 +257,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

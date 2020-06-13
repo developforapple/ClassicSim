@@ -78,13 +78,13 @@ void ItemFileReader::item_file_handler(QXmlStreamReader& reader, QVector<Item*>&
             } else if (reader.name() == "stats") {
                 stats_element_reader(reader, stats);
             } else if (reader.name() == "source") {
-                item_map["source"] = reader.readElementText().trimmed();
+                item_map["source"] = read_localized_element_text(reader,L_LANG);
             } else if (reader.name() == "proc") {
                 proc_element_reader(reader, procs);
             } else if (reader.name() == "uses") {
                 use_element_reader(reader, uses);
             } else if (reader.name() == "flavour_text") {
-                item_map["flavour_text"] = reader.readElementText().simplified();
+                item_map["flavour_text"] = read_localized_element_text(reader,L_LANG);
             } else if (reader.name() == "special_equip_effect") {
                 special_equip_effects.append(read_localized_element_text(reader, L_LANG));
             } else if (reader.name() == "modifies") {

@@ -8,7 +8,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Stratholme Undead.
+			<en>Drops from trash mobs in Stratholme Undead.</en>
+			<zh>斯坦索姆小怪</zh>
 		</source>
 	</wrist>
 
@@ -21,7 +22,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-			Drops from Princess Theradras in Maraudon.
+			<en>Drops from Princess Theradras in Maraudon.</en>
+			<zh>玛拉顿瑟莱德丝公主</zh>
 		</source>
 	</wrist>
 
@@ -35,7 +37,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Halycon in Lower Blackrock Spire (LBRS).
+			<en>Drops from Halycon in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层哈雷肯</zh>
 		</source>
 	</wrist>
 
@@ -50,7 +53,8 @@
 			<stat type="STAMINA" value="11"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Molten Core.
+			<en>Drops from trash mobs in Molten Core.</en>
+			<zh>熔火之心小怪</zh>
 		</source>
 	</item>
 
@@ -64,7 +68,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Majordomo Executus in Molten Core.
+			<en>Drops from Majordomo Executus in Molten Core.</en>
+			<zh>熔火之心管理者埃克索图斯</zh>
 		</source>
 	</wrist>
 
@@ -79,7 +84,8 @@
 			<stat type="GUN_SKILL" value="2"/>
 		</stats>
 		<source>
-			Rare drop from Satyr trash mobs in Dire Maul.
+			<en>Rare drop from Satyr trash mobs in Dire Maul.</en>
+			<zh>厄运之槌萨特小怪</zh>
 		</source>
 	</wrist>
 
@@ -94,7 +100,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-			Drops from Razorgore the Untamed.
+			<en>Drops from Razorgore the Untamed.</en>
+			<zh>黑翼之巢狂野的拉佐格尔</zh>
 		</source>
 	</item>
 
@@ -108,7 +115,8 @@
 			<stat type="ATTACK_POWER" value="38"/>
 		</stats>
 		<source>
-			Sold by Warsong Gulch quartermasters. Requires Exalted with Warsong Gulch faction.
+			<en>Sold by Warsong Gulch quartermasters. Requires Exalted with Warsong Gulch faction.</en>
+			<zh>战歌峡谷声望崇拜</zh>
 		</source>
 	</wrist>
 
@@ -123,7 +131,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drop from Zul'Gurub and Friendly with Zandalar Tribe.
+			<en>Quest reward. Requires boss drop from Zul'Gurub and Friendly with Zandalar Tribe.</en>
+			<zh>祖尔格拉布套装</zh>
 		</source>
 	</item>
 
@@ -136,7 +145,8 @@
 			<stat type="INTELLECT" value="5"/>
 		</stats>
 		<source>
-			Quest reward. Requires Beaststalker's Bindings, gold, drops from Winterspring beasts.
+			<en>Quest reward. Requires Beaststalker's Bindings, gold, drops from Winterspring beasts.</en>
+			<zh>T0.5任务奖励</zh>
 		</source>
 	</wrist>
 
@@ -149,7 +159,8 @@
 			<stat type="INTELLECT" value="7"/>
 		</stats>
 		<source>
-			Drops from Kurinaxx in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Kurinaxx in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟库林纳克斯</zh>
 		</source>
 	</wrist>
 
@@ -163,7 +174,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

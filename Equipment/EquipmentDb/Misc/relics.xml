@@ -5,7 +5,8 @@
 		<class_restriction class="PALADIN"/>
 		<stats/>
 		<source>
-		Drops from Isalien in Dire Maul.
+			<en>Drops from Isalien in Dire Maul.</en>
+			<zh>厄运之槌伊萨利恩</zh>
 		</source>
 		<modifies name="Seal of Command"  name_zh="命令圣印"/>
 		<modifies name="Seal of the Crusader"  name_zh="十字军圣印"/>
@@ -21,7 +22,8 @@
 		<class_restriction class="PALADIN"/>
 		<stats/>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 		<modifies name="Seal of the Crusader" name_zh="十字军圣印"/>
 		<modifies name="Judgement of the Crusader" name_zh="十字军审判"/>
@@ -36,7 +38,8 @@
 		<class_restriction class="DRUID"/>
 		<stats/>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 		<modifies name="Moonfire" name_zh="月火术"/>
 		<special_equip_effect>
@@ -50,7 +53,8 @@
 		<class_restriction class="SHAMAN"/>
 		<stats/>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 		<modifies name="Lightning Bolt" name_zh="闪电箭"/>
 		<modifies name="Chain Lightning" name_zh="闪电链"/>

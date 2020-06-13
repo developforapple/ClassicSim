@@ -3,6 +3,8 @@
 #include <QDebug>
 
 #include "Projectile.h"
+#include "Utils/i18n.h"
+#include "Utils/xmllocalizedtextreader.h"
 
 void ProjectileFileReader::file_handler(QXmlStreamReader& reader, QVector<Item*>& items) {
     while (reader.readNextStartElement()) {
@@ -30,7 +32,7 @@ void ProjectileFileReader::file_handler(QXmlStreamReader& reader, QVector<Item*>
                     dps_element_reader(reader.attributes(), item_map);
                     reader.skipCurrentElement();
                 } else if (reader.name() == "source") {
-                    item_map["source"] = reader.readElementText().trimmed();
+                    item_map["source"] = read_localized_element_text(reader, L_LANG);
                 } else if (reader.name() == "mutex") {
                     mutex_element_reader(reader.attributes(), mutex_item_ids);
                     reader.skipCurrentElement();

@@ -9,7 +9,8 @@
 			<stat type="AGILITY" value="11"/>
 		</stats>
 		<source>
-		Drops from Anub'shiah in the Arena in Blackrock Depths.
+			<en>Drops from Anub'shiah in the Arena in Blackrock Depths.</en>
+			<zh>黑石深渊竞技场阿努希尔</zh>
 		</source>
 	</item>
 
@@ -22,7 +23,8 @@
 			<stat type="FIRE_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-		Drops from Hurley Blackbreath in Blackrock Depths.
+			<en>Drops from Hurley Blackbreath in Blackrock Depths.</en>
+			<zh>黑石深渊霍尔雷·黑须</zh>
 		</source>
 	</item>
 
@@ -35,7 +37,8 @@
 			<stat type="STRENGTH" value="5"/>
 		</stats>
 		<source>
-		Quest reward. Requires Upper Blackrock Spire (UBRS).
+			<en>Quest reward. Requires Upper Blackrock Spire (UBRS).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -47,7 +50,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Drops from Rattlegore in Scholomance.
+			<en>Drops from Rattlegore in Scholomance.</en>
+			<zh>通灵学院血骨傀儡</zh>
 		</source>
 	</item>
 
@@ -59,7 +63,8 @@
 			<stat type="ATTACK_POWER" value="24"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长房BOSS</zh>
 		</source>
 	</item>
 
@@ -72,7 +77,8 @@
 			<stat type="STRENGTH" value="4"/>
 		</stats>
 		<source>
-		Drops from Princess Moira Bronzebeard in Blackrock Depths.
+			<en>Drops from Princess Moira Bronzebeard in Blackrock Depths.</en>
+			<zh>黑石深渊铁炉堡公主茉艾拉·铜须</zh>
 		</source>
 	</item>
 
@@ -84,7 +90,8 @@
 			<stat type="ATTACK_POWER" value="40"/>
 		</stats>
 		<source>
-		Drops from Halycon in Lower Blackrock Spire (LBRS).
+			<en>Drops from Halycon in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层哈雷肯</zh>
 		</source>
 	</item>
 
@@ -98,7 +105,8 @@
 			<stat type="SHADOW_RESISTANCE" value="7"/>
 		</stats>
 		<source>
-		Drops from Shazzrah in Molten Core.
+			<en>Drops from Shazzrah in Molten Core.</en>
+			<zh>熔火之心沙斯拉尔</zh>
 		</source>
 	</item>
 
@@ -111,7 +119,8 @@
 			<stat type="SPELL_DAMAGE" value="25"/>
 		</stats>
 		<source>
-			Drops from Hydrospawn in Dire Maul: East.
+			<en>Drops from Hydrospawn in Dire Maul: East.</en>
+			<zh>厄运之槌东海多斯博恩</zh>
 		</source>
 	</item>
 
@@ -127,7 +136,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Broodlord Lashlayer in Blackwing Lair.
+			<en>Drops from Broodlord Lashlayer in Blackwing Lair.</en>
+			<zh>黑翼之巢勒什雷尔</zh>
 		</source>
 	</item>
 
@@ -140,7 +150,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -153,7 +164,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from High Priest Venoxis in Zul'Gurub.
+			<en>Drops from High Priest Venoxis in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司温诺希斯</zh>
 		</source>
 	</item>
 
@@ -166,7 +178,8 @@
 			<stat type="STRENGTH" value="22"/>
 		</stats>
 		<source>
-		Drops from General Rajaxx in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from General Rajaxx in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟拉贾克斯将军</zh>
 		</source>
 	</item>
 
@@ -179,7 +192,8 @@
 			<stat type="STRENGTH" value="10"/>
 		</stats>
 		<source>
-		Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉顽强的范克瑞斯</zh>
 		</source>
 	</item>
 
@@ -194,7 +208,8 @@
 			<stat type="NATURE_RESISTANCE" value="20"/>
 		</stats>
 		<source>
-		Quest reward. Part of the Scarab Lord quest chain.
+			<en>Quest reward. Part of the Scarab Lord quest chain.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -209,7 +224,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要安其拉掉落的其拉命令腕轮</zh>
 		</source>
 	</item>
 
@@ -221,7 +237,8 @@
 			<stat type="STAMINA" value="21"/>
 		</stats>
 		<source>
-		Drops from Gothik the Harvester in Naxxramas.
+			<en>Drops from Gothik the Harvester in Naxxramas.</en>
+			<zh>纳克萨玛斯收割者戈提克</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Increases your effective stealth level.</en>
@@ -240,7 +257,8 @@
 			<stat type="ATTACK_POWER" value="64"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的马靴</zh>
 		</source>
 	</item>
 	
@@ -255,7 +273,8 @@
 			<stat type="ATTACK_POWER" value="16"/>
 		</stats>
 		<source>
-		Sold by Arathi Basin vendor Rutherford Twing.
+			<en>Sold by Arathi Basin vendor Rutherford Twing.</en>
+			<zh>污染者崇敬</zh>
 		</source>
 	</item>
 	
@@ -270,7 +289,12 @@
 			<stat type="ATTACK_POWER" value="16"/>
 		</stats>
 		<source>
-		Sold by Arathi Basin vendors.
+			<en>Sold by Arathi Basin vendors.</en>
+			<zh>阿拉索联军崇敬</zh>
 		</source>
 	</item>
+
+	<!-- 统帅的皮甲护足 -->
+	<!-- 将军的皮甲战靴 -->
+	<!-- 暗幕长靴 -->
 </items>

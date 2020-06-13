@@ -9,7 +9,8 @@
 			<use name="GENERIC_STAT_BUFF" type="MANA_SKILL_REDUCTION" value="100" duration="10" cooldown="900"/>
 		</uses>
 		<source>
-			Drops from Ambassador Flamelash in Blackrock Depths.
+			<en>Drops from Ambassador Flamelash in Blackrock Depths.</en>
+			<zh>弗莱拉斯大使</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Reduces mana cost of all spells by 100 for 10 sec. (cooldown 15 min)</en>
@@ -24,7 +25,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires killing elite mobs (level 47-50) in The Hinterlands.
+			<en>Quest reward. Requires killing elite mobs (level 47-50) in The Hinterlands.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -35,7 +37,8 @@
 			<stat type="SPELL_DAMAGE_UNDEAD" value="48"/>
 		</stats>
 		<source>
-			Quest reward. Requires Stratholme Undead.
+			<en>Quest reward. Requires Stratholme Undead.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.</en>
@@ -50,7 +53,8 @@
 			<stat type="ATTACK_POWER_UNDEAD" value="81"/>
 		</stats>
 		<source>
-			Quest reward. Requires Stratholme Undead.
+			<en>Quest reward. Requires Stratholme Undead.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>It also allows the acquisition of Scourgestones on behalf of the Argent Dawn.</en>
@@ -71,7 +75,8 @@
 			<zh>装备：击中目标后有2%的几率获得1次额外的攻击机会。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Emperor Dagran Thaurissan in Blackrock Depths.
+			<en>Drops from Emperor Dagran Thaurissan in Blackrock Depths.</en>
+			<zh>黑石深渊达格兰·索瑞森大帝</zh>
 		</source>
 	</item>
 
@@ -83,7 +88,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Quest reward. Requires killing General Drakkisath in Upper Blackrock Spire. Prequisites requires Lower Blackrock Spire.
+			<en>Quest reward. Requires killing General Drakkisath in Upper Blackrock Spire. Prequisites requires Lower Blackrock Spire.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -100,7 +106,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Quest reward. Requires killing General Drakkisath in Upper Blackrock Spire. Prequisites requires Lower Blackrock Spire.
+			<en>Quest reward. Requires killing General Drakkisath in Upper Blackrock Spire. Prequisites requires Lower Blackrock Spire.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -110,7 +117,8 @@
 			<stat type="MANA_PER_5" value="16"/>
 		</stats>
 		<source>
-			Drops from Onyxia in Onyxia's Lair.
+			<en>Drops from Onyxia in Onyxia's Lair.</en>
+			<zh>奥妮克希亚</zh>
 		</source>
 	</item>
 
@@ -120,7 +128,8 @@
 			<stat type="SPELL_DAMAGE" value="29"/>
 		</stats>
 		<source>
-			Drops from Jed Runewatcher, a rare mob in Upper Blackrock Spire (UBRS).
+			<en>Drops from Jed Runewatcher, a rare mob in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层杰德</zh>
 		</source>
 	</item>
 
@@ -131,7 +140,8 @@
 			<use name="GENERIC_STAT_BUFF" type="SPELL_DAMAGE" value="175" duration="15" cooldown="90"/>
 		</uses>
 		<source>
-			Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases damage and healing done by magical spells and effects by up to 175 for 15 sec. (cooldown 1.5 min)</en>
@@ -146,7 +156,8 @@
 			<stat type="ATTACK_POWER" value="22"/>
 		</stats>
 		<source>
-			Drops from Gordok Tribute chest in Dire Maul North.
+			<en>Drops from Gordok Tribute chest in Dire Maul North.</en>
+			<zh>厄运之槌北戈多克贡品</zh>
 		</source>
 	</item>
 
@@ -158,10 +169,12 @@
 			<stat type="RANGED_ATTACK_POWER" value="48"/>
 		</stats>
 		<source>
-			Quest reward. Requires BoE quest item that drops from Dire Maul thrash.
+			<en>Quest reward. Requires BoE quest item that drops from Dire Maul thrash.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<flavour_text>
-			"Blessed by the Shen'dralar Ancients."
+			<en>"Blessed by the Shen'dralar Ancients."</en>
+			<zh>"已被辛德拉古灵祝福"</zh>
 		</flavour_text>
 	</item>
 
@@ -173,10 +186,12 @@
 			<stat type="MANA_PER_5" value="8"/>
 		</stats>
 		<source>
-			Quest reward. Requires BoE quest item that drops from Dire Maul thrash.
+			<en>Quest reward. Requires BoE quest item that drops from Dire Maul thrash.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<flavour_text>
-			"Blessed by the Shen'dralar Ancients."
+			<en>"Blessed by the Shen'dralar Ancients."</en>
+			<zh>"已被辛德拉古灵祝福"</zh>
 		</flavour_text>
 	</item>
 	
@@ -188,10 +203,12 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Quest reward. Requires BoE quest item that drops from Dire Maul thrash.
+			<en>Quest reward. Requires BoE quest item that drops from Dire Maul thrash.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<flavour_text>
-			"Blessed by the Shen'dralar Ancients."
+			<en>"Blessed by the Shen'dralar Ancients."</en>
+			<zh>"已被辛德拉古灵祝福"</zh>
 		</flavour_text>
 	</item>
 
@@ -201,7 +218,8 @@
 			<stat type="MANA_PER_5" value="11"/>
 		</stats>
 		<source>
-			Drops from Magister Kalendris in Dire Maul.
+			<en>Drops from Magister Kalendris in Dire Maul.</en>
+			<zh>厄运之槌西卡雷迪斯镇长</zh>
 		</source>
 	</item>
 
@@ -217,7 +235,8 @@
 			<stat type="SPELL_PENETRATION" value="20"/>
 		</stats>
 		<source>
-			Sold by Warsong Gulch vendor.
+			<en>Sold by Warsong Gulch vendor.</en>
+			<zh>战歌峡谷友善</zh>
 		</source>
 	</item>
 
@@ -232,7 +251,8 @@
 			<zh>使用：使圣骑士被光芒笼罩，近战攻击速度提高25%，施法速度提高33%，持续20秒。 (5分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Firemaw in Blackwing Lair.
+			<en>Drops from Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢费尔默</zh>
 		</source>
 	</item>
 
@@ -247,7 +267,8 @@
 			<zh>使用：使法师的施法速度提高33%，持续20秒。 (5分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</item>
 
@@ -259,7 +280,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Ebonroc in Blackwing Lair.
+			<en>Drops from Ebonroc in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克</zh>
 		</source>
 	</item>
 
@@ -270,10 +292,12 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.02"/>
 		</stats>
 		<flavour_text>
-			"A silver liquid flows within the impenetrable ebony shell. The item feels pure. It radiates an essence of extreme power."
+			<en>"A silver liquid flows within the impenetrable ebony shell. The item feels pure. It radiates an essence of extreme power."</en>
+			<zh>"银色的液体在乌黑的外壳中涌动，这件物品非常纯净，它散发着强大的能量。"</zh>
 		</flavour_text>
 		<source>
-			Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -287,7 +311,8 @@
 			<zh>装备：有一定几率对你的近战目标造成200到301点自然伤害。</zh>
 		</special_equip_effect>
 		<source>
-			Reward from Darkmoon Elementals Deck.
+			<en>Reward from Darkmoon Elementals Deck.</en>
+			<zh>暗月马戏团</zh>
 		</source>
 	</item>
 
@@ -305,10 +330,12 @@
 			<zh>使用：每5秒回复9点生命值，并使你的力量提高75点。效果持续1分钟。 (6分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
-			Quest reward. Requires running Sunken Temple.
+			<en>Quest reward. Requires running Sunken Temple.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<flavour_text>
-			"Served on the rocks."
+			<en>"Served on the rocks."</en>
+			<zh>"采自岩石。"</zh>
 		</flavour_text>
 	</item>
 
@@ -323,7 +350,8 @@
 			<use name="DEVILSAUR_EYE"/>
 		</uses>
 		<source>
-			Quest reward. Requires Sunken Temple.
+			<en>Quest reward. Requires Sunken Temple.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases your attack power by 150 and your chance to hit by 2%. Effect lasts for 20 sec. (cooldown 2 min)</en>
@@ -344,7 +372,8 @@
 			<zh>使用：使你的近战武器和法术造成爆击的几率提高3%，持续25秒。 (3分钟冷却)</zh>
 		</special_equip_effect>
 		<source>
-			Quest reward. Requires Sunken Temple.
+			<en>Quest reward. Requires Sunken Temple.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -355,7 +384,8 @@
 			<use name="GENERIC_STAT_BUFF" type="MANA_PER_5" value="60" duration="30" cooldown="180"/>
 		</uses>
 		<source>
-			Drops from High Priestess Mar'li in Zul'Gurub.
+			<en>Drops from High Priestess Mar'li in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司玛尔里</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Restores 60 mana every 5 sec for 30 sec. (cooldown 3 min)</en>
@@ -372,7 +402,8 @@
 			<use name="ZANDALARIAN_HERO_MEDALLION"/>
 		</uses>
 		<source>
-			Quest reward. Requires boss drop from Hakkar in Zul'Gurub.
+			<en>Quest reward. Requires boss drop from Hakkar in Zul'Gurub.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases your melee and ranged damage by 40 for 20 sec. Every time you hit a target, this bonus is reduced by 2. (cooldown 2 min)</en>
@@ -389,7 +420,8 @@
 			<use name="ZANDALARIAN_HERO_CHARM"/>
 		</uses>
 		<source>
-			Quest reward. Requires boss drop from Hakkar in Zul'Gurub.
+			<en>Quest reward. Requires boss drop from Hakkar in Zul'Gurub.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases your spell damage by up to 204 and your healing for up to 408 for 20 sec. Every time you cast a spell, the bonus is reduced by 17 spell damage and 34 healing. (cooldown 2 min)</en>
@@ -402,7 +434,8 @@
 		<class_restriction class="HUNTER"/>
 		<stats/>
 		<source>
-			Drops from Edge of Madness bosses in Zul'Gurub.
+			<en>Drops from Edge of Madness bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布疯狂之缘BOSS</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Instantly clears the cooldowns of Aimed Shot, Multi-Shot, Volley, and Arcane Shot. (cooldown 3 min)</en>
@@ -417,7 +450,8 @@
 			<use name="GENERIC_STAT_BUFF" type="SPELL_DAMAGE" value="100" duration="15" cooldown="75"/>
 		</uses>
 		<source>
-			Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases your spell damage by up to 100 and your healing by up to 190 for 15 sec. (cooldown 1.25 min)</en>
@@ -434,7 +468,8 @@
 			<use name="GENERIC_STAT_BUFF" type="ATTACK_POWER" value="280" duration="20" cooldown="120"/>
 		</uses>
 		<source>
-			Quest reward. Requires exalted with Cenarion Circle.
+			<en>Quest reward. Requires exalted with Cenarion Circle.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases your melee and ranged attack power by 280. Effect lasts for 20 sec. (cooldown 2 min)</en>
@@ -450,7 +485,8 @@
 			<use name="EYE_OF_MOAM"/>
 		</uses>
 		<source>
-			Drops from Moam in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟莫阿姆</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases damage done by magical spells and effects by up to 50, and decreases the magical resistances of your spell targets by 100 for 30 sec. (cooldown 3 min)</en>
@@ -465,7 +501,8 @@
 			<use name="BADGE_OF_THE_SWARMGUARD" value="0.8"/>
 		</uses>
 		<source>
-			Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉沙尔图拉</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Gives a chance on melee or ranged attack to apply an armor penetration effect on you for 30 sec, lowering the target's physical armor by 200 to your own attacks. The armor penetration effect can be applied up to 6 rimes. (cooldown 3 min)</en>
@@ -480,7 +517,8 @@
 			<use name="JOM_GABBAR"/>
 		</uses>
 		<source>
-			Drops from Ouro in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Ouro in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉奥罗</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases attack power by 65 and an additional 65 every 2 sec. Lasts 20 sec. (cooldown 2 min)</en>
@@ -494,7 +532,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from Thaddius in Naxxramas.
+			<en>Drops from Thaddius in Naxxramas.</en>
+			<zh>纳克萨玛斯塔迪乌斯</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Reduces the threat you generate by 35% for 20 sec. (cooldown 2 min)</en>
@@ -511,7 +550,8 @@
 			<use name="GENERIC_STAT_BUFF" type="ATTACK_POWER" value="260" duration="20" cooldown="120"/>
 		</uses>
 		<source>
-			Drops from Sapphiron in Naxxramas.
+			<en>Drops from Sapphiron in Naxxramas.</en>
+			<zh>纳克萨玛斯萨菲隆</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases Attack Power by 260 for 20 sec. (cooldown 2 min)</en>
@@ -528,7 +568,8 @@
 			<use name="GENERIC_STAT_BUFF" type="SPELL_DAMAGE" value="130" duration="20" cooldown="120"/>
 		</uses>
 		<source>
-			Drops from Sapphiron in Naxxramas.
+			<en>Drops from Sapphiron in Naxxramas.</en>
+			<zh>纳克萨玛斯萨菲隆</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases damage and healing done by magical spells and effects by up to 130 for 20 sec. (cooldown 2 min)</en>
@@ -546,7 +587,8 @@
 			<use name="GENERIC_STAT_BUFF" type="ATTACK_SPEED" value="20" duration="15" cooldown="120"/>
 		</uses>
 		<source>
-			Drops from Maexxna in Naxxramas.
+			<en>Drops from Maexxna in Naxxramas.</en>
+			<zh>纳克萨玛斯迈克斯纳</zh>
 		</source>
 		<special_equip_effect>
 			<en>Use: Increases your attack speed by 20% for 15 sec. (cooldown 2 min)</en>
@@ -562,7 +604,8 @@
 			<stat type="SPELL_DAMAGE_DEMON" value="85"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drop from Kel'Thuzad in Naxxramas.
+			<en>Quest reward. Requires boss drop from Kel'Thuzad in Naxxramas.</en>
+			<zh>克尔苏加德的护符匣任务奖励</zh>
 		</source>
 	</item>
 
@@ -574,7 +617,8 @@
 			<stat type="ATTACK_POWER_DEMON" value="150"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drop from Kel'Thuzad in Naxxramas.
+			<en>Quest reward. Requires boss drop from Kel'Thuzad in Naxxramas.</en>
+			<zh>克尔苏加德的护符匣任务奖励</zh>
 		</source>
 	</item>
 </items>

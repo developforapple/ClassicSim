@@ -10,7 +10,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Lieutenant Commander (rank 10).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Lieutenant Commander (rank 10).</en>
+			<zh>联盟荣誉奖励，需要少校军阶</zh>
 		</source>
 	</item>
 
@@ -24,7 +25,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Champion (rank 10).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Champion (rank 10).</en>
+			<zh>部落荣誉奖励，需要勇士军阶</zh>
 		</source>
 	</item>
 
@@ -38,7 +40,8 @@
 			<stat type="DEFENSE" value="3"/>
 		</stats>
 		<source>
-			Drops from Bloodlord Mandokir in Zul'Gurub.
+			<en>Drops from Bloodlord Mandokir in Zul'Gurub.</en>
+			<zh>祖尔格拉布血领主曼多基尔</zh>
 		</source>
 	</item>
 
@@ -53,7 +56,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).</en>
+			<zh>联盟荣誉奖励，需要元帅军阶</zh>
 		</source>
 	</item>
 
@@ -68,7 +72,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Warlord (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Warlord (rank 13).</en>
+			<zh>部落荣誉奖励，需要督军军阶</zh>
 		</source>
 	</item>
 
@@ -83,7 +88,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Lieutenant Commander (rank 10).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Lieutenant Commander (rank 10).</en>
+			<zh>联盟荣誉奖励，需要少校军阶</zh>
 		</source>
 	</item>
 
@@ -99,7 +105,8 @@
 			<stat type="MANA_PER_5" value="6"/>
 		</stats>
 		<source>
-			Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Field Marshal (rank 13).</en>
+			<zh>联盟荣誉奖励，需要元帅军阶</zh>
 		</source>
 	</item>
 
@@ -113,7 +120,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.
+			<en>Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克、弗莱格尔、费尔默</zh>
 		</source>
 	</item>
 
@@ -129,7 +137,8 @@
 			<stat type="FIRE_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-			Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -144,7 +153,8 @@
 			<stat type="INTELLECT" value="10"/>
 		</stats>
 		<source>
-		Requires Exalted with League of Arathor (Arathi Basin faction).
+			<en>Requires Exalted with League of Arathor (Arathi Basin faction).</en>
+			<zh>阿拉索联军崇拜</zh>
 		</source>
 	</item>
 
@@ -159,7 +169,8 @@
 			<stat type="AGILITY" value="17"/>
 		</stats>
 		<source>
-			Requires Exalted with League of Arathor (Arathi Basin faction).
+			<en>Requires Exalted with League of Arathor (Arathi Basin faction).</en>
+			<zh>阿拉索联军崇拜</zh>
 		</source>
 	</item>
 
@@ -173,7 +184,8 @@
 			<stat type="AGILITY" value="17"/>
 		</stats>
 		<source>
-			Requires Exalted with The Defilers (Arathi Basin faction).
+			<en>Requires Exalted with The Defilers (Arathi Basin faction).</en>
+			<zh>污染者崇拜</zh>
 		</source>
 	</item>
 
@@ -189,7 +201,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires running Sunken Temple.
+			<en>Quest reward. Requires running Sunken Temple.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -205,7 +218,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -223,7 +237,8 @@
 			<stat type="MANA_PER_5" value="3"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 </items>

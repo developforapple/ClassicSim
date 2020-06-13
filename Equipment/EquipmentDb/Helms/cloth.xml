@@ -7,7 +7,8 @@
 			<stat type="INTELLECT" value="20"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -19,7 +20,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="24"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -31,7 +33,8 @@
 			<stat type="SPELL_DAMAGE_ARCANE" value="36"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 245 Engineering to use.
+			<en>Crafted by Engineers. Requires 245 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -43,7 +46,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="36"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 245 Engineering to use.
+			<en>Crafted by Engineers. Requires 245 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -55,7 +59,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="36"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 245 Engineering to use.
+			<en>Crafted by Engineers. Requires 245 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -67,7 +72,8 @@
 			<stat type="SPELL_DAMAGE_HOLY" value="36"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 245 Engineering to use.
+			<en>Crafted by Engineers. Requires 245 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -79,7 +85,8 @@
 			<stat type="SPELL_DAMAGE_NATURE" value="36"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 245 Engineering to use.
+			<en>Crafted by Engineers. Requires 245 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -91,7 +98,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="36"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 245 Engineering to use.
+			<en>Crafted by Engineers. Requires 245 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -103,7 +111,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="14"/>
 		</stats>
 		<source>
-		Drops from Shadowpriest Sezz'ziz in Zul'Farrak.
+			<en>Drops from Shadowpriest Sezz'ziz in Zul'Farrak.</en>
+			<zh>祖尔法拉克暗影祭司塞瑟斯</zh>
 		</source>
 	</item>
 
@@ -116,7 +125,8 @@
 			<stat type="NATURE_RESISTANCE" value="4"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -129,7 +139,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Wildvine and Heart of the Wild.
+			<en>Crafted by Tailorers. Requires Wildvine and Heart of the Wild.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -141,7 +152,8 @@
 			<stat type="SPIRIT" value="10"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Sunken Temple.
+			<en>Drops from trash mobs in Sunken Temple.</en>
+			<zh>沉没的神庙小怪</zh>
 		</source>
 	</item>
 
@@ -153,7 +165,8 @@
 			<stat type="SPIRIT" value="15"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -164,7 +177,8 @@
 			<stat type="SPELL_DAMAGE" value="27"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 270 Engineering to use.
+			<en>Crafted by Engineers. Requires 270 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -180,7 +194,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Quest reward. Requires Sunken Temple.
+			<en>Quest reward. Requires Sunken Temple.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -193,7 +208,8 @@
 			<stat type="SPIRIT" value="11"/>
 		</stats>
 		<source>
-		Drops from Princess Theradras in Maraudon.
+			<en>Drops from Princess Theradras in Maraudon.</en>
+			<zh>玛拉顿瑟莱德丝公主</zh>
 		</source>
 	</item>
 
@@ -205,7 +221,8 @@
 			<stat type="INTELLECT" value="15"/>
 		</stats>
 		<source>
-		Quest reward. Requires finishing the statue event in Sunken Temple.
+			<en>Quest reward. Requires finishing the statue event in Sunken Temple.</en>
+			<zh>沉没的神庙任务奖励</zh>
 		</source>
 	</item>
 
@@ -218,7 +235,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-		Drops from Fineous Darkvire in Blackrock Depths.
+			<en>Drops from Fineous Darkvire in Blackrock Depths.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -232,7 +250,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="43"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -245,7 +264,8 @@
 			<stat type="STRENGTH" value="3"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -257,7 +277,8 @@
 			<stat type="STAMINA" value="16"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 280 Engineering to use.
+			<en>Crafted by Engineers. Requires 280 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -269,7 +290,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="30"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires Felcloth.
+			<en>Crafted by Tailorers. Requires Felcloth.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -282,7 +304,8 @@
 			<stat type="SPIRIT" value="10"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -294,7 +317,8 @@
 			<stat type="SPIRIT" value="13"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Trivial to craft.
+			<en>Crafted by Tailorers. Trivial to craft.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -308,7 +332,8 @@
 			<stat type="SPELL_DAMAGE" value="30"/>
 		</stats>
 		<source>
-		Drops from Magistrate Barthilas in Stratholme Undead.
+			<en>Drops from Magistrate Barthilas in Stratholme Undead.</en>
+			<zh>斯坦索姆巴瑟拉斯镇长</zh>
 		</source>
 	</item>
 
@@ -321,7 +346,8 @@
 			<stat type="FIRE_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-		Drops from Jed Runewatcher, a rare mob in Upper Blackrock Spire (LBRS).
+			<en>Drops from Jed Runewatcher, a rare mob in Upper Blackrock Spire (LBRS).</en>
+			<zh>黑石塔上层杰德</zh>
 		</source>
 	</item>
 
@@ -335,7 +361,8 @@
 			<stat type="SPELL_DAMAGE" value="14"/>
 		</stats>
 		<source>
-		Drops from Postmaster Malown in Stratholme Undead.
+			<en>Drops from Postmaster Malown in Stratholme Undead.</en>
+			<zh>斯坦索姆邮差马龙</zh>
 		</source>
 	</item>
 
@@ -348,7 +375,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Pattern drops from multiple raid bosses and trash mobs. Requires Mooncloth.
+			<en>Crafted by Tailorers. Pattern drops from multiple raid bosses and trash mobs. Requires Mooncloth.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -361,7 +389,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-		Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</item>
 
@@ -374,7 +403,8 @@
 			<stat type="SPIRIT" value="12"/>
 		</stats>
 		<source>
-		Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</item>
 
@@ -387,7 +417,8 @@
 			<stat type="STAMINA" value="11"/>
 		</stats>
 		<source>
-		Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</item>
 
@@ -405,7 +436,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Quest reward. Requires very expensive materials.
+			<en>Quest reward. Requires very expensive materials.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -421,7 +453,8 @@
 			<stat type="FROST_RESISTANCE" value="15"/>
 		</stats>
 		<source>
-		Quest reward. Requires Scholomance.
+			<en>Quest reward. Requires Scholomance.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -438,7 +471,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Garr in Molten Core.
+			<en>Drops from Garr in Molten Core.</en>
+			<zh>熔火之心加尔</zh>
 		</source>
 	</item>
 
@@ -456,7 +490,8 @@
 			<stat type="SPELL_DAMAGE" value="32"/>
 		</stats>
 		<source>
-		Drops from Onyxia in Onyxia's Lair.
+			<en>Drops from Onyxia in Onyxia's Lair.</en>
+			<zh>奥妮克希亚</zh>
 		</source>
 	</item>
 
@@ -474,7 +509,8 @@
 			<stat type="SPELL_DAMAGE" value="32"/>
 		</stats>
 		<source>
-		Drops from Onyxia in Onyxia's Lair.
+			<en>Drops from Onyxia in Onyxia's Lair.</en>
+			<zh>奥妮克希亚</zh>
 		</source>
 	</item>
 
@@ -488,7 +524,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from King Gordok in Dire Maul.
+			<en>Drops from King Gordok in Dire Maul.</en>
+			<zh>厄运之槌北戈多克大王</zh>
 		</source>
 	</item>
 
@@ -504,7 +541,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Lieutenant Commander (rank 10). Alliance only.
+			<en>May be purchased upon reaching Lieutenant Commander (rank 10). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要少校军阶</zh>
 		</source>
 	</item>
 
@@ -520,7 +558,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Champion (rank 10). Horde only.
+			<en>May be purchased upon reaching Champion (rank 10). Horde only.</en>
+			<zh>部落荣誉奖励，需要勇士军阶</zh>
 		</source>
 	</item>
 
@@ -536,7 +575,8 @@
 			<stat type="SPELL_DAMAGE" value="33"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Field Marshal (rank 13). Alliance only.
+			<en>May be purchased upon reaching Field Marshal (rank 13). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要元帅军阶</zh>
 		</source>
 	</item>
 
@@ -552,7 +592,8 @@
 			<stat type="SPELL_DAMAGE" value="33"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Warlord (rank 13). Horde only.
+			<en>May be purchased upon reaching Warlord (rank 13). Horde only.</en>
+			<zh>部落荣誉奖励，需要督军军阶</zh>
 		</source>
 	</item>
 
@@ -565,7 +606,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="41"/>
 		</stats>
 		<source>
-		Drops from the summonable elites in Alterac Valley.
+			<en>Drops from the summonable elites in Alterac Valley.</en>
+			<zh>奥山召唤的精英掉落</zh>
 		</source>
 	</item>
 
@@ -580,7 +622,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -593,7 +636,8 @@
 			<stat type="MANA_PER_5" value="9"/>
 		</stats>
 		<source>
-		Crafted by Engineers. Requires 300 Engineering to use.
+			<en>Crafted by Engineers. Requires 300 Engineering to use.</en>
+			<zh>工程学制造</zh>
 		</source>
 	</item>
 
@@ -606,7 +650,8 @@
 			<stat type="SPELL_DAMAGE" value="41"/>
 		</stats>
 		<source>
-		Drops from Jin'do the Hexxer in Zul'Gurub.
+			<en>Drops from Jin'do the Hexxer in Zul'Gurub.</en>
+			<zh>祖尔格拉布妖术师金度</zh>
 		</source>
 	</item>
 
@@ -623,7 +668,8 @@
 			<zh>+14-15点随机抗性</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Gyth in Upper Blackrock Spire (UBRS).
+			<en>Drops from Gyth in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层盖斯</zh>
 		</source>
 	</item>
 
@@ -639,7 +685,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Involves a long quest chain. Requires Magister's Robes and Magister's Crown.
+			<en>Quest reward. Involves a long quest chain. Requires Magister's Robes and Magister's Crown.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -652,7 +699,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 	</item>
 
@@ -667,7 +715,8 @@
 			<stat type="INTELLECT" value="15"/>
 		</stats>
 		<source>
-		Drops from Lord Valthalak in Upper Blackrock Spire (UBRS).
+			<en>Drops from Lord Valthalak in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔下层瓦塔拉克公爵</zh>
 		</source>
 	</item>
 
@@ -684,7 +733,8 @@
 			<zh>装备：使你抵抗沉默效果的几率提高10%。</zh>
 		</special_equip_effect>
 		<source>
-		Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -701,7 +751,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -714,7 +765,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Pattern requires Honored with Cenarion Circle. Requires Mooncloth and Living Essence.
+			<en>Crafted by Tailorers. Pattern requires Honored with Cenarion Circle. Requires Mooncloth and Living Essence.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -727,7 +779,8 @@
 			<stat type="SPELL_DAMAGE" value="51"/>
 		</stats>
 		<source>
-		Drops from Heigan the Unclean in Naxxramas.
+			<en>Drops from Heigan the Unclean in Naxxramas.</en>
+			<zh>纳克萨玛斯肮脏的希尔盖</zh>
 		</source>
 	</item>
 
@@ -741,7 +794,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Drops from Gothik the Harvester in Naxxramas.
+			<en>Drops from Gothik the Harvester in Naxxramas.</en>
+			<zh>纳克萨玛斯收割者戈提克</zh>
 		</source>
 	</item>
 
@@ -757,7 +811,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

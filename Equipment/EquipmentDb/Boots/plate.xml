@@ -9,7 +9,8 @@
 			<stat type="STAMINA" value="12"/>
 		</stats>
 		<source>
-		Quest reward. Trivial quest in Un'Goro Crater.
+			<en>Quest reward. Trivial quest in Un'Goro Crater.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -22,7 +23,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-		Rare drop from trash mobs in Blackrock Depths.
+			<en>Rare drop from trash mobs in Blackrock Depths.</en>
+			<zh>黑石深渊小怪</zh>
 		</source>
 	</item>
 
@@ -35,7 +37,8 @@
 			<stat type="STAMINA" value="14"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -51,7 +54,8 @@
 			<stat type="FIRE_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-		Drops from Broodlord Lashlayer.
+			<en>Drops from Broodlord Lashlayer.</en>
+			<zh>黑翼之巢勒什雷尔</zh>
 		</source>
 	</item>
 
@@ -65,7 +69,8 @@
 			<stat type="STAMINA" value="23"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Knight-Lieutenant (rank 7).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Knight-Lieutenant (rank 7).</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -80,7 +85,8 @@
 			<stat type="SHADOW_RESISTANCE" value="7"/>
 		</stats>
 		<source>
-		Drops from Gehennas in Molten Core.
+			<en>Drops from Gehennas in Molten Core.</en>
+			<zh>熔火之心基赫纳斯</zh>
 		</source>
 	</item>
 
@@ -94,7 +100,8 @@
 			<stat type="STAMINA" value="23"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Blood Guard (rank 7).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Blood Guard (rank 7).</en>
+			<zh>部落荣誉奖励，需要血卫士军阶</zh>
 		</source>
 	</item>
 
@@ -109,7 +116,8 @@
 			<stat type="SPELL_DAMAGE" value="15"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Knight-Lieutenant (rank 7).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Knight-Lieutenant (rank 7).</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -125,7 +133,8 @@
 			<stat type="MANA_PER_5" value="6"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Marshal (rank 12).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Marshal (rank 12).</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -140,7 +149,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Marshal (rank 12).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Marshal (rank 12).</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -155,7 +165,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires General (rank 12).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires General (rank 12).</en>
+			<zh>部落荣誉奖励，需要将军军阶</zh>
 		</source>
 	</item>
 
@@ -169,7 +180,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Chromaggus in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -188,7 +200,8 @@
 			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
-		Requires Revered with League of Arathor (Arathi Basin faction).
+			<en>Requires Revered with League of Arathor (Arathi Basin faction).</en>
+			<zh>阿拉索联军崇敬</zh>
 		</source>
 	</item>
 
@@ -207,7 +220,8 @@
 			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
-		Requires Revered with League of Arathor (Arathi Basin faction).
+			<en>Requires Revered with League of Arathor (Arathi Basin faction).</en>
+			<zh>阿拉索联军崇敬</zh>
 		</source>
 	</item>
 
@@ -225,7 +239,8 @@
 			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
-		Requires Revered with League of Arathor (Arathi Basin faction).
+			<en>Requires Revered with League of Arathor (Arathi Basin faction).</en>
+			<zh>污染者崇敬</zh>
 		</source>
 	</item>
 
@@ -239,7 +254,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Drops from Ayamiss the Hunter in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Ayamiss the Hunter in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟狩猎者阿亚米斯</zh>
 		</source>
 	</item>
 
@@ -253,7 +269,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Buru the Gorger in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Buru the Gorger in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟吞咽者布鲁</zh>
 		</source>
 	</item>
 
@@ -267,7 +284,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Vem (Bug Trio) in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Vem (Bug Trio) in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉维姆</zh>
 		</source>
 	</item>
 
@@ -282,7 +300,8 @@
 			<stat type="DEFENSE" value="4"/>
 		</stats>
 		<source>
-		Quest reward. Requires drops from bosses in Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires drops from bosses in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要安其拉掉落的其拉命令腕轮</zh>
 		</source>
 	</item>
 
@@ -300,7 +319,10 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要安其拉掉落的其拉统御腕轮</zh>
 		</source>
 	</item>
+
+	<!-- 英勇长靴 -->
 </items>

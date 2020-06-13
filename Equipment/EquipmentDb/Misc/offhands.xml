@@ -8,7 +8,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		Quest reward in Un'Goro Crater.
+			<en>Quest reward in Un'Goro Crater.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -21,7 +22,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</melee_weapon>
 
@@ -33,7 +35,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="13"/>
 		</stats>
 		<source>
-		Drops from Baron Charr, a rare mob in Un'Goro Crater.
+			<en>Drops from Baron Charr, a rare mob in Un'Goro Crater.</en>
+			<zh>安戈洛环型山火焰男爵查尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -46,7 +49,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -59,7 +63,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		May be purchased upon reaching High Warlord (rank 14). Horde only.
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -74,7 +79,8 @@
 			<stat type="SPELL_DAMAGE" value="28"/>
 		</stats>
 		<source>
-		Quest reward. Requires Head of Nefarian from Blackwing Lair.
+			<en>Quest reward. Requires Head of Nefarian from Blackwing Lair.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -85,7 +91,8 @@
 			<stat type="SPELL_DAMAGE" value="33"/>
 		</stats>
 		<source>
-		Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.
+			<en>Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.</en>
+			<zh>奥山声望崇拜</zh>
 		</source>
 	</melee_weapon>
 
@@ -97,7 +104,8 @@
 			<stat type="MANA_PER_5" value="3"/>
 		</stats>
 		<source>
-		Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.
+			<en>Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.</en>
+			<zh>奥山声望崇拜</zh>
 		</source>
 	</melee_weapon>
 
@@ -108,7 +116,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="40"/>
 		</stats>
 		<source>
-		Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.
+			<en>Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.</en>
+			<zh>奥山声望崇拜</zh>
 		</source>
 	</melee_weapon>
 
@@ -120,7 +129,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="34"/>
 		</stats>
 		<source>
-		Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.
+			<en>Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.</en>
+			<zh>奥山声望崇拜</zh>
 		</source>
 	</melee_weapon>
 
@@ -132,7 +142,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="34"/>
 		</stats>
 		<source>
-		Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.
+			<en>Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.</en>
+			<zh>奥山声望崇拜</zh>
 		</source>
 	</melee_weapon>
 
@@ -146,7 +157,8 @@
 			<stat type="SPELL_DAMAGE" value="25"/>
 		</stats>
 		<source>
-		Drops from dragon world bosses (Emeriss, Taerar, Lethon, Ysondre).
+			<en>Drops from dragon world bosses (Emeriss, Taerar, Lethon, Ysondre).</en>
+			<zh>绿龙世界BOSS</zh>
 		</source>
 	</melee_weapon>
 
@@ -160,7 +172,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Jin'do the Hexxer in Zul'Gurub.
+			<en>Drops from Jin'do the Hexxer in Zul'Gurub.</en>
+			<zh>祖尔格拉布妖术师金度</zh>
 		</source>
 	</melee_weapon>
 
@@ -172,7 +185,8 @@
 			<stat type="SPELL_DAMAGE" value="12"/>
 		</stats>
 		<source>
-		Drops from Bag of Spoils, rewarded by repeatable group quest in Silithus.
+			<en>Drops from Bag of Spoils, rewarded by repeatable group quest in Silithus.</en>
+			<zh>希利苏斯奖励包裹开出</zh>
 		</source>
 	</melee_weapon>
 
@@ -185,7 +199,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 	</melee_weapon>
 
@@ -198,7 +213,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Jarien in Stratholme Undead during Tier 0.5 quest line.
+			<en>Drops from Jarien in Stratholme Undead during Tier 0.5 quest line.</en>
+			<zh>T0.5任务线通灵学院亚雷恩</zh>
 		</source>
 	</melee_weapon>
 
@@ -212,7 +228,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Moam in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟莫阿姆</zh>
 		</source>
 	</melee_weapon>
 
@@ -227,7 +244,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉双子皇帝</zh>
 		</source>
 	</melee_weapon>
 
@@ -240,7 +258,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-		Drops from Lord Blackwood in Scholomance during Scourge Invasion event.
+			<en>Drops from Lord Blackwood in Scholomance during Scourge Invasion event.</en>
+			<zh>天灾入侵事件通灵学院布莱克伍德公爵</zh>
 		</source>
 	</melee_weapon>
 
@@ -254,7 +273,8 @@
 			<stat type="SPELL_DAMAGE" value="25"/>
 		</stats>
 		<source>
-		Drops from Anub'Rekhan in Naxxramas.
+			<en>Drops from Anub'Rekhan in Naxxramas.</en>
+			<zh>纳克萨玛斯阿努布雷坎</zh>
 		</source>
 	</melee_weapon>
 
@@ -269,7 +289,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Sapphiron in Naxxramas.
+			<en>Drops from Sapphiron in Naxxramas.</en>
+			<zh>纳克萨玛斯萨菲隆</zh>
 		</source>
 	</melee_weapon>
 </weapons>

@@ -7,7 +7,8 @@
 			<stat type="ATTACK_POWER" value="32"/>
 		</stats>
 		<source>
-			Drops from Empereror Dagran Thaurissian in Blackrock Depths.
+			<en>Drops from Empereror Dagran Thaurissian in Blackrock Depths.</en>
+			<zh>黑石深渊达格兰·索瑞森大帝</zh>
 		</source>
 	</item>
 
@@ -20,7 +21,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Pyroguard Emberseer in Upper Blackrock Spire (UBRS).
+			<en>Drops from Pyroguard Emberseer in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层烈焰卫士艾博希尔</zh>
 		</source>
 	</item>
 
@@ -32,7 +34,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-			Quest reward. Requires Stratholme Living and Stratholme Undead.
+			<en>Quest reward. Requires Stratholme Living and Stratholme Undead.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -43,7 +46,8 @@
 			<stat type="ATTACK_POWER" value="26"/>
 		</stats>
 		<source>
-			Quest chain reward. Started by Tirion Fordring in Eastern Plaguelands.
+			<en>Quest chain reward. Started by Tirion Fordring in Eastern Plaguelands.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -56,7 +60,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Balnazzar in Stratholme Living.
+			<en>Drops from Balnazzar in Stratholme Living.</en>
+			<zh>斯坦索姆巴纳扎尔</zh>
 		</source>
 	</item>
 
@@ -68,7 +73,8 @@
 			<stat type="MANA_PER_5" value="3"/>
 		</stats>
 		<source>
-			Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 	</item>
 
@@ -81,7 +87,8 @@
 			<stat type="DEFENSE" value="8"/>
 		</stats>
 		<source>
-			Drops from Magmadar in Molten Core.
+			<en>Drops from Magmadar in Molten Core.</en>
+			<zh>熔火之心玛格曼达</zh>
 		</source>
 	</item>
 
@@ -94,7 +101,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-			Drops from Lucifron in Molten Core.
+			<en>Drops from Lucifron in Molten Core.</en>
+			<zh>熔火之心鲁西弗隆</zh>
 		</source>
 	</item>
 
@@ -106,7 +114,8 @@
 			<stat type="SPELL_DAMAGE" value="34"/>
 		</stats>
 		<source>
-			Drops from Ragnaros in Molten Core.
+			<en>Drops from Ragnaros in Molten Core.</en>
+			<zh>熔火之心拉格纳罗斯</zh>
 		</source>
 	</item>
 
@@ -118,7 +127,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Onyxia.
+			<en>Drops from Onyxia.</en>
+			<zh>奥妮克希亚</zh>
 		</source>
 	</item>
 
@@ -134,7 +144,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward from turning in Head of Onyxia.
+			<en>Quest reward from turning in Head of Onyxia.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -147,7 +158,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Dire Maul.
+			<en>Quest reward. Requires Dire Maul.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -160,7 +172,8 @@
 			<stat type="SPELL_DAMAGE" value="13"/>
 		</stats>
 		<source>
-			Quest reward. Requires Dire Maul.
+			<en>Quest reward. Requires Dire Maul.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -175,7 +188,8 @@
 			<spell name="FIRE_ATTACK" min="2" max="2" instant="yes" rate="1.0" internal_cd="0" spell_dmg_coefficient="0.0"/>
 		</proc>
 		<source>
-			Drops from Lord Kazzak (world boss in Blasted Lands).
+			<en>Drops from Lord Kazzak (world boss in Blasted Lands).</en>
+			<zh>世界BOSS卡扎克</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Adds 2 fire damage to your melee attacks.</en>
@@ -190,7 +204,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Sold by Warsong Gulch vendor Illiyana Moonblaze. Alliance only.
+			<en>Sold by Warsong Gulch vendor Illiyana Moonblaze. Alliance only.</en>
+			<zh>银翼要塞尊敬</zh>
 		</source>
 	</item>
 
@@ -201,7 +216,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Sold by Warsong Gulch vendor Kelm Hargunth. Horde only.
+			<en>Sold by Warsong Gulch vendor Kelm Hargunth. Horde only.</en>
+			<zh>战歌氏族尊敬</zh>
 		</source>
 	</item>
 
@@ -213,7 +229,8 @@
 			<stat type="STRENGTH" value="10"/>
 		</stats>
 		<source>
-			Quest reward. Requires Darkmoon Faire and Darkmoon Faire Prize Tickets.
+			<en>Quest reward. Requires Darkmoon Faire and Darkmoon Faire Prize Tickets.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -225,7 +242,8 @@
 			<stat type="SPELL_DAMAGE" value="22"/>
 		</stats>
 		<source>
-			Quest reward. Requires Darkmoon Faire and Darkmoon Faire Prize Tickets.
+			<en>Quest reward. Requires Darkmoon Faire and Darkmoon Faire Prize Tickets.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -237,7 +255,8 @@
 			<stat type="MANA_PER_5" value="9"/>
 		</stats>
 		<source>
-			Drops from Vaelastrasz the Corrupt in Blackwing Lair.
+			<en>Drops from Vaelastrasz the Corrupt in Blackwing Lair.</en>
+			<zh>黑翼之巢堕落的瓦拉斯塔兹</zh>
 		</source>
 	</item>
 
@@ -248,7 +267,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -261,7 +281,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Reputation reward. Requires Exalted with Zandalar Tribe.
+			<en>Reputation reward. Requires Exalted with Zandalar Tribe.</en>
+			<zh>赞达拉任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Decreases the cooldown of Feign Death by 2 sec.</en>
@@ -279,7 +300,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-			Reputation reward. Requires Revered with Zandalar Tribe.
+			<en>Reputation reward. Requires Revered with Zandalar Tribe.</en>
+			<zh>赞达拉任务奖励<</zh>
 		</source>
 	</item>
 
@@ -293,7 +315,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-			Reputation reward. Requires Revered with Zandalar Tribe.
+			<en>Reputation reward. Requires Revered with Zandalar Tribe.</en>
+			<zh>赞达拉任务奖励<</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Reduces the cooldown of Counterspell by 2 sec.</en>
@@ -308,7 +331,8 @@
 			<stat type="MANA_PER_5" value="3"/>
 		</stats>
 		<source>
-			Drops from High Priestess Jeklik in Zul'Gurub.
+			<en>Drops from High Priestess Jeklik in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司耶克里克</zh>
 		</source>
 	</item>
 
@@ -319,7 +343,8 @@
 			<stat type="ATTACK_POWER" value="40"/>
 		</stats>
 		<source>
-			Drops from Hakkar in Zul'Gurub.
+			<en>Drops from Hakkar in Zul'Gurub.</en>
+			<zh>祖尔格拉布哈卡</zh>
 		</source>
 	</item>
 
@@ -332,7 +357,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Hakkar in Zul'Gurub.
+			<en>Drops from Hakkar in Zul'Gurub.</en>
+			<zh>祖尔格拉布哈卡</zh>
 		</source>
 	</item>
 
@@ -345,7 +371,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-			Drops from Cannon Master Willey in Stratholme Living.
+			<en>Drops from Cannon Master Willey in Stratholme Living.</en>
+			<zh>斯坦索姆炮手威利</zh>
 		</source>
 	</item>
 
@@ -356,7 +383,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Lord Valthalak in Upper Blackrock Spire (UBRS).
+			<en>Drops from Lord Valthalak in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔下层瓦塔拉克公爵</zh>
 		</source>
 	</item>
 
@@ -368,7 +396,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from captains spawned during General Rajaxx encounter in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from captains spawned during General Rajaxx encounter in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟多个BOSS</zh>
 		</source>
 	</item>
 
@@ -379,7 +408,8 @@
 			<stat type="ATTACK_POWER" value="42"/>
 		</stats>
 		<source>
-			Quest reward. Requires Head of Ossirian from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).
+			<en>Quest reward. Requires Head of Ossirian from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -391,7 +421,8 @@
 			<stat type="SPELL_DAMAGE" value="25"/>
 		</stats>
 		<source>
-			Quest reward. Requires Head of Ossirian from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).
+			<en>Quest reward. Requires Head of Ossirian from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -404,7 +435,8 @@
 			<stat type="SPELL_DAMAGE" value="8"/>
 		</stats>
 		<source>
-			Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉沙尔图拉</zh>
 		</source>
 	</item>
 
@@ -416,7 +448,8 @@
 			<stat type="ATTACK_POWER" value="44"/>
 		</stats>
 		<source>
-			Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Fankriss the Unyielding in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉顽强的范克瑞斯</zh>
 		</source>
 	</item>
 
@@ -429,7 +462,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉双子皇帝</zh>
 		</source>
 	</item>
 
@@ -439,7 +473,8 @@
 			<stat type="SPELL_DAMAGE" value="22"/>
 		</stats>
 		<source>
-			Drops from Balzaphon during Scourge Invasion event.
+			<en>Drops from Balzaphon during Scourge Invasion event.</en>
+			<zh>天灾入侵事件</zh>
 		</source>
 	</item>
 
@@ -455,7 +490,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Exalted with Argent Dawn.
+			<en>Quest reward. Requires Exalted with Argent Dawn.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -471,7 +507,8 @@
 			<stat type="SPELL_DAMAGE" value="15"/>
 		</stats>
 		<source>
-			Quest reward. Requires Exalted with Argent Dawn.
+			<en>Quest reward. Requires Exalted with Argent Dawn.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -483,7 +520,8 @@
 			<stat type="ATTACK_POWER" value="20"/>
 		</stats>
 		<source>
-			Drops from Gothik the Harvester in Naxxramas.
+			<en>Drops from Gothik the Harvester in Naxxramas.</en>
+			<zh>纳克萨玛斯收割者戈提克</zh>
 		</source>
 	</item>
 
@@ -496,7 +534,8 @@
 			<stat type="SPELL_PENETRATION" value="13"/>
 		</stats>
 		<source>
-			Drops from Grand Widow Faerlina in Naxxramas.
+			<en>Drops from Grand Widow Faerlina in Naxxramas.</en>
+			<zh>纳克萨玛斯黑女巫法琳娜</zh>
 		</source>
 	</item>
 
@@ -509,7 +548,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</item>
 
@@ -521,7 +561,8 @@
 			<stat type="ATTACK_POWER" value="26"/>
 		</stats>
 		<source>
-			Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</item>
 </items>

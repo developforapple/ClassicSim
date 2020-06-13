@@ -8,8 +8,9 @@
             <stat type="STRENGTH" value="5"/>
         </stats>
         <source>
-			Drops from Bael'Gar in Blackrock Depths.
-        </source>
+			<en>Drops from Bael'Gar in Blackrock Depths.</en>
+			<zh>黑石深渊贝尔加</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="14487" phase="1">
@@ -19,8 +20,9 @@
             <spell name="FROST_ATTACK" min="90" max="90" instant="yes" rate="0.05" internal_cd="0" spell_dmg_coefficient="0.0"/>
         </proc>
         <source>
-			Drops from Ras Frostwhisper in Scholomance.
-        </source>
+			<en>Drops from Ras Frostwhisper in Scholomance.</en>
+			<zh>通灵学院莱斯·霜语</zh>
+		</source>
         <special_equip_effect>
 			<en>Chance on hit: Blasts a target for 90 Frost damage.</en>
             <zh>击中时可能：冲击目标，对其造成90点冰霜伤害。</zh>
@@ -35,8 +37,9 @@
             <stat type="AGILITY" value="5"/>
         </stats>
         <source>
-			Drops from Hurley Blackbreath in Blackrock Depths.
-        </source>
+			<en>Drops from Hurley Blackbreath in Blackrock Depths.</en>
+			<zh>黑石深渊霍尔雷·黑须</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18683" phase="1">
@@ -47,8 +50,9 @@
             <stat type="STAMINA" value="12"/>
         </stats>
         <source>
-			Drops from the six bosses in Scholomance.
-        </source>
+			<en>Drops from the six bosses in Scholomance.</en>
+			<zh>通灵学院院长室BOSS</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18671" phase="1">
@@ -62,8 +66,9 @@
             <zh>击中时可能：冲击目标，对其造成35点火焰伤害。</zh>
         </special_equip_effect>
         <source>
-			Drops from Baron Charr in Un'Goro Crater.
-        </source>
+			<en>Drops from Baron Charr in Un'Goro Crater.</en>
+			<zh>安戈洛环型山火焰男爵查尔</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="13204" phase="1">
@@ -80,8 +85,9 @@
             <zh>击中时可能：使目标的护甲降低200点，可叠加3次。</zh>
         </special_equip_effect>
         <source>
-			Drops from Ghok Bashguud in Lower Blackrock Spire (LBRS).
-        </source>
+			<en>Drops from Ghok Bashguud in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层霍克·巴什古德</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="13183" phase="1">
@@ -93,8 +99,9 @@
             <zh>击中时可能：使目标每2秒毒发一次，对其造成7点自然伤害，持续30秒。</zh>
         </special_equip_effect>
         <source>
-			Drops from Mother Smolderweb in Lower Blackrock Spire (LBRS).
-        </source>
+			<en>Drops from Mother Smolderweb in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层烟网蛛后</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="11684" phase="1">
@@ -108,8 +115,9 @@
             <zh>击中时可能：使你的下次攻击获得2次额外的攻击机会。</zh>
         </special_equip_effect>
         <source>
-			Drops from Emperor Dagran Thaurissan in Blackrock Depths.
-        </source>
+			<en>Drops from Emperor Dagran Thaurissan in Blackrock Depths.</en>
+			<zh>黑石深渊达格兰·索瑞森大帝</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="17105" phase="1">
@@ -122,8 +130,9 @@
             <stat type="SPELL_DAMAGE" value="25"/>
         </stats>
         <source>
-			Drops from Garr in Molten Core.
-        </source>
+			<en>Drops from Garr in Molten Core.</en>
+			<zh>熔火之心加尔</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19104" phase="3">
@@ -133,8 +142,9 @@
             <stat type="STRENGTH" value="15"/>
         </stats>
         <source>
-			Purchased for 2400 honor points. Alliance only.
-        </source>
+			<en>Purchased for 2400 honor points. Alliance only.</en>
+			<zh>雷矛卫队崇敬</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="17112" phase="2">
@@ -148,8 +158,9 @@
             <zh>击中时可能：使你的攻击速度提高20%，持续10秒。</zh>
         </special_equip_effect>
         <source>
-			Drops from Lord Kazzak (world boss).
-        </source>
+			<en>Drops from Lord Kazzak (world boss).</en>
+			<zh>世界BOSS卡扎克</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18866" phase="2">
@@ -161,8 +172,9 @@
             <stat type="STAMINA" value="7"/>
         </stats>
         <source>
-			May be purchased upon reaching High Warlord (rank 14). Horde only.
-        </source>
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="18865" phase="2">
@@ -174,8 +186,9 @@
             <stat type="STAMINA" value="7"/>
         </stats>
         <source>
-			May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
-        </source>
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19335" phase="3">
@@ -187,8 +200,9 @@
             <stat type="DEFENSE" value="5"/>
         </stats>
         <source>
-			Drops from Razorgore the Untamed in Blackwing Lair.
-        </source>
+			<en>Drops from Razorgore the Untamed in Blackwing Lair.</en>
+			<zh>黑翼之巢狂野的拉佐格尔</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19170" phase="3">
@@ -206,8 +220,9 @@
             <zh>击中时可能：向目标射出一支暗影箭，对其造成125到276点暗影伤害。</zh>
         </special_equip_effect>
         <source>
-			Crafted by Blacksmiths with Thorium Brotherhood reputation. Requires Molten Core materials.
-        </source>
+			<en>Crafted by Blacksmiths with Thorium Brotherhood reputation. Requires Molten Core materials.</en>
+			<zh>锻造制造</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19908" phase="4">
@@ -224,8 +239,9 @@
             <zh>击中时可能：对敌人造成63到94点自然伤害。</zh>
         </special_equip_effect>
         <source>
-			Random drop from trash in Zul'Gurub.
-        </source>
+			<en>Random drop from trash in Zul'Gurub.</en>
+			<zh>祖尔格拉布小怪</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19961" phase="4">
@@ -235,8 +251,9 @@
             <stat type="ATTACK_POWER_DRAGONKIN" value="48"/>
         </stats>
         <source>
-			Drops from Gri'lek (Edge of Madness) in Zul'Gurub.
-        </source>
+			<en>Drops from Gri'lek (Edge of Madness) in Zul'Gurub.</en>
+			<zh>祖尔格拉布格里雷克</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="19360" phase="3">
@@ -249,11 +266,13 @@
             <stat type="SPELL_DAMAGE" value="84"/>
         </stats>
         <flavour_text>
-            "The Hand of Nefarius"
+            <en>"The Hand of Nefarius"</en>
+            <zh>"奈法里奥斯之手"</zh>
         </flavour_text>
         <source>
-			Drops from Nefarian in Blackwing Lair.
-        </source>
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="22384" phase="5">
@@ -264,8 +283,9 @@
             <stat type="CRIT_CHANCE" value="0.01"/>
         </stats>
         <source>
-			Created by Blacksmiths (plans are world drop/raid bosses).
-        </source>
+			<en>Created by Blacksmiths (plans are world drop/raid bosses).</en>
+			<zh>锻造制造</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="21837" phase="5">
@@ -277,8 +297,9 @@
             <stat type="ATTACK_POWER" value="32"/>
         </stats>
         <source>
-			Random drop from trash in Temple of Ahn'Qiraj (AQ40).
-        </source>
+			<en>Random drop from trash in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉小怪</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="21715" phase="5">
@@ -290,8 +311,9 @@
             <stat type="ATTACK_POWER" value="20"/>
         </stats>
         <source>
-			Drops from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).
-        </source>
+			<en>Drops from Ossirian the Unscarred in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟无疤者奥斯里安</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="22808" phase="6">
@@ -304,8 +326,9 @@
             <stat type="HIT_CHANCE" value="0.01"/>
         </stats>
         <source>
-			Drops from Thaddius in Naxxramas.
-        </source>
+			<en>Drops from Thaddius in Naxxramas.</en>
+			<zh>纳克萨玛斯塔迪乌斯</zh>
+		</source>
     </melee_weapon>
 
     <melee_weapon id="23221" phase="6">
@@ -319,7 +342,8 @@
             <zh>装备：有一定几率放电，对你的目标造成100到151点自然伤害。</zh>
         </special_equip_effect>
         <source>
-			Drops from trash mobs in Naxxramas.
-        </source>
+			<en>Drops from trash mobs in Naxxramas.</en>
+			<zh>纳克萨玛斯小怪</zh>
+		</source>
     </melee_weapon>
 </weapons>

@@ -10,7 +10,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Shadow Hunter Vosh'gajin in Blackrock Spire (LBRS).
+			<en>Drops from Shadow Hunter Vosh'gajin in Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层暗影猎手沃什加斯</zh>
 		</source>
 	</item>
 
@@ -23,7 +24,8 @@
 			<stat type="SWORD_SKILL" value="7"/>
 		</stats>
 		<source>
-			World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -36,7 +38,8 @@
 			<stat type="AGILITY" value="5"/>
 		</stats>
 		<source>
-			Quest reward. Trivial quest in Burning Steppes.
+			<en>Quest reward. Trivial quest in Burning Steppes.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -49,7 +52,8 @@
 			<stat type="ATTACK_POWER" value="28"/>
 		</stats>
 		<source>
-			Drops from Landslide in Maraudon.
+			<en>Drops from Landslide in Maraudon.</en>
+			<zh>玛拉顿兰斯利德</zh>
 		</source>
 	</item>
 
@@ -63,7 +67,8 @@
 			<stat type="AGILITY" value="12"/>
 		</stats>
 		<source>
-			Quest reward. Trivial quest mostly taking part in Un'Goro Crater.
+			<en>Quest reward. Trivial quest mostly taking part in Un'Goro Crater.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -77,7 +82,8 @@
 			<stat type="INTELLECT" value="9"/>
 		</stats>
 		<source>
-			Drops from War Master Voone in Lower Blackrock Spire (LBRS).
+			<en>Drops from War Master Voone in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层指挥官沃恩</zh>
 		</source>
 	</item>
 
@@ -91,7 +97,8 @@
 			<stat type="STRENGTH" value="5"/>
 		</stats>
 		<source>
-			Drops from Eviscerator in the Arena in Blackrock Depths (BRD).
+			<en>Drops from Eviscerator in the Arena in Blackrock Depths (BRD).</en>
+			<zh>黑石深渊剜眼者</zh>
 		</source>
 	</item>
 
@@ -108,7 +115,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Quest reward. Part of Onyxia quest chain. Requires LBRS.
+			<en>Quest reward. Part of Onyxia quest chain. Requires LBRS.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -122,7 +130,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长室BOSS</zh>
 		</source>
 	</item>
 
@@ -137,7 +146,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from Shazzrah in Molten Core.
+			<en>Drops from Shazzrah in Molten Core.</en>
+			<zh>熔火之心沙斯拉尔</zh>
 		</source>
 	</item>
 
@@ -155,7 +165,8 @@
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Knight-Lieutenant (rank 7).</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -173,7 +184,8 @@
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Blood Guard (rank 7).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Blood Guard (rank 7).</en>
+			<zh>部落荣誉奖励，需要血卫士军阶</zh>
 		</source>
 	</item>
 
@@ -193,7 +205,8 @@
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires Marshal (rank 12).</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -213,7 +226,8 @@
 			<zh>装备：使你的多重射击所造成的伤害提高4%。</zh>
 		</special_equip_effect>
 		<source>
-			Purchased with Honor Points and Alterac Valley marks. Requires General (rank 12).
+			<en>Purchased with Honor Points and Alterac Valley marks. Requires General (rank 12).</en>
+			<zh>部落荣誉奖励，需要将军军阶</zh>
 		</source>
 	</item>
 
@@ -230,7 +244,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Crafted by Leatherworking (300 Dragonscale skill). Pattern requires Revered with Thorium Brotherhood.
+			<en>Crafted by Leatherworking (300 Dragonscale skill). Pattern requires Revered with Thorium Brotherhood.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 
@@ -247,7 +262,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.
+			<en>Drops from Ebonroc, Flamegor, and Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克、弗莱格尔、费尔默</zh>
 		</source>
 	</item>
 
@@ -260,7 +276,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Crafted by Blacksmiths (300 skill). Pattern requires Friendly with Zandalar Tribe.
+			<en>Crafted by Blacksmiths (300 skill). Pattern requires Friendly with Zandalar Tribe.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</item>
 
@@ -273,7 +290,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from High Priest and Priestess bosses in Zul'Gurub.
+			<en>Drops from High Priest and Priestess bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司BOSS</zh>
 		</source>
 	</item>
 
@@ -287,7 +305,8 @@
 			<stat type="SPIRIT" value="7"/>
 		</stats>
 		<source>
-			Drops from Ayamiss the Hunter in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Ayamiss the Hunter in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟狩猎者阿亚米斯</zh>
 		</source>
 	</item>
 
@@ -301,7 +320,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉双子皇帝</zh>
 		</source>
 	</item>
 
@@ -319,7 +339,8 @@
 			<zh>装备：使你的宠物的爆击几率提高2%。</zh>
 		</special_equip_effect>
 		<source>
-			Quest reward. Requires Beaststalker's Belt, Beaststalker's Gloves.
+			<en>Quest reward. Requires Beaststalker's Belt, Beaststalker's Gloves.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -338,7 +359,8 @@
 			<zh>装备：近战或远程攻击成功命中目标后，获得8点法力值，并从敌人身上抽取8点法力值。</zh>
 		</special_equip_effect>
 		<source>
-			Crafted by Blacksmiths. Recipe from Moam in AQ20 and requires material from AQ20/AQ40.
+			<en>Crafted by blacksmiths. Recipe from Moam in AQ20 and requires material from AQ20/AQ40.</en>
+			<zh>锻造制造</zh>
 		</source>
 	</item>
 
@@ -354,7 +376,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

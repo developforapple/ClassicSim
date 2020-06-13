@@ -9,7 +9,8 @@
 			<zh>击中时可能：将目标打傻2秒。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Ghok Bashguud in Lower Blackrock Spire (LBRS).
+			<en>Drops from Ghok Bashguud in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层霍克·巴什古德</zh>
 		</source>
 	</melee_weapon>
 
@@ -27,7 +28,8 @@
 			<zh>击中时可能：使你的攻击速度提高30%，持续5秒。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Magmadar in Molten Core.
+			<en>Drops from Magmadar in Molten Core.</en>
+			<zh>熔火之心玛格曼达</zh>
 		</source>
 	</melee_weapon>
 
@@ -46,7 +48,8 @@
 			<zh>击中时可能：使敌人的移动速度降低60%，并在接下来的30秒内不断流血，承受总计150点伤害。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from Azuregos (world boss).
+			<en>Drops from Azuregos (world boss).</en>
+			<zh>世界BOSS艾索雷葛斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -59,7 +62,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			May be purchased upon reaching High Warlord (rank 14). Horde only.
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -72,7 +76,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -85,7 +90,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			May be purchased upon reaching High Warlord (rank 14). Horde only.
+			<en>May be purchased upon reaching High Warlord (rank 14). Horde only.</en>
+			<zh>部落荣誉奖励，需要高阶督军军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -98,7 +104,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			May be purchased upon reaching Grand Marshal (rank 14). Alliance only.
+			<en>May be purchased upon reaching Grand Marshal (rank 14). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要大元帅军阶</zh>
 		</source>
 	</melee_weapon>
 
@@ -111,7 +118,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Firemaw in Blackwing Lair.
+			<en>Drops from Firemaw in Blackwing Lair.</en>
+			<zh>黑翼之巢费尔默</zh>
 		</source>
 	</melee_weapon>
 
@@ -126,7 +134,8 @@
 			<zh>击中时可能：向目标射出一支暗影箭，对其造成55到86点暗影伤害。</zh>
 		</special_equip_effect>
 		<source>
-			Drops from High Priestess Arlokk in Zul'Gurub.
+			<en>Drops from High Priestess Arlokk in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司娅尔罗</zh>
 		</source>
 	</melee_weapon>
 
@@ -138,7 +147,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from High Priest Thekal in Zul'Gurub.
+			<en>Drops from High Priest Thekal in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司塞卡尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -150,7 +160,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-			Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉沙尔图拉</zh>
 		</source>
 	</melee_weapon>
 
@@ -164,7 +175,8 @@
 			<stat type="ATTACK_POWER" value="22"/>
 		</stats>
 		<source>
-			Drops from Sapphiron in Naxxramas.
+			<en>Drops from Sapphiron in Naxxramas.</en>
+			<zh>纳克萨玛斯萨菲隆</zh>
 		</source>
 	</melee_weapon>
 </weapons>

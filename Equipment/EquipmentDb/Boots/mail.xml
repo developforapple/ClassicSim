@@ -8,7 +8,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Kirtonos the Herald in Scholomance.
+			<en>Drops from Kirtonos the Herald in Scholomance.</en>
+			<zh>通灵学院传令官基尔图诺斯</zh>
 		</source>
 	</item>
 
@@ -20,7 +21,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Drops from Nerub'enkan in Stratholme Undead.
+			<en>Drops from Nerub'enkan in Stratholme Undead.</en>
+			<zh>斯坦索姆奈鲁布恩坎</zh>
 		</source>
 	</item>
 
@@ -33,7 +35,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-		Drops from Anub'shiah in the Arena in Blackrock Depths (BRD).
+			<en>Drops from Anub'shiah in the Arena in Blackrock Depths (BRD).</en>
+			<zh>黑石深渊竞技场修行者高罗什</zh>
 		</source>
 	</item>
 
@@ -48,7 +51,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长房BOSS</zh>
 		</source>
 	</item>
 
@@ -61,7 +65,8 @@
 			<stat type="ATTACK_POWER" value="28"/>
 		</stats>
 		<source>
-		Crafted by Leatherworkers. Pattern requires Honored with Thorium Brotherhood.
+			<en>Crafted by Leatherworkers. Pattern requires Honored with Thorium Brotherhood.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 
@@ -76,7 +81,8 @@
 			<stat type="SHADOW_RESISTANCE" value="7"/>
 		</stats>
 		<source>
-		Drops from Gehennas in Molten Core.
+			<en>Drops from Gehennas in Molten Core.</en>
+			<zh>熔火之心基赫纳斯</zh>
 		</source>
 	</item>
 
@@ -89,7 +95,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心加尔等BOSS</zh>
 		</source>
 	</item>
 
@@ -102,7 +109,8 @@
 			<stat type="AGILITY" value="20"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Knight-Lieutenant (rank 7).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Knight-Lieutenant (rank 7).</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -115,7 +123,8 @@
 			<stat type="AGILITY" value="20"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Blood Guard (rank 7).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Blood Guard (rank 7).</en>
+			<zh>部落荣誉奖励，需要血卫士军阶</zh>
 		</source>
 	</item>
 
@@ -130,7 +139,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires Marshal (rank 12).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires Marshal (rank 12).</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -145,7 +155,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Purchased with Honor Points and Arathi Basin marks. Requires General (rank 12).
+			<en>Purchased with Honor Points and Arathi Basin marks. Requires General (rank 12).</en>
+			<zh>部落荣誉奖励，需要将军军阶</zh>
 		</source>
 	</item>
 
@@ -161,7 +172,8 @@
 			<stat type="FIRE_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-		Drops from Broodlord Lashlayer in Blackwing Lair.
+			<en>Drops from Broodlord Lashlayer in Blackwing Lair.</en>
+			<zh>黑翼之巢勒什雷尔</zh>
 		</source>
 	</item>
 
@@ -174,7 +186,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-		Drops from High Priestess Mar'li in Zul'Gurub.
+			<en>Drops from High Priestess Mar'li in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司玛尔里</zh>
 		</source>
 	</item>
 
@@ -187,7 +200,8 @@
 			<stat type="INTELLECT" value="8"/>
 		</stats>
 		<source>
-		Requires Exalted with The League of Arathor (Arathi Basin).
+			<en>Requires Exalted with The League of Arathor (Arathi Basin).</en>
+			<zh>阿拉索联军崇敬</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Run speed increased slightly.</en>
@@ -206,7 +220,8 @@
 			<stat type="INTELLECT" value="8"/>
 		</stats>
 		<source>
-		Requires Exalted with The Defilers (Arathi Basin).
+			<en>Requires Exalted with The Defilers (Arathi Basin).</en>
+			<zh>污染者崇敬</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Run speed increased slightly.</en>
@@ -223,7 +238,8 @@
 		</stats>
 		<modifies name="BEASTMASTER_HUNTER_PET"/>
 		<source>
-		Quest reward. Requires Beaststalker's Boots, Beaststalker's Pants, and Beaststalker's Mantle.
+			<en>Quest reward. Requires Beaststalker's Boots, Beaststalker's Pants, and Beaststalker's Mantle.</en>
+			<zh>任务奖励</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: Increases damage dealt by your pet by 3%.</en>
@@ -239,7 +255,8 @@
 			<stat type="STAMINA" value="11"/>
 		</stats>
 		<source>
-		Drops from General Rajaxx in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from General Rajaxx in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟拉贾克斯将军</zh>
 		</source>
 	</item>
 
@@ -255,7 +272,8 @@
 			<stat type="SPELL_DAMAGE" value="6"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要安其拉掉落的其拉命令腕轮</zh>
 		</source>
 	</item>
 
@@ -270,7 +288,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的长靴</zh>
 		</source>
 	</item>
 </items>

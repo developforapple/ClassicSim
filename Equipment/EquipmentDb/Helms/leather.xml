@@ -9,7 +9,8 @@
 			<stat type="AXE_SKILL" value="7"/>
 		</stats>
 		<source>
-			Drops from Digmaster Shovelphlange in Loch Modan.
+			<en>Drops from Digmaster Shovelphlange in Loch Modan.</en>
+			<zh>洛克莫丹挖掘专家舒尔弗拉格</zh>
 		</source>
 	</item>
 
@@ -26,7 +27,8 @@
 			<zh>装备：变形成为猎豹形态之后，德鲁伊可以获得20点能量值；变形成为熊形态之后，德鲁伊可以获得5点怒气值。</zh>
 		</special_equip_effect>
 		<source>
-			Crafted by Leatherworkers.
+			<en>Crafted by leatherworkers.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 
@@ -39,7 +41,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from The Unforgiven in Stratholme Undead.
+			<en>Drops from The Unforgiven in Stratholme Undead.</en>
+			<zh>斯坦索姆不可宽恕者</zh>
 		</source>
 	</item>
 
@@ -53,7 +56,8 @@
 			<stat type="SPIRIT" value="5"/>
 		</stats>
 		<source>
-			Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</item>
 
@@ -66,7 +70,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from Warchief Rend Blackhand in Upper Blackrock Spire.
+			<en>Drops from Warchief Rend Blackhand in Upper Blackrock Spire.</en>
+			<zh>黑石塔上层大酋长雷德·黑手</zh>
 		</source>
 	</item>
 
@@ -82,7 +87,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from Garr in Molten Core.
+			<en>Drops from Garr in Molten Core.</en>
+			<zh>熔火之心加尔</zh>
 		</source>
 	</item>
 
@@ -99,7 +105,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Onyxia.
+			<en>Drops from Onyxia.</en>
+			<zh>奥妮克希亚</zh>
 		</source>
 	</item>
 
@@ -112,7 +119,8 @@
 			<stat type="ATTACK_POWER" value="44"/>
 		</stats>
 		<source>
-			Drops from Gahz'ranka in Zul'Gurub.
+			<en>Drops from Gahz'ranka in Zul'Gurub.</en>
+			<zh>祖尔格拉布加兹兰卡</zh>
 		</source>
 	</item>
 
@@ -125,7 +133,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from High Priest(ess) bosses in Zul'Gurub.
+			<en>Drops from High Priest(ess) bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司BOSS</zh>
 		</source>
 	</item>
 
@@ -138,7 +147,8 @@
 			<stat type="DAGGER_SKILL" value="6"/>
 		</stats>
 		<source>
-			Drops from Emeriss (world boss).
+			<en>Drops from Emeriss (world boss).</en>
+			<zh>世界BOSS艾莫莉丝</zh>
 		</source>
 	</item>
 
@@ -152,7 +162,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Moam in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟莫阿姆</zh>
 		</source>
 	</item>
 
@@ -166,7 +177,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from bug trio in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Bug Trio in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉三宝</zh>
 		</source>
 	</item>
 
@@ -182,7 +194,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drop from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drop from Twin Emperors in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -195,7 +208,8 @@
 			<stat type="FROST_RESISTANCE" value="44"/>
 		</stats>
 		<source>
-			Drops from Gothik the Harvester in Naxxramas.
+			<en>Drops from Gothik the Harvester in Naxxramas.</en>
+			<zh>纳克萨玛斯收割者戈提克</zh>
 		</source>
 	</item>
 
@@ -211,7 +225,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 </items>

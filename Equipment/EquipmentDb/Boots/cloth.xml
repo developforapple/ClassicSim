@@ -10,7 +10,8 @@
 			<stat type="SPELL_DAMAGE" value="13"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -23,7 +24,8 @@
 			<stat type="SPELL_DAMAGE" value="22"/>
 		</stats>
 		<source>
-		Drops from Golem Lord Argelmach in Blackrock Depths.
+			<en>Drops from Golem Lord Argelmach in Blackrock Depths.</en>
+			<zh>黑石深渊傀儡统帅阿格曼奇</zh>
 		</source>
 	</item>
 
@@ -36,7 +38,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-		Drops from Hearthsinger Forresten in Stratholme Undead.
+			<en>Drops from Hearthsinger Forresten in Stratholme Undead.</en>
+			<zh>斯坦索姆邮差马龙</zh>
 		</source>
 	</item>
 
@@ -50,7 +53,8 @@
 			<stat type="SPELL_DAMAGE" value="7"/>
 		</stats>
 		<source>
-		Drops from Postmaster Malown in Stratholme Undead.
+			<en>Drops from Postmaster Malown in Stratholme Undead.</en>
+			<zh>斯坦索姆邮差马龙</zh>
 		</source>
 	</item>
 
@@ -64,7 +68,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Scholomance.
+			<en>Drops from multiple bosses in Scholomance.</en>
+			<zh>通灵学院院长房BOSS</zh>
 		</source>
 	</item>
 
@@ -77,7 +82,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="29"/>
 		</stats>
 		<source>
-		Drops from Balnazzar in Stratholme Living.
+			<en>Drops from Balnazzar in Stratholme Living.</en>
+			<zh>斯坦索姆巴纳扎尔</zh>
 		</source>
 	</item>
 
@@ -94,7 +100,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		Drops from Lucifron in Molten Core.
+			<en>Drops from Lucifron in Molten Core.</en>
+			<zh>熔火之心鲁西弗隆</zh>
 		</source>
 	</item>
 
@@ -107,7 +114,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="27"/>
 		</stats>
 		<source>
-		Drops from Maleki the Pallid in Stratholme Undead.
+			<en>Drops from Maleki the Pallid in Stratholme Undead.</en>
+			<zh>斯坦索姆苍白的玛勒基</zh>
 		</source>
 	</item>
 
@@ -121,7 +129,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).
+			<en>Drops from Rend Blackhand in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层大酋长雷德·黑手</zh>
 		</source>
 	</item>
 
@@ -136,7 +145,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Blood Guard (rank 7). Horde only.
+			<en>May be purchased upon reaching Blood Guard (rank 7). Horde only.</en>
+			<zh>部落荣誉奖励，需要血卫士军阶</zh>
 		</source>
 	</item>
 
@@ -151,7 +161,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Knight-Lieutenant (rank 7). Alliance only.
+			<en>May be purchased upon reaching Knight-Lieutenant (rank 7). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要骑士中尉军阶</zh>
 		</source>
 	</item>
 
@@ -165,7 +176,8 @@
 			<stat type="MANA_PER_5" value="5"/>
 		</stats>
 		<source>
-		Drops from Azuregos (world boss).
+			<en>Drops from Azuregos (world boss).</en>
+			<zh>世界BOSS艾索雷葛斯</zh>
 		</source>
 	</item>
 
@@ -181,7 +193,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching Marshal (rank 12). Alliance only.
+			<en>May be purchased upon reaching Marshal (rank 12). Alliance only.</en>
+			<zh>联盟荣誉奖励，需要统帅军阶</zh>
 		</source>
 	</item>
 
@@ -197,7 +210,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		May be purchased upon reaching General (rank 12). Horde only.
+			<en>May be purchased upon reaching General (rank 12). Horde only.</en>
+			<zh>部落荣誉奖励，需要将军军阶</zh>
 		</source>
 	</item>
 
@@ -211,7 +225,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Blackwing Lair.
+			<en>Drops from trash mobs in Blackwing Lair.</en>
+			<zh>黑翼之巢小怪</zh>
 		</source>
 	</item>
 
@@ -227,7 +242,8 @@
 			<stat type="SPELL_DAMAGE" value="27"/>
 		</stats>
 		<source>
-		Drops from Broodlord Lashlayer in Blackwing Lair.
+			<en>Drops from Broodlord Lashlayer in Blackwing Lair.</en>
+			<zh>黑翼之巢勒什雷尔</zh>
 		</source>
 	</item>
 
@@ -243,7 +259,8 @@
 			<stat type="SPELL_DAMAGE" value="23"/>
 		</stats>
 		<source>
-		Drops from Broodlord Lashlayer in Blackwing Lair.
+			<en>Drops from Broodlord Lashlayer in Blackwing Lair.</en>
+			<zh>黑翼之巢勒什雷尔</zh>
 		</source>
 	</item>
 
@@ -256,7 +273,8 @@
 			<stat type="MANA_PER_5" value="12"/>
 		</stats>
 		<source>
-		Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Chromaggus in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</item>
 
@@ -269,7 +287,8 @@
 			<stat type="MANA_PER_5" value="5"/>
 		</stats>
 		<source>
-		Drops from Balnazzar in Stratholme Living.
+			<en>Drops from Balnazzar in Stratholme Living.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -289,7 +308,8 @@
 			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
-		Sold by Arathi Basin faction. Requires Revered with The League of Arathor.
+			<en>Sold by Arathi Basin faction. Requires Revered with The League of Arathor.</en>
+			<zh>阿拉索联军崇敬</zh>
 		</source>
 	</item>
 
@@ -309,7 +329,8 @@
 			<zh>装备：略微提高移动速度。</zh>
 		</special_equip_effect>
 		<source>
-		Sold by Arathi Basin faction. Requires Revered with The Defilers.
+			<en>Sold by Arathi Basin faction. Requires Revered with The Defilers.</en>
+			<zh>污染者崇敬</zh>
 		</source>
 	</item>
 
@@ -322,7 +343,8 @@
 			<stat type="SPELL_DAMAGE" value="19"/>
 		</stats>
 		<source>
-		Crafted by Tailorers. Requires drops from Zul'Gurub trash.
+			<en>Crafted by Tailorers. Requires drops from Zul'Gurub trash.</en>
+			<zh>裁缝制造</zh>
 		</source>
 	</item>
 
@@ -336,7 +358,8 @@
 			<stat type="SPELL_DAMAGE" value="30"/>
 		</stats>
 		<source>
-		Drops from High Priest Thekal in Zul'Gurub.
+			<en>Drops from High Priest Thekal in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司塞卡尔</zh>
 		</source>
 	</item>
 
@@ -349,7 +372,8 @@
 			<stat type="MANA_PER_5" value="10"/>
 		</stats>
 		<source>
-		Drops from Taerar (dragon world boss in Duskwood).
+			<en>Drops from Taerar (dragon world boss in Duskwood).</en>
+			<zh>世界BOSS泰拉尔</zh>
 		</source>
 	</item>
 
@@ -364,7 +388,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-		Quest reward. Requires Magister's Boots.
+			<en>Quest reward. Requires Magister's Boots.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -377,7 +402,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from War Master Voone in Lower Blackrock Spire (LBRS).
+			<en>Drops from War Master Voone in Lower Blackrock Spire (LBRS).</en>
+			<zh>黑石塔下层指挥官沃恩</zh>
 		</source>
 	</item>
 
@@ -392,7 +418,8 @@
 			<stat type="INTELLECT" value="11"/>
 		</stats>
 		<source>
-		Drops from The Beast in Upper Blackrock Spire (UBRS).
+			<en>Drops from The Beast in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层比斯巨兽</zh>
 		</source>
 	</item>
 
@@ -409,7 +436,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要安其拉掉落的其拉统御腕轮</zh>
 		</source>
 	</item>
 
@@ -423,7 +451,8 @@
 			<stat type="SPELL_DAMAGE" value="16"/>
 		</stats>
 		<source>
-		Drops from Buru the Gorger in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Buru the Gorger in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟吞咽者布鲁</zh>
 		</source>
 	</item>
 
@@ -437,7 +466,8 @@
 			<stat type="SPELL_DAMAGE" value="20"/>
 		</stats>
 		<source>
-		Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Battleguard Sartura in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉沙尔图拉</zh>
 		</source>
 	</item>
 
@@ -450,7 +480,8 @@
 			<stat type="SPELL_DAMAGE" value="34"/>
 		</stats>
 		<source>
-		Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉维克洛尔大帝</zh>
 		</source>
 	</item>
 
@@ -466,7 +497,8 @@
 			<stat type="SPELL_DAMAGE" value="28"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的便鞋</zh>
 		</source>
 	</item>
 	
@@ -485,7 +517,16 @@
 			<affix id="1462"/>
 		</random_affixes>
 		<source>
-			Drops from Phase Lasher in Dire Maul.
+			<en>Drops from Phase Lasher in Dire Maul.</en>
+			<zh>厄运之槌小怪相位鞭笞者</zh>
 		</source>
 	</item>
+
+	<!-- 瘟疫之心便鞋 -->
+	<!-- 将军的鬼纹长靴 -->
+	<!-- 统帅的鬼纹长靴 -->
+	<!-- 恶魔之心便鞋 -->
+	<!-- 厄运召唤者的裹足 -->
+	<!-- 坚贞便鞋 -->
+	<!-- 死雾便鞋 -->
 </items>

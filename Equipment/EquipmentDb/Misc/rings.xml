@@ -8,7 +8,8 @@
 			<stat type="STAMINA" value="5"/>
 		</stats>
 		<source>
-			Quest reward. Requires finishing the pyramid event in Zul'Farrak.
+			<en>Quest reward. Requires finishing the pyramid event in Zul'Farrak.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -20,7 +21,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-			Drops from multiple high level bosses.
+			<en>Drops from multiple high level bosses.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -33,7 +35,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-			Quest reward. Requires Emperor in Blackrock Depths.
+			<en>Quest reward. Requires Emperor in Blackrock Depths.</en>
+			<zh>黑石深渊任务奖励</zh>
 		</source>
 	</item>
 
@@ -45,7 +48,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Princess Theradras in Maraudon.
+			<en>Drops from Princess Theradras in Maraudon.</en>
+			<zh>玛拉顿瑟莱德丝公主</zh>
 		</source>
 	</item>
 
@@ -57,7 +61,8 @@
 			<stat type="ATTACK_POWER" value="24"/>
 		</stats>
 		<source>
-			Quest reward. Trivial quest in Un'Goro Crater.
+			<en>Quest reward. Trivial quest in Un'Goro Crater.</en>
+			<zh>安戈洛环形山任务奖励</zh>
 		</source>
 	</item>
 
@@ -68,7 +73,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Quest reward. Requires finishing the statue event in Sunken Temple.
+			<en>Quest reward. Requires finishing the statue event in Sunken Temple.</en>
+			<zh>沉没的神庙任务奖励</zh>
 		</source>
 	</item>
 
@@ -80,7 +86,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Quest reward. Final reward in quest chain mostly in Silithus.
+			<en>Quest reward. Final reward in quest chain mostly in Silithus.</en>
+			<zh>希利苏斯任务奖励</zh>
 		</source>
 	</item>
 
@@ -92,7 +99,8 @@
 			<stat type="AGILITY" value="7"/>
 		</stats>
 		<source>
-			World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</item>
 
@@ -104,7 +112,8 @@
 			<stat type="INTELLECT" value="3"/>
 		</stats>
 		<source>
-			Drops from Postmaster Malown in Stratholme Undead.
+			<en>Drops from Postmaster Malown in Stratholme Undead.</en>
+			<zh>斯坦索姆邮差马龙</zh>
 		</source>
 	</item>
 
@@ -116,7 +125,8 @@
 			<stat type="AGILITY" value="7"/>
 		</stats>
 		<source>
-			Drops from Lethtendris in Dire Maul.
+			<en>Drops from Lethtendris in Dire Maul.</en>
+			<zh>厄运之槌东蕾瑟塔蒂丝</zh>
 		</source>
 	</item>
 
@@ -129,7 +139,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Emperor in Blackrock Depths.
+			<en>Quest reward. Requires Emperor in Blackrock Depths.</en>
+			<zh>黑石深渊任务奖励</zh>
 		</source>
 	</item>
 
@@ -142,7 +153,8 @@
 			<stat type="STRENGTH" value="4"/>
 		</stats>
 		<source>
-			Quest reward. Requires Emperor in Blackrock Depths.
+			<en>Quest reward. Requires Emperor in Blackrock Depths.</en>
+			<zh>黑石深渊任务奖励</zh>
 		</source>
 	</item>
 
@@ -154,7 +166,8 @@
 			<stat type="ATTACK_POWER" value="16"/>
 		</stats>
 		<source>
-			Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 	</item>
 
@@ -165,7 +178,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Stratholme Undead.
+			<en>Quest reward. Requires Stratholme Undead.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -177,7 +191,8 @@
 			<stat type="AGILITY" value="3"/>
 		</stats>
 		<source>
-			Drops from Ramstein the Gorger in Stratholme Undead.
+			<en>Drops from Ramstein the Gorger in Stratholme Undead.</en>
+			<zh>斯坦索姆吞咽者拉姆斯登</zh>
 		</source>
 	</item>
 
@@ -191,7 +206,8 @@
 			<stat type="FIRE_RESISTANCE" value="15"/>
 		</stats>
 		<source>
-			Quest reward. Requires killing multiple bosses in Molten Core.
+			<en>Quest reward. Requires killing multiple bosses in Molten Core.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -207,7 +223,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward from turning in Head of Onyxia.
+			<en>Quest reward from turning in Head of Onyxia.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -217,7 +234,8 @@
 			<stat type="SPELL_DAMAGE" value="33"/>
 		</stats>
 		<source>
-			Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</item>
 
@@ -229,7 +247,8 @@
 			<stat type="DEFENSE" value="5"/>
 		</stats>
 		<source>
-			Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</item>
 
@@ -242,7 +261,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-			Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</item>
 
@@ -254,7 +274,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-			Drops from Ragnaros in Molten Core.
+			<en>Drops from Ragnaros in Molten Core.</en>
+			<zh>熔火之心拉格纳罗斯</zh>
 		</source>
 	</item>
 
@@ -267,7 +288,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-			Quest reward from saving princess in BRD.
+			<en>Quest reward from saving princess in BRD.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -278,7 +300,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Warchief Rend Blackhand in UBRS.
+			<en>Drops from Warchief Rend Blackhand in UBRS.</en>
+			<zh>黑石塔上层大酋长雷德·黑手</zh>
 		</source>
 	</item>
 
@@ -289,7 +312,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Random drop from trash mobs in Scholomance.
+			<en>Random drop from trash mobs in Scholomance.</en>
+			<zh>通灵学院小怪</zh>
 		</source>
 	</item>
 
@@ -300,7 +324,8 @@
 			<stat type="STRENGTH" value="5"/>
 		</stats>
 		<source>
-			Drops from Guard bosses in Dire Maul.
+			<en>Drops from Guard bosses in Dire Maul.</en>
+			<zh>厄运之槌北守卫BOSS</zh>
 		</source>
 	</item>
 
@@ -311,7 +336,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Tribute chest in Dire Maul.
+			<en>Drops from Tribute chest in Dire Maul.</en>
+			<zh>厄运之槌北戈多克贡品</zh>
 		</source>
 	</item>
 
@@ -322,7 +348,8 @@
 			<stat type="STAMINA" value="13"/>
 		</stats>
 		<source>
-			Drops from King Gordok in Dire Maul.
+			<en>Drops from King Gordok in Dire Maul.</en>
+			<zh>厄运之槌北戈多克大王</zh>
 		</source>
 	</item>
 
@@ -335,7 +362,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Lord Kazzak (world boss in Blasted Lands).
+			<en>Drops from Lord Kazzak (world boss in Blasted Lands).</en>
+			<zh>世界BOSS卡扎克</zh>
 		</source>
 	</item>
 
@@ -349,7 +377,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Head of Nefarian from Blackwing Lair.
+			<en>Quest reward. Requires Head of Nefarian from Blackwing Lair.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -361,7 +390,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-			Sold by Warsong Gulch vendor Illiyana Moonblaze. Requires Honored with Silverwing Sentinels.
+			<en>Sold by Warsong Gulch vendor Illiyana Moonblaze. Requires Honored with Silverwing Sentinels.</en>
+			<zh>银翼要塞尊敬</zh>
 		</source>
 	</item>
 
@@ -373,7 +403,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-			Sold by Warsong Gulch vendor Kelm Hargunth. Requires Honored with Warsong Outriders.
+			<en>Sold by Warsong Gulch vendor Kelm Hargunth. Requires Honored with Warsong Outriders.</en>
+			<zh>战歌氏族尊敬</zh>
 		</source>
 	</item>
 
@@ -386,7 +417,8 @@
 			<stat type="ATTACK_POWER" value="16"/>
 		</stats>
 		<source>
-			Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.
+			<en>Sold by Alterac Valley vendors. Requires Exalted with Alterac Valley faction.</en>
+			<zh>奥山崇拜</zh>
 		</source>
 	</item>
 
@@ -397,7 +429,8 @@
 			<stat type="MANA_PER_5" value="9"/>
 		</stats>
 		<source>
-			Drops from Firemaw, Flamegor, and Ebonroc in Blackwing Lair.
+			<en>Drops from Firemaw, Flamegor, and Ebonroc in Blackwing Lair.</en>
+			<zh>黑翼之巢费尔默、弗莱格尔、埃博诺克</zh>
 		</source>
 	</item>
 
@@ -410,7 +443,8 @@
 			<stat type="SPELL_DAMAGE" value="21"/>
 		</stats>
 		<source>
-			Drops from Ebonroc in Blackwing Lair.
+			<en>Drops from Ebonroc in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克</zh>
 		</source>
 	</item>
 
@@ -422,7 +456,8 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Drops from Flamegor in Blackwing Lair.
+			<en>Drops from Flamegor in Blackwing Lair.</en>
+			<zh>黑翼之巢弗莱格尔</zh>
 		</source>
 	</item>
 
@@ -433,7 +468,8 @@
 			<stat type="STAMINA" value="28"/>
 		</stats>
 		<source>
-			Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -445,7 +481,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="33"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Blackwing Lair.
+			<en>Drops from trash mobs in Blackwing Lair.</en>
+			<zh>黑翼之巢小怪</zh>
 		</source>
 	</item>
 
@@ -458,7 +495,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Taerar (dragon world boss in Duskwood).
+			<en>Drops from Taerar (dragon world boss in Duskwood).</en>
+			<zh>世界BOSS泰拉尔</zh>
 		</source>
 	</item>
 
@@ -470,7 +508,8 @@
 			<stat type="ATTACK_POWER" value="20"/>
 		</stats>
 		<source>
-			Drops from High Priest Thekal in Zul'Gurub.
+			<en>Drops from High Priest Thekal in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司塞卡尔</zh>
 		</source>
 	</item>
 
@@ -482,7 +521,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from High Priestess Mar'li in Zul'Gurub.
+			<en>Drops from High Priestess Mar'li in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司玛尔里</zh>
 		</source>
 	</item>
 
@@ -495,7 +535,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-			Drops from Bloodlord Mandokir in Zul'Gurub.
+			<en>Drops from Bloodlord Mandokir in Zul'Gurub.</en>
+			<zh>祖尔格拉布血领主曼多基尔</zh>
 		</source>
 	</item>
 
@@ -507,7 +548,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-			Drops from High Priest Venoxis in Zul'Gurub.
+			<en>Drops from High Priest Venoxis in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司温诺希斯</zh>
 		</source>
 	</item>
 
@@ -518,7 +560,8 @@
 			<stat type="ATTACK_POWER" value="40"/>
 		</stats>
 		<source>
-			Drops from High Priest(ess) bosses in Zul'Gurub.
+			<en>Drops from High Priest(ess) bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司BOSS</zh>
 		</source>
 	</item>
 
@@ -529,7 +572,8 @@
 			<stat type="STAMINA" value="16"/>
 		</stats>
 		<source>
-			Drops from Emeriss (world boss).
+			<en>Drops from Emeriss (world boss).</en>
+			<zh>世界BOSS艾莫莉丝</zh>
 		</source>
 	</item>
 
@@ -541,7 +585,8 @@
 			<stat type="SPELL_DAMAGE" value="22"/>
 		</stats>
 		<source>
-			Dropped by Prince Skaldrenox in Silithus.
+			<en>Dropped by Prince Skaldrenox in Silithus.</en>
+			<zh>希利苏斯风石斯卡德诺克斯王子</zh>
 		</source>
 	</item>
 
@@ -553,7 +598,8 @@
 			<stat type="SPELL_DAMAGE" value="23"/>
 		</stats>
 		<source>
-			Drops from High Priest bosses in Zul'Gurub.
+			<en>Drops from High Priest bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司BOSS</zh>
 		</source>
 	</item>
 
@@ -565,7 +611,8 @@
 			<stat type="STAMINA" value="7"/>
 		</stats>
 		<source>
-			Drops from Secret Safe in Blackrock Depths. Requires opening all coffers, which requires 12 Relic Coffer Keys.
+			<en>Drops from Secret Safe in Blackrock Depths. Requires opening all coffers, which requires 12 Relic Coffer Keys.</en>
+			<zh>黑石深渊战斗傀儡</zh>
 		</source>
 	</item>
 
@@ -579,7 +626,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires quest grinding in Silithus and Honored with Cenarion Circle.
+			<en>Quest reward. Requires quest grinding in Silithus and Honored with Cenarion Circle.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -594,7 +642,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires quest grinding in Silithus and Revered with Cenarion Circle.
+			<en>Quest reward. Requires quest grinding in Silithus and Revered with Cenarion Circle.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -606,7 +655,8 @@
 			<stat type="STRENGTH" value="7"/>
 		</stats>
 		<source>
-			Drops from Chest of Spoils, a quest reward for killing Silithus raid bosses.
+			<en>Drops from Chest of Spoils, a quest reward for killing Silithus raid bosses.</en>
+			<zh>希利苏斯奖励包裹开出</zh>
 		</source>
 	</item>
 
@@ -619,7 +669,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Honored with Cenarion Hold.
+			<en>Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Honored with Cenarion Hold.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -632,7 +683,8 @@
 			<stat type="INTELLECT" value="8"/>
 		</stats>
 		<source>
-			Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Honored with Cenarion Hold.
+			<en>Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Honored with Cenarion Hold.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -645,7 +697,8 @@
 			<stat type="STAMINA" value="8"/>
 		</stats>
 		<source>
-			Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Honored with Cenarion Hold.
+			<en>Quest reward. Requires drops from Ruins of Ahn'Qiraj (AQ20) and Honored with Cenarion Hold.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -658,7 +711,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-			Drops from Ayamiss the Hunter in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Ayamiss the Hunter in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟狩猎者阿亚米斯</zh>
 		</source>
 	</item>
 
@@ -670,7 +724,8 @@
 			<stat type="ATTACK_POWER" value="30"/>
 		</stats>
 		<source>
-			Drops from Moam in Ruins of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟莫阿姆</zh>
 		</source>
 	</item>
 
@@ -697,10 +752,12 @@
 			<stat type="MANA_PER_5" value="5"/>
 		</stats>
 		<source>
-			Quest reward. Requires Exalted with Brood of Nozdormu (requires AQ40).
+			<en>Quest reward. Requires Exalted with Brood of Nozdormu (requires AQ40).</en>
+			<zh>诺兹多姆的子嗣 - 崇拜</zh>
 		</source>
 		<flavour_text>
-			"The Path of the Invoker"
+			<en>"The Path of the Invoker"</en>
+			<zh>"祈求者之路"</zh>
 		</flavour_text>
 	</item>
 
@@ -726,10 +783,12 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Exalted with Brood of Nozdormu (requires AQ40).
+			<en>Quest reward. Requires Exalted with Brood of Nozdormu (requires AQ40).</en>
+			<zh>诺兹多姆的子嗣 - 崇拜</zh>
 		</source>
 		<flavour_text>
-			"The Path of the Conqueror"
+			<en>"The Path of the Conqueror"</en>
+			<zh>"征服者之路"</zh>
 		</flavour_text>
 	</item>
 
@@ -741,7 +800,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from trash mobs in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉小怪</zh>
 		</source>
 	</item>
 
@@ -756,7 +816,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Quest reward. Requires Eye of C'Thun from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires Eye of C'Thun from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 
@@ -767,7 +828,8 @@
 			<stat type="SPELL_PENETRATION" value="20"/>
 		</stats>
 		<source>
-			Drops from The Prophet Skeram in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from The Prophet Skeram in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉预言者斯克拉姆</zh>
 		</source>
 	</item>
 
@@ -779,7 +841,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</item>
 
@@ -790,7 +853,8 @@
 			<stat type="STAMINA" value="17"/>
 		</stats>
 		<source>
-			Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克苏恩</zh>
 		</source>
 	</item>
 
@@ -802,7 +866,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Lord Valthalak in Blackrock Spire.
+			<en>Drops from Lord Valthalak in Blackrock Spire.</en>
+			<zh>黑石塔瓦塔拉克公爵</zh>
 		</source>
 	</item>
 
@@ -814,7 +879,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from trash mobs in Naxxramas.
+			<en>Drops from trash mobs in Naxxramas.</en>
+			<zh>纳克萨玛斯小怪</zh>
 		</source>
 	</item>
 
@@ -826,7 +892,8 @@
 			<stat type="ATTACK_POWER" value="52"/>
 		</stats>
 		<source>
-			Drops from Loatheb in Naxxramas.
+			<en>Drops from Loatheb in Naxxramas.</en>
+			<zh>纳克萨玛斯洛欧塞布</zh>
 		</source>
 	</item>
 
@@ -838,7 +905,8 @@
 			<stat type="MANA_PER_5" value="10"/>
 		</stats>
 		<source>
-			Drops from Loatheb in Naxxramas.
+			<en>Drops from Loatheb in Naxxramas.</en>
+			<zh>纳克萨玛斯洛欧塞布</zh>
 		</source>
 	</item>
 
@@ -848,7 +916,8 @@
 			<stat type="AGILITY" value="34"/>
 		</stats>
 		<source>
-			Drops from Patchwerk in Naxxramas.
+			<en>Drops from Patchwerk in Naxxramas.</en>
+			<zh>纳克萨玛斯帕奇维克</zh>
 		</source>
 	</item>
 
@@ -861,7 +930,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from The Four Horsemen in Naxxramas.
+			<en>Drops from The Four Horsemen in Naxxramas.</en>
+			<zh>纳克萨玛斯天启四骑士</zh>
 		</source>
 	</item>
 
@@ -875,7 +945,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</item>
 
@@ -887,7 +958,8 @@
 			<stat type="MANA_PER_5" value="6"/>
 		</stats>
 		<source>
-			Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</item>
 
@@ -901,7 +973,8 @@
 			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</item>
 
@@ -912,7 +985,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-			Dropped from Noth the Plaguebringer in Naxxramas.
+			<en>Dropped from Noth the Plaguebringer in Naxxramas.</en>
+			<zh>纳克萨玛斯瘟疫使者诺斯</zh>
 		</source>
 	</item>
 </items>

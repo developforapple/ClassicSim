@@ -7,7 +7,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="13"/>
 		</stats>
 		<source>
-		Drops from Pyromancer Loregrain in Blackrock Depths.
+			<en>Drops from Pyromancer Loregrain in Blackrock Depths.</en>
+			<zh>黑石深渊控火师罗格雷恩</zh>
 		</source>
 	</melee_weapon>
 
@@ -18,7 +19,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="14"/>
 		</stats>
 		<source>
-		Drops from Skul, a rare boss in Scholomance.
+			<en>Drops from Skul, a rare boss in Scholomance.</en>
+			<zh>斯坦索姆斯库尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -29,7 +31,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -40,7 +43,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -51,7 +55,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -62,7 +67,8 @@
 			<stat type="SPELL_DAMAGE_HOLY" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -73,7 +79,8 @@
 			<stat type="SPELL_DAMAGE_ARCANE" value="11"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -84,7 +91,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="13"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -95,7 +103,8 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="13"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -106,7 +115,8 @@
 			<stat type="SPELL_DAMAGE_FIRE" value="13"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -117,7 +127,8 @@
 			<stat type="SPELL_DAMAGE_HOLY" value="13"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -128,7 +139,8 @@
 			<stat type="SPELL_DAMAGE_ARCANE" value="13"/>
 		</stats>
 		<source>
-		World drop.
+			<en>World drop.</en>
+			<zh>世界掉落</zh>
 		</source>
 	</melee_weapon>
 
@@ -140,7 +152,8 @@
 			<stat type="INTELLECT" value="5"/>
 		</stats>
 		<source>
-		Quest reward. Requires killing an elite mob in Eastern Plaguelands.
+			<en>Quest reward. Requires killing an elite mob in Eastern Plaguelands.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -152,7 +165,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</melee_weapon>
 
@@ -164,7 +178,8 @@
 			<stat type="FIRE_RESISTANCE" value="10"/>
 		</stats>
 		<source>
-		Drops from multiple bosses in Molten Core.
+			<en>Drops from multiple bosses in Molten Core.</en>
+			<zh>熔火之心多个BOSS</zh>
 		</source>
 	</melee_weapon>
 
@@ -175,7 +190,8 @@
 			<stat type="SPELL_DAMAGE" value="9"/>
 		</stats>
 		<source>
-		Drops from Lethtendris in Dire Maul.
+			<en>Drops from Lethtendris in Dire Maul.</en>
+			<zh>厄运之槌东蕾瑟塔蒂丝</zh>
 		</source>
 	</melee_weapon>
 
@@ -186,7 +202,8 @@
 			<stat type="SPELL_DAMAGE_ARCANE" value="16"/>
 		</stats>
 		<source>
-		Drops from elementals in Dire Maul.
+			<en>Drops from elementals in Dire Maul.</en>
+			<zh>厄运之槌元素生物</zh>
 		</source>
 	</melee_weapon>
 
@@ -197,7 +214,8 @@
 			<stat type="MANA_PER_5" value="4"/>
 		</stats>
 		<source>
-		Drops from Cho'Rush the Observer in Dire Maul.
+			<en>Drops from Cho'Rush the Observer in Dire Maul.</en>
+			<zh>厄运北观察者克鲁什</zh>
 		</source>
 	</melee_weapon>
 
@@ -208,7 +226,8 @@
 			<stat type="INTELLECT" value="11"/>
 		</stats>
 		<source>
-		Drops from boss summoned by Paladin/Shaman class quest in Scholomance.
+			<en>Drops from boss summoned by Paladin/Shaman class quest in Scholomance.</en>
+			<zh>通灵学院死亡骑士达克雷尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -220,7 +239,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="20"/>
 		</stats>
 		<source>
-		Drops from Azuregos (world boss).
+			<en>Drops from Azuregos (world boss).</en>
+			<zh>世界BOSS艾索雷葛斯</zh>
 		</source>
 	</melee_weapon>
 
@@ -234,7 +254,8 @@
 			<stat type="SPELL_DAMAGE_FROST" value="16"/>
 		</stats>
 		<source>
-		Quest reward. Requires winning Alterac Valley.
+			<en>Quest reward. Requires winning Alterac Valley.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -247,7 +268,8 @@
 			<stat type="MANA_PER_5" value="5"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Blackwing Lair.
+			<en>Drops from trash mobs in Blackwing Lair.</en>
+			<zh>黑翼之巢小怪</zh>
 		</source>
 	</melee_weapon>
 
@@ -260,7 +282,8 @@
 			<stat type="SPELL_DAMAGE" value="6"/>
 		</stats>
 		<source>
-		Drops from Flamegor in Blackwing Lair.
+			<en>Drops from Flamegor in Blackwing Lair.</en>
+			<zh>黑翼之巢弗莱格尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -272,10 +295,12 @@
 			<stat type="SPELL_DAMAGE_SHADOW" value="11"/>
 		</stats>
 		<flavour_text>
-			"Woe to those who oppose."
+			<en>"Woe to those who oppose."</en>
+			<zh>"为敌人默哀。"</zh>
 		</flavour_text>
 		<source>
-		Quest reward. Requires Sunken Temple.
+			<en>Quest reward. Requires Sunken Temple.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</melee_weapon>
 
@@ -288,7 +313,8 @@
 			<stat type="STAMINA" value="5"/>
 		</stats>
 		<source>
-		Drops from High Priestess Mar'li in Zul'Gurub.
+			<en>Drops from High Priestess Mar'li in Zul'Gurub.</en>
+			<zh>祖尔格拉布高阶祭司玛尔里</zh>
 		</source>
 	</melee_weapon>
 
@@ -299,7 +325,8 @@
 			<stat type="MANA_PER_5" value="5"/>
 		</stats>
 		<source>
-		Drops from Hazza'rah (Edge of Madness) in Zul'Gurub.
+			<en>Drops from Hazza'rah (Edge of Madness) in Zul'Gurub.</en>
+			<zh>祖尔格拉布哈扎拉尔</zh>
 		</source>
 	</melee_weapon>
 
@@ -310,7 +337,8 @@
 			<stat type="SPELL_DAMAGE" value="18"/>
 		</stats>
 		<source>
-		Drops from Hakkar in Zul'Gurub.
+			<en>Drops from Hakkar in Zul'Gurub.</en>
+			<zh>祖尔格拉布哈卡</zh>
 		</source>
 	</melee_weapon>
 
@@ -322,7 +350,8 @@
 			<stat type="SPELL_DAMAGE" value="5"/>
 		</stats>
 		<source>
-		Drops from The Duke of Shards, summonable elite mob in Silithus.
+			<en>Drops from The Duke of Shards, summonable elite mob in Silithus.</en>
+			<zh>希利苏斯碎石公爵</zh>
 		</source>
 	</melee_weapon>
 
@@ -334,7 +363,8 @@
 			<stat type="SPELL_DAMAGE" value="11"/>
 		</stats>
 		<source>
-		Drops from Baron Rivendare in Stratholme Undead.
+			<en>Drops from Baron Rivendare in Stratholme Undead.</en>
+			<zh>斯坦索姆瑞文戴尔男爵</zh>
 		</source>
 	</melee_weapon>
 
@@ -346,7 +376,8 @@
 			<stat type="SPELL_DAMAGE" value="19"/>
 		</stats>
 		<source>
-		Drops from Lord Kri (bug trio) in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Lord Kri (bug trio) in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克里勋爵</zh>
 		</source>
 	</melee_weapon>
 
@@ -360,7 +391,8 @@
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Patchwerk in Naxxramas.
+			<en>Drops from Patchwerk in Naxxramas.</en>
+			<zh>纳克萨玛斯帕奇维克</zh>
 		</source>
 	</melee_weapon>
 
@@ -372,7 +404,8 @@
 			<stat type="SPELL_DAMAGE" value="16"/>
 		</stats>
 		<source>
-		Drops from Kel'Thuzad in Naxxramas.
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>纳克萨玛斯克尔苏加德</zh>
 		</source>
 	</melee_weapon>
 </weapons>

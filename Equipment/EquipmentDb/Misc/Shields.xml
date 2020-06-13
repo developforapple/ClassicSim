@@ -10,7 +10,8 @@
 			<stat type="STAMINA" value="10"/>
 		</stats>
 		<source>
-			Drops from Garr in Molten Core.
+			<en>Drops from Garr in Molten Core.</en>
+			<zh>熔火之心加尔</zh>
 		</source>
 		<special_equip_effect>
 			<en>Equip: When struct in combat inflicts 3 Arcane damage to the attacker.</en>
@@ -28,7 +29,8 @@
 			<stat type="STAMINA" value="23"/>
 		</stats>
 		<source>
-			Drops from Chromaggus in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢克洛玛古斯</zh>
 		</source>
 	</melee_weapon>
 </weapons>

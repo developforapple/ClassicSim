@@ -9,7 +9,8 @@
 			<stat type="AGILITY" value="11"/>
 		</stats>
 		<source>
-		Drops from Plugger Spazzring in Blackrock Depths.
+			<en>Drops from Plugger Spazzring in Blackrock Depths.</en>
+			<zh>黑石深渊普拉格</zh>
 		</source>
 	</item>
 
@@ -22,7 +23,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Darkmaster Gandling in Scholomance.
+			<en>Drops from Darkmaster Gandling in Scholomance.</en>
+			<zh>通灵学院黑暗院长加丁</zh>
 		</source>
 	</item>
 
@@ -35,7 +37,8 @@
 			<stat type="ATTACK_POWER" value="60"/>
 		</stats>
 		<source>
-		Drops by several bosses in Scholomance.
+			<en>Drops by several bosses in Scholomance.</en>
+			<zh>通灵学院院长房BOSS</zh>
 		</source>
 	</item>
 
@@ -50,7 +53,8 @@
 			<stat type="ATTACK_POWER" value="50"/>
 		</stats>
 		<source>
-		Drops from Solakar Flamewreath in Upper Blackrock Spire (UBRS).
+			<en>Drops from Solakar Flamewreath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层索拉卡·火冠</zh>
 		</source>
 	</item>
 
@@ -63,7 +67,8 @@
 			<stat type="SPIRIT" value="12"/>
 		</stats>
 		<source>
-		Drops from General Drakkisath in Upper Blackrock Spire (UBRS).
+			<en>Drops from General Drakkisath in Upper Blackrock Spire (UBRS).</en>
+			<zh>黑石塔上层达基萨斯将军</zh>
 		</source>
 	</item>
 
@@ -77,7 +82,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires expensive and time-consuming materials.
+			<en>Quest reward. Requires expensive and time-consuming materials.</en>
+			<zh>任务奖励，需要比斯巨兽的皮</zh>
 		</source>
 	</item>
 
@@ -93,7 +99,8 @@
 			<stat type="CRIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Drops from Golemagg the Incinerator in Molten Core.
+			<en>Drops from Golemagg the Incinerator in Molten Core.</en>
+			<zh>熔火之心焚化者古雷曼格</zh>
 		</source>
 	</item>
 
@@ -111,7 +118,8 @@
 			<stat type="HIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from Nefarian in Blackwing Lair.
+			<en>Drops from Nefarian in Blackwing Lair.</en>
+			<zh>黑翼之巢奈法利安</zh>
 		</source>
 	</item>
 
@@ -123,7 +131,8 @@
 			<stat type="STAMINA" value="22"/>
 		</stats>
 		<source>
-		Drops from Ebonroc in Blackwing Lair.
+			<en>Drops from Ebonroc in Blackwing Lair.</en>
+			<zh>黑翼之巢埃博诺克</zh>
 		</source>
 	</item>
 
@@ -136,7 +145,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Crafted by Leatherworkers (300 skill). Pattern requires Revered with Zandalar Tribe.
+			<en>Crafted by Leatherworkers (300 skill). Pattern requires Revered with Zandalar Tribe.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 
@@ -150,7 +160,8 @@
 			<stat type="ATTACK_POWER" value="44"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drop from Zul'Gurub and Revered with Zandalar Tribe.
+			<en>Quest reward. Requires boss drop from Zul'Gurub and Revered with Zandalar Tribe.</en>
+			<zh>任务奖励，需要原始哈卡莱之盾</zh>
 		</source>
 	</item>
 
@@ -163,7 +174,8 @@
 			<stat type="STAMINA" value="20"/>
 		</stats>
 		<source>
-		Drops from Lord Kri (bug trio) in Temple of Ahn'Qiraj (AQ40).
+			<en>Drops from Lord Kri (bug trio) in Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉克里勋爵</zh>
 		</source>
 	</item>
 
@@ -179,7 +191,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops Temple of Ahn'Qiraj (AQ40).
+			<en>Quest reward. Requires boss drops Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>任务奖励，需要上古之神的甲壳</zh>
 		</source>
 	</item>
 
@@ -192,7 +205,8 @@
 			<stat type="CRIT_CHANCE" value="0.02"/>
 		</stats>
 		<source>
-		Drops from trash mobs in Naxxramas.
+			<en>Drops from trash mobs in Naxxramas.</en>
+			<zh>纳克萨玛斯小怪</zh>
 		</source>
 	</item>
 
@@ -207,7 +221,8 @@
 			<stat type="HIT_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Quest reward. Requires boss drops from Naxxramas.
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要被玷污的胸甲</zh>
 		</source>
 	</item>
 	
@@ -219,7 +234,8 @@
 			<stat type="DODGE_CHANCE" value="0.01"/>
 		</stats>
 		<source>
-		Crafted by Leatherworkers.
+			<en>Crafted by Leatherworkers.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 </items>

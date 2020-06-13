@@ -7,7 +7,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="15"/>
 		</stats>
 		<source>
-			Quest reward.
+			<en>Quest reward.</en>
+			<zh>任务奖励</zh>
 		</source>
 	</item>
 	
@@ -17,7 +18,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="15"/>
 		</stats>
 		<source>
-			AV vendors.
+			<en>AV vendors.</en>
+			<zh>奥山声望崇敬/zh>
 		</source>
 	</item>
 
@@ -27,7 +29,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="15"/>
 		</stats>
 		<source>
-			AV vendors.
+			<en>AV vendors.</en>
+			<zh>奥山声望崇敬</zh>
 		</source>
 	</item>
 	
@@ -37,7 +40,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="14"/>
 		</stats>
 		<source>
-			Drops from Ribbly Screwspigot in Blackrock Depths.
+			<en>Drops from Ribbly Screwspigot in Blackrock Depths.</en>
+			<zh>黑石深渊雷布里·斯库比格特</zh>
 		</source>
 	</item>
 	
@@ -47,7 +51,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="14"/>
 		</stats>
 		<source>
-			Drops from Ribbly Screwspigot in Blackrock Depths.
+			<en>Drops from Ribbly Screwspigot in Blackrock Depths.</en>
+			<zh>黑石深渊雷布里·斯库比格特</zh>
 		</source>
 	</item>
 	
@@ -57,7 +62,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="13"/>
 		</stats>
 		<source>
-			Crafted by leatherworkers.
+			<en>Crafted by leatherworkers.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 	
@@ -67,7 +73,8 @@
 			<stat type="RANGED_ATTACK_SPEED" value="13"/>
 		</stats>
 		<source>
-			Crafted by leatherworkers.
+			<en>Crafted by leatherworkers.</en>
+			<zh>制皮制造</zh>
 		</source>
 	</item>
 </items>
