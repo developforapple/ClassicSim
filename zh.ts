@@ -13,17 +13,17 @@
     <message>
         <location filename="QML/AttackModeChoice.qml" line="31"/>
         <source>Melee</source>
-        <translation>近战攻击</translation>
+        <translation>近战</translation>
     </message>
     <message>
         <location filename="QML/AttackModeChoice.qml" line="47"/>
         <source>Ranged</source>
-        <translation>远程攻击</translation>
+        <translation>远程</translation>
     </message>
     <message>
         <location filename="QML/AttackModeChoice.qml" line="63"/>
         <source>Spell</source>
-        <translation>法术攻击</translation>
+        <translation>法术</translation>
     </message>
 </context>
 <context>
