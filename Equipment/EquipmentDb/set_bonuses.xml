@@ -146,6 +146,30 @@
 		</bonus>
 	</set>
 
+	<set name="Darkmantle Armor">
+		<item_id value="22002"/>
+		<item_id value="22003"/>
+		<item_id value="22004"/>
+		<item_id value="22005"/>
+		<item_id value="22006"/>
+		<item_id value="22007"/>
+		<item_id value="22008"/>
+		<item_id value="22009"/>
+
+		<bonus value="2">
+		(2) Set: +8 All Resistances.
+		</bonus>
+		<bonus value="4">
+		(4) Set: Chance on melee attack to restore 35 energy.
+		</bonus>
+		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
+		(6) Set: +40 Attack Power.
+		</bonus>
+		<bonus value="8">
+		(8) Set: +200 Armor.
+		</bonus>
+	</set>
+
 	<set name="Dal'Rend's Arms" name_zh="雷德双刀">
 		<item_id value="12940"/>
 		<item_id value="12939"/>
@@ -605,6 +629,24 @@
 		<bonus value="5">
 			<en>(5) Set: 15% increased damage to your Eviscerate ability.</en>
 			<zh>(5) 套装：剔骨技能的伤害提高15%。</zh>
+		</bonus>
+	</set>
+
+	<set name="Madcap's Outfit">
+		<item_id value="19617"/>
+		<item_id value="19954"/>
+		<item_id value="19836"/>
+		<item_id value="19835"/>
+		<item_id value="19834"/>
+
+		<bonus value="2" item_stat="ATTACK_POWER" stat_value="20">
+		(2) Set: +20 Attack Power.
+		</bonus>
+		<bonus value="3">
+		(3) Set: Decreases the cooldown of Blind by 20 sec.
+		</bonus>
+		<bonus value="5">
+		(5) Set: Decrease the energy cost of Eviscerate and Rupture by 5.
 		</bonus>
 	</set>
 

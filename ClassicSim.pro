@@ -13,11 +13,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += main.cpp \
+    Class/Common/Buffs/CharmOfTrickery.cpp \
     Class/Common/Buffs/NoEffectSelfBuff.cpp \
     Class/Common/Buffs/NoEffectUniqueDebuff.cpp \
     Class/Common/Buffs/SanctifiedOrb.cpp \
     Class/Common/Buffs/SuppressCastBuff.cpp \
     Class/Common/Buffs/ZandalarianHeroCharm.cpp \
+    Class/Common/Enchants/EnchantName.cpp \
     Class/Common/Procs/ResourceGainProc.cpp \
     Class/Common/Spells/DragonbreathChili.cpp \
     Class/Common/Spells/EssenceOfTheRed.cpp \
@@ -535,11 +537,13 @@ SOURCES += main.cpp \
     Utils/i18n.cpp
 
 HEADERS += \
+    Class/Common/Buffs/CharmOfTrickery.h \
     Class/Common/Buffs/NoEffectSelfBuff.h \
     Class/Common/Buffs/NoEffectUniqueDebuff.h \
     Class/Common/Buffs/SanctifiedOrb.h \
     Class/Common/Buffs/SuppressCastBuff.h \
     Class/Common/Buffs/ZandalarianHeroCharm.h \
+    Class/Common/Enchants/EnchantName.h \
     Class/Common/Procs/ResourceGainProc.h \
     Class/Common/Spells/DragonbreathChili.h \
     Class/Common/Spells/EssenceOfTheRed.h \
@@ -829,7 +833,6 @@ HEADERS += \
     Class/Common/Buffs/ExtraAttackOnNextSwingBuff.h \
     Class/Common/Procs/ExtraAttackInstantProc.h \
     Class/Common/GeneralProcs.h \
-    Character/CharacterEncoding.h \
     Character/CharacterDecoder.h \
     Character/CharacterEncoder.h \
     Thread/SimulationThreadPool.h \
@@ -898,7 +901,6 @@ HEADERS += \
     Class/Common/Enchants/Enchant.h \
     Class/Common/Enchants/EnchantStatic.h \
     Class/Common/Enchants/EnchantProc.h \
-    Class/Common/Enchants/EnchantName.h \
     Class/Common/Buffs/ArmorPenetrationBuff.h \
     Class/Common/Procs/ArmorPenetrationProc.h \
     Class/Common/Spells/InstantSpellAttack.h \

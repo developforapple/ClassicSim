@@ -11,6 +11,7 @@
 #include "Buff.h"
 #include "Character.h"
 #include "CharacterSpells.h"
+#include "CharmOfTrickery.h"
 #include "DevilsaurEye.h"
 #include "EnchantStatic.h"
 #include "Equipment.h"
@@ -44,6 +45,7 @@
 Item::Item(QString name,
            const int item_id,
            Content::Phase phase,
+           EnchantInfo* enchant_info,
            QMap<QString, QString> _info,
            QVector<QPair<QString, QString>> _stats,
            QVector<QMap<QString, QString>> _procs,
@@ -66,6 +68,7 @@ Item::Item(QString name,
     item_modifications(std::move(_spell_modifications)),
     mutex_item_ids(std::move(_mutex_item_ids)),
     stats(new Stats()),
+    enchant_info(enchant_info),
     enchant(nullptr),
     random_affix(nullptr),
     possible_random_affixes(std::move(_random_affixes)),
@@ -93,6 +96,7 @@ Item::Item(const Item* item) :
     item_modifications(item->item_modifications),
     mutex_item_ids(item->mutex_item_ids),
     stats(new Stats()),
+    enchant_info(item->enchant_info),
     enchant(nullptr),
     random_affix(nullptr),
     possible_random_affixes(item->possible_random_affixes) {
@@ -279,11 +283,11 @@ bool Item::has_enchant() const {
 }
 
 void Item::apply_enchant(EnchantName::Name enchant_name, Character* pchar) {
-    if (enchant_name == EnchantName::NoEnchant)
+    if (enchant_name == EnchantName::Name::NoEnchant)
         return;
 
     delete enchant;
-    enchant = new EnchantStatic(enchant_name, pchar, EnchantSlot::NON_WEAPON);
+    enchant = new EnchantStatic(enchant_name, pchar, enchant_info, EnchantSlot::NON_WEAPON);
 }
 
 void Item::clear_enchant() {
@@ -295,8 +299,12 @@ QString Item::get_enchant_effect() const {
     return enchant != nullptr ? enchant->get_effect() : "";
 }
 
+QString Item::get_enchant_unique_name() const {
+    return enchant != nullptr ? enchant_info->get_unique_name(enchant->get_enum_name()) : "";
+}
+
 EnchantName::Name Item::get_enchant_enum_value() const {
-    return enchant != nullptr ? enchant->get_enum_name() : EnchantName::NoEnchant;
+    return enchant != nullptr ? enchant->get_enum_name() : EnchantName::Name::NoEnchant;
 }
 
 Enchant* Item::get_enchant() const {
@@ -387,6 +395,9 @@ void Item::set_uses() {
         } else if (use_name == "JOM_GABBAR") {
             Buff* buff = new JomGabbar(pchar);
             spell = new UseTrinket(pchar, buff->name, buff->icon, 120, buff, nullptr);
+        } else if (use_name == "CHARM_OF_TRICKERY") {
+            Buff* buff = new CharmOfTrickery(pchar);
+            spell = new UseTrinket(pchar, "Renataki's Charm of Trickery", buff->icon, 180, buff, nullptr);
         } else if (use_name == "ZANDALARIAN_HERO_MEDALLION") {
             QVector<ProcInfo::Source> proc_sources;
             proc_sources.append(ProcInfo::Source::MainhandSwing);

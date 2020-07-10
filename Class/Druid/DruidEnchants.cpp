@@ -36,18 +36,17 @@ QVector<EnchantName::Name> DruidEnchants::get_available_enchants(const int equip
         };
     case EquipmentSlot::SHOULDERS:
         return {
-            EnchantName::Name::MightOfTheScourge,
             EnchantName::Name::ZandalarSignetOfMight,
             EnchantName::Name::ZandalarSignetOfMojo,
+            EnchantName::Name::MightOfTheScourge,
+            EnchantName::Name::PowerOfTheScourge,
         };
     case EquipmentSlot::BACK:
         return {EnchantName::Name::EnchantCloakLesserAgility};
     case EquipmentSlot::WRIST:
         return {
-            EnchantName::Name::EnchantBracerManaRegeneration,
-            EnchantName::Name::EnchantBracerGreaterStrength,
-            EnchantName::Name::EnchantBracerSuperiorStrength,
-            EnchantName::Name::EnchantBracerMinorAgility,
+            EnchantName::Name::EnchantBracerManaRegeneration, EnchantName::Name::EnchantBracerGreaterStrength,
+            EnchantName::Name::EnchantBracerSuperiorStrength, EnchantName::Name::EnchantBracerMinorAgility,
             EnchantName::Name::EnchantBracerGreaterIntellect,
         };
     case EquipmentSlot::GLOVES:
@@ -55,6 +54,7 @@ QVector<EnchantName::Name> DruidEnchants::get_available_enchants(const int equip
                 EnchantName::Name::EnchantGlovesMinorHaste, EnchantName::Name::EnchantGlovesGreaterStrength};
     case EquipmentSlot::CHEST:
         return {
+            EnchantName::Name::EnchantChestMajorMana,
             EnchantName::Name::EnchantChestStats,
             EnchantName::Name::EnchantChestGreaterStats,
         };
@@ -75,16 +75,16 @@ QVector<EnchantName::Name> DruidEnchants::get_available_temp_enchants(const int 
     switch (equipment_slot) {
     case EquipmentSlot::MAINHAND: {
         QVector<EnchantName::Name> enchants {
-            EnchantName::ElementalSharpeningStone, EnchantName::ConsecratedSharpeningStone, EnchantName::LesserManaOil,
-            EnchantName::BrilliantManaOil,         EnchantName::BrilliantWizardOil,
+            EnchantName::Name::ElementalSharpeningStone, EnchantName::Name::ConsecratedSharpeningStone, EnchantName::Name::LesserManaOil,
+            EnchantName::Name::BrilliantManaOil,         EnchantName::Name::BrilliantWizardOil,
         };
 
         return enchants;
     }
     case EquipmentSlot::OFFHAND:
         QVector<EnchantName::Name> enchants {
-            EnchantName::ConsecratedSharpeningStone, EnchantName::ElementalSharpeningStone, EnchantName::LesserManaOil,
-            EnchantName::BrilliantManaOil,           EnchantName::BrilliantWizardOil,
+            EnchantName::Name::ConsecratedSharpeningStone, EnchantName::Name::ElementalSharpeningStone, EnchantName::Name::LesserManaOil,
+            EnchantName::Name::BrilliantManaOil,           EnchantName::Name::BrilliantWizardOil,
         };
 
         return enchants;

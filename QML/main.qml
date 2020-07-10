@@ -70,13 +70,13 @@ Window {
 
     Connections {
         target: character
-        onSimPersonalResultUpdated: {
+        function onSimPersonalResultUpdated(dps, dpsChange, tps, positive) {
             continuousDpsUpdateText.text = dps;
             percentualDifference.text = dpsChange;
             continuousTpsUpdateText.text = tps;
             percentualDifference.color = positive ? brightGreen : brightRed
         }
-        onSimRaidResultUpdated: {
+        function onSimRaidResultUpdated(dps, dpsChange, positive) {
             continuousRaidDpsUpdateText.text = dps;
             percentualDifferenceRaidDps.text = dpsChange;
             percentualDifferenceRaidDps.color = positive ? brightGreen : brightRed
@@ -204,7 +204,7 @@ Window {
 
         Connections {
             target: settings
-            onClassChanged: ruleset.currentIndex = settings.getCurrentRuleset()
+            function onClassChanged() { ruleset.currentIndex = settings.getCurrentRuleset() }
         }
     }
 
@@ -567,7 +567,7 @@ Window {
     }
 
     Text {
-        text: qsTr("All art assets ©Blizzard Entertainment (2019).")
+        text: qsTr("All art assets ©Blizzard Entertainment (2020).")
         height: 15
         anchors {
             left: parent.left

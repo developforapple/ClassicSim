@@ -33,7 +33,9 @@ TemplateCharacterInfo TemplateCharacters::template_character_info(const QString&
             + warrior_buffs + "|" + warrior_debuffs + "|" + target
             + "|ROTATION=" + QObject::tr("DW Fury High Rage")
             + "|MH_TEMPORARY_ENCHANT=13|MH_ENCHANT=0|OH_TEMPORARY_ENCHANT=41|OH_ENCHANT=0|HEAD_ENCHANT=-1|SHOULDER_ENCHANT=-1|BACK_ENCHANT=31|"
-              "CHEST_ENCHANT=35|WRIST_ENCHANT=-1|GLOVES_ENCHANT=18|LEGS_ENCHANT=-1|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|RULESET=0");
+              "CHEST_ENCHANT=35|WRIST_ENCHANT=-1|GLOVES_ENCHANT=18|LEGS_ENCHANT=-1|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|MH_AFFIX=|OH_AFFIX=|HEAD_AFFIX=|"
+              "NECK_AFFIX=|SHOULDERS_AFFIX=|BACK_AFFIX=|CHEST_AFFIX=|WRIST_AFFIX=|GLOVES_AFFIX=|BELT_AFFIX=|LEGS_AFFIX=|BOOTS_AFFIX=|RANGED_AFFIX=|"
+              "RING1_AFFIX=|RING2_AFFIX=|RULESET=0");
 
     if (template_char == QObject::tr("Warrior DW Fury BWL"))
         return TemplateCharacterInfo(
@@ -44,7 +46,9 @@ TemplateCharacterInfo TemplateCharacters::template_character_info(const QString&
             + warrior_buffs + "|" + warrior_debuffs + "|" + target
             + "|ROTATION=" + QObject::tr("DW Fury High Rage")
             + "|MH_TEMPORARY_ENCHANT=13|MH_ENCHANT=0|OH_TEMPORARY_ENCHANT=41|OH_ENCHANT=0|HEAD_ENCHANT=23|SHOULDER_ENCHANT=-1|BACK_ENCHANT=31|"
-              "CHEST_ENCHANT=35|WRIST_ENCHANT=16|GLOVES_ENCHANT=18|LEGS_ENCHANT=23|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|RULESET=0");
+              "CHEST_ENCHANT=35|WRIST_ENCHANT=16|GLOVES_ENCHANT=18|LEGS_ENCHANT=23|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|MH_AFFIX=|OH_AFFIX=|HEAD_AFFIX=|"
+              "NECK_AFFIX=|SHOULDERS_AFFIX=|BACK_AFFIX=|CHEST_AFFIX=|WRIST_AFFIX=|GLOVES_AFFIX=|BELT_AFFIX=|LEGS_AFFIX=|BOOTS_AFFIX=|RANGED_AFFIX=|"
+              "RING1_AFFIX=|RING2_AFFIX=|RULESET=0");
 
     if (template_char == QObject::tr("Warrior DW Fury AQ"))
         return TemplateCharacterInfo(
@@ -55,7 +59,9 @@ TemplateCharacterInfo TemplateCharacters::template_character_info(const QString&
             + warrior_buffs + "|" + warrior_debuffs + "|" + target
             + "|ROTATION=" + QObject::tr("DW Fury High Rage")
             + "|MH_TEMPORARY_ENCHANT=13|MH_ENCHANT=0|OH_TEMPORARY_ENCHANT=39|OH_ENCHANT=0|HEAD_ENCHANT=23|SHOULDER_ENCHANT=32|BACK_ENCHANT=31|"
-              "CHEST_ENCHANT=35|WRIST_ENCHANT=16|GLOVES_ENCHANT=18|LEGS_ENCHANT=23|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|RULESET=0");
+              "CHEST_ENCHANT=35|WRIST_ENCHANT=16|GLOVES_ENCHANT=18|LEGS_ENCHANT=23|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|MH_AFFIX=|OH_AFFIX=|HEAD_AFFIX=|"
+              "NECK_AFFIX=|SHOULDERS_AFFIX=|BACK_AFFIX=|CHEST_AFFIX=|WRIST_AFFIX=|GLOVES_AFFIX=|BELT_AFFIX=|LEGS_AFFIX=|BOOTS_AFFIX=|RANGED_AFFIX=|"
+              "RING1_AFFIX=|RING2_AFFIX=|RULESET=0");
 
     if (template_char == QObject::tr("Warrior DW Fury Naxx"))
         return TemplateCharacterInfo(
@@ -66,7 +72,9 @@ TemplateCharacterInfo TemplateCharacters::template_character_info(const QString&
             + warrior_buffs + "|" + warrior_debuffs + "|" + target
             + "|ROTATION=" + QObject::tr("DW Fury High Rage")
             + "|MH_TEMPORARY_ENCHANT=13|MH_ENCHANT=0|OH_TEMPORARY_ENCHANT=39|OH_ENCHANT=0|HEAD_ENCHANT=23|SHOULDER_ENCHANT=32|BACK_ENCHANT=31|"
-              "CHEST_ENCHANT=35|WRIST_ENCHANT=16|GLOVES_ENCHANT=18|LEGS_ENCHANT=23|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|RULESET=0");
+              "CHEST_ENCHANT=35|WRIST_ENCHANT=16|GLOVES_ENCHANT=18|LEGS_ENCHANT=23|BOOTS_ENCHANT=36|RANGED_ENCHANT=-1|MH_AFFIX=|OH_AFFIX=|HEAD_AFFIX=|"
+              "NECK_AFFIX=|SHOULDERS_AFFIX=|BACK_AFFIX=|CHEST_AFFIX=|WRIST_AFFIX=|GLOVES_AFFIX=|BELT_AFFIX=|LEGS_AFFIX=|BOOTS_AFFIX=|RANGED_AFFIX=|"
+              "RING1_AFFIX=|RING2_AFFIX=|RULESET=0");
 
     if (template_char == QObject::tr("Hunter 8/8 T2"))
         return TemplateCharacterInfo(
@@ -103,7 +111,8 @@ TemplateCharacterInfo TemplateCharacters::template_character_info(const QString&
             + target
             + "|ROTATION=" + QObject::tr("Aimed/Multi-Shot")
             + "|MH_TEMPORARY_ENCHANT=43|MH_ENCHANT=7|HEAD_ENCHANT=11|SHOULDER_ENCHANT=32|BACK_ENCHANT=31|CHEST_ENCHANT=35|WRIST_ENCHANT="
-              "14|GLOVES_ENCHANT=17|LEGS_ENCHANT=11|BOOTS_ENCHANT=36|RANGED_ENCHANT=10|RULESET=0");
+              "14|GLOVES_ENCHANT=17|LEGS_ENCHANT=11|BOOTS_ENCHANT=36|RANGED_ENCHANT=10|MH_AFFIX=|OH_AFFIX=|HEAD_AFFIX=|NECK_AFFIX=|SHOULDERS_AFFIX=|"
+              "BACK_AFFIX=|CHEST_AFFIX=|WRIST_AFFIX=|GLOVES_AFFIX=|BELT_AFFIX=|LEGS_AFFIX=|BOOTS_AFFIX=|RANGED_AFFIX=|RING1_AFFIX=|RING2_AFFIX=|RULESET=0");
 
     if (template_char == QObject::tr("Fire Mage T3"))
         return TemplateCharacterInfo(
@@ -132,7 +141,9 @@ TemplateCharacterInfo TemplateCharacters::template_character_info(const QString&
             + target
             + "|ROTATION=" + QObject::tr("Fire")
             + "|MH_TEMPORARY_ENCHANT=44|MH_ENCHANT=5|HEAD_ENCHANT=30|SHOULDER_ENCHANT=33|BACK_ENCHANT=-1|CHEST_ENCHANT=35|WRIST_ENCHANT="
-              "14|GLOVES_ENCHANT=20|LEGS_ENCHANT=30|BOOTS_ENCHANT=36|RULESET=0");
+              "14|GLOVES_ENCHANT=20|LEGS_ENCHANT=30|BOOTS_ENCHANT=36|MH_AFFIX=|OH_"
+              "AFFIX=|HEAD_AFFIX=|NECK_AFFIX=|SHOULDERS_AFFIX=|BACK_AFFIX=|CHEST_AFFIX=|WRIST_AFFIX=|GLOVES_AFFIX=|BELT_AFFIX=|LEGS_AFFIX=|BOOTS_AFFIX="
+              "|RANGED_AFFIX=|RING1_AFFIX=|RING2_AFFIX=|RULESET=0");
 
     check(false, QString("Missing template '%1'").arg(template_char).toStdString());
     return TemplateCharacterInfo("Warrior", "");

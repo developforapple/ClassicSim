@@ -29,6 +29,7 @@ QVector<EnchantName::Name> WarlockEnchants::get_available_enchants(const int equ
     case EquipmentSlot::SHOULDERS:
         return {
             EnchantName::Name::ZandalarSignetOfMojo,
+            EnchantName::Name::PowerOfTheScourge,
         };
     case EquipmentSlot::BACK:
         return {};
@@ -44,6 +45,7 @@ QVector<EnchantName::Name> WarlockEnchants::get_available_enchants(const int equ
         };
     case EquipmentSlot::CHEST:
         return {
+            EnchantName::Name::EnchantChestMajorMana,
             EnchantName::Name::EnchantChestStats,
             EnchantName::Name::EnchantChestGreaterStats,
         };
@@ -62,8 +64,8 @@ QVector<EnchantName::Name> WarlockEnchants::get_available_temp_enchants(const in
     switch (equipment_slot) {
     case EquipmentSlot::MAINHAND: {
         QVector<EnchantName::Name> enchants {
-            EnchantName::BrilliantWizardOil,
-            EnchantName::ShadowOil,
+            EnchantName::Name::BrilliantWizardOil,
+            EnchantName::Name::ShadowOil,
         };
         return enchants;
     }
