@@ -201,9 +201,9 @@
         	<en>Darkmantle Quest line (Shadowcraft required).</en>
         	<zh>暗幕任务线</zh>
         </source>
-    </item>
+    </wrist>
 
-	<wrist id="22483" phase="6">
+    <wrist id="22483" phase="6">
 		<info name="Bonescythe Bracers" name_zh="骨镰护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_bracer_15.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
