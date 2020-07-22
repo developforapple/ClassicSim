@@ -306,7 +306,7 @@
 	</item>
 
 	<item id="19617" phase="4">
-		<info name="Zandalarian Shadow Mastery Talisman" type="AMULET" slot="NECK" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
+		<info name="Zandalarian Shadow Mastery Talisman" name_zh="赞达拉暗影大师坠饰" type="AMULET" slot="NECK" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="STRENGTH" value="6"/>
@@ -314,10 +314,12 @@
 			<stat type="STAMINA" value="9"/>
 		</stats>
 		<source>
-			Reputation reward. Requires Exalted with Zandalar Tribe.
+			<en>Reputation reward. Requires Exalted with Zandalar Tribe.</en>
+			<zh>赞达拉任务奖励</zh>
 		</source>
 		<special_equip_effect>
-			Equip: Decreases the cooldown of Kick by 0.5 sec.
+			<en>Equip: Decreases the cooldown of Kick by 0.5 sec.</en>
+			<zh>装备：使你的脚踢技能的冷却时间减少0.5秒。</zh>
 		</special_equip_effect>
 	</item>
 

@@ -25,16 +25,13 @@
         <en>resource "Mana" greater 400</en>
     </cast_if>
 
-    <cast_if name="Mana Potion"/>
-    <cast_if name="Demonic Rune"/>
-    <cast_if name="Night Dragon's Breath"/>
-
-    <cast_if name="Frostbolt"/>
-
     <cast_if name="Mana Potion" name_zh="法力药水"/>
     <cast_if name="Demonic Rune" name_zh="恶魔符文"/>
     <cast_if name="Night Dragon's Breath" name_zh="夜龙之息"/>
-    <cast_if name="Evocation">
-        resource "Mana" less 400
+
+    <cast_if name="Frostbolt" name_zh="寒冰箭"/>
+
+    <cast_if name="Evocation" name_zh="唤醒">
+        <en>resource "Mana" less 400</en>
     </cast_if>
 </rotation>

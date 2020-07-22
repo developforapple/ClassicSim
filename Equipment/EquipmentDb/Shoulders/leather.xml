@@ -52,7 +52,7 @@
 	</item>
 
     <item id="22008" phase="5">
-        <info name="Darkmantle Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_07.png"/>
+        <info name="Darkmantle Spaulders" name_zh="暗幕肩甲" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_07.png"/>
         <class_restriction class="ROGUE"/>
         <stats>
             <stat type="ARMOR" value="136"/>
@@ -60,7 +60,8 @@
             <stat type="AGILITY" value="24"/>
         </stats>
         <source>
-        Darkmantle Quest line (Shadowcraft required).   
+        	<en>Darkmantle Quest line (Shadowcraft required).</en>
+        	<zh>暗幕任务线</zh>
         </source>
     </item>
 

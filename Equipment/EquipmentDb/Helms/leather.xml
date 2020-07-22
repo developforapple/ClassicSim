@@ -214,7 +214,7 @@
 	</item>
 
     <item id="22005" phase="5">
-        <info name="Darkmantle Cap" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
+        <info name="Darkmantle Cap" name_zh="暗幕皮帽" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
         <class_restriction class="ROGUE"/>
         <stats>
             <stat type="ARMOR" value="150"/>
@@ -224,7 +224,8 @@
             <stat type="CRIT_CHANCE" value="0.01"/>
         </stats>
         <source>
-        Darkmantle Quest line (Shadowcraft required).   
+        	<en>Darkmantle Quest line (Shadowcraft required).</en>
+        	<zh>暗幕任务线</zh>
         </source>
     </item>
 

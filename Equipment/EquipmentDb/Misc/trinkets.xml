@@ -444,17 +444,19 @@
 	</item>
 
 	<item id="19954" phase="4">
-		<info name="Renataki's Charm of Trickery" type="TRINKET" slot="TRINKET" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_19.png"/>
+		<info name="Renataki's Charm of Trickery" name_zh="雷纳塔基的狡诈护符" type="TRINKET" slot="TRINKET" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_19.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats/>
 		<uses>
 			<use name="CHARM_OF_TRICKERY"/>
 		</uses>
 		<source>
-			Drops from Edge of Madness bosses in Zul'Gurub.
+			<en>Drops from Edge of Madness bosses in Zul'Gurub.</en>
+			<zh>祖尔格拉布疯狂之缘BOSS</zh>
 		</source>
 		<special_equip_effect>
-			Use: Instantly increases your energy by 60. (3 Min Cooldown)
+			<en>Use: Instantly increases your energy by 60. (3 Min Cooldown)</en>
+			<zh>使用：立刻使你的能量值提高60点。 (3分钟冷却)</zh>
 		</special_equip_effect>
 	</item>
 

@@ -146,7 +146,7 @@
 		</bonus>
 	</set>
 
-	<set name="Darkmantle Armor">
+	<set name="Darkmantle Armor" name_zh="暗幕">
 		<item_id value="22002"/>
 		<item_id value="22003"/>
 		<item_id value="22004"/>
@@ -157,16 +157,20 @@
 		<item_id value="22009"/>
 
 		<bonus value="2">
-		(2) Set: +8 All Resistances.
+			<en>(2) Set: +8 All Resistances.</en>
+			<zh>(2) 套装：+8 所有魔法抗性。</zh>
 		</bonus>
 		<bonus value="4">
-		(4) Set: Chance on melee attack to restore 35 energy.
+			<en>(4) Set: Chance on melee attack to restore 35 energy.</en>
+			<zh>(4) 套装：有一定几率在近战攻击时为你恢复35点能量值。</zh>
 		</bonus>
 		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
-		(6) Set: +40 Attack Power.
+			<en>(6) Set: +40 Attack Power.</en>
+			<zh>(6) 套装：+40 攻击强度。</zh>
 		</bonus>
 		<bonus value="8">
-		(8) Set: +200 Armor.
+			<en>(8) Set: +200 Armor.</en>
+			<zh>(8) 套装：+200 护甲。</zh>
 		</bonus>
 	</set>
 
@@ -632,7 +636,7 @@
 		</bonus>
 	</set>
 
-	<set name="Madcap's Outfit">
+	<set name="Madcap's Outfit" name_zh="狂妄者套装">
 		<item_id value="19617"/>
 		<item_id value="19954"/>
 		<item_id value="19836"/>
@@ -640,13 +644,16 @@
 		<item_id value="19834"/>
 
 		<bonus value="2" item_stat="ATTACK_POWER" stat_value="20">
-		(2) Set: +20 Attack Power.
+			<en>(2) Set: +20 Attack Power.</en>
+			<zh>(2) 套装：+20 攻击强度。</zh>
 		</bonus>
 		<bonus value="3">
-		(3) Set: Decreases the cooldown of Blind by 20 sec.
+			<en>(3) Set: Decreases the cooldown of Blind by 20 sec.</en>
+			<zh>(3) 套装：使你的致盲技能的冷却时间减少20秒。</zh>
 		</bonus>
 		<bonus value="5">
-		(5) Set: Decrease the energy cost of Eviscerate and Rupture by 5.
+			<en>(5) Set: Decrease the energy cost of Eviscerate and Rupture by 5.</en>
+			<zh>(5) 套装：使你的剔骨和割裂的能量值消耗减少5点。</zh>
 		</bonus>
 	</set>
 

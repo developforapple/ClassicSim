@@ -1,69 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<rotation class="Rogue" name="Seal Fate Dagger" attack_mode="melee">
+<rotation class="Rogue" name="Seal Fate Dagger" name_zh="封印命运匕首贼" attack_mode="melee">
     <description>
-    A rotation for Seal Fate dagger rogues.
+        <en>A rotation for Seal Fate dagger rogues.</en>
+        <zh>封印命运匕首贼输出循环</zh>
     </description>
 
-    <cast_if name="Thistle Tea">
-        resource "Energy" less 20
+    <cast_if name="Thistle Tea" name_zh="菊花茶">
+        <en>resource "Energy" less 20</en>
     </cast_if>
 
-    <cast_if name="Renataki's Charm of Trickery">
-        resource "Energy" leq 40
+    <cast_if name="Renataki's Charm of Trickery" name_zh="雷纳塔基的狡诈护符">
+        <en>resource "Energy" leq 40</en>
     </cast_if>
 
-    <cast_if name="Slice and Dice">
-        buff_duration "Slice and Dice" less 3
+    <cast_if name="Slice and Dice" name_zh="切割">
+        <en>buff_duration "Slice and Dice" less 3</en>
+        <zh>buff_duration "切割" less 3</zh>
     </cast_if>
 
-    <cast_if name="Backstab">
-        variable "combo_points" less 4
+    <cast_if name="Backstab" name_zh="背刺">
+        <en>variable "combo_points" less 4</en>
     </cast_if>
 
-    <cast_if name="Eviscerate">
-        variable "combo_points" geq 4
-        and buff_duration "Slice and Dice" greater 8
+    <cast_if name="Eviscerate" name_zh="剔骨">
+        <en>variable "combo_points" geq 4
+            and buff_duration "Slice and Dice" greater 8</en>
+        <zh>variable "combo_points" geq 4
+            and buff_duration "切割" greater 8</zh>
     </cast_if>
 
-    <cast_if name="Kiss of the Spider">
-         variable "time_remaining_execute" greater 120
-         or variable "time_remaining_execute" less 0
+    <cast_if name="Kiss of the Spider" name_zh="蜘蛛之吻">
+        <en>variable "time_remaining_execute" greater 120
+            or variable "time_remaining_execute" less 0</en>
     </cast_if>
 
-    <cast_if name="Jom Gabbar">
-        variable "time_remaining_execute" greater 120
-        or variable "time_remaining_execute" less 0
+    <cast_if name="Jom Gabbar" name_zh="沙虫之毒">
+        <en>variable "time_remaining_execute" greater 120
+            or variable "time_remaining_execute" less 0</en>
     </cast_if>
 
-    <cast_if name="Badge of the Swarmguard">
-        variable "time_remaining_execute" greater 120
-        or variable "time_remaining_execute" less 0
+    <cast_if name="Badge of the Swarmguard" name_zh="虫群卫士徽章">
+        <en>variable "time_remaining_execute" greater 120
+            or variable "time_remaining_execute" less 0</en>
     </cast_if>
 
-    <cast_if name="Slayer's Crest">
-        variable "time_remaining_execute" greater 120
-        or variable "time_remaining_execute" less 0
+    <cast_if name="Slayer's Crest" name_zh="屠龙者的纹章">
+        <en>variable "time_remaining_execute" greater 120
+            or variable "time_remaining_execute" less 0</en>
     </cast_if>
 
-    <cast_if name="Earthstrike">
-        variable "time_remaining_execute" greater 120
-        or variable "time_remaining_execute" less 0
+    <cast_if name="Earthstrike" name_zh="大地之击">
+        <en>variable "time_remaining_execute" greater 120
+            or variable "time_remaining_execute" less 0</en>
     </cast_if>
 
-    <cast_if name="Zandalarian Hero Medallion">
-        variable "time_remaining_execute" greater 120
-        or variable "time_remaining_execute" less 0
+    <cast_if name="Zandalarian Hero Medallion" name_zh="赞达拉英雄勋章">
+        <en>variable "time_remaining_execute" greater 120
+            or variable "time_remaining_execute" less 0</en>
     </cast_if>
 
-    <cast_if name="Blood Fury">
-        variable "time_remaining_execute" less 0
-        and resource "Energy" less 50
-        or variable "time_remaining_execute" greater 120
+    <cast_if name="Blood Fury" name_zh="血性狂暴（种族特长）">
+        <en>variable "time_remaining_execute" less 0
+            and resource "Energy" less 50
+            or variable "time_remaining_execute" greater 120</en>
     </cast_if>
 
-    <cast_if name="Berserking">
-        variable "time_remaining_execute" less 0
-        and resource "Energy" less 50
-        or variable "time_remaining_execute" greater 180
+    <cast_if name="Berserking" name_zh="狂暴">
+        <en>variable "time_remaining_execute" less 0
+            and resource "Energy" less 50
+            or variable "time_remaining_execute" greater 180</en>
     </cast_if>
 </rotation>

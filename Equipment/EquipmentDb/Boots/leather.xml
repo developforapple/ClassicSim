@@ -279,7 +279,7 @@
 	</item>
 
     <item id="22003" phase="5">
-        <info name="Darkmantle Boots" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
+        <info name="Darkmantle Boots" name_zh="暗幕长靴" type="LEATHER" slot="BOOTS" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_boots_08.png"/>
         <class_restriction class="ROGUE"/>
         <stats>
             <stat type="ARMOR" value="127"/>
@@ -287,7 +287,8 @@
             <stat type="AGILITY" value="24"/>
         </stats>
         <source>
-        Darkmantle Quest line (Shadowcraft required).
+        	<en>Darkmantle Quest line (Shadowcraft required).</en>
+        	<zh>暗幕任务线</zh>
         </source>
     </item>
 	

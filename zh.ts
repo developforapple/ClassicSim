@@ -415,16 +415,16 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="16"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="93"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="122"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="101"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="131"/>
         <location filename="Spells/ExternalBuff.cpp" line="409"/>
         <source>Rallying Cry of the Dragonslayer</source>
         <translation>屠龙者的咆哮</translation>
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="20"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="98"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="128"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="106"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="137"/>
         <location filename="Spells/ExternalBuff.cpp" line="463"/>
         <source>Curse of Recklessness</source>
         <oldsource>Curse of Recklessnessm</oldsource>
@@ -436,27 +436,27 @@
         <translation>5人本级别双持狂暴战</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="38"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="40"/>
         <source>Warrior DW Fury BWL</source>
         <translation>BWL级双持狂暴战</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="49"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="53"/>
         <source>Warrior DW Fury AQ</source>
         <translation>安其拉级双持狂暴战</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="60"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="66"/>
         <source>Warrior DW Fury Naxx</source>
         <translation>Naxx级双持狂暴战</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="71"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="79"/>
         <source>Hunter 8/8 T2</source>
         <translation>8T2猎人</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="108"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="117"/>
         <source>Fire Mage T3</source>
         <translation>T3火法</translation>
     </message>
@@ -466,8 +466,8 @@
         <translation>+10% 法术爆击，+5%近战和远程攻击爆击，+140攻击强度</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="95"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="124"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="103"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="133"/>
         <location filename="Spells/ExternalBuff.cpp" line="412"/>
         <source>Spirit of Zandalar</source>
         <translation>赞达拉之魂</translation>
@@ -479,8 +479,8 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="17"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="94"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="123"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="102"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="132"/>
         <location filename="Spells/ExternalBuff.cpp" line="415"/>
         <source>Songflower Serenade</source>
         <translation>风歌夜曲</translation>
@@ -493,7 +493,7 @@
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="43"/>
         <location filename="GUI/TemplateCharacters.cpp" line="11"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="86"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="94"/>
         <location filename="Spells/ExternalBuff.cpp" line="418"/>
         <source>Elixir of the Mongoose</source>
         <translation>猫鼬药剂</translation>
@@ -506,7 +506,7 @@
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="40"/>
         <location filename="GUI/TemplateCharacters.cpp" line="10"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="84"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="92"/>
         <location filename="Spells/ExternalBuff.cpp" line="421"/>
         <source>Elixir of Brute Force</source>
         <translation>蛮力药剂</translation>
@@ -518,7 +518,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="40"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="85"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="93"/>
         <location filename="Spells/ExternalBuff.cpp" line="424"/>
         <source>Elixir of Giants</source>
         <translation>巨人药剂</translation>
@@ -531,7 +531,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="41"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="87"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="95"/>
         <location filename="Spells/ExternalBuff.cpp" line="427"/>
         <source>Winterfall Firewater</source>
         <translation>冬泉火酒</translation>
@@ -555,8 +555,8 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="8"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="81"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="116"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="89"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="125"/>
         <location filename="Spells/ExternalBuff.cpp" line="433"/>
         <source>Mark of the Wild</source>
         <translation>野性印记</translation>
@@ -568,7 +568,7 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="14"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="88"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="96"/>
         <location filename="Spells/ExternalBuff.cpp" line="436"/>
         <source>Scroll of Strength IV</source>
         <translation>力量卷轴 IV</translation>
@@ -596,8 +596,8 @@
         <translation>土狼兴奋剂</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="79"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="114"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="87"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="123"/>
         <location filename="Spells/ExternalBuff.cpp" line="445"/>
         <source>Greater Blessing of Kings</source>
         <translation>强效王者祝福</translation>
@@ -608,7 +608,7 @@
         <translation>所有属性提高10%</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="78"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="86"/>
         <location filename="Spells/ExternalBuff.cpp" line="448"/>
         <source>Greater Blessing of Might</source>
         <translation>强效力量祝福</translation>
@@ -619,8 +619,8 @@
         <translation>近战攻击强度提高185点</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="80"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="115"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="88"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="124"/>
         <location filename="Spells/ExternalBuff.cpp" line="451"/>
         <source>Greater Blessing of Wisdom</source>
         <translation>强效智慧祝福</translation>
@@ -653,8 +653,8 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="22"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="100"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="130"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="108"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="139"/>
         <location filename="Spells/ExternalBuff.cpp" line="460"/>
         <source>Annihilator Proc</source>
         <translation>歼灭者特效</translation>
@@ -681,8 +681,8 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="21"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="99"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="129"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="107"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="138"/>
         <location filename="Spells/ExternalBuff.cpp" line="469"/>
         <source>Faerie Fire</source>
         <translation>精灵之火</translation>
@@ -696,8 +696,8 @@
         <location filename="Class/Warrior/Spells/SunderArmor.cpp" line="15"/>
         <location filename="Class/Warrior/TalentTrees/Protection.cpp" line="125"/>
         <location filename="GUI/TemplateCharacters.cpp" line="19"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="97"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="127"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="105"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="136"/>
         <location filename="Spells/ExternalBuff.cpp" line="472"/>
         <source>Sunder Armor</source>
         <translation>破甲攻击</translation>
@@ -739,8 +739,8 @@
         <translation>+10 智力</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="83"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="118"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="91"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="127"/>
         <location filename="Spells/ExternalBuff.cpp" line="481"/>
         <source>Mageblood Potion</source>
         <translation>魔血药剂</translation>
@@ -763,7 +763,7 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="38"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="120"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="129"/>
         <location filename="Spells/ExternalBuff.cpp" line="487"/>
         <source>Flask of Supreme Power</source>
         <translation>超级能量合剂</translation>
@@ -774,7 +774,7 @@
         <translation>+150 法术伤害</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="92"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="100"/>
         <location filename="Spells/ExternalBuff.cpp" line="490"/>
         <source>Fengus&apos; Ferocity</source>
         <translation>芬古斯的狂暴</translation>
@@ -786,7 +786,7 @@
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="15"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="90"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="98"/>
         <location filename="Spells/ExternalBuff.cpp" line="493"/>
         <source>Battle Squawk</source>
         <translation>作战鸣叫</translation>
@@ -797,7 +797,7 @@
         <translation>近战攻击速度提高5%</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="119"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="128"/>
         <location filename="Spells/ExternalBuff.cpp" line="496"/>
         <source>Greater Arcane Elixir</source>
         <translation>强效奥法药剂</translation>
@@ -809,169 +809,174 @@
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="42"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="89"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="97"/>
         <location filename="Spells/ExternalBuff.cpp" line="499"/>
         <source>Ground Scorpok Assay</source>
         <translation>厚甲蝎药粉</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="75"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="188"/>
         <source>no enchant</source>
-        <translation>无附魔</translation>
+        <translation type="vanished">无附魔</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="77"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="190"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="13"/>
         <source>Crusader</source>
         <translation>附魔武器 - 十字军</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="79"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="192"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="44"/>
         <source>Fiery Weapon</source>
         <translation>附魔武器 - 烈焰</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="81"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="194"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="66"/>
         <source>Windfury Totem</source>
         <translation>风怒图腾</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="83"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="196"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="45"/>
         <source>Instant Poison</source>
         <translation>速效毒药</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="85"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="65"/>
         <source>Superior Striking</source>
         <translation>附魔武器 - 超强打击</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="87"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="40"/>
         <source>Agility</source>
         <comment>Enchant Weapon Agility</comment>
         <translation>附魔武器 - 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="89"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="42"/>
         <source>Strength</source>
         <comment>Enchant Weapon Strength</comment>
         <translation>附魔武器 - 力量</translation>
     </message>
     <message>
-        <source>Spell Power</source>
-        <translation type="vanished">附魔武器 - 法术能量</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="41"/>
+        <source>Enchant Weapon - Spell Power</source>
+        <oldsource>Spell Power</oldsource>
+        <translation>附魔武器 - 法术能量</translation>
     </message>
     <message>
-        <source>Greater Intellect</source>
-        <translation type="vanished">附魔护腕 - 强效智力</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="25"/>
+        <source>Enchant Bracer - Greater Intellect</source>
+        <oldsource>Greater Intellect</oldsource>
+        <translation>附魔护腕 - 强效智力</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
         <source>Mana Regeneration</source>
-        <translation type="vanished">附魔护腕 - 法力回复</translation>
+        <translation>附魔护腕 - 法力回复</translation>
     </message>
     <message>
         <source>Minor Agility</source>
         <translation type="vanished">附魔护腕 - 初级敏捷</translation>
     </message>
     <message>
-        <source>Greater Strength</source>
-        <translation type="vanished">附魔护腕 - 强效力量</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="26"/>
+        <source>Enchant Bracer - Greater - Strength</source>
+        <oldsource>Greater Strength</oldsource>
+        <translation>附魔护腕 - 强效力量</translation>
     </message>
     <message>
-        <source>Superior Strength</source>
-        <translation type="vanished">附魔护腕 - 超强力量</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="29"/>
+        <source>Enchant Bracer - Superior Strength</source>
+        <oldsource>Superior Strength</oldsource>
+        <translation>附魔护腕 - 超强力量</translation>
     </message>
     <message>
-        <source>Superior Agility</source>
-        <translation type="vanished">附魔手套 - 超强敏捷</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="39"/>
+        <source>Enchant Gloves - Superior Agility</source>
+        <oldsource>Superior Agility</oldsource>
+        <translation>附魔手套 - 超强敏捷</translation>
     </message>
     <message>
-        <source>Greater Agility</source>
-        <translation type="vanished">附魔手套 - 强效敏捷</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="22"/>
+        <source>Enchant Boots - Greater Agility</source>
+        <oldsource>Greater Agility</oldsource>
+        <translation>附魔手套 - 强效敏捷</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="38"/>
         <source>Minor Haste</source>
-        <translation type="vanished">附魔手套 - 初级加速</translation>
+        <translation>附魔手套 - 初级加速</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="35"/>
         <source>Frost Power</source>
-        <translation type="vanished">附魔手套 - 冰霜能量</translation>
+        <translation>附魔手套 - 冰霜能量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="115"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="46"/>
         <source>Iron Counterweight</source>
         <translation>铁质平衡锤</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="117"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="18"/>
         <source>2H Weapon Agility</source>
         <translation>附魔双手武器 - 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="119"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="19"/>
         <source>2H Weapon Superior Impact</source>
         <translation>附魔双手武器 - 超强冲击</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="121"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="7"/>
         <source>Biznicks 247x128 Accurascope</source>
         <translation>比兹尼克247x128精确瞄准镜</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="123"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="63"/>
         <source>Sniper Scope</source>
         <translation>狙击瞄准镜</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="125"/>
         <source>Arcanum of Focus</source>
-        <translation>专注秘药</translation>
+        <translation type="vanished">专注秘药</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="127"/>
         <source>Arcanum of Rapidity</source>
-        <translation>急速秘药</translation>
+        <translation type="vanished">急速秘药</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="133"/>
         <source>Lesser Arcanum of Voracity</source>
-        <translation>次级贪婪秘药</translation>
+        <translation type="vanished">次级贪婪秘药</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="135"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="14"/>
         <source>Death&apos;s Embrace</source>
         <translation>死亡的拥抱</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="137"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="43"/>
         <source>Falcon&apos;s Call</source>
         <translation>猎鹰的召唤</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="139"/>
         <source>Presence of Sight</source>
-        <translation>魔法的视域</translation>
+        <translation type="vanished">魔法的视域</translation>
     </message>
     <message>
-        <source>Lesser Agility</source>
-        <translation type="vanished">附魔披风 - 次级敏捷</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="33"/>
+        <source>Enchant Cloak - Lesser Agility</source>
+        <oldsource>Lesser Agility</oldsource>
+        <translation>附魔披风 - 次级敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="143"/>
         <source>Zandalar Signet of Might</source>
-        <translation>赞达拉力量徽记</translation>
+        <translation type="vanished">赞达拉力量徽记</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="145"/>
         <source>Zandalar Signet of Mojo</source>
-        <translation>赞达拉魔精徽记</translation>
+        <translation type="vanished">赞达拉魔精徽记</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="147"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="58"/>
         <source>Might of the Scourge</source>
         <translation>天灾的威严</translation>
     </message>
@@ -980,12 +985,15 @@
         <translation type="vanished">附魔胸甲 - 状态</translation>
     </message>
     <message>
-        <source>Greater Stats</source>
-        <translation type="vanished">附魔胸甲 - 强效属性</translation>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="30"/>
+        <source>Enchant Chest - Greater Stats</source>
+        <oldsource>Greater Stats</oldsource>
+        <translation>附魔胸甲 - 强效属性</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="153"/>
-        <source>Minor Speed</source>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="23"/>
+        <source>Enchant Boots - Minor Speed</source>
+        <oldsource>Minor Speed</oldsource>
         <translation>附魔靴子 - 初级速度</translation>
     </message>
     <message>
@@ -993,395 +1001,576 @@
         <translation type="vanished">附魔靴子 - 精神</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="91"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="41"/>
         <source>Spell Power</source>
         <comment>Enchant Weapon Spell Power</comment>
         <translation>附魔武器 - 法术能量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="93"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="25"/>
         <source>Greater Intellect</source>
         <comment>Enchant Bracer Greater Intellect</comment>
         <translation>附魔护腕 - 强效智力</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="95"/>
         <source>Mana Regeneration</source>
         <comment>Enchant Bracer Mana Regeneration</comment>
-        <translation>附魔护腕 - 法力回复</translation>
+        <translation type="vanished">附魔护腕 - 法力回复</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="97"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
         <source>Minor Agility</source>
         <comment>Enchant Bracer Minor Agility</comment>
         <translation>附魔护腕 - 初级敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="99"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="26"/>
         <source>Greater Strength</source>
         <comment>Enchant Bracer Greater Strength</comment>
         <translation>附魔护腕 - 强效力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="101"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="29"/>
         <source>Superior Strength</source>
         <comment>Enchant Bracer Superior Strength</comment>
         <translation>附魔护腕 - 超强力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="103"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="39"/>
         <source>Superior Agility</source>
         <comment>Enchant Gloves Superior Agility</comment>
         <translation>附魔手套 - 超强敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="105"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="36"/>
         <source>Greater Agility</source>
         <comment>Enchant Gloves Greater Agility</comment>
         <translation>附魔手套 - 强效敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="107"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="37"/>
         <source>Greater Strength</source>
         <comment>Enchant Gloves Greater Strength</comment>
         <translation>附魔护腕 - 强效力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="109"/>
         <source>Minor Haste</source>
         <comment>Enchant Gloves Minor Haste</comment>
-        <translation>附魔手套 - 初级加速</translation>
+        <translation type="vanished">附魔手套 - 初级加速</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="111"/>
         <source>Fire Power</source>
         <comment>Enchant Gloves Fire Power</comment>
-        <translation>附魔手套 - 火焰能量</translation>
+        <translation type="vanished">附魔手套 - 火焰能量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="113"/>
         <source>Frost Power</source>
         <comment>Enchant Gloves Frost Power</comment>
-        <translation>附魔手套 - 冰霜能量</translation>
+        <translation type="vanished">附魔手套 - 冰霜能量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="141"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="33"/>
         <source>Lesser Agility</source>
         <comment>Enchant Cloak Lesser Agility</comment>
         <translation>附魔披风 - 次级敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="149"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="32"/>
         <source>Stats</source>
         <comment>Enchant Chest Stats</comment>
         <translation>附魔胸甲 - 状态</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="151"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="30"/>
         <source>Greater Stats</source>
         <comment>Enchant Chest Greater Stats</comment>
         <translation>附魔胸甲 - 强效属性</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="155"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="21"/>
         <source>Agility</source>
         <comment>Enchant Boots Agility</comment>
         <translation>附魔靴子 - 初级敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="157"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="22"/>
         <source>Greater Agility</source>
         <comment>Enchant Boots Greater Agility</comment>
         <translation>附魔靴子 - 强效敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="159"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="24"/>
         <source>Spirit</source>
         <comment>Enchant Boots Spirit</comment>
         <translation>附魔靴子 - 精神</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="161"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="17"/>
         <source>Elemental Sharpening Stone</source>
         <translation>元素磨刀石</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="163"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="11"/>
         <source>Consecrated Sharpening Stone</source>
         <translation>神圣磨刀石</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="165"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="15"/>
         <source>Dense Sharpening Stone</source>
         <translation>致密磨刀石</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="167"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="57"/>
         <source>Lesser Mana Oil</source>
         <translation>次级法力之油</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="169"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="9"/>
         <source>Brilliant Mana Oil</source>
         <translation>卓越法力之油</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="171"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="10"/>
         <source>Brilliant Wizard Oil</source>
         <translation>卓越巫师之油</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="173"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="59"/>
+        <source>Power Of The Scourge</source>
+        <translation>天灾的力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="60"/>
+        <source>+15 Spell Damage/Healing
++1% Spell Crit</source>
+        <translation>+15点法术伤害和治疗效果
++1%法术爆击几率</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="61"/>
+        <source>Presence Of Sight</source>
+        <translation>魔法的视域</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="62"/>
         <source>Shadow Oil</source>
         <translation>暗影之油</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="175"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="64"/>
         <source>Solid Weightstone</source>
         <translation>坚固的平衡石</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="177"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="16"/>
         <source>Dense Weightstone</source>
         <translation>致密平衡石</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="198"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="65"/>
         <source>+5 Damage</source>
         <translation>+5 伤害</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="200"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="216"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="39"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="40"/>
         <source>+15 Agility</source>
         <translation>+15 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="202"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="42"/>
         <source>+15 Strength</source>
         <translation>+15 力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="204"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="41"/>
         <source>+30 Spell Damage/Healing</source>
         <translation>+30 法术伤害/治疗效果</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="206"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="25"/>
         <source>+7 Intellect</source>
         <translation>+7 智力</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="208"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
         <source>+4 mp5</source>
         <translation>+4 5秒回蓝</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="210"/>
         <source>+1 Agility</source>
-        <translation>+1 敏捷</translation>
+        <translation type="vanished">+1 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="212"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="220"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="26"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="37"/>
         <source>+7 Strength</source>
         <translation>+7 力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="214"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="29"/>
         <source>+9 Strength</source>
         <translation>+9 力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="218"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="274"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="22"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="36"/>
         <source>+7 Agility</source>
         <translation>+7 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="222"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="38"/>
         <source>+1% Attack Speed</source>
         <translation>+1% 攻击速度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="224"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="34"/>
         <source>+20 Fire Damage</source>
         <translation>+20 火焰伤害</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="226"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="35"/>
         <source>+20 Frost Damage</source>
         <translation>+20 冰霜伤害</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="228"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="46"/>
         <source>+3% Attack Speed</source>
         <translation>+3% 攻击速度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="230"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="18"/>
         <location filename="Spells/ExternalBuff.cpp" line="500"/>
         <location filename="Spells/ExternalBuff.cpp" line="527"/>
         <source>+25 Agility</source>
         <translation>+25 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="232"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="20"/>
         <source>+9 Damage</source>
         <translation>+9 伤害</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="234"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="8"/>
         <source>+3% Ranged Hit</source>
         <translation>+3% 远程命中</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="236"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="63"/>
         <source>+7 Damage</source>
         <translation>+7 伤害</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="238"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="5"/>
         <source>+8 Spell Damage/Healing</source>
         <translation>+8 法术伤害/治疗效果</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="240"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="5"/>
+        <source>Arcanum Of Focus</source>
+        <translation>专注秘药</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="6"/>
         <source>+1% Haste</source>
         <translation>+1 攻击速度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="242"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="6"/>
+        <source>Arcanum Of Rapidity</source>
+        <translation>急速秘药</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="13"/>
+        <source>Enchant Weapon - Crusader</source>
+        <translation>附魔武器 - 十字军</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="14"/>
+        <source>Deaths Embrace</source>
+        <translation>死亡的拥抱</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="18"/>
+        <source>Enchant 2H Weapon - Agility</source>
+        <translation>附魔双手武器 - 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="19"/>
+        <source>Enchant 2H Weapon - Superior Impact</source>
+        <translation>附魔武器 - 超强冲击</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="21"/>
+        <source>Enchant Boots - Agility</source>
+        <translation>附魔靴子 - 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="23"/>
+        <source>Minor Speed</source>
+        <comment>Enchant Boots Minor Speed</comment>
+        <translation>初级速度</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="24"/>
+        <source>Enchant Boots - Spirit</source>
+        <translation>附魔靴子 - 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
+        <source>Enchant Bracer - Mana Regeneration</source>
+        <translation>附魔护腕 - 法力回复</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="31"/>
+        <source>Enchant Chest - Major Mana</source>
+        <translation>附魔胸甲 - 特效法力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="31"/>
+        <source>+100 Mana</source>
+        <translation>+100法力值</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="31"/>
+        <source>Major Mana</source>
+        <comment>Enchant Chest MajorMana</comment>
+        <translation>特效法力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="32"/>
+        <source>Enchant Chest - Stats</source>
+        <translation>附魔胸甲 - 状态</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="34"/>
+        <source>Enchant Gloves - Fire Power</source>
+        <translation>附魔手套 - 火焰能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="35"/>
+        <source>Enchant Gloves - Frost Power</source>
+        <translation>附魔手套 - 冰霜能量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="36"/>
+        <source>Enchant Gloves - Greater Agility</source>
+        <translation>附魔手套 - 强效敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="37"/>
+        <source>Enchant Gloves - Greater Strength</source>
+        <translation>附魔手套 - 强效力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="38"/>
+        <source>Enchant Gloves - Minor Haste</source>
+        <translation>附魔手套 - 初级加速</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="40"/>
+        <source>Enchant Weapon - Agility</source>
+        <translation>附魔武器 - 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="42"/>
+        <source>Enchant Weapon - Strength</source>
+        <translation>附魔武器 - 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="43"/>
+        <source>Falcons Call</source>
+        <translation>猎鹰的召唤</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="44"/>
+        <source>Enchant Weapon - Fiery Weapon</source>
+        <translation>附魔武器 - 灼热武器</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="47"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="48"/>
+        <source>Lesser Arcanum Of Voracity - Agility</source>
+        <translation>次级贪婪秘药 - 敏捷</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="48"/>
         <source>+8 Agility</source>
         <translation>+8 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="244"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="49"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="50"/>
+        <source>Lesser Arcanum Of Voracity - Intellect</source>
+        <translation>次级贪婪秘药 - 智力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="50"/>
         <source>+8 Intellect</source>
         <translation>+8 智力</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="246"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="51"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="52"/>
+        <source>Lesser Arcanum Of Voracity - Spirit</source>
+        <translation>次级贪婪秘药 - 精神</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="52"/>
         <source>+8 Spirit</source>
         <translation>+8 精神</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="248"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="53"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="54"/>
+        <source>Lesser Arcanum Of Voracity - Stamina</source>
+        <translation>次级贪婪秘药 - 耐力</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="54"/>
         <source>+8 Stamina</source>
         <translation>+8 耐力</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="250"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="55"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="56"/>
+        <source>Lesser Arcanum Of Voracity - Strength</source>
+        <translation>次级贪婪秘药 - 力量</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="56"/>
         <source>+8 Strength</source>
         <translation>+8 力量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="252"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="68"/>
+        <source>Zandalar Signet Of Mojo</source>
+        <translation>赞达拉魔精徽记</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="14"/>
         <source>+28 Attack and
 1% Dodge</source>
         <translation>+28 攻击强度和1%躲闪</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="254"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="61"/>
         <source>+18 Spell Damage/Healing
 +1% Spell Hit</source>
         <translation>+18 法术伤害/治疗效果
 +1% 法术命中</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="256"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="43"/>
         <source>+24 Ranged Attack Power
 10 Stamina, +1% Hit</source>
         <translation>+24 远程攻击强度
 +10耐力，+1% 命中率</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="258"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="33"/>
         <source>+3 Agility</source>
         <translation>+3 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="260"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="65"/>
+        <source>Enchant Weapon - Superior Striking</source>
+        <translation>附魔武器 - 超强打击</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="66"/>
+        <source>Windfury</source>
+        <translation>风怒</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="67"/>
         <source>+30 Attack Power</source>
         <translation>+30 攻击强度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="262"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="67"/>
+        <source>Zandalar Signet Of Might</source>
+        <translation>赞达拉力量徽记</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="68"/>
         <source>+18 Spell Damage/Healing</source>
         <translation>+18 法术伤害/治疗效果</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="264"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="58"/>
         <source>+1% Crit and
 +26 Attack Power</source>
         <translation>+1% 爆击几率和
 +26 攻击强度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="266"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="32"/>
         <source>+3 Attributes</source>
         <translation>+3 所有属性</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="268"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="30"/>
         <source>+4 Attributes</source>
         <translation>+4 所有属性</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="270"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="23"/>
         <source>Speed Increase</source>
         <translation>略微提升移动速度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="272"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="21"/>
         <source>+5 Agility</source>
         <translation>+5 敏捷</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="276"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="24"/>
         <source>+5 Spirit</source>
         <translation>+5 精神</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="278"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="17"/>
         <source>+2% Crit</source>
         <translation>+2% 爆击几率</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="280"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="12"/>
         <source>+100 AP
 vs Undead</source>
         <translation>+100 对亡灵的攻击强度</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="282"/>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="294"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="15"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="16"/>
         <source>+8 Damage</source>
         <translation>+8 伤害</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="284"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="57"/>
         <source>+8 mp5</source>
         <translation>+8 5秒回蓝</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="286"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="9"/>
         <source>+12mp5/+25 Heal</source>
         <translation>+12 5秒回蓝和+25治疗效果</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="288"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="10"/>
         <source>+36 SP
 +1% Spell Crit</source>
         <translation>+36 法术伤害和 1% 法术爆击几率</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="290"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="62"/>
         <source>15% R3 Shadow Bolt</source>
         <translation>15%几率施放暗影箭III</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.h" line="292"/>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="64"/>
         <source>+6 Damage</source>
         <translation>+6 伤害</translation>
     </message>
@@ -1398,8 +1587,8 @@ vs Undead</source>
         <translation>+40 攻击强度</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="91"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="121"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="99"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="130"/>
         <location filename="Spells/ExternalBuff.cpp" line="505"/>
         <source>Slip&apos;kik&apos;s Savvy</source>
         <translation>斯里基克的机智</translation>
@@ -1410,7 +1599,7 @@ vs Undead</source>
         <translation>3% 法术爆击几率</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="125"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="134"/>
         <location filename="Spells/ExternalBuff.cpp" line="508"/>
         <source>Sayge&apos;s Dark Fortune of Damage</source>
         <translation>塞格的黑暗塔罗牌：伤害</translation>
@@ -1422,8 +1611,8 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Class/Common/GeneralBuffs.cpp" line="39"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="82"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="117"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="90"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="126"/>
         <location filename="Spells/ExternalBuff.cpp" line="511"/>
         <source>Nightfin Soup</source>
         <translation>夜鳞鱼汤</translation>
@@ -1610,10 +1799,10 @@ vs Undead</source>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="101"/>
         <location filename="Class/Warlock/WarlockSpells.cpp" line="15"/>
         <location filename="GUI/TemplateCharacters.cpp" line="23"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="101"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="131"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="109"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="140"/>
         <location filename="Spells/ExternalBuff.cpp" line="517"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="291"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="282"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="27"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="97"/>
         <source>Improved Shadow Bolt</source>
@@ -1641,7 +1830,7 @@ vs Undead</source>
         <location filename="Class/Mage/Buffs/FireVulnerability.cpp" line="7"/>
         <location filename="Class/Mage/MageSpells.cpp" line="83"/>
         <location filename="GUI/TemplateCharacters.cpp" line="24"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="102"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="110"/>
         <location filename="Spells/ExternalBuff.cpp" line="523"/>
         <source>Fire Vulnerability</source>
         <translation>火焰弱点</translation>
@@ -1733,271 +1922,271 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="48"/>
-        <location filename="Equipment/Item/Item.cpp" line="615"/>
+        <location filename="Equipment/Item/Item.cpp" line="626"/>
         <source>+%1 Strength</source>
         <translation>+%1 力量</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="51"/>
-        <location filename="Equipment/Item/Item.cpp" line="618"/>
+        <location filename="Equipment/Item/Item.cpp" line="629"/>
         <source>+%1 Agility</source>
         <translation>+%1 敏捷</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="54"/>
-        <location filename="Equipment/Item/Item.cpp" line="621"/>
+        <location filename="Equipment/Item/Item.cpp" line="632"/>
         <source>+%1 Stamina</source>
         <translation>+%1 耐力</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="57"/>
-        <location filename="Equipment/Item/Item.cpp" line="624"/>
+        <location filename="Equipment/Item/Item.cpp" line="635"/>
         <source>+%1 Intellect</source>
         <translation>+%1 智力</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="60"/>
-        <location filename="Equipment/Item/Item.cpp" line="627"/>
+        <location filename="Equipment/Item/Item.cpp" line="638"/>
         <source>+%1 Spirit</source>
         <translation>+%1 精神</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="66"/>
-        <location filename="Equipment/Item/Item.cpp" line="632"/>
+        <location filename="Equipment/Item/Item.cpp" line="643"/>
         <source>Equip: Improves your chance to get a critical strike by %1%.</source>
         <translation>装备：使你造成爆击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="72"/>
-        <location filename="Equipment/Item/Item.cpp" line="637"/>
+        <location filename="Equipment/Item/Item.cpp" line="648"/>
         <source>Equip: Improves your chance to hit by %1%.</source>
         <translation>装备：使你击中目标的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="76"/>
-        <location filename="Equipment/Item/Item.cpp" line="640"/>
+        <location filename="Equipment/Item/Item.cpp" line="651"/>
         <source>Equip: +%1 Attack Power.</source>
         <translation>装备：+%1 攻击强度。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="79"/>
-        <location filename="Equipment/Item/Item.cpp" line="643"/>
+        <location filename="Equipment/Item/Item.cpp" line="654"/>
         <source>Equip: +%1 Ranged Attack Power.</source>
         <translation>装备：+%1 远程攻击强度。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="82"/>
-        <location filename="Equipment/Item/Item.cpp" line="646"/>
+        <location filename="Equipment/Item/Item.cpp" line="657"/>
         <source>Equip: +%1 Attack Power when fighting Beasts.</source>
         <translation>装备：对野兽的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="85"/>
-        <location filename="Equipment/Item/Item.cpp" line="649"/>
+        <location filename="Equipment/Item/Item.cpp" line="660"/>
         <source>Equip: +%1 Attack Power when fighting Demons.</source>
         <translation>装备：对恶魔的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="88"/>
-        <location filename="Equipment/Item/Item.cpp" line="652"/>
+        <location filename="Equipment/Item/Item.cpp" line="663"/>
         <source>Equip: +%1 Attack Power when fighting Dragonkin.</source>
         <translation>装备：对龙类的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="91"/>
-        <location filename="Equipment/Item/Item.cpp" line="655"/>
+        <location filename="Equipment/Item/Item.cpp" line="666"/>
         <source>Equip: +%1 Attack Power when fighting Undead.</source>
         <translation>装备：对亡灵的攻击强度提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="94"/>
-        <location filename="Equipment/Item/Item.cpp" line="658"/>
+        <location filename="Equipment/Item/Item.cpp" line="669"/>
         <source>Equip: +%1 Weapon Damage.</source>
         <translation>装备：+%1 武器伤害。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="97"/>
-        <location filename="Equipment/Item/Item.cpp" line="661"/>
+        <location filename="Equipment/Item/Item.cpp" line="672"/>
         <source>Equip: Increased Axes +%1.</source>
         <translation>装备：斧类武器技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="100"/>
-        <location filename="Equipment/Item/Item.cpp" line="664"/>
+        <location filename="Equipment/Item/Item.cpp" line="675"/>
         <source>Equip: Increased Daggers +%1.</source>
         <translation>装备：匕首技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="106"/>
-        <location filename="Equipment/Item/Item.cpp" line="670"/>
+        <location filename="Equipment/Item/Item.cpp" line="681"/>
         <source>Equip: Increased Swords +%1.</source>
         <translation>装备：剑类武器技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="109"/>
-        <location filename="Equipment/Item/Item.cpp" line="673"/>
+        <location filename="Equipment/Item/Item.cpp" line="684"/>
         <source>Equip: Increased Two-handed Axes +%1.</source>
         <translation>装备：双手斧技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="112"/>
-        <location filename="Equipment/Item/Item.cpp" line="676"/>
+        <location filename="Equipment/Item/Item.cpp" line="687"/>
         <source>Equip: Increased Two-handed Maces +%1.</source>
         <translation>装备：双手锤技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="115"/>
-        <location filename="Equipment/Item/Item.cpp" line="679"/>
+        <location filename="Equipment/Item/Item.cpp" line="690"/>
         <source>Equip: Increased Two-handed Swords +%1.</source>
         <translation>装备：双手剑技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="118"/>
-        <location filename="Equipment/Item/Item.cpp" line="682"/>
+        <location filename="Equipment/Item/Item.cpp" line="693"/>
         <source>Equip: Increased Bows +%1.</source>
         <translation>装备：弓箭技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="121"/>
-        <location filename="Equipment/Item/Item.cpp" line="685"/>
+        <location filename="Equipment/Item/Item.cpp" line="696"/>
         <source>Equip: Increased Crossbows +%1.</source>
         <translation>装备：弩技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="124"/>
-        <location filename="Equipment/Item/Item.cpp" line="688"/>
+        <location filename="Equipment/Item/Item.cpp" line="699"/>
         <source>Equip: Increased Guns +%1.</source>
         <translation>装备：枪械技能提高%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="127"/>
-        <location filename="Equipment/Item/Item.cpp" line="691"/>
+        <location filename="Equipment/Item/Item.cpp" line="702"/>
         <source>Equip: Restores %1 mana per 5 sec.</source>
         <translation>装备：每5秒回复%1点法力值。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="130"/>
-        <location filename="Equipment/Item/Item.cpp" line="694"/>
+        <location filename="Equipment/Item/Item.cpp" line="705"/>
         <source>Equip: Restores %1 health per 5 sec.</source>
         <translation>装备：每5秒回复%1点生命值。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="133"/>
-        <location filename="Equipment/Item/Item.cpp" line="697"/>
+        <location filename="Equipment/Item/Item.cpp" line="708"/>
         <source>Equip: Increases damage and healing done by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果所造成的伤害和治疗效果，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="136"/>
-        <location filename="Equipment/Item/Item.cpp" line="700"/>
+        <location filename="Equipment/Item/Item.cpp" line="711"/>
         <source>Equip: Increases damage done by Arcane spells and effects by up to %1.</source>
         <translation>装备：提高奥术法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="139"/>
-        <location filename="Equipment/Item/Item.cpp" line="703"/>
+        <location filename="Equipment/Item/Item.cpp" line="714"/>
         <source>Equip: Increases damage done by Fire spells and effects by up to %1.</source>
         <translation>装备：提高火焰法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="142"/>
-        <location filename="Equipment/Item/Item.cpp" line="706"/>
+        <location filename="Equipment/Item/Item.cpp" line="717"/>
         <source>Equip: Increases damage done by Frost spells and effects by up to %1.</source>
         <translation>装备：提高冰霜法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="145"/>
-        <location filename="Equipment/Item/Item.cpp" line="709"/>
+        <location filename="Equipment/Item/Item.cpp" line="720"/>
         <source>Equip: Increases damage done by Holy spells and effects by up to %1.</source>
         <translation>装备：提高神圣法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="148"/>
-        <location filename="Equipment/Item/Item.cpp" line="712"/>
+        <location filename="Equipment/Item/Item.cpp" line="723"/>
         <source>Equip: Increases damage done by Nature spells and effects by up to %1.</source>
         <translation>装备：提高自然法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="151"/>
-        <location filename="Equipment/Item/Item.cpp" line="715"/>
+        <location filename="Equipment/Item/Item.cpp" line="726"/>
         <source>Equip: Increases damage done by Shadow spells and effects by up to %1.</source>
         <translation>装备：提高暗影法术和效果所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="154"/>
-        <location filename="Equipment/Item/Item.cpp" line="718"/>
+        <location filename="Equipment/Item/Item.cpp" line="729"/>
         <source>Equip: Increases damage done to Beasts by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对野兽所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="157"/>
-        <location filename="Equipment/Item/Item.cpp" line="721"/>
+        <location filename="Equipment/Item/Item.cpp" line="732"/>
         <source>Equip: Increases damage done to Demons by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对恶魔所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="160"/>
-        <location filename="Equipment/Item/Item.cpp" line="724"/>
+        <location filename="Equipment/Item/Item.cpp" line="735"/>
         <source>Equip: Increases damage done to Dragonkin by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对龙类生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="164"/>
-        <location filename="Equipment/Item/Item.cpp" line="728"/>
+        <location filename="Equipment/Item/Item.cpp" line="739"/>
         <source>Equip: Increases damage done to Elementals by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对元素生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="167"/>
-        <location filename="Equipment/Item/Item.cpp" line="731"/>
+        <location filename="Equipment/Item/Item.cpp" line="742"/>
         <source>Equip: Increases damage done to Giants by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对巨人所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="170"/>
-        <location filename="Equipment/Item/Item.cpp" line="734"/>
+        <location filename="Equipment/Item/Item.cpp" line="745"/>
         <source>Equip: Increases damage done to Humanoids by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对人型生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="174"/>
-        <location filename="Equipment/Item/Item.cpp" line="738"/>
+        <location filename="Equipment/Item/Item.cpp" line="749"/>
         <source>Equip: Increases damage done to Mechanicals by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对机械生物所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="177"/>
-        <location filename="Equipment/Item/Item.cpp" line="741"/>
+        <location filename="Equipment/Item/Item.cpp" line="752"/>
         <source>Equip: Increases damage done to Undead by magical spells and effects by up to %1.</source>
         <translation>装备：提高所有法术和魔法效果对亡灵所造成的伤害，最多%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="182"/>
-        <location filename="Equipment/Item/Item.cpp" line="745"/>
+        <location filename="Equipment/Item/Item.cpp" line="756"/>
         <source>Equip: Improves your chance to get a critical strike with spells by %1%.</source>
         <translation>装备：使你的法术造成爆击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="187"/>
-        <location filename="Equipment/Item/Item.cpp" line="749"/>
+        <location filename="Equipment/Item/Item.cpp" line="760"/>
         <source>Equip: Improves your chance to hit with spells by %1%.</source>
         <translation>装备：使你的法术击中敌人的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="195"/>
-        <location filename="Equipment/Item/Item.cpp" line="753"/>
+        <location filename="Equipment/Item/Item.cpp" line="764"/>
         <source>Equip: Decreases the magical resistances of your spell targets by %1.</source>
         <translation>装备：使你的法术目标的魔法抗性降低%1点。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="198"/>
-        <location filename="Equipment/Item/Item.cpp" line="756"/>
+        <location filename="Equipment/Item/Item.cpp" line="767"/>
         <source>%1 Armor</source>
         <translation>%1 护甲</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="201"/>
-        <location filename="Equipment/Item/Item.cpp" line="759"/>
+        <location filename="Equipment/Item/Item.cpp" line="770"/>
         <source>Equip: Increased Defense +%1.</source>
         <translation>装备：防御技能提高%1点。</translation>
     </message>
@@ -2008,61 +2197,61 @@ vs Undead</source>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="207"/>
-        <location filename="Equipment/Item/Item.cpp" line="770"/>
+        <location filename="Equipment/Item/Item.cpp" line="781"/>
         <source>Equip: Increases your chance to dodge an attack by %1%.</source>
         <translation>装备：使你躲闪攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="210"/>
-        <location filename="Equipment/Item/Item.cpp" line="774"/>
+        <location filename="Equipment/Item/Item.cpp" line="785"/>
         <source>Equip: Increases your chance to parry an attack by %1%.</source>
         <translation>装备：使你招架攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="218"/>
-        <location filename="Equipment/Item/Item.cpp" line="777"/>
+        <location filename="Equipment/Item/Item.cpp" line="788"/>
         <source>+%1 All Resistances.</source>
         <translation>+%1 所有抗性。</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="221"/>
-        <location filename="Equipment/Item/Item.cpp" line="780"/>
+        <location filename="Equipment/Item/Item.cpp" line="791"/>
         <source>+%1 Arcane Resistance</source>
         <translation>+%1 奥术抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="224"/>
-        <location filename="Equipment/Item/Item.cpp" line="783"/>
+        <location filename="Equipment/Item/Item.cpp" line="794"/>
         <source>+%1 Fire Resistance</source>
         <translation>+%1 火焰抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="227"/>
-        <location filename="Equipment/Item/Item.cpp" line="786"/>
+        <location filename="Equipment/Item/Item.cpp" line="797"/>
         <source>+%1 Frost Resistance</source>
         <translation>+%1 冰霜抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="230"/>
-        <location filename="Equipment/Item/Item.cpp" line="789"/>
+        <location filename="Equipment/Item/Item.cpp" line="800"/>
         <source>+%1 Holy Resistance</source>
         <translation>+%1 神圣抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="233"/>
-        <location filename="Equipment/Item/Item.cpp" line="792"/>
+        <location filename="Equipment/Item/Item.cpp" line="803"/>
         <source>+%1 Nature Resistance</source>
         <translation>+%1 自然抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="236"/>
-        <location filename="Equipment/Item/Item.cpp" line="795"/>
+        <location filename="Equipment/Item/Item.cpp" line="806"/>
         <source>+%1 Shadow Resistance</source>
         <translation>+%1 暗影抗性</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="239"/>
-        <location filename="Equipment/Item/Item.cpp" line="798"/>
+        <location filename="Equipment/Item/Item.cpp" line="809"/>
         <source>Equip: Increases ranged attack speed by %1%.</source>
         <translation>装备：远程攻击速度提高%1%。</translation>
     </message>
@@ -2118,7 +2307,7 @@ vs Undead</source>
         <location filename="GUI/TemplateCharacters.cpp" line="25"/>
         <location filename="Target/Target.cpp" line="16"/>
         <location filename="Target/Target.cpp" line="24"/>
-        <location filename="Test/TestSpell.cpp" line="960"/>
+        <location filename="Test/TestSpell.cpp" line="961"/>
         <source>Beast</source>
         <translation>野兽</translation>
     </message>
@@ -2145,7 +2334,7 @@ vs Undead</source>
         <location filename="Target/Target.cpp" line="21"/>
         <location filename="Target/Target.cpp" line="29"/>
         <location filename="Test/TestCharacterStats.cpp" line="289"/>
-        <location filename="Test/TestSpell.cpp" line="965"/>
+        <location filename="Test/TestSpell.cpp" line="966"/>
         <source>Humanoid</source>
         <translation>人型生物</translation>
     </message>
@@ -2235,7 +2424,7 @@ vs Undead</source>
         <location filename="Class/Common/Buffs/Nightfall.cpp" line="6"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="21"/>
         <location filename="Class/Warlock/TalentTrees/Affliction.cpp" line="68"/>
-        <location filename="Equipment/Item/Item.cpp" line="500"/>
+        <location filename="Equipment/Item/Item.cpp" line="511"/>
         <location filename="Test/Warlock/Talents/TestAffliction.cpp" line="108"/>
         <source>Nightfall</source>
         <translation>夜幕</translation>
@@ -3288,10 +3477,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/Buffs/RapidFireBuff.cpp" line="8"/>
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="9"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="150"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="156"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="332"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="338"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="160"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="166"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="348"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="354"/>
         <location filename="Test/Rotation/TestRotationFileReader.cpp" line="137"/>
         <source>Rapid Fire</source>
         <translation>急速射击</translation>
@@ -3309,8 +3498,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="16"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="98"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="121"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="153"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="335"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="163"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="351"/>
         <source>Cryptstalker Armor</source>
         <translation>地穴追猎者</translation>
     </message>
@@ -3324,10 +3513,10 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="112"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="114"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="123"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="166"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="171"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="348"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="353"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="176"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="181"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="364"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="369"/>
         <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="14"/>
         <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="113"/>
         <location filename="Test/Hunter/Spells/TestAimedShot.cpp" line="117"/>
@@ -3349,12 +3538,12 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="87"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="124"/>
         <location filename="Class/Hunter/TalentTrees/Marksmanship.cpp" line="134"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="129"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="168"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="172"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="311"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="350"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="354"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="139"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="178"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="182"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="327"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="366"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="370"/>
         <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="8"/>
         <location filename="Test/Hunter/Spells/TestMultiShot.cpp" line="107"/>
         <location filename="Test/Hunter/TestSpellHunter.cpp" line="42"/>
@@ -3369,8 +3558,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="15"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="36"/>
         <location filename="Class/Hunter/Procs/ExposeWeaknessProc.cpp" line="48"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="132"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="314"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="142"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="330"/>
         <source>Dragonstalker Armor</source>
         <translation>巨龙追猎者</translation>
     </message>
@@ -3433,8 +3622,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/Buffs/AspectOfTheHawkBuff.cpp" line="10"/>
         <location filename="Class/Hunter/Spells/AspectOfTheHawk.cpp" line="9"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="137"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="319"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="147"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="335"/>
         <location filename="Test/Rotation/TestRotationFileReader.cpp" line="144"/>
         <source>Aspect of the Hawk</source>
         <translation>雄鹰守护</translation>
@@ -3442,8 +3631,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     <message>
         <location filename="Class/Hunter/Spells/AutoShot.cpp" line="15"/>
         <location filename="Class/Hunter/Spells/AutoShot.cpp" line="89"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="167"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="349"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="177"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="365"/>
         <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="8"/>
         <location filename="Test/Hunter/Spells/TestAutoShot.cpp" line="92"/>
         <source>Auto Shot</source>
@@ -3482,8 +3671,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="16"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="90"/>
         <location filename="Class/Hunter/Spells/MultiShot.cpp" line="113"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="126"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="308"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="136"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="324"/>
         <source>Giantstalker Armor</source>
         <translation>巨人追猎者</translation>
     </message>
@@ -3491,8 +3680,8 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="16"/>
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="40"/>
         <location filename="Class/Hunter/Spells/RapidFire.cpp" line="52"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="147"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="329"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="157"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="345"/>
         <source>Striker&apos;s Garb</source>
         <translation>攻击者</translation>
     </message>
@@ -4157,16 +4346,16 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <location filename="Class/Mage/Spells/Evocation.cpp" line="20"/>
         <location filename="Class/Mage/Spells/Evocation.cpp" line="55"/>
         <location filename="Class/Mage/Spells/Evocation.cpp" line="67"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="192"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="374"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="202"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="390"/>
         <source>Frostfire Regalia</source>
         <translation>霜火</translation>
     </message>
     <message>
         <location filename="Class/Mage/Buffs/EvocationBuff.cpp" line="8"/>
         <location filename="Class/Mage/Spells/Evocation.cpp" line="10"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="195"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="377"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="205"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="393"/>
         <location filename="Test/Mage/Spells/TestEvocation.cpp" line="12"/>
         <location filename="Test/Mage/Spells/TestEvocation.cpp" line="27"/>
         <location filename="Test/Mage/TestSpellMage.cpp" line="63"/>
@@ -4593,7 +4782,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
     </message>
     <message>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="8"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="133"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="142"/>
         <source>Fire</source>
         <translation>火焰</translation>
     </message>
@@ -4637,6 +4826,7 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>强化防护火焰结界</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="34"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="24"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="144"/>
         <location filename="Test/Mage/Spells/TestFireball.cpp" line="224"/>
@@ -5777,7 +5967,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Buffs/SliceAndDiceBuff.cpp" line="9"/>
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="113"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="215"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="225"/>
         <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="11"/>
         <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="58"/>
         <location filename="Test/Rogue/Spells/TestSliceAndDice.cpp" line="62"/>
@@ -5820,8 +6010,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="22"/>
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="108"/>
         <location filename="Class/Rogue/Procs/InstantPoison.cpp" line="120"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="73"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="261"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="83"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="277"/>
         <source>Bloodfang Armor</source>
         <translation>血牙</translation>
     </message>
@@ -5874,8 +6064,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="135"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="113"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="95"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="90"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="278"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="100"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="294"/>
         <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="10"/>
         <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="81"/>
         <location filename="Test/Rogue/Spells/TestBackstab.cpp" line="85"/>
@@ -5956,8 +6146,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="24"/>
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="100"/>
         <location filename="Class/Rogue/Spells/SinisterStrike.cpp" line="112"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="87"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="275"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="97"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="291"/>
         <source>Bonescythe Armor</source>
         <translation>骨镰</translation>
     </message>
@@ -5972,8 +6162,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="15"/>
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="93"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="154"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="84"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="272"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="94"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="288"/>
         <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="12"/>
         <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="123"/>
         <location filename="Test/Rogue/Spells/TestEviscerate.cpp" line="127"/>
@@ -6032,8 +6222,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="24"/>
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="129"/>
         <location filename="Class/Rogue/Spells/Eviscerate.cpp" line="141"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="81"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="269"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="91"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="285"/>
         <source>Deathdealer&apos;s Embrace</source>
         <translation>死亡执行者的拥抱</translation>
     </message>
@@ -6044,8 +6234,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="16"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="106"/>
         <location filename="Class/Rogue/TalentTrees/Subtlety.cpp" line="107"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="91"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="279"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="101"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="295"/>
         <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="13"/>
         <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="60"/>
         <location filename="Test/Rogue/Spells/TestHemorrhage.cpp" line="64"/>
@@ -6107,8 +6297,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/TalentTrees/Assassination.cpp" line="137"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="103"/>
         <location filename="Class/Rogue/TalentTrees/Combat.cpp" line="155"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="92"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="280"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="102"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="296"/>
         <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="12"/>
         <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="67"/>
         <location filename="Test/Rogue/Spells/TestSinisterStrike.cpp" line="71"/>
@@ -6151,8 +6341,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="23"/>
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="72"/>
         <location filename="Class/Rogue/Spells/SliceAndDice.cpp" line="84"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="212"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="393"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="222"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="409"/>
         <source>Emblems of Veiled Shadows</source>
         <translation>笼罩之阴影</translation>
     </message>
@@ -6760,12 +6950,12 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <translation>使你的攻击忽视目标%1点护甲，并使你的割裂技能所造成的伤害提高%2%。削弱目标护甲的效果随着你的等级提高而提高。</translation>
     </message>
     <message>
-        <location filename="Class/Rogue/Rogue.cpp" line="54"/>
+        <location filename="Class/Rogue/Rogue.cpp" line="58"/>
         <source>MH</source>
         <translation>主手</translation>
     </message>
     <message>
-        <location filename="Class/Rogue/Rogue.cpp" line="55"/>
+        <location filename="Class/Rogue/Rogue.cpp" line="59"/>
         <source>OH</source>
         <translation>副手</translation>
     </message>
@@ -7465,7 +7655,7 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="130"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="139"/>
         <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="11"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="90"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="86"/>
         <location filename="Test/Warlock/TestSpellWarlock.cpp" line="43"/>
         <source>Shadow Bolt</source>
         <translation>暗影箭</translation>
@@ -7476,11 +7666,11 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="193"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="110"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="192"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="202"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="212"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="222"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="232"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="188"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="198"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="208"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="218"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="228"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="28"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="98"/>
         <source>Cataclysm</source>
@@ -7492,11 +7682,11 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
         <location filename="Class/Warlock/Spells/ShadowBolt.cpp" line="196"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="15"/>
         <location filename="Class/Warlock/TalentTrees/Destruction.cpp" line="118"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="147"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="156"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="165"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="174"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="183"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="143"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="152"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="161"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="170"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="179"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="29"/>
         <location filename="Test/Warlock/Talents/TestDestruction.cpp" line="99"/>
         <source>Bane</source>
@@ -7865,8 +8055,8 @@ Unleashing this Seal&apos;s energy will judge an enemy, instantly causing 46.5 t
     <message>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="14"/>
         <location filename="Class/Warlock/TalentTrees/Demonology.cpp" line="107"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="263"/>
-        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="277"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="254"/>
+        <location filename="Test/Warlock/Spells/TestShadowBolt.cpp" line="268"/>
         <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="39"/>
         <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="43"/>
         <location filename="Test/Warlock/Talents/TestDemonology.cpp" line="45"/>
@@ -9014,118 +9204,129 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>Heroic Strike Queued</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="496"/>
+        <location filename="Equipment/Item/Item.cpp" line="507"/>
         <source>Black Grasp of the Destroyer</source>
         <translation>毁灭者的黑暗之握</translation>
     </message>
     <message>
         <location filename="Character/Stats.cpp" line="103"/>
-        <location filename="Equipment/Item/Item.cpp" line="667"/>
+        <location filename="Equipment/Item/Item.cpp" line="678"/>
         <source>Equip: Increased Maces +%1.</source>
         <translation>装备：锤类武器技能提高%1点。</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="762"/>
+        <location filename="Equipment/Item/Item.cpp" line="773"/>
         <source>Equip: Increases the block value of your shield by %1.</source>
         <translation>装备：使你的盾牌的格挡值提高%1点。</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="766"/>
+        <location filename="Equipment/Item/Item.cpp" line="777"/>
         <source>Equip: Increases your chance to block attacks with a shield by %1%.</source>
         <translation>装备：使你用盾牌格挡攻击的几率提高%1%。</translation>
     </message>
     <message>
         <location filename="Equipment/SetBonusControl.cpp" line="57"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="249"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="259"/>
+        <source>Darkmantle Armor</source>
+        <translation>暗幕</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="61"/>
+        <source>Darkmantle 4 set</source>
+        <translation>暗幕4件套</translation>
+    </message>
+    <message>
+        <location filename="Equipment/SetBonusControl.cpp" line="67"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="265"/>
         <source>Shadowcraft Armor</source>
         <translation>迅影</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="61"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="71"/>
         <source>Shadowcraft 6 set</source>
         <translation>迅影6件套</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="67"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="255"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="77"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="271"/>
         <source>Nightslayer Armor</source>
         <translation>夜幕杀手</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="95"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="283"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="105"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="299"/>
         <source>Zanzil&apos;s Concentration</source>
         <translation>赞吉尔的专注</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="102"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="290"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="112"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="306"/>
         <source>Trappings of the Unseen Path</source>
         <translation>隐秘的通途</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="108"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="296"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="118"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="312"/>
         <source>Beaststalker Armor</source>
         <translation>野兽追猎者</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="112"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="122"/>
         <source>Beaststalker 6 set</source>
         <translation>野兽追猎者6件套</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="117"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="302"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="127"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="318"/>
         <source>Beastmaster Armor</source>
         <translation>兽王</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="121"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="131"/>
         <source>Beastmaster 4 set</source>
         <translation>兽王4件套</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="175"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="357"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="185"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="373"/>
         <source>Netherwind Regalia</source>
         <translation>灵风</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="184"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="366"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="194"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="382"/>
         <source>Enigma Vestments</source>
         <translation>神秘套装</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="206"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="387"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="216"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="403"/>
         <source>Regalia of Undead Cleansing</source>
         <translation>亡灵净化者</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="218"/>
-        <location filename="Equipment/SetBonusControl.cpp" line="399"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="228"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="415"/>
         <source>Stormshroud Armor</source>
         <translation>雷暴</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="222"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="232"/>
         <source>Stormshroud 2 set</source>
         <translation>雷暴2件套</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="229"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="239"/>
         <source>Stormshroud 3 set</source>
         <translation>雷暴3件套</translation>
     </message>
     <message>
-        <location filename="Equipment/SetBonusControl.cpp" line="396"/>
+        <location filename="Equipment/SetBonusControl.cpp" line="412"/>
         <source>Slice And Dice</source>
         <translation>切割</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="266"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="267"/>
         <source>You</source>
         <translation>你</translation>
     </message>
@@ -9160,12 +9361,12 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>， </translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1518"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1520"/>
         <source>Running...</source>
         <translation>正在运行...</translation>
     </message>
     <message>
-        <location filename="GUI/ClassicSimControl.cpp" line="1518"/>
+        <location filename="GUI/ClassicSimControl.cpp" line="1520"/>
         <source>Click me!</source>
         <translation>点我！</translation>
     </message>
@@ -9685,7 +9886,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     <message>
         <location filename="Test/Rotation/TestConditionVariableBuiltin.cpp" line="251"/>
         <location filename="Test/Rotation/TestConditionVariableBuiltin.cpp" line="289"/>
-        <location filename="Test/TestSpell.cpp" line="926"/>
+        <location filename="Test/TestSpell.cpp" line="927"/>
         <source>Ashkandi, Greatsword of the Brotherhood</source>
         <translation>阿什坎迪，兄弟会之剑</translation>
     </message>
@@ -9774,9 +9975,9 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     </message>
     <message>
         <location filename="GUI/TemplateCharacters.cpp" line="34"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="45"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="56"/>
-        <location filename="GUI/TemplateCharacters.cpp" line="67"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="47"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="60"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="73"/>
         <location filename="Test/Rotation/TestRotationFileReader.cpp" line="48"/>
         <source>DW Fury High Rage</source>
         <translation>双持狂暴战（打压制前不泄怒）</translation>
@@ -9834,7 +10035,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>踏云腿甲</translation>
     </message>
     <message>
-        <location filename="GUI/TemplateCharacters.cpp" line="104"/>
+        <location filename="GUI/TemplateCharacters.cpp" line="112"/>
         <location filename="Test/Rotation/TestRotationFileReader.cpp" line="134"/>
         <source>Aimed/Multi-Shot</source>
         <translation>瞄准/多重射击</translation>
@@ -9869,272 +10070,282 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>刺杀之刃</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="844"/>
-        <location filename="Test/TestSpell.cpp" line="879"/>
+        <location filename="Test/TestSpell.cpp" line="845"/>
+        <location filename="Test/TestSpell.cpp" line="880"/>
         <source>Zulian Hacker</source>
         <translation>祖利安利斧</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="850"/>
-        <location filename="Test/TestSpell.cpp" line="885"/>
+        <location filename="Test/TestSpell.cpp" line="851"/>
+        <location filename="Test/TestSpell.cpp" line="886"/>
         <source>Anubisath Warhammer</source>
         <translation>阿努比萨斯战锤</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="856"/>
-        <location filename="Test/TestSpell.cpp" line="891"/>
+        <location filename="Test/TestSpell.cpp" line="857"/>
+        <location filename="Test/TestSpell.cpp" line="892"/>
         <source>Skullforge Reaver</source>
         <translation>铁骨剑</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="862"/>
+        <location filename="Test/TestSpell.cpp" line="863"/>
         <source>Claw of the Black Drake</source>
         <translation>黑龙之爪</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="868"/>
-        <location filename="Test/TestSpell.cpp" line="903"/>
+        <location filename="Test/TestSpell.cpp" line="869"/>
+        <location filename="Test/TestSpell.cpp" line="904"/>
         <source>Heartseeker</source>
         <translation>觅心者</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="897"/>
+        <location filename="Test/TestSpell.cpp" line="898"/>
         <source>Arlokk&apos;s Grasp</source>
         <translation>娅尔罗之握</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="914"/>
+        <location filename="Test/TestSpell.cpp" line="915"/>
         <source>Arcanite Reaper</source>
         <translation>奥金斧</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="920"/>
+        <location filename="Test/TestSpell.cpp" line="921"/>
         <source>Earthshaker</source>
         <translation>震地者</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="932"/>
+        <location filename="Test/TestSpell.cpp" line="933"/>
         <source>Barb of the Sand Reaver</source>
         <translation>沙漠掠夺者之刺</translation>
     </message>
     <message>
-        <location filename="Test/TestSpell.cpp" line="938"/>
+        <location filename="Test/TestSpell.cpp" line="939"/>
         <source>Resurgence Rod</source>
         <translation>苏醒之杖</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Weapon.cpp" line="243"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="249"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="175"/>
-        <location filename="Test/TestSpell.cpp" line="814"/>
+        <location filename="Test/TestSpell.cpp" line="815"/>
         <source>Axe</source>
         <comment>Weapon type</comment>
         <translation>斧</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="980"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="245"/>
+        <location filename="Equipment/Item/Item.cpp" line="991"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="251"/>
         <source>2h Axe</source>
         <comment>Weapon type</comment>
         <translation>双手斧</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="948"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="247"/>
+        <location filename="Equipment/Item/Item.cpp" line="959"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="253"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="187"/>
         <source>Dagger</source>
         <comment>Weapon type</comment>
         <translation>匕首</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="946"/>
+        <location filename="Equipment/Item/Item.cpp" line="400"/>
+        <source>Renataki&apos;s Charm of Trickery</source>
+        <translation>雷纳塔基的狡诈护符</translation>
+    </message>
+    <message>
+        <location filename="Equipment/Item/Item.cpp" line="957"/>
         <source>Axe</source>
         <comment>Weapon Type</comment>
         <translation>斧</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="950"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="249"/>
+        <location filename="Equipment/Item/Item.cpp" line="961"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="255"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="190"/>
         <source>Fist</source>
         <comment>Weapon type</comment>
         <translation>拳套</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="952"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="251"/>
+        <location filename="Equipment/Item/Item.cpp" line="963"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="257"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="196"/>
         <source>Mace</source>
         <comment>Weapon type</comment>
         <translation>锤</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="982"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="253"/>
+        <location filename="Equipment/Item/Item.cpp" line="993"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="259"/>
         <source>2h Mace</source>
         <comment>Weapon type</comment>
         <translation>双手锤</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="954"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="255"/>
+        <location filename="Equipment/Item/Item.cpp" line="965"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="261"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="199"/>
         <source>Polearm</source>
         <comment>Weapon type</comment>
         <translation>长柄武器</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="956"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="257"/>
+        <location filename="Equipment/Item/Item.cpp" line="967"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="263"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="205"/>
         <source>Staff</source>
         <comment>Weapon type</comment>
         <translation>法杖</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="958"/>
-        <location filename="Equipment/Item/Item.cpp" line="984"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="259"/>
+        <location filename="Equipment/Item/Item.cpp" line="969"/>
+        <location filename="Equipment/Item/Item.cpp" line="995"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="265"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="208"/>
         <source>Sword</source>
         <comment>Weapon type</comment>
         <translation>剑</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Weapon.cpp" line="261"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="267"/>
         <source>2h Sword</source>
         <comment>Weapon type</comment>
         <translation>双手剑</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="960"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="263"/>
+        <location filename="Equipment/Item/Item.cpp" line="971"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="269"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="178"/>
         <source>Bow</source>
         <comment>Weapon type</comment>
         <translation>弓</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="962"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="265"/>
+        <location filename="Equipment/Item/Item.cpp" line="973"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="271"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="184"/>
         <source>Crossbow</source>
         <comment>Weapon type</comment>
         <translation>弩</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="964"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="267"/>
+        <location filename="Equipment/Item/Item.cpp" line="975"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="273"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="193"/>
         <source>Gun</source>
         <comment>Weapon type</comment>
         <translation>枪械</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="966"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="269"/>
+        <location filename="Equipment/Item/Item.cpp" line="977"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="275"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="211"/>
         <source>Thrown</source>
         <comment>Weapon type</comment>
         <translation>投掷武器</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="968"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="271"/>
+        <location filename="Equipment/Item/Item.cpp" line="979"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="277"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="223"/>
         <source>Wand</source>
         <comment>Weapon type</comment>
         <translation>魔杖</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="970"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="273"/>
+        <location filename="Equipment/Item/Item.cpp" line="981"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="279"/>
         <source>Idol</source>
         <comment>Weapon type</comment>
         <translation>神像</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="972"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="275"/>
+        <location filename="Equipment/Item/Item.cpp" line="983"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="281"/>
         <source>Libram</source>
         <comment>Weapon type</comment>
         <translation>圣契</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="974"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="277"/>
+        <location filename="Equipment/Item/Item.cpp" line="985"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="283"/>
         <source>Totem</source>
         <comment>Weapon type</comment>
         <translation>图腾</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="976"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="279"/>
+        <location filename="Equipment/Item/Item.cpp" line="987"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="285"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="202"/>
         <source>Shield</source>
         <comment>Weapon type</comment>
         <translation>盾牌</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="978"/>
-        <location filename="Equipment/Item/Weapon.cpp" line="281"/>
+        <location filename="Equipment/Item/Item.cpp" line="989"/>
+        <location filename="Equipment/Item/Weapon.cpp" line="287"/>
         <location filename="GUI/Models/ItemTypeFilterModel.cpp" line="181"/>
         <source>Offhand</source>
         <comment>Weapon type</comment>
         <translation>副手</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="986"/>
+        <location filename="Equipment/Item/Item.cpp" line="997"/>
         <source>Cloth</source>
         <comment>Item type</comment>
         <translation>布甲</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="988"/>
+        <location filename="Equipment/Item/Item.cpp" line="999"/>
         <source>Leather</source>
         <comment>Item type</comment>
         <translation>皮甲</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="990"/>
+        <location filename="Equipment/Item/Item.cpp" line="1001"/>
         <source>Mail</source>
         <comment>Item type</comment>
         <translation>锁甲</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="992"/>
+        <location filename="Equipment/Item/Item.cpp" line="1003"/>
         <source>Plate</source>
         <comment>Item type</comment>
         <translation>板甲</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="994"/>
+        <location filename="Equipment/Item/Item.cpp" line="1005"/>
         <source>Quiver</source>
         <comment>Item type</comment>
         <translation>箭袋</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="996"/>
+        <location filename="Equipment/Item/Item.cpp" line="1007"/>
         <source>Ammo Pouch</source>
         <comment>Item type</comment>
         <translation>弹药袋</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="998"/>
+        <location filename="Equipment/Item/Item.cpp" line="1009"/>
         <source>Ring</source>
         <comment>Item type</comment>
         <translation>戒指</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="1000"/>
+        <location filename="Equipment/Item/Item.cpp" line="1011"/>
         <source>Trinket</source>
         <comment>Item type</comment>
         <translation>饰品</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="1002"/>
+        <location filename="Equipment/Item/Item.cpp" line="1013"/>
         <source>Amulet</source>
         <comment>Item type</comment>
         <translation>项链</translation>
+    </message>
+    <message>
+        <location filename="Class/Common/Buffs/CharmOfTrickery.cpp" line="6"/>
+        <source>Charm of Trickery</source>
+        <translation>雷纳塔基的狡诈护符</translation>
     </message>
 </context>
 <context>
@@ -10956,8 +11167,9 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
     </message>
     <message>
         <location filename="QML/main.qml" line="570"/>
-        <source>All art assets ©Blizzard Entertainment (2019).</source>
-        <translation>版权所有 ©Blizzard Entertainment (2019).</translation>
+        <source>All art assets ©Blizzard Entertainment (2020).</source>
+        <oldsource>All art assets ©Blizzard Entertainment (2019).</oldsource>
+        <translation>版权所有 ©Blizzard Entertainment (2020).</translation>
     </message>
 </context>
 </TS>

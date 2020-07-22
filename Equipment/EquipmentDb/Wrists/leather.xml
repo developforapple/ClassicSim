@@ -127,7 +127,7 @@
 	</wrist>
 
 	<wrist id="19836" phase="4">
-		<info name="Zandalar Madcap's Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="58" item_lvl="61" quality="EPIC" boe="yes" icon="Inv_bracer_14.png"/>
+		<info name="Zandalar Madcap's Bracers" name_zh="赞达拉狂妄者护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="58" item_lvl="61" quality="EPIC" boe="yes" icon="Inv_bracer_14.png"/>
 		<class_restriction class="ROGUE"/>
 		<stats>
 			<stat type="ARMOR" value="82"/>
@@ -136,7 +136,8 @@
 			<stat type="STAMINA" value="14"/>
 		</stats>
 		<source>
-        Reward from Paragons of Power: The Madcap's Bracers.
+        	<en>Reward from Paragons of Power: The Madcap's Bracers.</en>
+        	<zh>权力珍宝：狂妄者护腕</zh>
 		</source>
 	</wrist>
 
@@ -188,7 +189,7 @@
 	</wrist>
 
     <wrist id="22004" phase="5">
-        <info name="Darkmantle Bracers" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_bracer_07.png"/>
+        <info name="Darkmantle Bracers" name_zh="暗幕护腕" type="LEATHER" slot="WRIST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_bracer_07.png"/>
         <class_restriction class="ROGUE"/>
         <stats>
             <stat type="ARMOR" value="79"/>
@@ -197,7 +198,8 @@
             <stat type="STRENGTH" value="7"/>
         </stats>
         <source>
-        Darkmantle Quest line (Shadowcraft required).   
+        	<en>Darkmantle Quest line (Shadowcraft required).</en>
+        	<zh>暗幕任务线</zh>
         </source>
     </item>
 

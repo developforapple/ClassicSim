@@ -57,7 +57,7 @@
 	</item>
 
     <item id="22007" phase="5">
-        <info name="Darkmantle Pants" type="LEATHER" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_pants_02.png"/>
+        <info name="Darkmantle Pants" name_zh="暗幕短裤" type="LEATHER" slot="LEGS" unique="no" req_lvl="60" item_lvl="66" quality="RARE" boe="no" icon="Inv_pants_02.png"/>
         <class_restriction class="ROGUE"/>
         <stats>
             <stat type="ARMOR" value="160"/>
@@ -66,7 +66,8 @@
             <stat type="STRENGTH" value="15"/>
         </stats>
         <source>
-        Darkmantle Quest line (Shadowcraft required).   
+        	<en>Darkmantle Quest line (Shadowcraft required).</en>
+        	<zh>暗幕任务线</zh>
         </source>
     </item>
 

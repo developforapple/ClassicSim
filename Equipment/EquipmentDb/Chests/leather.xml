@@ -73,7 +73,7 @@
 	</item>
 
     <item id="22009" phase="5">
-        <info name="Darkmantle Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_chest_leather_07.png"/>
+        <info name="Darkmantle Tunic" name_zh="暗幕外套" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_chest_leather_07.png"/>
         <class_restriction class="ROGUE"/>
         <stats>
             <stat type="ARMOR" value="185"/>
@@ -82,7 +82,8 @@
             <stat type="HIT_CHANCE" value="0.02"/>
         </stats>
         <source>
-        Darkmantle Quest line (Shadowcraft required).   
+        	<en>Darkmantle Quest line (Shadowcraft required).</en>
+        	<zh>暗幕任务线</zh>
         </source>
     </item>
 

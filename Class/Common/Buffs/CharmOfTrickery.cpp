@@ -1,9 +1,9 @@
 #include "CharmOfTrickery.h"
-
+#include <QObject>
 #include "Character.h"
 #include "CharacterStats.h"
 
-CharmOfTrickery::CharmOfTrickery(Character* pchar) : SelfBuff(pchar, "Charm of Trickery", "Assets/items/Inv_jewelry_necklace_19.png", 1, 0) {}
+CharmOfTrickery::CharmOfTrickery(Character* pchar) : SelfBuff(pchar, QObject::tr("Charm of Trickery"), "Assets/items/Inv_jewelry_necklace_19.png", 1, 0) {}
 
 void CharmOfTrickery::buff_effect_when_applied() {
     pchar->get_resource()->gain_resource(60);
