@@ -869,7 +869,8 @@
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
-        <source>Mana Regeneration</source>
+        <source>Enchant Bracer - Mana Regeneration</source>
+        <oldsource>Mana Regeneration</oldsource>
         <translation>附魔护腕 - 法力回复</translation>
     </message>
     <message>
@@ -902,12 +903,14 @@
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="38"/>
-        <source>Minor Haste</source>
+        <source>Enchant Gloves - Minor Haste</source>
+        <oldsource>Minor Haste</oldsource>
         <translation>附魔手套 - 初级加速</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="35"/>
-        <source>Frost Power</source>
+        <source>Enchant Gloves - Frost Power</source>
+        <oldsource>Frost Power</oldsource>
         <translation>附魔手套 - 冰霜能量</translation>
     </message>
     <message>
@@ -1013,9 +1016,10 @@
         <translation>附魔护腕 - 强效智力</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
         <source>Mana Regeneration</source>
         <comment>Enchant Bracer Mana Regeneration</comment>
-        <translation type="vanished">附魔护腕 - 法力回复</translation>
+        <translation>附魔护腕 - 法力回复</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
@@ -1054,19 +1058,22 @@
         <translation>附魔护腕 - 强效力量</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="38"/>
         <source>Minor Haste</source>
         <comment>Enchant Gloves Minor Haste</comment>
-        <translation type="vanished">附魔手套 - 初级加速</translation>
+        <translation>附魔手套 - 初级加速</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="34"/>
         <source>Fire Power</source>
         <comment>Enchant Gloves Fire Power</comment>
-        <translation type="vanished">附魔手套 - 火焰能量</translation>
+        <translation>附魔手套 - 火焰能量</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="35"/>
         <source>Frost Power</source>
         <comment>Enchant Gloves Frost Power</comment>
-        <translation type="vanished">附魔手套 - 冰霜能量</translation>
+        <translation>附魔手套 - 冰霜能量</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="33"/>
@@ -1135,6 +1142,12 @@
         <translation>卓越巫师之油</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="31"/>
+        <source>Major Mana</source>
+        <comment>Enchant Chest Major Mana</comment>
+        <translation>特效法力</translation>
+    </message>
+    <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="59"/>
         <source>Power Of The Scourge</source>
         <translation>天灾的力量</translation>
@@ -1194,13 +1207,13 @@
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
-        <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
         <source>+4 mp5</source>
         <translation>+4 5秒回蓝</translation>
     </message>
     <message>
+        <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
         <source>+1 Agility</source>
-        <translation type="vanished">+1 敏捷</translation>
+        <translation>+1 敏捷</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="26"/>
@@ -1318,10 +1331,9 @@
         <translation>附魔靴子 - 精神</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.cpp" line="27"/>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="28"/>
-        <source>Enchant Bracer - Mana Regeneration</source>
-        <translation>附魔护腕 - 法力回复</translation>
+        <source>Enchant Bracer - Minor Agility</source>
+        <translation>附魔护腕 - 初级敏捷</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="31"/>
@@ -1334,10 +1346,9 @@
         <translation>+100法力值</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.cpp" line="31"/>
         <source>Major Mana</source>
         <comment>Enchant Chest MajorMana</comment>
-        <translation>特效法力</translation>
+        <translation type="vanished">特效法力</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="32"/>
@@ -1350,11 +1361,6 @@
         <translation>附魔手套 - 火焰能量</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.cpp" line="35"/>
-        <source>Enchant Gloves - Frost Power</source>
-        <translation>附魔手套 - 冰霜能量</translation>
-    </message>
-    <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="36"/>
         <source>Enchant Gloves - Greater Agility</source>
         <translation>附魔手套 - 强效敏捷</translation>
@@ -1363,11 +1369,6 @@
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="37"/>
         <source>Enchant Gloves - Greater Strength</source>
         <translation>附魔手套 - 强效力量</translation>
-    </message>
-    <message>
-        <location filename="Class/Common/Enchants/EnchantName.cpp" line="38"/>
-        <source>Enchant Gloves - Minor Haste</source>
-        <translation>附魔手套 - 初级加速</translation>
     </message>
     <message>
         <location filename="Class/Common/Enchants/EnchantName.cpp" line="40"/>
@@ -4826,7 +4827,6 @@ The act of shapeshifting frees the caster of Polymorph and Movement Impairing ef
         <translation>强化防护火焰结界</translation>
     </message>
     <message>
-        <location filename="Class/Common/Enchants/EnchantName.cpp" line="34"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="24"/>
         <location filename="Class/Mage/TalentTrees/Fire.cpp" line="144"/>
         <location filename="Test/Mage/Spells/TestFireball.cpp" line="224"/>
@@ -10147,7 +10147,7 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <translation>匕首</translation>
     </message>
     <message>
-        <location filename="Equipment/Item/Item.cpp" line="400"/>
+        <location filename="Class/Common/Buffs/CharmOfTrickery.cpp" line="6"/>
         <source>Renataki&apos;s Charm of Trickery</source>
         <translation>雷纳塔基的狡诈护符</translation>
     </message>
@@ -10341,11 +10341,6 @@ Felhunter: Restores 2% of total Mana every 4 sec.</source>
         <source>Amulet</source>
         <comment>Item type</comment>
         <translation>项链</translation>
-    </message>
-    <message>
-        <location filename="Class/Common/Buffs/CharmOfTrickery.cpp" line="6"/>
-        <source>Charm of Trickery</source>
-        <translation>雷纳塔基的狡诈护符</translation>
     </message>
 </context>
 <context>
