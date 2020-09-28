@@ -161,14 +161,15 @@
     </melee_weapon>
 
     <melee_weapon id="13015" phase="3">
-        <info name="Serathil" type="AXE" slot="1H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="yes" icon="Inv_axe_08.png"/>
+        <info name="Serathil" name_zh="塞拉希尔" type="AXE" slot="1H" unique="no" req_lvl="56" item_lvl="61" quality="RARE" boe="yes" icon="Inv_axe_08.png"/>
         <dmg_range min="53" max="99" speed="1.9"/>
         <stats>
             <stat type="ARMOR" value="100"/>
             <stat type="STRENGTH" value="9"/>
         </stats>
         <source>
-			World drop.
+			<en>World drop.</en>
+            <zh>世界掉落</zh>
         </source>
     </melee_weapon>
 

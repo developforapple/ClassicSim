@@ -360,7 +360,7 @@
     </melee_weapon>
 	
     <melee_weapon id="21268" phase="5">
-        <info name="Blessed Qiraji War Hammer" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="79" quality="EPIC" boe="no" icon="Inv_mace_24.png"/>
+        <info name="Blessed Qiraji War Hammer" name_zh="神圣其拉战锤" type="MACE" slot="1H" unique="no" req_lvl="60" item_lvl="79" quality="EPIC" boe="no" icon="Inv_mace_24.png"/>
         <dmg_range min="89" max="166" speed="2.1"/>
         <stats>
             <stat type="ARMOR" value="70"/>
@@ -370,7 +370,8 @@
             <stat type="DEFENSE" value="8"/>
         </stats>
         <source>
-			Quest reward from turning in an Imperial Qiraji Regalia in AQ40.
+			<en>Quest reward from turning in an Imperial Qiraji Regalia in AQ40.</en>
+            <zh>安其拉</zh>
         </source>
     </melee_weapon>
 </weapons>

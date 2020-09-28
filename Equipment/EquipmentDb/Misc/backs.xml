@@ -199,7 +199,7 @@
 	</item>
 
 	<item id="19083" phase="2">
-		<info name="Frostwolf Legionnaire's Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
+		<info name="Frostwolf Legionnaire's Cloak" name_zh="霜狼军团士兵披风" type="CLOTH" slot="BACK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
 		<stats>
 			<stat type="ARMOR" value="43"/>
 			<stat type="STAMINA" value="11"/>
@@ -207,7 +207,8 @@
 			<stat type="ATTACK_POWER" value="24"/>
 		</stats>
 		<source>
-			Grunnda Wolfheart. Requires Honored with Alterac Valley.
+			<en>Grunnda Wolfheart. Requires Honored with Alterac Valley.</en>
+			<zh>奥山声望</zh>
 		</source>
 	</item>
 

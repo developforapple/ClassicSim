@@ -212,7 +212,7 @@
 	</item>
 
 	<item id="21467" phase="5">
-		<info name="Thick Silithid Chestguard" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_chest_leather_07.png"/>
+		<info name="Thick Silithid Chestguard" name_zh="厚重异种虫胸甲" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_chest_leather_07.png"/>
 		<stats>
 			<stat type="ARMOR" value="258"/>
 			<stat type="STRENGTH" value="15"/>
@@ -225,7 +225,8 @@
 			<stat type="SHADOW_RESISTANCE" value="5"/>
 		</stats>
 		<source>
-		Drops from Moam in Temple of Ahn'Qiraj (AQ20).
+			<en>Drops from Moam in Temple of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟</zh>
 		</source>
 	</item>
 

@@ -651,7 +651,7 @@ void Item::set_stat(const QString& key, const QString& value) {
         equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power.").arg(value));
         this->item_stat_values.insert(ItemStats::AttackPower, value.toUInt());
     } else if (key == "FERAL_ATTACK_POWER") {
-        equip_effects_tooltip_stats.append(QString("Equip: +%1 Attack Power in Cat, Bear, and Dire Bear forms only.").arg(value));
+        equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Attack Power in Cat, Bear, and Dire Bear forms only.").arg(value));
         this->item_stat_values.insert(ItemStats::FeralAttackPower, value.toUInt());
     } else if (key == "RANGED_ATTACK_POWER") {
         equip_effects_tooltip_stats.append(QObject::tr("Equip: +%1 Ranged Attack Power.").arg(value));
