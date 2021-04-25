@@ -123,6 +123,30 @@
 		</bonus>
 	</set>
 
+	<set name="Darkmantle Armor">
+		<item_id value="22002"/>
+		<item_id value="22003"/>
+		<item_id value="22004"/>
+		<item_id value="22005"/>
+		<item_id value="22006"/>
+		<item_id value="22007"/>
+		<item_id value="22008"/>
+		<item_id value="22009"/>
+
+		<bonus value="2">
+		(2) Set: +8 All Resistances.
+		</bonus>
+		<bonus value="4">
+		(4) Set: Chance on melee attack to restore 35 energy.
+		</bonus>
+		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
+		(6) Set: +40 Attack Power.
+		</bonus>
+		<bonus value="8">
+		(8) Set: +200 Armor.
+		</bonus>
+	</set>
+
 	<set name="Dal'Rend's Arms">
 		<item_id value="12940"/>
 		<item_id value="12939"/>
@@ -419,6 +443,25 @@
 		</bonus>
 	</set>
 
+	<set name="Warlord's Sanctuary">
+		<item_id value="16554"/>
+		<item_id value="16555"/>
+		<item_id value="16552"/>
+		<item_id value="16551"/>
+		<item_id value="16549"/>
+		<item_id value="16550"/>
+
+		<bonus value="2" item_stat="STAMINA" stat_value="20">
+		(2) Set: +20 Stamina.
+		</bonus>
+		<bonus value="4">
+		(4) Set: Increases your movement speed by 15% while in Bear, Cat, or Travel Form.  Only active outdoors.
+		</bonus>
+		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
+		(6) Set: +40 Attack Power.
+		</bonus>
+	</set>
+
 	<set name="Battlegear of Unyielding Strength">
 		<item_id value="21394"/>
 		<item_id value="21392"/>
@@ -524,6 +567,24 @@
 		</bonus>
 		<bonus value="5">
 		(5) Set: 15% increased damage to your Eviscerate ability.
+		</bonus>
+	</set>
+
+	<set name="Madcap's Outfit">
+		<item_id value="19617"/>
+		<item_id value="19954"/>
+		<item_id value="19836"/>
+		<item_id value="19835"/>
+		<item_id value="19834"/>
+
+		<bonus value="2" item_stat="ATTACK_POWER" stat_value="20">
+		(2) Set: +20 Attack Power.
+		</bonus>
+		<bonus value="3">
+		(3) Set: Decreases the cooldown of Blind by 20 sec.
+		</bonus>
+		<bonus value="5">
+		(5) Set: Decrease the energy cost of Eviscerate and Rupture by 5.
 		</bonus>
 	</set>
 

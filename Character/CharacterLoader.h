@@ -35,6 +35,7 @@ private:
     Target* target;
     RaidControl* raid_control;
     CharacterDecoder& decoder;
+    EnchantInfo enchant_info;
 
     bool success;
     QString error;
@@ -50,7 +51,7 @@ private:
     void apply_external_debuffs(CharacterDecoder& decoder, Character* pchar);
     void apply_enchants(CharacterDecoder& decoder, Character* pchar);
     void apply_ruleset(CharacterDecoder& decoder, Character* pchar);
+    void apply_tanking(CharacterDecoder& decoder, Character* pchar);
     void setup_target(CharacterDecoder& decoder);
     void select_rotation(CharacterDecoder& decoder, Character* pchar);
-    EnchantName::Name get_enum_val(const QString& enum_val_as_string);
 };

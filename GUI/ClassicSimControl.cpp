@@ -5,6 +5,7 @@
 #include <QDebug>
 #include <QDir>
 #include <QFile>
+#include <QJsonArray>
 #include <QXmlStreamReader>
 #include <QXmlStreamWriter>
 
@@ -76,7 +77,7 @@
 #include "SimulationThreadPool.h"
 #include "Target.h"
 #include "Tauren.h"
-#include "TemplateCharacters.h"
+#include "TemplateCharacterModel.h"
 #include "ThreatBreakdownModel.h"
 #include "Troll.h"
 #include "Undead.h"
@@ -100,6 +101,7 @@ ClassicSimControl::ClassicSimControl(QObject* parent) :
     item_type_filter_model(new ItemTypeFilterModel()),
     rotation_model(new RotationModel()),
     dps_distribution(nullptr),
+    template_character_model(new TemplateCharacterModel()),
     mh_enchants(new EnchantModel(EquipmentSlot::MAINHAND, EnchantModel::Permanent)),
     mh_temporary_enchants(new EnchantModel(EquipmentSlot::MAINHAND, EnchantModel::Temporary)),
     oh_enchants(new EnchantModel(EquipmentSlot::OFFHAND, EnchantModel::Permanent)),
@@ -168,7 +170,7 @@ ClassicSimControl::ClassicSimControl(QObject* parent) :
     chars.insert("Warlock", load_character("Warlock"));
     chars.insert("Warrior", load_character("Warrior"));
 
-    load_gui_settings();
+    load_configuration();
 }
 
 ClassicSimControl::~ClassicSimControl() {
@@ -215,6 +217,7 @@ ClassicSimControl::~ClassicSimControl() {
     delete rotation_executor_list_model;
     delete dps_scale_result_model;
     delete tps_scale_result_model;
+    delete template_character_model;
     delete mh_enchants;
     delete mh_temporary_enchants;
     delete oh_enchants;
@@ -238,7 +241,10 @@ void ClassicSimControl::set_character(Character* pchar) {
     item_model->set_character(current_char);
     weapon_model->set_character(current_char);
     rotation_model->set_character(current_char);
-    selectInformationRotation(0);
+    if (auto index = rotation_model->get_index_of_rotation_named(pchar->get_rotation_name()))
+        selectInformationRotation(*index);
+    else
+        selectInformationRotation(0);
     rotation_model->select_rotation();
     character_encoder->set_character(current_char);
     buff_model->set_character(current_char);
@@ -262,28 +268,14 @@ void ClassicSimControl::set_character(Character* pchar) {
     raid_setup[0][0] = QVariantMap {{"text", "You"}, {"color", current_char->class_color}, {"selected", true}};
 
     emit raceChanged();
-    emit classChanged();
     emit statsChanged();
     emit rotationChanged();
     emit equipmentChanged();
     emit enchantChanged();
     emit factionChanged();
+    emit classChanged();
     emit partyMembersUpdated();
     emit talentsUpdated();
-}
-
-void ClassicSimControl::selectClass(const QString& class_name) {
-    if (!chars.contains(class_name)) {
-        qDebug() << QString("Class %1 not found in char list!").arg(class_name);
-        return;
-    }
-
-    if (!supported_classes.contains(class_name)) {
-        qDebug() << QString("Class %1 not implemented").arg(class_name);
-        return;
-    }
-
-    set_character(chars[class_name]);
 }
 
 void ClassicSimControl::selectRace(const QString& race_name) {
@@ -802,6 +794,10 @@ ThreatBreakdownModel* ClassicSimControl::get_thrt_breakdown_model() const {
     return this->threat_breakdown_model;
 }
 
+TemplateCharacterModel* ClassicSimControl::get_template_character_model() const {
+    return this->template_character_model;
+}
+
 MeleeDamageAvoidanceBreakdownModel* ClassicSimControl::get_dmg_breakdown_avoidance_model() const {
     return this->damage_avoidance_breakdown_model;
 }
@@ -912,31 +908,24 @@ void ClassicSimControl::calculate_displayed_dps_value() {
 }
 
 void ClassicSimControl::runQuickSim() {
-    if (sim_in_progress)
-        return;
-    if (current_char->get_spells()->get_attack_mode() == AttackMode::MeleeAttack && current_char->get_equipment()->get_mainhand() == nullptr)
-        return;
-    if (current_char->get_spells()->get_attack_mode() == AttackMode::RangedAttack && current_char->get_equipment()->get_ranged() == nullptr)
-        return;
+    run_sim(false /* full_sim */);
+}
 
-    sim_in_progress = true;
+void ClassicSimControl::toggleTank() {
+    current_char->set_is_tanking(!current_char->is_tanking());
 
-    QVector<QString> setup_strings;
-    raid_setup[0][0]["setup_string"] = CharacterEncoder(current_char).get_current_setup_string();
+    emit tankingChanged();
+}
 
-    for (const auto& party : raid_setup) {
-        for (const auto& party_member : party) {
-            if (party_member.contains("setup_string"))
-                setup_strings.append(party_member["setup_string"].toString());
-        }
-    }
-
-    thread_pool->run_sim(setup_strings, false, sim_settings->get_combat_iterations_quick_sim(), 1);
-
-    emit simProgressChanged();
+bool ClassicSimControl::get_is_tanking() const {
+    return current_char->is_tanking();
 }
 
 void ClassicSimControl::runFullSim() {
+    run_sim(true /* full_sim */);
+}
+
+void ClassicSimControl::run_sim(const bool full_sim) {
     if (sim_in_progress)
         return;
     if (current_char->get_spells()->get_attack_mode() == AttackMode::MeleeAttack && current_char->get_equipment()->get_mainhand() == nullptr)
@@ -947,17 +936,29 @@ void ClassicSimControl::runFullSim() {
     sim_in_progress = true;
 
     QVector<QString> setup_strings;
-    raid_setup[0][0]["setup_string"] = CharacterEncoder(current_char).get_current_setup_string();
+    raid_setup[0][0]["setup"] = CharacterEncoder(current_char).get_current_setup_json_object();
 
-    for (const auto& party : raid_setup) {
-        for (const auto& party_member : party) {
-            if (party_member.contains("setup_string"))
-                setup_strings.append(party_member["setup_string"].toString());
+    for (int party = 0; party < raid_setup.size(); ++party) {
+        for (int member = 0; member < raid_setup[party].size(); ++member) {
+            auto party_member = raid_setup[party][member];
+            if (!party_member.contains("setup"))
+                continue;
+
+            QJsonObject setup = party_member["setup"].toJsonObject();
+
+            setup["PHASE"] = QString::number(static_cast<int>(sim_settings->get_phase()));
+            setup["PARTY"] = QString::number(party);
+            setup["PARTY_MEMBER"] = QString::number(member);
+
+            auto doc = QJsonDocument(setup);
+            setup_strings.append(doc.toJson());
         }
     }
 
-    const int num_stat_weights = 1 + sim_settings->get_active_options().size();
-    thread_pool->run_sim(setup_strings, true, sim_settings->get_combat_iterations_full_sim(), num_stat_weights);
+    const int iterations = full_sim ? sim_settings->get_combat_iterations_full_sim() : sim_settings->get_combat_iterations_quick_sim();
+    const int options = full_sim ? sim_settings->get_active_options().size() + 1 : 1;
+
+    thread_pool->run_sim(setup_strings, full_sim, iterations, options);
 
     emit simProgressChanged();
 }
@@ -976,7 +977,8 @@ void ClassicSimControl::compile_thread_results() {
     rotation_executor_list_model->update_statistics();
     damage_meters_model->update_statistics();
     last_engine_handled_events_per_second = engine_breakdown_model->events_handled_per_second();
-    update_displayed_dps_value(number_cruncher->get_personal_dps(SimOption::Name::NoScale), number_cruncher->get_personal_tps(SimOption::Name::NoScale));
+    update_displayed_dps_value(number_cruncher->get_personal_dps(SimOption::Name::NoScale),
+                               number_cruncher->get_personal_tps(SimOption::Name::NoScale));
     update_displayed_raid_dps_value(number_cruncher->get_raid_dps());
     dps_distribution = number_cruncher->get_dps_distribution();
     number_cruncher->reset();
@@ -1104,11 +1106,10 @@ void ClassicSimControl::selectTemplateCharacter(QString template_char) {
     if (current_party == 1 && current_member == 1)
         return;
 
-    TemplateCharacterInfo info = TemplateCharacters::template_character_info(template_char);
-    const QString color = chars[info.class_name]->class_color;
-    const QString setup_string = info.setup_string.arg(static_cast<int>(sim_settings->get_phase())).arg(current_party - 1).arg(current_member - 1);
+    TemplateCharacterInfo* info = template_character_model->template_char_info(template_char);
+    const QString color = chars[info->class_name]->class_color;
 
-    raid_setup[current_party - 1][current_member - 1] = QVariantMap {{"text", template_char}, {"color", color}, {"setup_string", setup_string}};
+    raid_setup[current_party - 1][current_member - 1] = QVariantMap {{"text", template_char}, {"color", color}, {"setup", info->setup}};
 
     emit partyMembersUpdated();
 }
@@ -1235,31 +1236,6 @@ QString ClassicSimControl::get_quiver_icon() const {
     if (current_char->get_equipment()->get_quiver() != nullptr)
         return "Assets/items/" + current_char->get_equipment()->get_quiver()->get_value("icon");
     return "";
-}
-
-void ClassicSimControl::selectSlot(const QString& slot_string) {
-    int slot = get_slot_int(slot_string);
-
-    if (slot == -1 || (slot == ItemSlots::PROJECTILE && current_char->class_name != "Hunter"))
-        return;
-
-    if (slot == ItemSlots::QUIVER && current_char->class_name != "Hunter")
-        return;
-
-    item_type_filter_model->set_item_slot(slot);
-
-    switch (slot) {
-    case ItemSlots::MAINHAND:
-    case ItemSlots::OFFHAND:
-    case ItemSlots::RANGED:
-        weapon_model->setSlot(slot);
-        break;
-    default:
-        item_model->setSlot(slot);
-        break;
-    }
-
-    emit equipmentSlotSelected();
 }
 
 bool ClassicSimControl::hasItemEquipped(const QString& slot_string) const {
@@ -1510,107 +1486,6 @@ EnchantModel* ClassicSimControl::get_boots_enchant_model() const {
     return this->boots_enchants;
 }
 
-void ClassicSimControl::setSlot(const QString& slot_string, const int item_id, const uint affix_id) {
-    RandomAffix* affix = random_affixes_db->get_affix(affix_id);
-
-    if (slot_string == "MAINHAND") {
-        current_char->get_equipment()->set_mainhand(item_id, affix);
-        mh_enchants->update_enchants();
-        mh_temporary_enchants->update_enchants();
-    }
-    if (slot_string == "OFFHAND") {
-        current_char->get_equipment()->set_offhand(item_id, affix);
-        oh_temporary_enchants->update_enchants();
-    }
-    if (slot_string == "RANGED")
-        current_char->get_equipment()->set_ranged(item_id, affix);
-    if (slot_string == "HEAD")
-        current_char->get_equipment()->set_head(item_id, affix);
-    if (slot_string == "NECK")
-        current_char->get_equipment()->set_neck(item_id, affix);
-    if (slot_string == "SHOULDERS")
-        current_char->get_equipment()->set_shoulders(item_id, affix);
-    if (slot_string == "BACK")
-        current_char->get_equipment()->set_back(item_id, affix);
-    if (slot_string == "CHEST")
-        current_char->get_equipment()->set_chest(item_id, affix);
-    if (slot_string == "WRIST")
-        current_char->get_equipment()->set_wrist(item_id, affix);
-    if (slot_string == "GLOVES")
-        current_char->get_equipment()->set_gloves(item_id, affix);
-    if (slot_string == "BELT")
-        current_char->get_equipment()->set_belt(item_id, affix);
-    if (slot_string == "LEGS")
-        current_char->get_equipment()->set_legs(item_id, affix);
-    if (slot_string == "BOOTS")
-        current_char->get_equipment()->set_boots(item_id, affix);
-    if (slot_string == "RING1")
-        current_char->get_equipment()->set_ring1(item_id, affix);
-    if (slot_string == "RING2")
-        current_char->get_equipment()->set_ring2(item_id, affix);
-    if (slot_string == "TRINKET1")
-        current_char->get_equipment()->set_trinket1(item_id);
-    if (slot_string == "TRINKET2")
-        current_char->get_equipment()->set_trinket2(item_id);
-    if (slot_string == "PROJECTILE")
-        current_char->get_equipment()->set_projectile(item_id);
-    if (slot_string == "RELIC")
-        current_char->get_equipment()->set_relic(item_id);
-    if (slot_string == "QUIVER")
-        current_char->get_equipment()->set_quiver(item_id);
-
-    emit equipmentChanged();
-    emit statsChanged();
-    emit enchantChanged();
-}
-
-void ClassicSimControl::clearSlot(const QString& slot_string) {
-    if (slot_string == "MAINHAND")
-        current_char->get_equipment()->clear_mainhand();
-    if (slot_string == "OFFHAND")
-        current_char->get_equipment()->clear_offhand();
-    if (slot_string == "RANGED")
-        current_char->get_equipment()->clear_ranged();
-    if (slot_string == "HEAD")
-        current_char->get_equipment()->clear_head();
-    if (slot_string == "NECK")
-        current_char->get_equipment()->clear_neck();
-    if (slot_string == "SHOULDERS")
-        current_char->get_equipment()->clear_shoulders();
-    if (slot_string == "BACK")
-        current_char->get_equipment()->clear_back();
-    if (slot_string == "CHEST")
-        current_char->get_equipment()->clear_chest();
-    if (slot_string == "WRIST")
-        current_char->get_equipment()->clear_wrist();
-    if (slot_string == "GLOVES")
-        current_char->get_equipment()->clear_gloves();
-    if (slot_string == "BELT")
-        current_char->get_equipment()->clear_belt();
-    if (slot_string == "LEGS")
-        current_char->get_equipment()->clear_legs();
-    if (slot_string == "BOOTS")
-        current_char->get_equipment()->clear_boots();
-    if (slot_string == "RING1")
-        current_char->get_equipment()->clear_ring1();
-    if (slot_string == "RING2")
-        current_char->get_equipment()->clear_ring2();
-    if (slot_string == "TRINKET1")
-        current_char->get_equipment()->clear_trinket1();
-    if (slot_string == "TRINKET2")
-        current_char->get_equipment()->clear_trinket2();
-    if (slot_string == "PROJECTILE")
-        current_char->get_equipment()->clear_projectile();
-    if (slot_string == "RELIC")
-        current_char->get_equipment()->clear_relic();
-    if (slot_string == "QUIVER")
-        current_char->get_equipment()->clear_quiver();
-
-    emit equipmentChanged();
-    emit statsChanged();
-    emit enchantChanged();
-}
-
 void ClassicSimControl::setEquipmentSetup(const int equipment_index) {
     current_char->get_stats()->get_equipment()->change_setup(equipment_index);
     emit equipmentChanged();
@@ -1634,137 +1509,6 @@ void ClassicSimControl::setPhase(const int phase_int) {
 
 QString ClassicSimControl::getDescriptionForPhase(const int phase) {
     return Content::get_description_for_phase(static_cast<Content::Phase>(phase));
-}
-
-QVariantList ClassicSimControl::getTooltip(const QString& slot_string) {
-    Item* item = nullptr;
-
-    if (slot_string == "MAINHAND")
-        item = current_char->get_equipment()->get_mainhand();
-    if (slot_string == "OFFHAND")
-        item = current_char->get_equipment()->get_offhand();
-    if (slot_string == "RANGED")
-        item = current_char->get_equipment()->get_ranged();
-    if (slot_string == "HEAD")
-        item = current_char->get_equipment()->get_head();
-    if (slot_string == "NECK")
-        item = current_char->get_equipment()->get_neck();
-    if (slot_string == "SHOULDERS")
-        item = current_char->get_equipment()->get_shoulders();
-    if (slot_string == "BACK")
-        item = current_char->get_equipment()->get_back();
-    if (slot_string == "CHEST")
-        item = current_char->get_equipment()->get_chest();
-    if (slot_string == "WRIST")
-        item = current_char->get_equipment()->get_wrist();
-    if (slot_string == "GLOVES")
-        item = current_char->get_equipment()->get_gloves();
-    if (slot_string == "BELT")
-        item = current_char->get_equipment()->get_belt();
-    if (slot_string == "LEGS")
-        item = current_char->get_equipment()->get_legs();
-    if (slot_string == "BOOTS")
-        item = current_char->get_equipment()->get_boots();
-    if (slot_string == "RING1")
-        item = current_char->get_equipment()->get_ring1();
-    if (slot_string == "RING2")
-        item = current_char->get_equipment()->get_ring2();
-    if (slot_string == "TRINKET1")
-        item = current_char->get_equipment()->get_trinket1();
-    if (slot_string == "TRINKET2")
-        item = current_char->get_equipment()->get_trinket2();
-    if (slot_string == "PROJECTILE")
-        item = current_char->get_equipment()->get_projectile();
-    if (slot_string == "RELIC")
-        item = current_char->get_equipment()->get_relic();
-    if (slot_string == "QUIVER")
-        item = current_char->get_equipment()->get_quiver();
-
-    return get_tooltip_from_item(item);
-}
-
-QVariantList ClassicSimControl::getTooltip(const int item_id) {
-    Item* item = this->equipment_db->get_item(item_id);
-    return get_tooltip_from_item(item);
-}
-
-void ClassicSimControl::set_weapon_tooltip(Item*& item, QString& slot, QString type, QString& dmg_range, QString& wpn_speed, QString& dps) {
-    slot = std::move(type);
-    auto wpn = static_cast<Weapon*>(item);
-    dmg_range = QString("%1 - %2 Damage").arg(QString::number(wpn->get_min_dmg()), QString::number(wpn->get_max_dmg()));
-    dps = QString("(%1 damage per second)").arg(QString::number(wpn->get_wpn_dps(), 'f', 1));
-    wpn_speed = "Speed " + QString::number(wpn->get_base_weapon_speed(), 'f', 2);
-}
-
-void ClassicSimControl::set_projectile_tooltip(Item* item, QString& slot, QString& dps) {
-    slot = get_initial_upper_case_rest_lower_case(slot);
-
-    auto projectile = static_cast<Projectile*>(item);
-    dps = QString("Adds %1 damage per second").arg(QString::number(projectile->get_projectile_dps(), 'f', 1));
-}
-
-void ClassicSimControl::set_class_restriction_tooltip(Item*& item, QString& restriction) {
-    QVector<QString> restrictions;
-
-    if (item->get_value("RESTRICTED_TO_WARRIOR") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Warrior"]->class_color, chars["Warrior"]->class_name));
-    if (item->get_value("RESTRICTED_TO_PALADIN") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Paladin"]->class_color, chars["Paladin"]->class_name));
-    if (item->get_value("RESTRICTED_TO_ROGUE") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Rogue"]->class_color, chars["Rogue"]->class_name));
-    if (item->get_value("RESTRICTED_TO_HUNTER") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Hunter"]->class_color, chars["Hunter"]->class_name));
-    if (item->get_value("RESTRICTED_TO_SHAMAN") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Shaman"]->class_color, chars["Shaman"]->class_name));
-    if (item->get_value("RESTRICTED_TO_DRUID") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Druid"]->class_color, chars["Druid"]->class_name));
-    if (item->get_value("RESTRICTED_TO_MAGE") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Mage"]->class_color, chars["Mage"]->class_name));
-    if (item->get_value("RESTRICTED_TO_PRIEST") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Priest"]->class_color, chars["Priest"]->class_name));
-    if (item->get_value("RESTRICTED_TO_WARLOCK") != "")
-        restrictions.append(QString("<font color=\"%1\">%2</font>").arg(chars["Warlock"]->class_color, chars["Warlock"]->class_name));
-
-    if (restrictions.empty())
-        return;
-
-    for (const auto& i : restrictions) {
-        if (restriction == "")
-            restriction = "Classes: ";
-        else
-            restriction += ", ";
-        restriction += i;
-    }
-}
-
-void ClassicSimControl::set_set_bonus_tooltip(Item* item, QVariantList& tooltip) const {
-    SetBonusControl* set_bonuses = current_char->get_equipment()->get_set_bonus_control();
-    const int item_id = item->item_id;
-
-    if (!set_bonuses->is_set_item(item_id)) {
-        tooltip.append(false);
-        return;
-    }
-    tooltip.append(true);
-
-    QString set_name = set_bonuses->get_set_name(item_id);
-    QVector<QPair<QString, bool>> item_names_in_set = set_bonuses->get_item_names_in_set(item_id);
-
-    int num_equipped_set_items = set_bonuses->get_num_equipped_pieces_for_set(set_name);
-    tooltip.append(QString("%1 (%2/%3)").arg(set_name).arg(num_equipped_set_items).arg(item_names_in_set.size()));
-
-    tooltip.append(item_names_in_set.size());
-    for (const auto& item_name : item_names_in_set) {
-        QString font_color = item_name.second ? "#ffd100" : "#727171";
-        tooltip.append(QString("<font color=\"%1\">%2</font>").arg(font_color, item_name.first));
-    }
-
-    QVector<QPair<QString, bool>> set_bonus_tooltips = set_bonuses->get_set_bonus_tooltips(item_id);
-    tooltip.append(set_bonus_tooltips.size());
-    for (const auto& bonus_tooltip : set_bonus_tooltips) {
-        QString font_color = bonus_tooltip.second ? "#1eff00" : "#727171";
-        tooltip.append(QString("<font color=\"%1\">%2</font>").arg(font_color, bonus_tooltip.first));
-    }
 }
 
 QString ClassicSimControl::get_initial_upper_case_rest_lower_case(const QString& string) const {
@@ -1801,25 +1545,19 @@ void ClassicSimControl::update_progress(double percent) {
 }
 
 Character* ClassicSimControl::load_character(const QString& class_name) {
-    QFile file(QString("Saves/%1-setup.xml").arg(class_name));
+    QFile file(QString("Saves/%1-setup.json").arg(class_name));
 
     Character* pchar = get_new_character(class_name);
-
     if (file.open(QIODevice::ReadOnly)) {
-        QXmlStreamReader reader(&file);
+        QJsonArray setup_strings = QJsonDocument::fromJson(file.readAll()).array();
 
-        reader.readNextStartElement();
-        for (int i = 0; i < 3; ++i) {
-            reader.readNextStartElement();
-
-            CharacterDecoder decoder;
-            decoder.initialize(reader.readElementText().trimmed());
+        for (int i = 0; i < setup_strings.size(); ++i) {
+            CharacterDecoder decoder(setup_strings[i].toObject());
             CharacterLoader loader(equipment_db, random_affixes_db, sim_settings, raid_control, decoder);
 
             pchar->get_stats()->get_equipment()->change_setup(i);
             pchar->get_talents()->set_current_index(i);
             pchar->get_enabled_buffs()->get_general_buffs()->change_setup(i);
-
             loader.initialize_existing(pchar);
         }
     }
@@ -1859,7 +1597,7 @@ Character* ClassicSimControl::get_new_character(const QString& class_name) {
 }
 
 void ClassicSimControl::save_settings() {
-    save_gui_settings();
+    save_configuration();
 
     for (auto& pchar : chars) {
         if (!supported_classes.contains(pchar->class_name))
@@ -1874,30 +1612,27 @@ void ClassicSimControl::save_user_setup(Character* pchar) {
     if (pchar == nullptr)
         pchar = current_char;
 
-    QFile file(QString("Saves/%1-setup.xml").arg(pchar->class_name));
+    QFile file(QString("Saves/%1-setup.json").arg(pchar->class_name));
     file.remove();
 
-    if (file.open(QIODevice::ReadWrite)) {
-        QXmlStreamWriter stream(&file);
-        stream.setAutoFormatting(true);
-        stream.writeStartDocument();
-        stream.writeStartElement("setups");
+    if (file.open(QIODevice::WriteOnly)) {
+        QJsonArray array;
 
         for (int i = 0; i < 3; ++i) {
             pchar->get_stats()->get_equipment()->change_setup(i);
             pchar->get_talents()->set_current_index(i);
             pchar->get_enabled_buffs()->get_general_buffs()->change_setup(i);
 
-            stream.writeTextElement("setup_string", CharacterEncoder(pchar).get_current_setup_string());
+            array.append(CharacterEncoder(pchar).get_current_setup_json_object().object());
         }
 
-        stream.writeEndElement();
-        stream.writeEndDocument();
+        auto doc = QJsonDocument::fromVariant(array.toVariantList());
+        file.write(doc.toJson(QJsonDocument::Indented));
         file.close();
     }
 }
 
-void ClassicSimControl::save_gui_settings() {
+void ClassicSimControl::save_configuration() {
     QFile file("Saves/GUI-setup.xml");
     file.remove();
 
@@ -1928,7 +1663,8 @@ void ClassicSimControl::save_gui_settings() {
     }
 }
 
-void ClassicSimControl::load_gui_settings() {
+void ClassicSimControl::load_configuration() {
+    // Leave this old filename for backwards compatibility
     QFile file("Saves/GUI-setup.xml");
 
     if (file.open(QIODevice::ReadOnly)) {
@@ -1936,7 +1672,7 @@ void ClassicSimControl::load_gui_settings() {
         reader.readNextStartElement();
 
         while (reader.readNextStartElement())
-            activate_gui_setting(reader.name(), reader.readElementText().trimmed());
+            activate_configuration(reader.name(), reader.readElementText().trimmed());
     }
 
     equipment_db->set_content_phase(sim_settings->get_phase());
@@ -1951,7 +1687,7 @@ void ClassicSimControl::load_gui_settings() {
     }
 }
 
-void ClassicSimControl::activate_gui_setting(const QStringRef& name, const QString& value) {
+void ClassicSimControl::activate_configuration(const QStringRef& name, const QString& value) {
     if (name == "class")
         set_character(chars[value]);
     else if (name == "race")
@@ -1974,71 +1710,4 @@ void ClassicSimControl::activate_gui_setting(const QStringRef& name, const QStri
         sim_settings->set_num_threads(value.toInt());
     else if (name == "sim_option")
         sim_settings->add_sim_option(static_cast<SimOption::Name>(value.toInt()));
-}
-
-QVariantList ClassicSimControl::get_tooltip_from_item(Item* item) {
-    if (item == nullptr)
-        return QVariantList();
-
-    QString boe_string = item->get_value("boe") == "yes" ? "Binds when equipped" : "Binds when picked up";
-    QString unique = item->get_value("unique") == "yes" ? "Unique" : "";
-
-    QString slot = item->get_value("slot");
-    QString dmg_range = "";
-    QString weapon_speed = "";
-    QString dps = "";
-
-    if (slot == "1H")
-        set_weapon_tooltip(item, slot, "One-hand", dmg_range, weapon_speed, dps);
-    else if (slot == "MH")
-        set_weapon_tooltip(item, slot, "Main Hand", dmg_range, weapon_speed, dps);
-    else if (slot == "OH")
-      if (item->get_item_type() != WeaponTypes::SHIELD)
-        set_weapon_tooltip(item, slot, "Offhand", dmg_range, weapon_speed, dps);
-      else
-        slot = "Offhand";
-    else if (slot == "2H")
-        set_weapon_tooltip(item, slot, "Two-hand", dmg_range, weapon_speed, dps);
-    else if (slot == "RANGED") {
-        const QSet<QString> ranged_weapon_classes = {"Hunter", "Warrior", "Rogue", "Mage", "Warlock", "Priest"};
-        if (ranged_weapon_classes.contains(current_char->class_name))
-            set_weapon_tooltip(item, slot, "Ranged", dmg_range, weapon_speed, dps);
-    } else if (slot == "PROJECTILE")
-        set_projectile_tooltip(item, slot, dps);
-    else if (slot == "RING")
-        slot = "Finger";
-    else if (slot == "GLOVES")
-        slot = "Hands";
-    else if (slot == "BELT")
-        slot = "Waist";
-    else if (slot == "BOOTS")
-        slot = "Feet";
-    else if (slot == "SHOULDERS")
-        slot = "Shoulder";
-    else
-        slot = get_initial_upper_case_rest_lower_case(slot);
-
-    QString class_restriction = "";
-    set_class_restriction_tooltip(item, class_restriction);
-
-    QString lvl_req = QString("Requires level %1").arg(item->get_value("req_lvl"));
-
-    QVariantList tooltip_info = {QVariant(item->name),
-                                 QVariant(item->get_value("quality")),
-                                 QVariant(boe_string),
-                                 QVariant(unique),
-                                 QVariant(slot),
-                                 QVariant(get_initial_upper_case_rest_lower_case(item->get_value("type"))),
-                                 QVariant(dmg_range),
-                                 QVariant(weapon_speed),
-                                 QVariant(dps),
-                                 QVariant(item->get_base_stat_tooltip()),
-                                 QVariant(class_restriction),
-                                 QVariant(lvl_req),
-                                 QVariant(item->get_equip_effect_tooltip()),
-                                 QVariant(item->get_value("flavour_text"))};
-
-    set_set_bonus_tooltip(item, tooltip_info);
-
-    return tooltip_info;
 }

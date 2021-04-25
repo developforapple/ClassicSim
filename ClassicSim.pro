@@ -1,5 +1,5 @@
 QT += quick charts
-CONFIG += c++11 console
+CONFIG += c++17
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -13,11 +13,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += main.cpp \
+    Class/Common/Buffs/CharmOfTrickery.cpp \
     Class/Common/Buffs/NoEffectSelfBuff.cpp \
     Class/Common/Buffs/NoEffectUniqueDebuff.cpp \
     Class/Common/Buffs/SanctifiedOrb.cpp \
     Class/Common/Buffs/SuppressCastBuff.cpp \
     Class/Common/Buffs/ZandalarianHeroCharm.cpp \
+    Class/Common/Enchants/EnchantName.cpp \
     Class/Common/Procs/ResourceGainProc.cpp \
     Class/Common/Spells/DragonbreathChili.cpp \
     Class/Common/Spells/EssenceOfTheRed.cpp \
@@ -118,11 +120,12 @@ SOURCES += main.cpp \
     Event/Event.cpp \
     Engine/Engine.cpp \
     Event/Events/EncounterEnd.cpp \
+    Event/Events/IncomingDamageEvent.cpp \
     Event/Events/EncounterStart.cpp \
     Event/Events/SpellCallback.cpp \
     GUI/Models/DamageMetersModel.cpp \
     GUI/Models/RandomAffixModel.cpp \
-    GUI/TemplateCharacters.cpp \
+    GUI/Models/TemplateCharacterModel.cpp \
     Phases/ContentPhase.cpp \
     Phases/PhaseRequirer.cpp \
     Queue/Queue.cpp \
@@ -532,11 +535,13 @@ SOURCES += main.cpp \
     Test/Mage/Spells/TestMageArmor.cpp
 
 HEADERS += \
+    Class/Common/Buffs/CharmOfTrickery.h \
     Class/Common/Buffs/NoEffectSelfBuff.h \
     Class/Common/Buffs/NoEffectUniqueDebuff.h \
     Class/Common/Buffs/SanctifiedOrb.h \
     Class/Common/Buffs/SuppressCastBuff.h \
     Class/Common/Buffs/ZandalarianHeroCharm.h \
+    Class/Common/Enchants/EnchantName.h \
     Class/Common/Procs/ResourceGainProc.h \
     Class/Common/Spells/DragonbreathChili.h \
     Class/Common/Spells/EssenceOfTheRed.h \
@@ -636,13 +641,14 @@ HEADERS += \
     Event/Events/SpellCallback.h \
     GUI/Models/DamageMetersModel.h \
     GUI/Models/RandomAffixModel.h \
-    GUI/TemplateCharacters.h \
+    GUI/Models/TemplateCharacterModel.h \
     Phases/ContentPhase.h \
     Phases/PhaseRequirer.h \
     Queue/Queue.h \
     Event/Event.h \
     Engine/Engine.h \
     Event/Events/EncounterEnd.h \
+    Event/Events/IncomingDamageEvent.h \
     Event/Events/EncounterStart.h \
     Character/Character.h \
     Character/Race/Race.h \
@@ -825,7 +831,6 @@ HEADERS += \
     Class/Common/Buffs/ExtraAttackOnNextSwingBuff.h \
     Class/Common/Procs/ExtraAttackInstantProc.h \
     Class/Common/GeneralProcs.h \
-    Character/CharacterEncoding.h \
     Character/CharacterDecoder.h \
     Character/CharacterEncoder.h \
     Thread/SimulationThreadPool.h \
@@ -894,7 +899,6 @@ HEADERS += \
     Class/Common/Enchants/Enchant.h \
     Class/Common/Enchants/EnchantStatic.h \
     Class/Common/Enchants/EnchantProc.h \
-    Class/Common/Enchants/EnchantName.h \
     Class/Common/Buffs/ArmorPenetrationBuff.h \
     Class/Common/Procs/ArmorPenetrationProc.h \
     Class/Common/Spells/InstantSpellAttack.h \
@@ -1186,7 +1190,8 @@ INCLUDEPATH = $$PWD/Engine \
     $$PWD/Resource \
     $$PWD/Talent
 
-RESOURCES += qml.qrc
+RESOURCES += qml.qrc \
+    assets.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

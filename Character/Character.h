@@ -83,6 +83,10 @@ public:
 
     void add_player_reaction_event();
 
+    bool is_attacking_from_behind() const;
+    void set_is_tanking(bool new_value);
+    bool is_tanking() const;
+
     virtual bool is_dual_wielding() const;
     bool action_ready() const;
     void start_global_cooldown();
@@ -156,6 +160,9 @@ public:
     const QString class_name;
     const QString class_color;
 
+    QString const& get_rotation_name() const;
+    void set_rotation_name(QString name);
+
 protected:
     Race* race;
     Engine* engine;
@@ -174,6 +181,8 @@ protected:
     Pet* pet {nullptr};
     RaidControl* raid_control {nullptr};
 
+    QString rotation_name;
+
     QString player_name;
     QVector<QString> available_races;
 
@@ -182,6 +191,8 @@ protected:
     double next_trinket_cd;
     int party;
     int party_member;
+
+    bool char_is_tanking = false;
 
     virtual void initialize_talents() = 0;
 

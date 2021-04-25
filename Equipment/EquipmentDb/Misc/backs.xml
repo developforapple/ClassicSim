@@ -183,6 +183,19 @@
 		</source>
 	</item>
 
+	<item id="19083" phase="2">
+		<info name="Frostwolf Legionnaire's Cloak" type="CLOTH" slot="BACK" unique="no" req_lvl="55" item_lvl="60" quality="RARE" boe="no" icon="Inv_misc_cape_16.png"/>
+		<stats>
+			<stat type="ARMOR" value="43"/>
+			<stat type="STAMINA" value="11"/>
+			<stat type="FROST_RESISTANCE" value="5"/>
+			<stat type="ATTACK_POWER" value="24"/>
+		</stats>
+		<source>
+			Grunnda Wolfheart. Requires Honored with Alterac Valley.
+		</source>
+	</item>
+
 	<item id="19436" phase="3">
 		<info name="Cloak of Draconic Might" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="70" quality="EPIC" boe="no" icon="Inv_misc_cape_11.png"/>
 		<stats>
@@ -422,6 +435,20 @@
 		</stats>
 		<source>
 			Drops from Bug Trio in Temple of Ahn'Qiraj (AQ40).
+		</source>
+	</item>
+
+	<item id="21621" phase="5">
+		<info name="Cloak of the Golden Hive" type="CLOTH" slot="BACK" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_misc_cape_01.png"/>
+		<stats>
+			<stat type="ARMOR" value="59"/>
+			<stat type="STRENGTH" value="13"/>
+			<stat type="AGILITY" value="10"/>
+			<stat type="STAMINA" value="19"/>
+			<stat type="DEFENSE" value="6"/>
+		</stats>
+		<source>
+			Drops from Princess Huhuran in Temple of Ahn'Qiraj (AQ40).
 		</source>
 	</item>
 

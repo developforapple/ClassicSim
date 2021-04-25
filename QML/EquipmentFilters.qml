@@ -14,7 +14,7 @@ RectangleBorders {
         model: itemTypeFilterModel
         delegate: GradientSelectedButton {
             height: 30
-            width: parent.width - 4
+            width: 146
             x: 2
             gradientSelectedFrom: "#a88b01"
             gradientSelectedTo: "#7a6500"
@@ -22,8 +22,8 @@ RectangleBorders {
 
             Connections {
                 target: equipment
-                onFiltersUpdated: selected = !equipment.getFilterActive(item_type)
-                onEquipmentSlotSelected: selected = !equipment.getFilterActive(item_type)
+                function onFiltersUpdated() { selected = !equipment.getFilterActive(item_type) }
+                function onEquipmentSlotSelected() { selected = !equipment.getFilterActive(item_type) }
             }
 
             sendShiftClicks: true

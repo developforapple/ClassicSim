@@ -46,6 +46,7 @@ class SimScaleModel;
 class SimSettings;
 class SimulationThreadPool;
 class Target;
+class TemplateCharacterModel;
 class ThreatBreakdownModel;
 class WeaponModel;
 
@@ -64,7 +65,6 @@ public:
     Q_PROPERTY(bool isAlliance READ get_is_alliance NOTIFY factionChanged)
     Q_PROPERTY(bool isHorde READ get_is_horde NOTIFY factionChanged)
 
-    Q_INVOKABLE void selectClass(const QString& class_name);
     Q_INVOKABLE void selectRace(const QString& race_name);
     Q_INVOKABLE void selectFaction(const int faction);
 
@@ -118,6 +118,10 @@ public:
     QString get_formatted_talent_allocation() const;
     /* End of Talents */
 
+    Q_INVOKABLE void toggleTank();
+    Q_PROPERTY(bool isTanking READ get_is_tanking NOTIFY tankingChanged)
+    bool get_is_tanking() const;
+
     /* Stats */
     Q_PROPERTY(unsigned strength READ get_strength NOTIFY statsChanged)
     Q_PROPERTY(unsigned agility READ get_agility NOTIFY statsChanged)
@@ -169,13 +173,6 @@ public:
     Q_PROPERTY(QString projectileIcon READ get_projectile_icon NOTIFY equipmentChanged)
     Q_PROPERTY(QString relicIcon READ get_relic_icon NOTIFY equipmentChanged)
     Q_PROPERTY(QString quiverIcon READ get_quiver_icon NOTIFY equipmentChanged)
-
-    Q_INVOKABLE QVariantList getTooltip(const QString& slot_string);
-    Q_INVOKABLE QVariantList getTooltip(const int item_id);
-
-    Q_INVOKABLE void selectSlot(const QString& slot_string);
-    Q_INVOKABLE void setSlot(const QString& slot_string, const int item_id, const uint affix_id = 0);
-    Q_INVOKABLE void clearSlot(const QString& slot_string);
 
     Q_INVOKABLE void setEquipmentSetup(const int equipment_index);
 
@@ -247,6 +244,7 @@ public:
     ScaleResultModel* get_dps_scale_result_model() const;
     ScaleResultModel* get_tps_scale_result_model() const;
     ThreatBreakdownModel* get_thrt_breakdown_model() const;
+    TemplateCharacterModel* get_template_character_model() const;
     Q_SLOT void compile_thread_results();
     Q_PROPERTY(QString minDps READ get_min_dps NOTIFY statisticsReady)
     Q_PROPERTY(QString maxDps READ get_max_dps NOTIFY statisticsReady)
@@ -330,6 +328,7 @@ public:
     /* End of GUI initialization */
 
 signals:
+    void tankingChanged();
     void classChanged();
     void raceChanged();
     void factionChanged();
@@ -348,7 +347,7 @@ signals:
 public slots:
     void update_progress(double percent);
 
-private:
+protected:
     int get_talent_points_remaining() const;
     QString get_class_color() const;
     QString get_class_name() const;
@@ -413,11 +412,8 @@ private:
     QString get_quiver_icon() const;
 
     QString get_initial_upper_case_rest_lower_case(const QString&) const;
-    void set_weapon_tooltip(Item*& item, QString& slot, QString type, QString& dmg_range, QString& wpn_speed, QString& dps);
-    void set_projectile_tooltip(Item* item, QString& slot, QString& dps);
-    void set_class_restriction_tooltip(Item*& item, QString& restriction);
-    void set_set_bonus_tooltip(Item* item, QVariantList& tooltip) const;
     void set_character(Character* pchar);
+    void run_sim(const bool full_sim);
     void calculate_displayed_dps_value();
     void update_displayed_dps_value(const double new_dps_value, const double new_tps_value);
     void update_displayed_raid_dps_value(const double new_dps_value);
@@ -433,11 +429,9 @@ private:
     Character* get_new_character(const QString& class_name);
     void save_user_setup(Character* pchar);
 
-    void save_gui_settings();
-    void load_gui_settings();
-    void activate_gui_setting(const QStringRef& name, const QString& value);
-
-    QVariantList get_tooltip_from_item(Item* item);
+    void save_configuration();
+    void load_configuration();
+    void activate_configuration(const QStringRef& name, const QString& value);
 
     EquipmentDb* equipment_db;
     RandomAffixes* random_affixes_db;
@@ -477,6 +471,7 @@ private:
     ScaleResultModel* tps_scale_result_model;
     ScaleResult* dps_distribution;
     ThreatBreakdownModel* threat_breakdown_model;
+    TemplateCharacterModel* template_character_model;
     EnchantModel* mh_enchants;
     EnchantModel* mh_temporary_enchants;
     EnchantModel* oh_enchants;

@@ -36,12 +36,14 @@ QVector<EnchantName::Name> PaladinEnchants::get_available_enchants(const int equ
             EnchantName::Name::ArcanumOfFocus,
             EnchantName::Name::ArcanumOfRapidity,
             EnchantName::Name::LesserArcanumOfVoracityStrength,
+            EnchantName::Name::LesserArcanumOfVoracityAgility,
         };
     case EquipmentSlot::SHOULDERS:
         return {
-            EnchantName::Name::MightOfTheScourge,
             EnchantName::Name::ZandalarSignetOfMight,
             EnchantName::Name::ZandalarSignetOfMojo,
+            EnchantName::Name::MightOfTheScourge,
+            EnchantName::Name::PowerOfTheScourge,
         };
     case EquipmentSlot::BACK:
         return {EnchantName::Name::EnchantCloakLesserAgility};
@@ -56,6 +58,7 @@ QVector<EnchantName::Name> PaladinEnchants::get_available_enchants(const int equ
                 EnchantName::Name::EnchantGlovesMinorHaste, EnchantName::Name::EnchantGlovesGreaterStrength};
     case EquipmentSlot::CHEST:
         return {
+            EnchantName::Name::EnchantChestMajorMana,
             EnchantName::Name::EnchantChestStats,
             EnchantName::Name::EnchantChestGreaterStats,
         };
@@ -76,16 +79,16 @@ QVector<EnchantName::Name> PaladinEnchants::get_available_temp_enchants(const in
     switch (equipment_slot) {
     case EquipmentSlot::MAINHAND: {
         QVector<EnchantName::Name> enchants {
-            EnchantName::ElementalSharpeningStone,
-            EnchantName::ConsecratedSharpeningStone,
-            EnchantName::BrilliantWizardOil,
-            EnchantName::ShadowOil,
+            EnchantName::Name::ElementalSharpeningStone,
+            EnchantName::Name::ConsecratedSharpeningStone,
+            EnchantName::Name::BrilliantWizardOil,
+            EnchantName::Name::ShadowOil,
         };
         if (has_sharp_weapon(equipment_slot))
-            enchants.prepend(EnchantName::DenseSharpeningStone);
+            enchants.prepend(EnchantName::Name::DenseSharpeningStone);
         else if (has_blunt_weapon(equipment_slot)) {
-            enchants.prepend(EnchantName::DenseWeightstone);
-            enchants.prepend(EnchantName::SolidWeightstone);
+            enchants.prepend(EnchantName::Name::DenseWeightstone);
+            enchants.prepend(EnchantName::Name::SolidWeightstone);
         }
         return enchants;
     }

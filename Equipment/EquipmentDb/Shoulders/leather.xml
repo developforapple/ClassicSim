@@ -47,6 +47,19 @@
 		</source>
 	</item>
 
+    <item id="22008" phase="5">
+        <info name="Darkmantle Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="no" icon="Inv_shoulder_07.png"/>
+        <class_restriction class="ROGUE"/>
+        <stats>
+            <stat type="ARMOR" value="136"/>
+            <stat type="STAMINA" value="10"/>
+            <stat type="AGILITY" value="24"/>
+        </stats>
+        <source>
+        Darkmantle Quest line (Shadowcraft required).   
+        </source>
+    </item>
+
 	<item id="16823" phase="1">
 		<info name="Nightslayer Shoulder Pads" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="66" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
 		<class_restriction class="ROGUE"/>
@@ -76,6 +89,23 @@
             Drops from Magister Kalendris in Dire Maul.
         </source>
     </item>
+
+	<item id="16551" phase="2">
+		<info name="Warlord's Dragonhide Epaulets" type="LEATHER" slot="SHOULDERS" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_shoulder_07.png"/>
+		<class_restriction class="DRUID"/>
+		<stats>
+			<stat type="ARMOR" value="215"/>
+			<stat type="STRENGTH" value="14"/>
+			<stat type="AGILITY" value="14"/>
+			<stat type="INTELLECT" value="11"/>
+			<stat type="STAMINA" value="13"/>
+			<stat type="SPIRIT" value="11"/>
+			<stat type="SPELL_DAMAGE" value="18"/>
+		</stats>
+		<source>
+			This item is obtainable from Lady Palanseer upon reaching Honor Rank 13/Warlord.
+		</source>
+	</item>
 
 	<item id="16832" phase="3">
 		<info name="Bloodfang Spaulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="76" quality="EPIC" boe="no" icon="Inv_shoulder_23.png"/>
@@ -234,6 +264,20 @@
 		</stats>
 		<source>
 		Sold by Arathi Basin vendors.
+		</source>
+	</item>
+	
+	<item id="20689" phase="4">
+		<info name="Abyssal Leather Shoulders" type="LEATHER" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="68" quality="RARE" boe="no" icon="Inv_shoulder_08.png"/>
+		<stats>
+			<stat type="ARMOR" value="141"/>
+			<stat type="HIT_CHANCE" value="0.01"/>
+		</stats>
+		<random_affixes>
+            <affix id="2158"/>
+        </random_affixes>
+		<source>
+		Drops from High Marshal Whirlaxis, a summonable raid boss in Silithus.
 		</source>
 	</item>
 </items>

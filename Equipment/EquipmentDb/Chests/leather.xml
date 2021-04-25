@@ -67,6 +67,20 @@
 		</source>
 	</item>
 
+    <item id="22009" phase="5">
+        <info name="Darkmantle Tunic" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="60" quality="EPIC" boe="no" icon="Inv_chest_leather_07.png"/>
+        <class_restriction class="ROGUE"/>
+        <stats>
+            <stat type="ARMOR" value="185"/>
+            <stat type="STAMINA" value="15"/>
+            <stat type="AGILITY" value="31"/>
+            <stat type="HIT_CHANCE" value="0.02"/>
+        </stats>
+        <source>
+        Darkmantle Quest line (Shadowcraft required).   
+        </source>
+    </item>
+
 	<item id="12757" phase="1">
 		<info name="Breastplate of Bloodthirst" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="62" quality="EPIC" boe="no" icon="Inv_chest_chain_13.png"/>
 		<stats>
@@ -127,6 +141,23 @@
 		</source>
 	</item>
 
+	<item id="16549" phase="2">
+		<info name="Warlord's Dragonhide Hauberk" type="LEATHER" slot="CHEST" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_chest_chain_16.png"/>
+		<class_restriction class="DRUID"/>
+		<stats>
+			<stat type="ARMOR" value="260"/>
+			<stat type="STRENGTH" value="25"/>
+			<stat type="AGILITY" value="14"/>
+			<stat type="INTELLECT" value="13"/>
+			<stat type="STAMINA" value="19"/>
+			<stat type="SPELL_DAMAGE" value="21"/>
+			<stat type="CRIT_CHANCE" value="0.01"/>
+		</stats>
+		<source>
+			This item is obtainable from Lady Palanseer upon reaching Honor Rank 13/Warlord.
+		</source>
+	</item>
+
 	<item id="19685" phase="4">
 		<info name="Primal Batskin Jerkin" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="65" quality="RARE" boe="yes" icon="Inv_chest_leather_03.png"/>
 		<stats>
@@ -180,6 +211,24 @@
 		</stats>
 		<source>
 		Quest reward. Requires boss drops Temple of Ahn'Qiraj (AQ40).
+		</source>
+	</item>
+
+	<item id="21467" phase="5">
+		<info name="Thick Silithid Chestguard" type="LEATHER" slot="CHEST" unique="no" req_lvl="60" item_lvl="69" quality="EPIC" boe="no" icon="Inv_chest_leather_07.png"/>
+		<stats>
+			<stat type="ARMOR" value="258"/>
+			<stat type="STRENGTH" value="15"/>
+			<stat type="AGILITY" value="21"/>
+			<stat type="STAMINA" value="30"/>
+			<stat type="ARCANE_RESISTANCE" value="5"/>
+			<stat type="FIRE_RESISTANCE" value="5"/>
+			<stat type="NATURE_RESISTANCE" value="5"/>
+			<stat type="FROST_RESISTANCE" value="5"/>
+			<stat type="SHADOW_RESISTANCE" value="5"/>
+		</stats>
+		<source>
+		Drops from Moam in Temple of Ahn'Qiraj (AQ20).
 		</source>
 	</item>
 

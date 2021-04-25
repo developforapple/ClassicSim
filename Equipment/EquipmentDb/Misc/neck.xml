@@ -281,6 +281,22 @@
 		</source>
 	</item>
 
+	<item id="19617" phase="4">
+		<info name="Zandalarian Shadow Mastery Talisman" type="AMULET" slot="NECK" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
+		<class_restriction class="ROGUE"/>
+		<stats>
+			<stat type="STRENGTH" value="6"/>
+			<stat type="AGILITY" value="15"/>
+			<stat type="STAMINA" value="9"/>
+		</stats>
+		<source>
+			Reputation reward. Requires Exalted with Zandalar Tribe.
+		</source>
+		<special_equip_effect>
+			Equip: Decreases the cooldown of Kick by 0.5 sec.
+		</special_equip_effect>
+	</item>
+
 	<item id="19601" phase="4">
 		<info name="Jewel of Kajaro" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_26.png"/>
 		<class_restriction class="MAGE"/>
@@ -427,6 +443,32 @@
 		</stats>
 		<source>
 			Drops from Twin Emperors in Temple of Ahn'Qiraj (AQ40).
+		</source>
+	</item>
+
+	<item id="21700" phase="5">
+		<info name="Pendant of the Qiraji Guardian" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_01.png"/>
+		<stats>
+			<stat type="STRENGTH" value="12"/>
+			<stat type="AGILITY" value="11"/>
+			<stat type="STAMINA" value="17"/>
+			<stat type="DEFENSE" value="6"/>
+		</stats>
+		<source>
+			Drops from The Prophet Skeram in Temple of Ahn'Qiraj (AQ40).
+		</source>
+	</item>
+
+	<item id="22732" phase="5">
+		<info name="Mark of C'Thun" type="AMULET" slot="NECK" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_jewelry_necklace_ahnqiraj_04.png"/>
+		<stats>
+			<stat type="STAMINA" value="24"/>
+			<stat type="DEFENSE" value="10"/>
+			<stat type="DODGE_CHANCE" value="0.01"/>
+			<stat type="HIT_CHANCE" value="0.01"/>
+		</stats>
+		<source>
+			Drops from C'Thun in Temple of Ahn'Qiraj (AQ40).
 		</source>
 	</item>
 

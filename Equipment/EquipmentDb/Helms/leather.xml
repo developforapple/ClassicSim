@@ -102,6 +102,24 @@
 		</source>
 	</item>
 
+	<item id="16550" phase="2">
+		<info name="Warlord's Dragonhide Helmet" type="LEATHER" slot="HEAD" unique="yes" req_lvl="60" item_lvl="74" quality="EPIC" faction="HORDE" boe="no" icon="Inv_helmet_09.png"/>
+		<class_restriction class="DRUID"/>
+		<stats>
+			<stat type="ARMOR" value="209"/>
+			<stat type="STRENGTH" value="20"/>
+			<stat type="AGILITY" value="19"/>
+			<stat type="INTELLECT" value="15"/>
+			<stat type="STAMINA" value="19"/>
+			<stat type="SPIRIT" value="7"/>
+			<stat type="SPELL_DAMAGE" value="18"/>
+			<stat type="CRIT_CHANCE" value="0.01"/>
+		</stats>
+		<source>
+			This item is obtainable from Lady Palanseer upon reaching Honor Rank 13/Warlord.
+		</source>
+	</item>
+
 	<item id="19945" phase="4">
 		<info name="Foror's Eyepatch" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="68" quality="EPIC" boe="no" icon="Inv_helmet_46.png"/>
 		<stats>
@@ -197,6 +215,21 @@
 			Drops from Gothik the Harvester in Naxxramas.
 		</source>
 	</item>
+
+    <item id="22005" phase="5">
+        <info name="Darkmantle Cap" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_helmet_41.png"/>
+        <class_restriction class="ROGUE"/>
+        <stats>
+            <stat type="ARMOR" value="150"/>
+            <stat type="STAMINA" value="18"/>
+            <stat type="AGILITY" value="26"/>
+            <stat type="STRENGTH" value="13"/>
+            <stat type="CRIT_CHANCE" value="0.01"/>
+        </stats>
+        <source>
+        Darkmantle Quest line (Shadowcraft required).   
+        </source>
+    </item>
 
 	<item id="22478" phase="6">
 		<info name="Bonescythe Helmet" type="LEATHER" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_helmet_58.png"/>

@@ -70,13 +70,13 @@ Window {
 
     Connections {
         target: character
-        onSimPersonalResultUpdated: {
+        function onSimPersonalResultUpdated(dps, dpsChange, tps, positive) {
             continuousDpsUpdateText.text = dps;
             percentualDifference.text = dpsChange;
             continuousTpsUpdateText.text = tps;
             percentualDifference.color = positive ? brightGreen : brightRed
         }
-        onSimRaidResultUpdated: {
+        function onSimRaidResultUpdated(dps, dpsChange, positive) {
             continuousRaidDpsUpdateText.text = dps;
             percentualDifferenceRaidDps.text = dpsChange;
             percentualDifferenceRaidDps.color = positive ? brightGreen : brightRed
@@ -201,7 +201,7 @@ Window {
 
         Connections {
             target: settings
-            onClassChanged: ruleset.currentIndex = settings.getCurrentRuleset()
+            function onClassChanged() { ruleset.currentIndex = settings.getCurrentRuleset() }
         }
     }
 
@@ -375,7 +375,7 @@ Window {
             x: raidSetup.width + 40
             y: parent.height / 2 - height / 2
 
-            width: parent.width / 3
+            width: 250
             height: parent.height * 0.95
         }
 
@@ -510,6 +510,44 @@ Window {
         onButtonClicked: character.runFullSim()
     }
 
+    GradientButton {
+        id: toggleTankButton
+
+        anchors {
+            right: fullSimButton.left
+            rightMargin: 15
+            bottom: parent.bottom
+            bottomMargin: 15
+        }
+
+        height: 50
+        width: 200
+
+        Text {
+            font {
+                family: "Arial"
+                pointSize: 13
+                bold: true
+            }
+
+            function getTankingText() {
+                if (character.isTanking) {
+                    return "Disable Tanking"
+                } else {
+                    return "Enable Tanking"
+                }
+            }
+            text: getTankingText()
+
+            anchors.fill: parent
+
+            color: root.colorFaction
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+        }
+        onButtonClicked: character.toggleTank()
+    }
+
     PercentBar {
         visible: settings.simInProgress
         anchors.bottom: parent.bottom
@@ -526,7 +564,7 @@ Window {
     }
 
     Text {
-        text: "All art assets ©Blizzard Entertainment (2019)."
+        text: "All art assets ©Blizzard Entertainment (2021)."
         height: 15
         anchors {
             left: parent.left

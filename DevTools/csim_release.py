@@ -21,6 +21,7 @@ def main():
     copy_rotations()
     copy_items()
     copy_random_affixes()
+    copy_template_characters()
     copy_license_files()
     clear_saves()
     tar_application()
@@ -106,13 +107,19 @@ def copy_random_affixes():
                  dst=str(RELEASE_DIR / "random_affixes.xml"))
 
 
+def copy_template_characters():
+    source = REPO_ROOT / "Raid"
+    shutil.copy2(src=str(source / "template_characters.json"),
+                 dst=str(RELEASE_DIR / "template_characters.json"))
+
+
 def tar_application():
     def _get_tar_name():
         date_string = datetime.date.today().strftime("%y%m%d")
 
         for i in range(10):
             revision = i + 1
-            tar_name = "classicsim-{date_string}-{revision}-win32".format(date_string=date_string,
+            tar_name = "classicsim-{date_string}-{revision}-win64".format(date_string=date_string,
                                                                           revision=revision)
             tar_path = ARCHIVE_PATH / tar_name
             if tar_path.exists():
