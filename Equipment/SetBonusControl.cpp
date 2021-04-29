@@ -409,7 +409,7 @@ void SetBonusControl::unequip_item(const int item_id) {
     } else if (set_name == QObject::tr("Emblems of Veiled Shadows")) {
         switch (num_pieces) {
         case 3:
-            deactivate_spell_rank_group(QObject::tr("Slice And Dice"), set_name, num_pieces);
+            deactivate_spell_rank_group(QObject::tr("Slice and Dice"), set_name, num_pieces);
             break;
         }
     } else if (set_name == QObject::tr("Stormshroud Armor")) {

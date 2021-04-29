@@ -514,6 +514,28 @@
 		</bonus>
 	</set>
 
+	<set name="Warlord's Sanctuary" name_zh="督军的圣装">
+		<item_id value="16554"/>
+		<item_id value="16555"/>
+		<item_id value="16552"/>
+		<item_id value="16551"/>
+		<item_id value="16549"/>
+		<item_id value="16550"/>
+
+		<bonus value="2" item_stat="STAMINA" stat_value="20">
+			<en>(2) Set: +20 Stamina.</en>
+			<zh>(2) 套装：+20 耐力。</zh>
+		</bonus>
+		<bonus value="4">
+			<en>(4) Set: Increases your movement speed by 15% while in Bear, Cat, or Travel Form.  Only active outdoors.</en>
+			<zh>(3) 套装：使你在熊形态、猎豹形态或旅行形态下的移动速度提高15%，只能在户外使用。</zh>
+		</bonus>
+		<bonus value="6" item_stat="ATTACK_POWER" stat_value="40">
+			<en>(6) Set: +40 Attack Power.</en>
+			<zh>(6) 套装：+40 攻击强度。</zh>
+		</bonus>
+	</set>
+
 	<set name="Battlegear of Unyielding Strength" name_zh="坚定的力量">
 		<item_id value="21394"/>
 		<item_id value="21392"/>

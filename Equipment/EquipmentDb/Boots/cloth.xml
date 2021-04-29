@@ -501,7 +501,23 @@
 			<zh>任务奖励，需要NAXX掉落的被玷污的便鞋</zh>
 		</source>
 	</item>
-	
+
+	<item id="22508" phase="6">
+		<info name="Plagueheart Sandals" name_zh="瘟疫之心便鞋" type="CLOTH" slot="BOOTS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_boots_fabric_01.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="ARMOR" value="89"/>
+			<stat type="INTELLECT" value="16"/>
+			<stat type="STAMINA" value="20"/>
+			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
+			<stat type="SPELL_DAMAGE" value="32"/>
+		</stats>
+		<source>
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>任务奖励，需要NAXX掉落的被玷污的便鞋</zh>
+		</source>
+	</item>
+
 	<item id="18295" phase="2">
 		<info name="Phasing Boots" name_zh="相位长靴" type="CLOTH" slot="BOOTS" unique="no" req_lvl="50" item_lvl="55" quality="RARE" boe="yes" icon="Inv_boots_06.png"/>
 		<stats>

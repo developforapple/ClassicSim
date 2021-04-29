@@ -12,6 +12,7 @@ def main():
     copy_items()
     copy_random_affixes()
     copy_qm_files()
+    copy_template_characters()
     create_saves()
 
 
@@ -75,6 +76,12 @@ def copy_qm_files():
         os.mkdir((tr_dir))
     shutil.copy2(src=str(REPO_ROOT / "zh.qm"),
                  dst=str(tr_dir / "zh.qm"))
+
+
+def copy_template_characters():
+    source = REPO_ROOT / "Raid"
+    shutil.copy2(src=str(source / "template_characters.json"),
+                 dst=str(DEBUG_DIR / "template_characters.json"))
 
 
 def create_saves():

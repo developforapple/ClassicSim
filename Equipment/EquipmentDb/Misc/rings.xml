@@ -821,6 +821,21 @@
 		</source>
 	</item>
 
+	<item id="21417" phase="5">
+		<info name="Ring of Unspoken Names" name_zh="禁断邪语之戒" type="RING" slot="RING" unique="yes" req_lvl="60" item_lvl="65" quality="EPIC" boe="no" icon="Inv_jewelry_ring_ahnqiraj_03.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="STAMINA" value="12"/>
+			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
+			<stat type="SPELL_DAMAGE" value="14"/>
+			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
+		</stats>
+		<source>
+			<en>Quest reward. Requires Qiraji Ceremonial Ring from Bosses in Ruins of Ahn'Qiraj (AQ20).</en>
+			<zh>安其拉废墟套装</zh>
+		</source>
+	</item>
+	
 	<item id="21707" phase="5">
 		<info name="Ring of Swarming Thought" name_zh="风暴思绪之戒" type="RING" slot="RING" unique="yes" req_lvl="60" item_lvl="73" quality="EPIC" boe="no" icon="Inv_jewelry_ring_ahnqiraj_04.png"/>
 		<stats>
@@ -975,6 +990,19 @@
 		<source>
 			<en>Drops from Kel'Thuzad in Naxxramas.</en>
 			<zh>纳克萨玛斯克尔苏加德</zh>
+		</source>
+	</item>
+
+	<item id="23063" phase="6">
+		<info name="Plagueheart Ring" name_zh="瘟疫之心指环" type="RING" slot="RING" unique="yes" req_lvl="60" item_lvl="92" quality="EPIC" boe="no" icon="Inv_jewelry_ring_51naxxramas.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="STAMINA" value="24"/>
+			<stat type="SPELL_DAMAGE" value="29"/>
+		</stats>
+		<source>
+			<en>Drops from Kel'Thuzad in Naxxramas.</en>
+			<zh>NAXX套装</zh>
 		</source>
 	</item>
 

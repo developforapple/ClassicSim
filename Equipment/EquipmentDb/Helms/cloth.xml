@@ -756,6 +756,24 @@
 		</source>
 	</item>
 
+	<item id="21337" phase="5">
+		<info name="Doomcaller's Circlet" name_zh="厄运召唤者的头饰" type="CLOTH" slot="HEAD" unique="no" req_lvl="60" item_lvl="81" quality="EPIC" boe="no" icon="Inv_helmet_06.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="ARMOR" value="100"/>
+			<stat type="INTELLECT" value="24"/>
+			<stat type="SPIRIT" value="6"/>
+			<stat type="STAMINA" value="27"/>
+			<stat type="SPELL_DAMAGE" value="33"/>
+			<stat type="SPELL_CRIT_CHANCE" value="0.01"/>
+			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
+		</stats>
+		<source>
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉神殿套装</zh>
+		</source>
+	</item>
+
 	<item id="22757" phase="6">
 		<info name="Sylvan Crown" name_zh="林栖者头冠" type="CLOTH" slot="HEAD" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="yes" icon="Inv_crown_01.png"/>
 		<stats>
@@ -807,6 +825,23 @@
 			<stat type="STAMINA" value="22"/>
 			<stat type="INTELLECT" value="23"/>
 			<stat type="SPELL_DAMAGE" value="35"/>
+			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
+			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
+		</stats>
+		<source>
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
+		</source>
+	</item>
+
+	<item id="22506" phase="6">
+		<info name="Plagueheart Circlet" name_zh="瘟疫之心头饰" type="CLOTH" slot="HEAD" unique="no" req_lvl="60" item_lvl="88" quality="EPIC" boe="no" icon="Inv_crown_01.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="ARMOR" value="108"/>
+			<stat type="STAMINA" value="28"/>
+			<stat type="INTELLECT" value="25"/>
+			<stat type="SPELL_DAMAGE" value="33"/>
 			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 			<stat type="SPELL_CRIT_CHANCE" value="0.02"/>
 		</stats>

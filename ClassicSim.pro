@@ -1,5 +1,5 @@
 QT += quick charts
-CONFIG += c++17 console
+CONFIG += c++17
 
 # The following define makes your compiler emit warnings if you use
 # any feature of Qt which as been marked deprecated (the exact warnings
@@ -125,7 +125,7 @@ SOURCES += main.cpp \
     Event/Events/SpellCallback.cpp \
     GUI/Models/DamageMetersModel.cpp \
     GUI/Models/RandomAffixModel.cpp \
-    GUI/TemplateCharacters.cpp \
+    GUI/Models/TemplateCharacterModel.cpp \
     Phases/ContentPhase.cpp \
     Phases/PhaseRequirer.cpp \
     Queue/Queue.cpp \
@@ -643,7 +643,7 @@ HEADERS += \
     Event/Events/SpellCallback.h \
     GUI/Models/DamageMetersModel.h \
     GUI/Models/RandomAffixModel.h \
-    GUI/TemplateCharacters.h \
+    GUI/Models/TemplateCharacterModel.h \
     Phases/ContentPhase.h \
     Phases/PhaseRequirer.h \
     Queue/Queue.h \
@@ -1194,7 +1194,8 @@ INCLUDEPATH = $$PWD/Engine \
     $$PWD/Resource \
     $$PWD/Talent
 
-RESOURCES += qml.qrc
+RESOURCES += qml.qrc \
+    assets.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
 QML_IMPORT_PATH =

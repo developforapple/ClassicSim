@@ -733,6 +733,24 @@
 		</source>
 	</item>
 
+	<item id="21335" phase="5">
+		<info name="Doomcaller's Mantle" name_zh="厄运召唤者的衬肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="78" quality="EPIC" boe="no" icon="Inv_shoulder_03.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="ARMOR" value="89"/>
+			<stat type="INTELLECT" value="11"/>
+			<stat type="SPIRIT" value="4"/>
+			<stat type="STAMINA" value="20"/>
+			<stat type="SPELL_DAMAGE" value="28"/>
+			<stat type="SPELL_PENETRATION" value="10"/>
+			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
+		</stats>
+		<source>
+			<en>Quest reward. Requires boss drops from Temple of Ahn'Qiraj (AQ40).</en>
+			<zh>安其拉神殿套装</zh>
+		</source>
+	</item>
+
 	<item id="22758" phase="6">
 		<info name="Sylvan Shoulders" name_zh="林栖者护肩" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="70" quality="RARE" boe="yes" icon="Inv_shoulder_18.png"/>
 		<stats>
@@ -784,6 +802,22 @@
 			<stat type="STAMINA" value="17"/>
 			<stat type="INTELLECT" value="18"/>
 			<stat type="SPIRIT" value="9"/>
+			<stat type="SPELL_DAMAGE" value="36"/>
+		</stats>
+		<source>
+			<en>Quest reward. Requires boss drops from Naxxramas.</en>
+			<zh>NAXX套装</zh>
+		</source>
+	</item>
+
+	<item id="22507" phase="6">
+		<info name="Plagueheart Shoulderpads" name_zh="瘟疫之心肩垫" type="CLOTH" slot="SHOULDERS" unique="no" req_lvl="60" item_lvl="86" quality="EPIC" boe="no" icon="Inv_shoulder_25.png"/>
+		<class_restriction class="WARLOCK"/>
+		<stats>
+			<stat type="ARMOR" value="97"/>
+			<stat type="STAMINA" value="22"/>
+			<stat type="INTELLECT" value="12"/>
+			<stat type="SPELL_HIT_CHANCE" value="0.01"/>
 			<stat type="SPELL_DAMAGE" value="36"/>
 		</stats>
 		<source>

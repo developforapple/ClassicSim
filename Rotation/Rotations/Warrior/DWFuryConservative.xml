@@ -50,11 +50,8 @@
 
     This implies fewer Overpowers are cast since Overpower is more likely to not always be consumed before proccing again,
     but it also implies less rage lost from stance dancing.
-
-    Better for lower item levels due to less rage available, and thus rage conservation is more important.</en>
     <zh>双持狂暴战输出循环，姿态切换时尽量节约怒气。
     意味着少打了一些压制，因为可能再次触发压制前此次没有被消耗掉，但也意味着切换姿态时更少的怒气损失。
-    装备物品等级较低时比较好用，因为可以获得的怒气更少，所以需要节省怒气。
     </zh>
     </description>
 
@@ -63,6 +60,10 @@
         <spell name="Battle Shout" name_zh="战斗怒吼"/>
         <spell name="Berserker Stance" name_zh="狂暴姿态"/>
     </precombat_actions>
+
+    <cast_if name="Bloodrage" name_zh="血性狂暴">
+        <en>resource "Rage" less 70</en>
+    </cast_if>
 
     <cast_if name="Berserker Rage" name_zh="狂暴之怒">
         <en>resource "Rage" less 50</en>
@@ -169,7 +170,7 @@
     <!-- Always cast Execute if available (implicit condition). -->
     <cast_if name="Execute" name_zh="斩杀"/>
 
-    <!-- Always cast Bloodthirst if not in Execute range. -->
+    <!-- Always cast Bloodthirst if not in Execute phase. -->
     <cast_if name="Bloodthirst" name_zh="嗜血">
         <en>variable "time_remaining_execute" greater 0</en>
     </cast_if>
@@ -201,11 +202,11 @@
         <en>variable "time_remaining_execute" greater 5
             and buff_duration "Overpower" greater 2
             and spell "Bloodthirst" greater 3
-            and resource "Rage" less 50</en>
+            and resource "Rage" less 40</en>
         <zh>variable "time_remaining_execute" greater 5
             and buff_duration "压制" greater 2
             and spell "嗜血" greater 3
-            and resource "Rage" less 50</zh>
+            and resource "Rage" less 40</zh>
         <!-- and variable "dumping_rage_before_stancing" is false -->
     </cast_if>
 

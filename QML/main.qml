@@ -378,7 +378,7 @@ Window {
             x: raidSetup.width + 40
             y: parent.height / 2 - height / 2
 
-            width: parent.width / 3
+            width: 250
             height: parent.height * 0.95
         }
 
@@ -567,7 +567,7 @@ Window {
     }
 
     Text {
-        text: qsTr("All art assets ©Blizzard Entertainment (2020).")
+        text: qsTr("All art assets ©Blizzard Entertainment (2021).")
         height: 15
         anchors {
             left: parent.left

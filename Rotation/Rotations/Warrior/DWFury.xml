@@ -11,7 +11,11 @@
         <spell name="Berserker Stance" name_zh="狂暴姿态"/>
     </precombat_actions>
 
- 1   <cast_if name="Berserker Rage" name_zh="狂暴之怒">
+    <cast_if name="Bloodrage" name_zh="血性狂暴">
+        <en>resource "Rage" less 70</en>
+    </cast_if>
+
+    <cast_if name="Berserker Rage" name_zh="狂暴之怒">
         <en>resource "Rage" less 50</en>
     </cast_if>
 
